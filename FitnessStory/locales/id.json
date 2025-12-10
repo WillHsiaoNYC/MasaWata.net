@@ -1,0 +1,79 @@
+{
+    "appName": "Fitness Story",
+    "meta": {
+        "title": "Fitness Story - Ubah Latihan Apple Health Menjadi Perjalanan Visual",
+        "description": "Ubah latihan Apple Health Anda menjadi perjalanan visual yang indah, mendalam, dan memotivasi. Lacak rekor pribadi, analisis tren, dan visualisasikan kemajuan Anda."
+    },
+    "nav": {
+        "features": "Fitur",
+        "screenshots": "Tangkapan Layar",
+        "testimonials": "Testimoni",
+        "download": "Unduh"
+    },
+    "hero": {
+        "title": "Perjalanan Fitness Anda, Divisualisasikan dengan Indah",
+        "description": "Ubah latihan Apple Health Anda menjadi perjalanan visual yang indah, mendalam, dan memotivasi. Lacak rekor pribadi, analisis tren, dan rayakan setiap kemenangan.",
+        "rating": "5.0 di App Store"
+    },
+    "features": {
+        "title": "Fitur Canggih",
+        "subtitle": "Semua yang Anda butuhkan untuk memahami dan merayakan perjalanan fitness Anda",
+        "storyline": {
+            "title": "Storyline",
+            "description": "Alami riwayat fitness Anda sebagai narasi yang berkelanjutan. Gulir melalui timeline visual yang kaya yang menjalin aktivitas Anda dengan kenangan Anda."
+        },
+        "dashboard": {
+            "title": "Dashboard Interaktif",
+            "description": "Akses dashboard yang sepenuhnya interaktif yang menghubungkan gerakan harian Anda dengan kesejahteraan keseluruhan. Lacak konsistensi dengan grafik kontribusi dan penghitung streak."
+        },
+        "analytics": {
+            "title": "Analitik Profesional",
+            "description": "Buka suite analitik yang muat di saku Anda. Bandingkan latihan secara berdampingan, lihat tren tahunan, dan lacak irama dan panjang langkah."
+        },
+        "records": {
+            "title": "Rekor Pribadi",
+            "description": "Kami secara otomatis mendeteksi Rekor Pribadi dan menampilkannya dengan foto dan catatan Anda. Simpan kemenangan favorit Anda di depan dalam Lemari Trofi Anda."
+        },
+        "locations": {
+            "title": "Lokasi Saya",
+            "description": "Lihat riwayat latihan Anda di peta, dikelompokkan berdasarkan kota dan negara. Lihat ke mana perjalanan fitness Anda telah membawa Anda di seluruh dunia."
+        },
+        "favorites": {
+            "title": "Favorit & Tag",
+            "description": "Atur latihan Anda dengan tag khusus seperti \"Interval\", \"Pemulihan\", atau \"Hari Lomba\". Tandai sesi terbaik Anda dengan hati untuk membangun koleksi performa terbaik."
+        }
+    },
+    "screenshots": {
+        "title": "Lihat Aksinya",
+        "subtitle": "Desain indah bertemu fungsionalitas canggih"
+    },
+    "testimonials": {
+        "title": "Kata Pengguna",
+        "subtitle": "Bergabunglah dengan ribuan penggemar fitness yang menyukai Fitness Story",
+        "review1": {
+            "quote": "\"Aplikasi ini memberikan tren fitness yang luar biasa yang tidak bisa diberikan Apple sebaliknya. Tampilan yang indah dengan nuansa Apple.\""
+        },
+        "review2": {
+            "quote": "\"Akhirnya aplikasi fitness yang mengubah data mentah menjadi visual yang benar-benar memotivasi saya. Suka fitur pelacakan rekor pribadi dan perbandingan tahunan!\""
+        },
+        "review3": {
+            "quote": "\"Aplikasi ini memberi saya wawasan yang tidak bisa diberikan Strava maupun aplikasi Health. Jika Anda suka fitness, Anda harus mencobanya!\""
+        }
+    },
+    "download": {
+        "title": "Mulai Fitness Story Anda Hari Ini",
+        "description": "Unduh gratis dengan upgrade Pro opsional untuk fitur lanjutan. Data Anda tetap pribadi di perangkat Anda.",
+        "platforms": "Tersedia di iPhone, iPad, Mac, dan Apple Vision"
+    },
+    "privacy": {
+        "title": "Privasi Anda Penting",
+        "description": "Fitness Story membaca data Anda langsung dari Apple Health dalam mode baca-saja. Semua perhitungan dan analisis terjadi dengan aman di perangkat Anda. Data kesehatan Anda tidak pernah dikirim kepada kami atau pihak ketiga mana pun.",
+        "link": "Baca Kebijakan Privasi kami"
+    },
+    "footer": {
+        "appStore": "App Store",
+        "privacy": "Kebijakan Privasi",
+        "terms": "Ketentuan Layanan",
+        "copyright": "© 2025 Fitness Story. Hak cipta dilindungi."
+    }
+}

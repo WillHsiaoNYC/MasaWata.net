@@ -1,0 +1,79 @@
+{
+    "appName": "Fitness Story",
+    "meta": {
+        "title": "Fitness Story - Verwandle Apple Health Workouts in visuelle Reisen",
+        "description": "Verwandle deine Apple Health Workouts in eine wunderschöne, aufschlussreiche und motivierende visuelle Reise. Verfolge persönliche Rekorde, analysiere Trends und visualisiere deinen Fortschritt."
+    },
+    "nav": {
+        "features": "Funktionen",
+        "screenshots": "Screenshots",
+        "testimonials": "Bewertungen",
+        "download": "Download"
+    },
+    "hero": {
+        "title": "Deine Fitness-Reise, wunderschön visualisiert",
+        "description": "Verwandle deine Apple Health Workouts in eine wunderschöne, aufschlussreiche und motivierende visuelle Reise. Verfolge persönliche Rekorde, analysiere Trends und feiere jeden Erfolg.",
+        "rating": "5.0 im App Store"
+    },
+    "features": {
+        "title": "Leistungsstarke Funktionen",
+        "subtitle": "Alles, was du brauchst, um deine Fitness-Reise zu verstehen und zu feiern",
+        "storyline": {
+            "title": "Storyline",
+            "description": "Erlebe deine Fitness-Geschichte als fortlaufende Erzählung. Scrolle durch eine reichhaltige, visuelle Timeline, die deine Aktivitäten mit deinen Erinnerungen verwebt."
+        },
+        "dashboard": {
+            "title": "Interaktives Dashboard",
+            "description": "Greife auf ein vollständig interaktives Dashboard zu, das deine tägliche Bewegung mit deinem allgemeinen Wohlbefinden verbindet. Verfolge Beständigkeit mit Beitragsdiagrammen und Streak-Zählern."
+        },
+        "analytics": {
+            "title": "Professionelle Analysen",
+            "description": "Schalte eine Analyse-Suite frei, die in deine Tasche passt. Vergleiche Workouts nebeneinander, sieh dir Jahrestrends an und verfolge Kadenz und Schrittlänge."
+        },
+        "records": {
+            "title": "Persönliche Rekorde",
+            "description": "Wir erkennen persönliche Rekorde automatisch und zeigen sie mit deinen Fotos und Notizen an. Behalte deine liebsten Siege in deiner Trophäen-Vitrine im Vordergrund."
+        },
+        "locations": {
+            "title": "Meine Orte",
+            "description": "Sieh dir deinen Workout-Verlauf auf einer Karte an, gruppiert nach Stadt und Land. Entdecke, wohin dich deine Fitness-Reise auf der ganzen Welt geführt hat."
+        },
+        "favorites": {
+            "title": "Favoriten & Tags",
+            "description": "Organisiere dein Training mit benutzerdefinierten Tags wie 'Intervalle', 'Erholung' oder 'Wettkampftag'. Markiere deine besten Sessions mit einem Herz, um eine Sammlung von Top-Leistungen aufzubauen."
+        }
+    },
+    "screenshots": {
+        "title": "Sieh es in Aktion",
+        "subtitle": "Schönes Design trifft auf leistungsstarke Funktionalität"
+    },
+    "testimonials": {
+        "title": "Was Nutzer sagen",
+        "subtitle": "Schließe dich Tausenden von Fitness-Enthusiasten an, die Fitness Story lieben",
+        "review1": {
+            "quote": "\"Diese App bietet wunderbare Fitness-Trends, die Apple sonst nicht liefern kann. Das wunderschöne Layout hat einen Apple-Touch.\""
+        },
+        "review2": {
+            "quote": "\"Endlich eine Fitness-App, die Rohdaten in Visualisierungen verwandelt, die mich wirklich motivieren. Ich liebe das PR-Tracking und den Jahresvergleich!\""
+        },
+        "review3": {
+            "quote": "\"Diese App gibt mir Einblicke, die weder Strava noch die Health-App bieten konnten. Wenn du Fitness liebst, musst du sie ausprobieren!\""
+        }
+    },
+    "download": {
+        "title": "Starte heute deine Fitness Story",
+        "description": "Kostenloser Download mit optionalem Pro-Upgrade für erweiterte Funktionen. Deine Daten bleiben privat auf deinem Gerät.",
+        "platforms": "Verfügbar für iPhone, iPad, Mac und Apple Vision"
+    },
+    "privacy": {
+        "title": "Deine Privatsphäre ist wichtig",
+        "description": "Fitness Story liest deine Daten direkt aus Apple Health im Nur-Lese-Modus. Alle Berechnungen und Analysen erfolgen sicher auf deinem Gerät. Deine Gesundheitsdaten werden niemals an uns oder Dritte gesendet.",
+        "link": "Datenschutzerklärung lesen"
+    },
+    "footer": {
+        "appStore": "App Store",
+        "privacy": "Datenschutzerklärung",
+        "terms": "Nutzungsbedingungen",
+        "copyright": "© 2025 Fitness Story. Alle Rechte vorbehalten."
+    }
+}

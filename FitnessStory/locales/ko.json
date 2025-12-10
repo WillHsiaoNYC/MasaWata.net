@@ -1,0 +1,79 @@
+{
+    "appName": "피트니스 스토리",
+    "meta": {
+        "title": "Fitness Story - Apple 건강 운동을 아름다운 시각적 여정으로",
+        "description": "Apple 건강 운동을 아름답고 통찰력 있으며 동기 부여가 되는 시각적 여정으로 변환하세요. 개인 기록을 추적하고, 트렌드를 분석하고, 진행 상황을 시각화하세요."
+    },
+    "nav": {
+        "features": "기능",
+        "screenshots": "스크린샷",
+        "testimonials": "리뷰",
+        "download": "다운로드"
+    },
+    "hero": {
+        "title": "당신의 피트니스 여정을 아름답게 시각화",
+        "description": "Apple 건강 운동을 아름답고 통찰력 있으며 동기 부여가 되는 시각적 여정으로 변환하세요. 개인 기록을 추적하고, 트렌드를 분석하고, 모든 승리를 축하하세요.",
+        "rating": "App Store 5.0 평점"
+    },
+    "features": {
+        "title": "강력한 기능",
+        "subtitle": "피트니스 여정을 이해하고 축하하는 데 필요한 모든 것",
+        "storyline": {
+            "title": "스토리라인",
+            "description": "피트니스 기록을 연속적인 내러티브로 경험하세요. 활동과 추억을 엮어주는 풍부한 시각적 타임라인을 스크롤하세요."
+        },
+        "dashboard": {
+            "title": "인터랙티브 대시보드",
+            "description": "일일 운동과 전반적인 웰빙을 연결하는 완전한 인터랙티브 대시보드에 액세스하세요. 기여 그래프와 연속 기록으로 일관성을 추적하세요."
+        },
+        "analytics": {
+            "title": "프로급 분석",
+            "description": "주머니에 들어가는 분석 도구를 잠금 해제하세요. 운동을 나란히 비교하고, 연간 트렌드를 보고, 케이던스와 보폭을 추적하세요."
+        },
+        "records": {
+            "title": "개인 기록",
+            "description": "개인 기록을 자동으로 감지하고 사진과 메모와 함께 표시합니다. 트로피 케이스에서 좋아하는 승리를 가장 앞에 유지하세요."
+        },
+        "locations": {
+            "title": "나의 위치",
+            "description": "운동 기록을 도시와 국가별로 지도에서 확인하세요. 피트니스 여정이 전 세계 어디로 데려갔는지 확인하세요."
+        },
+        "favorites": {
+            "title": "즐겨찾기 및 태그",
+            "description": "\"인터벌\", \"회복\" 또는 \"레이스 데이\"와 같은 사용자 지정 태그로 훈련을 정리하세요. 최고의 세션에 하트를 표시하여 최고 성과 컬렉션을 만드세요."
+        }
+    },
+    "screenshots": {
+        "title": "실제 화면 보기",
+        "subtitle": "아름다운 디자인과 강력한 기능의 만남"
+    },
+    "testimonials": {
+        "title": "사용자 후기",
+        "subtitle": "Fitness Story를 사랑하는 수많은 피트니스 애호가와 함께하세요",
+        "review1": {
+            "quote": "\"Apple 기본 앱에서는 제공하지 않는 멋진 피트니스 트렌드를 보여줍니다. 아름다운 레이아웃이 Apple 느낌 그대로입니다.\""
+        },
+        "review2": {
+            "quote": "\"드디어 원시 데이터를 진정으로 동기 부여가 되는 시각화로 바꿔주는 피트니스 앱을 찾았습니다. PR 추적과 연간 비교 기능이 최고예요!\""
+        },
+        "review3": {
+            "quote": "\"Strava나 건강 앱에서는 얻을 수 없었던 인사이트를 제공합니다. 피트니스에 관심이 있다면 꼭 사용해 보세요!\""
+        }
+    },
+    "download": {
+        "title": "오늘 Fitness Story를 시작하세요",
+        "description": "무료로 다운로드하고 고급 기능을 위한 Pro 업그레이드는 선택 사항입니다. 데이터는 기기에서 비공개로 유지됩니다.",
+        "platforms": "iPhone, iPad, Mac 및 Apple Vision에서 사용 가능"
+    },
+    "privacy": {
+        "title": "개인 정보 보호가 중요합니다",
+        "description": "Fitness Story는 읽기 전용 모드로 Apple 건강에서 직접 데이터를 읽습니다. 모든 계산과 분석은 기기에서 안전하게 수행됩니다. 건강 데이터는 절대 저희나 제3자에게 전송되지 않습니다.",
+        "link": "개인정보 처리방침 읽기"
+    },
+    "footer": {
+        "appStore": "App Store",
+        "privacy": "개인정보 처리방침",
+        "terms": "서비스 약관",
+        "copyright": "© 2025 Fitness Story. All rights reserved."
+    }
+}

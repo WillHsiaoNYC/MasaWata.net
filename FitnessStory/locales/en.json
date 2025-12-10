@@ -1,0 +1,79 @@
+{
+    "appName": "Fitness Story",
+    "meta": {
+        "title": "Fitness Story - Transform Apple Health Workouts into Visual Journeys",
+        "description": "Transform your Apple Health workouts into a beautiful, insightful, and motivating visual journey. Track personal records, analyze trends, and visualize your progress."
+    },
+    "nav": {
+        "features": "Features",
+        "screenshots": "Screenshots",
+        "testimonials": "Testimonials",
+        "download": "Download"
+    },
+    "hero": {
+        "title": "Your Fitness Journey, Beautifully Visualized",
+        "description": "Transform your Apple Health workouts into a beautiful, insightful, and motivating visual journey. Track personal records, analyze trends, and celebrate every victory.",
+        "rating": "5.0 on the App Store"
+    },
+    "features": {
+        "title": "Powerful Features",
+        "subtitle": "Everything you need to understand and celebrate your fitness journey",
+        "storyline": {
+            "title": "Storyline",
+            "description": "Experience your fitness history as a continuous narrative. Scroll through a rich, visual timeline that weaves your activities together with your memories."
+        },
+        "dashboard": {
+            "title": "Interactive Dashboard",
+            "description": "Access a fully interactive dashboard that connects your daily movement to your overall well-being. Track consistency with contribution graphs and streak counters."
+        },
+        "analytics": {
+            "title": "Professional Analytics",
+            "description": "Unlock an analysis suite that fits in your pocket. Compare workouts side-by-side, view year-over-year trends, and track cadence and stride length."
+        },
+        "records": {
+            "title": "Personal Records",
+            "description": "We automatically detect Personal Records and display them with your photos and notes. Keep your favorite victories front and center in your Trophy Case."
+        },
+        "locations": {
+            "title": "My Locations",
+            "description": "View your workout history on a map, grouped by city and country. See everywhere your fitness journey has taken you around the world."
+        },
+        "favorites": {
+            "title": "Favorites & Tags",
+            "description": "Organize your training with custom tags like \"Intervals,\" \"Recovery,\" or \"Race Day.\" Mark your best sessions with a heart to build a collection of top performances."
+        }
+    },
+    "screenshots": {
+        "title": "See It In Action",
+        "subtitle": "Beautiful design meets powerful functionality"
+    },
+    "testimonials": {
+        "title": "What Users Say",
+        "subtitle": "Join thousands of fitness enthusiasts who love Fitness Story",
+        "review1": {
+            "quote": "\"This provides wonderful fitness trends that Apple can't provide otherwise. Gorgeous layout has an Apple feel.\""
+        },
+        "review2": {
+            "quote": "\"Finally, a fitness app that turns raw data into visuals that actually motivate me. Love the PR tracking and year-over-year comparison!\""
+        },
+        "review3": {
+            "quote": "\"This is giving me insights that neither Strava nor the health app has been able to provide. If you are into fitness you must give it a try!\""
+        }
+    },
+    "download": {
+        "title": "Start Your Fitness Story Today",
+        "description": "Free to download with optional Pro upgrade for advanced features. Your data stays private on your device.",
+        "platforms": "Available on iPhone, iPad, Mac, and Apple Vision"
+    },
+    "privacy": {
+        "title": "Your Privacy Matters",
+        "description": "Fitness Story reads your data directly from Apple Health in read-only mode. All calculations and analysis happen securely on your device. Your health data is never sent to us or any third parties.",
+        "link": "Read our Privacy Policy"
+    },
+    "footer": {
+        "appStore": "App Store",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "copyright": "© 2025 Fitness Story. All rights reserved."
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "appName": "Fitness Story",
+    "meta": {
+        "title": "Fitness Story - Biến bài tập Apple Health thành hành trình trực quan",
+        "description": "Biến bài tập Apple Health của bạn thành một hành trình trực quan đẹp mắt, sâu sắc và đầy cảm hứng. Theo dõi kỷ lục cá nhân, phân tích xu hướng và trực quan hóa tiến trình của bạn."
+    },
+    "nav": {
+        "features": "Tính năng",
+        "screenshots": "Ảnh chụp màn hình",
+        "testimonials": "Đánh giá",
+        "download": "Tải xuống"
+    },
+    "hero": {
+        "title": "Hành trình fitness của bạn, được trực quan hóa tuyệt đẹp",
+        "description": "Biến bài tập Apple Health của bạn thành một hành trình trực quan đẹp mắt, sâu sắc và đầy cảm hứng. Theo dõi kỷ lục cá nhân, phân tích xu hướng và ăn mừng mọi chiến thắng.",
+        "rating": "5.0 trên App Store"
+    },
+    "features": {
+        "title": "Tính năng mạnh mẽ",
+        "subtitle": "Tất cả những gì bạn cần để hiểu và ăn mừng hành trình fitness của mình",
+        "storyline": {
+            "title": "Dòng thời gian",
+            "description": "Trải nghiệm lịch sử fitness của bạn như một câu chuyện liên tục. Cuộn qua dòng thời gian trực quan phong phú kết nối các hoạt động của bạn với những kỷ niệm."
+        },
+        "dashboard": {
+            "title": "Bảng điều khiển tương tác",
+            "description": "Truy cập bảng điều khiển tương tác hoàn toàn kết nối hoạt động hàng ngày của bạn với sức khỏe tổng thể. Theo dõi sự nhất quán với biểu đồ đóng góp và bộ đếm chuỗi."
+        },
+        "analytics": {
+            "title": "Phân tích chuyên nghiệp",
+            "description": "Mở khóa bộ công cụ phân tích vừa túi. So sánh bài tập song song, xem xu hướng hàng năm và theo dõi nhịp chân và độ dài bước chân."
+        },
+        "records": {
+            "title": "Kỷ lục cá nhân",
+            "description": "Chúng tôi tự động phát hiện Kỷ lục Cá nhân và hiển thị chúng với ảnh và ghi chú của bạn. Giữ những chiến thắng yêu thích ở vị trí nổi bật trong Tủ Danh Hiệu."
+        },
+        "locations": {
+            "title": "Địa điểm của tôi",
+            "description": "Xem lịch sử tập luyện trên bản đồ, được nhóm theo thành phố và quốc gia. Xem hành trình fitness đã đưa bạn đến những đâu trên thế giới."
+        },
+        "favorites": {
+            "title": "Yêu thích & Nhãn",
+            "description": "Sắp xếp bài tập với các nhãn tùy chỉnh như \"Interval\", \"Phục hồi\" hoặc \"Ngày đua\". Đánh dấu tim cho các buổi tập tốt nhất để xây dựng bộ sưu tập thành tích đỉnh cao."
+        }
+    },
+    "screenshots": {
+        "title": "Xem ứng dụng hoạt động",
+        "subtitle": "Thiết kế đẹp mắt kết hợp chức năng mạnh mẽ"
+    },
+    "testimonials": {
+        "title": "Người dùng nói gì",
+        "subtitle": "Tham gia cùng hàng nghìn người đam mê fitness yêu thích Fitness Story",
+        "review1": {
+            "quote": "\"Ứng dụng này cung cấp xu hướng fitness tuyệt vời mà Apple không thể cung cấp theo cách khác. Giao diện đẹp với phong cách Apple.\""
+        },
+        "review2": {
+            "quote": "\"Cuối cùng cũng có một ứng dụng fitness biến dữ liệu thô thành hình ảnh thực sự tạo động lực cho tôi. Yêu tính năng theo dõi kỷ lục cá nhân và so sánh theo năm!\""
+        },
+        "review3": {
+            "quote": "\"Ứng dụng này cho tôi những thông tin mà cả Strava lẫn ứng dụng Sức khỏe đều không thể cung cấp. Nếu bạn yêu thích fitness, bạn phải thử ngay!\""
+        }
+    },
+    "download": {
+        "title": "Bắt đầu Fitness Story của bạn ngay hôm nay",
+        "description": "Tải miễn phí với tùy chọn nâng cấp Pro cho các tính năng nâng cao. Dữ liệu của bạn được bảo mật riêng tư trên thiết bị.",
+        "platforms": "Có sẵn trên iPhone, iPad, Mac và Apple Vision"
+    },
+    "privacy": {
+        "title": "Quyền riêng tư của bạn quan trọng",
+        "description": "Fitness Story đọc dữ liệu trực tiếp từ Apple Health ở chế độ chỉ đọc. Tất cả tính toán và phân tích diễn ra an toàn trên thiết bị của bạn. Dữ liệu sức khỏe của bạn không bao giờ được gửi cho chúng tôi hoặc bất kỳ bên thứ ba nào.",
+        "link": "Đọc Chính sách Bảo mật"
+    },
+    "footer": {
+        "appStore": "App Store",
+        "privacy": "Chính sách Bảo mật",
+        "terms": "Điều khoản Dịch vụ",
+        "copyright": "© 2025 Fitness Story. Bảo lưu mọi quyền."
+    }
+}

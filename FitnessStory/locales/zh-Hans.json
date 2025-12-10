@@ -1,0 +1,79 @@
+{
+    "appName": "健身故事",
+    "meta": {
+        "title": "Fitness Story - 将 Apple 健康数据转化为精彩的视觉旅程",
+        "description": "将您的 Apple 健康运动数据转化为精美、深刻且激励人心的视觉旅程。追踪个人记录，分析趋势，见证您的每一次进步。"
+    },
+    "nav": {
+        "features": "功能",
+        "screenshots": "截图",
+        "testimonials": "用户评价",
+        "download": "下载"
+    },
+    "hero": {
+        "title": "您的健身旅程，精彩呈现",
+        "description": "将您的 Apple 健康运动数据转化为精美、深刻且激励人心的视觉旅程。追踪个人记录，分析趋势，庆祝每一次胜利。",
+        "rating": "App Store 5.0 星评分"
+    },
+    "features": {
+        "title": "强大功能",
+        "subtitle": "全方位了解并记录您的健身旅程",
+        "storyline": {
+            "title": "时间轴",
+            "description": "以连续叙事的方式体验您的健身历史。滚动浏览丰富的可视化时间轴，将您的运动与个人记忆完美结合。"
+        },
+        "dashboard": {
+            "title": "互动仪表盘",
+            "description": "访问全交互式仪表盘，将您的日常运动与整体健康状况相连接。通过贡献图和连续记录追踪您的坚持度。"
+        },
+        "analytics": {
+            "title": "专业分析",
+            "description": "解锁口袋中的分析套件。并排比较运动数据，查看年度趋势，追踪步频和步幅。"
+        },
+        "records": {
+            "title": "个人记录",
+            "description": "我们自动检测个人记录，并与您的照片和笔记一起展示。在您的荣誉殿堂中保存最精彩的胜利时刻。"
+        },
+        "locations": {
+            "title": "我的足迹",
+            "description": "在地图上查看您的运动历史，按城市和国家分组。看看您的健身旅程带您去过世界上哪些地方。"
+        },
+        "favorites": {
+            "title": "收藏与标签",
+            "description": "使用自定义标签组织您的训练，如「间歇训练」、「恢复」或「比赛日」。用心形标记您最好的训练，建立您的巅峰表现合集。"
+        }
+    },
+    "screenshots": {
+        "title": "功能预览",
+        "subtitle": "精美设计与强大功能的完美结合"
+    },
+    "testimonials": {
+        "title": "用户心声",
+        "subtitle": "加入热爱 Fitness Story 的健身爱好者大家庭",
+        "review1": {
+            "quote": "\"这款应用提供了 Apple 原生健康应用无法提供的精彩健身趋势分析。界面设计非常漂亮，有 Apple 的感觉。\""
+        },
+        "review2": {
+            "quote": "\"终于有一款健身应用能把原始数据变成真正激励我的可视化图表。喜欢个人记录追踪和年度对比功能！\""
+        },
+        "review3": {
+            "quote": "\"这款应用给我提供了 Strava 和健康应用都无法提供的洞察。如果你热爱健身，一定要试试！\""
+        }
+    },
+    "download": {
+        "title": "开启您的 Fitness Story",
+        "description": "免费下载，可选升级 Pro 版解锁高级功能。您的数据安全存储在设备本地。",
+        "platforms": "支持 iPhone、iPad、Mac 和 Apple Vision"
+    },
+    "privacy": {
+        "title": "您的隐私至关重要",
+        "description": "Fitness Story 以只读模式直接从 Apple 健康读取您的数据。所有计算和分析都在您的设备上安全进行。您的健康数据永远不会发送给我们或任何第三方。",
+        "link": "阅读隐私政策"
+    },
+    "footer": {
+        "appStore": "App Store",
+        "privacy": "隐私政策",
+        "terms": "服务条款",
+        "copyright": "© 2025 Fitness Story. 保留所有权利。"
+    }
+}
