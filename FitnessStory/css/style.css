@@ -1075,15 +1075,17 @@ body.has-promo-banner .nav__menu {
         --header-height: 64px;
     }
 
+    /* Mobile menu overlay - covers entire screen */
     .nav__menu {
         position: fixed;
         top: var(--header-height);
         left: 0;
         right: 0;
         bottom: 0;
-        background: #FFFFFF;
+        background-color: #FFFFFF !important;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: stretch;
         padding: var(--spacing-xl);
         gap: var(--spacing-lg);
         transform: translateX(100%);
@@ -1096,10 +1098,23 @@ body.has-promo-banner .nav__menu {
         transform: translateX(0);
     }
 
+    .nav__item {
+        width: 100%;
+        border-bottom: 1px solid #E5E5E5;
+        padding-bottom: var(--spacing-md);
+    }
+
     .nav__link {
-        font-size: var(--font-size-lg);
+        font-size: var(--font-size-xl);
         padding: var(--spacing-sm) 0;
-        color: var(--color-text);
+        color: #1D1D1F;
+        display: block;
+        font-weight: 500;
+    }
+
+    /* Hide language selector in header on mobile, we'll show it differently */
+    .language-selector {
+        display: none;
     }
 
     .nav__toggle {
@@ -1240,7 +1255,11 @@ body.has-promo-banner .nav__menu {
     /* Mobile menu dark mode */
     @media (max-width: 768px) {
         .nav__menu {
-            background: #1D1D1F;
+            background-color: #1D1D1F !important;
+        }
+
+        .nav__item {
+            border-bottom-color: #38383A;
         }
 
         .nav__link {
