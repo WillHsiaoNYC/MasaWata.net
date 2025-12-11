@@ -1081,17 +1081,25 @@ body.has-promo-banner .nav__menu {
         left: 0;
         right: 0;
         bottom: 0;
-        background: var(--color-white);
+        background: #FFFFFF;
         flex-direction: column;
         justify-content: flex-start;
         padding: var(--spacing-xl);
         gap: var(--spacing-lg);
         transform: translateX(100%);
         transition: transform var(--transition-base);
+        z-index: 999;
+        overflow-y: auto;
     }
 
     .nav__menu.active {
         transform: translateX(0);
+    }
+
+    .nav__link {
+        font-size: var(--font-size-lg);
+        padding: var(--spacing-sm) 0;
+        color: var(--color-text);
     }
 
     .nav__toggle {
@@ -1227,5 +1235,20 @@ body.has-promo-banner .nav__menu {
 
     .language-dropdown {
         background: var(--color-bg-alt);
+    }
+
+    /* Mobile menu dark mode */
+    @media (max-width: 768px) {
+        .nav__menu {
+            background: #1D1D1F;
+        }
+
+        .nav__link {
+            color: #F5F5F7;
+        }
+
+        .nav__link:hover {
+            color: var(--color-blue);
+        }
     }
 }
