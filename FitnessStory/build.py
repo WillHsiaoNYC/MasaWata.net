@@ -45,6 +45,17 @@ OG_LOCALES = {
     'vi': 'vi_VN',
 }
 
+# Google Analytics tracking code
+GOOGLE_ANALYTICS = '''<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZL852HY2Z4');
+    </script>'''
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -93,6 +104,8 @@ def generate_html(lang, translations):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{GOOGLE_ANALYTICS}
 
     <!-- Primary Meta Tags -->
     <title>{t['meta']['title']}</title>
