@@ -1,5 +1,15 @@
 {
     "appName": "Fitness Story",
+    "promo": {
+        "badge": "Limitiert",
+        "message": "Lebenslanges Pro",
+        "cta": "Jetzt einlösen",
+        "expires": "Gültig bis 2. Jan. 2026",
+        "days": "Tage",
+        "hours": "Std",
+        "mins": "Min",
+        "secs": "Sek"
+    },
     "meta": {
         "title": "Fitness Story - Verwandle Apple Health Workouts in visuelle Reisen",
         "description": "Verwandle deine Apple Health Workouts in eine wunderschöne, aufschlussreiche und motivierende visuelle Reise. Verfolge persönliche Rekorde, analysiere Trends und visualisiere deinen Fortschritt."

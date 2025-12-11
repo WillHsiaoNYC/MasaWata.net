@@ -56,6 +56,11 @@ GOOGLE_ANALYTICS = '''<!-- Google tag (gtag.js) -->
       gtag('config', 'G-ZL852HY2Z4');
     </script>'''
 
+# Promo banner configuration
+PROMO_LINK = 'https://apps.apple.com/redeem?ctx=offercodes&id=6748090363&code=FSWEB'
+PROMO_ORIGINAL_PRICE = 'USD $29.99'
+PROMO_SALE_PRICE = 'USD $9.99'
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -76,6 +81,49 @@ def generate_hreflang_tags():
 
 def get_asset_path(lang_dir):
     return '../' if lang_dir else ''
+
+
+def generate_promo_banner(translations):
+    t = translations
+    return f'''    <!-- Promo Banner -->
+    <div class="promo-banner">
+        <div class="promo-banner__content">
+            <span class="promo-banner__badge">{t['promo']['badge']}</span>
+            <div class="promo-banner__text">
+                <span class="promo-banner__message">{t['promo']['message']}</span>
+                <div class="promo-banner__prices">
+                    <span class="promo-banner__original-price">{PROMO_ORIGINAL_PRICE}</span>
+                    <span class="promo-banner__sale-price">{PROMO_SALE_PRICE}</span>
+                </div>
+            </div>
+            <div class="promo-banner__countdown" id="promo-countdown">
+                <div class="promo-banner__countdown-item">
+                    <span class="promo-banner__countdown-value" id="countdown-days">--</span>
+                    <span class="promo-banner__countdown-label">{t['promo']['days']}</span>
+                </div>
+                <span class="promo-banner__countdown-separator">:</span>
+                <div class="promo-banner__countdown-item">
+                    <span class="promo-banner__countdown-value" id="countdown-hours">--</span>
+                    <span class="promo-banner__countdown-label">{t['promo']['hours']}</span>
+                </div>
+                <span class="promo-banner__countdown-separator">:</span>
+                <div class="promo-banner__countdown-item">
+                    <span class="promo-banner__countdown-value" id="countdown-minutes">--</span>
+                    <span class="promo-banner__countdown-label">{t['promo']['mins']}</span>
+                </div>
+                <span class="promo-banner__countdown-separator">:</span>
+                <div class="promo-banner__countdown-item">
+                    <span class="promo-banner__countdown-value" id="countdown-seconds">--</span>
+                    <span class="promo-banner__countdown-label">{t['promo']['secs']}</span>
+                </div>
+            </div>
+            <a href="{PROMO_LINK}" class="promo-banner__cta" target="_blank" rel="noopener">
+                {t['promo']['cta']}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
+'''
 
 
 def generate_html(lang, translations):
@@ -176,7 +224,8 @@ def generate_html(lang, translations):
     }}
     </script>
 </head>
-<body>
+<body class="has-promo-banner">
+{generate_promo_banner(t)}
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav container">

@@ -1,5 +1,15 @@
 {
     "appName": "Fitness Story",
+    "promo": {
+        "badge": "Limited Offer",
+        "message": "Lifetime Pro",
+        "cta": "Redeem Now",
+        "expires": "Expires Jan 2, 2026",
+        "days": "Days",
+        "hours": "Hrs",
+        "mins": "Min",
+        "secs": "Sec"
+    },
     "meta": {
         "title": "Fitness Story - Transform Apple Health Workouts into Visual Journeys",
         "description": "Transform your Apple Health workouts into a beautiful, insightful, and motivating visual journey. Track personal records, analyze trends, and visualize your progress."

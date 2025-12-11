@@ -1,5 +1,15 @@
 {
     "appName": "Fitness Story",
+    "promo": {
+        "badge": "Oferta limitada",
+        "message": "Pro vitalício",
+        "cta": "Resgatar agora",
+        "expires": "Até 2 de jan. 2026",
+        "days": "Dias",
+        "hours": "Hrs",
+        "mins": "Min",
+        "secs": "Seg"
+    },
     "meta": {
         "title": "Fitness Story - Transforme seus treinos do Apple Saúde em jornadas visuais",
         "description": "Transforme seus treinos do Apple Saúde em uma jornada visual bonita, perspicaz e motivadora. Acompanhe recordes pessoais, analise tendências e visualize seu progresso."

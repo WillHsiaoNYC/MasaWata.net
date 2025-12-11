@@ -1,5 +1,15 @@
 {
     "appName": "健身故事",
+    "promo": {
+        "badge": "限時優惠",
+        "message": "終身 Pro 版",
+        "cta": "立即兌換",
+        "expires": "截止至2026年1月2日",
+        "days": "天",
+        "hours": "時",
+        "mins": "分",
+        "secs": "秒"
+    },
     "meta": {
         "title": "Fitness Story - 將 Apple 健康數據轉化為精彩的視覺旅程",
         "description": "將您的 Apple 健康運動數據轉化為精美、深刻且激勵人心的視覺旅程。追蹤個人記錄，分析趨勢，見證您的每一次進步。"

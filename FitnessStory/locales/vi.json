@@ -1,5 +1,15 @@
 {
     "appName": "Fitness Story",
+    "promo": {
+        "badge": "Ưu đãi có hạn",
+        "message": "Pro trọn đời",
+        "cta": "Đổi ngay",
+        "expires": "Đến 2/1/2026",
+        "days": "Ngày",
+        "hours": "Giờ",
+        "mins": "Phút",
+        "secs": "Giây"
+    },
     "meta": {
         "title": "Fitness Story - Biến bài tập Apple Health thành hành trình trực quan",
         "description": "Biến bài tập Apple Health của bạn thành một hành trình trực quan đẹp mắt, sâu sắc và đầy cảm hứng. Theo dõi kỷ lục cá nhân, phân tích xu hướng và trực quan hóa tiến trình của bạn."

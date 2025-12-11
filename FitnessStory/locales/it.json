@@ -1,5 +1,15 @@
 {
     "appName": "Fitness Story",
+    "promo": {
+        "badge": "Offerta limitata",
+        "message": "Pro a vita",
+        "cta": "Riscatta ora",
+        "expires": "Fino al 2 gen. 2026",
+        "days": "Giorni",
+        "hours": "Ore",
+        "mins": "Min",
+        "secs": "Sec"
+    },
     "meta": {
         "title": "Fitness Story - Trasforma i tuoi allenamenti Apple Salute in viaggi visivi",
         "description": "Trasforma i tuoi allenamenti Apple Salute in un viaggio visivo bello, perspicace e motivante. Traccia i record personali, analizza le tendenze e visualizza i tuoi progressi."

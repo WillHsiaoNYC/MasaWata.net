@@ -97,7 +97,46 @@
     }
     </script>
 </head>
-<body>
+<body class="has-promo-banner">
+    <!-- Promo Banner -->
+    <div class="promo-banner">
+        <div class="promo-banner__content">
+            <span class="promo-banner__badge">限時優惠</span>
+            <div class="promo-banner__text">
+                <span class="promo-banner__message">終身 Pro 版</span>
+                <div class="promo-banner__prices">
+                    <span class="promo-banner__original-price">USD $29.99</span>
+                    <span class="promo-banner__sale-price">USD $9.99</span>
+                </div>
+            </div>
+            <div class="promo-banner__countdown" id="promo-countdown">
+                <div class="promo-banner__countdown-item">
+                    <span class="promo-banner__countdown-value" id="countdown-days">--</span>
+                    <span class="promo-banner__countdown-label">天</span>
+                </div>
+                <span class="promo-banner__countdown-separator">:</span>
+                <div class="promo-banner__countdown-item">
+                    <span class="promo-banner__countdown-value" id="countdown-hours">--</span>
+                    <span class="promo-banner__countdown-label">時</span>
+                </div>
+                <span class="promo-banner__countdown-separator">:</span>
+                <div class="promo-banner__countdown-item">
+                    <span class="promo-banner__countdown-value" id="countdown-minutes">--</span>
+                    <span class="promo-banner__countdown-label">分</span>
+                </div>
+                <span class="promo-banner__countdown-separator">:</span>
+                <div class="promo-banner__countdown-item">
+                    <span class="promo-banner__countdown-value" id="countdown-seconds">--</span>
+                    <span class="promo-banner__countdown-label">秒</span>
+                </div>
+            </div>
+            <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6748090363&code=FSWEB" class="promo-banner__cta" target="_blank" rel="noopener">
+                立即兌換
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav container">

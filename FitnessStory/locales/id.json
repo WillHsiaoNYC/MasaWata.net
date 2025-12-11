@@ -1,5 +1,15 @@
 {
     "appName": "Fitness Story",
+    "promo": {
+        "badge": "Penawaran Terbatas",
+        "message": "Pro Seumur Hidup",
+        "cta": "Tukarkan",
+        "expires": "Hingga 2 Jan 2026",
+        "days": "Hari",
+        "hours": "Jam",
+        "mins": "Mnt",
+        "secs": "Dtk"
+    },
     "meta": {
         "title": "Fitness Story - Ubah Latihan Apple Health Menjadi Perjalanan Visual",
         "description": "Ubah latihan Apple Health Anda menjadi perjalanan visual yang indah, mendalam, dan memotivasi. Lacak rekor pribadi, analisis tren, dan visualisasikan kemajuan Anda."
