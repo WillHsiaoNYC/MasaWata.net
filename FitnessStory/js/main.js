@@ -3,7 +3,7 @@
  * Handles interactions, animations, and UI components
  */
 
-(function() {
+(function () {
     'use strict';
 
     // ===== DOM Elements =====
@@ -81,7 +81,7 @@
 
     // ===== Smooth Scroll for Anchor Links =====
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             const targetId = this.getAttribute('href');
             if (targetId === '#') return;
 
@@ -200,5 +200,33 @@
     } else {
         initCountdown();
     }
+
+    // ===== Promo Banner and Header Height Calculation =====
+    function updateLayoutMetrics() {
+        const banner = document.querySelector('.promo-banner');
+        const header = document.querySelector('.header');
+
+        if (banner) {
+            const height = banner.offsetHeight;
+            document.body.style.setProperty('--promo-banner-height', `${height}px`);
+        }
+
+        if (header) {
+            const headerRect = header.getBoundingClientRect();
+            // This captures the actual bottom position of the header in the viewport
+            document.body.style.setProperty('--header-bottom-position', `${headerRect.bottom}px`);
+        }
+    }
+
+    // Initialize metrics
+    updateLayoutMetrics();
+
+    // Update on resize and scroll (since header might move or banner might change)
+    window.addEventListener('resize', updateLayoutMetrics, { passive: true });
+    window.addEventListener('scroll', updateLayoutMetrics, { passive: true });
+
+    // Update again after delay to ensure fonts/layout settled
+    setTimeout(updateLayoutMetrics, 100);
+    setTimeout(updateLayoutMetrics, 500);
 
 })();

@@ -64,7 +64,9 @@
 }
 
 /* ===== Reset & Base ===== */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -258,17 +260,18 @@ body.has-promo-banner .header {
 }
 
 body.has-promo-banner .hero {
-    padding-top: calc(var(--header-height) + var(--promo-banner-height) + var(--spacing-3xl));
+    padding-top: calc(var(--header-height) + var(--promo-banner-height, 0px) + var(--spacing-3xl));
 }
 
 body.has-promo-banner .nav__menu {
-    top: calc(var(--header-height) + var(--promo-banner-height));
+    top: 100%;
+    /* Ensure it stays relative to header */
 }
 
 @media (max-width: 768px) {
-    body.has-promo-banner {
-        --promo-banner-height: 80px;
-    }
+    /* body.has-promo-banner {
+        --promo-banner-height: 80px; 
+    } - Handled by JS now */
 
     .promo-banner {
         padding: var(--spacing-sm);
@@ -333,9 +336,9 @@ body.has-promo-banner .nav__menu {
 }
 
 @media (max-width: 480px) {
-    body.has-promo-banner {
+    /* body.has-promo-banner {
         --promo-banner-height: 110px;
-    }
+    } - Handled by JS now */
 
     .promo-banner__countdown-item {
         min-width: 24px;
@@ -1077,31 +1080,43 @@ body.has-promo-banner .nav__menu {
 
     /* Mobile menu overlay - covers entire screen */
     .nav__menu {
-        position: fixed;
-        top: var(--header-height);
+        position: absolute;
+        top: 100%;
+        /* Automatically starts at bottom of header */
         left: 0;
         right: 0;
-        bottom: 0;
+        height: calc(100vh - 100%);
+        /* Takes remaining height */
+
         background-color: #FFFFFF !important;
         flex-direction: column;
         justify-content: flex-start;
         align-items: stretch;
         padding: var(--spacing-xl);
-        gap: var(--spacing-lg);
+        gap: var(--spacing-xl);
         transform: translateX(100%);
         transition: transform var(--transition-base);
-        z-index: 999;
+        z-index: 2000;
         overflow-y: auto;
+
+        /* Ensure background is opaque */
+        -webkit-backdrop-filter: none !important;
+        backdrop-filter: none !important;
+
+        /* Add shadow for separation */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     .nav__menu.active {
         transform: translateX(0);
     }
 
+    /* Specific rule for promo banner moved to base rule with fallback */
+
     .nav__item {
         width: 100%;
         border-bottom: 1px solid #E5E5E5;
-        padding-bottom: var(--spacing-md);
+        padding-bottom: var(--spacing-lg);
     }
 
     .nav__link {
