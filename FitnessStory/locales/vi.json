@@ -51,6 +51,10 @@
         "favorites": {
             "title": "Yêu thích & Nhãn",
             "description": "Sắp xếp bài tập với các nhãn tùy chỉnh như \"Interval\", \"Phục hồi\" hoặc \"Ngày đua\". Đánh dấu tim cho các buổi tập tốt nhất để xây dựng bộ sưu tập thành tích đỉnh cao."
+        },
+        "comparison": {
+            "title": "So sánh bài tập",
+            "description": "So sánh nhiều bài tập song song (tối đa 10) để xem tiến trình của bạn. Phân tích tốc độ, nhịp tim, độ cao và hơn thế nữa để hiểu hiệu suất của bạn đã phát triển như thế nào theo thời gian."
         }
     },
     "screenshots": {

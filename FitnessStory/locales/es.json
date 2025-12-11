@@ -51,6 +51,10 @@
         "favorites": {
             "title": "Favoritos y etiquetas",
             "description": "Organiza tu entrenamiento con etiquetas personalizadas como \"Intervalos\", \"Recuperación\" o \"Día de carrera\". Marca tus mejores sesiones con un corazón para crear una colección de rendimientos destacados."
+        },
+        "comparison": {
+            "title": "Comparación de entrenamientos",
+            "description": "Compara múltiples entrenamientos lado a lado (hasta 10) para ver tu progreso. Analiza ritmo, frecuencia cardíaca, elevación y más para entender cómo ha evolucionado tu rendimiento."
         }
     },
     "screenshots": {

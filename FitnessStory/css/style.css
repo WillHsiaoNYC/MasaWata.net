@@ -713,6 +713,11 @@ body.has-promo-banner .nav__menu {
     color: var(--color-green);
 }
 
+.feature-card__icon--purple {
+    background: rgba(175, 82, 222, 0.15);
+    color: #AF52DE;
+}
+
 .feature-card__title {
     font-size: var(--font-size-xl);
     font-weight: 600;

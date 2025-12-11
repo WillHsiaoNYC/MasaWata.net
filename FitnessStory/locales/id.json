@@ -51,6 +51,10 @@
         "favorites": {
             "title": "Favorit & Tag",
             "description": "Atur latihan Anda dengan tag khusus seperti \"Interval\", \"Pemulihan\", atau \"Hari Lomba\". Tandai sesi terbaik Anda dengan hati untuk membangun koleksi performa terbaik."
+        },
+        "comparison": {
+            "title": "Perbandingan Latihan",
+            "description": "Bandingkan beberapa latihan secara berdampingan (hingga 10) untuk melihat kemajuan Anda. Analisis kecepatan, detak jantung, ketinggian, dan lainnya untuk memahami bagaimana performa Anda berkembang dari waktu ke waktu."
         }
     },
     "screenshots": {

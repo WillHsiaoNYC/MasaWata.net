@@ -51,6 +51,10 @@
         "favorites": {
             "title": "Favoriten & Tags",
             "description": "Organisiere dein Training mit benutzerdefinierten Tags wie 'Intervalle', 'Erholung' oder 'Wettkampftag'. Markiere deine besten Sessions mit einem Herz, um eine Sammlung von Top-Leistungen aufzubauen."
+        },
+        "comparison": {
+            "title": "Workout-Vergleich",
+            "description": "Vergleiche mehrere Workouts nebeneinander (bis zu 10), um deinen Fortschritt zu sehen. Analysiere Tempo, Herzfrequenz, Höhe und mehr, um zu verstehen, wie sich deine Leistung entwickelt hat."
         }
     },
     "screenshots": {

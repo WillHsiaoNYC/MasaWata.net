@@ -51,6 +51,10 @@
         "favorites": {
             "title": "Favoritos e tags",
             "description": "Organize seu treinamento com tags personalizadas como \"Intervalos\", \"Recuperação\" ou \"Dia de corrida\". Marque suas melhores sessões com um coração para criar uma coleção de desempenhos excepcionais."
+        },
+        "comparison": {
+            "title": "Comparação de treinos",
+            "description": "Compare vários treinos lado a lado (até 10) para ver seu progresso. Analise ritmo, frequência cardíaca, elevação e mais para entender como seu desempenho evoluiu ao longo do tempo."
         }
     },
     "screenshots": {

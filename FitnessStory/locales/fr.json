@@ -51,6 +51,10 @@
         "favorites": {
             "title": "Favoris et tags",
             "description": "Organisez votre entraînement avec des tags personnalisés comme « Intervalles », « Récupération » ou « Jour de course ». Marquez vos meilleures séances d'un cœur pour créer une collection de performances exceptionnelles."
+        },
+        "comparison": {
+            "title": "Comparaison d'entraînements",
+            "description": "Comparez plusieurs entraînements côte à côte (jusqu'à 10) pour voir votre progression. Analysez l'allure, la fréquence cardiaque, l'altitude et plus encore pour comprendre l'évolution de vos performances."
         }
     },
     "screenshots": {

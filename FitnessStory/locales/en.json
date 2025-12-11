@@ -51,6 +51,10 @@
         "favorites": {
             "title": "Favorites & Tags",
             "description": "Organize your training with custom tags like \"Intervals,\" \"Recovery,\" or \"Race Day.\" Mark your best sessions with a heart to build a collection of top performances."
+        },
+        "comparison": {
+            "title": "Workouts Comparison",
+            "description": "Compare multiple workouts side-by-side (up to 10) to see your progress. Analyze pace, heart rate, elevation, and more to understand how your performance has evolved over time."
         }
     },
     "screenshots": {

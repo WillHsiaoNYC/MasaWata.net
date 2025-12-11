@@ -401,6 +401,21 @@ def generate_html(lang, translations):
                             <img src="{asset_path}images/iphone/my%20favorites.png" alt="{t['features']['favorites']['title']}" loading="lazy">
                         </div>
                     </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="feature-card__icon feature-card__icon--purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 3h5v5M8 3H3v5M3 16v5h5M16 21h5v-5"/>
+                                <line x1="21" y1="3" x2="14" y2="10"/>
+                                <line x1="3" y1="21" x2="10" y2="14"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['comparison']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['comparison']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/iphone/workouts%20comparison.png" alt="{t['features']['comparison']['title']}" loading="lazy">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -424,6 +439,7 @@ def generate_html(lang, translations):
                         <div class="screenshot-item"><img src="{asset_path}images/iphone/combined%20metrics%20analysis.png" alt="Combined Metrics" loading="lazy"></div>
                         <div class="screenshot-item"><img src="{asset_path}images/iphone/daily%20summary%20and%20benchmark.png" alt="Daily Summary" loading="lazy"></div>
                         <div class="screenshot-item"><img src="{asset_path}images/iphone/overall%20steps%20analysis%20and%20personal%20record.png" alt="Steps Analysis" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/iphone/workouts%20comparison.png" alt="Workouts Comparison" loading="lazy"></div>
                     </div>
                 </div>
 

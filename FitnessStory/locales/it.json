@@ -51,6 +51,10 @@
         "favorites": {
             "title": "Preferiti e tag",
             "description": "Organizza il tuo allenamento con tag personalizzati come \"Intervalli\", \"Recupero\" o \"Giorno di gara\". Segna le tue migliori sessioni con un cuore per creare una collezione di prestazioni eccezionali."
+        },
+        "comparison": {
+            "title": "Confronto allenamenti",
+            "description": "Confronta più allenamenti fianco a fianco (fino a 10) per vedere i tuoi progressi. Analizza ritmo, frequenza cardiaca, altitudine e altro per capire come si è evoluta la tua prestazione nel tempo."
         }
     },
     "screenshots": {
