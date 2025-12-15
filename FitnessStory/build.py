@@ -57,7 +57,7 @@ GOOGLE_ANALYTICS = '''<!-- Google tag (gtag.js) -->
     </script>'''
 
 # Promo banner configuration
-PROMO_LINK = 'https://apps.apple.com/redeem?ctx=offercodes&id=6748090363&code=FSWEB'
+PROMO_LINK = 'https://apps.apple.com/redeem?ctx=offercodes&id=6748090363&code=FS2025'
 PROMO_ORIGINAL_PRICE = 'USD $29.99'
 PROMO_SALE_PRICE = 'USD $9.99'
 
