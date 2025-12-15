@@ -9,11 +9,12 @@
     // ===== Locale Detection & Persistence =====
     const SUPPORTED_LOCALES = ['en', 'ja', 'ko', 'zh-Hans', 'zh-Hant', 'fr', 'de', 'es', 'pt', 'it', 'ru', 'hi', 'id', 'vi'];
     const LOCALE_STORAGE_KEY = 'preferred-locale';
+    const BASE_PATH = '/FitnessStory';
 
     function getCurrentLocale() {
         const path = window.location.pathname;
         for (const locale of SUPPORTED_LOCALES) {
-            if (path.startsWith('/' + locale + '/')) {
+            if (path.includes('/' + locale + '/') || path.endsWith('/' + locale)) {
                 return locale;
             }
         }
@@ -40,15 +41,31 @@
 
     function redirectToLocale(locale) {
         if (locale === 'en') {
-            window.location.href = '/';
+            window.location.href = BASE_PATH + '/';
         } else {
-            window.location.href = '/' + locale + '/';
+            window.location.href = BASE_PATH + '/' + locale + '/';
         }
     }
 
     function initLocaleRedirect() {
         const currentLocale = getCurrentLocale();
         const savedLocale = localStorage.getItem(LOCALE_STORAGE_KEY);
+        const path = window.location.pathname;
+
+        // Enforce trailing slash for locale pages
+        // This fixes issues where relative links (../) break out of the app directory
+        if (currentLocale !== 'en' && !path.endsWith('/')) {
+            window.location.replace(path + '/');
+            return;
+        }
+
+        // Prevent redirect if we are already on a specific language page
+        if (currentLocale !== 'en') {
+            if (savedLocale !== currentLocale) {
+                localStorage.setItem(LOCALE_STORAGE_KEY, currentLocale);
+            }
+            return;
+        }
 
         if (savedLocale) {
             // User has a saved preference - redirect if not on that page
@@ -76,8 +93,7 @@
     const header = document.getElementById('header');
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');
-    const languageBtn = document.getElementById('language-btn');
-    const languageSelector = languageBtn?.parentElement;
+    // Note: Language selectors are now handled by class query to support both instances
     const screenshotsTrack = document.getElementById('screenshots-track');
     const prevBtn = document.getElementById('screenshots-prev');
     const nextBtn = document.getElementById('screenshots-next');
@@ -111,35 +127,56 @@
         });
     }
 
-    // ===== Language Selector =====
-    if (languageBtn && languageSelector) {
-        languageBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            languageSelector.classList.toggle('active');
-        });
+    // ===== Language Selectors (Desktop & Mobile) =====
+    const languageSelectors = document.querySelectorAll('.language-selector');
 
-        // Close dropdown when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!languageSelector.contains(e.target)) {
-                languageSelector.classList.remove('active');
-            }
+    languageSelectors.forEach(selector => {
+        const btn = selector.querySelector('.language-btn');
+        if (!btn) return;
+
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            // Close other selectors first
+            languageSelectors.forEach(s => {
+                if (s !== selector) s.classList.remove('active');
+            });
+            selector.classList.toggle('active');
         });
 
         // Save language preference when user selects a language
-        languageSelector.querySelectorAll('.language-dropdown a').forEach(link => {
+        selector.querySelectorAll('.language-dropdown a').forEach(link => {
             link.addEventListener('click', (e) => {
+                e.preventDefault(); // Prevent default relative link navigation check
                 const href = link.getAttribute('href');
                 let locale = 'en';
                 for (const loc of SUPPORTED_LOCALES) {
-                    if (href.includes('/' + loc + '/')) {
+                    // Check for locale in href (handling both relative '../vn/' and 'vn/' styles)
+                    if (href.includes('/' + loc + '/') || href === loc + '/') {
                         locale = loc;
                         break;
                     }
                 }
+
+                // If it's a relative link to root (English), simpler check
+                if (href === '../' || href === './') {
+                    locale = 'en';
+                }
+
                 localStorage.setItem(LOCALE_STORAGE_KEY, locale);
+                redirectToLocale(locale); // Use absolute path navigation
             });
         });
-    }
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', (e) => {
+        languageSelectors.forEach(selector => {
+            if (!selector.contains(e.target)) {
+                selector.classList.remove('active');
+            }
+        });
+    });
+
 
     // ===== Screenshots Gallery Navigation =====
     if (screenshotsTrack && prevBtn && nextBtn) {
@@ -309,5 +346,28 @@
     // Update again after delay to ensure fonts/layout settled
     setTimeout(updateLayoutMetrics, 100);
     setTimeout(updateLayoutMetrics, 500);
+
+    // ===== Responsive Layout =====
+    function handleResponsiveLayout() {
+        if (!languageSelector || !navMenu) return;
+        const nav = document.querySelector('.nav');
+
+        if (window.innerWidth <= 768) {
+            if (languageSelector.parentElement !== navMenu) {
+                navMenu.appendChild(languageSelector);
+            }
+        } else {
+            if (languageSelector.parentElement !== nav) {
+                if (navToggle && nav.contains(navToggle)) {
+                    nav.insertBefore(languageSelector, navToggle);
+                } else {
+                    nav.appendChild(languageSelector);
+                }
+            }
+        }
+    }
+
+    window.addEventListener('resize', handleResponsiveLayout);
+    handleResponsiveLayout();
 
 })();

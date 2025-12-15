@@ -408,11 +408,17 @@ body.has-promo-banner .nav__menu {
 
 .nav__link:hover {
     color: var(--color-blue);
+    margin-right: var(--spacing-md);
 }
+
 
 /* Language Selector */
 .language-selector {
     position: relative;
+    margin-left: auto;
+    /* Push it to the right, next to toggle if flex container */
+    margin-right: var(--spacing-md);
+    /* Space from toggle */
 }
 
 .language-btn {
@@ -1127,9 +1133,34 @@ body.has-promo-banner .nav__menu {
         font-weight: 500;
     }
 
-    /* Hide language selector in header on mobile, we'll show it differently */
+    /* Language Selector on Mobile Header */
     .language-selector {
-        display: none;
+        display: flex !important;
+        align-items: center;
+        margin-right: var(--spacing-sm);
+        position: relative;
+        z-index: 1001;
+        /* Ensure it's not hidden by other rules */
+    }
+
+    .language-selector .current-lang {
+        display: block;
+        /* Show text (JA, EN) */
+        font-weight: 500;
+        margin-right: 2px;
+    }
+
+    .language-selector .language-btn {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        background: transparent;
+    }
+
+    .language-selector .language-dropdown {
+        top: 100%;
+        right: 0;
+        width: 180px;
+        /* Standard width */
+        margin-top: var(--spacing-xs);
     }
 
     .nav__toggle {

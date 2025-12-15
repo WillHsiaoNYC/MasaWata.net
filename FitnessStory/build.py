@@ -253,19 +253,19 @@ def generate_html(lang, translations):
             </ul>
 
             <!-- Language Selector -->
-            <div class="language-selector">
-                <button class="language-btn" id="language-btn" aria-label="Select Language">
+            <div class="language-selector" id="header-language-selector">
+                <button class="language-btn" aria-label="Select Language">
                     <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="10"></circle>
                         <line x1="2" y1="12" x2="22" y2="12"></line>
                         <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
                     </svg>
-                    <span id="current-lang">{lang['code'].upper()[:2]}</span>
+                    <span class="current-lang">{lang['code'].upper()[:2]}</span>
                     <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
                 </button>
-                <div class="language-dropdown" id="language-dropdown">
+                <div class="language-dropdown">
 {lang_links}                </div>
             </div>
 
