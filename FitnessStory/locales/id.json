@@ -11,8 +11,8 @@
         "secs": "Dtk"
     },
     "meta": {
-        "title": "Fitness Story - Ubah Latihan Apple Health Menjadi Perjalanan Visual",
-        "description": "Ubah latihan Apple Health Anda menjadi perjalanan visual yang indah, mendalam, dan memotivasi. Lacak rekor pribadi, analisis tren, dan visualisasikan kemajuan Anda."
+        "title": "Fitness Story - Ubah Latihan Apple Health & Watch Menjadi Perjalanan Visual",
+        "description": "Ubah data Apple Watch dan Kesehatan menjadi perjalanan visual yang indah. Lacak lari, bersepeda, renang, dan lainnya. Analisis tren, rekor pribadi, dan kemajuan."
     },
     "nav": {
         "features": "Fitur",
@@ -22,7 +22,7 @@
     },
     "hero": {
         "title": "Perjalanan Fitness Anda, Divisualisasikan dengan Indah",
-        "description": "Ubah latihan Apple Health Anda menjadi perjalanan visual yang indah, mendalam, dan memotivasi. Lacak rekor pribadi, analisis tren, dan rayakan setiap kemenangan.",
+        "description": "Ubah data Apple Watch dan Kesehatan menjadi perjalanan yang indah dan penuh wawasan. Lacak lari, bersepeda, renang, dan semua latihan. Analisis tren, rekor, dan rayakan setiap kemenangan.",
         "rating": "5.0 di App Store"
     },
     "features": {
@@ -67,6 +67,10 @@
         "colorRoute": {
             "title": "Rute Berwarna",
             "description": "Visualisasikan rute latihan Anda dengan cara yang belum pernah ada sebelumnya. Warnai jalur Anda berdasarkan kecepatan, ketinggian, irama, atau panjang langkah."
+        },
+        "widgets": {
+            "title": "Widget",
+            "description": "Pantau data fitness Anda dengan widget layar utama yang indah. Lacak langkah, kalori, kemajuan latihan, dan metrik tubuh sekilas—tanpa membuka aplikasi."
         }
     },
     "screenshots": {

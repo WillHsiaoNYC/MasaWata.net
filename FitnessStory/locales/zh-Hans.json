@@ -11,8 +11,8 @@
         "secs": "秒"
     },
     "meta": {
-        "title": "Fitness Story - 将 Apple 健康数据转化为精彩的视觉旅程",
-        "description": "将您的 Apple 健康运动数据转化为精美、深刻且激励人心的视觉旅程。追踪个人记录，分析趋势，见证您的每一次进步。"
+        "title": "Fitness Story - 将Apple Health和Watch健身数据转化为视觉旅程",
+        "description": "将Apple Watch和健康数据转化为精美的视觉旅程。追踪跑步、骑行、游泳等运动。分析趋势、个人记录和进度。"
     },
     "nav": {
         "features": "功能",
@@ -22,7 +22,7 @@
     },
     "hero": {
         "title": "您的健身旅程，精彩呈现",
-        "description": "将您的 Apple 健康运动数据转化为精美、深刻且激励人心的视觉旅程。追踪个人记录，分析趋势，庆祝每一次胜利。",
+        "description": "将Apple Watch和健康数据转化为美丽、富有洞察力的旅程。追踪跑步、骑行、游泳及所有运动。分析趋势、个人记录，庆祝每一次胜利。",
         "rating": "App Store 5.0 星评分"
     },
     "features": {
@@ -67,6 +67,10 @@
         "colorRoute": {
             "title": "彩色路线",
             "description": "以前所未有的方式可视化您的运动路线。按配速、海拔、步频或步幅为路径着色，即时查看您最努力的地方。"
+        },
+        "widgets": {
+            "title": "小组件",
+            "description": "通过精美的主屏幕小组件让健身数据触手可及。无需打开应用，即可一目了然地查看步数、卡路里、运动进度和身体指标。"
         }
     },
     "screenshots": {

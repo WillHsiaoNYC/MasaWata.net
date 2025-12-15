@@ -11,8 +11,8 @@
         "secs": "Sec"
     },
     "meta": {
-        "title": "Fitness Story - Transform Apple Health Workouts into Visual Journeys",
-        "description": "Transform your Apple Health workouts into a beautiful, insightful, and motivating visual journey. Track personal records, analyze trends, and visualize your progress."
+        "title": "Fitness Story - Transform Apple Health & Watch Workouts into Visual Journeys",
+        "description": "Transform your Apple Watch and Health workouts into beautiful visual journeys. Track running, cycling, swimming & more. Analyze trends, personal records, and progress."
     },
     "nav": {
         "features": "Features",
@@ -22,7 +22,7 @@
     },
     "hero": {
         "title": "Your Fitness Journey, Beautifully Visualized",
-        "description": "Transform your Apple Health workouts into a beautiful, insightful, and motivating visual journey. Track personal records, analyze trends, and celebrate every victory.",
+        "description": "Transform your Apple Watch and Health data into a beautiful, insightful journey. Track running, cycling, swimming, and all your workouts. Analyze trends, personal records, and celebrate every victory.",
         "rating": "5.0 on the App Store"
     },
     "features": {
@@ -67,6 +67,10 @@
         "colorRoute": {
             "title": "Color Route",
             "description": "Visualize your workout routes like never before. Color your path by pace, elevation, cadence, or stride length to instantly see where you pushed hardest."
+        },
+        "widgets": {
+            "title": "Widgets",
+            "description": "Keep your fitness data front and center with beautiful home screen widgets. Track steps, calories, workout progress, and body metrics at a glance—no app launch required."
         }
     },
     "screenshots": {

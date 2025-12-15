@@ -11,8 +11,8 @@
         "secs": "Seg"
     },
     "meta": {
-        "title": "Fitness Story - Transforma tus entrenamientos de Apple Salud en viajes visuales",
-        "description": "Transforma tus entrenamientos de Apple Salud en un viaje visual hermoso, perspicaz y motivador. Rastrea récords personales, analiza tendencias y visualiza tu progreso."
+        "title": "Fitness Story - Transforma entrenamientos de Apple Health & Watch en viajes visuales",
+        "description": "Transforma tus datos de Apple Watch y Salud en hermosos viajes visuales. Rastrea running, ciclismo, natación y más. Analiza tendencias, récords personales y progreso."
     },
     "nav": {
         "features": "Características",
@@ -22,7 +22,7 @@
     },
     "hero": {
         "title": "Tu viaje fitness, bellamente visualizado",
-        "description": "Transforma tus entrenamientos de Apple Salud en un viaje visual hermoso, perspicaz y motivador. Rastrea récords personales, analiza tendencias y celebra cada victoria.",
+        "description": "Transforma tus datos de Apple Watch y Salud en un viaje hermoso y perspicaz. Rastrea running, ciclismo, natación y todos tus entrenamientos. Analiza tendencias, récords y celebra cada victoria.",
         "rating": "5.0 en la App Store"
     },
     "features": {
@@ -67,6 +67,10 @@
         "colorRoute": {
             "title": "Ruta Coloreada",
             "description": "Visualiza tus rutas de entrenamiento como nunca antes. Colorea tu camino por ritmo, elevación, cadencia o longitud de zancada para ver instantáneamente dónde te esforzaste más."
+        },
+        "widgets": {
+            "title": "Widgets",
+            "description": "Mantén tus datos fitness siempre visibles con hermosos widgets. Rastrea pasos, calorías, progreso y métricas corporales de un vistazo—sin abrir la app."
         }
     },
     "screenshots": {

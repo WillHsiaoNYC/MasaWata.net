@@ -449,6 +449,22 @@ def generate_html(lang, translations):
                     </div>
 
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="7" height="7" rx="1"/>
+                                <rect x="14" y="3" width="7" height="7" rx="1"/>
+                                <rect x="3" y="14" width="7" height="7" rx="1"/>
+                                <rect x="14" y="14" width="7" height="7" rx="1"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['widgets']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['widgets']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/widgets.jpg" alt="{t['features']['widgets']['title']}" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
                         <div class="feature-card__icon feature-card__icon--green">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
@@ -486,6 +502,7 @@ def generate_html(lang, translations):
                         <div class="screenshot-item"><img src="{asset_path}images/en/action-overall-steps-analysis.jpg" alt="Steps Analysis" loading="lazy"></div>
                         <div class="screenshot-item"><img src="{asset_path}images/en/action-health-metrics-chart.jpg" alt="Health Metrics Chart" loading="lazy"></div>
                         <div class="screenshot-item"><img src="{asset_path}images/en/action-health-metrics-benchmark.jpg" alt="Health Metrics Benchmark" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-ipad-widgets.jpg" alt="iPad Widgets" loading="lazy"></div>
                     </div>
                 </div>
 

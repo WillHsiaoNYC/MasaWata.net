@@ -11,8 +11,8 @@
         "secs": "Giây"
     },
     "meta": {
-        "title": "Fitness Story - Biến bài tập Apple Health thành hành trình trực quan",
-        "description": "Biến bài tập Apple Health của bạn thành một hành trình trực quan đẹp mắt, sâu sắc và đầy cảm hứng. Theo dõi kỷ lục cá nhân, phân tích xu hướng và trực quan hóa tiến trình của bạn."
+        "title": "Fitness Story - Biến Bài Tập Apple Health & Watch Thành Hành Trình Trực Quan",
+        "description": "Biến dữ liệu Apple Watch và Sức khỏe thành hành trình trực quan đẹp mắt. Theo dõi chạy bộ, đạp xe, bơi lội và hơn thế nữa. Phân tích xu hướng, kỷ lục cá nhân và tiến độ."
     },
     "nav": {
         "features": "Tính năng",
@@ -22,7 +22,7 @@
     },
     "hero": {
         "title": "Hành trình fitness của bạn, được trực quan hóa tuyệt đẹp",
-        "description": "Biến bài tập Apple Health của bạn thành một hành trình trực quan đẹp mắt, sâu sắc và đầy cảm hứng. Theo dõi kỷ lục cá nhân, phân tích xu hướng và ăn mừng mọi chiến thắng.",
+        "description": "Biến dữ liệu Apple Watch và Sức khỏe thành hành trình đẹp mắt, sâu sắc. Theo dõi chạy bộ, đạp xe, bơi lội và tất cả bài tập. Phân tích xu hướng, kỷ lục và ăn mừng mọi chiến thắng.",
         "rating": "5.0 trên App Store"
     },
     "features": {
@@ -67,6 +67,10 @@
         "colorRoute": {
             "title": "Lộ Trình Màu Sắc",
             "description": "Trực quan hóa lộ trình tập luyện của bạn theo cách chưa từng có. Tô màu đường đi theo tốc độ, độ cao, nhịp bước hoặc độ dài sải chân."
+        },
+        "widgets": {
+            "title": "Widget",
+            "description": "Giữ dữ liệu fitness luôn hiển thị với các widget màn hình chính đẹp mắt. Theo dõi bước chân, calo, tiến độ tập luyện và chỉ số cơ thể chỉ trong nháy mắt—không cần mở ứng dụng."
         }
     },
     "screenshots": {

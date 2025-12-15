@@ -11,8 +11,8 @@
         "secs": "Seg"
     },
     "meta": {
-        "title": "Fitness Story - Transforme seus treinos do Apple Saúde em jornadas visuais",
-        "description": "Transforme seus treinos do Apple Saúde em uma jornada visual bonita, perspicaz e motivadora. Acompanhe recordes pessoais, analise tendências e visualize seu progresso."
+        "title": "Fitness Story - Transforme treinos do Apple Health & Watch em jornadas visuais",
+        "description": "Transforme seus dados do Apple Watch e Saúde em belas jornadas visuais. Acompanhe corrida, ciclismo, natação e mais. Analise tendências, recordes pessoais e progresso."
     },
     "nav": {
         "features": "Recursos",
@@ -22,7 +22,7 @@
     },
     "hero": {
         "title": "Sua jornada fitness, lindamente visualizada",
-        "description": "Transforme seus treinos do Apple Saúde em uma jornada visual bonita, perspicaz e motivadora. Acompanhe recordes pessoais, analise tendências e celebre cada vitória.",
+        "description": "Transforme seus dados do Apple Watch e Saúde em uma jornada bela e perspicaz. Acompanhe corrida, ciclismo, natação e todos os treinos. Analise tendências, recordes e celebre cada vitória.",
         "rating": "5.0 na App Store"
     },
     "features": {
@@ -67,6 +67,10 @@
         "colorRoute": {
             "title": "Rota Colorida",
             "description": "Visualize suas rotas de treino como nunca antes. Colora seu caminho por ritmo, elevação, cadência ou comprimento da passada para ver instantaneamente onde você se esforçou mais."
+        },
+        "widgets": {
+            "title": "Widgets",
+            "description": "Mantenha seus dados fitness sempre visíveis com belos widgets. Acompanhe passos, calorias, progresso e métricas corporais de relance—sem abrir o app."
         }
     },
     "screenshots": {
