@@ -379,6 +379,8 @@ body.has-promo-banner .nav__menu {
     display: flex;
     align-items: center;
     gap: var(--spacing-sm);
+    margin-right: var(--spacing-2xl);
+    /* Add explicit spacing from menu items */
 }
 
 .nav__logo-img {
@@ -1111,6 +1113,11 @@ body.has-promo-banner .nav__menu {
 
         /* Add shadow for separation */
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav__logo {
+        margin-right: auto;
+        /* Push everything else to right, reset spacing */
     }
 
     .nav__menu.active {
