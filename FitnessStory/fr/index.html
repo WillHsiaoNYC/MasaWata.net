@@ -11,7 +11,10 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-ZL852HY2Z4');
+      // Only track on production
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+        gtag('config', 'G-ZL852HY2Z4');
+      }
     </script>
 
     <!-- Primary Meta Tags -->
@@ -224,7 +227,7 @@
                 </div>
                 <div class="hero__device">
                     <div class="device-frame">
-                        <img src="../images/iphone/dashboard.png" alt="Fitness Story Dashboard" class="device-screen">
+                        <img src="../images/en/title.jpg" alt="Fitness Story Dashboard" class="device-screen">
                     </div>
                 </div>
             </div>
@@ -241,15 +244,17 @@
 
                 <div class="features__grid">
                     <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon feature-card__icon--blue">
+                        <div class="feature-card__icon feature-card__icon--yellow">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
                             </svg>
                         </div>
-                        <h3 class="feature-card__title">Chronologie</h3>
-                        <p class="feature-card__description">Vivez votre historique fitness comme un récit continu. Parcourez une chronologie visuelle riche qui entrelace vos activités avec vos souvenirs.</p>
+                        <h3 class="feature-card__title">Analyses professionnelles</h3>
+                        <p class="feature-card__description">Débloquez une suite d'analyse qui tient dans votre poche. Comparez vos entraînements côte à côte, visualisez les tendances annuelles et suivez la cadence et la longueur de foulée.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/fitness%20storyline.png" alt="Chronologie" loading="lazy">
+                            <img src="../images/en/graphs.jpg" alt="Analyses professionnelles" loading="lazy">
                         </div>
                     </div>
 
@@ -265,26 +270,51 @@
                         <h3 class="feature-card__title">Tableau de bord interactif</h3>
                         <p class="feature-card__description">Accédez à un tableau de bord entièrement interactif qui relie vos mouvements quotidiens à votre bien-être général. Suivez votre régularité avec des graphiques de contribution et des compteurs de séries.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/dashboard.png" alt="Tableau de bord interactif" loading="lazy">
+                            <img src="../images/en/dashboard.jpg" alt="Tableau de bord interactif" loading="lazy">
                         </div>
                     </div>
 
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--yellow">
+                        <div class="feature-card__icon feature-card__icon--blue">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
                         </div>
-                        <h3 class="feature-card__title">Analyses professionnelles</h3>
-                        <p class="feature-card__description">Débloquez une suite d'analyse qui tient dans votre poche. Comparez vos entraînements côte à côte, visualisez les tendances annuelles et suivez la cadence et la longueur de foulée.</p>
+                        <h3 class="feature-card__title">Chronologie</h3>
+                        <p class="feature-card__description">Vivez votre historique fitness comme un récit continu. Parcourez une chronologie visuelle riche qui entrelace vos activités avec vos souvenirs.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/workout%20analysis.png" alt="Analyses professionnelles" loading="lazy">
+                            <img src="../images/en/storyline.jpg" alt="Chronologie" loading="lazy">
                         </div>
                     </div>
 
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Mes lieux</h3>
+                        <p class="feature-card__description">Visualisez votre historique d'entraînement sur une carte, regroupé par ville et pays. Découvrez tous les endroits où votre parcours fitness vous a emmené dans le monde.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/fitness-map.jpg" alt="Mes lieux" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-card__icon feature-card__icon--red">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Favoris et tags</h3>
+                        <p class="feature-card__description">Organisez votre entraînement avec des tags personnalisés comme « Intervalles », « Récupération » ou « Jour de course ». Marquez vos meilleures séances d'un cœur pour créer une collection de performances exceptionnelles.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/favorites.jpg" alt="Favoris et tags" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
                         <div class="feature-card__icon feature-card__icon--red">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 8 7 8M18 9h1.5a2.5 2.5 0 000-5C17 4 17 8 17 8"/>
@@ -296,34 +326,7 @@
                         <h3 class="feature-card__title">Records personnels</h3>
                         <p class="feature-card__description">Nous détectons automatiquement les records personnels et les affichons avec vos photos et notes. Gardez vos victoires préférées au premier plan dans votre Vitrine des Trophées.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/Personal%20records.png" alt="Records personnels" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Mes lieux</h3>
-                        <p class="feature-card__description">Visualisez votre historique d'entraînement sur une carte, regroupé par ville et pays. Découvrez tous les endroits où votre parcours fitness vous a emmené dans le monde.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/iphone/My%20fitness%20map.png" alt="Mes lieux" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Favoris et tags</h3>
-                        <p class="feature-card__description">Organisez votre entraînement avec des tags personnalisés comme « Intervalles », « Récupération » ou « Jour de course ». Marquez vos meilleures séances d'un cœur pour créer une collection de performances exceptionnelles.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/iphone/my%20favorites.png" alt="Favoris et tags" loading="lazy">
+                            <img src="../images/en/personal-records.jpg" alt="Records personnels" loading="lazy">
                         </div>
                     </div>
 
@@ -338,7 +341,48 @@
                         <h3 class="feature-card__title">Comparaison d'entraînements</h3>
                         <p class="feature-card__description">Comparez plusieurs entraînements côte à côte (jusqu'à 10) pour voir votre progression. Analysez l'allure, la fréquence cardiaque, l'altitude et plus encore pour comprendre l'évolution de vos performances.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/workouts%20comparison.png" alt="Comparaison d'entraînements" loading="lazy">
+                            <img src="../images/en/workout-comparison.jpg" alt="Comparaison d'entraînements" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
+                        <div class="feature-card__icon feature-card__icon--purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20"/>
+                                <path d="M2 12h20"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Parcours Coloré</h3>
+                        <p class="feature-card__description">Visualisez vos parcours d'entraînement comme jamais auparavant. Colorez votre chemin par allure, dénivelé, cadence ou longueur de foulée pour voir instantanément où vous avez le plus poussé.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/color-route.jpg" alt="Parcours Coloré" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Célébrer les Records</h3>
+                        <p class="feature-card__description">Chaque record personnel mérite d'être reconnu. Lorsque vous battez un nouveau PR, célébrez ce moment avec de magnifiques visuels qui capturent votre réussite.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/record-celebration.jpg" alt="Célébrer les Records" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
+                        <div class="feature-card__icon feature-card__icon--green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Métriques de Santé</h3>
+                        <p class="feature-card__description">Surveillez toutes vos métriques de santé essentielles—des pas et calories à la fréquence cardiaque, VO2 max, sommeil et plus—en un coup d'œil. Comparez vos tendances à vos références personnelles.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/health-metrics.jpg" alt="Métriques de Santé" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -355,16 +399,18 @@
 
                 <div class="screenshots__gallery">
                     <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/iphone/dashboard.png" alt="Dashboard" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/fitness%20storyline.png" alt="Fitness Storyline" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/workout%20analysis.png" alt="Workout Analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/Personal%20records.png" alt="Personal Records" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/My%20fitness%20map.png" alt="My Fitness Map" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/my%20favorites.png" alt="My Favorites" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/combined%20metrics%20analysis.png" alt="Combined Metrics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/daily%20summary%20and%20benchmark.png" alt="Daily Summary" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/overall%20steps%20analysis%20and%20personal%20record.png" alt="Steps Analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/workouts%20comparison.png" alt="Workouts Comparison" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-dashboard-calendar.jpg" alt="Dashboard Calendar" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-storyline.jpg" alt="Storyline" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-fitness-map.jpg" alt="Fitness Map" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-personal-records.jpg" alt="Personal Records" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-personal-record-celebration.jpg" alt="Record Celebration" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-workout-organized-by-tags.jpg" alt="Workouts by Tags" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-workout-comparison-by-splits-chart.jpg" alt="Workout Comparison" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-workout-details-color-route.jpg" alt="Color Route" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-analysis-benchmark.jpg" alt="Analysis Benchmark" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-overall-steps-analysis.jpg" alt="Steps Analysis" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-health-metrics-chart.jpg" alt="Health Metrics Chart" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-health-metrics-benchmark.jpg" alt="Health Metrics Benchmark" loading="lazy"></div>
                     </div>
                 </div>
 

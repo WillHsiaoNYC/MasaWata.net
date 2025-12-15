@@ -6,6 +6,3 @@ Allow: /
 
 # Sitemap location
 Sitemap: https://masawata.net/FitnessStory/sitemap.xml
-
-# Crawl-delay for polite crawling
-Crawl-delay: 1

@@ -11,7 +11,10 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-ZL852HY2Z4');
+      // Only track on production
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+        gtag('config', 'G-ZL852HY2Z4');
+      }
     </script>
 
     <!-- Primary Meta Tags -->
@@ -224,7 +227,7 @@
                 </div>
                 <div class="hero__device">
                     <div class="device-frame">
-                        <img src="../images/iphone/dashboard.png" alt="Fitness Story Dashboard" class="device-screen">
+                        <img src="../images/en/title.jpg" alt="Fitness Story Dashboard" class="device-screen">
                     </div>
                 </div>
             </div>
@@ -241,15 +244,17 @@
 
                 <div class="features__grid">
                     <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon feature-card__icon--blue">
+                        <div class="feature-card__icon feature-card__icon--yellow">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
                             </svg>
                         </div>
-                        <h3 class="feature-card__title">Dòng thời gian</h3>
-                        <p class="feature-card__description">Trải nghiệm lịch sử fitness của bạn như một câu chuyện liên tục. Cuộn qua dòng thời gian trực quan phong phú kết nối các hoạt động của bạn với những kỷ niệm.</p>
+                        <h3 class="feature-card__title">Phân tích chuyên nghiệp</h3>
+                        <p class="feature-card__description">Mở khóa bộ công cụ phân tích vừa túi. So sánh bài tập song song, xem xu hướng hàng năm và theo dõi nhịp chân và độ dài bước chân.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/fitness%20storyline.png" alt="Dòng thời gian" loading="lazy">
+                            <img src="../images/en/graphs.jpg" alt="Phân tích chuyên nghiệp" loading="lazy">
                         </div>
                     </div>
 
@@ -265,26 +270,51 @@
                         <h3 class="feature-card__title">Bảng điều khiển tương tác</h3>
                         <p class="feature-card__description">Truy cập bảng điều khiển tương tác hoàn toàn kết nối hoạt động hàng ngày của bạn với sức khỏe tổng thể. Theo dõi sự nhất quán với biểu đồ đóng góp và bộ đếm chuỗi.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/dashboard.png" alt="Bảng điều khiển tương tác" loading="lazy">
+                            <img src="../images/en/dashboard.jpg" alt="Bảng điều khiển tương tác" loading="lazy">
                         </div>
                     </div>
 
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--yellow">
+                        <div class="feature-card__icon feature-card__icon--blue">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
                         </div>
-                        <h3 class="feature-card__title">Phân tích chuyên nghiệp</h3>
-                        <p class="feature-card__description">Mở khóa bộ công cụ phân tích vừa túi. So sánh bài tập song song, xem xu hướng hàng năm và theo dõi nhịp chân và độ dài bước chân.</p>
+                        <h3 class="feature-card__title">Dòng thời gian</h3>
+                        <p class="feature-card__description">Trải nghiệm lịch sử fitness của bạn như một câu chuyện liên tục. Cuộn qua dòng thời gian trực quan phong phú kết nối các hoạt động của bạn với những kỷ niệm.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/workout%20analysis.png" alt="Phân tích chuyên nghiệp" loading="lazy">
+                            <img src="../images/en/storyline.jpg" alt="Dòng thời gian" loading="lazy">
                         </div>
                     </div>
 
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Địa điểm của tôi</h3>
+                        <p class="feature-card__description">Xem lịch sử tập luyện trên bản đồ, được nhóm theo thành phố và quốc gia. Xem hành trình fitness đã đưa bạn đến những đâu trên thế giới.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/fitness-map.jpg" alt="Địa điểm của tôi" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-card__icon feature-card__icon--red">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Yêu thích & Nhãn</h3>
+                        <p class="feature-card__description">Sắp xếp bài tập với các nhãn tùy chỉnh như "Interval", "Phục hồi" hoặc "Ngày đua". Đánh dấu tim cho các buổi tập tốt nhất để xây dựng bộ sưu tập thành tích đỉnh cao.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/favorites.jpg" alt="Yêu thích & Nhãn" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
                         <div class="feature-card__icon feature-card__icon--red">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 8 7 8M18 9h1.5a2.5 2.5 0 000-5C17 4 17 8 17 8"/>
@@ -296,34 +326,7 @@
                         <h3 class="feature-card__title">Kỷ lục cá nhân</h3>
                         <p class="feature-card__description">Chúng tôi tự động phát hiện Kỷ lục Cá nhân và hiển thị chúng với ảnh và ghi chú của bạn. Giữ những chiến thắng yêu thích ở vị trí nổi bật trong Tủ Danh Hiệu.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/Personal%20records.png" alt="Kỷ lục cá nhân" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Địa điểm của tôi</h3>
-                        <p class="feature-card__description">Xem lịch sử tập luyện trên bản đồ, được nhóm theo thành phố và quốc gia. Xem hành trình fitness đã đưa bạn đến những đâu trên thế giới.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/iphone/My%20fitness%20map.png" alt="Địa điểm của tôi" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Yêu thích & Nhãn</h3>
-                        <p class="feature-card__description">Sắp xếp bài tập với các nhãn tùy chỉnh như "Interval", "Phục hồi" hoặc "Ngày đua". Đánh dấu tim cho các buổi tập tốt nhất để xây dựng bộ sưu tập thành tích đỉnh cao.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/iphone/my%20favorites.png" alt="Yêu thích & Nhãn" loading="lazy">
+                            <img src="../images/en/personal-records.jpg" alt="Kỷ lục cá nhân" loading="lazy">
                         </div>
                     </div>
 
@@ -338,7 +341,48 @@
                         <h3 class="feature-card__title">So sánh bài tập</h3>
                         <p class="feature-card__description">So sánh nhiều bài tập song song (tối đa 10) để xem tiến trình của bạn. Phân tích tốc độ, nhịp tim, độ cao và hơn thế nữa để hiểu hiệu suất của bạn đã phát triển như thế nào theo thời gian.</p>
                         <div class="feature-card__image">
-                            <img src="../images/iphone/workouts%20comparison.png" alt="So sánh bài tập" loading="lazy">
+                            <img src="../images/en/workout-comparison.jpg" alt="So sánh bài tập" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
+                        <div class="feature-card__icon feature-card__icon--purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20"/>
+                                <path d="M2 12h20"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Lộ Trình Màu Sắc</h3>
+                        <p class="feature-card__description">Trực quan hóa lộ trình tập luyện của bạn theo cách chưa từng có. Tô màu đường đi theo tốc độ, độ cao, nhịp bước hoặc độ dài sải chân.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/color-route.jpg" alt="Lộ Trình Màu Sắc" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Ăn Mừng Kỷ Lục</h3>
+                        <p class="feature-card__description">Mọi kỷ lục cá nhân đều xứng đáng được công nhận. Khi bạn phá vỡ PR mới, hãy ăn mừng khoảnh khắc đó với hình ảnh đẹp ghi lại thành tích của bạn.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/record-celebration.jpg" alt="Ăn Mừng Kỷ Lục" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
+                        <div class="feature-card__icon feature-card__icon--green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Chỉ Số Sức Khỏe</h3>
+                        <p class="feature-card__description">Theo dõi tất cả các chỉ số sức khỏe quan trọng—từ bước chân và calo đến nhịp tim, VO2 max, giấc ngủ và hơn thế nữa—chỉ trong nháy mắt. So sánh xu hướng của bạn với các tiêu chuẩn cá nhân.</p>
+                        <div class="feature-card__image">
+                            <img src="../images/en/health-metrics.jpg" alt="Chỉ Số Sức Khỏe" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -355,16 +399,18 @@
 
                 <div class="screenshots__gallery">
                     <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/iphone/dashboard.png" alt="Dashboard" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/fitness%20storyline.png" alt="Fitness Storyline" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/workout%20analysis.png" alt="Workout Analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/Personal%20records.png" alt="Personal Records" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/My%20fitness%20map.png" alt="My Fitness Map" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/my%20favorites.png" alt="My Favorites" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/combined%20metrics%20analysis.png" alt="Combined Metrics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/daily%20summary%20and%20benchmark.png" alt="Daily Summary" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/overall%20steps%20analysis%20and%20personal%20record.png" alt="Steps Analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/iphone/workouts%20comparison.png" alt="Workouts Comparison" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-dashboard-calendar.jpg" alt="Dashboard Calendar" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-storyline.jpg" alt="Storyline" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-fitness-map.jpg" alt="Fitness Map" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-personal-records.jpg" alt="Personal Records" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-personal-record-celebration.jpg" alt="Record Celebration" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-workout-organized-by-tags.jpg" alt="Workouts by Tags" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-workout-comparison-by-splits-chart.jpg" alt="Workout Comparison" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-workout-details-color-route.jpg" alt="Color Route" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-analysis-benchmark.jpg" alt="Analysis Benchmark" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-overall-steps-analysis.jpg" alt="Steps Analysis" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-health-metrics-chart.jpg" alt="Health Metrics Chart" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/action-health-metrics-benchmark.jpg" alt="Health Metrics Benchmark" loading="lazy"></div>
                     </div>
                 </div>
 

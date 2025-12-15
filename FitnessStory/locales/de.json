@@ -55,6 +55,18 @@
         "comparison": {
             "title": "Workout-Vergleich",
             "description": "Vergleiche mehrere Workouts nebeneinander (bis zu 10), um deinen Fortschritt zu sehen. Analysiere Tempo, Herzfrequenz, Höhe und mehr, um zu verstehen, wie sich deine Leistung entwickelt hat."
+        },
+        "healthMetrics": {
+            "title": "Gesundheitsmetriken",
+            "description": "Überwachen Sie alle wichtigen Gesundheitsmetriken auf einen Blick—von Schritten und Kalorien bis hin zu Herzfrequenz, VO2 max, Schlaf und mehr. Vergleichen Sie Ihre Trends mit persönlichen Benchmarks."
+        },
+        "celebration": {
+            "title": "Rekorde Feiern",
+            "description": "Jeder persönliche Rekord verdient Anerkennung. Wenn Sie einen neuen PR brechen, feiern Sie den Moment mit schönen Visualisierungen, die Ihre Leistung festhalten."
+        },
+        "colorRoute": {
+            "title": "Farbige Route",
+            "description": "Visualisieren Sie Ihre Trainingsrouten wie nie zuvor. Färben Sie Ihren Weg nach Tempo, Höhe, Kadenz oder Schrittlänge ein, um sofort zu sehen, wo Sie am härtesten gepusht haben."
         }
     },
     "screenshots": {

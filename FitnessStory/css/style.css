@@ -1252,6 +1252,8 @@ body.has-promo-banner .nav__menu {
         --color-text: #F5F5F7;
         --color-text-secondary: #A1A1A6;
         --color-border: #38383A;
+        --gradient-hero: linear-gradient(180deg, #1D1D1F 0%, #000000 100%);
+        --gradient-card: linear-gradient(145deg, #1D1D1F 0%, #161617 100%);
     }
 
     .header {

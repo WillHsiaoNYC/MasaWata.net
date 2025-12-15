@@ -6,6 +6,72 @@
 (function () {
     'use strict';
 
+    // ===== Locale Detection & Persistence =====
+    const SUPPORTED_LOCALES = ['en', 'ja', 'ko', 'zh-Hans', 'zh-Hant', 'fr', 'de', 'es', 'pt', 'it', 'ru', 'hi', 'id', 'vi'];
+    const LOCALE_STORAGE_KEY = 'preferred-locale';
+
+    function getCurrentLocale() {
+        const path = window.location.pathname;
+        for (const locale of SUPPORTED_LOCALES) {
+            if (path.startsWith('/' + locale + '/')) {
+                return locale;
+            }
+        }
+        return 'en';
+    }
+
+    function detectUserLocale() {
+        const userLang = navigator.language || navigator.userLanguage;
+        // Check full locale first (e.g., zh-Hans, zh-Hant)
+        if (SUPPORTED_LOCALES.includes(userLang)) {
+            return userLang;
+        }
+        // Check base language (e.g., ja, ko, fr)
+        const baseLang = userLang.split('-')[0];
+        if (SUPPORTED_LOCALES.includes(baseLang)) {
+            return baseLang;
+        }
+        // Special handling for Chinese variants
+        if (userLang.startsWith('zh')) {
+            return userLang.includes('TW') || userLang.includes('HK') ? 'zh-Hant' : 'zh-Hans';
+        }
+        return 'en';
+    }
+
+    function redirectToLocale(locale) {
+        if (locale === 'en') {
+            window.location.href = '/';
+        } else {
+            window.location.href = '/' + locale + '/';
+        }
+    }
+
+    function initLocaleRedirect() {
+        const currentLocale = getCurrentLocale();
+        const savedLocale = localStorage.getItem(LOCALE_STORAGE_KEY);
+
+        if (savedLocale) {
+            // User has a saved preference - redirect if not on that page
+            if (savedLocale !== currentLocale) {
+                redirectToLocale(savedLocale);
+                return;
+            }
+        } else {
+            // First visit - detect locale and redirect if needed
+            const detectedLocale = detectUserLocale();
+            if (detectedLocale !== currentLocale) {
+                localStorage.setItem(LOCALE_STORAGE_KEY, detectedLocale);
+                redirectToLocale(detectedLocale);
+                return;
+            }
+            // Save current locale as preference
+            localStorage.setItem(LOCALE_STORAGE_KEY, currentLocale);
+        }
+    }
+
+    // Run locale detection immediately
+    initLocaleRedirect();
+
     // ===== DOM Elements =====
     const header = document.getElementById('header');
     const navToggle = document.getElementById('nav-toggle');
@@ -57,6 +123,21 @@
             if (!languageSelector.contains(e.target)) {
                 languageSelector.classList.remove('active');
             }
+        });
+
+        // Save language preference when user selects a language
+        languageSelector.querySelectorAll('.language-dropdown a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                const href = link.getAttribute('href');
+                let locale = 'en';
+                for (const loc of SUPPORTED_LOCALES) {
+                    if (href.includes('/' + loc + '/')) {
+                        locale = loc;
+                        break;
+                    }
+                }
+                localStorage.setItem(LOCALE_STORAGE_KEY, locale);
+            });
         });
     }
 

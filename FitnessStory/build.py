@@ -53,7 +53,10 @@ GOOGLE_ANALYTICS = '''<!-- Google tag (gtag.js) -->
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-ZL852HY2Z4');
+      // Only track on production
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+        gtag('config', 'G-ZL852HY2Z4');
+      }
     </script>'''
 
 # Promo banner configuration
@@ -299,7 +302,7 @@ def generate_html(lang, translations):
                 </div>
                 <div class="hero__device">
                     <div class="device-frame">
-                        <img src="{asset_path}images/iphone/dashboard.png" alt="Fitness Story Dashboard" class="device-screen">
+                        <img src="{asset_path}images/en/title.jpg" alt="Fitness Story Dashboard" class="device-screen">
                     </div>
                 </div>
             </div>
@@ -316,15 +319,17 @@ def generate_html(lang, translations):
 
                 <div class="features__grid">
                     <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon feature-card__icon--blue">
+                        <div class="feature-card__icon feature-card__icon--yellow">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
                             </svg>
                         </div>
-                        <h3 class="feature-card__title">{t['features']['storyline']['title']}</h3>
-                        <p class="feature-card__description">{t['features']['storyline']['description']}</p>
+                        <h3 class="feature-card__title">{t['features']['analytics']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['analytics']['description']}</p>
                         <div class="feature-card__image">
-                            <img src="{asset_path}images/iphone/fitness%20storyline.png" alt="{t['features']['storyline']['title']}" loading="lazy">
+                            <img src="{asset_path}images/en/graphs.jpg" alt="{t['features']['analytics']['title']}" loading="lazy">
                         </div>
                     </div>
 
@@ -340,26 +345,51 @@ def generate_html(lang, translations):
                         <h3 class="feature-card__title">{t['features']['dashboard']['title']}</h3>
                         <p class="feature-card__description">{t['features']['dashboard']['description']}</p>
                         <div class="feature-card__image">
-                            <img src="{asset_path}images/iphone/dashboard.png" alt="{t['features']['dashboard']['title']}" loading="lazy">
+                            <img src="{asset_path}images/en/dashboard.jpg" alt="{t['features']['dashboard']['title']}" loading="lazy">
                         </div>
                     </div>
 
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--yellow">
+                        <div class="feature-card__icon feature-card__icon--blue">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
                         </div>
-                        <h3 class="feature-card__title">{t['features']['analytics']['title']}</h3>
-                        <p class="feature-card__description">{t['features']['analytics']['description']}</p>
+                        <h3 class="feature-card__title">{t['features']['storyline']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['storyline']['description']}</p>
                         <div class="feature-card__image">
-                            <img src="{asset_path}images/iphone/workout%20analysis.png" alt="{t['features']['analytics']['title']}" loading="lazy">
+                            <img src="{asset_path}images/en/storyline.jpg" alt="{t['features']['storyline']['title']}" loading="lazy">
                         </div>
                     </div>
 
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['locations']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['locations']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/fitness-map.jpg" alt="{t['features']['locations']['title']}" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-card__icon feature-card__icon--red">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['favorites']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['favorites']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/favorites.jpg" alt="{t['features']['favorites']['title']}" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
                         <div class="feature-card__icon feature-card__icon--red">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 8 7 8M18 9h1.5a2.5 2.5 0 000-5C17 4 17 8 17 8"/>
@@ -371,34 +401,7 @@ def generate_html(lang, translations):
                         <h3 class="feature-card__title">{t['features']['records']['title']}</h3>
                         <p class="feature-card__description">{t['features']['records']['description']}</p>
                         <div class="feature-card__image">
-                            <img src="{asset_path}images/iphone/Personal%20records.png" alt="{t['features']['records']['title']}" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">{t['features']['locations']['title']}</h3>
-                        <p class="feature-card__description">{t['features']['locations']['description']}</p>
-                        <div class="feature-card__image">
-                            <img src="{asset_path}images/iphone/My%20fitness%20map.png" alt="{t['features']['locations']['title']}" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">{t['features']['favorites']['title']}</h3>
-                        <p class="feature-card__description">{t['features']['favorites']['description']}</p>
-                        <div class="feature-card__image">
-                            <img src="{asset_path}images/iphone/my%20favorites.png" alt="{t['features']['favorites']['title']}" loading="lazy">
+                            <img src="{asset_path}images/en/personal-records.jpg" alt="{t['features']['records']['title']}" loading="lazy">
                         </div>
                     </div>
 
@@ -413,7 +416,48 @@ def generate_html(lang, translations):
                         <h3 class="feature-card__title">{t['features']['comparison']['title']}</h3>
                         <p class="feature-card__description">{t['features']['comparison']['description']}</p>
                         <div class="feature-card__image">
-                            <img src="{asset_path}images/iphone/workouts%20comparison.png" alt="{t['features']['comparison']['title']}" loading="lazy">
+                            <img src="{asset_path}images/en/workout-comparison.jpg" alt="{t['features']['comparison']['title']}" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
+                        <div class="feature-card__icon feature-card__icon--purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20"/>
+                                <path d="M2 12h20"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['colorRoute']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['colorRoute']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/color-route.jpg" alt="{t['features']['colorRoute']['title']}" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['celebration']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['celebration']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/record-celebration.jpg" alt="{t['features']['celebration']['title']}" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
+                        <div class="feature-card__icon feature-card__icon--green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['healthMetrics']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['healthMetrics']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/health-metrics.jpg" alt="{t['features']['healthMetrics']['title']}" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -430,16 +474,18 @@ def generate_html(lang, translations):
 
                 <div class="screenshots__gallery">
                     <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/dashboard.png" alt="Dashboard" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/fitness%20storyline.png" alt="Fitness Storyline" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/workout%20analysis.png" alt="Workout Analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/Personal%20records.png" alt="Personal Records" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/My%20fitness%20map.png" alt="My Fitness Map" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/my%20favorites.png" alt="My Favorites" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/combined%20metrics%20analysis.png" alt="Combined Metrics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/daily%20summary%20and%20benchmark.png" alt="Daily Summary" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/overall%20steps%20analysis%20and%20personal%20record.png" alt="Steps Analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/iphone/workouts%20comparison.png" alt="Workouts Comparison" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-dashboard-calendar.jpg" alt="Dashboard Calendar" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-storyline.jpg" alt="Storyline" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-fitness-map.jpg" alt="Fitness Map" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-personal-records.jpg" alt="Personal Records" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-personal-record-celebration.jpg" alt="Record Celebration" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-workout-organized-by-tags.jpg" alt="Workouts by Tags" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-workout-comparison-by-splits-chart.jpg" alt="Workout Comparison" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-workout-details-color-route.jpg" alt="Color Route" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-analysis-benchmark.jpg" alt="Analysis Benchmark" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-overall-steps-analysis.jpg" alt="Steps Analysis" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-health-metrics-chart.jpg" alt="Health Metrics Chart" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/action-health-metrics-benchmark.jpg" alt="Health Metrics Benchmark" loading="lazy"></div>
                     </div>
                 </div>
 

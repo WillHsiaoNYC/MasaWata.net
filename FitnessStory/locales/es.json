@@ -55,6 +55,18 @@
         "comparison": {
             "title": "Comparación de entrenamientos",
             "description": "Compara múltiples entrenamientos lado a lado (hasta 10) para ver tu progreso. Analiza ritmo, frecuencia cardíaca, elevación y más para entender cómo ha evolucionado tu rendimiento."
+        },
+        "healthMetrics": {
+            "title": "Métricas de Salud",
+            "description": "Monitorea todas tus métricas de salud esenciales—desde pasos y calorías hasta frecuencia cardíaca, VO2 max, sueño y más—de un vistazo. Compara tus tendencias con tus referencias personales."
+        },
+        "celebration": {
+            "title": "Celebrar Récords",
+            "description": "Cada récord personal merece reconocimiento. Cuando superes un nuevo PR, celebra el momento con hermosos visuales que capturan tu logro."
+        },
+        "colorRoute": {
+            "title": "Ruta Coloreada",
+            "description": "Visualiza tus rutas de entrenamiento como nunca antes. Colorea tu camino por ritmo, elevación, cadencia o longitud de zancada para ver instantáneamente dónde te esforzaste más."
         }
     },
     "screenshots": {

@@ -55,6 +55,18 @@
         "comparison": {
             "title": "Perbandingan Latihan",
             "description": "Bandingkan beberapa latihan secara berdampingan (hingga 10) untuk melihat kemajuan Anda. Analisis kecepatan, detak jantung, ketinggian, dan lainnya untuk memahami bagaimana performa Anda berkembang dari waktu ke waktu."
+        },
+        "healthMetrics": {
+            "title": "Metrik Kesehatan",
+            "description": "Pantau semua metrik kesehatan penting Anda—dari langkah dan kalori hingga detak jantung, VO2 max, tidur, dan lainnya—dalam sekejap. Bandingkan tren Anda dengan tolok ukur pribadi."
+        },
+        "celebration": {
+            "title": "Rayakan Rekor",
+            "description": "Setiap rekor pribadi layak mendapat pengakuan. Saat Anda memecahkan PR baru, rayakan momen itu dengan visual indah yang mengabadikan pencapaian Anda."
+        },
+        "colorRoute": {
+            "title": "Rute Berwarna",
+            "description": "Visualisasikan rute latihan Anda dengan cara yang belum pernah ada sebelumnya. Warnai jalur Anda berdasarkan kecepatan, ketinggian, irama, atau panjang langkah."
         }
     },
     "screenshots": {

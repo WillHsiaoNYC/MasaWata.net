@@ -5,5 +5,8 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZL852HY2Z4');
+  // Only track on production
+  if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    gtag('config', 'G-ZL852HY2Z4');
+  }
 </script>

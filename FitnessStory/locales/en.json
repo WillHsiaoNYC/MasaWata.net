@@ -55,6 +55,18 @@
         "comparison": {
             "title": "Workouts Comparison",
             "description": "Compare multiple workouts side-by-side (up to 10) to see your progress. Analyze pace, heart rate, elevation, and more to understand how your performance has evolved over time."
+        },
+        "healthMetrics": {
+            "title": "Health Metrics",
+            "description": "Monitor all your essential health metrics—from steps and calories to heart rate, VO2 max, sleep, and beyond—at a glance. Compare your trends against personal benchmarks to stay on track."
+        },
+        "celebration": {
+            "title": "Celebrate Records",
+            "description": "Every personal record deserves recognition. When you break a new PR, celebrate the moment with beautiful visuals that capture your achievement."
+        },
+        "colorRoute": {
+            "title": "Color Route",
+            "description": "Visualize your workout routes like never before. Color your path by pace, elevation, cadence, or stride length to instantly see where you pushed hardest."
         }
     },
     "screenshots": {
