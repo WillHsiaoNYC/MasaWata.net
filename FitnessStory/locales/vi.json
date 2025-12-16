@@ -100,6 +100,28 @@
         "description": "Fitness Story đọc dữ liệu trực tiếp từ Apple Health ở chế độ chỉ đọc. Tất cả tính toán và phân tích diễn ra an toàn trên thiết bị của bạn. Dữ liệu sức khỏe của bạn không bao giờ được gửi cho chúng tôi hoặc bất kỳ bên thứ ba nào.",
         "link": "Đọc Chính sách Bảo mật"
     },
+    "faq": {
+        "title": "Câu Hỏi Thường Gặp",
+        "subtitle": "Tất cả những gì bạn cần biết về Fitness Story",
+        "items": [
+            {
+                "question": "Ứng dụng theo dõi bài tập của tôi như thế nào?",
+                "answer": "Fitness Story không trực tiếp theo dõi bài tập—Apple Watch và iPhone của bạn đã làm điều đó hoàn hảo rồi! Thiết bị của bạn liên tục thu thập dữ liệu bài tập và các chỉ số cơ thể, lưu trữ tất cả trong Apple Health. Chỉ cần cấp cho ứng dụng quyền truy cập chỉ đọc, và chúng tôi sẽ biến tất cả dữ liệu đó thành báo cáo tuyệt đẹp, phân tích sâu sắc và thông tin hữu ích."
+            },
+            {
+                "question": "Ghi chú, ảnh, nhãn, đánh giá và yêu thích của tôi được lưu ở đâu?",
+                "answer": "Tất cả dữ liệu cá nhân của bạn—ghi chú, ảnh, nhãn, đánh giá và yêu thích—được lưu trữ an toàn trong bộ nhớ cục bộ của thiết bị và tài khoản iCloud cá nhân của bạn. Dữ liệu của bạn đồng bộ liền mạch trên tất cả thiết bị Apple. Ngay cả khi bạn xóa ứng dụng, dữ liệu của bạn vẫn an toàn trong iCloud và sẽ được khôi phục khi cài đặt lại."
+            },
+            {
+                "question": "Ứng dụng hiển thị những chỉ số cơ thể nào?",
+                "answer": "Fitness Story trình bày cái nhìn toàn diện về dữ liệu sức khỏe của bạn: bước chân hàng ngày, calo hoạt động, VO2 max, vùng nhịp tim, nồng độ oxy trong máu, nhiệt độ cổ tay, cân nặng, khối lượng cơ nạc, tỷ lệ mỡ cơ thể, BMI, nhịp thở và phân tích giấc ngủ chi tiết. Mọi thứ bạn cần để hiểu hiệu suất cơ thể."
+            },
+            {
+                "question": "Ứng dụng hỗ trợ những hoạt động tập luyện nào?",
+                "answer": "Fitness Story hỗ trợ tất cả các loại bài tập mà Apple Watch theo dõi—hơn 80 hoạt động! Bao gồm các hoạt động phổ biến như chạy bộ, đạp xe, bơi lội, HIIT, yoga và tập tạ, cùng với các hoạt động chuyên biệt như pickleball, leo núi, võ thuật, trượt tuyết, nhảy múa và nhiều hơn nữa. Nếu Apple Watch của bạn có thể theo dõi, Fitness Story có thể trực quan hóa."
+            }
+        ]
+    },
     "footer": {
         "appStore": "App Store",
         "privacy": "Chính sách Bảo mật",

@@ -582,6 +582,32 @@ def generate_html(lang, translations):
             </div>
         </section>
 
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">{t['faq']['title']}</h2>
+                    <p class="section-subtitle">{t['faq']['subtitle']}</p>
+                </div>
+
+                <div class="faq__list">
+                    {''.join(f"""
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="{i * 100}">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>{item['question']}</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>{item['answer']}</p>
+                        </div>
+                    </div>
+                    """ for i, item in enumerate(t['faq']['items']))}
+                </div>
+            </div>
+        </section>
+
         <!-- Privacy Section -->
         <section class="privacy" id="privacy">
             <div class="container">

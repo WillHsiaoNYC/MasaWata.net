@@ -100,6 +100,28 @@
         "description": "Fitness Story liest deine Daten direkt aus Apple Health im Nur-Lese-Modus. Alle Berechnungen und Analysen erfolgen sicher auf deinem Gerät. Deine Gesundheitsdaten werden niemals an uns oder Dritte gesendet.",
         "link": "Datenschutzerklärung lesen"
     },
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "subtitle": "Alles, was Sie über Fitness Story wissen müssen",
+        "items": [
+            {
+                "question": "Wie verfolgt die App meine Workouts?",
+                "answer": "Fitness Story verfolgt Workouts nicht direkt—das machen Ihre Apple Watch und Ihr iPhone bereits perfekt! Ihre Geräte sammeln kontinuierlich Workout-Daten und Körpermetriken und speichern alles in Apple Health. Gewähren Sie der App einfach Lesezugriff, und wir verwandeln alle Daten in ansprechende Berichte, aufschlussreiche Analysen und umsetzbare Erkenntnisse."
+            },
+            {
+                "question": "Wo werden meine Notizen, Fotos, Tags, Bewertungen und Favoriten gespeichert?",
+                "answer": "Alle Ihre persönlichen Daten—Notizen, Fotos, Tags, Bewertungen und Favoriten—werden sicher im lokalen Speicher Ihres Geräts und Ihrem persönlichen iCloud-Konto gespeichert. Ihre Daten werden nahtlos zwischen allen Apple-Geräten synchronisiert. Selbst wenn Sie die App löschen, bleiben Ihre Daten sicher in iCloud und werden bei der Neuinstallation wiederhergestellt."
+            },
+            {
+                "question": "Welche Körpermetriken zeigt die App an?",
+                "answer": "Fitness Story bietet einen umfassenden Überblick über Ihre Gesundheitsdaten: tägliche Schritte, aktive Kalorien, VO2 max, Herzfrequenzzonen, Blutsauerstoffwerte, Handgelenktemperatur, Gewicht, fettfreie Masse, Körperfettanteil, BMI, Atemfrequenz und detaillierte Schlafanalyse. Alles, was Sie brauchen, um die Leistung Ihres Körpers zu verstehen."
+            },
+            {
+                "question": "Welche Workout-Aktivitäten werden unterstützt?",
+                "answer": "Fitness Story unterstützt alle Workout-Typen, die Apple Watch verfolgt—über 80 Aktivitäten! Dazu gehören beliebte Aktivitäten wie Laufen, Radfahren, Schwimmen, HIIT, Yoga und Krafttraining sowie spezialisierte Aktivitäten wie Pickleball, Klettern, Kampfsport, Skifahren, Tanzen und viele mehr. Wenn Ihre Apple Watch es verfolgen kann, kann Fitness Story es visualisieren."
+            }
+        ]
+    },
     "footer": {
         "appStore": "App Store",
         "privacy": "Datenschutzerklärung",

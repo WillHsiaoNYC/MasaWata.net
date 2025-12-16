@@ -100,6 +100,28 @@
         "description": "Fitness Story membaca data Anda langsung dari Apple Health dalam mode baca-saja. Semua perhitungan dan analisis terjadi dengan aman di perangkat Anda. Data kesehatan Anda tidak pernah dikirim kepada kami atau pihak ketiga mana pun.",
         "link": "Baca Kebijakan Privasi kami"
     },
+    "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "subtitle": "Semua yang perlu Anda ketahui tentang Fitness Story",
+        "items": [
+            {
+                "question": "Bagaimana aplikasi melacak latihan saya?",
+                "answer": "Fitness Story tidak melacak latihan secara langsung—Apple Watch dan iPhone Anda sudah melakukannya dengan sempurna! Perangkat Anda terus mengumpulkan data latihan dan metrik tubuh, menyimpan semuanya di Apple Health. Cukup berikan aplikasi akses baca-saja, dan kami akan mengubah semua data itu menjadi laporan menakjubkan, analisis mendalam, dan wawasan yang dapat ditindaklanjuti."
+            },
+            {
+                "question": "Di mana catatan, foto, tag, rating, dan favorit saya disimpan?",
+                "answer": "Semua data pribadi Anda—catatan, foto, tag, rating, dan favorit—disimpan dengan aman di penyimpanan lokal perangkat dan akun iCloud pribadi Anda. Data Anda tersinkronisasi dengan mulus di semua perangkat Apple Anda. Bahkan jika Anda menghapus aplikasi, data Anda tetap aman di iCloud dan akan dipulihkan saat menginstal ulang."
+            },
+            {
+                "question": "Metrik tubuh apa yang ditampilkan aplikasi?",
+                "answer": "Fitness Story menyajikan tampilan komprehensif data kesehatan Anda: langkah harian, kalori aktif, VO2 max, zona detak jantung, kadar oksigen darah, suhu pergelangan tangan, berat badan, massa tubuh tanpa lemak, persentase lemak tubuh, BMI, laju pernapasan, dan analisis tidur terperinci. Semua yang Anda butuhkan untuk memahami performa tubuh Anda."
+            },
+            {
+                "question": "Aktivitas latihan apa yang didukung?",
+                "answer": "Fitness Story mendukung semua jenis latihan yang dilacak Apple Watch—lebih dari 80 aktivitas! Ini termasuk aktivitas populer seperti lari, bersepeda, renang, HIIT, yoga, dan latihan kekuatan, serta aktivitas khusus seperti pickleball, panjat tebing, seni bela diri, ski, dansa, dan banyak lagi. Jika Apple Watch Anda bisa melacaknya, Fitness Story bisa memvisualisasikannya."
+            }
+        ]
+    },
     "footer": {
         "appStore": "App Store",
         "privacy": "Kebijakan Privasi",

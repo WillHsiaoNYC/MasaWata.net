@@ -100,6 +100,28 @@
         "description": "Fitness Story legge i tuoi dati direttamente da Apple Salute in modalità di sola lettura. Tutti i calcoli e le analisi avvengono in modo sicuro sul tuo dispositivo. I tuoi dati sulla salute non vengono mai inviati a noi o a terze parti.",
         "link": "Leggi la nostra informativa sulla privacy"
     },
+    "faq": {
+        "title": "Domande Frequenti",
+        "subtitle": "Tutto quello che devi sapere su Fitness Story",
+        "items": [
+            {
+                "question": "Come traccia l'app i miei allenamenti?",
+                "answer": "Fitness Story non traccia gli allenamenti direttamente—il tuo Apple Watch e iPhone lo fanno già perfettamente! I tuoi dispositivi raccolgono continuamente dati di allenamento e metriche corporee, memorizzando tutto in Apple Salute. Basta concedere all'app l'accesso in sola lettura, e trasformeremo tutti quei dati in report straordinari, analisi approfondite e insight utili."
+            },
+            {
+                "question": "Dove vengono salvati le mie note, foto, tag, valutazioni e preferiti?",
+                "answer": "Tutti i tuoi dati personali—note, foto, tag, valutazioni e preferiti—sono archiviati in modo sicuro nello storage locale del tuo dispositivo e nel tuo account iCloud personale. I tuoi dati si sincronizzano perfettamente su tutti i tuoi dispositivi Apple. Anche se elimini l'app, i tuoi dati rimangono al sicuro in iCloud e verranno ripristinati quando reinstalli."
+            },
+            {
+                "question": "Quali metriche corporee mostra l'app?",
+                "answer": "Fitness Story presenta una visione completa dei tuoi dati sulla salute: passi giornalieri, calorie attive, VO2 max, zone di frequenza cardiaca, livelli di ossigeno nel sangue, temperatura del polso, peso, massa magra, percentuale di grasso corporeo, BMI, frequenza respiratoria e analisi dettagliata del sonno. Tutto ciò che ti serve per capire le prestazioni del tuo corpo."
+            },
+            {
+                "question": "Quali attività di allenamento sono supportate?",
+                "answer": "Fitness Story supporta tutti i tipi di allenamento tracciati da Apple Watch—oltre 80 attività! Include attività popolari come corsa, ciclismo, nuoto, HIIT, yoga e allenamento con i pesi, oltre ad attività specializzate come pickleball, arrampicata, arti marziali, sci, danza e molte altre. Se il tuo Apple Watch può tracciarlo, Fitness Story può visualizzarlo."
+            }
+        ]
+    },
     "footer": {
         "appStore": "App Store",
         "privacy": "Informativa sulla privacy",

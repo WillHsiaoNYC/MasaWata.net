@@ -100,6 +100,28 @@
         "description": "Fitness Story reads your data directly from Apple Health in read-only mode. All calculations and analysis happen securely on your device. Your health data is never sent to us or any third parties.",
         "link": "Read our Privacy Policy"
     },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about Fitness Story",
+        "items": [
+            {
+                "question": "How does the app track my workouts?",
+                "answer": "Fitness Story doesn't track workouts directly—your Apple Watch and iPhone already do that beautifully! Your devices continuously collect workout data and body metrics, storing everything in Apple Health. Simply grant the app read-only access, and we'll transform all that data into stunning reports, insightful analysis, and actionable insights."
+            },
+            {
+                "question": "Where are my notes, photos, tags, ratings, and favorites stored?",
+                "answer": "All your personal additions—notes, photos, tags, ratings, and favorites—are securely saved in your device's local storage and your personal iCloud account. Your data syncs seamlessly across all your Apple devices. Even if you delete the app, your data remains safe in iCloud and will be restored when you reinstall."
+            },
+            {
+                "question": "What body metrics does the app display?",
+                "answer": "Fitness Story presents a comprehensive view of your health data: daily steps, active calories, VO2 max, heart rate zones, blood oxygen levels, wrist temperature, weight, lean body mass, body fat percentage, BMI, respiratory rate, and detailed sleep analysis. Everything you need to understand your body's performance."
+            },
+            {
+                "question": "What workout activities are supported?",
+                "answer": "Fitness Story supports every workout type that Apple Watch tracks—over 80 activities! This includes popular ones like Running, Cycling, Swimming, HIIT, Yoga, and Strength Training, plus specialized activities like Pickleball, Climbing, Martial Arts, Skiing, Dance, and many more. If your Apple Watch can track it, Fitness Story can visualize it."
+            }
+        ]
+    },
     "footer": {
         "appStore": "App Store",
         "privacy": "Privacy Policy",
