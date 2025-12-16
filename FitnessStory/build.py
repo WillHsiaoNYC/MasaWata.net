@@ -286,7 +286,7 @@ def generate_html(lang, translations):
                     <img src="{asset_path}images/Fitness%20Story.png" alt="Fitness Story App Icon" class="hero__icon">
                     <h1 class="hero__title">{t['hero']['title']}</h1>
                     <p class="hero__description">{t['hero']['description']}</p>
-                    <a href="https://apps.apple.com/us/app/fitness-story/id6748090363" class="hero__download" target="_blank" rel="noopener">
+                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
                         <img src="{asset_path}assets/app-store-badges/app-store-badge-{lang['code']}.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='{asset_path}assets/app-store-badges/app-store-badge-en.svg'">
                     </a>
                     <div class="hero__rating">
@@ -572,7 +572,7 @@ def generate_html(lang, translations):
                     <img src="{asset_path}images/Fitness%20Story.png" alt="Fitness Story" class="download__icon">
                     <h2 class="download__title">{t['download']['title']}</h2>
                     <p class="download__description">{t['download']['description']}</p>
-                    <a href="https://apps.apple.com/us/app/fitness-story/id6748090363" class="download__button" target="_blank" rel="noopener">
+                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
                         <img src="{asset_path}assets/app-store-badges/app-store-badge-{lang['code']}.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='{asset_path}assets/app-store-badges/app-store-badge-en.svg'">
                     </a>
                     <div class="download__platforms">
@@ -634,7 +634,7 @@ def generate_html(lang, translations):
                     <span class="footer__name">{t['appName']}</span>
                 </div>
                 <div class="footer__links">
-                    <a href="https://apps.apple.com/us/app/fitness-story/id6748090363" target="_blank" rel="noopener">{t['footer']['appStore']}</a>
+                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">{t['footer']['appStore']}</a>
                     <a href="https://masawata.net/privacy-policy.html">{t['footer']['privacy']}</a>
                     <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">{t['footer']['terms']}</a>
                 </div>
