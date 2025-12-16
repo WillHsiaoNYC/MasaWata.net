@@ -196,7 +196,7 @@ def generate_html(lang, translations):
     <link rel="apple-touch-icon" href="{asset_path}images/Fitness%20Story.png">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="{asset_path}css/style.css">
+    <link rel="stylesheet" href="{asset_path}css/style.css?v=1.2">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">

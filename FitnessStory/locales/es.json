@@ -102,11 +102,11 @@
     },
     "faq": {
         "title": "Preguntas frecuentes",
-        "subtitle": "Todo lo que necesitas saber sobre Fitness Story",
+        "subtitle": "Todo lo que necesitas saber sobre Historia Fitness",
         "items": [
             {
                 "question": "¿Cómo rastrea la app mis entrenamientos?",
-                "answer": "Fitness Story no rastrea entrenamientos directamente—¡tu Apple Watch y iPhone ya lo hacen perfectamente! Tus dispositivos recopilan continuamente datos de entrenamiento y métricas corporales, almacenando todo en Apple Salud. Simplemente otorga a la app acceso de solo lectura, y transformaremos todos esos datos en informes impresionantes, análisis perspicaces e información útil."
+                "answer": "Historia Fitness no rastrea entrenamientos directamente—¡tu Apple Watch y iPhone ya lo hacen perfectamente! Tus dispositivos recopilan continuamente datos de entrenamiento y métricas corporales, almacenando todo en Apple Salud. Simplemente otorga a la app acceso de solo lectura, y transformaremos todos esos datos en informes impresionantes, análisis perspicaces e información útil."
             },
             {
                 "question": "¿Dónde se guardan mis notas, fotos, etiquetas, calificaciones y favoritos?",
@@ -114,11 +114,11 @@
             },
             {
                 "question": "¿Qué métricas corporales muestra la app?",
-                "answer": "Fitness Story presenta una vista completa de tus datos de salud: pasos diarios, calorías activas, VO2 máx, zonas de frecuencia cardíaca, niveles de oxígeno en sangre, temperatura de muñeca, peso, masa magra, porcentaje de grasa corporal, IMC, frecuencia respiratoria y análisis detallado del sueño. Todo lo que necesitas para entender el rendimiento de tu cuerpo."
+                "answer": "Historia Fitness presenta una vista completa de tus datos de salud: pasos diarios, calorías activas, VO2 máx, zonas de frecuencia cardíaca, niveles de oxígeno en sangre, temperatura de muñeca, peso, masa magra, porcentaje de grasa corporal, IMC, frecuencia respiratoria y análisis detallado del sueño. Todo lo que necesitas para entender el rendimiento de tu cuerpo."
             },
             {
                 "question": "¿Qué actividades de entrenamiento son compatibles?",
-                "answer": "Fitness Story es compatible con todos los tipos de entrenamiento que rastrea Apple Watch—¡más de 80 actividades! Esto incluye actividades populares como correr, ciclismo, natación, HIIT, yoga y entrenamiento de fuerza, además de actividades especializadas como pickleball, escalada, artes marciales, esquí, baile y muchas más. Si tu Apple Watch puede rastrearlo, Fitness Story puede visualizarlo."
+                "answer": "Historia Fitness es compatible con todos los tipos de entrenamiento que rastrea Apple Watch—¡más de 80 actividades! Esto incluye actividades populares como correr, ciclismo, natación, HIIT, yoga y entrenamiento de fuerza, además de actividades especializadas como pickleball, escalada, artes marciales, esquí, baile y muchas más. Si tu Apple Watch puede rastrearlo, Historia Fitness puede visualizarlo."
             }
         ]
     },

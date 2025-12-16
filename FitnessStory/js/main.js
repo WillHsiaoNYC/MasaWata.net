@@ -177,6 +177,20 @@
         });
     });
 
+    // ===== FAQ Expansion =====
+    const faqQuestions = document.querySelectorAll('.faq__question');
+
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            const item = question.closest('.faq__item');
+            const isExpanded = question.getAttribute('aria-expanded') === 'true';
+
+            // Toggle current item
+            question.setAttribute('aria-expanded', !isExpanded);
+            item.classList.toggle('active');
+        });
+    });
+
 
     // ===== Screenshots Gallery Navigation =====
     if (screenshotsTrack && prevBtn && nextBtn) {
