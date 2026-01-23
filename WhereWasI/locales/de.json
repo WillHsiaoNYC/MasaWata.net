@@ -1,0 +1,93 @@
+{
+  "lang": "de",
+  "langName": "Deutsch",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - Erinnere dich an jeden besuchten Ort",
+    "description": "WhereWasI verfolgt und organisiert automatisch alle Orte, die du besuchst. Besuche deine Lieblingsorte erneut, entdecke Muster in deinem Alltag und führe ein privates Standort-Tagebuch.",
+    "keywords": "Standort-Tagebuch, besuchte Orte, Standortverfolgung, Reisetagebuch, iOS-App, Datenschutz, Standortverlauf, automatische Verfolgung"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "screenshots": "Screenshots",
+    "download": "Download",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Erinnere dich an jeden besuchten Ort",
+    "description": "WhereWasI verfolgt und organisiert automatisch alle Orte, die du besuchst. Besuche deine Lieblingsorte erneut, entdecke Muster in deinem Alltag und führe ein privates Tagebuch deiner Reise—ganz ohne Aufwand.",
+    "downloadAlt": "Im App Store laden"
+  },
+  "features": {
+    "sectionTitle": "Leistungsstarke Funktionen",
+    "sectionSubtitle": "Alles, was du brauchst, um deinen Standortverlauf zu speichern und zu erkunden",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "Dein Leben in der Timeline",
+        "description": "Scrolle durch eine wunderschön organisierte Geschichte aller besuchten Orte. Sieh dir deine Besuche nach Tag, Woche oder Monat an—deine Lebensgeschichte entfaltet sich automatisch."
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "Entdecke deine Muster",
+        "description": "Gewinne Einblicke in deinen Alltag. Sieh dir deine meistbesuchten Orte an, die Zeit, die du an jedem Ort verbringst, und wie sich deine Routinen im Laufe der Zeit entwickeln."
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "Deine Welt auf einen Blick",
+        "description": "Sieh dir alle deine Besuche auf einer interaktiven Karte an. Zoome heraus, um überall zu sehen, wohin das Leben dich geführt hat, oder zoome hinein, um eine einzelne Nachbarschaft zu erkunden."
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "Deine Daten, dein Gerät",
+        "description": "Alle Standortdaten bleiben sicher auf deinem iPhone und deiner persönlichen iCloud. Nichts wird jemals an externe Server gesendet. Deine Reise bleibt deine."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Sieh es in Aktion",
+    "sectionSubtitle": "Schönes Design trifft auf leistungsstarke Funktionalität"
+  },
+  "download": {
+    "title": "Beginne heute mit dem Erinnern",
+    "description": "Kostenloser Download. Dein Standort-Tagebuch beginnt in dem Moment, in dem du installierst. Kein Konto erforderlich—nur du, dein iPhone und die Orte, die du besuchst.",
+    "platforms": "Verfügbar für iPhone und iPad"
+  },
+  "faq": {
+    "sectionTitle": "Häufig gestellte Fragen",
+    "sectionSubtitle": "Alles, was du über WhereWasI wissen musst",
+    "list": [
+      {
+        "question": "Wie verfolgt WhereWasI meinen Standort?",
+        "answer": "WhereWasI verwendet iOS-Standortdienste, um zu erkennen, wann du Orte erreichst und verlässt. Es läuft effizient im Hintergrund, ohne deinen Akku zu entleeren."
+      },
+      {
+        "question": "Sind meine Standortdaten privat?",
+        "answer": "Absolut. Alle Daten werden lokal auf deinem Gerät gespeichert und nur mit deinem persönlichen iCloud-Konto synchronisiert. Wir sehen oder speichern deine Standortdaten niemals auf externen Servern."
+      },
+      {
+        "question": "Kann ich Besuche bearbeiten oder löschen?",
+        "answer": "Ja! Du hast die volle Kontrolle. Bearbeite Besuchszeiten, führe doppelte Orte zusammen, füge Notizen hinzu oder lösche Besuche, die du nicht behalten möchtest."
+      },
+      {
+        "question": "Entleert es meinen Akku?",
+        "answer": "Nein. WhereWasI verwendet Apples stromsparende Significant Location Change APIs, die entwickelt wurden, um den Akkuverbrauch zu minimieren und gleichzeitig deine Besuche genau zu erfassen."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Deine Privatsphäre ist wichtig",
+    "description": "WhereWasI speichert alle deine Standortdaten auf deinem Gerät und deinem persönlichen iCloud-Konto. Deine Reisen werden niemals mit uns oder Dritten geteilt.",
+    "link": "Datenschutzerklärung lesen"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "copyright": "© 2025 WhereWasI. Alle Rechte vorbehalten."
+  }
+}

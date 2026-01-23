@@ -1,0 +1,93 @@
+{
+  "lang": "it",
+  "langName": "Italiano",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - Ricorda ogni luogo che hai visitato",
+    "description": "WhereWasI traccia e organizza automaticamente tutti i luoghi che visiti. Rivisita i tuoi posti preferiti, scopri i pattern della tua vita quotidiana e tieni un diario di posizione privato.",
+    "keywords": "diario di posizione, luoghi visitati, tracciamento posizione, registro viaggi, app iOS, privacy, cronologia posizione, tracciamento automatico"
+  },
+  "nav": {
+    "features": "Funzionalità",
+    "screenshots": "Screenshot",
+    "download": "Scarica",
+    "faq": "Domande frequenti"
+  },
+  "hero": {
+    "title": "Ricorda ogni luogo che hai visitato",
+    "description": "WhereWasI traccia e organizza automaticamente tutti i luoghi che visiti. Rivisita i tuoi posti preferiti, scopri i pattern della tua vita quotidiana e tieni un diario privato del tuo viaggio—senza muovere un dito.",
+    "downloadAlt": "Scarica sull'App Store"
+  },
+  "features": {
+    "sectionTitle": "Funzionalità potenti",
+    "sectionSubtitle": "Tutto ciò di cui hai bisogno per ricordare ed esplorare la tua cronologia di posizione",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "La tua vita in timeline",
+        "description": "Scorri una cronologia magnificamente organizzata di tutti i luoghi che hai visitato. Visualizza le tue visite per giorno, settimana o mese—la storia della tua vita si svolge automaticamente."
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "Scopri i tuoi pattern",
+        "description": "Ottieni informazioni sulla tua vita quotidiana. Vedi i luoghi più visitati, il tempo trascorso in ogni posizione e come le tue routine si evolvono nel tempo."
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "Il tuo mondo a colpo d'occhio",
+        "description": "Visualizza tutte le tue visite su una mappa interattiva. Zoom indietro per vedere ovunque la vita ti abbia portato, o zoom avanti per esplorare un singolo quartiere."
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "I tuoi dati, il tuo dispositivo",
+        "description": "Tutti i dati di posizione rimangono al sicuro sul tuo iPhone e sul tuo iCloud personale. Nulla viene mai inviato a server esterni. Il tuo viaggio rimane solo tuo."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Guardalo in azione",
+    "sectionSubtitle": "Design elegante incontra funzionalità potente"
+  },
+  "download": {
+    "title": "Inizia a ricordare oggi",
+    "description": "Download gratuito. Il tuo diario di posizione inizia nel momento in cui installi. Nessun account richiesto—solo tu, il tuo iPhone e i luoghi che visiti.",
+    "platforms": "Disponibile su iPhone e iPad"
+  },
+  "faq": {
+    "sectionTitle": "Domande frequenti",
+    "sectionSubtitle": "Tutto quello che devi sapere su WhereWasI",
+    "list": [
+      {
+        "question": "Come traccia WhereWasI la mia posizione?",
+        "answer": "WhereWasI utilizza i servizi di localizzazione iOS per rilevare quando arrivi e parti dai luoghi. Funziona in modo efficiente in background senza scaricare la batteria."
+      },
+      {
+        "question": "I miei dati di posizione sono privati?",
+        "answer": "Assolutamente. Tutti i dati sono memorizzati localmente sul tuo dispositivo e sincronizzati solo con il tuo account iCloud personale. Non vediamo né memorizziamo mai i tuoi dati di posizione su server esterni."
+      },
+      {
+        "question": "Posso modificare o eliminare le visite?",
+        "answer": "Sì! Hai il controllo completo. Modifica gli orari delle visite, unisci luoghi duplicati, aggiungi note o elimina le visite che non vuoi conservare."
+      },
+      {
+        "question": "Scarica la batteria?",
+        "answer": "No. WhereWasI utilizza le API di cambio posizione significativo di Apple, progettate per minimizzare l'impatto sulla batteria catturando accuratamente le tue visite."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "La tua privacy conta",
+    "description": "WhereWasI conserva tutti i tuoi dati di posizione sul tuo dispositivo e sul tuo account iCloud personale. I tuoi viaggi non vengono mai condivisi con noi o con terze parti.",
+    "link": "Leggi la nostra informativa sulla privacy"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Informativa sulla privacy",
+    "termsOfService": "Termini di servizio",
+    "copyright": "© 2025 WhereWasI. Tutti i diritti riservati."
+  }
+}

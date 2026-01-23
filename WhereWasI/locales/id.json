@@ -1,0 +1,93 @@
+{
+  "lang": "id",
+  "langName": "Bahasa Indonesia",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - Ingat Setiap Tempat yang Pernah Anda Kunjungi",
+    "description": "WhereWasI secara otomatis melacak dan mengatur semua tempat yang Anda kunjungi. Kunjungi kembali tempat favorit, temukan pola dalam kehidupan sehari-hari, dan simpan jurnal lokasi pribadi.",
+    "keywords": "jurnal lokasi, tempat dikunjungi, pelacakan lokasi, log perjalanan, aplikasi iOS, privasi, riwayat lokasi, pelacakan otomatis"
+  },
+  "nav": {
+    "features": "Fitur",
+    "screenshots": "Tangkapan Layar",
+    "download": "Unduh",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Ingat Setiap Tempat yang Pernah Anda Kunjungi",
+    "description": "WhereWasI secara otomatis melacak dan mengatur semua tempat yang Anda kunjungi. Kunjungi kembali tempat favorit, temukan pola dalam kehidupan sehari-hari, dan simpan jurnal pribadi perjalanan Anda—tanpa perlu melakukan apa pun.",
+    "downloadAlt": "Unduh di App Store"
+  },
+  "features": {
+    "sectionTitle": "Fitur Canggih",
+    "sectionSubtitle": "Semua yang Anda butuhkan untuk mengingat dan menjelajahi riwayat lokasi",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "Hidup Anda dalam Timeline",
+        "description": "Gulir melalui riwayat yang terorganisir indah dari semua tempat yang pernah Anda kunjungi. Lihat kunjungan Anda berdasarkan hari, minggu, atau bulan—cerita hidup Anda terungkap secara otomatis."
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "Temukan Pola Anda",
+        "description": "Dapatkan wawasan tentang kehidupan sehari-hari Anda. Lihat tempat yang paling sering dikunjungi, waktu yang dihabiskan di setiap lokasi, dan bagaimana rutinitas Anda berkembang seiring waktu."
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "Dunia Anda Sekilas",
+        "description": "Lihat semua kunjungan Anda di peta interaktif. Perkecil untuk melihat semua tempat yang pernah Anda kunjungi, atau perbesar untuk menjelajahi satu lingkungan."
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "Data Anda, Perangkat Anda",
+        "description": "Semua data lokasi tetap aman di iPhone dan iCloud pribadi Anda. Tidak ada yang dikirim ke server eksternal. Perjalanan Anda tetap milik Anda."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Lihat Aksinya",
+    "sectionSubtitle": "Desain indah bertemu fungsionalitas canggih"
+  },
+  "download": {
+    "title": "Mulai Mengingat Hari Ini",
+    "description": "Unduh gratis. Jurnal lokasi Anda dimulai saat Anda menginstal. Tidak perlu akun—hanya Anda, iPhone Anda, dan tempat-tempat yang Anda kunjungi.",
+    "platforms": "Tersedia di iPhone dan iPad"
+  },
+  "faq": {
+    "sectionTitle": "Pertanyaan yang Sering Diajukan",
+    "sectionSubtitle": "Semua yang perlu Anda ketahui tentang WhereWasI",
+    "list": [
+      {
+        "question": "Bagaimana WhereWasI melacak lokasi saya?",
+        "answer": "WhereWasI menggunakan layanan lokasi iOS untuk mendeteksi saat Anda tiba dan meninggalkan tempat. Aplikasi ini berjalan efisien di latar belakang tanpa menguras baterai."
+      },
+      {
+        "question": "Apakah data lokasi saya pribadi?",
+        "answer": "Tentu saja. Semua data disimpan secara lokal di perangkat Anda dan hanya disinkronkan ke akun iCloud pribadi Anda. Kami tidak pernah melihat atau menyimpan data lokasi Anda di server eksternal."
+      },
+      {
+        "question": "Bisakah saya mengedit atau menghapus kunjungan?",
+        "answer": "Ya! Anda memiliki kontrol penuh. Edit waktu kunjungan, gabungkan tempat duplikat, tambahkan catatan, atau hapus kunjungan yang tidak ingin Anda simpan."
+      },
+      {
+        "question": "Apakah ini menguras baterai saya?",
+        "answer": "Tidak. WhereWasI menggunakan API perubahan lokasi signifikan Apple yang hemat daya, dirancang untuk meminimalkan dampak baterai sambil tetap menangkap kunjungan Anda dengan akurat."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privasi Anda Penting",
+    "description": "WhereWasI menyimpan semua data lokasi Anda di perangkat dan akun iCloud pribadi Anda. Perjalanan Anda tidak pernah dibagikan dengan kami atau pihak ketiga mana pun.",
+    "link": "Baca Kebijakan Privasi kami"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan",
+    "copyright": "© 2025 WhereWasI. Hak cipta dilindungi."
+  }
+}

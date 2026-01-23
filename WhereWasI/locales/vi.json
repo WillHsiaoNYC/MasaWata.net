@@ -1,0 +1,93 @@
+{
+  "lang": "vi",
+  "langName": "Tiếng Việt",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - Ghi nhớ mọi nơi bạn đã đến",
+    "description": "WhereWasI tự động theo dõi và sắp xếp mọi nơi bạn đến. Quay lại những địa điểm yêu thích, khám phá quy luật trong cuộc sống hàng ngày và lưu giữ nhật ký vị trí riêng tư.",
+    "keywords": "nhật ký vị trí, địa điểm đã đến, theo dõi vị trí, nhật ký du lịch, ứng dụng iOS, quyền riêng tư, lịch sử vị trí, theo dõi tự động"
+  },
+  "nav": {
+    "features": "Tính năng",
+    "screenshots": "Ảnh chụp màn hình",
+    "download": "Tải xuống",
+    "faq": "Câu hỏi thường gặp"
+  },
+  "hero": {
+    "title": "Ghi nhớ mọi nơi bạn đã đến",
+    "description": "WhereWasI tự động theo dõi và sắp xếp mọi nơi bạn đến. Quay lại những địa điểm yêu thích, khám phá quy luật trong cuộc sống hàng ngày và lưu giữ nhật ký riêng tư về hành trình của bạn—không cần làm gì cả.",
+    "downloadAlt": "Tải xuống trên App Store"
+  },
+  "features": {
+    "sectionTitle": "Tính năng mạnh mẽ",
+    "sectionSubtitle": "Tất cả những gì bạn cần để ghi nhớ và khám phá lịch sử vị trí",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "Cuộc sống trên dòng thời gian",
+        "description": "Cuộn qua lịch sử được sắp xếp đẹp mắt của mọi nơi bạn đã đến. Xem các chuyến thăm theo ngày, tuần hoặc tháng—câu chuyện cuộc đời bạn tự động mở ra."
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "Khám phá quy luật của bạn",
+        "description": "Có được cái nhìn sâu sắc về cuộc sống hàng ngày. Xem những nơi bạn đến nhiều nhất, thời gian ở mỗi địa điểm và thói quen của bạn thay đổi như thế nào theo thời gian."
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "Thế giới của bạn trong tầm mắt",
+        "description": "Xem tất cả các chuyến thăm trên bản đồ tương tác. Thu nhỏ để thấy mọi nơi cuộc sống đã đưa bạn đến, hoặc phóng to để khám phá một khu phố."
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "Dữ liệu của bạn, thiết bị của bạn",
+        "description": "Tất cả dữ liệu vị trí được lưu trữ an toàn trên iPhone và iCloud cá nhân của bạn. Không gì được gửi đến máy chủ bên ngoài. Hành trình của bạn mãi mãi là của bạn."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Xem ứng dụng hoạt động",
+    "sectionSubtitle": "Thiết kế đẹp mắt kết hợp chức năng mạnh mẽ"
+  },
+  "download": {
+    "title": "Bắt đầu ghi nhớ ngay hôm nay",
+    "description": "Tải miễn phí. Nhật ký vị trí của bạn bắt đầu ngay khi cài đặt. Không cần tài khoản—chỉ bạn, iPhone và những nơi bạn đến.",
+    "platforms": "Có sẵn trên iPhone và iPad"
+  },
+  "faq": {
+    "sectionTitle": "Câu hỏi thường gặp",
+    "sectionSubtitle": "Tất cả những gì bạn cần biết về WhereWasI",
+    "list": [
+      {
+        "question": "WhereWasI theo dõi vị trí của tôi như thế nào?",
+        "answer": "WhereWasI sử dụng dịch vụ vị trí iOS để phát hiện khi bạn đến và rời khỏi các địa điểm. Ứng dụng chạy hiệu quả trong nền mà không làm hao pin."
+      },
+      {
+        "question": "Dữ liệu vị trí của tôi có riêng tư không?",
+        "answer": "Chắc chắn rồi. Tất cả dữ liệu được lưu trữ cục bộ trên thiết bị và chỉ đồng bộ với tài khoản iCloud cá nhân của bạn. Chúng tôi không bao giờ xem hoặc lưu trữ dữ liệu vị trí của bạn trên máy chủ bên ngoài."
+      },
+      {
+        "question": "Tôi có thể chỉnh sửa hoặc xóa các chuyến thăm không?",
+        "answer": "Có! Bạn có toàn quyền kiểm soát. Chỉnh sửa thời gian thăm, gộp các địa điểm trùng lặp, thêm ghi chú hoặc xóa bất kỳ chuyến thăm nào bạn không muốn giữ."
+      },
+      {
+        "question": "Ứng dụng có làm hao pin không?",
+        "answer": "Không. WhereWasI sử dụng API thay đổi vị trí đáng kể tiết kiệm năng lượng của Apple, được thiết kế để giảm thiểu tác động đến pin trong khi vẫn ghi lại chính xác các chuyến thăm của bạn."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Quyền riêng tư của bạn quan trọng",
+    "description": "WhereWasI giữ tất cả dữ liệu vị trí trên thiết bị và tài khoản iCloud cá nhân của bạn. Các chuyến đi của bạn không bao giờ được chia sẻ với chúng tôi hoặc bất kỳ bên thứ ba nào.",
+    "link": "Đọc Chính sách Bảo mật"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Chính sách Bảo mật",
+    "termsOfService": "Điều khoản Dịch vụ",
+    "copyright": "© 2025 WhereWasI. Bảo lưu mọi quyền."
+  }
+}

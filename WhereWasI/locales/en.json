@@ -1,0 +1,93 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - Remember Every Place You've Been",
+    "description": "WhereWasI automatically tracks and organizes everywhere you go. Revisit your favorite spots, discover patterns in your daily life, and keep a private location journal.",
+    "keywords": "location journal, places visited, location tracking, travel log, iOS app, privacy, location history, automatic tracking"
+  },
+  "nav": {
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "download": "Download",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Remember Every Place You've Been",
+    "description": "WhereWasI automatically tracks and organizes everywhere you go. Revisit your favorite spots, discover patterns in your daily life, and keep a private journal of your journey—all without lifting a finger.",
+    "downloadAlt": "Download on the App Store"
+  },
+  "features": {
+    "sectionTitle": "Powerful Features",
+    "sectionSubtitle": "Everything you need to remember and explore your location history",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "Your Life in Timeline",
+        "description": "Scroll through a beautifully organized history of everywhere you've been. See your visits by day, week, or month—your life story unfolds automatically."
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "Discover Your Patterns",
+        "description": "Uncover insights about your daily life. See your most visited places, time spent at each location, and how your routines evolve over time."
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "Your World at a Glance",
+        "description": "View all your visits plotted on an interactive map. Zoom out to see everywhere life has taken you, or zoom in to explore a single neighborhood."
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "Your Data, Your Device",
+        "description": "All location data stays securely on your iPhone and your personal iCloud. Nothing is ever sent to external servers. Your journey remains yours alone."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "See It In Action",
+    "sectionSubtitle": "Beautiful design meets powerful functionality"
+  },
+  "download": {
+    "title": "Start Remembering Today",
+    "description": "Free to download. Your location journal begins the moment you install. No account required—just you, your iPhone, and the places you go.",
+    "platforms": "Available on iPhone and iPad"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "sectionSubtitle": "Everything you need to know about WhereWasI",
+    "list": [
+      {
+        "question": "How does WhereWasI track my location?",
+        "answer": "WhereWasI uses iOS location services to detect when you arrive and leave places. It runs efficiently in the background without draining your battery."
+      },
+      {
+        "question": "Is my location data private?",
+        "answer": "Absolutely. All data is stored locally on your device and synced only to your personal iCloud account. We never see or store your location data on any external servers."
+      },
+      {
+        "question": "Can I edit or delete visits?",
+        "answer": "Yes! You have full control. Edit visit times, merge duplicate places, add notes, or delete any visits you don't want to keep."
+      },
+      {
+        "question": "Does it drain my battery?",
+        "answer": "No. WhereWasI uses Apple's power-efficient significant location change APIs, designed to minimize battery impact while still capturing your visits accurately."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Your Privacy Matters",
+    "description": "WhereWasI keeps all your location data on your device and your personal iCloud account. Your travels are never shared with us or any third parties.",
+    "link": "Read our Privacy Policy"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2025 WhereWasI. All rights reserved."
+  }
+}

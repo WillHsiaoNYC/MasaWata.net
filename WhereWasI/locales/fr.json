@@ -1,0 +1,93 @@
+{
+  "lang": "fr",
+  "langName": "Français",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - Souvenez-vous de chaque lieu visité",
+    "description": "WhereWasI suit et organise automatiquement tous vos déplacements. Revisitez vos endroits préférés, découvrez vos habitudes quotidiennes et gardez un journal de localisation privé.",
+    "keywords": "journal de localisation, lieux visités, suivi de position, carnet de voyage, application iOS, confidentialité, historique de localisation, suivi automatique"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "screenshots": "Captures d'écran",
+    "download": "Télécharger",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Souvenez-vous de chaque lieu visité",
+    "description": "WhereWasI suit et organise automatiquement tous vos déplacements. Revisitez vos endroits préférés, découvrez vos habitudes quotidiennes et gardez un journal privé de votre parcours—sans lever le petit doigt.",
+    "downloadAlt": "Télécharger sur l'App Store"
+  },
+  "features": {
+    "sectionTitle": "Fonctionnalités puissantes",
+    "sectionSubtitle": "Tout ce dont vous avez besoin pour mémoriser et explorer votre historique de localisation",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "Votre vie en chronologie",
+        "description": "Parcourez un historique magnifiquement organisé de tous vos déplacements. Visualisez vos visites par jour, semaine ou mois—votre histoire de vie se déroule automatiquement."
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "Découvrez vos habitudes",
+        "description": "Révélez des informations sur votre quotidien. Voyez vos lieux les plus visités, le temps passé à chaque endroit et comment vos routines évoluent au fil du temps."
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "Votre monde d'un coup d'œil",
+        "description": "Visualisez toutes vos visites sur une carte interactive. Dézoomez pour voir partout où la vie vous a mené, ou zoomez pour explorer un quartier."
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "Vos données, votre appareil",
+        "description": "Toutes les données de localisation restent en sécurité sur votre iPhone et votre iCloud personnel. Rien n'est jamais envoyé à des serveurs externes. Votre parcours vous appartient."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Découvrez l'application",
+    "sectionSubtitle": "Un design élégant allié à des fonctionnalités puissantes"
+  },
+  "download": {
+    "title": "Commencez à mémoriser dès aujourd'hui",
+    "description": "Téléchargement gratuit. Votre journal de localisation commence dès l'installation. Pas de compte requis—juste vous, votre iPhone et les lieux que vous visitez.",
+    "platforms": "Disponible sur iPhone et iPad"
+  },
+  "faq": {
+    "sectionTitle": "Questions fréquentes",
+    "sectionSubtitle": "Tout ce que vous devez savoir sur WhereWasI",
+    "list": [
+      {
+        "question": "Comment WhereWasI suit-il ma position ?",
+        "answer": "WhereWasI utilise les services de localisation iOS pour détecter quand vous arrivez et quittez des lieux. Il fonctionne efficacement en arrière-plan sans vider votre batterie."
+      },
+      {
+        "question": "Mes données de localisation sont-elles privées ?",
+        "answer": "Absolument. Toutes les données sont stockées localement sur votre appareil et synchronisées uniquement avec votre compte iCloud personnel. Nous ne voyons ni ne stockons jamais vos données de localisation sur des serveurs externes."
+      },
+      {
+        "question": "Puis-je modifier ou supprimer des visites ?",
+        "answer": "Oui ! Vous avez un contrôle total. Modifiez les heures de visite, fusionnez les lieux en double, ajoutez des notes ou supprimez les visites que vous ne souhaitez pas conserver."
+      },
+      {
+        "question": "Est-ce que ça vide la batterie ?",
+        "answer": "Non. WhereWasI utilise les API de changement de localisation significatif d'Apple, conçues pour minimiser l'impact sur la batterie tout en capturant précisément vos visites."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Votre vie privée compte",
+    "description": "WhereWasI conserve toutes vos données de localisation sur votre appareil et votre compte iCloud personnel. Vos déplacements ne sont jamais partagés avec nous ou des tiers.",
+    "link": "Lire notre politique de confidentialité"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "copyright": "© 2025 WhereWasI. Tous droits réservés."
+  }
+}

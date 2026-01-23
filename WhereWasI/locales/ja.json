@@ -1,0 +1,93 @@
+{
+  "lang": "ja",
+  "langName": "日本語",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - 訪れた場所をすべて記録",
+    "description": "WhereWasI は訪れた場所を自動で追跡・整理します。お気に入りの場所を振り返り、日常のパターンを発見し、プライベートなロケーション日記を保存しましょう。",
+    "keywords": "ロケーション日記, 訪問場所, 位置追跡, 旅行記録, iOSアプリ, プライバシー, 位置履歴, 自動追跡"
+  },
+  "nav": {
+    "features": "機能",
+    "screenshots": "スクリーンショット",
+    "download": "ダウンロード",
+    "faq": "よくある質問"
+  },
+  "hero": {
+    "title": "訪れた場所をすべて記録",
+    "description": "WhereWasI は訪れた場所を自動で追跡・整理します。お気に入りの場所を振り返り、日常のパターンを発見し、プライベートな旅の記録を残しましょう——すべて手間いらずで。",
+    "downloadAlt": "App Store でダウンロード"
+  },
+  "features": {
+    "sectionTitle": "パワフルな機能",
+    "sectionSubtitle": "位置履歴を記憶し探索するために必要なすべて",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "あなたの人生をタイムラインで",
+        "description": "美しく整理された訪問履歴をスクロール。日、週、月ごとに訪問を確認——あなたの人生の物語が自動的に展開されます。"
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "パターンを発見",
+        "description": "日常生活についての洞察を得ましょう。最も訪れた場所、各場所で過ごした時間、日課がどのように変化しているかを確認できます。"
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "世界を一目で",
+        "description": "すべての訪問をインタラクティブな地図で確認。ズームアウトして人生があなたを連れて行ったすべての場所を見たり、ズームインして一つの地域を探索したり。"
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "データはあなたのデバイスに",
+        "description": "すべての位置データは iPhone と個人の iCloud に安全に保存されます。外部サーバーに送信されることはありません。あなたの旅はあなただけのものです。"
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "実際の画面",
+    "sectionSubtitle": "美しいデザインとパワフルな機能の融合"
+  },
+  "download": {
+    "title": "今日から記録を始めよう",
+    "description": "無料でダウンロード。インストールした瞬間からロケーション日記が始まります。アカウント登録不要——あなたと iPhone、そして訪れる場所だけ。",
+    "platforms": "iPhone と iPad で利用可能"
+  },
+  "faq": {
+    "sectionTitle": "よくある質問",
+    "sectionSubtitle": "WhereWasI について知っておくべきすべてのこと",
+    "list": [
+      {
+        "question": "WhereWasI はどのように位置を追跡しますか？",
+        "answer": "WhereWasI は iOS の位置情報サービスを使用して、場所への到着と出発を検出します。バックグラウンドで効率的に動作し、バッテリーを消耗しません。"
+      },
+      {
+        "question": "位置データは安全ですか？",
+        "answer": "はい、完全に安全です。すべてのデータはデバイスにローカル保存され、個人の iCloud アカウントにのみ同期されます。外部サーバーで位置データを閲覧したり保存したりすることはありません。"
+      },
+      {
+        "question": "訪問記録を編集または削除できますか？",
+        "answer": "もちろんです！完全なコントロールが可能です。訪問時間の編集、重複した場所の統合、メモの追加、保存したくない訪問の削除ができます。"
+      },
+      {
+        "question": "バッテリーを消耗しますか？",
+        "answer": "いいえ。WhereWasI は Apple の省電力型重要位置変更 API を使用しており、バッテリーへの影響を最小限に抑えながら訪問を正確に記録するよう設計されています。"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "プライバシーを大切に",
+    "description": "WhereWasI はすべての位置データをデバイスと個人の iCloud アカウントに保存します。あなたの旅の記録が私たちや第三者と共有されることはありません。",
+    "link": "プライバシーポリシーを読む"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "copyright": "© 2025 WhereWasI. All rights reserved."
+  }
+}

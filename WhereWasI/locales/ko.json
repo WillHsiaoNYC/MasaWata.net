@@ -1,0 +1,93 @@
+{
+  "lang": "ko",
+  "langName": "한국어",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - 방문한 모든 장소를 기억하세요",
+    "description": "WhereWasI는 방문한 모든 장소를 자동으로 추적하고 정리합니다. 좋아하는 장소를 다시 방문하고, 일상 패턴을 발견하며, 개인 위치 일기를 보관하세요.",
+    "keywords": "위치 일기, 방문 장소, 위치 추적, 여행 기록, iOS 앱, 개인정보, 위치 기록, 자동 추적"
+  },
+  "nav": {
+    "features": "기능",
+    "screenshots": "스크린샷",
+    "download": "다운로드",
+    "faq": "자주 묻는 질문"
+  },
+  "hero": {
+    "title": "방문한 모든 장소를 기억하세요",
+    "description": "WhereWasI는 방문한 모든 장소를 자동으로 추적하고 정리합니다. 좋아하는 장소를 다시 방문하고, 일상 패턴을 발견하며, 개인 여정 일기를 보관하세요—손 하나 까딱하지 않고.",
+    "downloadAlt": "App Store에서 다운로드"
+  },
+  "features": {
+    "sectionTitle": "강력한 기능",
+    "sectionSubtitle": "위치 기록을 기억하고 탐색하는 데 필요한 모든 것",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "타임라인으로 보는 일상",
+        "description": "아름답게 정리된 방문 기록을 스크롤하세요. 일, 주, 월별로 방문을 확인하세요—당신의 인생 이야기가 자동으로 펼쳐집니다."
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "패턴을 발견하세요",
+        "description": "일상에 대한 인사이트를 얻으세요. 가장 많이 방문한 장소, 각 위치에서 보낸 시간, 루틴이 시간에 따라 어떻게 변화하는지 확인하세요."
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "한눈에 보는 세상",
+        "description": "인터랙티브 지도에서 모든 방문을 확인하세요. 축소하여 삶이 데려다 준 모든 곳을 보거나, 확대하여 특정 지역을 탐색하세요."
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "당신의 데이터, 당신의 기기",
+        "description": "모든 위치 데이터는 iPhone과 개인 iCloud에 안전하게 저장됩니다. 외부 서버로 전송되지 않습니다. 당신의 여정은 오직 당신의 것입니다."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "실제 화면 보기",
+    "sectionSubtitle": "아름다운 디자인과 강력한 기능의 만남"
+  },
+  "download": {
+    "title": "오늘부터 기록을 시작하세요",
+    "description": "무료로 다운로드하세요. 설치하는 순간 위치 일기가 시작됩니다. 계정 등록 불필요—당신과 iPhone, 그리고 방문하는 장소만 있으면 됩니다.",
+    "platforms": "iPhone 및 iPad에서 사용 가능"
+  },
+  "faq": {
+    "sectionTitle": "자주 묻는 질문",
+    "sectionSubtitle": "WhereWasI에 대해 알아야 할 모든 것",
+    "list": [
+      {
+        "question": "WhereWasI는 어떻게 위치를 추적하나요?",
+        "answer": "WhereWasI는 iOS 위치 서비스를 사용하여 장소 도착과 출발을 감지합니다. 배터리를 소모하지 않으면서 백그라운드에서 효율적으로 실행됩니다."
+      },
+      {
+        "question": "내 위치 데이터는 안전한가요?",
+        "answer": "물론입니다. 모든 데이터는 기기에 로컬로 저장되며, 개인 iCloud 계정에만 동기화됩니다. 외부 서버에서 위치 데이터를 보거나 저장하지 않습니다."
+      },
+      {
+        "question": "방문 기록을 편집하거나 삭제할 수 있나요?",
+        "answer": "네! 완전한 제어권을 가집니다. 방문 시간 편집, 중복 장소 병합, 메모 추가, 또는 보관하고 싶지 않은 방문 삭제가 가능합니다."
+      },
+      {
+        "question": "배터리가 빨리 소모되나요?",
+        "answer": "아니요. WhereWasI는 Apple의 전력 효율적인 중요 위치 변경 API를 사용하여, 배터리 영향을 최소화하면서도 방문을 정확하게 기록하도록 설계되었습니다."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "개인 정보 보호가 중요합니다",
+    "description": "WhereWasI는 모든 위치 데이터를 기기와 개인 iCloud 계정에 보관합니다. 당신의 여행 기록은 저희나 제3자와 공유되지 않습니다.",
+    "link": "개인정보 처리방침 읽기"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "서비스 약관",
+    "copyright": "© 2025 WhereWasI. All rights reserved."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "lang": "zh-Hant",
+  "langName": "繁體中文",
+  "appName": "WhereWasI",
+  "meta": {
+    "title": "WhereWasI - 記錄你去過的每一個地方",
+    "description": "WhereWasI 自動追蹤和整理你去過的所有地方。重溫最愛的地點，發現日常生活的規律，保存私密的位置日記。",
+    "keywords": "位置日記, 去過的地方, 位置追蹤, 旅行記錄, iOS應用程式, 隱私, 位置歷史, 自動追蹤"
+  },
+  "nav": {
+    "features": "功能",
+    "screenshots": "截圖",
+    "download": "下載",
+    "faq": "常見問題"
+  },
+  "hero": {
+    "title": "記錄你去過的每一個地方",
+    "description": "WhereWasI 自動追蹤和整理你去過的所有地方。重溫最愛的地點，發現日常生活的規律，保存私密的旅程日記——一切都無需動手。",
+    "downloadAlt": "在 App Store 下載"
+  },
+  "features": {
+    "sectionTitle": "強大功能",
+    "sectionSubtitle": "記憶和探索位置歷史所需的一切",
+    "list": [
+      {
+        "id": "timeline",
+        "icon": "clock",
+        "title": "生活時間軸",
+        "description": "捲動瀏覽精心整理的位置歷史。按日、週或月查看你的足跡——你的人生故事自動展開。"
+      },
+      {
+        "id": "statistics",
+        "icon": "chart",
+        "title": "發現你的規律",
+        "description": "揭示日常生活的洞察。查看最常去的地方、在每個位置停留的時間，以及你的習慣如何隨時間演變。"
+      },
+      {
+        "id": "map",
+        "icon": "map",
+        "title": "世界一覽",
+        "description": "在互動地圖上查看所有足跡。縮小查看生活帶你去過的每一個地方，或放大探索某個街區。"
+      },
+      {
+        "id": "privacy",
+        "icon": "shield",
+        "title": "資料留在裝置",
+        "description": "所有位置資料安全儲存在你的 iPhone 和個人 iCloud 中。永遠不會傳送到外部伺服器。你的旅程只屬於你自己。"
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "功能預覽",
+    "sectionSubtitle": "精美設計與強大功能的完美結合"
+  },
+  "download": {
+    "title": "今天就開始記錄",
+    "description": "免費下載。安裝後即刻開始你的位置日記。無需註冊帳戶——只需你、你的 iPhone 和你去過的地方。",
+    "platforms": "支援 iPhone 和 iPad"
+  },
+  "faq": {
+    "sectionTitle": "常見問題",
+    "sectionSubtitle": "關於 WhereWasI 你需要了解的一切",
+    "list": [
+      {
+        "question": "WhereWasI 如何追蹤我的位置？",
+        "answer": "WhereWasI 使用 iOS 定位服務來偵測你到達和離開某個地點。它在背景高效運行，不會耗盡電池。"
+      },
+      {
+        "question": "我的位置資料是否安全？",
+        "answer": "絕對安全。所有資料都儲存在你的裝置本機，並且只同步到你的個人 iCloud 帳戶。我們從不在任何外部伺服器上查看或儲存你的位置資料。"
+      },
+      {
+        "question": "我可以編輯或刪除造訪記錄嗎？",
+        "answer": "當然可以！你擁有完全控制權。可以編輯造訪時間、合併重複地點、新增備註，或刪除任何不想保留的記錄。"
+      },
+      {
+        "question": "會耗費電量嗎？",
+        "answer": "不會。WhereWasI 使用 Apple 的省電型重要位置變化 API，旨在最小化電池消耗的同時準確捕捉你的造訪記錄。"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "你的隱私至關重要",
+    "description": "WhereWasI 將所有位置資料保存在你的裝置和個人 iCloud 帳戶中。你的行程記錄永遠不會與我們或任何第三方分享。",
+    "link": "閱讀隱私權政策"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "隱私權政策",
+    "termsOfService": "服務條款",
+    "copyright": "© 2025 WhereWasI. 保留所有權利。"
+  }
+}
