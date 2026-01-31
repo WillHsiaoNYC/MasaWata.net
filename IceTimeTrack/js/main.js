@@ -127,7 +127,7 @@
     /* ========================================
      * 6. Launch countdown + pre-order/download toggle
      * ======================================== */
-    var LAUNCH_DATE = new Date('2026-02-14T00:00:00-08:00'); // Pacific time
+    var LAUNCH_DATE = new Date('2026-02-09T00:00:00-08:00'); // Pacific time
 
     var cdSection = document.getElementById('countdown');
     var cdDays = document.getElementById('cd-days');
