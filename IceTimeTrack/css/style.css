@@ -684,6 +684,8 @@ button:focus-visible {
     display: block;
     height: 40px;
     margin-top: var(--spacing-md);
+    margin-left: auto;
+    margin-right: auto;
     opacity: 0.5;
     pointer-events: none;
 }
