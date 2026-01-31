@@ -702,6 +702,10 @@ button:focus-visible {
     display: none;
 }
 
+.testimonials--hidden {
+    display: none;
+}
+
 .countdown__content {
     text-align: center;
 }

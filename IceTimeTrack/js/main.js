@@ -138,6 +138,13 @@
     var downloadBtn = document.getElementById('download-cta');
     var navCta = document.getElementById('nav-cta');
 
+    // Show testimonials after Feb 14, 2026
+    var TESTIMONIALS_DATE = new Date('2026-02-14T00:00:00-08:00');
+    var testimonials = document.getElementById('testimonials');
+    if (testimonials && new Date() >= TESTIMONIALS_DATE) {
+        testimonials.classList.remove('testimonials--hidden');
+    }
+
     function switchToDownload() {
         if (cdSection) cdSection.classList.add('countdown--hidden');
         if (heroBtn) heroBtn.textContent = 'Download Now';
