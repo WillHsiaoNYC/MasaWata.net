@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Ice Time Track - Automatic Hockey Shift Detection for Apple Watch</title>
+    <meta name="title" content="Ice Time Track - Automatic Hockey Shift Detection for Apple Watch">
+    <meta name="description" content="Track your ice time automatically with Apple Watch. Detect shifts, log goals and penalties, monitor heart rate and movement. Just start a session and play.">
+    <meta name="keywords" content="hockey, ice time, shift tracking, Apple Watch, hockey app, ice hockey, shift detection, hockey stats, game tracker">
+    <meta name="author" content="Weiren Hsiao">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://masawata.net/IceTimeTrack/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://masawata.net/IceTimeTrack/">
+    <meta property="og:title" content="Ice Time Track - Automatic Hockey Shift Detection for Apple Watch">
+    <meta property="og:description" content="Track your ice time automatically with Apple Watch. Detect shifts, log goals and penalties, monitor heart rate and movement.">
+    <meta property="og:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
+    <meta property="og:site_name" content="Ice Time Track">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://masawata.net/IceTimeTrack/">
+    <meta name="twitter:title" content="Ice Time Track - Automatic Hockey Shift Detection for Apple Watch">
+    <meta name="twitter:description" content="Track your ice time automatically with Apple Watch. Detect shifts, log goals and penalties, monitor heart rate and movement.">
+    <meta name="twitter:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
+
+    <!-- Apple Smart Banner (placeholder app-id) -->
+    <meta name="apple-itunes-app" content="app-id=PLACEHOLDER">
+
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" type="image/png" href="images/app-icon.png">
+    <link rel="apple-touch-icon" href="images/app-icon.png">
+
+    <!-- Google Fonts for athletic typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Ice Time Track",
+        "operatingSystem": "iOS, watchOS",
+        "applicationCategory": "SportsApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "description": "Automatic hockey shift detection for Apple Watch. Track ice time, log game events, monitor health metrics.",
+        "author": {
+            "@type": "Person",
+            "name": "Weiren Hsiao"
+        },
+        "inLanguage": "en"
+    }
+    </script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/IceTimeTrack/" class="nav__logo">
+                <img src="images/app-icon.png" alt="Ice Time Track" class="nav__logo-icon">
+                <span class="nav__logo-text">Ice Time Track</span>
+            </a>
+
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+                <li class="nav__item"><a href="#how-it-works" class="nav__link">How It Works</a></li>
+                <li class="nav__item"><a href="#screenshots" class="nav__link">Screenshots</a></li>
+                <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+                <li class="nav__item"><a href="#download" class="nav__link nav__link--cta" id="nav-cta">Pre-Order</a></li>
+            </ul>
+
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== Countdown Section ===== -->
+        <section class="countdown" id="countdown">
+            <div class="container">
+                <div class="countdown__content">
+                    <h2 class="countdown__title">Launching In</h2>
+                    <div class="countdown__timer">
+                        <div class="countdown__unit">
+                            <span class="countdown__number" id="cd-days">00</span>
+                            <span class="countdown__label">Days</span>
+                        </div>
+                        <span class="countdown__separator">:</span>
+                        <div class="countdown__unit">
+                            <span class="countdown__number" id="cd-hours">00</span>
+                            <span class="countdown__label">Hours</span>
+                        </div>
+                        <span class="countdown__separator">:</span>
+                        <div class="countdown__unit">
+                            <span class="countdown__number" id="cd-minutes">00</span>
+                            <span class="countdown__label">Minutes</span>
+                        </div>
+                        <span class="countdown__separator">:</span>
+                        <div class="countdown__unit">
+                            <span class="countdown__number" id="cd-seconds">00</span>
+                            <span class="countdown__label">Seconds</span>
+                        </div>
+                    </div>
+                    <p class="countdown__date">February 14, 2026</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero" id="hero">
+            <div class="hero__bg"></div>
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <!-- App icon with gold glow -->
+                    <div class="hero__icon-wrapper">
+                        <img src="images/app-icon.png" alt="Ice Time Track app icon" class="hero__icon">
+                    </div>
+
+                    <h1 class="hero__title">Automatic Shift Detection<br>for Hockey Players</h1>
+
+                    <p class="hero__description">Know exactly how much ice time you get — without tapping your watch. Track goals, penalties, and periods. Just start a session and play.</p>
+
+                    <a href="https://apps.apple.com/us/app/fitness-story/id6758258172" class="launch-btn" id="hero-download" target="_blank" rel="noopener">Pre-Order Now</a>
+
+                    <img src="assets/app-store-badges/app-store-badge-en.svg" alt="Available on the App Store" class="app-store-badge app-store-badge--static">
+
+                    <p class="hero__platforms">Available on Apple Watch + iPhone &middot; Launching February 14, 2026</p>
+
+                    <!-- 4 subfeature callouts -->
+                    <div class="hero__callouts">
+                        <div class="hero__callout">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                            <span>Shift Detection</span>
+                        </div>
+                        <div class="hero__callout">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 8v8M8 12h8"/>
+                            </svg>
+                            <span>Goal Tracking</span>
+                        </div>
+                        <div class="hero__callout">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <path d="M3 9h18M9 3v18"/>
+                            </svg>
+                            <span>Penalty Logging</span>
+                        </div>
+                        <div class="hero__callout">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="18" y1="20" x2="18" y2="10"/>
+                                <line x1="12" y1="20" x2="12" y2="4"/>
+                                <line x1="6" y1="20" x2="6" y2="14"/>
+                            </svg>
+                            <span>Game Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero image -->
+                <div class="hero__device">
+                    <img src="images/hero-watch.png" alt="Ice Time Track on Apple Watch — on-ice session with game event logging" class="hero__image">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Features Section ===== -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Features</h2>
+                    <p class="section-subtitle">Everything you need to track your game</p>
+                </div>
+
+                <div class="features__grid">
+                    <div class="feature-card" data-aos="fade-up">
+                        <div class="feature-card__icon">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Automatic Shift Detection</h3>
+                        <p class="feature-card__description">Step on the ice and your Watch knows. No buttons to press during play — sensors detect skating vs. bench time automatically.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-card__icon">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <circle cx="12" cy="12" r="6"/>
+                                <circle cx="12" cy="12" r="2"/>
+                                <line x1="12" y1="2" x2="12" y2="4"/>
+                                <line x1="12" y1="20" x2="12" y2="22"/>
+                                <line x1="2" y1="12" x2="4" y2="12"/>
+                                <line x1="20" y1="12" x2="22" y2="12"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Game Event Tracking</h3>
+                        <p class="feature-card__description">Log goals, assists, and penalties right from your wrist. Track periods and keep a complete record of every game.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-card__icon">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Live Health Metrics</h3>
+                        <p class="feature-card__description">Monitor heart rate, calories burned, and movement intensity in real-time. See how hard you're working each shift.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-card__icon">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="20" x2="18" y2="10"/>
+                                <line x1="12" y1="20" x2="12" y2="4"/>
+                                <line x1="6" y1="20" x2="6" y2="14"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Session Analytics</h3>
+                        <p class="feature-card__description">Review total ice time, shift count, average shift length, and personal records. Track your progress over the season.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-card__icon">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                                <path d="M16 16l2 2"/>
+                                <path d="M8 16l-2 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Apple Health Integration</h3>
+                        <p class="feature-card__description">Sessions sync to Apple Health as hockey workouts. Contribute to your Activity rings and fitness history.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="feature-card__icon">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="1" y1="1" x2="23" y2="23"/>
+                                <path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/>
+                                <path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/>
+                                <path d="M10.71 5.05A16 16 0 0 1 22.56 9"/>
+                                <path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/>
+                                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+                                <line x1="12" y1="20" x2="12.01" y2="20"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Works Offline</h3>
+                        <p class="feature-card__description">Your Watch records everything independently. No iPhone needed on the bench — data syncs automatically after the game.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== How It Works Section ===== -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How It Works</h2>
+                    <p class="section-subtitle">From warmup to post-game analysis</p>
+                </div>
+
+                <div class="how-it-works__steps">
+                    <div class="step" data-aos="fade-up" data-aos-delay="100">
+                        <div class="step__number">1</div>
+                        <h3 class="step__title">Before the Game</h3>
+                        <p class="step__description">Open Ice Time Track on your Apple Watch. Tap Game, Practice, or Scrimmage to start.</p>
+                        <div class="step__device step__device--watch">
+                            <img src="images/step-before.png" alt="Watch session type picker" class="step__device-img">
+                        </div>
+                    </div>
+
+                    <div class="step" data-aos="fade-up" data-aos-delay="200">
+                        <div class="step__number">2</div>
+                        <h3 class="step__title">During the Game</h3>
+                        <p class="step__description">Step on the ice and your Watch detects it automatically. Log goals and penalties with a tap. Focus on playing.</p>
+                        <div class="step__device step__device--watch">
+                            <img src="images/step-during.png" alt="Watch on-ice session with score" class="step__device-img">
+                        </div>
+                    </div>
+
+                    <div class="step" data-aos="fade-up" data-aos-delay="300">
+                        <div class="step__number">3</div>
+                        <h3 class="step__title">After the Game</h3>
+                        <p class="step__description">Your session syncs to your iPhone. Review ice time, shifts, heart rate, and game events.</p>
+                        <div class="step__device step__device--phone">
+                            <img src="images/step-after.png" alt="iPhone game detail with stats and events" class="step__device-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Screenshots Gallery Section ===== -->
+        <section class="screenshots" id="screenshots">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">See It In Action</h2>
+                    <p class="section-subtitle">Designed for hockey players</p>
+                </div>
+
+                <div class="screenshots__gallery">
+                    <button class="screenshots__arrow screenshots__arrow--prev" aria-label="Previous screenshot">
+                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"/>
+                        </svg>
+                    </button>
+
+                    <div class="screenshots__track">
+                        <div class="screenshot-item screenshot-item--watch">
+                            <img src="images/watch-on-ice.png" alt="Apple Watch showing on-ice session with score and heart rate" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-sessions.png" alt="iPhone dashboard with calendar and recent sessions" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--watch">
+                            <img src="images/watch-events.png" alt="Apple Watch game event logging screen" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-analytics.png" alt="iPhone analytics with overall stats and trends" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-game-detail.png" alt="iPhone session detail with game stats and events" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-settings.png" alt="iPhone settings with teams and detection options" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-live-session.png" alt="iPhone live session showing on-ice status and shift timer" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-session-header.png" alt="iPhone session detail with total ice time and game score" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-live-meter.png" alt="iPhone live session with real-time sensor meter" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-motion-stats.png" alt="iPhone motion stats and session analysis chart" class="screenshot-img">
+                        </div>
+                        <div class="screenshot-item screenshot-item--phone">
+                            <img src="images/phone-shift-list.png" alt="iPhone shift list with ice time coverage" class="screenshot-img">
+                        </div>
+                    </div>
+
+                    <button class="screenshots__arrow screenshots__arrow--next" aria-label="Next screenshot">
+                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Testimonials Section ===== -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What Players Say</h2>
+                    <p class="section-subtitle">Trusted by hockey players everywhere</p>
+                </div>
+
+                <div class="testimonials__grid">
+                    <div class="testimonial-card" data-aos="fade-up">
+                        <div class="testimonial-card__stars">
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                        </div>
+                        <p class="testimonial-card__quote">"Finally an app that tracks my ice time without me having to tap anything. Game changer for tracking my shifts."</p>
+                        <span class="testimonial-card__author">— Hockey Dad</span>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-card__stars">
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                        </div>
+                        <p class="testimonial-card__quote">"Love seeing my heart rate and shift stats after each game. Helps me understand my conditioning."</p>
+                        <span class="testimonial-card__author">— Beer League Player</span>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-card__stars">
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
+                        </div>
+                        <p class="testimonial-card__quote">"The automatic detection is surprisingly accurate. My kids use it every game now."</p>
+                        <span class="testimonial-card__author">— Youth Hockey Parent</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ Section ===== -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Everything you need to know about Ice Time Track</p>
+                </div>
+
+                <div class="faq__list">
+                    <div class="faq__item" data-aos="fade-up">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>How do I start tracking a session?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Open the Ice Time Track app on your Apple Watch. Select your session type (Game, Practice, Scrimmage, or Other) and tap to begin. The app will automatically start detecting when you're on the ice versus on the bench.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Do I need my iPhone with me during a game?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>No. The Apple Watch records everything independently. Your session will sync to your iPhone automatically when the devices are in range after the game.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>How does the app know when I'm on the ice?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>The app combines multiple sensors: the accelerometer detects movement intensity, the pedometer tracks your skating stride, and GPS measures your speed. When you're actively skating, these sensors show high activity. When you're sitting on the bench, activity drops significantly.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>What do the colors mean?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Green means you're on the ice (skating). Orange means you're on the bench. Yellow appears briefly during the transition period when the app is confirming you've stopped skating.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Why is there a delay when I stop skating?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>This is the "movement buffer" - a short waiting period (default 20 seconds) before the app confirms you're back on the bench. This prevents brief pauses during a shift from being counted as bench time.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>What is the movement buffer?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>The movement buffer is a configurable delay (10-30 seconds) that prevents false shift endings. When you stop moving, the app waits this amount of time before marking you as "on bench." If you start moving again during the buffer, your shift continues uninterrupted.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>What is the game log?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>The game log lets you record events during a session — goals for, goals against, penalties, and period starts. Events are logged from your Apple Watch during play and can also be added from your iPhone. The score and personal stats (my goals, my assists, penalty minutes) are calculated from the events you log.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>How do I log events on my Watch?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>During an active session, tap the LOG button at the bottom of the screen. Select the event type (goal for, goal against, penalty, or period start) and fill in the details. The event is recorded with the current time and appears on your iPhone within seconds.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>What types of events can I log?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Four types: Goal For (optionally mark "I Scored" or "I Assisted"), Goal Against, Penalty (with penalty type, duration, and whether it's against your team or the opponent), and Period Start (marks intermissions in your timeline).</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Can I edit events after the session?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Yes. Open the session on your iPhone and tap any event to edit its details — type, timestamp, personal involvement (scored/assisted), penalty info, and more. You can also add new events or delete existing ones. All changes are saved immediately.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>What data is saved to Apple Health?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>When enabled, the app saves your session as a Hockey workout including: duration, active calories burned, and heart rate data (average and maximum). This contributes to your Activity rings and fitness history.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Why does the app need location access?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Location (GPS) is used to measure your skating speed, which helps accurately detect when you're on the ice versus the bench. GPS data stays on your devices and is not uploaded anywhere.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Why does the app need motion &amp; fitness access?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Motion sensors (accelerometer and gyroscope) detect your movement patterns to distinguish skating from sitting. Fitness access allows reading your step count to improve detection accuracy. This data is processed entirely on your Watch.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Is my data shared with anyone?</span>
+                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>No. All your session data, health metrics, and sensor readings stay on your Apple Watch and iPhone. Nothing is uploaded to external servers. Your data is yours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Download CTA Section ===== -->
+        <section class="download" id="download">
+            <div class="container">
+                <div class="download__content" data-aos="fade-up">
+                    <div class="download__icon">
+                        <img src="images/app-icon.png" alt="Ice Time Track app icon" class="download__icon-img">
+                    </div>
+                    <h2 class="download__title">Ready to Track Your Ice Time?</h2>
+                    <p class="download__description">Get Ice Time Track and start your next session. Automatic shift detection, game event logging, and health metrics — all from your wrist.</p>
+                    <a href="https://apps.apple.com/us/app/fitness-story/id6758258172" class="launch-btn launch-btn--lg" id="download-cta" target="_blank" rel="noopener">Pre-Order Now</a>
+                    <img src="assets/app-store-badges/app-store-badge-en.svg" alt="Available on the App Store" class="app-store-badge app-store-badge--static">
+                    <p class="download__requirements">Requires Apple Watch Series 4 or later</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <span class="footer__name">Ice Time Track</span>
+                <div class="footer__links">
+                    <a href="/privacy-policy.html" class="footer__link">Privacy Policy</a>
+                    <a href="#" class="footer__link">Terms of Service</a>
+                    <a href="mailto:support@masawata.net" class="footer__link">Support</a>
+                </div>
+                <p class="footer__copyright">&copy; 2026 MasaWata. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
