@@ -989,12 +989,12 @@ button:focus-visible {
 }
 
 .step__device--watch {
-    width: 120px;
+    width: 240px;
     border-radius: 32px;
 }
 
 .step__device--phone {
-    width: 140px;
+    width: 166px;
     border-radius: var(--radius-lg);
 }
 
@@ -1076,7 +1076,7 @@ button:focus-visible {
 }
 
 .screenshot-item--watch {
-    width: 140px;
+    width: 260px;
 }
 
 .screenshot-item--phone {
@@ -1142,7 +1142,7 @@ button:focus-visible {
     }
 
     .screenshot-item--watch {
-        width: 110px;
+        width: 200px;
     }
 
     .screenshot-item--phone {
