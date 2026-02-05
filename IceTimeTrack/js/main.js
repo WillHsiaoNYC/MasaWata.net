@@ -158,7 +158,7 @@
             badge.style.opacity = '1';
             badge.style.cursor = 'pointer';
             badge.addEventListener('click', function () {
-                window.open('https://apps.apple.com/app/id6758258172', '_blank');
+                window.open('https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB', '_blank');
             });
         });
     }
