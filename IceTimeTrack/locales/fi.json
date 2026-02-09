@@ -1,0 +1,280 @@
+{
+    "appName": "Ice Time Track",
+    "meta": {
+        "title": "Ice Time Track - Automaattinen vaihtotunnistus Apple Watchille",
+        "description": "Seuraa jääaikaasi automaattisesti Apple Watchilla. Tunnista vaihdot, kirjaa maalit ja jäähyt, seuraa sykettä ja liikettä."
+    },
+    "nav": {
+        "features": "Ominaisuudet",
+        "howItWorks": "Näin se toimii",
+        "screenshots": "Kuvakaappaukset",
+        "faq": "UKK",
+        "cta": "Ennakkotilaa",
+        "ctaDownload": "Lataa"
+    },
+    "countdown": {
+        "title": "Julkaisuun",
+        "promo": "1 vuosi hintaan $6,99",
+        "promoSub": "Rajoitetun ajan tarjous — älä missaa",
+        "days": "Päivää",
+        "hours": "Tuntia",
+        "minutes": "Minuuttia",
+        "seconds": "Sekuntia",
+        "date": "14. helmikuuta 2026",
+        "claimOffer": "Lunasta tarjous",
+        "launchSpecial": "Julkaisutarjous",
+        "offerEnds": "Tarjous päättyy 28. helmikuuta 2026",
+        "downloadNow": "Lataa nyt"
+    },
+    "hero": {
+        "title": "Automaattinen vaihtotunnistus<br>jääkiekkoilijoille",
+        "description": "Tiedä tarkalleen kuinka paljon jääaikaa saat — ilman kellon koskettamista. Seuraa maaleja, jäähyjä ja eriä. Aloita vain sessio ja pelaa.",
+        "preOrder": "Ennakkotilaa nyt",
+        "platforms": "Saatavilla Apple Watch + iPhone · Julkaisu 14. helmikuuta 2026",
+        "shiftDetection": "Vaihtotunnistus",
+        "goalTracking": "Maaliseuranta",
+        "penaltyLogging": "Jäähykirjaus",
+        "gameAnalytics": "Pelianalyysi"
+    },
+    "features": {
+        "title": "Ominaisuudet",
+        "subtitle": "Kaikki mitä tarvitset pelisi seuraamiseen",
+        "shiftDetection": {
+            "title": "Automaattinen vaihtotunnistus",
+            "description": "Astu jäälle ja kellosi tietää sen. Ei painikkeita pelin aikana — anturit tunnistavat luistelun vs. vaihtopenkin automaattisesti."
+        },
+        "eventTracking": {
+            "title": "Pelitapahtumien seuranta",
+            "description": "Kirjaa maalit, syötöt ja jäähyt suoraan ranteestasi. Seuraa eriä ja pidä täydellinen kirja jokaisesta pelistä."
+        },
+        "healthMetrics": {
+            "title": "Reaaliaikaiset terveysmittarit",
+            "description": "Seuraa sykettä, palaneita kaloreita ja liikeintensiteettiä reaaliajassa."
+        },
+        "analytics": {
+            "title": "Sessioanalyysi",
+            "description": "Tarkastele kokonaisjääaikaa, vaihtojen määrää, keskimääräistä vaihdon pituutta ja henkilökohtaisia ennätyksiä."
+        },
+        "healthIntegration": {
+            "title": "Apple Health -integraatio",
+            "description": "Sessiot synkronoituvat Apple Healthiin jääkiekkoharjoituksina."
+        },
+        "offline": {
+            "title": "Toimii offline",
+            "description": "Kellosi tallentaa kaiken itsenäisesti. iPhonea ei tarvita vaihtopenkillä — data synkronoituu automaattisesti pelin jälkeen."
+        }
+    },
+    "howItWorks": {
+        "title": "Näin se toimii",
+        "subtitle": "Lämmittelystä pelin jälkeiseen analyysiin",
+        "step1": {
+            "number": "1",
+            "title": "Ennen peliä",
+            "description": "Avaa Ice Time Track Apple Watchissasi. Napauta Peli, Harjoitus tai Harjoitusottelu."
+        },
+        "step2": {
+            "number": "2",
+            "title": "Pelin aikana",
+            "description": "Astu jäälle ja kellosi tunnistaa sen automaattisesti. Kirjaa maalit ja jäähyt napautuksella."
+        },
+        "step3": {
+            "number": "3",
+            "title": "Pelin jälkeen",
+            "description": "Sessiosi synkronoituu iPhoneesi. Tarkastele jääaikaa, vaihtoja, sykettä ja pelitapahtumia."
+        }
+    },
+    "screenshots": {
+        "title": "Katso se toiminnassa",
+        "subtitle": "Suunniteltu jääkiekkoilijoille"
+    },
+    "testimonials": {
+        "title": "Mitä pelaajat sanovat",
+        "subtitle": "Jääkiekkoilijoiden luottama kaikkialla",
+        "review1": {
+            "quote": "\"Vihdoin sovellus joka seuraa jääaikaani ilman että tarvitsee napauttaa mitään. Mullistava vaihtojen seurantaan.\"",
+            "author": "— Hockey Dad"
+        },
+        "review2": {
+            "quote": "\"Rakastan syke- ja vaihtotilastojen näkemistä jokaisen pelin jälkeen. Auttaa ymmärtämään kuntoani.\"",
+            "author": "— Beer League Player"
+        },
+        "review3": {
+            "quote": "\"Automaattinen tunnistus on yllättävän tarkka. Lapseni käyttävät sitä jokaisessa pelissä nyt.\"",
+            "author": "— Youth Hockey Parent"
+        }
+    },
+    "download": {
+        "title": "Valmiina seuraamaan jääaikaasi?",
+        "description": "Hanki Ice Time Track ja aloita seuraava sessiosi. Automaattinen vaihtotunnistus, pelitapahtumien kirjaus ja terveysmittarit — kaikki ranteestasi.",
+        "preOrder": "Ennakkotilaa nyt",
+        "downloadNow": "Lataa nyt"
+    },
+    "footer": {
+        "privacy": "Tietosuojakäytäntö",
+        "terms": "Käyttöehdot",
+        "support": "Tuki",
+        "copyright": "© 2026 MasaWata. Kaikki oikeudet pidätetään."
+    },
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "subtitle": "Kaikki mitä sinun tarvitsee tietää Ice Time Trackista",
+        "items": [
+            {
+                "question": "Miten aloitan harjoituksen seurannan?",
+                "answer": "Avaa Ice Time Track -sovellus Apple Watchissasi. Valitse harjoituksen tyyppi (Peli, Harjoitus, Harjoitusottelu tai Muu) ja napauta aloittaaksesi. Sovellus tunnistaa automaattisesti, milloin olet jäällä ja milloin vaihtoaitiossa."
+            },
+            {
+                "question": "Mikä ero on Pelillä, Harjoituksella ja Harjoitusottelulla?",
+                "answer": "Nämä ovat tunnisteita harjoitustesi järjestämiseksi. Peli on virallisia otteluita varten, Harjoitus joukkueen harjoituksia varten, Harjoitusottelu epävirallisia pelejä varten ja Muu kaikkea muuta kuten yleisöluistelua varten. Tunnistus toimii samalla tavalla kaikissa tyypeissä."
+            },
+            {
+                "question": "Tarvitsenko iPhoneni mukaan peliin?",
+                "answer": "Ei. Apple Watch tallentaa kaiken itsenäisesti. Harjoituksesi synkronoituu automaattisesti iPhoneen, kun laitteet ovat kantaman sisällä pelin jälkeen."
+            },
+            {
+                "question": "Mikä on askel?",
+                "answer": "\"Askel\" tunnistetaan Apple Watchissasi, kun se havaitsee rytmisen kädenliikkeen kiihtyvyysanturinsa avulla. Se ei varsinaisesti tunnista jalan osumista maahan — sen sijaan se tunnistaa liikettä seuraavan käsivarren liikkeen. Jääkiekossa luistelutyyli ja mailankaäsittely luovat samanlaisia käsiliikkeitä, joten sovellus käyttää \"askelia sekunnissa\" yhtenä aktiivisen pelin indikaattorina."
+            },
+            {
+                "question": "Mikä on kiihtyvyys?",
+                "answer": "Kiihtyvyys mittaa, kuinka nopeasti nopeutat, hidastat tai vaihdat suuntaa. Apple Watchin kiihtyvyysanturi havaitsee tämän liikkeen kolmessa ulottuvuudessa. Äkilliset pysähdykset, räjähtävät lähdöt ja nopeat suunnanmuutokset hyökkäystilanteessa rekisteröityvät korkeana kiihtyvyytenä — kun taas istuminen vaihtoaitiossa seuraavaa vaihtoa odotellen näyttää minimaalista aktiivisuutta."
+            },
+            {
+                "question": "Mikä on pyöriminen?",
+                "answer": "Pyöriminen mittaa, kuinka paljon ja kuinka nopeasti käännyt tai pyörit. Apple Watchin gyroskooppi havaitsee tämän liikkeen, joka on erityisen yleistä jääkiekossa — saksiaskeleet keskialueen läpi, kääntyminen taaksepäin luisteluun puolustuksessa tai irti taklista pyöriminen luovat selkeitä pyörimismalleja. Yhdistettynä kiihtyvyyteen tämä auttaa sovellusta erottamaan aktiivisen luistelun paikallaan seisomisesta."
+            },
+            {
+                "question": "Miten sovellus tietää, milloin olen jäällä?",
+                "answer": "Sovellus yhdistää useita antureita: kiihtyvyysanturi havaitsee liikkeen voimakkuuden, askelmittari seuraa luisteluaskeleitasi ja GPS mittaa nopeuttasi. Kun luistelet aktiivisesti, nämä anturit näyttävät korkeaa aktiivisuutta. Kun istut vaihtoaitiossa, aktiivisuus laskee merkittävästi."
+            },
+            {
+                "question": "Miten jäällä/vaihtoaitiossa-tila käynnistyy liikkeestä?",
+                "answer": "Watch lukee liikkeen voimakkuutta, luisteluaskeleita ja GPS-nopeutta. Kun sovellus havaitsee riittävän voimakkaan liikkeen näistä antureista, se merkitsee sinut jäälle. Kun kaikki kolme laskevat matalalle tasolle ja pysyvät siellä, alkaa siirtymä vaihtoaitioon.\n\nHerkkyysasetus määrittää, kuinka paljon liikettä tarvitaan:\n\n• Korkea — Tunnistaa kevyemmät liikkeet. Käytä tätä, jos vaihtojasi ei tunnisteta.\n• Keskitaso — Tasapainoinen useimmille pelaajille. Tämä on oletus.\n• Matala — Vaatii voimakkaamman liikkeen luisteluksi laskemiseen. Käytä tätä, jos saat vääriä jäällä-lukemia vaihtoaitiossa ollessasi."
+            },
+            {
+                "question": "Miten edistyneet tunnistusasetukset toimivat?",
+                "answer": "Lisäasetukset antavat täyden hallinnan jokaiseen tunnistuskynnykseen. Minkä tahansa liukusäätimen säätäminen vaihtaa herkkyyden automaattisesti tilaan \"Mukautettu.\"\n\nJäällä-laukaisin — Luisteltavaksi merkitsemiseksi JOKO GPS-nopeutesi on ylitettävä kynnyksensä 3 sekunnin ajan, TAI sekä kiihtyvyytesi että askeltahtisi on ylitettävä kynnyksensä pitoajan.\n• Acceleration: 0.2–3.0G (default: 0.2G)\n• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)\n• GPS Speed: 0.5–3.0 m/s (default: 1.5)\n• Hold Duration: 1–5 sec (default: 2s)\n\nVaihtoaitiossa-laukaisin — Vaihtoaitiosiirtymää varten KAIKKIEN kolmen lukeman on pudottava alle kynnyksensä pitoajan.\n• Acceleration: 0.3–1.5G (default: 0.7G)\n• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)\n• GPS Speed: 0.1–1.0 m/s (default: 0.5)\n• Hold Duration: 1–5 sec (default: 3s)\n\nSuosittelemme esiasetettuja tasoja (Korkea, Keskitaso, Matala), ellet tarvitse hienosäätöä. Napauta \"Palauta esiasetus\" milloin tahansa palataksesi."
+            },
+            {
+                "question": "Miksi on viive, kun lopetan luistelun?",
+                "answer": "Tämä on \"liikepuskuri\" — lyhyt odotusaika (oletus 20 sekuntia) ennen kuin sovellus vahvistaa, että olet palannut vaihtoaitioon. Tämä estää lyhyitä taukoja vaihdon aikana laskettavan vaihtoaitioajaksi."
+            },
+            {
+                "question": "Mikä on liikepuskuri?",
+                "answer": "Liikepuskuri on säädettävä viive (10–30 sekuntia), joka estää väärät vaihdon päättymiset. Kun lopetat liikkumisen, sovellus odottaa tämän ajan ennen kuin merkitsee sinut \"vaihtoaitiossa\". Jos alat liikkua uudelleen puskurin aikana, vaihtosi jatkuu keskeytyksettä."
+            },
+            {
+                "question": "Mikä on peliloki?",
+                "answer": "Peliloki antaa sinun kirjata tapahtumia harjoituksen aikana — maalit puolesta, maalit vastaan, rangaistukset ja erän aloitukset. Tapahtumat kirjataan Apple Watchilta pelin aikana ja niitä voi myös lisätä iPhonelta. Tulos ja henkilökohtaiset tilastot (omat maalini, syöttöni, rangaistusminuuttini) lasketaan kirjaamistasi tapahtumista."
+            },
+            {
+                "question": "Pitääkö minun aloittaa Peli-sessio käyttääkseni pelilokia?",
+                "answer": "Ei. Peliloki on käytettävissä kaikissa harjoitustyypeissä — Peli, Harjoitus, Harjoitusottelu ja Muu. Voit kirjata maaleja ja rangaistuksia missä tahansa harjoituksessa."
+            },
+            {
+                "question": "Voinko kirjata pelituloksen ilman live-seurantaa Apple Watchilla?",
+                "answer": "Kyllä. Napauta +-painiketta kohdan \"Viimeisimmät harjoitukset\" vieressä Ohjauspaneelissa lisätäksesi manuaalisen pelituloksen. Voit syöttää tuloksen, vastustajan, maalit, syötöt, rangaistukset ja erätiedot — kaikki ilman Watchia. Tämä on hyödyllistä pelien kirjaamiseen jälkikäteen tai analyysitarkoituksiin."
+            },
+            {
+                "question": "Miten kirjaan tapahtumia Watchillani?",
+                "answer": "Aktiivisen harjoituksen aikana napauta LOG-painiketta näytön alaosassa. Valitse tapahtumatyyppi (maali puolesta, maali vastaan, rangaistus tai erän aloitus) ja täytä tiedot. Tapahtuma tallennetaan nykyisellä ajalla ja näkyy iPhonessasi muutamassa sekunnissa."
+            },
+            {
+                "question": "Miten kirjaan tapahtumia iPhonellani?",
+                "answer": "Kun harjoitus on aktiivinen Watchillasi, avaa iPhone-sovellus nähdäksesi live-harjoituksesi. Watchille kirjatut tapahtumat näkyvät iPhonessasi reaaliajassa. Voit myös lisätä tai poistaa tapahtumia suoraan iPhonelta. Huomaa, että iPhonella tehdyt muutokset eivät lähety takaisin Watchille harjoituksen aikana — Watch jatkaa oman lokinsa näyttämistä. Kun harjoitus päättyy, molemmat lähteet yhdistetään automaattisesti ja iPhonella tehdyt muutokset (lisäykset ja poistot) ovat etusijalla."
+            },
+            {
+                "question": "Millaisia tapahtumia voin kirjata?",
+                "answer": "Neljä tyyppiä: Maali puolesta (valinnaisesti merkitse \"Minä tein maalin\" tai \"Minä syötin\"), Maali vastaan, Rangaistus (rangaistustyypillä, kestolla ja onko omaa vai vastustajan joukkuetta vastaan) ja Erän aloitus (merkitsee tauot aikajanaasi)."
+            },
+            {
+                "question": "Mitä tapahtuu, jos en aseta aikaa tapahtumalle?",
+                "answer": "Jos lisäät tapahtuman määrittämättä aikaleimaa, se tallennetaan ilman sitä. Tapahtuma näkyy silti pelilokissasi ja lasketaan tulokseesi ja tilastoihisi. Voit aina palata lisäämään tai korjaamaan ajan harjoituksen jälkeen harjoituksen tietosivulta iPhonessasi."
+            },
+            {
+                "question": "Voinko muokata tapahtumia harjoituksen jälkeen?",
+                "answer": "Kyllä. Avaa harjoitus iPhonessasi ja napauta mitä tahansa tapahtumaa muokataksesi sen tietoja — tyyppi, aikaleima, henkilökohtainen osallistuminen (maali/syöttö), rangaistustiedot ja muuta. Voit myös lisätä uusia tapahtumia tai poistaa olemassa olevia. Kaikki muutokset tallennetaan välittömästi."
+            },
+            {
+                "question": "Miten Watchin ja iPhonen tapahtumat yhdistetään?",
+                "answer": "Harjoituksen aikana Watch ja iPhone pitävät kumpikin omaa kirjanpitoaan. Kun harjoitus päättyy ja Watch lähettää lopulliset tiedot iPhonellesi, sovellus yhdistää molemmat lähteet: iPhonella poistetut tapahtumat poistetaan, iPhonella lisätyt sisällytetään ja tulos lasketaan uudelleen yhdistetystä listasta. Lopputulos tallennetaan yhtenä yhdistettynä harjoituksena."
+            },
+            {
+                "question": "Mitä tunnistusherkkyys tekee?",
+                "answer": "Herkkyys määrittää, kuinka paljon liikettä tarvitaan \"luistelun\" rekisteröimiseen. Korkea herkkyys havaitsee kevyemmät liikkeet (hyvä, jos vaihtoja ei havaita). Matala herkkyys vaatii voimakkaamman liikkeen (hyvä, jos saat vääriä havaintoja vaihtopenkilllä). Keskitaso on oletusasetus ja toimii hyvin useimmille pelaajille."
+            },
+            {
+                "question": "Miten säädän puskuriaikaa?",
+                "answer": "Avaa Ice Time Track -sovellus iPhonellasi, siirry Asetuksiin ja säädä \"Liikepuskuri\"-valitsinta. Lyhyemmät puskurit (10–15 sekuntia) päättävät vaihdot nopeammin. Pidemmät puskurit (25–30 sekuntia) sietävät paremmin lyhyitä taukoja vaihtojen aikana."
+            },
+            {
+                "question": "Mitä ovat haptinen hälytykset ja miten niitä käytetään?",
+                "answer": "Haptiset hälytykset ovat värinäilmoituksia Watchissasi, kun tilasi muuttuu. Voit asettaa ne värisemään, kun astut jäälle, kun palaat vaihtopenkille, molemmissa tilanteissa tai sammuttaa ne kokonaan. Tämä auttaa sinua pysymään tietoisena ilman Watchin katsomista."
+            },
+            {
+                "question": "Mitä \"Lopeta harjoitus automaattisesti\" tekee?",
+                "answer": "Automaattinen lopetus pysäyttää istuntosi automaattisesti asetetun ajan jälkeen (oletus 100 minuuttia). Tämä estää sovellusta toimimasta loputtomasti, jos unohdat lopettaa sen manuaalisesti, mikä säästää akkua ja varmistaa tietojesi tallentumisen."
+            },
+            {
+                "question": "Jos muutan asetuksia aktiivisen harjoituksen aikana, tulevatko ne voimaan heti?",
+                "answer": "Kyllä. Herkkyyden, liikepuskurin ja haptisten hälytysten muutokset synkronoituvat Watchiisi ja tulevat voimaan välittömästi käynnissä olevan istunnon aikana. Sinun ei tarvitse odottaa seuraavaa istuntoa – säädöt astuvat voimaan sekunneissa niiden muuttamisen jälkeen iPhonellasi."
+            },
+            {
+                "question": "Mitä ovat Lisäasetukset?",
+                "answer": "Lisäasetukset antavat sinun hienotaa jokaista tunnistuskynnystä erikseen. Laajenna osio Tunnistusasetuksissa määrittääksesi kiihtyvyys, askeltiheys, GPS-nopeus ja pitoaika sekä jäällä- että penkillä-laukaisijoille. Kun säädät mitä tahansa liukusäädintä, herkkyys vaihtuu automaattisesti tilaan \"Mukautettu.\" Käytä \"Palauta esiasetukseen\" palataksesi Matala/Keskitaso/Korkea-esiasetuksiin."
+            },
+            {
+                "question": "Mitä tietoja tallennetaan Apple Healthiin?",
+                "answer": "Kun käytössä, sovellus tallentaa harjoituksesi jääkiekkoharjoituksena sisältäen: keston, poltetut aktiiviset kalorit ja syketiedot (keskiarvo ja maksimi). Tämä vaikuttaa Aktiivisuusrenkaisiisi ja kuntoiluhistoriaasi."
+            },
+            {
+                "question": "Miten otan HealthKit-integraation käyttöön tai pois käytöstä?",
+                "answer": "Avaa Asetukset iPhone-sovelluksessa ja ota käyttöön \"Tallenna Apple Healthiin.\" Kun käytössä, valmiit harjoitukset tallennetaan treeneiksi. Kun pois käytöstä, tietosi pysyvät vain Ice Time Trackissa."
+            },
+            {
+                "question": "Miksi sykkeeni ei näy?",
+                "answer": "Varmista, että kellosi on tiukasti ja sykkeen mittausanturi on hyvässä ihokontaktissa. Sykkeen näkyminen voi kestää 30–60 sekuntia harjoituksen aloittamisen jälkeen. Jos ongelmat jatkuvat, tarkista että Ice Time Trackilla on lupa lukea sykettä kohdassa Asetukset > Yksityisyys > Terveys."
+            },
+            {
+                "question": "Miten harjoitukset synkronoituvat Watchin ja iPhonen välillä?",
+                "answer": "Harjoitukset synkronoituvat automaattisesti, kun molemmat laitteet ovat kantaman sisällä ja yhdistettyinä. Kun lopetat harjoituksen Watchilla, se siirtyy iPhonellesi muutamassa sekunnissa tai minuutissa. Voit myös käynnistää synkronoinnin manuaalisesti iPhone-sovelluksesta."
+            },
+            {
+                "question": "Miksi harjoitukseni ei näy iPhonessani?",
+                "answer": "Varmista ensin, että harjoitus on päättynyt Watchilla. Avaa molemmat sovellukset ja varmista, että Bluetooth on käytössä. Harjoitukset synkronoituvat, kun Watch-sovellus on auki tai pian lopettamisen jälkeen. Jos se ei vieläkään näy, kokeile avata Watch-sovellus uudelleen synkronoinnin käynnistämiseksi."
+            },
+            {
+                "question": "Voinko poistaa harjoituksen?",
+                "answer": "Kyllä. iPhone-sovelluksessa siirry harjoitusluetteloon, pyyhkäise vasemmalle poistettavan harjoituksen kohdalla ja napauta Poista. Tämä poistaa sen molemmista laitteista."
+            },
+            {
+                "question": "Sovellus ei tunnista vaihtojani tarkasti",
+                "answer": "Kokeile säätää tunnistusherkkyyttä Asetuksissa. Jos vaihtoja ei tunnisteta, nosta herkkyys tasolle Korkea. Jos saat virheellisiä tunnistuksia vaihtoaitiossa, laske tasolle Matala. Varmista myös, että Watch on tukevasti ranteessa eikä paksujen hanskojen päällä."
+            },
+            {
+                "question": "Sovellus lopetti tallennuksen kesken pelin",
+                "answer": "Tämä voi tapahtua, jos Watch käynnistyy uudelleen tai sovellus kaatuu. Tarkista, laukesiko automaattinen lopetus odotettua aiemmin (säädettävissä Asetuksissa)."
+            },
+            {
+                "question": "Watch-sovellus on jumissa kohdassa 'Synkronointi vaaditaan'",
+                "answer": "Watch- ja iPhone-sovellusten täytyy olla yhteydessä toisiinsa alkuasennuksen suorittamiseksi. Varmista, että iPhone-sovellus on auki Watchin asennuksen aikana. Jos näyttö pysyy, pakota molemmat sovellukset sulkeutumaan ja käynnistä ne uudelleen. Jos ongelma jatkuu, poista ja asenna molemmat sovellukset uudelleen."
+            },
+            {
+                "question": "Miksi sovellus tarvitsee paikannuksen käyttöoikeuden?",
+                "answer": "Sijaintia (GPS) käytetään luistelunopeuden mittaamiseen, mikä auttaa tunnistamaan tarkasti, milloin olet jäällä ja milloin vaihtoaitiossa. GPS-tiedot pysyvät laitteillasi eikä niitä ladata mihinkään."
+            },
+            {
+                "question": "Miksi sovellus tarvitsee liike- ja kuntoiluoikeudet?",
+                "answer": "Liikesensorit (kiihtyvyysanturi ja gyroskooppi) tunnistavat liikemallisi erottaakseen luistelun istumisesta. Kuntoilupääsy mahdollistaa askelmäärän lukemisen tunnistuksen tarkkuuden parantamiseksi. Nämä tiedot käsitellään kokonaan Watchillasi."
+            },
+            {
+                "question": "Jaetaanko tietojani kenenkään kanssa?",
+                "answer": "Ei. Kaikki harjoitustietosi, terveystietosi ja anturilukemat pysyvät Apple Watchillasi ja iPhonellasi. Mitään ei ladata ulkoisille palvelimille. Tietosi ovat sinun."
+            },
+            {
+                "question": "Miten otan paikannuksen käyttöön, jos estin sen vahingossa?",
+                "answer": "Vaihtoehto 1 (Watchissa): Avaa Asetukset > Tietosuoja ja turvallisuus > Sijaintipalvelut > Ice Time Track ja valitse \"Käytön aikana\". Vaihtoehto 2 (iPhonesta): Avaa Watch-sovellus > Tietosuoja > Sijaintipalvelut > Ice Time Track ja ota käyttöön."
+            }
+        ]
+    }
+}

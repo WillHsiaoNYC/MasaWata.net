@@ -1,0 +1,280 @@
+{
+    "appName": "Ice Time Track",
+    "meta": {
+        "title": "Ice Time Track - Automatic Hockey Shift Detection for Apple Watch",
+        "description": "Track your ice time automatically with Apple Watch. Detect shifts, log goals and penalties, monitor heart rate and movement. Just start a session and play."
+    },
+    "nav": {
+        "features": "Features",
+        "howItWorks": "How It Works",
+        "screenshots": "Screenshots",
+        "faq": "FAQ",
+        "cta": "Pre-Order",
+        "ctaDownload": "Download"
+    },
+    "countdown": {
+        "title": "Launching In",
+        "promo": "1 Year for $6.99",
+        "promoSub": "Limited-time offer — don't miss out",
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds",
+        "date": "February 14, 2026",
+        "claimOffer": "Claim Offer",
+        "launchSpecial": "Launch Special",
+        "offerEnds": "Offer ends February 28, 2026",
+        "downloadNow": "Download Now"
+    },
+    "hero": {
+        "title": "Automatic Shift Detection<br>for Hockey Players",
+        "description": "Know exactly how much ice time you get — without tapping your watch. Track goals, penalties, and periods. Just start a session and play.",
+        "preOrder": "Pre-Order Now",
+        "platforms": "Available on Apple Watch + iPhone · Launching February 14, 2026",
+        "shiftDetection": "Shift Detection",
+        "goalTracking": "Goal Tracking",
+        "penaltyLogging": "Penalty Logging",
+        "gameAnalytics": "Game Analytics"
+    },
+    "features": {
+        "title": "Features",
+        "subtitle": "Everything you need to track your game",
+        "shiftDetection": {
+            "title": "Automatic Shift Detection",
+            "description": "Step on the ice and your Watch knows. No buttons to press during play — sensors detect skating vs. bench time automatically."
+        },
+        "eventTracking": {
+            "title": "Game Event Tracking",
+            "description": "Log goals, assists, and penalties right from your wrist. Track periods and keep a complete record of every game."
+        },
+        "healthMetrics": {
+            "title": "Live Health Metrics",
+            "description": "Monitor heart rate, calories burned, and movement intensity in real-time. See how hard you're working each shift."
+        },
+        "analytics": {
+            "title": "Session Analytics",
+            "description": "Review total ice time, shift count, average shift length, and personal records. Track your progress over the season."
+        },
+        "healthIntegration": {
+            "title": "Apple Health Integration",
+            "description": "Sessions sync to Apple Health as hockey workouts. Contribute to your Activity rings and fitness history."
+        },
+        "offline": {
+            "title": "Works Offline",
+            "description": "Your Watch records everything independently. No iPhone needed on the bench — data syncs automatically after the game."
+        }
+    },
+    "howItWorks": {
+        "title": "How It Works",
+        "subtitle": "From warmup to post-game analysis",
+        "step1": {
+            "number": "1",
+            "title": "Before the Game",
+            "description": "Open Ice Time Track on your Apple Watch. Tap Game, Practice, or Scrimmage to start."
+        },
+        "step2": {
+            "number": "2",
+            "title": "During the Game",
+            "description": "Step on the ice and your Watch detects it automatically. Log goals and penalties with a tap. Focus on playing."
+        },
+        "step3": {
+            "number": "3",
+            "title": "After the Game",
+            "description": "Your session syncs to your iPhone. Review ice time, shifts, heart rate, and game events."
+        }
+    },
+    "screenshots": {
+        "title": "See It In Action",
+        "subtitle": "Designed for hockey players"
+    },
+    "testimonials": {
+        "title": "What Players Say",
+        "subtitle": "Trusted by hockey players everywhere",
+        "review1": {
+            "quote": "\"Finally an app that tracks my ice time without me having to tap anything. Game changer for tracking my shifts.\"",
+            "author": "— Hockey Dad"
+        },
+        "review2": {
+            "quote": "\"Love seeing my heart rate and shift stats after each game. Helps me understand my conditioning.\"",
+            "author": "— Beer League Player"
+        },
+        "review3": {
+            "quote": "\"The automatic detection is surprisingly accurate. My kids use it every game now.\"",
+            "author": "— Youth Hockey Parent"
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about Ice Time Track",
+        "items": [
+            {
+                "question": "How do I start tracking a session?",
+                "answer": "Open the Ice Time Track app on your Apple Watch. Select your session type (Game, Practice, Scrimmage, or Other) and tap to begin. The app will automatically start detecting when you're on the ice versus on the bench."
+            },
+            {
+                "question": "What's the difference between Game, Practice, and Scrimmage?",
+                "answer": "These are labels to help you organize your sessions. Game is for official matches, Practice for team practices, Scrimmage for informal games, and Other for anything else like public skating. The detection works the same for all types."
+            },
+            {
+                "question": "Do I need my iPhone with me during a game?",
+                "answer": "No. The Apple Watch records everything independently. Your session will sync to your iPhone automatically when the devices are in range after the game."
+            },
+            {
+                "question": "What is a step?",
+                "answer": "A \"step\" is detected by your Apple Watch when it senses a rhythmic arm swing pattern using its accelerometer. It doesn't actually detect your foot hitting the ground - instead, it recognizes the arm motion that accompanies movement. During hockey, your skating stride and stick handling create similar arm movements, so the app uses \"steps per second\" as one indicator of active play."
+            },
+            {
+                "question": "What is acceleration?",
+                "answer": "Acceleration measures how quickly you're speeding up, slowing down, or changing direction. Your Apple Watch's accelerometer detects this motion in three dimensions. Hard stops, explosive starts, and quick direction changes during a breakout all register as high acceleration - while sitting on the bench waiting for your next shift shows minimal activity."
+            },
+            {
+                "question": "What is rotation?",
+                "answer": "Rotation measures how much and how fast you're turning or spinning. Your Apple Watch's gyroscope detects this movement, which is especially common in hockey - crossovers through the neutral zone, pivoting to skate backwards on defense, or spinning off a check all create distinct rotation patterns. Combined with acceleration, this helps the app distinguish active skating from standing still."
+            },
+            {
+                "question": "How does the app know when I'm on the ice?",
+                "answer": "The app combines multiple sensors: the accelerometer detects movement intensity, the pedometer tracks your skating stride, and GPS measures your speed. When you're actively skating, these sensors show high activity. When you're sitting on the bench, activity drops significantly."
+            },
+            {
+                "question": "How is on-ice/bench status triggered by motion?",
+                "answer": "Your Watch reads movement intensity, skating stride, and GPS speed. When the app detects strong enough motion from these sensors, it marks you as on-ice. When all three drop to low levels and stay there, it starts the transition to bench.\n\nThe Sensitivity setting controls how much movement is needed:\n\n• High — Picks up lighter movements. Use this if your shifts aren't being detected.\n• Medium — Balanced for most players. This is the default.\n• Low — Needs stronger movement to count as skating. Use this if you're getting false on-ice readings while on the bench."
+            },
+            {
+                "question": "How do the advanced detection settings work?",
+                "answer": "Advanced Settings give you full control over every detection threshold. Adjusting any slider automatically switches your sensitivity to \"Custom.\"\n\nOn-Ice Trigger — To be marked as skating, EITHER your GPS speed must exceed its threshold for 3 seconds, OR both your acceleration and step cadence must exceed theirs for the hold duration.\n• Acceleration: 0.2–3.0G (default: 0.2G)\n• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)\n• GPS Speed: 0.5–3.0 m/s (default: 1.5)\n• Hold Duration: 1–5 sec (default: 2s)\n\nOn-Bench Trigger — To transition to bench, ALL three readings must drop below their thresholds for the hold duration.\n• Acceleration: 0.3–1.5G (default: 0.7G)\n• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)\n• GPS Speed: 0.1–1.0 m/s (default: 0.5)\n• Hold Duration: 1–5 sec (default: 3s)\n\nWe recommend using the preset levels (High, Medium, Low) unless you need fine-grained tuning. Tap \"Reset to Preset\" anytime to revert."
+            },
+            {
+                "question": "Why is there a delay when I stop skating?",
+                "answer": "This is the \"movement buffer\" - a short waiting period (default 20 seconds) before the app confirms you're back on the bench. This prevents brief pauses during a shift from being counted as bench time."
+            },
+            {
+                "question": "What is the movement buffer?",
+                "answer": "The movement buffer is a configurable delay (10-30 seconds) that prevents false shift endings. When you stop moving, the app waits this amount of time before marking you as \"on bench.\" If you start moving again during the buffer, your shift continues uninterrupted."
+            },
+            {
+                "question": "What is the game log?",
+                "answer": "The game log lets you record events during a session — goals for, goals against, penalties, and period starts. Events are logged from your Apple Watch during play and can also be added from your iPhone. The score and personal stats (my goals, my assists, penalty minutes) are calculated from the events you log."
+            },
+            {
+                "question": "Do I need to start a Game session to use the game log?",
+                "answer": "No. The game log is available for all session types — Game, Practice, Scrimmage, and Other. You can log goals and penalties in any session."
+            },
+            {
+                "question": "Can I log a game result without starting a live tracking session on the Apple Watch?",
+                "answer": "Yes. Tap the + button next to \"Recent Sessions\" on the Dashboard to add a manual game record. You can enter the score, opponent, goals, assists, penalties, and period information — all without wearing your Watch. This is useful for logging games after the fact or for analytical purposes."
+            },
+            {
+                "question": "How do I log events on my Watch?",
+                "answer": "During an active session, tap the LOG button at the bottom of the screen. Select the event type (goal for, goal against, penalty, or period start) and fill in the details. The event is recorded with the current time and appears on your iPhone within seconds."
+            },
+            {
+                "question": "How do I log events on my iPhone?",
+                "answer": "While a session is active on your Watch, open the iPhone app to see your live session. Events logged on the Watch appear on your iPhone in real time. You can also add or delete events directly from the iPhone. Note that edits made on the iPhone are not sent back to the Watch during the session — the Watch continues showing its own log. When the session ends, both sources are merged automatically, and any changes you made on the iPhone (additions and deletions) take priority."
+            },
+            {
+                "question": "What types of events can I log?",
+                "answer": "Four types: Goal For (optionally mark \"I Scored\" or \"I Assisted\"), Goal Against, Penalty (with penalty type, duration, and whether it's against your team or the opponent), and Period Start (marks intermissions in your timeline)."
+            },
+            {
+                "question": "What happens if I don't set a time for an event?",
+                "answer": "If you add an event without specifying a timestamp, it is saved without one. The event still appears in your game log and counts toward your score and stats. You can always go back and add or correct the time after the session from the session detail page on your iPhone."
+            },
+            {
+                "question": "Can I edit events after the session?",
+                "answer": "Yes. Open the session on your iPhone and tap any event to edit its details — type, timestamp, personal involvement (scored/assisted), penalty info, and more. You can also add new events or delete existing ones. All changes are saved immediately."
+            },
+            {
+                "question": "How are Watch and iPhone events merged?",
+                "answer": "During the session, the Watch and iPhone each keep their own record. When the session ends and the Watch sends the final data to your iPhone, the app merges both sources: events you deleted on the iPhone are removed, events you added on the iPhone are included, and the score is recalculated from the merged list. The final result is saved as one unified session."
+            },
+            {
+                "question": "What does detection sensitivity do?",
+                "answer": "Sensitivity controls how much movement is needed to register as \"skating.\" High sensitivity detects lighter movements (good if shifts aren't being detected). Low sensitivity requires stronger movement (good if you're getting false detections while on the bench). Medium is the default and works well for most players."
+            },
+            {
+                "question": "How do I adjust the buffer time?",
+                "answer": "Open the Ice Time Track app on your iPhone, go to Settings, and adjust the \"Movement Buffer\" picker. Shorter buffers (10-15 seconds) end shifts faster. Longer buffers (25-30 seconds) are more forgiving of brief pauses during shifts."
+            },
+            {
+                "question": "What are haptic alerts and how do I use them?",
+                "answer": "Haptic alerts are vibration notifications on your Watch when your status changes. You can set them to vibrate when you step on the ice, when you return to the bench, both, or turn them off entirely. This helps you stay aware without looking at your Watch."
+            },
+            {
+                "question": "What does \"Auto-end session\" do?",
+                "answer": "Auto-end automatically stops your session after a set time (default 100 minutes). This prevents the app from running indefinitely if you forget to end it manually, which saves battery and ensures your data is saved."
+            },
+            {
+                "question": "If I change settings during an active session, do they take effect immediately?",
+                "answer": "Yes. Changes to sensitivity, movement buffer, and haptic alerts sync to your Watch and take effect immediately during an ongoing session. You don't need to wait for the next session - adjustments apply within seconds of changing them on your iPhone."
+            },
+            {
+                "question": "What are Advanced Settings?",
+                "answer": "Advanced Settings let you fine-tune each detection threshold individually. Expand the section in Detection settings to configure acceleration, step cadence, GPS speed, and hold duration for both on-ice and on-bench triggers. When you adjust any slider, sensitivity automatically switches to \"Custom\". Use \"Reset to Preset\" to go back to Low/Medium/High presets."
+            },
+            {
+                "question": "What data is saved to Apple Health?",
+                "answer": "When enabled, the app saves your session as a Hockey workout including: duration, active calories burned, and heart rate data (average and maximum). This contributes to your Activity rings and fitness history."
+            },
+            {
+                "question": "How do I enable/disable HealthKit integration?",
+                "answer": "Open Settings in the iPhone app and toggle \"Save to Apple Health.\" When enabled, completed sessions are saved as workouts. When disabled, your data stays only within Ice Time Track."
+            },
+            {
+                "question": "Why isn't my heart rate showing?",
+                "answer": "Make sure your Watch is worn snugly and the heart rate sensor has good skin contact. Heart rate may take 30-60 seconds to appear after starting a session. If issues persist, check that Ice Time Track has permission to read heart rate in Settings > Privacy > Health."
+            },
+            {
+                "question": "How do sessions sync between Watch and iPhone?",
+                "answer": "Sessions sync automatically when both devices are in range and connected. After you end a session on your Watch, it transfers to your iPhone within a few seconds to a few minutes. You can also manually trigger a sync from the iPhone app."
+            },
+            {
+                "question": "Why isn't my session showing on my iPhone?",
+                "answer": "First, make sure the session has ended on your Watch. Open both apps and ensure Bluetooth is enabled. Sessions sync when the Watch app is open or shortly after ending. If it still doesn't appear, try opening the Watch app again to trigger the sync."
+            },
+            {
+                "question": "Can I delete a session?",
+                "answer": "Yes. In the iPhone app, go to your sessions list, swipe left on the session you want to remove, and tap Delete. This removes it from both devices."
+            },
+            {
+                "question": "The app isn't detecting my shifts accurately",
+                "answer": "Try adjusting the detection sensitivity in Settings. If shifts aren't being detected, increase sensitivity to High. If you're getting false detections on the bench, decrease to Low. Also ensure your Watch is worn securely on your wrist, not over thick gloves."
+            },
+            {
+                "question": "The app stopped recording mid-game",
+                "answer": "This can happen if the Watch restarts or the app crashes. Check if auto-end triggered earlier than expected (adjustable in Settings)."
+            },
+            {
+                "question": "The Watch app is stuck on 'Sync Required'",
+                "answer": "The Watch and iPhone apps need to communicate to complete initial setup. Make sure the iPhone app is open while setting up the Watch. If the screen persists, force-quit both apps and relaunch them. If the issue continues, delete and reinstall both the iPhone and Watch apps."
+            },
+            {
+                "question": "Why does the app need location access?",
+                "answer": "Location (GPS) is used to measure your skating speed, which helps accurately detect when you're on the ice versus the bench. GPS data stays on your devices and is not uploaded anywhere."
+            },
+            {
+                "question": "Why does the app need motion & fitness access?",
+                "answer": "Motion sensors (accelerometer and gyroscope) detect your movement patterns to distinguish skating from sitting. Fitness access allows reading your step count to improve detection accuracy. This data is processed entirely on your Watch."
+            },
+            {
+                "question": "Is my data shared with anyone?",
+                "answer": "No. All your session data, health metrics, and sensor readings stay on your Apple Watch and iPhone. Nothing is uploaded to external servers. Your data is yours."
+            },
+            {
+                "question": "How do I enable location access if I accidentally denied it?",
+                "answer": "Option 1 (on Watch): Open Settings > Privacy & Security > Location Services > Ice Time Track, then select \"While Using\". Option 2 (from iPhone): Open the Watch app > Privacy > Location Services > Ice Time Track and enable access."
+            }
+        ]
+    },
+    "download": {
+        "title": "Ready to Track Your Ice Time?",
+        "description": "Get Ice Time Track and start your next session. Automatic shift detection, game event logging, and health metrics — all from your wrist.",
+        "preOrder": "Pre-Order Now",
+        "downloadNow": "Download Now"
+    },
+    "footer": {
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "support": "Support",
+        "copyright": "© 2026 MasaWata. All rights reserved."
+    }
+}

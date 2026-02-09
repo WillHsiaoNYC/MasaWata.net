@@ -1,0 +1,280 @@
+{
+    "appName": "Ice Time Track",
+    "meta": {
+        "title": "Ice Time Track - Automatikus váltásérzékelés Apple Watch-hoz",
+        "description": "Kövesse jégidejét automatikusan az Apple Watch-csal. Érzékelje a váltásokat, naplózza a gólokat és büntetéseket, figyelje a pulzust és a mozgást."
+    },
+    "nav": {
+        "features": "Funkciók",
+        "howItWorks": "Hogyan működik",
+        "screenshots": "Képernyőképek",
+        "faq": "GYIK",
+        "cta": "Előrendelés",
+        "ctaDownload": "Letöltés"
+    },
+    "countdown": {
+        "title": "Indulás",
+        "promo": "1 év $6,99-ért",
+        "promoSub": "Korlátozott idejű ajánlat — ne hagyja ki",
+        "days": "Nap",
+        "hours": "Óra",
+        "minutes": "Perc",
+        "seconds": "Másodperc",
+        "date": "2026. február 14.",
+        "claimOffer": "Ajánlat igénylése",
+        "launchSpecial": "Indulási akció",
+        "offerEnds": "Az ajánlat 2026. február 28-án lejár",
+        "downloadNow": "Letöltés most"
+    },
+    "hero": {
+        "title": "Automatikus váltásérzékelés<br>jégkorongosoknak",
+        "description": "Tudja meg pontosan, mennyi jégidőt kap — anélkül, hogy megérintené az óráját. Kövesse a gólokat, büntetéseket és harmadokat. Csak indítson egy munkamenetet és játsszon.",
+        "preOrder": "Előrendelés most",
+        "platforms": "Elérhető Apple Watch + iPhone · Indulás 2026. február 14.",
+        "shiftDetection": "Váltásérzékelés",
+        "goalTracking": "Gólkövetés",
+        "penaltyLogging": "Büntetésnaplózás",
+        "gameAnalytics": "Mérkőzéselemzés"
+    },
+    "features": {
+        "title": "Funkciók",
+        "subtitle": "Minden, amire szüksége van a mérkőzés követéséhez",
+        "shiftDetection": {
+            "title": "Automatikus váltásérzékelés",
+            "description": "Lépjen a jégre és az órája tudni fogja. Nincs szükség gombokra játék közben — az érzékelők automatikusan felismerik a korcsolyázást."
+        },
+        "eventTracking": {
+            "title": "Mérkőzésesemények követése",
+            "description": "Naplózzon gólokat, gólpasszokat és büntetéseket közvetlenül a csuklójáról."
+        },
+        "healthMetrics": {
+            "title": "Élő egészségügyi mutatók",
+            "description": "Figyelje a pulzust, az elégetett kalóriákat és a mozgás intenzitását valós időben."
+        },
+        "analytics": {
+            "title": "Munkamenet-elemzés",
+            "description": "Tekintse át a teljes jégidőt, a váltások számát, az átlagos váltáshosszt és a személyes rekordokat."
+        },
+        "healthIntegration": {
+            "title": "Apple Health integráció",
+            "description": "A munkamenetek jégkorong-edzésként szinkronizálódnak az Apple Health-be."
+        },
+        "offline": {
+            "title": "Offline is működik",
+            "description": "Az órája mindent önállóan rögzít. Nincs szükség iPhone-ra a kispadon — az adatok automatikusan szinkronizálódnak a mérkőzés után."
+        }
+    },
+    "howItWorks": {
+        "title": "Hogyan működik",
+        "subtitle": "A bemelegítéstől a mérkőzés utáni elemzésig",
+        "step1": {
+            "number": "1",
+            "title": "A mérkőzés előtt",
+            "description": "Nyissa meg az Ice Time Track-et az Apple Watch-on. Koppintson a Mérkőzés, Edzés vagy Scrimmage gombra."
+        },
+        "step2": {
+            "number": "2",
+            "title": "A mérkőzés alatt",
+            "description": "Lépjen a jégre és az órája automatikusan érzékeli. Naplózza a gólokat és büntetéseket egy koppintással."
+        },
+        "step3": {
+            "number": "3",
+            "title": "A mérkőzés után",
+            "description": "Munkamenete szinkronizálódik az iPhone-jával. Tekintse át a jégidőt, váltásokat, pulzust és mérkőzéseseményeket."
+        }
+    },
+    "screenshots": {
+        "title": "Nézze meg működés közben",
+        "subtitle": "Jégkorongosoknak tervezve"
+    },
+    "testimonials": {
+        "title": "Mit mondanak a játékosok",
+        "subtitle": "Jégkorongosok bizalmát élvezi mindenhol",
+        "review1": {
+            "quote": "\"Végre egy app, ami követi a jégidőmet anélkül, hogy bármit is meg kellene érintenem. Forradalmi a váltások követéséhez.\"",
+            "author": "— Hockey Dad"
+        },
+        "review2": {
+            "quote": "\"Imádom a pulzusom és váltásstatisztikáim megtekintését minden mérkőzés után.\"",
+            "author": "— Beer League Player"
+        },
+        "review3": {
+            "quote": "\"Az automatikus érzékelés meglepően pontos. A gyerekeim minden mérkőzésen használják.\"",
+            "author": "— Youth Hockey Parent"
+        }
+    },
+    "download": {
+        "title": "Készen áll a jégidő követésére?",
+        "description": "Töltse le az Ice Time Track-et és kezdje el következő munkamenetét. Automatikus váltásérzékelés, mérkőzésesemény-naplózás és egészségügyi mutatók — mindezt a csuklójáról.",
+        "preOrder": "Előrendelés most",
+        "downloadNow": "Letöltés most"
+    },
+    "footer": {
+        "privacy": "Adatvédelmi irányelvek",
+        "terms": "Szolgáltatási feltételek",
+        "support": "Támogatás",
+        "copyright": "© 2026 MasaWata. Minden jog fenntartva."
+    },
+    "faq": {
+        "title": "Gyakran ismételt kérdések",
+        "subtitle": "Minden, amit az Ice Time Trackről tudni kell",
+        "items": [
+            {
+                "question": "Hogyan indítok el egy munkamenetet?",
+                "answer": "Nyisd meg az Ice Time Track alkalmazást az Apple Watchodon. Válaszd ki a munkamenet típusát (Meccs, Edzés, Scrimmage vagy Egyéb), és koppints az indításhoz. Az alkalmazás automatikusan érzékeli, mikor vagy a jégen és mikor a kispadon."
+            },
+            {
+                "question": "Mi a különbség a Meccs, az Edzés és a Scrimmage között?",
+                "answer": "Ezek címkék a munkamenetek rendszerezéséhez. A Meccs a hivatalos mérkőzésekhez, az Edzés a csapatedzésekhez, a Scrimmage az informális meccsekhez, az Egyéb pedig minden máshoz, például nyilvános korcsolyázáshoz. Az érzékelés minden típusnál ugyanúgy működik."
+            },
+            {
+                "question": "Szükségem van az iPhone-omra meccs közben?",
+                "answer": "Nem. Az Apple Watch mindent önállóan rögzít. A munkamenet automatikusan szinkronizálódik az iPhone-oddal, amikor az eszközök hatótávolságon belül vannak a meccs után."
+            },
+            {
+                "question": "Mi az a lépés?",
+                "answer": "Egy \"lépést\" az Apple Watchod akkor érzékel, amikor a gyorsulásmérőjével ritmikus karmozgási mintát észlel. Valójában nem a láb földet érését érzékeli — ehelyett a mozgást kísérő karmozgást ismeri fel. Jégkorong közben a korcsolyázó lépésed és a botkezelésed hasonló karmozgásokat hoz létre, ezért az alkalmazás a \"lépés/másodperc\" értéket használja az aktív játék egyik mutatójaként."
+            },
+            {
+                "question": "Mi az a gyorsulás?",
+                "answer": "A gyorsulás azt méri, milyen gyorsan gyorsítasz, lassítasz vagy változtatsz irányt. Az Apple Watchod gyorsulásmérője három dimenzióban érzékeli ezt a mozgást. A kemény megállások, robbanékony indulások és gyors irányváltások kitörés közben magas gyorsulásként jelennek meg — míg a kispadon ülés a következő váltásra várva minimális aktivitást mutat."
+            },
+            {
+                "question": "Mi az a forgás?",
+                "answer": "A forgás méri, mennyit és milyen gyorsan fordulsz vagy pörögsz. Az Apple Watchod giroszkópja érzékeli ezt a mozgást, ami különösen gyakori a jégkorongban — a cross-overek a semleges zónán keresztül, a hátrafelé korcsolyázáshoz való fordulás védekezésben, vagy a test melletti lepördülés mind jellegzetes forgásmintákat hoznak létre. A gyorsulással kombinálva ez segíti az alkalmazást megkülönböztetni az aktív korcsolyázást az álló helyzetben maradástól."
+            },
+            {
+                "question": "Honnan tudja az alkalmazás, hogy a jégen vagyok?",
+                "answer": "Az alkalmazás több érzékelőt kombinál: a gyorsulásmérő érzékeli a mozgás intenzitását, a lépésszámláló követi a korcsolyázó lépésedet, a GPS pedig méri a sebességedet. Amikor aktívan korcsolyázol, ezek az érzékelők magas aktivitást mutatnak. Amikor a kispadon ülsz, az aktivitás jelentősen csökken."
+            },
+            {
+                "question": "Hogyan váltja ki a mozgás a jégen/kispadon állapotot?",
+                "answer": "A Watchod olvassa a mozgás intenzitását, a korcsolyázó lépést és a GPS-sebességet. Amikor az alkalmazás elég erős mozgást észlel ezekből az érzékelőkből, jégen lévőnek jelöl. Amikor mindhárom alacsony szintre esik és ott marad, megkezdődik a kispadra váltás.\n\nAz Érzékenység beállítás szabályozza, mennyi mozgás szükséges:\n\n• Magas — Könnyebb mozgásokat is érzékel. Használd, ha a váltásaid nem kerülnek felismerésre.\n• Közepes — Kiegyensúlyozott a legtöbb játékos számára. Ez az alapértelmezett.\n• Alacsony — Erősebb mozgás szükséges a korcsolyázásnak számításhoz. Használd, ha hamis jégen-olvasásokat kapsz, miközben a kispadon ülsz."
+            },
+            {
+                "question": "Hogyan működnek a speciális érzékelési beállítások?",
+                "answer": "A Speciális beállítások teljes irányítást adnak minden érzékelési küszöb felett. Bármely csúszka állítása automatikusan átkapcsolja az érzékenységet „Egyedi“ módra.\n\nJégen-indító — A korcsolyázás jelöléséhez VAGY a GPS sebességednek meg kell haladnia a küszöbét 3 másodpercig, VAGY mind a gyorsulásodnak, mind a lépési ütemed nek meg kell haladnia a küszöbét a tartási időre.\n• Acceleration: 0.2–3.0G (default: 0.2G)\n• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)\n• GPS Speed: 0.5–3.0 m/s (default: 1.5)\n• Hold Duration: 1–5 sec (default: 2s)\n\nKispadon-indító — A kispadra váltáshoz MINDHÁROM értéknek a küszöb alá kell esnie a tartási időre.\n• Acceleration: 0.3–1.5G (default: 0.7G)\n• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)\n• GPS Speed: 0.1–1.0 m/s (default: 0.5)\n• Hold Duration: 1–5 sec (default: 3s)\n\nAz előre beállított szintek (Magas, Közepes, Alacsony) használatát javasoljuk, kivéve ha finom hangolásra van szükséged. Bármikor koppints a „Visszatérés az előbeállításhoz“ gombra a visszaállításhoz."
+            },
+            {
+                "question": "Miért van késleltetés, amikor abbahagyom a korcsolyázást?",
+                "answer": "Ez a \"mozgáspuffer\" — egy rövid várakozási időszak (alapértelmezés 20 másodperc), mielőtt az alkalmazás megerősíti, hogy visszatértél a kispadra. Ez megakadályozza, hogy a váltás közbeni rövid szünetek kispadidőnek számítsanak."
+            },
+            {
+                "question": "Mi az a mozgáspuffer?",
+                "answer": "A mozgáspuffer egy konfigurálható késleltetés (10-30 másodperc), amely megakadályozza a hamis váltáslezárásokat. Amikor abbahagyod a mozgást, az alkalmazás ennyi időt vár, mielőtt \"kispadon\" lévőként jelölne. Ha a puffer alatt újra elkezdesz mozogni, a váltásod megszakítás nélkül folytatódik."
+            },
+            {
+                "question": "Mi az a mecsjegyzőkönyv?",
+                "answer": "A mecsjegyzőkönyv lehetővé teszi események rögzítését a munkamenet során — gólok mellé, gólok ellen, büntetések és harmadkezdések. Az eseményeket az Apple Watchról rögzítik játék közben, és az iPhone-ról is hozzáadhatók. A pontszám és a személyes statisztikák (góljaim, gólpasszaim, büntetőperceim) a rögzített eseményekből számítódnak."
+            },
+            {
+                "question": "El kell indítanom egy Meccs munkamenetet a mecsjegyzőkönyv használatához?",
+                "answer": "Nem. A mecsjegyzőkönyv minden munkamenet-típushoz elérhető — Meccs, Edzés, Scrimmage és Egyéb. Gólokat és büntetéseket bármely munkamenetben rögzíthetsz."
+            },
+            {
+                "question": "Rögzíthetek meccseredményt anélkül, hogy élő követést indítanék az Apple Watchon?",
+                "answer": "Igen. Koppints a + gombra az „Utolsó munkamenetek“ mellett az Irányítópulton egy manuális meccseredmény hozzáadásához. Megadhatod a pontszámot, az ellenfél nevét, a gólokat, a gólpasszokat, a büntetéseket és a harmadok információit — mindezt a Watch viselése nélkül. Ez hasznos meccsek utólagos rögzítéséhez vagy elemzési célokra."
+            },
+            {
+                "question": "Hogyan rögzítek eseményeket a Watchomon?",
+                "answer": "Aktív munkamenet során koppints a LOG gombra a képernyő alján. Válaszd ki az esemény típusát (gól mellé, gól ellen, büntetés vagy harmadkezdés) és töltsd ki a részleteket. Az esemény az aktuális idővel rögzítődik és másodperceken belül megjelenik az iPhone-odon."
+            },
+            {
+                "question": "Hogyan rögzítek eseményeket az iPhone-omon?",
+                "answer": "Amíg egy munkamenet aktív a Watchodon, nyisd meg az iPhone alkalmazást az élő munkamenet megtekintéséhez. A Watchon rögzített események valós időben jelennek meg az iPhone-odon. Eseményeket közvetlenül az iPhone-ról is hozzáadhatsz vagy törölhetsz. Vedd figyelembe, hogy az iPhone-on végzett módosítások nem kerülnek vissza a Watchra a munkamenet során — a Watch továbbra is a saját naplóját mutatja. A munkamenet végén mindkét forrás automatikusan egyesítődik, és az iPhone-on végzett változtatások (hozzáadások és törlések) élvenek elsőbbséget."
+            },
+            {
+                "question": "Milyen típusú eseményeket rögzíthetek?",
+                "answer": "Négy típus: Gól mellé (opcionálisan jelöld meg „Én lőttem“ vagy „Én adtam gólpasszt“), Gól ellen, Büntetés (büntetéstípussal, időtartammal és hogy a csapatod vagy az ellenfél ellen szól) és Harmadkezdés (szüneteket jelöl az idővonalon)."
+            },
+            {
+                "question": "Mi történik, ha nem állítok be időt egy eseményhez?",
+                "answer": "Ha időbélyeg megadása nélkül adsz hozzá egy eseményt, az anélkül mentődik. Az esemény továbbra is megjelenik a mecsjegyzőkönyvedben és beleszámít a pontszámodba és statisztikáidba. Bármikor visszamehetsz és hozzáadhatod vagy javíthatod az időt a munkamenet után a munkamenet részletes oldalán az iPhone-odon."
+            },
+            {
+                "question": "Szerkeszthetem az eseményeket a munkamenet után?",
+                "answer": "Igen. Nyisd meg a munkamenetet az iPhone-odon és koppints bármely eseményre a részletek szerkesztéséhez — típus, időbélyeg, személyes részvétel (gól/gólpassz), büntetés adatai és továbbiak. Új eseményeket is hozzáadhatsz vagy törölheted a meglévőket. Minden változás azonnal mentődik."
+            },
+            {
+                "question": "Hogyan egyesítődnek a Watch és iPhone események?",
+                "answer": "A munkamenet során a Watch és az iPhone külön-külön vezeti a saját nyilvántartását. Amikor a munkamenet véget ér és a Watch elküldi a végleges adatokat az iPhone-ra, az alkalmazás egyesíti mindkét forrást: az iPhone-on törölt események eltávolításra kerülnek, a hozzáadottak bekerülnek, és a pontszám újraszámítódik az egyesített listából. A végeredmény egyetlen egyesített munkamenetként mentődik."
+            },
+            {
+                "question": "Mit csinál az érzékelési érzékenység?",
+                "answer": "Az érzékenység szabályozza, mennyi mozgás szükséges a \"korisolyázás\" érzékeléséhez. A magas érzékenység könnyebb mozgásokat is észlel (jó, ha a váltások nem kerülnek észlelésre). Az alacsony érzékenység erősebb mozgást igényel (jó, ha téves észlelések vannak a kispadon). A közepes az alapértelmezett, és a legtöbb játékosnak megfelel."
+            },
+            {
+                "question": "Hogyan állítom be a pufferidőt?",
+                "answer": "Nyissa meg az Ice Time Track alkalmazást az iPhone-ján, lépjen a Beállításokba, és állítsa be a \"Mozgáspuffer\" választót. Rövidebb pufferek (10–15 másodperc) gyorsabban zárják le a váltásokat. Hosszabb pufferek (25–30 másodperc) elnzőbbek a rövid szünetek iránt a váltások során."
+            },
+            {
+                "question": "Mik azok a haptikus figyelmeztetések és hogyan használom őket?",
+                "answer": "A haptikus figyelmeztetések rezgős értesítések a Watch-on, amikor az állapota megváltozik. Beállíthatja, hogy rezegjen, amikor jégre lép, amikor visszatér a kispadra, mindkettőnél, vagy teljesen kikapcsolhatja. Ez segít tájékozottnak maradni anélkül, hogy a Watch-ra nézne."
+            },
+            {
+                "question": "Mit csinál az „Automatikus munkamenet-befejezés\"?",
+                "answer": "Az automatikus befejezés automatikusan leállítja a munkamenetet egy beállított idő után (alapértelmezetten 100 perc). Ez megakadályozza, hogy az alkalmazás végtelenül fusson, ha elfelejti manuálisan leállítani, így kíméli az akkumulátort és biztosítja az adatok mentését."
+            },
+            {
+                "question": "Ha megváltoztatom a beállításokat aktív munkamenet közben, azonnal érvénybe lépnek?",
+                "answer": "Igen. Az érzékenység, a mozgáspuffer és a haptikus figyelmeztetések módosításai szinkronizálódnak a Watch-csal, és azonnal érvénybe lépnek a folyamatban lévő munkamenet során. Nem kell megvárnia a következő munkamenetet – a beállítások másodperceken belül érvényesülnek az iPhone-on történő módosítás után."
+            },
+            {
+                "question": "Mik azok a Speciális beállítások?",
+                "answer": "A Haladó beállítások lehetővé teszik az egyes észlelési küszöbök egyedi finomhangolását. Bővítse ki a szakaszt az Észlelési beállításokban a gyorsulás, lépésfrekvencia, GPS-sebesség és tartási időtartam konfigurálásához a jégen és a kispadon történő aktiváláshoz egyaránt. Amikor bármely csúszkot állít, az érzékenység automatikusan \"Égyedi\"-re vált. Használja az \"Visszaállítás előbeállításra\" opciót az Alacsony/Közepes/Magas előbeállításokhoz való visszatéréshez."
+            },
+            {
+                "question": "Milyen adatok mentődnek az Apple Health-be?",
+                "answer": "Ha engedélyezve van, az alkalmazás hokiedzésként menti a munkamenetet, beleértve: időtartam, elégetett aktív kalóriák és pulzusadatok (átlag és maximum). Ez hozzájárul az Aktivitásgyűrűidhez és fitneszelőzményeidhez."
+            },
+            {
+                "question": "Hogyan engedélyezem/tiltom le a HealthKit integrációt?",
+                "answer": "Nyisd meg a Beállításokat az iPhone alkalmazásban, és kapcsold be a „Mentés az Apple Health-be\" opciót. Ha engedélyezve van, a befejezett munkamenetek edzésként mentődnek. Ha letiltva, az adataid csak az Ice Time Trackben maradnak."
+            },
+            {
+                "question": "Miért nem jelenik meg a pulzusom?",
+                "answer": "Győződj meg róla, hogy az órád szorosan ül, és a pulzusmérő jó bőrkontaktusban van. A pulzus megjelenése 30–60 másodpercet vehet igénybe a munkamenet indítása után. Ha a probléma fennáll, ellenőrizd, hogy az Ice Time Tracknek van-e engedélye a pulzus olvasásához a Beállítások > Adatvédelem > Egészség menüben."
+            },
+            {
+                "question": "Hogyan szinkronizálódnak a munkamenetek a Watch és az iPhone között?",
+                "answer": "A munkamenetek automatikusan szinkronizálódnak, ha mindkét eszköz hatótávolságon belül van és csatlakoztatva van. Miután befejezed a munkamenetet az órádon, az néhány másodperc vagy perc alatt áttevődik az iPhone-ra. A szinkronizálást manuálisan is elindíthatod az iPhone alkalmazásból."
+            },
+            {
+                "question": "Miért nem jelenik meg a munkamenetem az iPhone-omon?",
+                "answer": "Először győződj meg róla, hogy a munkamenet befejeződött az órádon. Nyisd meg mindkét alkalmazást, és győződj meg róla, hogy a Bluetooth be van kapcsolva. A munkamenetek szinkronizálódnak, amikor az óra alkalmazás nyitva van, vagy röviddel a befejezés után. Ha még mindig nem jelenik meg, próbáld meg újra megnyitni az óra alkalmazást a szinkronizálás elindításához."
+            },
+            {
+                "question": "Törölhetek egy munkamenetet?",
+                "answer": "Igen. Az iPhone alkalmazásban menj a munkamenetek listájára, húzd balra az eltávolítani kívánt munkamenetet, és koppints a Törlés gombra. Ez mindkét eszközről eltávolítja."
+            },
+            {
+                "question": "Az alkalmazás nem érzékeli pontosan a váltásaimat",
+                "answer": "Próbáld meg beállítani az érzékelési érzékenységet a Beállításokban. Ha a váltások nem érzékelhetők, növeld az érzékenységet Magas szintre. Ha hamis érzékeléseket kapsz a kispadon, csökkentsd Alacsony szintre. Győződj meg arról is, hogy az óra biztonságosan a csuklódon van, nem vastag kesztyű felett."
+            },
+            {
+                "question": "Az alkalmazás leállt a rögzítéssel meccs közben",
+                "answer": "Ez előfordulhat, ha az óra újraindul vagy az alkalmazás összeomlik. Ellenőrizd, hogy az automatikus befejezés a vártnál korábban aktiválódott-e (a Beállításokban módosítható)."
+            },
+            {
+                "question": "A Watch alkalmazás elakadt a „Szinkronizálás szükséges“ képernyőn",
+                "answer": "Az óra és iPhone alkalmazásoknak kommunikálniuk kell a kezdeti beállítás befejezéséhez. Győződj meg róla, hogy az iPhone alkalmazás nyitva van az óra beállítása közben. Ha a képernyő megmarad, kényszerítsd ki mindkét alkalmazást és indítsd újra őket. Ha a probléma folytatódik, töröld és telepítsd újra mindkét alkalmazást."
+            },
+            {
+                "question": "Miért van szüksége az alkalmazásnak helymeghatározásra?",
+                "answer": "A helymeghatározás (GPS) a korcsolyázási sebesség mérésére szolgál, ami segít pontosan érzékelni, mikor vagy a jégen és mikor a kispadon. A GPS-adatok az eszközeiden maradnak, és sehová sem töltődnek fel."
+            },
+            {
+                "question": "Miért van szüksége az alkalmazásnak mozgás és fitnesz hozzáférésre?",
+                "answer": "A mozgásérzékelők (gyorsulásmérő és giroszkóp) a mozgásmintáidat érzékelik, hogy megkülönböztessék a korcsolyázást az üléstől. A fitnesz hozzáférés lehetővé teszi a lépésszám olvasását az érzékelés pontosságának javítása érdekében. Ezeket az adatokat teljes egészében az órádon dolgozzuk fel."
+            },
+            {
+                "question": "Megosztják az adataimat valakivel?",
+                "answer": "Nem. Minden munkamenet-adat, egészségügyi mutató és szenzorérték az Apple Watchodon és iPhone-odon marad. Semmi sem töltődik fel külső szerverekre. Az adataid a tieid."
+            },
+            {
+                "question": "Hogyan engedélyezem a helymeghatározást, ha véletlenül megtagadtam?",
+                "answer": "1. lehetőség (az órán): Nyisd meg a Beállítások > Adatvédelem és biztonság > Helymeghatározás > Ice Time Track menüpontot, majd válaszd a „Használat közben“ lehetőséget. 2. lehetőség (iPhone-ról): Nyisd meg a Watch alkalmazást > Adatvédelem > Helymeghatározás > Ice Time Track, és engedélyezd a hozzáférést."
+            }
+        ]
+    }
+}

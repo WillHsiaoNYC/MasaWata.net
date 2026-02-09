@@ -1,0 +1,280 @@
+{
+    "appName": "Ice Time Track",
+    "meta": {
+        "title": "Ice Time Track - Automatická detekcia striedaní pre Apple Watch",
+        "description": "Sledujte svoj čas na ľade automaticky s Apple Watch. Detekcia striedaní, záznam gólov a trestov, monitorovanie tepu a pohybu."
+    },
+    "nav": {
+        "features": "Funkcie",
+        "howItWorks": "Ako to funguje",
+        "screenshots": "Snímky",
+        "faq": "FAQ",
+        "cta": "Predobjednať",
+        "ctaDownload": "Stiahnuť"
+    },
+    "countdown": {
+        "title": "Spustenie za",
+        "promo": "1 rok za $6,99",
+        "promoSub": "Časovo obmedzená ponuka — nenechajte si ujsť",
+        "days": "Dní",
+        "hours": "Hodín",
+        "minutes": "Minút",
+        "seconds": "Sekúnd",
+        "date": "14. februára 2026",
+        "claimOffer": "Uplatniť ponuku",
+        "launchSpecial": "Špeciálna ponuka",
+        "offerEnds": "Ponuka končí 28. februára 2026",
+        "downloadNow": "Stiahnuť teraz"
+    },
+    "hero": {
+        "title": "Automatická detekcia striedaní<br>pre hokejistov",
+        "description": "Zistite presne, koľko času na ľade máte — bez dotyku hodiniek. Sledujte góly, tresty a tretiny. Stačí spustiť a hrať.",
+        "preOrder": "Predobjednať teraz",
+        "platforms": "K dispozícii pre Apple Watch + iPhone · Spustenie 14. februára 2026",
+        "shiftDetection": "Detekcia striedaní",
+        "goalTracking": "Sledovanie gólov",
+        "penaltyLogging": "Záznam trestov",
+        "gameAnalytics": "Herná analytika"
+    },
+    "features": {
+        "title": "Funkcie",
+        "subtitle": "Všetko potrebné na sledovanie hry",
+        "shiftDetection": {
+            "title": "Automatická detekcia striedaní",
+            "description": "Vstúpte na ľad a vaše hodinky to vedia. Žiadne tlačidlá počas hry — senzory automaticky rozpoznajú korčuľovanie vs. striedačku."
+        },
+        "eventTracking": {
+            "title": "Sledovanie herných udalostí",
+            "description": "Zaznamenávajte góly, asistencie a tresty priamo zo zápästia."
+        },
+        "healthMetrics": {
+            "title": "Zdravotné metriky v reálnom čase",
+            "description": "Monitorujte tep, spálené kalórie a intenzitu pohybu v reálnom čase."
+        },
+        "analytics": {
+            "title": "Analytika relácií",
+            "description": "Prezrite si celkový čas na ľade, počet striedaní, priemernú dĺžku striedania a osobné rekordy."
+        },
+        "healthIntegration": {
+            "title": "Integrácia Apple Health",
+            "description": "Relácie sa synchronizujú do Apple Health ako hokejové tréningy."
+        },
+        "offline": {
+            "title": "Funguje offline",
+            "description": "Vaše hodinky zaznamenávajú všetko nezávisle. Na striedačke nepotrebujete iPhone — dáta sa synchronizujú automaticky po zápase."
+        }
+    },
+    "howItWorks": {
+        "title": "Ako to funguje",
+        "subtitle": "Od rozcvičky po analýzu po zápase",
+        "step1": {
+            "number": "1",
+            "title": "Pred zápasom",
+            "description": "Otvorte Ice Time Track na Apple Watch. Klepnite na Zápas, Tréning alebo Prípravný zápas."
+        },
+        "step2": {
+            "number": "2",
+            "title": "Počas zápasu",
+            "description": "Vstúpte na ľad a vaše hodinky to automaticky detekujú. Zaznamenávajte góly a tresty klepnutím."
+        },
+        "step3": {
+            "number": "3",
+            "title": "Po zápase",
+            "description": "Vaša relácia sa synchronizuje s iPhonom. Prezrite si čas na ľade, striedania, tep a herné udalosti."
+        }
+    },
+    "screenshots": {
+        "title": "Pozrite sa",
+        "subtitle": "Navrhnuté pre hokejistov"
+    },
+    "testimonials": {
+        "title": "Čo hovoria hráči",
+        "subtitle": "Dôverujú nám hokejisti po celom svete",
+        "review1": {
+            "quote": "\"Konečne aplikácia, ktorá sleduje môj čas na ľade bez nutnosti čokoľvek ťukať.\"",
+            "author": "— Hockey Dad"
+        },
+        "review2": {
+            "quote": "\"Milujem sledovanie tepu a štatistík striedaní po každom zápase.\"",
+            "author": "— Beer League Player"
+        },
+        "review3": {
+            "quote": "\"Automatická detekcia je prekvapivo presná. Moje deti ju používajú každý zápas.\"",
+            "author": "— Youth Hockey Parent"
+        }
+    },
+    "download": {
+        "title": "Pripravení sledovať čas na ľade?",
+        "description": "Stiahnite si Ice Time Track a začnite ďalšiu reláciu. Automatická detekcia striedaní, záznam herných udalostí a zdravotné metriky — všetko z vášho zápästia.",
+        "preOrder": "Predobjednať teraz",
+        "downloadNow": "Stiahnuť teraz"
+    },
+    "footer": {
+        "privacy": "Zásady ochrany osobných údajov",
+        "terms": "Podmienky služby",
+        "support": "Podpora",
+        "copyright": "© 2026 MasaWata. Všetky práva vyhradené."
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "subtitle": "Všetko, čo potrebujete vedieť o Ice Time Track",
+        "items": [
+            {
+                "question": "Ako začnem sledovať reláciu?",
+                "answer": "Otvorte aplikáciu Ice Time Track na Apple Watch. Vyberte typ relácie (Zápas, Tréning, Prípravný zápas alebo Iné) a ťuknite pre začatie. Aplikácia automaticky začne rozpoznávať, kedy ste na ľade a kedy na striedačke."
+            },
+            {
+                "question": "Aký je rozdiel medzi Zápasom, Tréningom a Prípravným zápasom?",
+                "answer": "Ide o štítky na organizáciu vašich relácií. Zápas je pre oficiálne stretnutia, Tréning pre tímové tréningy, Prípravný zápas pre neformálne hry a Iné pre všetko ostatné ako verejné korčuľovanie. Detekcia funguje rovnako pre všetky typy."
+            },
+            {
+                "question": "Potrebujem mať iPhone pri sebe počas hry?",
+                "answer": "Nie. Apple Watch zaznamenávajú všetko samostatne. Vaša relácia sa automaticky synchronizuje s iPhonom, keď budú zariadenia po hre v dosahu."
+            },
+            {
+                "question": "Čo je krok?",
+                "answer": "\"Krok\" je detekovaný vašim Apple Watch, keď pomocou akcelerometra zaznamená rytmický pohyb paže. V skutočnosti nedetekuje dopad nohy na zem — namiesto toho rozpoznáva pohyb paže, ktorý sprevádza pohyb. Pri hokeji vytvárajú korčuliarsky krok a práca s hokejkou podobné pohyby paží, takže aplikácia používa \"kroky za sekundu\" ako jeden z ukazovateľov aktívnej hry."
+            },
+            {
+                "question": "Čo je zrýchlenie?",
+                "answer": "Zrýchlenie meria, ako rýchlo zrýchľujete, spomaľujete alebo meníte smer. Akcelerometer Apple Watch detekuje tento pohyb v troch rozmeroch. Tvrdé zastavenia, výbušné štarty a rýchle zmeny smeru pri rozohraní registrujú vysoké zrýchlenie — zatiaľ čo sedenie na striedačke a čakanie na ďalšie striedanie ukazuje minimálnu aktivitu."
+            },
+            {
+                "question": "Čo je rotácia?",
+                "answer": "Rotácia meria, koľko a ako rýchlo sa otáčate alebo točíte. Gyroskop Apple Watch detekuje tento pohyb, ktorý je v hokeji obzvlášť bežný — prechody cez strednú tretinu, otáčanie pre korčuľovanie pozpätku v obrane alebo vytočenie po bodyčeku vytvárajú výrazné rotačné vzory. V kombinácii so zrýchlením to pomáha aplikácii rozlíšiť aktívne korčuľovanie od státia na mieste."
+            },
+            {
+                "question": "Ako aplikácia vie, že som na ľade?",
+                "answer": "Aplikácia kombinuje viacero senzorov: akcelerometer detekuje intenzitu pohybu, krokomer sleduje váš korčuliarsky krok a GPS meria vašu rýchlosť. Keď aktívne korčuľujete, tieto senzory ukazujú vysokú aktivitu. Keď sedíte na striedačke, aktivita výrazne klesá."
+            },
+            {
+                "question": "Ako je stav na ľade/na striedačke spúšťaný pohybom?",
+                "answer": "Watch číta intenzitu pohybu, korčuliarsky krok a rýchlosť GPS. Keď aplikácia detekuje dostatočne silný pohyb z týchto senzorov, označí vás ako na ľade. Keď všetky tri klesnú na nízku úroveň a zostanú tam, začne prechod na striedačku.\n\nNastavenie citlivosti určuje, koľko pohybu je potrebné:\n\n• Vysoká — Zachytí ľahšie pohyby. Použite, ak vaše striedania nie sú detekované.\n• Stredná — Vyvážená pre väčšinu hráčov. Toto je predvolené.\n• Nízka — Vyžaduje silnejší pohyb pre uznanie ako korčuľovanie. Použite, ak dostávate falošné čítania na ľade, zatiaľ čo ste na striedačke."
+            },
+            {
+                "question": "Ako fungujú pokročilé nastavenia detekcie?",
+                "answer": "Pokročilé nastavenia vám dávajú plnú kontrolu nad každým prahom detekcie. Úprava akéhokoľvek posuvníka automaticky prepne citlivosť na „Vlastné.“\n\nSpúšťač Na ľade — Aby ste boli označení ako korčuľovanie, BUĎ vaša rýchlosť GPS musí prekročiť prah po dobu 3 sekúnd, ALEBO obe vaše zrýchlenie a kadencia krokov musia prekročiť svoje prahy po dobu držania.\n• Acceleration: 0.2–3.0G (default: 0.2G)\n• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)\n• GPS Speed: 0.5–3.0 m/s (default: 1.5)\n• Hold Duration: 1–5 sec (default: 2s)\n\nSpúšťač Na striedačke — Pre prechod na striedačku musia VŠETKY tri hodnoty klesnúť pod svoje prahy po dobu držania.\n• Acceleration: 0.3–1.5G (default: 0.7G)\n• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)\n• GPS Speed: 0.1–1.0 m/s (default: 0.5)\n• Hold Duration: 1–5 sec (default: 3s)\n\nOdporúčame používať prednastavené úrovne (Vysoká, Stredná, Nízka), pokiaľ nepotrebujete jemné ladenie. Kedykoľvek ťuknite na „Obnoviť predvoľbu“ pre návrat."
+            },
+            {
+                "question": "Prečo je oneskorenie, keď prestanem korčuľovať?",
+                "answer": "Jedná sa o \"pohybový buffer\" — krátku čakaciu dobu (predvolené 20 sekúnd) predtým, než aplikácia potvrdí, že ste späť na striedačke. To zabraňuje krátkym pauzám počas striedania byť počítanými ako čas na striedačke."
+            },
+            {
+                "question": "Čo je pohybový buffer?",
+                "answer": "Pohybový buffer je konfigurovateľné oneskorenie (10–30 sekúnd), ktoré zabraňuje falošným ukončeniam striedania. Keď prestanete sa pohybovať, aplikácia čaká túto dobu, kým vás označí ako \"na striedačke\". Ak sa počas buffera znova začnete pohybovať, vaše striedanie pokračuje bez prerušenia."
+            },
+            {
+                "question": "Čo je herný záznam?",
+                "answer": "Herný záznam vám umožňuje zaznamenávať udalosti počas relácie — góly pre, góly proti, tresty a začiatky tretín. Udalosti sa zaznamenávajú z Apple Watch počas hry a môžu sa tiež pridávať z iPhonu. Skóre a osobné štatistiky (moje góly, moje asistencie, trestné minúty) sa počítajú z udalostí, ktoré zaznamenáte."
+            },
+            {
+                "question": "Musím začať reláciu Zápas, aby som mohol používať herný záznam?",
+                "answer": "Nie. Herný záznam je dostupný pre všetky typy relácií — Zápas, Tréning, Prípravný zápas a Iné. Góly a tresty môžete zaznamenávať v akejkoľvek relácii."
+            },
+            {
+                "question": "Môžem zaznamenať výsledok zápasu bez začatia živého sledovania na Apple Watch?",
+                "answer": "Áno. Ťuknite na tlačidlo + vedľa „Nedávne relácie“ na Nástenke pre pridanie ručného záznamu zápasu. Môžete zadať skóre, súpera, góly, asistencie, tresty a informácie o tretinách — všetko bez nosenia hodiniek. To je užitočné pre zaznamenávanie zápasov dodatočne alebo na analytické účely."
+            },
+            {
+                "question": "Ako zaznamenávam udalosti na hodinkách?",
+                "answer": "Počas aktívnej relácie ťuknite na tlačidlo LOG v spodnej časti obrazovky. Vyberte typ udalosti (gól pre, gól proti, trest alebo začiatok tretiny) a vyplňte podrobnosti. Udaloste sa zaznamená s aktuálnym časom a objaví sa na vašom iPhone počas niekoľkých sekúnd."
+            },
+            {
+                "question": "Ako zaznamenávam udalosti na iPhone?",
+                "answer": "Kým je relácia aktívna na hodinkách, otvorte aplikáciu na iPhone pre zobrazenie živej relácie. Udalosti zaznamenané na hodinkách sa zobrazujú na iPhone v reálnom čase. Udalosti môžete tiež pridávať alebo mazať priamo z iPhonu. Úpravy vykonané na iPhone sa počas relácie neodosielajú späť na hodinky — hodinky naďalej zobrazujú svoj vlastný záznam. Po skončení relácie sa oba zdroje automaticky zlúčia a zmeny vykonané na iPhone (pridania a vymazania) majú prednosť."
+            },
+            {
+                "question": "Aké typy udalostí môžem zaznamenať?",
+                "answer": "Štyri typy: Gól pre (voliteľne označiť „Dal som gól“ alebo „Asistoval som“), Gól proti, Trest (s typom trestu, trvaním a či je proti vášmu tímu alebo súpero vi) a Začiatok tretiny (označuje prestávky na vašej časovej osi)."
+            },
+            {
+                "question": "Čo sa stane, ak nenastavím čas udalosti?",
+                "answer": "Ak pridáte udalosť bez uvedenia časovej pečiatky, uloží sa bez nej. Udalosť sa stále zobrazuje vo vašom hernom zázname a započítáva sa do skóre a štatistík. Vždy sa môžete vrátiť a pridať alebo opraviť čas po relácii zo stránky detailov relácie na iPhone."
+            },
+            {
+                "question": "Môžem upraviť udalosti po skončení relácie?",
+                "answer": "Áno. Otvorte reláciu na iPhone a ťuknite na akúkoľvek udalosť pre úpravu jej detailov — typ, časová pečiatka, osobná účasť (gól/asistencia), informácie o treste a ďalšie. Môžete tiež pridávať nové udalosti alebo mazať existujúce. Všetky zmeny sa ukladajú okamžite."
+            },
+            {
+                "question": "Ako sa zlučujú udalosti z hodiniek a iPhonu?",
+                "answer": "Počas relácie si hodinky a iPhone vedú každý svoj vlastný záznam. Keď relácia skončí a hodinky odošlú finálne dáta na iPhone, aplikácia zlúči oba zdroje: udalosti vymazané na iPhone sa odstránia, udalosti pridané na iPhone sa zahrnú a skóre sa prepočíta zo zlúčeného zoznamu. Konečný výsledok sa uloží ako jedna zjednotená relácia."
+            },
+            {
+                "question": "Čo robí citlivosť detekcie?",
+                "answer": "Citlivosť určuje, koľko pohybu je potrebného na zaregistrovanie ako \"korčuľovanie.\" Vysoká citlivosť deteguje ľahšie pohyby (dobré, ak sa striedania nedetegujú). Nízka citlivosť vyžaduje silnejší pohyb (dobré, ak dochádza k falošným detekciám na striedačke). Stredná je predvolená a funguje dobre pre väčšinu hráčov."
+            },
+            {
+                "question": "Ako upravím dobu vyrovnávacej pamäte?",
+                "answer": "Otvorte aplikáciu Ice Time Track na vašom iPhone, prejdite do Nastavení a upravte výber \"Pohybový buffer.\" Kratšie buffery (10–15 sekúnd) ukončia striedania rýchlejšie. Dlhšie buffery (25–30 sekúnd) sú tolerantnejšie ku krátkym pauzám počas striedaní."
+            },
+            {
+                "question": "Čo sú haptické upozornenia a ako ich používam?",
+                "answer": "Haptické upozornenia sú vibračné notifikácie na vašich hodinkách, keď sa zmeni váš stav. Môžete ich nastaviť tak, aby vibrovali pri vstupe na ľad, pri návrate na striedačku, pri oboch udalostiach, alebo ich úplne vypnúť. Pomáha to udržať prehľad bez nutnosti pozerať sa na hodinky."
+            },
+            {
+                "question": "Čo robí „Automatické ukončenie relácie\"?",
+                "answer": "Automatické ukončenie automaticky zastaví vašu reláciu po nastaveným čase (predvolené 100 minút). Tým sa zabráni neobmedzenému behu aplikácie, ak zabudnete reláciu ukončiť manuálne, čo šetrí batériu a zabezpečí uloženie vašich dát."
+            },
+            {
+                "question": "Ak zmením nastavenia počas aktívnej relácie, prejavia sa okamžite?",
+                "answer": "Áno. Zmeny citlivosti, pohybového buffera a haptických upozornení sa synchronizujú s vašimi hodinkami a prejavia sa okamžite počas prebiehajúcej relácie. Nemusíte čakať na ďalšiu reláciu – úpravy sa prejavia v priebehu niekoľkých sekúnd po ich zmene na iPhone."
+            },
+            {
+                "question": "Čo sú Pokročilé nastavenia?",
+                "answer": "Pokročilé nastavenia vám umožňujú jemne doladiť každý detekčný prah individuálne. Rozbaľte sekciu v nastaveniach Detekcie a nakonfigurujte zrýchlenie, kadenciu krokov, rýchlosť GPS a dobu držania pre spúšťače na ľade aj na striedačke. Keď upravíte akýkoľvek posuvník, citlivosť sa automaticky prepne na \"Vlastná.\" Použite \"Obnoviť predvoľbu\" pre návrat k predvolbám Nízka/Stredná/Vysoká."
+            },
+            {
+                "question": "Aké dáta sa ukladajú do Apple Health?",
+                "answer": "Keď je povolené, aplikácia uloží vašu reláciu ako hokejový tréning vrátane: trvania, spálených aktívnych kalórií a údajov o srdcovej frekvencii (priemer a maximum). To prispieva k vašim kruhom Aktivity a histórii kondície."
+            },
+            {
+                "question": "Ako zapnem/vypnem integráciu s HealthKit?",
+                "answer": "Otvorte Nastavenia v aplikácii na iPhone a prepnite „Uložiť do Apple Health.\" Keď je povolené, dokončené relácie sa ukladajú ako tréningy. Keď je zakázané, vaše údaje zostávajú len v Ice Time Track."
+            },
+            {
+                "question": "Prečo sa mi nezobrazuje srdcový tep?",
+                "answer": "Uistite sa, že hodinky nosíte tesne a snímač srdcovej frekvencie má dobrý kontakt s pokožkou. Zobrazenie srdcovej frekvencie môže trvať 30–60 sekúnd po začatí relácie. Ak problémy pretrvávajú, skontrolujte, či má Ice Time Track povolenie čítať srdcovú frekvenciu v Nastavenia > Súkromie > Zdravie."
+            },
+            {
+                "question": "Ako sa synchronizujú relácie medzi hodinkami a iPhonom?",
+                "answer": "Relácie sa synchronizujú automaticky, keď sú obe zariadenia v dosahu a pripojené. Po ukončení relácie na hodinkách sa prenesie do iPhonu v priebehu niekoľkých sekúnd až minút. Synchronizáciu môžete tiež spustiť manuálne z aplikácie pre iPhone."
+            },
+            {
+                "question": "Prečo sa mi na iPhone nezobrazuje relácia?",
+                "answer": "Najprv sa uistite, že relácia na hodinkách skončila. Otvorte obe aplikácie a skontrolujte, že je zapnutý Bluetooth. Relácie sa synchronizujú, keď je aplikácia na hodinkách otvorená alebo krátko po ukončení. Ak sa stále nezobrazí, skúste znova otvoriť aplikáciu na hodinkách na spustenie synchronizácie."
+            },
+            {
+                "question": "Môžem vymazať reláciu?",
+                "answer": "Áno. V aplikácii pre iPhone prejdite na zoznam relácií, potiahnite doľava na relácii, ktorú chcete odstrániť, a klepnite na Zmazať. Tým ju odstránite z oboch zariadení."
+            },
+            {
+                "question": "Aplikácia presne nedetekuje moje striedania",
+                "answer": "Skúste upraviť citlivosť detekcie v Nastaveniach. Ak sa striedania nedetekujú, zvýšte citlivosť na Vysoká. Ak dostávate falošné detekcie na striedačke, znížte na Nízka. Tiež sa uistite, že hodinky nosíte bezpečne na zápästí, nie cez hrubé rukavice."
+            },
+            {
+                "question": "Aplikácia prestala nahrávať uprostred hry",
+                "answer": "Toto sa môže stať, ak sa hodinky reštartujú alebo aplikácia spadne. Skontrolujte, či sa automatické ukončenie spustilo skôr, ako sa očakávalo (nastaviteľné v Nastaveniach)."
+            },
+            {
+                "question": "Aplikácia na hodinkách uviazla na „Vyžadovaná synchronizácia“",
+                "answer": "Aplikácie na hodinkách a iPhone musia komunikovať na dokončenie úvodného nastavenia. Uistite sa, že aplikácia na iPhone je otvorená počas nastavovania hodiniek. Ak obrazovka pretrváva, vynúťte ukončenie oboch aplikácií a znova ich spustite. Ak problém pretrváva, odstráňte a znova nainštalujte obe aplikácie."
+            },
+            {
+                "question": "Prečo aplikácia potrebuje prístup k polohe?",
+                "answer": "Poloha (GPS) sa používa na meranie rýchlosti korčuľovania, čo pomáha presne rozlíšiť, kedy ste na ľade a kedy na striedačke. GPS údaje zostávajú na vašich zariadeniach a nikam sa neodosielajú."
+            },
+            {
+                "question": "Prečo aplikácia potrebuje prístup k pohybu a fitness?",
+                "answer": "Pohybové senzory (akcelerometer a gyroskop) detekujú vzorce vášho pohybu na rozlíšenie korčuľovania od sedenia. Prístup ku kondícii umožňuje čítanie počtu krokov na zlepšenie presnosti detekcie. Tieto údaje sa spracúvajú výhradne na vašich hodinkách."
+            },
+            {
+                "question": "Sú moje dáta zdieľané s niekým?",
+                "answer": "Nie. Všetky údaje relácií, zdravotné metriky a údaje zo senzorov zostávajú na vašich Apple Watch a iPhone. Nič sa neodosiela na externé servery. Vaše údaje patria vám."
+            },
+            {
+                "question": "Ako povolím prístup k polohe, ak som ho omylom odmietol?",
+                "answer": "Možnosť 1 (na hodinkách): Otvorte Nastavenia > Súkromie a bezpečnosť > Polohové služby > Ice Time Track a vyberte „Počas používania“. Možnosť 2 (z iPhonu): Otvorte aplikáciu Watch > Súkromie > Polohové služby > Ice Time Track a povoľte prístup."
+            }
+        ]
+    }
+}

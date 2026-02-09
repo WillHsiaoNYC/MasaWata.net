@@ -1,0 +1,280 @@
+{
+    "appName": "Ice Time Track",
+    "meta": {
+        "title": "Ice Time Track - Détection automatique des présences pour Apple Watch",
+        "description": "Suivez votre temps de glace automatiquement avec Apple Watch. Détectez les présences, enregistrez les buts et pénalités, surveillez le rythme cardiaque et le mouvement."
+    },
+    "nav": {
+        "features": "Fonctionnalités",
+        "howItWorks": "Comment ça marche",
+        "screenshots": "Captures",
+        "faq": "FAQ",
+        "cta": "Précommander",
+        "ctaDownload": "Télécharger"
+    },
+    "countdown": {
+        "title": "Lancement dans",
+        "promo": "1 an pour 6,99 $",
+        "promoSub": "Offre limitée dans le temps — ne la manquez pas",
+        "days": "Jours",
+        "hours": "Heures",
+        "minutes": "Minutes",
+        "seconds": "Secondes",
+        "date": "14 février 2026",
+        "claimOffer": "Réclamer l'offre",
+        "launchSpecial": "Offre de lancement",
+        "offerEnds": "L'offre se termine le 28 février 2026",
+        "downloadNow": "Télécharger"
+    },
+    "hero": {
+        "title": "Détection automatique des présences<br>pour les joueurs de hockey",
+        "description": "Sachez exactement combien de temps de glace vous avez — sans toucher votre montre. Suivez les buts, les pénalités et les périodes. Démarrez simplement une session et jouez.",
+        "preOrder": "Précommander",
+        "platforms": "Disponible sur Apple Watch + iPhone · Lancement le 14 février 2026",
+        "shiftDetection": "Détection des présences",
+        "goalTracking": "Suivi des buts",
+        "penaltyLogging": "Journal des pénalités",
+        "gameAnalytics": "Analyse de match"
+    },
+    "features": {
+        "title": "Fonctionnalités",
+        "subtitle": "Tout ce dont vous avez besoin pour suivre votre match",
+        "shiftDetection": {
+            "title": "Détection automatique des présences",
+            "description": "Montez sur la glace et votre montre le sait. Pas de boutons pendant le jeu — les capteurs détectent automatiquement le patinage vs. le banc."
+        },
+        "eventTracking": {
+            "title": "Suivi des événements de match",
+            "description": "Enregistrez buts, passes et pénalités directement depuis votre poignet. Suivez les périodes et gardez un historique complet."
+        },
+        "healthMetrics": {
+            "title": "Métriques santé en direct",
+            "description": "Surveillez le rythme cardiaque, les calories brûlées et l'intensité du mouvement en temps réel."
+        },
+        "analytics": {
+            "title": "Analyse de session",
+            "description": "Consultez le temps de glace total, le nombre de présences, la durée moyenne et les records personnels."
+        },
+        "healthIntegration": {
+            "title": "Intégration Apple Santé",
+            "description": "Les sessions se synchronisent avec Apple Santé en tant qu'entraînements de hockey."
+        },
+        "offline": {
+            "title": "Fonctionne hors ligne",
+            "description": "Votre montre enregistre tout de manière indépendante. Pas besoin d'iPhone sur le banc — les données se synchronisent automatiquement après le match."
+        }
+    },
+    "howItWorks": {
+        "title": "Comment ça marche",
+        "subtitle": "De l'échauffement à l'analyse d'après-match",
+        "step1": {
+            "number": "1",
+            "title": "Avant le match",
+            "description": "Ouvrez Ice Time Track sur votre Apple Watch. Touchez Match, Entraînement ou Scrimmage."
+        },
+        "step2": {
+            "number": "2",
+            "title": "Pendant le match",
+            "description": "Montez sur la glace et votre montre le détecte automatiquement. Enregistrez buts et pénalités d'un toucher."
+        },
+        "step3": {
+            "number": "3",
+            "title": "Après le match",
+            "description": "Votre session se synchronise avec votre iPhone. Consultez le temps de glace, les présences, le rythme cardiaque et les événements."
+        }
+    },
+    "screenshots": {
+        "title": "Voyez-le en action",
+        "subtitle": "Conçu pour les joueurs de hockey"
+    },
+    "testimonials": {
+        "title": "Ce que disent les joueurs",
+        "subtitle": "Approuvé par les joueurs de hockey partout",
+        "review1": {
+            "quote": "\"Enfin une app qui suit mon temps de glace sans que j'aie à toucher quoi que ce soit. Révolutionnaire pour le suivi de mes présences.\"",
+            "author": "— Hockey Dad"
+        },
+        "review2": {
+            "quote": "\"J'adore voir mon rythme cardiaque et mes stats de présences après chaque match. Ça m'aide à comprendre ma condition physique.\"",
+            "author": "— Beer League Player"
+        },
+        "review3": {
+            "quote": "\"La détection automatique est étonnamment précise. Mes enfants l'utilisent à chaque match maintenant.\"",
+            "author": "— Youth Hockey Parent"
+        }
+    },
+    "download": {
+        "title": "Prêt à suivre votre temps de glace ?",
+        "description": "Téléchargez Ice Time Track et commencez votre prochaine session. Détection automatique des présences, journal des événements et métriques santé — tout depuis votre poignet.",
+        "preOrder": "Précommander",
+        "downloadNow": "Télécharger"
+    },
+    "footer": {
+        "privacy": "Politique de confidentialité",
+        "terms": "Conditions d'utilisation",
+        "support": "Support",
+        "copyright": "© 2026 MasaWata. Tous droits réservés."
+    },
+    "faq": {
+        "title": "Questions fréquemment posées",
+        "subtitle": "Tout ce que vous devez savoir sur Ice Time Track",
+        "items": [
+            {
+                "question": "Comment démarrer le suivi d'une session ?",
+                "answer": "Ouvrez l'application Ice Time Track sur votre Apple Watch. Sélectionnez le type de session (Match, Entraînement, Scrimmage ou Autre) et appuyez pour commencer. L'application détectera automatiquement quand vous êtes sur la glace ou sur le banc."
+            },
+            {
+                "question": "Quelle est la différence entre Match, Entraînement et Scrimmage ?",
+                "answer": "Ce sont des catégories pour organiser vos sessions. Match pour les rencontres officielles, Entraînement pour les entraînements d'équipe, Scrimmage pour les parties informelles et Autre pour tout le reste comme le patinage public. La détection fonctionne de la même façon pour tous les types."
+            },
+            {
+                "question": "Dois-je avoir mon iPhone avec moi pendant un match ?",
+                "answer": "Non. L'Apple Watch enregistre tout de façon autonome. Votre session se synchronisera automatiquement avec votre iPhone quand les appareils seront à portée après le match."
+            },
+            {
+                "question": "Qu'est-ce qu'un pas ?",
+                "answer": "Un \"pas\" est détecté par votre Apple Watch lorsqu'elle capte un mouvement de bras rythmique via son accéléromètre. Elle ne détecte pas votre pied touchant le sol — elle reconnaît plutôt le mouvement du bras qui accompagne le déplacement. Au hockey, votre foulée de patinage et le maniement du bâton créent des mouvements de bras similaires, l'application utilise donc les \"pas par seconde\" comme indicateur de jeu actif."
+            },
+            {
+                "question": "Qu'est-ce que l'accélération ?",
+                "answer": "L'accélération mesure à quelle vitesse vous accélérez, ralentissez ou changez de direction. L'accéléromètre de votre Apple Watch détecte ce mouvement en trois dimensions. Les arrêts brusques, les départs explosifs et les changements de direction rapides lors d'une sortie de zone sont enregistrés comme forte accélération — tandis que rester assis sur le banc en attendant votre prochain changement montre une activité minimale."
+            },
+            {
+                "question": "Qu'est-ce que la rotation ?",
+                "answer": "La rotation mesure l'amplitude et la vitesse de vos virages ou rotations. Le gyroscope de votre Apple Watch détecte ce mouvement, particulièrement fréquent au hockey — les croisements en zone neutre, les pivots pour patiner en arrière en défense ou les sorties de mise en échec créent des schémas de rotation distincts. Combiné à l'accélération, cela aide l'application à distinguer le patinage actif de l'immobilité."
+            },
+            {
+                "question": "Comment l'application sait-elle que je suis sur la glace ?",
+                "answer": "L'application combine plusieurs capteurs : l'accéléromètre détecte l'intensité du mouvement, le podomètre suit votre foulée de patinage et le GPS mesure votre vitesse. Quand vous patinez activement, ces capteurs montrent une activité élevée. Quand vous êtes assis sur le banc, l'activité baisse considérablement."
+            },
+            {
+                "question": "Comment le statut glace/banc est-il déclenché par le mouvement ?",
+                "answer": "Votre Watch lit l'intensité du mouvement, la foulée de patinage et la vitesse GPS. Quand l'application détecte un mouvement assez fort de ces capteurs, elle vous marque comme sur la glace. Quand les trois descendent à des niveaux bas et y restent, elle commence la transition vers le banc.\n\nLe réglage de Sensibilité contrôle la quantité de mouvement nécessaire :\n\n• Élevée — Capte les mouvements plus légers. Utilisez ceci si vos changements ne sont pas détectés.\n• Moyenne — Équilibrée pour la plupart des joueurs. C'est le réglage par défaut.\n• Basse — Nécessite un mouvement plus fort pour compter comme du patinage. Utilisez ceci si vous obtenez de fausses lectures sur la glace en étant sur le banc."
+            },
+            {
+                "question": "Comment fonctionnent les réglages de détection avancés ?",
+                "answer": "Les Réglages avancés vous donnent un contrôle total sur chaque seuil de détection. L'ajustement d'un curseur bascule automatiquement la sensibilité sur « Personnalisé ».\n\nDéclencheur Sur la glace — Pour être marqué comme patinant, SOIT votre vitesse GPS doit dépasser son seuil pendant 3 secondes, SOIT votre accélération et votre cadence de pas doivent toutes deux dépasser leurs seuils pendant la durée de maintien.\n• Acceleration: 0.2–3.0G (default: 0.2G)\n• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)\n• GPS Speed: 0.5–3.0 m/s (default: 1.5)\n• Hold Duration: 1–5 sec (default: 2s)\n\nDéclencheur Sur le banc — Pour passer au banc, les TROIS lectures doivent descendre sous leurs seuils pendant la durée de maintien.\n• Acceleration: 0.3–1.5G (default: 0.7G)\n• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)\n• GPS Speed: 0.1–1.0 m/s (default: 0.5)\n• Hold Duration: 1–5 sec (default: 3s)\n\nNous recommandons d'utiliser les niveaux prédéfinis (Élevé, Moyen, Bas) sauf si vous avez besoin d'un réglage fin. Appuyez sur « Réinitialiser le préréglage » à tout moment pour revenir."
+            },
+            {
+                "question": "Pourquoi y a-t-il un délai quand j'arrête de patiner ?",
+                "answer": "C'est le \"tampon de mouvement\" — une courte période d'attente (par défaut 20 secondes) avant que l'application confirme que vous êtes de retour sur le banc. Cela empêche les brèves pauses pendant un changement d'être comptées comme du temps au banc."
+            },
+            {
+                "question": "Qu'est-ce que le tampon de mouvement ?",
+                "answer": "Le tampon de mouvement est un délai configurable (10-30 secondes) qui empêche les faux fins de changement. Quand vous arrêtez de bouger, l'application attend ce temps avant de vous marquer comme \"sur le banc\". Si vous recommencez à bouger pendant le tampon, votre changement continue sans interruption."
+            },
+            {
+                "question": "Qu'est-ce que le journal de match ?",
+                "answer": "Le journal de match vous permet d'enregistrer des événements pendant une session — buts pour, buts contre, pénalités et débuts de période. Les événements sont enregistrés depuis votre Apple Watch pendant le jeu et peuvent aussi être ajoutés depuis l'iPhone. Le score et les statistiques personnelles (mes buts, mes passes, minutes de pénalité) sont calculés à partir des événements que vous enregistrez."
+            },
+            {
+                "question": "Dois-je démarrer une session Match pour utiliser le journal de match ?",
+                "answer": "Non. Le journal de match est disponible pour tous les types de session — Match, Entraînement, Scrimmage et Autre. Vous pouvez enregistrer des buts et des pénalités dans n'importe quelle session."
+            },
+            {
+                "question": "Puis-je enregistrer un résultat de match sans démarrer une session en direct sur l'Apple Watch ?",
+                "answer": "Oui. Appuyez sur le bouton + à côté de « Sessions récentes » sur le Tableau de bord pour ajouter un résultat de match manuel. Vous pouvez saisir le score, l'adversaire, les buts, les passes, les pénalités et les informations de période — le tout sans porter votre Watch. C'est utile pour enregistrer des matchs après coup ou à des fins d'analyse."
+            },
+            {
+                "question": "Comment enregistrer des événements sur ma Watch ?",
+                "answer": "Pendant une session active, appuyez sur le bouton LOG en bas de l'écran. Sélectionnez le type d'événement (but pour, but contre, pénalité ou début de période) et remplissez les détails. L'événement est enregistré avec l'heure actuelle et apparaît sur votre iPhone en quelques secondes."
+            },
+            {
+                "question": "Comment enregistrer des événements sur mon iPhone ?",
+                "answer": "Pendant qu'une session est active sur votre Watch, ouvrez l'app iPhone pour voir votre session en direct. Les événements enregistrés sur la Watch apparaissent sur votre iPhone en temps réel. Vous pouvez également ajouter ou supprimer des événements directement depuis l'iPhone. Notez que les modifications faites sur l'iPhone ne sont pas renvoyées à la Watch pendant la session — la Watch continue d'afficher son propre journal. À la fin de la session, les deux sources sont fusionnées automatiquement et les modifications faites sur l'iPhone (ajouts et suppressions) sont prioritaires."
+            },
+            {
+                "question": "Quels types d'événements puis-je enregistrer ?",
+                "answer": "Quatre types : But pour (marquer optionnellement « J'ai marqué » ou « J'ai assisté »), But contre, Pénalité (avec type de pénalité, durée et si c'est contre votre équipe ou l'adversaire) et Début de période (marque les entractes dans votre chronologie)."
+            },
+            {
+                "question": "Que se passe-t-il si je ne définis pas d'heure pour un événement ?",
+                "answer": "Si vous ajoutez un événement sans spécifier d'horodatage, il est enregistré sans. L'événement apparaît toujours dans votre journal de match et compte pour votre score et vos statistiques. Vous pouvez toujours revenir ajouter ou corriger l'heure après la session depuis la page de détails de la session sur votre iPhone."
+            },
+            {
+                "question": "Puis-je modifier des événements après la session ?",
+                "answer": "Oui. Ouvrez la session sur votre iPhone et touchez n'importe quel événement pour modifier ses détails — type, horodatage, implication personnelle (but/passe), informations de pénalité, etc. Vous pouvez aussi ajouter de nouveaux événements ou supprimer les existants. Tous les changements sont enregistrés immédiatement."
+            },
+            {
+                "question": "Comment les événements de la Watch et de l'iPhone sont-ils fusionnés ?",
+                "answer": "Pendant la session, la Watch et l'iPhone conservent chacun leur propre enregistrement. Quand la session se termine et que la Watch envoie les données finales à votre iPhone, l'app fusionne les deux sources : les événements supprimés sur l'iPhone sont retirés, ceux ajoutés sont inclus, et le score est recalculé à partir de la liste fusionnée. Le résultat final est enregistré comme une session unifiée."
+            },
+            {
+                "question": "Que fait la sensibilité de détection ?",
+                "answer": "La sensibilité contrôle la quantité de mouvement nécessaire pour être enregistré comme \"patinage.\" Une sensibilité élevée détecte les mouvements plus légers (utile si les présences ne sont pas détectées). Une faible sensibilité nécessite un mouvement plus fort (utile en cas de fausses détections sur le banc). Moyen est le réglage par défaut et convient à la plupart des joueurs."
+            },
+            {
+                "question": "Comment ajuster le temps tampon ?",
+                "answer": "Ouvrez l'app Ice Time Track sur votre iPhone, allez dans Réglages et ajustez le sélecteur \"Tampon de mouvement.\" Les tampons plus courts (10–15 secondes) terminent les présences plus rapidement. Les tampons plus longs (25–30 secondes) sont plus tolérants envers les brèves pauses pendant les présences."
+            },
+            {
+                "question": "Que sont les alertes haptiques et comment les utiliser ?",
+                "answer": "Les alertes haptiques sont des notifications par vibration sur votre Watch lorsque votre statut change. Vous pouvez les configurer pour vibrer quand vous montez sur la glace, quand vous revenez au banc, les deux, ou les désactiver complètement. Cela vous aide à rester informé sans regarder votre Watch."
+            },
+            {
+                "question": "Que fait « Fin de session automatique » ?",
+                "answer": "La fin automatique arrête automatiquement votre session après un temps défini (par défaut 100 minutes). Cela empêche l'application de fonctionner indéfiniment si vous oubliez de l'arrêter manuellement, ce qui économise la batterie et garantit la sauvegarde de vos données."
+            },
+            {
+                "question": "Si je modifie les réglages pendant une session active, prennent-ils effet immédiatement ?",
+                "answer": "Oui. Les modifications de sensibilité, de tampon de mouvement et d'alertes haptiques se synchronisent avec votre Watch et prennent effet immédiatement pendant une session en cours. Vous n'avez pas besoin d'attendre la prochaine session – les ajustements s'appliquent en quelques secondes après les avoir modifiés sur votre iPhone."
+            },
+            {
+                "question": "Que sont les Réglages avancés ?",
+                "answer": "Les Réglages avancés vous permettent d'affiner chaque seuil de détection individuellement. Développez la section dans les réglages de Détection pour configurer l'accélération, la cadence de pas, la vitesse GPS et la durée de maintien pour les déclencheurs sur glace et sur banc. Lorsque vous ajustez un curseur, la sensibilité passe automatiquement en \"Personnalisé.\" Utilisez \"Réinitialiser au préréglage\" pour revenir aux préréglages Faible/Moyen/Élevé."
+            },
+            {
+                "question": "Quelles données sont enregistrées dans Apple Santé ?",
+                "answer": "Lorsqu'activé, l'application enregistre votre session comme un entraînement de Hockey comprenant : durée, calories actives brûlées et données de fréquence cardiaque (moyenne et maximum). Cela contribue à vos anneaux d'Activité et votre historique de forme."
+            },
+            {
+                "question": "Comment activer/désactiver l'intégration HealthKit ?",
+                "answer": "Ouvrez les Réglages dans l'application iPhone et activez « Enregistrer dans Apple Santé ». Lorsqu'activé, les sessions terminées sont enregistrées comme entraînements. Lorsque désactivé, vos données restent uniquement dans Ice Time Track."
+            },
+            {
+                "question": "Pourquoi ma fréquence cardiaque ne s'affiche-t-elle pas ?",
+                "answer": "Assurez-vous que votre Watch est bien ajustée et que le capteur de fréquence cardiaque a un bon contact avec la peau. La fréquence cardiaque peut mettre 30 à 60 secondes à apparaître après le début d'une session. Si les problèmes persistent, vérifiez qu'Ice Time Track a la permission de lire la fréquence cardiaque dans Réglages > Confidentialité > Santé."
+            },
+            {
+                "question": "Comment les sessions se synchronisent-elles entre la Watch et l'iPhone ?",
+                "answer": "Les sessions se synchronisent automatiquement lorsque les deux appareils sont à portée et connectés. Après avoir terminé une session sur votre Watch, elle est transférée vers votre iPhone en quelques secondes à quelques minutes. Vous pouvez également déclencher manuellement une synchronisation depuis l'app iPhone."
+            },
+            {
+                "question": "Pourquoi ma session ne s'affiche-t-elle pas sur mon iPhone ?",
+                "answer": "Tout d'abord, assurez-vous que la session est terminée sur votre Watch. Ouvrez les deux apps et vérifiez que le Bluetooth est activé. Les sessions se synchronisent quand l'app Watch est ouverte ou peu après la fin. Si elle n'apparaît toujours pas, essayez d'ouvrir à nouveau l'app Watch pour déclencher la synchronisation."
+            },
+            {
+                "question": "Puis-je supprimer une session ?",
+                "answer": "Oui. Dans l'app iPhone, accédez à votre liste de sessions, balayez vers la gauche sur la session que vous souhaitez supprimer et appuyez sur Supprimer. Cela la supprime des deux appareils."
+            },
+            {
+                "question": "L'application ne détecte pas mes changements avec précision",
+                "answer": "Essayez d'ajuster la sensibilité de détection dans les Réglages. Si les présences ne sont pas détectées, augmentez la sensibilité à Élevée. Si vous obtenez de fausses détections sur le banc, réduisez à Basse. Assurez-vous également que votre Watch est portée solidement au poignet, pas par-dessus des gants épais."
+            },
+            {
+                "question": "L'application a cessé d'enregistrer en cours de match",
+                "answer": "Cela peut arriver si la Watch redémarre ou si l'app plante. Vérifiez si la fin automatique s'est déclenchée plus tôt que prévu (réglable dans les Réglages)."
+            },
+            {
+                "question": "L'application Watch est bloquée sur « Synchronisation requise »",
+                "answer": "Les apps Watch et iPhone doivent communiquer pour terminer la configuration initiale. Assurez-vous que l'app iPhone est ouverte pendant la configuration du Watch. Si l'écran persiste, forcez la fermeture des deux apps et relancez-les. Si le problème continue, supprimez et réinstallez les deux apps."
+            },
+            {
+                "question": "Pourquoi l'application a-t-elle besoin de l'accès à la localisation ?",
+                "answer": "La localisation (GPS) est utilisée pour mesurer votre vitesse de patinage, ce qui aide à détecter précisément quand vous êtes sur la glace ou sur le banc. Les données GPS restent sur vos appareils et ne sont téléchargées nulle part."
+            },
+            {
+                "question": "Pourquoi l'application a-t-elle besoin de l'accès mouvement et forme ?",
+                "answer": "Les capteurs de mouvement (accéléromètre et gyroscope) détectent vos habitudes de mouvement pour distinguer le patinage de la position assise. L'accès fitness permet de lire votre nombre de pas pour améliorer la précision de la détection. Ces données sont traitées entièrement sur votre Watch."
+            },
+            {
+                "question": "Mes données sont-elles partagées avec quelqu'un ?",
+                "answer": "Non. Toutes vos données de session, métriques de santé et relevés de capteurs restent sur votre Apple Watch et iPhone. Rien n'est téléchargé vers des serveurs externes. Vos données vous appartiennent."
+            },
+            {
+                "question": "Comment activer l'accès à la localisation si je l'ai refusé par erreur ?",
+                "answer": "Option 1 (sur la Watch) : Ouvrez Réglages > Confidentialité et sécurité > Service de localisation > Ice Time Track, puis sélectionnez « Lorsque l'app est active ». Option 2 (depuis l'iPhone) : Ouvrez l'app Watch > Confidentialité > Service de localisation > Ice Time Track et activez l'accès."
+            }
+        ]
+    }
+}

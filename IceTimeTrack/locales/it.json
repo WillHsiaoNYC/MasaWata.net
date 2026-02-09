@@ -1,0 +1,280 @@
+{
+    "appName": "Ice Time Track",
+    "meta": {
+        "title": "Ice Time Track - Rilevamento automatico dei turni per Apple Watch",
+        "description": "Monitora il tuo tempo sul ghiaccio automaticamente con Apple Watch. Rileva i turni, registra gol e penalità, monitora frequenza cardiaca e movimento."
+    },
+    "nav": {
+        "features": "Funzionalità",
+        "howItWorks": "Come funziona",
+        "screenshots": "Screenshot",
+        "faq": "FAQ",
+        "cta": "Preordina",
+        "ctaDownload": "Scarica"
+    },
+    "countdown": {
+        "title": "Lancio tra",
+        "promo": "1 anno a $6,99",
+        "promoSub": "Offerta a tempo limitato — non perderla",
+        "days": "Giorni",
+        "hours": "Ore",
+        "minutes": "Minuti",
+        "seconds": "Secondi",
+        "date": "14 febbraio 2026",
+        "claimOffer": "Riscatta offerta",
+        "launchSpecial": "Offerta di lancio",
+        "offerEnds": "L'offerta scade il 28 febbraio 2026",
+        "downloadNow": "Scarica ora"
+    },
+    "hero": {
+        "title": "Rilevamento automatico dei turni<br>per giocatori di hockey",
+        "description": "Sai esattamente quanto tempo passi sul ghiaccio — senza toccare l'orologio. Monitora gol, penalità e periodi. Avvia una sessione e gioca.",
+        "preOrder": "Preordina ora",
+        "platforms": "Disponibile su Apple Watch + iPhone · Lancio 14 febbraio 2026",
+        "shiftDetection": "Rilevamento turni",
+        "goalTracking": "Tracciamento gol",
+        "penaltyLogging": "Registro penalità",
+        "gameAnalytics": "Analisi partita"
+    },
+    "features": {
+        "title": "Funzionalità",
+        "subtitle": "Tutto ciò che ti serve per monitorare la tua partita",
+        "shiftDetection": {
+            "title": "Rilevamento automatico dei turni",
+            "description": "Sali sul ghiaccio e il tuo orologio lo sa. Nessun pulsante durante il gioco — i sensori rilevano automaticamente il pattinaggio vs. la panchina."
+        },
+        "eventTracking": {
+            "title": "Tracciamento eventi di gioco",
+            "description": "Registra gol, assist e penalità direttamente dal polso. Monitora i periodi e mantieni un registro completo."
+        },
+        "healthMetrics": {
+            "title": "Metriche salute in tempo reale",
+            "description": "Monitora frequenza cardiaca, calorie bruciate e intensità del movimento in tempo reale."
+        },
+        "analytics": {
+            "title": "Analisi sessione",
+            "description": "Rivedi tempo totale sul ghiaccio, numero di turni, durata media dei turni e record personali."
+        },
+        "healthIntegration": {
+            "title": "Integrazione Apple Salute",
+            "description": "Le sessioni si sincronizzano con Apple Salute come allenamenti di hockey."
+        },
+        "offline": {
+            "title": "Funziona offline",
+            "description": "Il tuo orologio registra tutto in modo indipendente. Nessun iPhone necessario in panchina — i dati si sincronizzano automaticamente dopo la partita."
+        }
+    },
+    "howItWorks": {
+        "title": "Come funziona",
+        "subtitle": "Dal riscaldamento all'analisi post-partita",
+        "step1": {
+            "number": "1",
+            "title": "Prima della partita",
+            "description": "Apri Ice Time Track sul tuo Apple Watch. Tocca Partita, Allenamento o Scrimmage."
+        },
+        "step2": {
+            "number": "2",
+            "title": "Durante la partita",
+            "description": "Sali sul ghiaccio e il tuo orologio lo rileva automaticamente. Registra gol e penalità con un tocco."
+        },
+        "step3": {
+            "number": "3",
+            "title": "Dopo la partita",
+            "description": "La tua sessione si sincronizza con l'iPhone. Rivedi tempo sul ghiaccio, turni, frequenza cardiaca ed eventi."
+        }
+    },
+    "screenshots": {
+        "title": "Guardalo in azione",
+        "subtitle": "Progettato per giocatori di hockey"
+    },
+    "testimonials": {
+        "title": "Cosa dicono i giocatori",
+        "subtitle": "Scelto dai giocatori di hockey ovunque",
+        "review1": {
+            "quote": "\"Finalmente un'app che traccia il mio tempo sul ghiaccio senza dover toccare nulla. Rivoluzionario per il monitoraggio dei turni.\"",
+            "author": "— Hockey Dad"
+        },
+        "review2": {
+            "quote": "\"Adoro vedere la mia frequenza cardiaca e le statistiche dei turni dopo ogni partita.\"",
+            "author": "— Beer League Player"
+        },
+        "review3": {
+            "quote": "\"Il rilevamento automatico è sorprendentemente preciso. I miei figli lo usano ad ogni partita.\"",
+            "author": "— Youth Hockey Parent"
+        }
+    },
+    "download": {
+        "title": "Pronto a monitorare il tuo tempo sul ghiaccio?",
+        "description": "Scarica Ice Time Track e inizia la tua prossima sessione. Rilevamento automatico dei turni, registro eventi e metriche salute — tutto dal polso.",
+        "preOrder": "Preordina ora",
+        "downloadNow": "Scarica ora"
+    },
+    "footer": {
+        "privacy": "Informativa sulla privacy",
+        "terms": "Termini di servizio",
+        "support": "Supporto",
+        "copyright": "© 2026 MasaWata. Tutti i diritti riservati."
+    },
+    "faq": {
+        "title": "Domande frequenti",
+        "subtitle": "Tutto ciò che devi sapere su Ice Time Track",
+        "items": [
+            {
+                "question": "Come inizio a registrare una sessione?",
+                "answer": "Apri l'app Ice Time Track sul tuo Apple Watch. Seleziona il tipo di sessione (Partita, Allenamento, Scrimmage o Altro) e tocca per iniziare. L'app rileverà automaticamente quando sei sul ghiaccio e quando in panchina."
+            },
+            {
+                "question": "Qual è la differenza tra Partita, Allenamento e Scrimmage?",
+                "answer": "Sono etichette per organizzare le tue sessioni. Partita è per le gare ufficiali, Allenamento per gli allenamenti di squadra, Scrimmage per le partite informali e Altro per tutto il resto come il pattinaggio libero. Il rilevamento funziona allo stesso modo per tutti i tipi."
+            },
+            {
+                "question": "Devo avere il mio iPhone con me durante una partita?",
+                "answer": "No. L'Apple Watch registra tutto in modo indipendente. La tua sessione si sincronizzerà automaticamente con l'iPhone quando i dispositivi saranno nel raggio d'azione dopo la partita."
+            },
+            {
+                "question": "Cos'è un passo?",
+                "answer": "Un \"passo\" viene rilevato dal tuo Apple Watch quando rileva un pattern ritmico di oscillazione del braccio tramite l'accelerometro. Non rileva il piede che tocca il suolo — riconosce invece il movimento del braccio che accompagna il movimento. Durante l'hockey, la tua falcata di pattinaggio e il maneggio del bastone creano movimenti simili, quindi l'app usa i \"passi al secondo\" come indicatore di gioco attivo."
+            },
+            {
+                "question": "Cos'è l'accelerazione?",
+                "answer": "L'accelerazione misura quanto velocemente stai accelerando, rallentando o cambiando direzione. L'accelerometro del tuo Apple Watch rileva questo movimento in tre dimensioni. Fermate brusche, partenze esplosive e rapidi cambi di direzione durante un breakout registrano un'alta accelerazione — mentre stare seduti in panchina in attesa del prossimo cambio mostra un'attività minima."
+            },
+            {
+                "question": "Cos'è la rotazione?",
+                "answer": "La rotazione misura quanto e quanto velocemente stai girando o ruotando. Il giroscopio del tuo Apple Watch rileva questo movimento, particolarmente comune nell'hockey — i crossover attraverso la zona neutra, il pivot per pattinare all'indietro in difesa o il girarsi dopo un contrasto creano schemi di rotazione distinti. Combinata con l'accelerazione, questo aiuta l'app a distinguere il pattinaggio attivo dallo stare fermi."
+            },
+            {
+                "question": "Come fa l'app a sapere quando sono sul ghiaccio?",
+                "answer": "L'app combina più sensori: l'accelerometro rileva l'intensità del movimento, il contapassi traccia la tua falcata di pattinaggio e il GPS misura la tua velocità. Quando pattini attivamente, questi sensori mostrano un'alta attività. Quando sei seduto in panchina, l'attività cala significativamente."
+            },
+            {
+                "question": "Come viene attivato lo stato sul ghiaccio/panchina dal movimento?",
+                "answer": "Il tuo Watch legge l'intensità del movimento, la falcata di pattinaggio e la velocità GPS. Quando l'app rileva un movimento abbastanza forte da questi sensori, ti segna come sul ghiaccio. Quando tutti e tre scendono a livelli bassi e rimangono lì, inizia la transizione alla panchina.\n\nL'impostazione Sensibilità controlla quanta movimento è necessario:\n\n• Alta — Rileva movimenti più leggeri. Usala se i tuoi cambi non vengono rilevati.\n• Media — Bilanciata per la maggior parte dei giocatori. Questa è l'impostazione predefinita.\n• Bassa — Richiede un movimento più forte per contare come pattinaggio. Usala se ricevi false letture sul ghiaccio mentre sei in panchina."
+            },
+            {
+                "question": "Come funzionano le impostazioni di rilevamento avanzate?",
+                "answer": "Le Impostazioni avanzate ti danno il pieno controllo su ogni soglia di rilevamento. La regolazione di qualsiasi cursore passa automaticamente la sensibilità a \"Personalizzata.\"\n\nAttivatore Sul ghiaccio — Per essere segnalato come pattinaggio, la tua velocità GPS deve superare la sua soglia per 3 secondi, OPPURE sia la tua accelerazione che la cadenza dei passi devono superare le loro soglie per la durata di mantenimento.\n• Acceleration: 0.2–3.0G (default: 0.2G)\n• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)\n• GPS Speed: 0.5–3.0 m/s (default: 1.5)\n• Hold Duration: 1–5 sec (default: 2s)\n\nAttivatore In panchina — Per passare alla panchina, TUTTE e tre le letture devono scendere sotto le loro soglie per la durata di mantenimento.\n• Acceleration: 0.3–1.5G (default: 0.7G)\n• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)\n• GPS Speed: 0.1–1.0 m/s (default: 0.5)\n• Hold Duration: 1–5 sec (default: 3s)\n\nConsigliamo di usare i livelli preimpostati (Alto, Medio, Basso) a meno che non sia necessaria una regolazione fine. Tocca \"Ripristina preimpostazione\" in qualsiasi momento per ripristinare."
+            },
+            {
+                "question": "Perché c'è un ritardo quando smetto di pattinare?",
+                "answer": "Questo è il \"buffer di movimento\" — un breve periodo di attesa (predefinito 20 secondi) prima che l'app confermi che sei tornato in panchina. Questo impedisce che brevi pause durante un cambio vengano conteggiate come tempo in panchina."
+            },
+            {
+                "question": "Cos'è il buffer di movimento?",
+                "answer": "Il buffer di movimento è un ritardo configurabile (10-30 secondi) che previene false conclusioni di cambio. Quando smetti di muoverti, l'app attende questo tempo prima di segnarti come \"in panchina\". Se ricominci a muoverti durante il buffer, il tuo cambio continua senza interruzione."
+            },
+            {
+                "question": "Cos'è il registro partita?",
+                "answer": "Il registro partita ti permette di annotare eventi durante una sessione — gol a favore, gol subiti, penalità e inizi periodo. Gli eventi vengono registrati dal tuo Apple Watch durante il gioco e possono anche essere aggiunti dall'iPhone. Il punteggio e le statistiche personali (i miei gol, i miei assist, i minuti di penalità) vengono calcolati dagli eventi che registri."
+            },
+            {
+                "question": "Devo avviare una sessione Partita per usare il registro partita?",
+                "answer": "No. Il registro partita è disponibile per tutti i tipi di sessione — Partita, Allenamento, Scrimmage e Altro. Puoi registrare gol e penalità in qualsiasi sessione."
+            },
+            {
+                "question": "Posso registrare un risultato senza avviare una sessione di tracciamento in diretta sull'Apple Watch?",
+                "answer": "Sì. Tocca il pulsante + accanto a \"Sessioni recenti\" nella Dashboard per aggiungere un risultato manuale. Puoi inserire il punteggio, l'avversario, i gol, gli assist, le penalità e le informazioni sui periodi — il tutto senza indossare il Watch. Questo è utile per registrare partite a posteriori o per scopi analitici."
+            },
+            {
+                "question": "Come registro eventi sul mio Watch?",
+                "answer": "Durante una sessione attiva, tocca il pulsante LOG nella parte inferiore dello schermo. Seleziona il tipo di evento (gol a favore, gol subito, penalità o inizio periodo) e compila i dettagli. L'evento viene registrato con l'ora corrente e appare sul tuo iPhone in pochi secondi."
+            },
+            {
+                "question": "Come registro eventi sul mio iPhone?",
+                "answer": "Mentre una sessione è attiva sul tuo Watch, apri l'app iPhone per vedere la tua sessione in diretta. Gli eventi registrati sul Watch appaiono sul tuo iPhone in tempo reale. Puoi anche aggiungere o eliminare eventi direttamente dall'iPhone. Nota che le modifiche fatte sull'iPhone non vengono rinviate al Watch durante la sessione — il Watch continua a mostrare il proprio registro. Quando la sessione termina, entrambe le fonti vengono unite automaticamente e le modifiche fatte sull'iPhone (aggiunte ed eliminazioni) hanno la priorità."
+            },
+            {
+                "question": "Quali tipi di eventi posso registrare?",
+                "answer": "Quattro tipi: Gol a favore (opzionalmente segna \"Ho segnato\" o \"Ho assistito\"), Gol subito, Penalità (con tipo di penalità, durata e se è contro la tua squadra o l'avversario) e Inizio periodo (segna gli intervalli nella tua cronologia)."
+            },
+            {
+                "question": "Cosa succede se non imposto un orario per un evento?",
+                "answer": "Se aggiungi un evento senza specificare un orario, viene salvato senza. L'evento appare comunque nel tuo registro partita e conta per il tuo punteggio e le statistiche. Puoi sempre tornare indietro e aggiungere o correggere l'ora dopo la sessione dalla pagina dei dettagli della sessione sul tuo iPhone."
+            },
+            {
+                "question": "Posso modificare gli eventi dopo la sessione?",
+                "answer": "Sì. Apri la sessione sul tuo iPhone e tocca qualsiasi evento per modificarne i dettagli — tipo, orario, coinvolgimento personale (gol/assist), info penalità e altro. Puoi anche aggiungere nuovi eventi o eliminare quelli esistenti. Tutte le modifiche vengono salvate immediatamente."
+            },
+            {
+                "question": "Come vengono uniti gli eventi di Watch e iPhone?",
+                "answer": "Durante la sessione, Watch e iPhone mantengono ciascuno il proprio registro. Quando la sessione termina e il Watch invia i dati finali al tuo iPhone, l'app unisce entrambe le fonti: gli eventi eliminati sull'iPhone vengono rimossi, quelli aggiunti vengono inclusi e il punteggio viene ricalcolato dalla lista unita. Il risultato finale viene salvato come un'unica sessione unificata."
+            },
+            {
+                "question": "Cosa fa la sensibilità di rilevamento?",
+                "answer": "La sensibilità controlla quanto movimento è necessario per essere registrato come \"pattinaggio.\" L'alta sensibilità rileva movimenti più leggeri (utile se i turni non vengono rilevati). La bassa sensibilità richiede movimenti più forti (utile se si verificano falsi rilevamenti in panchina). Medio è l'impostazione predefinita e funziona bene per la maggior parte dei giocatori."
+            },
+            {
+                "question": "Come regolo il tempo di buffer?",
+                "answer": "Apri l'app Ice Time Track sul tuo iPhone, vai su Impostazioni e regola il selettore \"Buffer di movimento.\" I buffer più brevi (10-15 secondi) terminano i turni più velocemente. I buffer più lunghi (25-30 secondi) sono più tolleranti verso brevi pause durante i turni."
+            },
+            {
+                "question": "Cosa sono gli avvisi tattili e come li uso?",
+                "answer": "Gli avvisi aptici sono notifiche a vibrazione sul tuo Watch quando il tuo stato cambia. Puoi impostarli per vibrare quando sali sul ghiaccio, quando torni in panchina, in entrambi i casi, o disattivarli completamente. Questo ti aiuta a rimanere consapevole senza guardare il Watch."
+            },
+            {
+                "question": "Cosa fa \"Termina sessione automaticamente\"?",
+                "answer": "La fine automatica interrompe automaticamente la sessione dopo un tempo impostato (predefinito 100 minuti). Questo impedisce all'app di funzionare indefinitamente se dimentichi di terminarla manualmente, risparmiando batteria e garantendo il salvataggio dei dati."
+            },
+            {
+                "question": "Se cambio le impostazioni durante una sessione attiva, hanno effetto immediato?",
+                "answer": "Sì. Le modifiche a sensibilità, buffer di movimento e avvisi aptici si sincronizzano con il Watch e hanno effetto immediato durante una sessione in corso. Non devi aspettare la prossima sessione: le regolazioni si applicano entro pochi secondi dalla modifica sul tuo iPhone."
+            },
+            {
+                "question": "Cosa sono le Impostazioni avanzate?",
+                "answer": "Le Impostazioni avanzate ti permettono di regolare ogni soglia di rilevamento individualmente. Espandi la sezione nelle impostazioni di Rilevamento per configurare accelerazione, cadenza dei passi, velocità GPS e durata di mantenimento per gli attivatori sia in pista che in panchina. Quando regoli un cursore, la sensibilità passa automaticamente a \"Personalizzato.\" Usa \"Ripristina preimpostazione\" per tornare alle preimpostazioni Basso/Medio/Alto."
+            },
+            {
+                "question": "Quali dati vengono salvati in Apple Salute?",
+                "answer": "Quando abilitato, l'app salva la tua sessione come allenamento di Hockey includendo: durata, calorie attive bruciate e dati sulla frequenza cardiaca (media e massima). Questo contribuisce ai tuoi anelli di Attività e alla cronologia del fitness."
+            },
+            {
+                "question": "Come attivo/disattivo l'integrazione HealthKit?",
+                "answer": "Apri Impostazioni nell'app iPhone e attiva \"Salva su Apple Salute.\" Quando abilitato, le sessioni completate vengono salvate come allenamenti. Quando disabilitato, i tuoi dati rimangono solo in Ice Time Track."
+            },
+            {
+                "question": "Perché la mia frequenza cardiaca non viene mostrata?",
+                "answer": "Assicurati che il Watch sia indossato stretto e il sensore della frequenza cardiaca abbia un buon contatto con la pelle. La frequenza cardiaca può impiegare 30-60 secondi per apparire dopo l'avvio di una sessione. Se i problemi persistono, verifica che Ice Time Track abbia il permesso di leggere la frequenza cardiaca in Impostazioni > Privacy > Salute."
+            },
+            {
+                "question": "Come si sincronizzano le sessioni tra Watch e iPhone?",
+                "answer": "Le sessioni si sincronizzano automaticamente quando entrambi i dispositivi sono nel raggio d'azione e collegati. Dopo aver terminato una sessione sul Watch, questa viene trasferita al tuo iPhone entro pochi secondi o minuti. Puoi anche attivare manualmente una sincronizzazione dall'app iPhone."
+            },
+            {
+                "question": "Perché la mia sessione non appare sul mio iPhone?",
+                "answer": "Prima di tutto, assicurati che la sessione sia terminata sul Watch. Apri entrambe le app e verifica che il Bluetooth sia attivato. Le sessioni si sincronizzano quando l'app Watch è aperta o poco dopo la fine. Se ancora non appare, prova ad aprire di nuovo l'app Watch per avviare la sincronizzazione."
+            },
+            {
+                "question": "Posso eliminare una sessione?",
+                "answer": "Sì. Nell'app iPhone, vai all'elenco delle sessioni, scorri verso sinistra sulla sessione che vuoi rimuovere e tocca Elimina. Questo la rimuove da entrambi i dispositivi."
+            },
+            {
+                "question": "L'app non rileva i miei cambi con precisione",
+                "answer": "Prova a regolare la sensibilità del rilevamento nelle Impostazioni. Se i turni non vengono rilevati, aumenta la sensibilità ad Alta. Se ricevi falsi rilevamenti in panchina, riduci a Bassa. Assicurati inoltre che il Watch sia indossato saldamente al polso, non sopra guanti spessi."
+            },
+            {
+                "question": "L'app ha smesso di registrare a metà partita",
+                "answer": "Questo può accadere se il Watch si riavvia o l'app va in crash. Controlla se la fine automatica si è attivata prima del previsto (regolabile nelle Impostazioni)."
+            },
+            {
+                "question": "L'app Watch è bloccata su 'Sincronizzazione richiesta'",
+                "answer": "Le app Watch e iPhone devono comunicare per completare la configurazione iniziale. Assicurati che l'app iPhone sia aperta durante la configurazione del Watch. Se la schermata persiste, forza la chiusura di entrambe le app e riavviale. Se il problema continua, elimina e reinstalla entrambe le app."
+            },
+            {
+                "question": "Perché l'app ha bisogno dell'accesso alla posizione?",
+                "answer": "La posizione (GPS) viene utilizzata per misurare la velocità di pattinaggio, il che aiuta a rilevare con precisione quando sei sul ghiaccio rispetto alla panchina. I dati GPS restano sui tuoi dispositivi e non vengono caricati da nessuna parte."
+            },
+            {
+                "question": "Perché l'app ha bisogno dell'accesso a movimento e fitness?",
+                "answer": "I sensori di movimento (accelerometro e giroscopio) rilevano i tuoi schemi di movimento per distinguere il pattinaggio dalla posizione seduta. L'accesso fitness consente di leggere il conteggio dei passi per migliorare la precisione del rilevamento. Questi dati vengono elaborati interamente sul tuo Watch."
+            },
+            {
+                "question": "I miei dati vengono condivisi con qualcuno?",
+                "answer": "No. Tutti i dati delle sessioni, le metriche sanitarie e le letture dei sensori restano sul tuo Apple Watch e iPhone. Nulla viene caricato su server esterni. I tuoi dati sono tuoi."
+            },
+            {
+                "question": "Come attivo l'accesso alla posizione se l'ho negato per errore?",
+                "answer": "Opzione 1 (su Watch): Apri Impostazioni > Privacy e sicurezza > Servizi di localizzazione > Ice Time Track, poi seleziona \"Durante l'utilizzo\". Opzione 2 (da iPhone): Apri l'app Watch > Privacy > Servizi di localizzazione > Ice Time Track e abilita l'accesso."
+            }
+        ]
+    }
+}

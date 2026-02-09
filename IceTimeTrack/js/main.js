@@ -5,6 +5,87 @@
 (function () {
     'use strict';
 
+    // ===== Locale Detection & Persistence =====
+    const SUPPORTED_LOCALES = ['en', 'cs', 'da', 'de', 'es', 'fi', 'fr', 'hu', 'it', 'ja', 'ko', 'nb', 'ru', 'sk', 'sv', 'zh-Hans', 'zh-Hant'];
+    const LOCALE_STORAGE_KEY = 'preferred-locale';
+    const BASE_PATH = '/IceTimeTrack';
+
+    function getCurrentLocale() {
+        const path = window.location.pathname;
+        for (const locale of SUPPORTED_LOCALES) {
+            if (path.includes('/' + locale + '/') || path.endsWith('/' + locale)) {
+                return locale;
+            }
+        }
+        return 'en';
+    }
+
+    function detectUserLocale() {
+        const userLang = navigator.language || navigator.userLanguage;
+        if (SUPPORTED_LOCALES.includes(userLang)) {
+            return userLang;
+        }
+        const baseLang = userLang.split('-')[0];
+        if (SUPPORTED_LOCALES.includes(baseLang)) {
+            return baseLang;
+        }
+        // Special handling for Chinese variants
+        if (userLang.startsWith('zh')) {
+            return userLang.includes('TW') || userLang.includes('HK') ? 'zh-Hant' : 'zh-Hans';
+        }
+        // Special handling for Norwegian
+        if (userLang.startsWith('nb') || userLang.startsWith('no')) {
+            return 'nb';
+        }
+        return 'en';
+    }
+
+    function redirectToLocale(locale) {
+        if (locale === 'en') {
+            window.location.href = BASE_PATH + '/';
+        } else {
+            window.location.href = BASE_PATH + '/' + locale + '/';
+        }
+    }
+
+    function initLocaleRedirect() {
+        const currentLocale = getCurrentLocale();
+        const savedLocale = localStorage.getItem(LOCALE_STORAGE_KEY);
+        const path = window.location.pathname;
+
+        // Enforce trailing slash for locale pages
+        if (currentLocale !== 'en' && !path.endsWith('/')) {
+            window.location.replace(path + '/');
+            return;
+        }
+
+        // If already on a specific language page, save that preference
+        if (currentLocale !== 'en') {
+            if (savedLocale !== currentLocale) {
+                localStorage.setItem(LOCALE_STORAGE_KEY, currentLocale);
+            }
+            return;
+        }
+
+        if (savedLocale) {
+            if (savedLocale !== currentLocale) {
+                redirectToLocale(savedLocale);
+                return;
+            }
+        } else {
+            const detectedLocale = detectUserLocale();
+            if (detectedLocale !== currentLocale) {
+                localStorage.setItem(LOCALE_STORAGE_KEY, detectedLocale);
+                redirectToLocale(detectedLocale);
+                return;
+            }
+            localStorage.setItem(LOCALE_STORAGE_KEY, currentLocale);
+        }
+    }
+
+    // Run locale detection immediately
+    initLocaleRedirect();
+
     /* ========================================
      * 7. JS loaded marker
      * ======================================== */
@@ -50,6 +131,51 @@
             });
         });
     }
+
+    /* ========================================
+     * 2b. Language Selector
+     * ======================================== */
+    const languageSelectors = document.querySelectorAll('.language-selector');
+
+    languageSelectors.forEach(function (selector) {
+        const btn = selector.querySelector('.language-btn');
+        if (!btn) return;
+
+        btn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            languageSelectors.forEach(function (s) {
+                if (s !== selector) s.classList.remove('active');
+            });
+            selector.classList.toggle('active');
+        });
+
+        selector.querySelectorAll('.language-dropdown a').forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const href = link.getAttribute('href');
+                let locale = 'en';
+                for (const loc of SUPPORTED_LOCALES) {
+                    if (href.includes('/' + loc + '/') || href === loc + '/') {
+                        locale = loc;
+                        break;
+                    }
+                }
+                if (href === '../' || href === './') {
+                    locale = 'en';
+                }
+                localStorage.setItem(LOCALE_STORAGE_KEY, locale);
+                redirectToLocale(locale);
+            });
+        });
+    });
+
+    document.addEventListener('click', function (e) {
+        languageSelectors.forEach(function (selector) {
+            if (!selector.contains(e.target)) {
+                selector.classList.remove('active');
+            }
+        });
+    });
 
     /* ========================================
      * 3. FAQ accordion (one-at-a-time)
@@ -128,12 +254,18 @@
      * 6. Launch countdown + pre-order/download toggle
      * ======================================== */
     var LAUNCH_DATE = new Date('2026-02-14T00:00:00-08:00'); // Pacific time
+    var PROMO_END_DATE = new Date('2026-02-28T23:59:59-08:00'); // Promo ends
 
     var cdSection = document.getElementById('countdown');
     var cdDays = document.getElementById('cd-days');
     var cdHours = document.getElementById('cd-hours');
     var cdMinutes = document.getElementById('cd-minutes');
     var cdSeconds = document.getElementById('cd-seconds');
+    var cdTitle = document.getElementById('cd-title');
+    var cdDate = document.getElementById('cd-date');
+    var cdPromo = document.getElementById('cd-promo');
+    var cdPromoSub = document.getElementById('cd-promo-sub');
+    var cdClaim = document.getElementById('cd-claim');
     var heroBtn = document.getElementById('hero-download');
     var downloadBtn = document.getElementById('download-cta');
     var navCta = document.getElementById('nav-cta');
@@ -145,8 +277,9 @@
         testimonials.classList.remove('testimonials--hidden');
     }
 
-    function switchToDownload() {
-        if (cdSection) cdSection.classList.add('countdown--hidden');
+    var promoMode = false;
+
+    function enableDownloadButtons() {
         if (heroBtn) heroBtn.textContent = 'Download Now';
         if (downloadBtn) downloadBtn.textContent = 'Download Now';
         if (navCta) navCta.textContent = 'Download';
@@ -163,14 +296,26 @@
         });
     }
 
-    function updateCountdown() {
-        var now = new Date();
-        var diff = LAUNCH_DATE - now;
+    function switchToPromo() {
+        promoMode = true;
+        enableDownloadButtons();
+        if (cdTitle) cdTitle.textContent = 'Launch Special';
+        if (cdDate) cdDate.textContent = 'Offer ends February 28, 2026';
+        if (cdPromo) cdPromo.classList.remove('countdown--hidden');
+        if (cdPromoSub) cdPromoSub.classList.remove('countdown--hidden');
+        if (cdClaim) cdClaim.classList.remove('countdown--hidden');
+    }
 
-        if (diff <= 0) {
-            switchToDownload();
-            return false;
-        }
+    function switchToDownload() {
+        if (cdSection) cdSection.classList.add('countdown--hidden');
+        enableDownloadButtons();
+    }
+
+    function updateTimer(targetDate) {
+        var now = new Date();
+        var diff = targetDate - now;
+
+        if (diff <= 0) return false;
 
         var days = Math.floor(diff / (1000 * 60 * 60 * 24));
         var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -183,6 +328,23 @@
         if (cdSeconds) cdSeconds.textContent = String(seconds).padStart(2, '0');
 
         return true;
+    }
+
+    function updateCountdown() {
+        var now = new Date();
+
+        if (now < LAUNCH_DATE) {
+            // Before launch: count down to launch
+            return updateTimer(LAUNCH_DATE);
+        } else if (now < PROMO_END_DATE) {
+            // After launch, before promo ends: show promo countdown
+            if (!promoMode) switchToPromo();
+            return updateTimer(PROMO_END_DATE);
+        } else {
+            // After promo ends: hide countdown
+            switchToDownload();
+            return false;
+        }
     }
 
     if (updateCountdown()) {

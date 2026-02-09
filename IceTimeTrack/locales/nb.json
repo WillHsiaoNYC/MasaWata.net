@@ -1,0 +1,280 @@
+{
+    "appName": "Ice Time Track",
+    "meta": {
+        "title": "Ice Time Track - Automatisk skiftdeteksjon for Apple Watch",
+        "description": "Spor istiden din automatisk med Apple Watch. Oppdag skift, logg mål og utvisninger, overvåk puls og bevegelse."
+    },
+    "nav": {
+        "features": "Funksjoner",
+        "howItWorks": "Slik fungerer det",
+        "screenshots": "Skjermbilder",
+        "faq": "FAQ",
+        "cta": "Forhåndsbestill",
+        "ctaDownload": "Last ned"
+    },
+    "countdown": {
+        "title": "Lansering om",
+        "promo": "1 år for $6,99",
+        "promoSub": "Tidsbegrenset tilbud — ikke gå glipp av det",
+        "days": "Dager",
+        "hours": "Timer",
+        "minutes": "Minutter",
+        "seconds": "Sekunder",
+        "date": "14. februar 2026",
+        "claimOffer": "Krev tilbud",
+        "launchSpecial": "Lanseringstilbud",
+        "offerEnds": "Tilbudet avsluttes 28. februar 2026",
+        "downloadNow": "Last ned nå"
+    },
+    "hero": {
+        "title": "Automatisk skiftdeteksjon<br>for hockeyspillere",
+        "description": "Vit nøyaktig hvor mye istid du får — uten å berøre klokken din. Spor mål, utvisninger og perioder. Bare start en økt og spill.",
+        "preOrder": "Forhåndsbestill nå",
+        "platforms": "Tilgjengelig på Apple Watch + iPhone · Lansering 14. februar 2026",
+        "shiftDetection": "Skiftdeteksjon",
+        "goalTracking": "Målsporing",
+        "penaltyLogging": "Utvisningslogg",
+        "gameAnalytics": "Kampanalyse"
+    },
+    "features": {
+        "title": "Funksjoner",
+        "subtitle": "Alt du trenger for å spore kampen din",
+        "shiftDetection": {
+            "title": "Automatisk skiftdeteksjon",
+            "description": "Gå på isen og klokken din vet det. Ingen knapper å trykke under spill — sensorer oppdager skøyting vs. benk automatisk."
+        },
+        "eventTracking": {
+            "title": "Kamphendelsesporing",
+            "description": "Logg mål, assists og utvisninger rett fra håndleddet. Spor perioder og hold en komplett oversikt."
+        },
+        "healthMetrics": {
+            "title": "Helsedata i sanntid",
+            "description": "Overvåk puls, forbrente kalorier og bevegelsesintensitet i sanntid."
+        },
+        "analytics": {
+            "title": "Øktanalyse",
+            "description": "Se total istid, antall skift, gjennomsnittlig skiftlengde og personlige rekorder."
+        },
+        "healthIntegration": {
+            "title": "Apple Helse-integrasjon",
+            "description": "Økter synkroniseres til Apple Helse som hockeytreninger."
+        },
+        "offline": {
+            "title": "Fungerer offline",
+            "description": "Klokken din registrerer alt uavhengig. Ingen iPhone nødvendig på benken — data synkroniseres automatisk etter kampen."
+        }
+    },
+    "howItWorks": {
+        "title": "Slik fungerer det",
+        "subtitle": "Fra oppvarming til analyse etter kampen",
+        "step1": {
+            "number": "1",
+            "title": "Før kampen",
+            "description": "Åpne Ice Time Track på Apple Watch. Trykk på Kamp, Trening eller Treningskamp."
+        },
+        "step2": {
+            "number": "2",
+            "title": "Under kampen",
+            "description": "Gå på isen og klokken din oppdager det automatisk. Logg mål og utvisninger med et trykk."
+        },
+        "step3": {
+            "number": "3",
+            "title": "Etter kampen",
+            "description": "Økten din synkroniseres til iPhone. Se istid, skift, puls og kamphendelser."
+        }
+    },
+    "screenshots": {
+        "title": "Se det i aksjon",
+        "subtitle": "Designet for hockeyspillere"
+    },
+    "testimonials": {
+        "title": "Hva spillere sier",
+        "subtitle": "Betrodd av hockeyspillere overalt",
+        "review1": {
+            "quote": "\"Endelig en app som sporer istiden min uten at jeg trenger å trykke på noe. Game changer for skiftsporing.\"",
+            "author": "— Hockey Dad"
+        },
+        "review2": {
+            "quote": "\"Elsker å se pulsen og skiftstatistikken min etter hver kamp. Hjelper meg å forstå formen min.\"",
+            "author": "— Beer League Player"
+        },
+        "review3": {
+            "quote": "\"Den automatiske deteksjonen er overraskende nøyaktig. Barna mine bruker den hver kamp nå.\"",
+            "author": "— Youth Hockey Parent"
+        }
+    },
+    "download": {
+        "title": "Klar til å spore istiden din?",
+        "description": "Last ned Ice Time Track og start neste økt. Automatisk skiftdeteksjon, kamphendelseslogg og helsedata — alt fra håndleddet.",
+        "preOrder": "Forhåndsbestill nå",
+        "downloadNow": "Last ned nå"
+    },
+    "footer": {
+        "privacy": "Personvernerklæring",
+        "terms": "Vilkår for bruk",
+        "support": "Støtte",
+        "copyright": "© 2026 MasaWata. Alle rettigheter forbeholdt."
+    },
+    "faq": {
+        "title": "Ofte stilte spørsmål",
+        "subtitle": "Alt du trenger å vite om Ice Time Track",
+        "items": [
+            {
+                "question": "Hvordan starter jeg en økt?",
+                "answer": "Åpne Ice Time Track-appen på Apple Watch. Velg økttype (Kamp, Trening, Scrimmage eller Annet) og trykk for å starte. Appen oppdager automatisk når du er på isen og når du er på benken."
+            },
+            {
+                "question": "Hva er forskjellen mellom Kamp, Trening og Scrimmage?",
+                "answer": "Dette er merkelapper for å organisere øktene dine. Kamp er for offisielle kamper, Trening for lagtrening, Scrimmage for uformelle kamper og Annet for alt annet som offentlig skøyting. Deteksjonen fungerer likt for alle typer."
+            },
+            {
+                "question": "Trenger jeg iPhonen min med meg under en kamp?",
+                "answer": "Nei. Apple Watch registrerer alt uavhengig. Økten din synkroniseres automatisk til iPhonen din når enhetene er innenfor rekkevidde etter kampen."
+            },
+            {
+                "question": "Hva er et skritt?",
+                "answer": "Et \"skritt\" oppdages av Apple Watch når den registrerer et rytmisk armsving via akselerometeret. Den oppdager ikke foten din som treffer bakken — i stedet gjenkjenner den armbevegelsen som følger med bevegelse. Under ishockey skaper skøytetaket og stavarbeidet lignende armbevegelser, så appen bruker \"skritt per sekund\" som en indikator for aktivt spill."
+            },
+            {
+                "question": "Hva er akselerasjon?",
+                "answer": "Akselerasjon måler hvor raskt du akselererer, bremser eller skifter retning. Apple Watchens akselerometer oppdager denne bevegelsen i tre dimensjoner. Harde stopp, eksplosive starter og raske retningsendringer under et utbrudd registreres som høy akselerasjon — mens å sitte på benken og vente på neste bytte viser minimal aktivitet."
+            },
+            {
+                "question": "Hva er rotasjon?",
+                "answer": "Rotasjon måler hvor mye og hvor raskt du snur eller spinner. Apple Watchens gyroskop oppdager denne bevegelsen, som er spesielt vanlig i ishockey — crossovers gjennom nøytral sone, pivotering for å skøyte bakover i forsvar eller å spinne fri fra en takling skaper alle tydelige rotasjonsmønstre. Kombinert med akselerasjon hjelper dette appen å skille aktivt skøyting fra å stå stille."
+            },
+            {
+                "question": "Hvordan vet appen når jeg er på isen?",
+                "answer": "Appen kombinerer flere sensorer: akselerometeret oppdager bevegelsesintensitet, skrittelleren sporer skøytetaket ditt, og GPS måler hastigheten din. Når du skøyter aktivt, viser disse sensorene høy aktivitet. Når du sitter på benken, synker aktiviteten betydelig."
+            },
+            {
+                "question": "Hvordan utløses på-isen/benk-status av bevegelse?",
+                "answer": "Watchen leser bevegelsesintensitet, skøytetak og GPS-hastighet. Når appen oppdager sterk nok bevegelse fra disse sensorene, markerer den deg som på isen. Når alle tre faller til lave nivåer og forblir der, starter overgangen til benken.\n\nFølsomhetsinnstillingen styrer hvor mye bevegelse som trengs:\n\n• Høy — Fanger opp lettere bevegelser. Bruk dette hvis byttene dine ikke oppdages.\n• Medium — Balansert for de fleste spillere. Dette er standard.\n• Lav — Trenger sterkere bevegelse for å telle som skøyting. Bruk dette hvis du får falske på-isen-avlesninger mens du er på benken."
+            },
+            {
+                "question": "Hvordan fungerer de avanserte deteksjonsinnstillingene?",
+                "answer": "Avanserte innstillinger gir deg full kontroll over hver deteksjonsterskel. Justering av en glidebryter bytter automatisk følsomheten til \"Egendefinert.\"\n\nPå-isen-utløser — For å bli merket som skøyting, må ENTEN GPS-hastigheten din overstige sin terskel i 3 sekunder, ELLER både akselerasjonen og skrittkadensen din må overstige sine terskler i holdvarigheten.\n• Acceleration: 0.2–3.0G (default: 0.2G)\n• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)\n• GPS Speed: 0.5–3.0 m/s (default: 1.5)\n• Hold Duration: 1–5 sec (default: 2s)\n\nPå-benken-utløser — For å bytte til benken, må ALLE tre avlesningene falle under sine terskler i holdvarigheten.\n• Acceleration: 0.3–1.5G (default: 0.7G)\n• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)\n• GPS Speed: 0.1–1.0 m/s (default: 0.5)\n• Hold Duration: 1–5 sec (default: 3s)\n\nVi anbefaler å bruke forhåndsinnstilte nivåer (Høy, Medium, Lav) med mindre du trenger finjustering. Trykk på \"Tilbakestill til forhåndsinnstilling\" når som helst for å gå tilbake."
+            },
+            {
+                "question": "Hvorfor er det en forsinkelse når jeg slutter å skøyte?",
+                "answer": "Dette er \"bevegelsesbufferen\" — en kort venteperiode (standard 20 sekunder) før appen bekrefter at du er tilbake på benken. Dette forhindrer korte pauser under et bytte fra å bli talt som benktid."
+            },
+            {
+                "question": "Hva er bevegelsesbufferen?",
+                "answer": "Bevegelsesbufferen er en konfigurerbar forsinkelse (10-30 sekunder) som forhindrer falske bytteavslutninger. Når du slutter å bevege deg, venter appen denne tiden før den markerer deg som \"på benken\". Hvis du begynner å bevege deg igjen under bufferen, fortsetter byttet ditt uavbrutt."
+            },
+            {
+                "question": "Hva er kamploggen?",
+                "answer": "Kamploggen lar deg registrere hendelser under en økt — mål for, mål mot, utvisninger og periodestart. Hendelser logges fra Apple Watch under spill og kan også legges til fra iPhone. Poengsummen og personlig statistikk (mine mål, mine assists, utvisningsminutter) beregnes fra hendelsene du logger."
+            },
+            {
+                "question": "Må jeg starte en Kamp-økt for å bruke kamploggen?",
+                "answer": "Nei. Kamploggen er tilgjengelig for alle økttyper — Kamp, Trening, Scrimmage og Annet. Du kan logge mål og utvisninger i enhver økt."
+            },
+            {
+                "question": "Kan jeg logge et kampresultat uten å starte en live økt på Apple Watch?",
+                "answer": "Ja. Trykk på +-knappen ved siden av \"Nylige økter\" på Dashboardet for å legge til en manuell kampregistrering. Du kan legge inn poengsum, motstander, mål, assists, utvisninger og periodeinformasjon — alt uten å ha på deg klokken. Dette er nyttig for å logge kamper i ettertid eller for analytiske formål."
+            },
+            {
+                "question": "Hvordan logger jeg hendelser på klokken min?",
+                "answer": "Under en aktiv økt, trykk på LOG-knappen nederst på skjermen. Velg hendelsestype (mål for, mål mot, utvisning eller periodestart) og fyll inn detaljene. Hendelsen registreres med gjeldende tid og vises på iPhonen din innen sekunder."
+            },
+            {
+                "question": "Hvordan logger jeg hendelser på iPhonen min?",
+                "answer": "Mens en økt er aktiv på klokken din, åpne iPhone-appen for å se din live økt. Hendelser logget på klokken vises på iPhonen din i sanntid. Du kan også legge til eller slette hendelser direkte fra iPhone. Merk at endringer gjort på iPhone ikke sendes tilbake til klokken under økten — klokken fortsetter å vise sin egen logg. Når økten avsluttes, slås begge kilder automatisk sammen, og eventuelle endringer du gjorde på iPhone (tillegg og slettinger) har prioritet."
+            },
+            {
+                "question": "Hvilke typer hendelser kan jeg logge?",
+                "answer": "Fire typer: Mål for (valgfritt merk \"Jeg scoret\" eller \"Jeg assisterte\"), Mål mot, Utvisning (med utvisningstype, varighet og om den er mot ditt lag eller motstanderen) og Periodestart (markerer pauser i din tidslinje)."
+            },
+            {
+                "question": "Hva skjer hvis jeg ikke setter et tidspunkt for en hendelse?",
+                "answer": "Hvis du legger til en hendelse uten å angi et tidsstempel, lagres den uten. Hendelsen vises fortsatt i kamploggen din og teller mot poengsummen og statistikken din. Du kan alltid gå tilbake og legge til eller korrigere tiden etter økten fra øktens detaljside på iPhonen din."
+            },
+            {
+                "question": "Kan jeg redigere hendelser etter økten?",
+                "answer": "Ja. Åpne økten på iPhonen din og trykk på en hendelse for å redigere detaljene — type, tidsstempel, personlig involvering (scoret/assistert), utvisningsinfo og mer. Du kan også legge til nye hendelser eller slette eksisterende. Alle endringer lagres umiddelbart."
+            },
+            {
+                "question": "Hvordan slås Watch- og iPhone-hendelser sammen?",
+                "answer": "Under økten fører Watch og iPhone hver sin egen logg. Når økten avsluttes og Watch sender de endelige dataene til iPhonen din, slår appen begge kildene sammen: hendelser du slettet på iPhone fjernes, hendelser du la til på iPhone inkluderes, og poengsummen beregnes på nytt fra den sammenslåtte listen. Sluttresultatet lagres som én samlet økt."
+            },
+            {
+                "question": "Hva gjør deteksjonsfølsomheten?",
+                "answer": "Følsomhet styrer hvor mye bevegelse som trengs for å registrere \"skøyting.\" Høy følsomhet oppdager lettere bevegelser (bra hvis bytter ikke blir registrert). Lav følsomhet krever sterkere bevegelse (bra hvis du får falske registreringer på benken). Medium er standard og fungerer bra for de fleste spillere."
+            },
+            {
+                "question": "Hvordan justerer jeg buffertiden?",
+                "answer": "Åpne Ice Time Track-appen på din iPhone, gå til Innstillinger og juster \"Bevegelsesbuffer\"-velgeren. Kortere buffere (10–15 sekunder) avslutter bytter raskere. Lengre buffere (25–30 sekunder) er mer tilsørende for korte pauser under bytter."
+            },
+            {
+                "question": "Hva er haptiske varsler og hvordan bruker jeg dem?",
+                "answer": "Haptiske varsler er vibrasjonsvarsler på din Watch når statusen din endres. Du kan stille dem til å vibrere når du går på isen, når du returnerer til benken, begge deler, eller slå dem helt av. Dette hjelper deg å holde oversikten uten å se på din Watch."
+            },
+            {
+                "question": "Hva gjør \"Avslutt økt automatisk\"?",
+                "answer": "Auto-avslutning stopper automatisk økten din etter en angitt tid (standard 100 minutter). Dette forhindrer appen fra å kjøre i det uendelige hvis du glemmer å avslutte manuelt, noe som sparer batteri og sikrer at dataene dine lagres."
+            },
+            {
+                "question": "Hvis jeg endrer innstillinger under en aktiv økt, trer de i kraft umiddelbart?",
+                "answer": "Ja. Endringer i følsomhet, bevegelsesbuffer og haptiske varsler synkroniseres til din Watch og trer i kraft umiddelbart under en pågående økt. Du trenger ikke vente til neste økt – justeringene gjelder innen sekunder etter at du endrer dem på din iPhone."
+            },
+            {
+                "question": "Hva er Avanserte innstillinger?",
+                "answer": "Avanserte innstillinger lar deg finjustere hver deteksjonsterskel individuelt. Utvid seksjonen i Deteksjonsinnstillinger for å konfigurere akselerasjon, stegkadanse, GPS-hastighet og holdevarighet for både på-isen- og på-benken-utløsere. Når du justerer en glidebryter, bytter følsomheten automatisk til \"Egendefinert.\" Bruk \"Tilbakestill til forhåndsinnstilling\" for å gå tilbake til Lav/Medium/Høy forhåndsinnstillinger."
+            },
+            {
+                "question": "Hvilke data lagres i Apple Helse?",
+                "answer": "Når aktivert lagrer appen økten din som en hockeytrening inkludert: varighet, aktive kalorier forbrent og pulsdata (gjennomsnitt og maksimum). Dette bidrar til Aktivitetsringene dine og treningshistorikk."
+            },
+            {
+                "question": "Hvordan aktiverer/deaktiverer jeg HealthKit-integrering?",
+                "answer": "Åpne Innstillinger i iPhone-appen og slå på \"Lagre til Apple Helse.\" Når aktivert lagres fullførte økter som treninger. Når deaktivert forblir dataene dine kun i Ice Time Track."
+            },
+            {
+                "question": "Hvorfor vises ikke pulsen min?",
+                "answer": "Sørg for at klokken sitter stramt og pulssensoren har god hudkontakt. Pulsen kan ta 30-60 sekunder å vises etter start av en økt. Hvis problemene vedvarer, sjekk at Ice Time Track har tillatelse til å lese puls i Innstillinger > Personvern > Helse."
+            },
+            {
+                "question": "Hvordan synkroniseres økter mellom Watch og iPhone?",
+                "answer": "Økter synkroniseres automatisk når begge enhetene er innenfor rekkevidde og tilkoblet. Etter at du avslutter en økt på klokken, overføres den til iPhonen din innen noen sekunder til noen minutter. Du kan også manuelt utløse en synkronisering fra iPhone-appen."
+            },
+            {
+                "question": "Hvorfor vises ikke økten min på iPhonen?",
+                "answer": "Sørg først for at økten er avsluttet på klokken. Åpne begge appene og sjekk at Bluetooth er aktivert. Økter synkroniseres når klokkeappen er åpen eller kort tid etter avslutning. Hvis den fortsatt ikke vises, prøv å åpne klokkeappen igjen for å utløse synkroniseringen."
+            },
+            {
+                "question": "Kan jeg slette en økt?",
+                "answer": "Ja. I iPhone-appen går du til øktlisten, sveiper til venstre på økten du vil fjerne, og trykker på Slett. Dette fjerner den fra begge enhetene."
+            },
+            {
+                "question": "Appen oppdager ikke byttene mine nøyaktig",
+                "answer": "Prøv å justere følsomheten for byttedeteksjon i Innstillinger. Hvis bytter ikke oppdages, øk følsomheten til Høy. Hvis du får falske deteksjoner på benken, senk til Lav. Sørg også for at klokken sitter godt på håndleddet, ikke over tykke hansker."
+            },
+            {
+                "question": "Appen sluttet å ta opp midt i kampen",
+                "answer": "Dette kan skje hvis klokken starter på nytt eller appen krasjer. Sjekk om automatisk avslutning ble utløst tidligere enn forventet (justerbart i Innstillinger)."
+            },
+            {
+                "question": "Watch-appen sitter fast på 'Synkronisering kreves'",
+                "answer": "Klokke- og iPhone-appene må kommunisere for å fullføre det første oppsettet. Sørg for at iPhone-appen er åpen mens du setter opp klokken. Hvis skjermen forblir, tvangsavslutt begge appene og start dem på nytt. Hvis problemet vedvarer, slett og installer begge appene på nytt."
+            },
+            {
+                "question": "Hvorfor trenger appen tilgang til posisjon?",
+                "answer": "Posisjon (GPS) brukes til å måle skøytehastigheten din, noe som hjelper med å nøyaktig oppdage når du er på isen kontra benken. GPS-data forblir på enhetene dine og lastes ikke opp noe sted."
+            },
+            {
+                "question": "Hvorfor trenger appen tilgang til bevegelse og trening?",
+                "answer": "Bevegelsessensorer (akselerometer og gyroskop) registrerer bevegelsesmønstrene dine for å skille skating fra sitting. Treningsdata-tilgang gjør det mulig å lese skrittantallet ditt for å forbedre deteksjonsnøyaktigheten. Disse dataene behandles utelukkende på klokken din."
+            },
+            {
+                "question": "Deles dataene mine med noen?",
+                "answer": "Nei. Alle øktdataene dine, helsemålinger og sensoravlesninger forblir på Apple Watch og iPhone. Ingenting lastes opp til eksterne servere. Dataene dine er dine."
+            },
+            {
+                "question": "Hvordan aktiverer jeg posisjonstilgang hvis jeg avviste den ved et uhell?",
+                "answer": "Alternativ 1 (på klokken): Åpne Innstillinger > Personvern og sikkerhet > Stedstjenester > Ice Time Track, velg deretter \"Under bruk\". Alternativ 2 (fra iPhone): Åpne Watch-appen > Personvern > Stedstjenester > Ice Time Track og aktiver tilgang."
+            }
+        ]
+    }
+}

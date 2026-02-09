@@ -1,0 +1,280 @@
+{
+    "appName": "Ice Time Track",
+    "meta": {
+        "title": "Ice Time Track - Automatische Schichterkennung für Apple Watch",
+        "description": "Verfolge deine Eiszeit automatisch mit der Apple Watch. Erkenne Schichten, protokolliere Tore und Strafen, überwache Herzfrequenz und Bewegung."
+    },
+    "nav": {
+        "features": "Funktionen",
+        "howItWorks": "So funktioniert's",
+        "screenshots": "Screenshots",
+        "faq": "FAQ",
+        "cta": "Vorbestellen",
+        "ctaDownload": "Laden"
+    },
+    "countdown": {
+        "title": "Start in",
+        "promo": "1 Jahr für $6,99",
+        "promoSub": "Zeitlich begrenztes Angebot — nicht verpassen",
+        "days": "Tage",
+        "hours": "Stunden",
+        "minutes": "Minuten",
+        "seconds": "Sekunden",
+        "date": "14. Februar 2026",
+        "claimOffer": "Angebot einlösen",
+        "launchSpecial": "Start-Spezial",
+        "offerEnds": "Angebot endet am 28. Februar 2026",
+        "downloadNow": "Jetzt laden"
+    },
+    "hero": {
+        "title": "Automatische Schichterkennung<br>für Eishockeyspieler",
+        "description": "Wisse genau, wie viel Eiszeit du bekommst — ohne deine Uhr zu berühren. Verfolge Tore, Strafen und Drittel. Starte einfach eine Sitzung und spiel.",
+        "preOrder": "Jetzt vorbestellen",
+        "platforms": "Verfügbar für Apple Watch + iPhone · Start am 14. Februar 2026",
+        "shiftDetection": "Schichterkennung",
+        "goalTracking": "Torverfolgung",
+        "penaltyLogging": "Strafenprotokoll",
+        "gameAnalytics": "Spielanalyse"
+    },
+    "features": {
+        "title": "Funktionen",
+        "subtitle": "Alles was du brauchst, um dein Spiel zu verfolgen",
+        "shiftDetection": {
+            "title": "Automatische Schichterkennung",
+            "description": "Betritt das Eis und deine Uhr weiß es. Keine Tasten während des Spiels — Sensoren erkennen automatisch Schlittschuhlaufen vs. Bankzeit."
+        },
+        "eventTracking": {
+            "title": "Spielereignis-Tracking",
+            "description": "Protokolliere Tore, Assists und Strafen direkt vom Handgelenk. Verfolge Drittel und führe ein vollständiges Protokoll jedes Spiels."
+        },
+        "healthMetrics": {
+            "title": "Live-Gesundheitsmetriken",
+            "description": "Überwache Herzfrequenz, verbrannte Kalorien und Bewegungsintensität in Echtzeit."
+        },
+        "analytics": {
+            "title": "Sitzungsanalyse",
+            "description": "Überprüfe Gesamteiszeit, Schichtanzahl, durchschnittliche Schichtlänge und persönliche Rekorde."
+        },
+        "healthIntegration": {
+            "title": "Apple Health Integration",
+            "description": "Sitzungen werden als Eishockey-Workouts mit Apple Health synchronisiert."
+        },
+        "offline": {
+            "title": "Funktioniert offline",
+            "description": "Deine Uhr zeichnet alles unabhängig auf. Kein iPhone auf der Bank nötig — Daten synchronisieren sich automatisch nach dem Spiel."
+        }
+    },
+    "howItWorks": {
+        "title": "So funktioniert's",
+        "subtitle": "Vom Aufwärmen bis zur Nachspielanalyse",
+        "step1": {
+            "number": "1",
+            "title": "Vor dem Spiel",
+            "description": "Öffne Ice Time Track auf deiner Apple Watch. Tippe auf Spiel, Training oder Scrimmage."
+        },
+        "step2": {
+            "number": "2",
+            "title": "Während des Spiels",
+            "description": "Betritt das Eis und deine Uhr erkennt es automatisch. Protokolliere Tore und Strafen mit einem Tippen."
+        },
+        "step3": {
+            "number": "3",
+            "title": "Nach dem Spiel",
+            "description": "Deine Sitzung synchronisiert sich mit deinem iPhone. Überprüfe Eiszeit, Schichten, Herzfrequenz und Spielereignisse."
+        }
+    },
+    "screenshots": {
+        "title": "In Aktion sehen",
+        "subtitle": "Entwickelt für Eishockeyspieler"
+    },
+    "testimonials": {
+        "title": "Was Spieler sagen",
+        "subtitle": "Vertraut von Eishockeyspielern überall",
+        "review1": {
+            "quote": "\"Endlich eine App, die meine Eiszeit verfolgt, ohne dass ich etwas tippen muss. Game Changer für das Tracking meiner Schichten.\"",
+            "author": "— Hockey Dad"
+        },
+        "review2": {
+            "quote": "\"Liebe es, nach jedem Spiel meine Herzfrequenz und Schichtstatistiken zu sehen. Hilft mir, meine Kondition zu verstehen.\"",
+            "author": "— Beer League Player"
+        },
+        "review3": {
+            "quote": "\"Die automatische Erkennung ist erstaunlich genau. Meine Kinder nutzen sie jetzt bei jedem Spiel.\"",
+            "author": "— Youth Hockey Parent"
+        }
+    },
+    "download": {
+        "title": "Bereit, deine Eiszeit zu verfolgen?",
+        "description": "Hol dir Ice Time Track und starte deine nächste Sitzung. Automatische Schichterkennung, Spielereignis-Protokollierung und Gesundheitsmetriken — alles vom Handgelenk.",
+        "preOrder": "Jetzt vorbestellen",
+        "downloadNow": "Jetzt laden"
+    },
+    "footer": {
+        "privacy": "Datenschutzrichtlinie",
+        "terms": "Nutzungsbedingungen",
+        "support": "Support",
+        "copyright": "© 2026 MasaWata. Alle Rechte vorbehalten."
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "subtitle": "Alles was du über Ice Time Track wissen musst",
+        "items": [
+            {
+                "question": "Wie starte ich eine Aufzeichnung?",
+                "answer": "Öffne die Ice Time Track App auf deiner Apple Watch. Wähle deinen Sitzungstyp (Spiel, Training, Scrimmage oder Andere) und tippe zum Starten. Die App erkennt automatisch, wann du auf dem Eis bist und wann auf der Bank."
+            },
+            {
+                "question": "Was ist der Unterschied zwischen Spiel, Training und Scrimmage?",
+                "answer": "Das sind Bezeichnungen, um deine Sitzungen zu organisieren. Spiel ist für offizielle Partien, Training für Teamtraining, Scrimmage für informelle Spiele und Andere für alles Weitere wie öffentliches Eislaufen. Die Erkennung funktioniert bei allen Typen gleich."
+            },
+            {
+                "question": "Brauche ich mein iPhone während eines Spiels dabei?",
+                "answer": "Nein. Die Apple Watch zeichnet alles unabhängig auf. Deine Sitzung wird automatisch mit deinem iPhone synchronisiert, wenn die Geräte nach dem Spiel in Reichweite sind."
+            },
+            {
+                "question": "Was ist ein Schritt?",
+                "answer": "Ein \"Schritt\" wird von deiner Apple Watch erkannt, wenn sie mit dem Beschleunigungsmesser ein rhythmisches Armschwingmuster erfasst. Sie erkennt nicht den Aufprall deines Fußes — stattdessen erkennt sie die Armbewegung, die die Bewegung begleitet. Beim Eishockey erzeugen Laufschritt und Stockführung ähnliche Armbewegungen, daher verwendet die App \"Schritte pro Sekunde\" als einen Indikator für aktives Spiel."
+            },
+            {
+                "question": "Was ist Beschleunigung?",
+                "answer": "Beschleunigung misst, wie schnell du beschleunigst, bremst oder die Richtung änderst. Der Beschleunigungsmesser deiner Apple Watch erfasst diese Bewegung in drei Dimensionen. Harte Stopps, explosive Starts und schnelle Richtungswechsel bei einem Ausbruch werden als hohe Beschleunigung registriert — während das Sitzen auf der Bank und Warten auf den nächsten Wechsel minimale Aktivität zeigt."
+            },
+            {
+                "question": "Was ist Rotation?",
+                "answer": "Rotation misst, wie stark und wie schnell du dich drehst. Das Gyroskop deiner Apple Watch erkennt diese Bewegung, die besonders häufig im Eishockey vorkommt — Überkreuzschritte durch die neutrale Zone, Drehungen zum Rückwärtsfahren in der Verteidigung oder das Herausdrehen aus einem Check erzeugen markante Rotationsmuster. Kombiniert mit Beschleunigung hilft dies der App, aktives Laufen vom Stillstehen zu unterscheiden."
+            },
+            {
+                "question": "Woher weiß die App, wann ich auf dem Eis bin?",
+                "answer": "Die App kombiniert mehrere Sensoren: Der Beschleunigungsmesser erkennt die Bewegungsintensität, der Schrittzähler verfolgt deinen Laufschritt, und GPS misst deine Geschwindigkeit. Wenn du aktiv läufst, zeigen diese Sensoren hohe Aktivität. Wenn du auf der Bank sitzt, sinkt die Aktivität deutlich."
+            },
+            {
+                "question": "Wie wird der Eis-/Bank-Status durch Bewegung ausgelöst?",
+                "answer": "Deine Watch liest Bewegungsintensität, Laufschritt und GPS-Geschwindigkeit. Wenn die App ausreichend starke Bewegung von diesen Sensoren erkennt, markiert sie dich als auf dem Eis. Wenn alle drei auf niedrige Werte fallen und dort bleiben, beginnt der Übergang zur Bank.\n\nDie Empfindlichkeitseinstellung steuert, wie viel Bewegung nötig ist:\n\n• Hoch — Erfasst leichtere Bewegungen. Verwende dies, wenn deine Wechsel nicht erkannt werden.\n• Mittel — Ausgewogen für die meisten Spieler. Dies ist die Standardeinstellung.\n• Niedrig — Erfordert stärkere Bewegung zum Erkennen als Laufen. Verwende dies bei falschen Eis-Erkennungen auf der Bank."
+            },
+            {
+                "question": "Wie funktionieren die erweiterten Erkennungseinstellungen?",
+                "answer": "Erweiterte Einstellungen geben dir volle Kontrolle über jeden Erkennungsschwellenwert. Das Anpassen eines Schiebereglers schaltet die Empfindlichkeit automatisch auf „Benutzer­definiert.“\n\nAuf-dem-Eis-Auslöser — Um als Eislaufen markiert zu werden, muss ENTWEDER deine GPS-Geschwindigkeit ihren Schwellenwert für 3 Sekunden überschreiten, ODER sowohl deine Beschleunigung als auch deine Schrittkadenz müssen ihre Schwellenwerte für die Haltedauer überschreiten.\n• Acceleration: 0.2–3.0G (default: 0.2G)\n• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)\n• GPS Speed: 0.5–3.0 m/s (default: 1.5)\n• Hold Duration: 1–5 sec (default: 2s)\n\nAuf-der-Bank-Auslöser — Für den Wechsel zur Bank müssen ALLE drei Messwerte für die Haltedauer unter ihre Schwellenwerte fallen.\n• Acceleration: 0.3–1.5G (default: 0.7G)\n• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)\n• GPS Speed: 0.1–1.0 m/s (default: 0.5)\n• Hold Duration: 1–5 sec (default: 3s)\n\nWir empfehlen die voreingestellten Stufen (Hoch, Mittel, Niedrig), es sei denn, du benötigst eine Feinabstimmung. Tippe jederzeit auf „Auf Voreinstellung zurücksetzen“, um zurückzukehren."
+            },
+            {
+                "question": "Warum gibt es eine Verzögerung, wenn ich aufhöre zu laufen?",
+                "answer": "Das ist der \"Bewegungspuffer\" — eine kurze Wartezeit (Standard 20 Sekunden), bevor die App bestätigt, dass du wieder auf der Bank bist. Dies verhindert, dass kurze Pausen während eines Wechsels als Bankzeit gezählt werden."
+            },
+            {
+                "question": "Was ist der Bewegungspuffer?",
+                "answer": "Der Bewegungspuffer ist eine einstellbare Verzögerung (10–30 Sekunden), die falsche Wechselbeendigungen verhindert. Wenn du aufhörst dich zu bewegen, wartet die App diese Zeit ab, bevor sie dich als \"auf der Bank\" markiert. Wenn du dich während des Puffers wieder bewegst, läuft dein Wechsel ohne Unterbrechung weiter."
+            },
+            {
+                "question": "Was ist das Spielprotokoll?",
+                "answer": "Das Spielprotokoll ermöglicht es dir, Ereignisse während einer Sitzung aufzuzeichnen — Tore dafür, Gegentore, Strafen und Drittelanfänge. Ereignisse werden von deiner Apple Watch während des Spiels aufgezeichnet und können auch vom iPhone hinzugefügt werden. Der Spielstand und persönliche Statistiken (meine Tore, meine Assists, Strafminuten) werden aus den protokollierten Ereignissen berechnet."
+            },
+            {
+                "question": "Muss ich eine Spiel-Sitzung starten, um das Spielprotokoll zu nutzen?",
+                "answer": "Nein. Das Spielprotokoll ist für alle Sitzungstypen verfügbar — Spiel, Training, Scrimmage und Andere. Du kannst Tore und Strafen in jeder Sitzung protokollieren."
+            },
+            {
+                "question": "Kann ich ein Spielergebnis eintragen, ohne eine Live-Aufzeichnung auf der Apple Watch zu starten?",
+                "answer": "Ja. Tippe auf die +-Taste neben „Letzte Sitzungen“ auf dem Dashboard, um ein manuelles Spielergebnis hinzuzufügen. Du kannst Spielstand, Gegner, Tore, Assists, Strafen und Drittelinformationen eingeben — alles ohne deine Watch zu tragen. Dies ist nützlich für das nachträgliche Erfassen von Spielen oder für Analysezwecke."
+            },
+            {
+                "question": "Wie protokolliere ich Ereignisse auf meiner Watch?",
+                "answer": "Während einer aktiven Sitzung tippe auf die LOG-Taste am unteren Bildschirmrand. Wähle den Ereignistyp (Tor dafür, Gegentor, Strafe oder Drittelanfang) und fülle die Details aus. Das Ereignis wird mit der aktuellen Zeit aufgezeichnet und erscheint innerhalb von Sekunden auf deinem iPhone."
+            },
+            {
+                "question": "Wie protokolliere ich Ereignisse auf meinem iPhone?",
+                "answer": "Während eine Sitzung auf deiner Watch aktiv ist, öffne die iPhone-App, um deine Live-Sitzung zu sehen. Auf der Watch protokollierte Ereignisse erscheinen in Echtzeit auf deinem iPhone. Du kannst auch Ereignisse direkt vom iPhone hinzufügen oder löschen. Beachte, dass Änderungen auf dem iPhone während der Sitzung nicht an die Watch zurückgesendet werden — die Watch zeigt weiterhin ihr eigenes Protokoll. Nach dem Ende der Sitzung werden beide Quellen automatisch zusammengeführt, und Änderungen vom iPhone (Hinzufügungen und Löschungen) haben Vorrang."
+            },
+            {
+                "question": "Welche Arten von Ereignissen kann ich protokollieren?",
+                "answer": "Vier Typen: Tor dafür (optional „Ich habe geschossen“ oder „Ich habe vorgelegt“ markieren), Gegentor, Strafe (mit Strafart, Dauer und ob gegen dein Team oder den Gegner) und Drittelanfang (markiert Pausen in deiner Zeitleiste)."
+            },
+            {
+                "question": "Was passiert, wenn ich keine Zeit für ein Ereignis setze?",
+                "answer": "Wenn du ein Ereignis ohne Zeitstempel hinzufügst, wird es ohne gespeichert. Das Ereignis erscheint trotzdem in deinem Spielprotokoll und wird für deinen Spielstand und deine Statistiken gezählt. Du kannst jederzeit zurückgehen und die Zeit nach der Sitzung auf der Sitzungsdetailseite deines iPhones hinzufügen oder korrigieren."
+            },
+            {
+                "question": "Kann ich Ereignisse nach der Sitzung bearbeiten?",
+                "answer": "Ja. Öffne die Sitzung auf deinem iPhone und tippe auf ein Ereignis, um seine Details zu bearbeiten — Typ, Zeitstempel, persönliche Beteiligung (Tor/Assist), Strafinformationen und mehr. Du kannst auch neue Ereignisse hinzufügen oder bestehende löschen. Alle Änderungen werden sofort gespeichert."
+            },
+            {
+                "question": "Wie werden Watch- und iPhone-Ereignisse zusammengeführt?",
+                "answer": "Während der Sitzung führen Watch und iPhone jeweils ihr eigenes Protokoll. Wenn die Sitzung endet und die Watch die endgültigen Daten an dein iPhone sendet, führt die App beide Quellen zusammen: auf dem iPhone gelöschte Ereignisse werden entfernt, auf dem iPhone hinzugefügte werden einbezogen, und der Spielstand wird aus der zusammengeführten Liste neu berechnet. Das Endergebnis wird als eine vereinigte Sitzung gespeichert."
+            },
+            {
+                "question": "Was bewirkt die Erkennungsempfindlichkeit?",
+                "answer": "Die Empfindlichkeit steuert, wie viel Bewegung nötig ist, um als \"Schlittschuhlaufen\" erkannt zu werden. Hohe Empfindlichkeit erkennt leichtere Bewegungen (gut, wenn Einsatzzeiten nicht erkannt werden). Niedrige Empfindlichkeit erfordert stärkere Bewegung (gut bei Fehlerkennungen auf der Bank). Mittel ist die Standardeinstellung und funktioniert für die meisten Spieler gut."
+            },
+            {
+                "question": "Wie passe ich die Pufferzeit an?",
+                "answer": "Öffnen Sie die Ice Time Track App auf Ihrem iPhone, gehen Sie zu Einstellungen und passen Sie den \"Bewegungspuffer\"-Wähler an. Kürzere Puffer (10–15 Sekunden) beenden Einsatzzeiten schneller. Längere Puffer (25–30 Sekunden) sind toleranter gegenüber kurzen Pausen während der Einsatzzeiten."
+            },
+            {
+                "question": "Was sind haptische Benachrichtigungen und wie verwende ich sie?",
+                "answer": "Haptische Warnungen sind Vibrationsbenachrichtigungen auf Ihrer Watch, wenn sich Ihr Status ändert. Sie können sie so einstellen, dass sie vibrieren, wenn Sie aufs Eis gehen, zur Bank zurückkehren, bei beidem, oder sie ganz ausschalten. Dies hilft Ihnen, den Überblick zu behalten, ohne auf Ihre Watch zu schauen."
+            },
+            {
+                "question": "Was bewirkt „Sitzung automatisch beenden\"?",
+                "answer": "Auto-Ende stoppt Ihre Sitzung automatisch nach einer festgelegten Zeit (Standard 100 Minuten). Dies verhindert, dass die App endlos läuft, wenn Sie vergessen, sie manuell zu beenden, was Akku spart und sicherstellt, dass Ihre Daten gespeichert werden."
+            },
+            {
+                "question": "Wenn ich Einstellungen während einer aktiven Sitzung ändere, werden sie sofort wirksam?",
+                "answer": "Ja. Änderungen an Empfindlichkeit, Bewegungspuffer und haptischen Warnungen werden mit Ihrer Watch synchronisiert und wirken sofort während einer laufenden Sitzung. Sie müssen nicht auf die nächste Sitzung warten – Anpassungen werden innerhalb von Sekunden nach der Änderung auf Ihrem iPhone übernommen."
+            },
+            {
+                "question": "Was sind Erweiterte Einstellungen?",
+                "answer": "Erweiterte Einstellungen ermöglichen es Ihnen, jeden Erkennungsschwellenwert einzeln fein abzustimmen. Erweitern Sie den Abschnitt in den Erkennungseinstellungen, um Beschleunigung, Schrittkadenz, GPS-Geschwindigkeit und Haltedauer für sowohl Auf-dem-Eis- als auch Auf-der-Bank-Auslöser zu konfigurieren. Wenn Sie einen Regler anpassen, wechselt die Empfindlichkeit automatisch auf \"Benutzerdefiniert.\" Verwenden Sie \"Auf Voreinstellung zurücksetzen\", um zu den Voreinstellungen Niedrig/Mittel/Hoch zurückzukehren."
+            },
+            {
+                "question": "Welche Daten werden in Apple Health gespeichert?",
+                "answer": "Wenn aktiviert, speichert die App deine Sitzung als Hockey-Training einschließlich: Dauer, verbrannte aktive Kalorien und Herzfrequenzdaten (Durchschnitt und Maximum). Dies trägt zu deinen Aktivitätsringen und Fitnesshistorie bei."
+            },
+            {
+                "question": "Wie aktiviere/deaktiviere ich die HealthKit-Integration?",
+                "answer": "Öffne die Einstellungen in der iPhone-App und aktiviere „In Apple Health speichern.\" Wenn aktiviert, werden abgeschlossene Sitzungen als Trainings gespeichert. Wenn deaktiviert, bleiben deine Daten nur in Ice Time Track."
+            },
+            {
+                "question": "Warum wird meine Herzfrequenz nicht angezeigt?",
+                "answer": "Stelle sicher, dass deine Watch eng anliegt und der Herzfrequenzsensor guten Hautkontakt hat. Die Herzfrequenz kann 30–60 Sekunden nach dem Start einer Sitzung brauchen. Wenn Probleme bestehen, prüfe ob Ice Time Track die Berechtigung hat, die Herzfrequenz zu lesen unter Einstellungen > Datenschutz > Gesundheit."
+            },
+            {
+                "question": "Wie werden Sitzungen zwischen Watch und iPhone synchronisiert?",
+                "answer": "Einheiten werden automatisch synchronisiert, wenn beide Geräte in Reichweite und verbunden sind. Nach dem Beenden einer Einheit auf deiner Watch wird sie innerhalb von wenigen Sekunden bis Minuten auf dein iPhone übertragen. Du kannst die Synchronisierung auch manuell aus der iPhone-App auslösen."
+            },
+            {
+                "question": "Warum wird meine Sitzung nicht auf meinem iPhone angezeigt?",
+                "answer": "Stelle zunächst sicher, dass die Einheit auf deiner Watch beendet ist. Öffne beide Apps und stelle sicher, dass Bluetooth aktiviert ist. Einheiten synchronisieren sich, wenn die Watch-App geöffnet ist oder kurz nach dem Beenden. Falls sie immer noch nicht angezeigt wird, versuche die Watch-App erneut zu öffnen, um die Synchronisierung auszulösen."
+            },
+            {
+                "question": "Kann ich eine Sitzung löschen?",
+                "answer": "Ja. Gehe in der iPhone-App zu deiner Einheitenliste, streiche nach links auf der Einheit, die du entfernen möchtest, und tippe auf Löschen. Dadurch wird sie von beiden Geräten entfernt."
+            },
+            {
+                "question": "Die App erkennt meine Wechsel nicht genau",
+                "answer": "Versuche die Erkennungsempfindlichkeit in den Einstellungen anzupassen. Wenn Wechsel nicht erkannt werden, erhöhe die Empfindlichkeit auf Hoch. Wenn du Fehlerkennungen auf der Bank bekommst, verringere auf Niedrig. Stelle außerdem sicher, dass deine Watch sicher am Handgelenk sitzt, nicht über dicken Handschuhen."
+            },
+            {
+                "question": "Die App hat die Aufzeichnung mitten im Spiel gestoppt",
+                "answer": "Das kann passieren, wenn die Watch neu startet oder die App abstürzt. Prüfe, ob die automatische Beendigung früher als erwartet ausgelöst wurde (einstellbar in den Einstellungen)."
+            },
+            {
+                "question": "Die Watch-App hängt bei „Synchronisierung erforderlich“",
+                "answer": "Die Watch- und iPhone-Apps müssen kommunizieren, um die Ersteinrichtung abzuschließen. Stelle sicher, dass die iPhone-App geöffnet ist, während du die Watch einrichtest. Falls der Bildschirm bestehen bleibt, erzwinge das Beenden beider Apps und starte sie neu. Falls das Problem weiterhin besteht, lösche und installiere beide Apps neu."
+            },
+            {
+                "question": "Warum benötigt die App Standortzugriff?",
+                "answer": "Der Standort (GPS) wird verwendet, um deine Laufgeschwindigkeit auf dem Eis zu messen, was hilft, genau zu erkennen, wann du auf dem Eis bist und wann auf der Bank. GPS-Daten bleiben auf deinen Geräten und werden nirgendwohin hochgeladen."
+            },
+            {
+                "question": "Warum benötigt die App Zugriff auf Bewegung & Fitness?",
+                "answer": "Bewegungssensoren (Beschleunigungsmesser und Gyroskop) erkennen deine Bewegungsmuster, um Eislaufen von Sitzen zu unterscheiden. Der Fitnesszugriff ermöglicht das Lesen deiner Schrittzahl zur Verbesserung der Erkennungsgenauigkeit. Diese Daten werden vollständig auf deiner Watch verarbeitet."
+            },
+            {
+                "question": "Werden meine Daten mit jemandem geteilt?",
+                "answer": "Nein. Alle deine Einheitsdaten, Gesundheitsmetriken und Sensordaten bleiben auf deiner Apple Watch und deinem iPhone. Nichts wird auf externe Server hochgeladen. Deine Daten gehören dir."
+            },
+            {
+                "question": "Wie aktiviere ich den Standortzugriff, wenn ich ihn versehentlich abgelehnt habe?",
+                "answer": "Option 1 (auf der Watch): Öffne Einstellungen > Datenschutz & Sicherheit > Ortungsdienste > Ice Time Track und wähle „Beim Verwenden“. Option 2 (vom iPhone): Öffne die Watch-App > Datenschutz > Ortungsdienste > Ice Time Track und aktiviere den Zugriff."
+            }
+        ]
+    }
+}
