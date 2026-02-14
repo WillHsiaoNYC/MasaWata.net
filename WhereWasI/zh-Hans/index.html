@@ -297,17 +297,128 @@
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
                         <button class="faq__question" aria-expanded="false">
-                            <span>WhereWasI 如何追踪我的位置？</span>
+                            <span>位置跟踪是如何工作的？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
                         </button>
                         <div class="faq__answer">
-                            <p>WhereWasI 使用 iOS 定位服务来检测你到达和离开某个地点。它在后台高效运行，不会耗尽电池。</p>
+                            <p>应用使用Apple的Visit Monitoring API自动检测您何时到达和离开地点。这在后台进行，对电池影响最小。</p>
                         </div>
                     </div>
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>应用关闭时还能工作吗？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>是的！有了始终位置权限，应用即使在不运行时也能收到访问通知。请确保在设置中授予此权限。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>如何授予或更改位置权限？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>此应用需要“始终”位置访问权限才能正常工作——即使应用未打开，我们也能通过此权限检测您何时到达和离开地点。
+
+要授予或更改权限：前往 **设置 → 隐私与安全性 → 定位服务 → Where Was I**，然后选择**始终**。
+
+“使用期间”仅在应用显示在屏幕上时追踪访问，“永不”则完全禁用追踪。为获得最佳体验，请选择“始终”。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>如何为地点指定名称？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>点击任何访问查看详情，然后点击分配地点搜索附近地点或创建自定义标签。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>自动地点分配是如何工作的？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>当新访问到来时，应用会检查其坐标是否在任何已保存地点的半径内。如果匹配，访问会自动分配到该地点。如果找不到匹配，则使用附近地点或地址创建新地点。
+
+如果访问与您保存的地点不匹配，半径可能太小了。GPS在不同访问之间可能有10-50米的差异，因此在地点详情中增加半径（最大500米）或使用"在地图上调整地点"来调整坐标。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>iCloud同步如何运作？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>iCloud同步会备份您的数据，并让您查看所有设备的访问记录。
+
+**重要：**您必须在设置中启用iCloud同步才能进行备份。否则，如果您删除或重新安装应用，所有数据将永久丢失。
+
+**工作原理：**
+• 每台设备分别跟踪和备份自己的访问记录
+• 您的访问记录不会在设备之间合并或共享
+• 您可以通过在 设置 → iCloud同步 → 显示来自以下设备的访问 中启用来查看其他设备的访问历史（只读）
+
+**示例：**如果您有iPhone和iPad，每台设备都会记录自己的访问。在iPhone上，您可以启用iPad来查看您带着它去过哪里——但这些访问仍属于iPad。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>位置数据有多准确？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>位置精度取决于可用信号（GPS、Wi-Fi、蜂窝网络）。应用会显示每次访问的精度。通常，精度在10-100米以内。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>为什么有些访问会出现两次？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>有时系统会为同一次访问发送多个更新。应用会自动合并这些更新，但偶尔可能会出现重复。您可以删除不需要的条目。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>在滑雪场或购物中心等大型场所会怎样？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>应用追踪重要的停留，而不是持续移动。在滑雪场，您会看到基地小屋和长午餐的访问，但不会看到每个缆车或短暂休息。大型场所通常显示为一次长时间访问。这是为"我在哪里花了时间？"而设计的，而不是详细的路径追踪。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
                         <button class="faq__question" aria-expanded="false">
                             <span>我的位置数据是否安全？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -316,30 +427,6 @@
                         </button>
                         <div class="faq__answer">
                             <p>绝对安全。所有数据都存储在你的设备本地，并且只同步到你的个人 iCloud 账户。我们从不在任何外部服务器上查看或存储你的位置数据。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>我可以编辑或删除访问记录吗？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>当然可以！你拥有完全控制权。可以编辑访问时间、合并重复地点、添加备注，或删除任何不想保留的记录。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>会耗费电量吗？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>不会。WhereWasI 使用 Apple 的省电型重要位置变化 API，旨在最小化电池消耗的同时准确捕捉你的访问记录。</p>
                         </div>
                     </div>
 

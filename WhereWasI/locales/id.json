@@ -62,20 +62,44 @@
     "sectionSubtitle": "Semua yang perlu Anda ketahui tentang WhereWasI",
     "list": [
       {
-        "question": "Bagaimana WhereWasI melacak lokasi saya?",
-        "answer": "WhereWasI menggunakan layanan lokasi iOS untuk mendeteksi saat Anda tiba dan meninggalkan tempat. Aplikasi ini berjalan efisien di latar belakang tanpa menguras baterai."
+        "question": "Bagaimana cara kerja pelacakan lokasi?",
+        "answer": "Aplikasi menggunakan API Visit Monitoring Apple untuk mendeteksi secara otomatis saat Anda tiba dan pergi dari lokasi. Ini terjadi di latar belakang dengan dampak baterai minimal."
+      },
+      {
+        "question": "Apakah aplikasi bekerja saat ditutup?",
+        "answer": "Ya! Dengan izin lokasi Selalu, aplikasi menerima notifikasi kunjungan meskipun tidak berjalan. Pastikan untuk memberikan izin ini di Pengaturan."
+      },
+      {
+        "question": "Bagaimana cara memberikan atau mengubah izin lokasi?",
+        "answer": "Aplikasi ini memerlukan akses lokasi \"Selalu\" agar berfungsi dengan baik — begitulah cara kami mendeteksi saat Anda tiba dan pergi dari lokasi, bahkan saat aplikasi tidak dibuka.\n\nUntuk memberikan atau memperbarui izin: buka **Pengaturan → Privasi & Keamanan → Layanan Lokasi → Where Was I** dan pilih **Selalu**.\n\n\"Saat Menggunakan\" hanya akan melacak kunjungan saat aplikasi ada di layar, dan \"Tidak Pernah\" menonaktifkan pelacakan sepenuhnya. Untuk pengalaman terbaik, pilih \"Selalu\"."
+      },
+      {
+        "question": "Bagaimana cara menetapkan nama lokasi?",
+        "answer": "Ketuk kunjungan mana saja untuk melihat detailnya, lalu ketuk Tetapkan Lokasi untuk mencari tempat terdekat atau membuat label kustom."
+      },
+      {
+        "question": "Bagaimana penetapan lokasi otomatis bekerja?",
+        "answer": "Saat kunjungan baru tiba, aplikasi memeriksa apakah koordinatnya berada dalam radius lokasi yang tersimpan. Jika cocok, kunjungan otomatis ditetapkan ke lokasi itu. Jika tidak ada kecocokan, lokasi baru dibuat menggunakan tempat terdekat atau alamat.\n\nJika kunjungan tidak cocok dengan lokasi tersimpan Anda, radiusnya mungkin terlalu kecil. GPS bisa bervariasi 10-50 meter antar kunjungan, jadi tingkatkan radius di Detail Lokasi (hingga 500m) atau sesuaikan koordinat lokasi dengan \"Sesuaikan Lokasi di Peta\"."
+      },
+      {
+        "question": "Bagaimana cara kerja sinkronisasi iCloud?",
+        "answer": "iCloud Sync mencadangkan data Anda dan memungkinkan Anda melihat kunjungan dari semua perangkat Anda.\n\n**Penting:** Anda harus mengaktifkan iCloud Sync di Pengaturan agar pencadangan berfungsi. Tanpa ini, semua data Anda akan hilang permanen jika Anda menghapus atau menginstal ulang aplikasi.\n\n**Cara kerjanya:**\n• Setiap perangkat melacak dan mencadangkan kunjungannya sendiri secara terpisah\n• Kunjungan Anda tidak digabungkan atau dibagikan antar perangkat\n• Anda dapat melihat riwayat kunjungan perangkat lain (hanya baca) dengan mengaktifkannya di Pengaturan → iCloud Sync → Tampilkan Kunjungan Dari\n\n**Contoh:** Jika Anda memiliki iPhone dan iPad, setiap perangkat mencatat kunjungannya sendiri. Di iPhone, Anda dapat mengaktifkan iPad untuk melihat di mana Anda pernah berada dengannya—tetapi kunjungan tersebut tetap milik iPad."
+      },
+      {
+        "question": "Seberapa akurat data lokasinya?",
+        "answer": "Akurasi lokasi bergantung pada sinyal yang tersedia (GPS, Wi-Fi, seluler). Aplikasi menampilkan akurasi untuk setiap kunjungan. Biasanya, akurasi dalam 10-100 meter."
+      },
+      {
+        "question": "Mengapa beberapa kunjungan muncul dua kali?",
+        "answer": "Kadang sistem mengirim beberapa pembaruan untuk kunjungan yang sama. Aplikasi secara otomatis menggabungkannya, tapi sesekali duplikat mungkin muncul. Anda dapat menghapus entri yang tidak diinginkan."
+      },
+      {
+        "question": "Apa yang terjadi di tempat besar seperti resor ski atau mal?",
+        "answer": "Aplikasi melacak perhentian signifikan, bukan gerakan terus-menerus. Di resor ski, Anda akan melihat kunjungan untuk pondok dasar dan makan siang panjang, tapi tidak setiap kereta gantung atau istirahat singkat. Tempat besar sering muncul sebagai satu kunjungan panjang. Ini dirancang untuk 'Di mana saya menghabiskan waktu?' bukan pelacakan jalur detail."
       },
       {
         "question": "Apakah data lokasi saya pribadi?",
         "answer": "Tentu saja. Semua data disimpan secara lokal di perangkat Anda dan hanya disinkronkan ke akun iCloud pribadi Anda. Kami tidak pernah melihat atau menyimpan data lokasi Anda di server eksternal."
-      },
-      {
-        "question": "Bisakah saya mengedit atau menghapus kunjungan?",
-        "answer": "Ya! Anda memiliki kontrol penuh. Edit waktu kunjungan, gabungkan tempat duplikat, tambahkan catatan, atau hapus kunjungan yang tidak ingin Anda simpan."
-      },
-      {
-        "question": "Apakah ini menguras baterai saya?",
-        "answer": "Tidak. WhereWasI menggunakan API perubahan lokasi signifikan Apple yang hemat daya, dirancang untuk meminimalkan dampak baterai sambil tetap menangkap kunjungan Anda dengan akurat."
       }
     ]
   },

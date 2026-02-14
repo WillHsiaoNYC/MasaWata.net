@@ -26,3 +26,17 @@ cd FitnessStory && python3 build.py
 This generates 14 localized HTML pages (one per language) and updates `sitemap.xml`. Run after any changes to translation files or the build script.
 
 See `FitnessStory/CLAUDE.md` for detailed architecture and build documentation.
+
+## Google Analytics
+
+All product pages must include the Google Analytics tracking code (`G-ZL852HY2Z4`) in the `<head>`. When creating a new product page, add this snippet:
+
+```html
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ZL852HY2Z4');
+</script>
+```

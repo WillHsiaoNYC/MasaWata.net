@@ -297,17 +297,128 @@
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
                         <button class="faq__question" aria-expanded="false">
-                            <span>Bagaimana WhereWasI melacak lokasi saya?</span>
+                            <span>Bagaimana cara kerja pelacakan lokasi?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
                         </button>
                         <div class="faq__answer">
-                            <p>WhereWasI menggunakan layanan lokasi iOS untuk mendeteksi saat Anda tiba dan meninggalkan tempat. Aplikasi ini berjalan efisien di latar belakang tanpa menguras baterai.</p>
+                            <p>Aplikasi menggunakan API Visit Monitoring Apple untuk mendeteksi secara otomatis saat Anda tiba dan pergi dari lokasi. Ini terjadi di latar belakang dengan dampak baterai minimal.</p>
                         </div>
                     </div>
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Apakah aplikasi bekerja saat ditutup?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Ya! Dengan izin lokasi Selalu, aplikasi menerima notifikasi kunjungan meskipun tidak berjalan. Pastikan untuk memberikan izin ini di Pengaturan.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Bagaimana cara memberikan atau mengubah izin lokasi?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Aplikasi ini memerlukan akses lokasi "Selalu" agar berfungsi dengan baik — begitulah cara kami mendeteksi saat Anda tiba dan pergi dari lokasi, bahkan saat aplikasi tidak dibuka.
+
+Untuk memberikan atau memperbarui izin: buka **Pengaturan → Privasi & Keamanan → Layanan Lokasi → Where Was I** dan pilih **Selalu**.
+
+"Saat Menggunakan" hanya akan melacak kunjungan saat aplikasi ada di layar, dan "Tidak Pernah" menonaktifkan pelacakan sepenuhnya. Untuk pengalaman terbaik, pilih "Selalu".</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Bagaimana cara menetapkan nama lokasi?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Ketuk kunjungan mana saja untuk melihat detailnya, lalu ketuk Tetapkan Lokasi untuk mencari tempat terdekat atau membuat label kustom.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Bagaimana penetapan lokasi otomatis bekerja?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Saat kunjungan baru tiba, aplikasi memeriksa apakah koordinatnya berada dalam radius lokasi yang tersimpan. Jika cocok, kunjungan otomatis ditetapkan ke lokasi itu. Jika tidak ada kecocokan, lokasi baru dibuat menggunakan tempat terdekat atau alamat.
+
+Jika kunjungan tidak cocok dengan lokasi tersimpan Anda, radiusnya mungkin terlalu kecil. GPS bisa bervariasi 10-50 meter antar kunjungan, jadi tingkatkan radius di Detail Lokasi (hingga 500m) atau sesuaikan koordinat lokasi dengan "Sesuaikan Lokasi di Peta".</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Bagaimana cara kerja sinkronisasi iCloud?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>iCloud Sync mencadangkan data Anda dan memungkinkan Anda melihat kunjungan dari semua perangkat Anda.
+
+**Penting:** Anda harus mengaktifkan iCloud Sync di Pengaturan agar pencadangan berfungsi. Tanpa ini, semua data Anda akan hilang permanen jika Anda menghapus atau menginstal ulang aplikasi.
+
+**Cara kerjanya:**
+• Setiap perangkat melacak dan mencadangkan kunjungannya sendiri secara terpisah
+• Kunjungan Anda tidak digabungkan atau dibagikan antar perangkat
+• Anda dapat melihat riwayat kunjungan perangkat lain (hanya baca) dengan mengaktifkannya di Pengaturan → iCloud Sync → Tampilkan Kunjungan Dari
+
+**Contoh:** Jika Anda memiliki iPhone dan iPad, setiap perangkat mencatat kunjungannya sendiri. Di iPhone, Anda dapat mengaktifkan iPad untuk melihat di mana Anda pernah berada dengannya—tetapi kunjungan tersebut tetap milik iPad.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Seberapa akurat data lokasinya?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Akurasi lokasi bergantung pada sinyal yang tersedia (GPS, Wi-Fi, seluler). Aplikasi menampilkan akurasi untuk setiap kunjungan. Biasanya, akurasi dalam 10-100 meter.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Mengapa beberapa kunjungan muncul dua kali?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Kadang sistem mengirim beberapa pembaruan untuk kunjungan yang sama. Aplikasi secara otomatis menggabungkannya, tapi sesekali duplikat mungkin muncul. Anda dapat menghapus entri yang tidak diinginkan.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Apa yang terjadi di tempat besar seperti resor ski atau mal?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Aplikasi melacak perhentian signifikan, bukan gerakan terus-menerus. Di resor ski, Anda akan melihat kunjungan untuk pondok dasar dan makan siang panjang, tapi tidak setiap kereta gantung atau istirahat singkat. Tempat besar sering muncul sebagai satu kunjungan panjang. Ini dirancang untuk 'Di mana saya menghabiskan waktu?' bukan pelacakan jalur detail.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
                         <button class="faq__question" aria-expanded="false">
                             <span>Apakah data lokasi saya pribadi?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -316,30 +427,6 @@
                         </button>
                         <div class="faq__answer">
                             <p>Tentu saja. Semua data disimpan secara lokal di perangkat Anda dan hanya disinkronkan ke akun iCloud pribadi Anda. Kami tidak pernah melihat atau menyimpan data lokasi Anda di server eksternal.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bisakah saya mengedit atau menghapus kunjungan?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya! Anda memiliki kontrol penuh. Edit waktu kunjungan, gabungkan tempat duplikat, tambahkan catatan, atau hapus kunjungan yang tidak ingin Anda simpan.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apakah ini menguras baterai saya?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Tidak. WhereWasI menggunakan API perubahan lokasi signifikan Apple yang hemat daya, dirancang untuk meminimalkan dampak baterai sambil tetap menangkap kunjungan Anda dengan akurat.</p>
                         </div>
                     </div>
 

@@ -62,20 +62,44 @@
     "sectionSubtitle": "Everything you need to know about WhereWasI",
     "list": [
       {
-        "question": "How does WhereWasI track my location?",
-        "answer": "WhereWasI uses iOS location services to detect when you arrive and leave places. It runs efficiently in the background without draining your battery."
+        "question": "How does location tracking work?",
+        "answer": "The app uses Apple's Visit Monitoring API to automatically detect when you arrive at and leave locations. This happens in the background with minimal battery impact."
+      },
+      {
+        "question": "Does the app work when closed?",
+        "answer": "Yes! With 'Always' location permission, the app receives visit notifications even when it's not running. Make sure to grant this permission in Settings."
+      },
+      {
+        "question": "How do I grant or change location permission?",
+        "answer": "This app needs \"Always\" location access to work properly — it's how we detect when you arrive at and leave places, even when the app isn't open.\n\nTo grant or update permission: go to Settings → Privacy & Security → Location Services → Where Was I and select Always.\n\n\"While Using\" will only track visits when the app is on screen, and \"Never\" disables tracking entirely. For the best experience, choose \"Always\"."
+      },
+      {
+        "question": "How do I assign a location name?",
+        "answer": "Tap on any visit to see its details, then tap 'Assign Location' to search for nearby places or create a custom label."
+      },
+      {
+        "question": "How does auto location assignment work?",
+        "answer": "When a new visit arrives, the app checks if its coordinates fall within any saved location's radius. If matched, the visit is auto-assigned to that location. If no match is found, a new location is created using nearby places or the address.\n\nIf visits aren't matching your saved locations, the radius might be too small. GPS can vary 10-50 meters between visits, so increase the radius in Location Details (up to 500m) or adjust the location's coordinates using 'Adjust Location on Map' to better center it."
+      },
+      {
+        "question": "How does iCloud Sync work?",
+        "answer": "iCloud Sync backs up your data and lets you view visits from all your devices.\n\nImportant: You must enable iCloud Sync in Settings for backup to work. Without it, all your data will be permanently lost if you delete or reinstall the app.\n\nHow it works:\n• Each device tracks and backs up its own visits separately\n• Your visits are not merged or shared between devices\n• You can view other devices' visit history (read-only) by enabling them in Settings → iCloud Sync → Show Visits From\n\nExample: If you have an iPhone and iPad, each device records its own visits. On your iPhone, you can toggle on your iPad to see where you've been with it—but those visits stay owned by the iPad."
+      },
+      {
+        "question": "How accurate is the location data?",
+        "answer": "Location accuracy depends on available signals (GPS, Wi-Fi, cellular). The app shows the accuracy for each visit. Typically, accuracy is within 10-100 meters."
+      },
+      {
+        "question": "Why do some visits appear twice?",
+        "answer": "Sometimes the system sends multiple updates for the same visit. The app automatically merges these, but occasionally duplicates may appear. You can delete any unwanted entries."
+      },
+      {
+        "question": "What happens at large venues like ski resorts or malls?",
+        "answer": "The app tracks significant stops, not continuous movement. At a ski resort, you'd see visits for the base lodge and a long lunch, but not every chairlift or brief rest. Large venues often appear as one long visit. This is designed for 'Where did I spend time?' rather than detailed path tracking."
       },
       {
         "question": "Is my location data private?",
         "answer": "Absolutely. All data is stored locally on your device and synced only to your personal iCloud account. We never see or store your location data on any external servers."
-      },
-      {
-        "question": "Can I edit or delete visits?",
-        "answer": "Yes! You have full control. Edit visit times, merge duplicate places, add notes, or delete any visits you don't want to keep."
-      },
-      {
-        "question": "Does it drain my battery?",
-        "answer": "No. WhereWasI uses Apple's power-efficient significant location change APIs, designed to minimize battery impact while still capturing your visits accurately."
       }
     ]
   },

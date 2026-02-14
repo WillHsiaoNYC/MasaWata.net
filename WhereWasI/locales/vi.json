@@ -62,20 +62,44 @@
     "sectionSubtitle": "Tất cả những gì bạn cần biết về WhereWasI",
     "list": [
       {
-        "question": "WhereWasI theo dõi vị trí của tôi như thế nào?",
-        "answer": "WhereWasI sử dụng dịch vụ vị trí iOS để phát hiện khi bạn đến và rời khỏi các địa điểm. Ứng dụng chạy hiệu quả trong nền mà không làm hao pin."
+        "question": "Theo dõi vị trí hoạt động như thế nào?",
+        "answer": "Ứng dụng sử dụng API Visit Monitoring của Apple để tự động phát hiện khi bạn đến và rời khỏi các địa điểm. Điều này diễn ra ở nền với tác động tối thiểu đến pin."
+      },
+      {
+        "question": "Ứng dụng có hoạt động khi đóng không?",
+        "answer": "Có! Với quyền vị trí Luôn luôn, ứng dụng nhận thông báo về lượt ghé thăm ngay cả khi không chạy. Hãy đảm bảo cấp quyền này trong Cài đặt."
+      },
+      {
+        "question": "Làm cách nào để cấp hoặc thay đổi quyền truy cập vị trí?",
+        "answer": "Ứng dụng này cần quyền truy cập vị trí \"Luôn luôn\" để hoạt động đúng cách — đó là cách chúng tôi phát hiện khi bạn đến và rời khỏi các địa điểm, ngay cả khi ứng dụng không mở.\n\nĐể cấp hoặc cập nhật quyền: vào **Cài đặt → Quyền riêng tư & Bảo mật → Dịch vụ định vị → Where Was I** và chọn **Luôn luôn**.\n\n\"Khi sử dụng\" chỉ theo dõi lượt ghé thăm khi ứng dụng đang hiển thị trên màn hình, và \"Không bao giờ\" tắt hoàn toàn tính năng theo dõi. Để có trải nghiệm tốt nhất, hãy chọn \"Luôn luôn\"."
+      },
+      {
+        "question": "Làm cách nào để đặt tên địa điểm?",
+        "answer": "Chạm vào lượt ghé thăm để xem chi tiết, sau đó chạm Gán địa điểm để tìm kiếm các địa điểm gần đó hoặc tạo nhãn tùy chỉnh."
+      },
+      {
+        "question": "Gán địa điểm tự động hoạt động như thế nào?",
+        "answer": "Khi có lượt ghé thăm mới, ứng dụng kiểm tra xem tọa độ có nằm trong bán kính của địa điểm đã lưu không. Nếu khớp, lượt ghé thăm được tự động gán cho địa điểm đó. Nếu không khớp, địa điểm mới được tạo bằng các địa điểm gần đó hoặc địa chỉ.\n\nNếu các lượt ghé thăm không khớp với địa điểm đã lưu, bán kính có thể quá nhỏ. GPS có thể chênh lệch 10-50 mét giữa các lượt ghé thăm, vì vậy hãy tăng bán kính trong Chi tiết địa điểm (tối đa 500m) hoặc điều chỉnh tọa độ bằng \"Điều chỉnh địa điểm trên bản đồ\"."
+      },
+      {
+        "question": "Đồng bộ iCloud hoạt động như thế nào?",
+        "answer": "iCloud Sync sao lưu dữ liệu và cho phép bạn xem lượt ghé thăm từ tất cả thiết bị của bạn.\n\n**Quan trọng:** Bạn phải bật iCloud Sync trong Cài đặt để sao lưu hoạt động. Nếu không, tất cả dữ liệu sẽ bị mất vĩnh viễn nếu bạn xóa hoặc cài lại ứng dụng.\n\n**Cách hoạt động:**\n• Mỗi thiết bị theo dõi và sao lưu các lượt ghé thăm riêng của nó\n• Lượt ghé thăm của bạn không được hợp nhất hoặc chia sẻ giữa các thiết bị\n• Bạn có thể xem lịch sử ghé thăm của thiết bị khác (chỉ đọc) bằng cách bật chúng trong Cài đặt → iCloud Sync → Hiển thị lượt ghé thăm từ\n\n**Ví dụ:** Nếu bạn có iPhone và iPad, mỗi thiết bị ghi lại lượt ghé thăm riêng. Trên iPhone, bạn có thể bật iPad để xem bạn đã đi đâu với nó—nhưng những lượt ghé thăm đó vẫn thuộc về iPad."
+      },
+      {
+        "question": "Dữ liệu vị trí chính xác đến mức nào?",
+        "answer": "Độ chính xác vị trí phụ thuộc vào các tín hiệu có sẵn (GPS, Wi-Fi, di động). Ứng dụng hiển thị độ chính xác cho mỗi lượt ghé thăm. Thông thường, độ chính xác trong khoảng 10-100 mét."
+      },
+      {
+        "question": "Tại sao một số lượt ghé thăm xuất hiện hai lần?",
+        "answer": "Đôi khi hệ thống gửi nhiều cập nhật cho cùng một lượt ghé thăm. Ứng dụng tự động hợp nhất chúng, nhưng đôi khi có thể xuất hiện trùng lặp. Bạn có thể xóa các mục không mong muốn."
+      },
+      {
+        "question": "Điều gì xảy ra tại các địa điểm lớn như khu trượt tuyết hoặc trung tâm mua sắm?",
+        "answer": "Ứng dụng theo dõi các điểm dừng quan trọng, không phải di chuyển liên tục. Tại khu trượt tuyết, bạn sẽ thấy các lượt ghé thăm cho nhà nghỉ chính và bữa trưa dài, nhưng không phải mọi cáp treo hay nghỉ ngắn. Các địa điểm lớn thường xuất hiện như một lượt ghé thăm dài. Điều này được thiết kế cho 'Tôi đã dành thời gian ở đâu?' thay vì theo dõi đường đi chi tiết."
       },
       {
         "question": "Dữ liệu vị trí của tôi có riêng tư không?",
         "answer": "Chắc chắn rồi. Tất cả dữ liệu được lưu trữ cục bộ trên thiết bị và chỉ đồng bộ với tài khoản iCloud cá nhân của bạn. Chúng tôi không bao giờ xem hoặc lưu trữ dữ liệu vị trí của bạn trên máy chủ bên ngoài."
-      },
-      {
-        "question": "Tôi có thể chỉnh sửa hoặc xóa các chuyến thăm không?",
-        "answer": "Có! Bạn có toàn quyền kiểm soát. Chỉnh sửa thời gian thăm, gộp các địa điểm trùng lặp, thêm ghi chú hoặc xóa bất kỳ chuyến thăm nào bạn không muốn giữ."
-      },
-      {
-        "question": "Ứng dụng có làm hao pin không?",
-        "answer": "Không. WhereWasI sử dụng API thay đổi vị trí đáng kể tiết kiệm năng lượng của Apple, được thiết kế để giảm thiểu tác động đến pin trong khi vẫn ghi lại chính xác các chuyến thăm của bạn."
       }
     ]
   },

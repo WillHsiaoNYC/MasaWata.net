@@ -62,20 +62,44 @@
     "sectionSubtitle": "Tout ce que vous devez savoir sur WhereWasI",
     "list": [
       {
-        "question": "Comment WhereWasI suit-il ma position ?",
-        "answer": "WhereWasI utilise les services de localisation iOS pour détecter quand vous arrivez et quittez des lieux. Il fonctionne efficacement en arrière-plan sans vider votre batterie."
+        "question": "Comment fonctionne le suivi de localisation ?",
+        "answer": "L'application utilise l'API Visit Monitoring d'Apple pour détecter automatiquement quand vous arrivez et partez des lieux. Cela se fait en arrière-plan avec un impact minimal sur la batterie."
+      },
+      {
+        "question": "L'application fonctionne-t-elle quand elle est fermée ?",
+        "answer": "Oui ! Avec l'autorisation de localisation Toujours, l'app reçoit des notifications de visite même quand elle ne fonctionne pas. Assurez-vous d'accorder cette permission dans Réglages."
+      },
+      {
+        "question": "Comment accorder ou modifier l'autorisation de localisation ?",
+        "answer": "Cette app a besoin de l'accès à la localisation « Toujours » pour fonctionner correctement — c'est ainsi que nous détectons quand vous arrivez et partez des lieux, même lorsque l'app n'est pas ouverte.\n\nPour accorder ou modifier l'autorisation : allez dans **Réglages → Confidentialité et sécurité → Service de localisation → Where Was I** et sélectionnez **Toujours**.\n\n« Lorsque l'app est active » ne suivra les visites que lorsque l'app est à l'écran, et « Jamais » désactive complètement le suivi. Pour la meilleure expérience, choisissez « Toujours »."
+      },
+      {
+        "question": "Comment attribuer un nom de lieu ?",
+        "answer": "Appuyez sur une visite pour voir ses détails, puis appuyez sur Attribuer un lieu pour rechercher des endroits à proximité ou créer une étiquette personnalisée."
+      },
+      {
+        "question": "Comment fonctionne l'attribution automatique de lieu ?",
+        "answer": "Quand une nouvelle visite arrive, l'app vérifie si ses coordonnées sont dans le rayon d'un lieu enregistré. Si oui, la visite est auto-assignée à ce lieu. Sinon, un nouveau lieu est créé avec les endroits proches ou l'adresse.\n\nSi les visites ne correspondent pas à vos lieux enregistrés, le rayon est peut-être trop petit. Le GPS peut varier de 10-50 mètres entre les visites, donc augmentez le rayon dans Détails du lieu (jusqu'à 500m) ou ajustez les coordonnées avec « Ajuster le lieu sur la carte »."
+      },
+      {
+        "question": "Comment fonctionne la synchronisation iCloud ?",
+        "answer": "iCloud Sync sauvegarde vos données et vous permet de consulter les visites de tous vos appareils.\n\n**Important :** Vous devez activer iCloud Sync dans les Réglages pour que la sauvegarde fonctionne. Sans cela, toutes vos données seront définitivement perdues si vous supprimez ou réinstallez l'app.\n\n**Comment ça marche :**\n• Chaque appareil enregistre et sauvegarde ses propres visites séparément\n• Vos visites ne sont pas fusionnées ni partagées entre appareils\n• Vous pouvez consulter l'historique des visites d'autres appareils (lecture seule) en les activant dans Réglages → iCloud Sync → Afficher les visites de\n\n**Exemple :** Si vous avez un iPhone et un iPad, chaque appareil enregistre ses propres visites. Sur votre iPhone, vous pouvez activer votre iPad pour voir où vous êtes allé avec lui, mais ces visites restent la propriété de l'iPad."
+      },
+      {
+        "question": "Quelle est la précision des données de localisation ?",
+        "answer": "La précision de localisation dépend des signaux disponibles (GPS, Wi-Fi, cellulaire). L'app affiche la précision pour chaque visite. Généralement, la précision est de 10 à 100 mètres."
+      },
+      {
+        "question": "Pourquoi certaines visites apparaissent-elles deux fois ?",
+        "answer": "Parfois le système envoie plusieurs mises à jour pour la même visite. L'app les fusionne automatiquement, mais des doublons peuvent occasionnellement apparaître. Vous pouvez supprimer les entrées indésirables."
+      },
+      {
+        "question": "Que se passe-t-il dans les grands lieux comme les stations de ski ou les centres commerciaux ?",
+        "answer": "L'app suit les arrêts significatifs, pas les mouvements continus. Dans une station de ski, vous verriez des visites pour le chalet de base et un long déjeuner, mais pas chaque télésiège ou courte pause. Les grands lieux apparaissent souvent comme une longue visite. C'est conçu pour « Où ai-je passé du temps ? » plutôt que le suivi détaillé de parcours."
       },
       {
         "question": "Mes données de localisation sont-elles privées ?",
         "answer": "Absolument. Toutes les données sont stockées localement sur votre appareil et synchronisées uniquement avec votre compte iCloud personnel. Nous ne voyons ni ne stockons jamais vos données de localisation sur des serveurs externes."
-      },
-      {
-        "question": "Puis-je modifier ou supprimer des visites ?",
-        "answer": "Oui ! Vous avez un contrôle total. Modifiez les heures de visite, fusionnez les lieux en double, ajoutez des notes ou supprimez les visites que vous ne souhaitez pas conserver."
-      },
-      {
-        "question": "Est-ce que ça vide la batterie ?",
-        "answer": "Non. WhereWasI utilise les API de changement de localisation significatif d'Apple, conçues pour minimiser l'impact sur la batterie tout en capturant précisément vos visites."
       }
     ]
   },

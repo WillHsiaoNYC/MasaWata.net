@@ -297,17 +297,128 @@
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
                         <button class="faq__question" aria-expanded="false">
-                            <span>WhereWasI मेरी लोकेशन कैसे ट्रैक करता है?</span>
+                            <span>स्थान ट्रैकिंग कैसे काम करती है?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
                         </button>
                         <div class="faq__answer">
-                            <p>WhereWasI iOS लोकेशन सेवाओं का उपयोग करता है यह पता लगाने के लिए कि आप कब किसी जगह पहुंचते हैं और छोड़ते हैं। यह बैकग्राउंड में कुशलता से चलता है बिना बैटरी खत्म किए।</p>
+                            <p>ऐप Apple की Visit Monitoring API का उपयोग करके स्वचालित रूप से पता लगाता है कि आप कब स्थानों पर पहुंचते और छोड़ते हैं। यह बैटरी पर न्यूनतम प्रभाव के साथ बैकग्राउंड में होता है।</p>
                         </div>
                     </div>
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>क्या ऐप बंद होने पर भी काम करता है?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>हां! हमेशा स्थान अनुमति के साथ, ऐप चलने पर भी विजिट नोटिफिकेशन प्राप्त करता है। सेटिंग्स में यह अनुमति देना सुनिश्चित करें।</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>मैं स्थान अनुमति कैसे दूं या बदलूं?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>इस ऐप को ठीक से काम करने के लिए "हमेशा" स्थान एक्सेस की आवश्यकता है — इसी तरह हम पता लगाते हैं कि आप कब स्थानों पर पहुंचते और छोड़ते हैं, भले ही ऐप खुला न हो।
+
+अनुमति देने या अपडेट करने के लिए: **सेटिंग्स → गोपनीयता और सुरक्षा → लोकेशन सर्विसेज → Where Was I** पर जाएं और **हमेशा** चुनें।
+
+"उपयोग करते समय" केवल तभी विज़िट ट्रैक करेगा जब ऐप स्क्रीन पर हो, और "कभी नहीं" ट्रैकिंग को पूरी तरह से बंद कर देता है। सबसे अच्छे अनुभव के लिए "हमेशा" चुनें।</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>मैं स्थान का नाम कैसे निर्धारित करूं?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>विवरण देखने के लिए किसी भी यात्रा पर टैप करें, फिर पास के स्थान खोजने या कस्टम लेबल बनाने के लिए स्थान असाइन करें पर टैप करें।</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>स्वचालित स्थान असाइनमेंट कैसे काम करता है?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>जब कोई नई यात्रा आती है, तो ऐप जांचता है कि उसके निर्देशांक किसी सहेजे गए स्थान की त्रिज्या के भीतर हैं या नहीं। मिलान होने पर, यात्रा स्वचालित रूप से उस स्थान को असाइन हो जाती है। यदि कोई मिलान नहीं मिलता, तो पास के स्थानों या पते का उपयोग करके एक नया स्थान बनाया जाता है।
+
+यदि यात्राएं आपके सहेजे गए स्थानों से मेल नहीं खा रही हैं, तो त्रिज्या बहुत छोटी हो सकती है। GPS यात्राओं के बीच 10-50 मीटर भिन्न हो सकता है, इसलिए स्थान विवरण में त्रिज्या बढ़ाएं (500m तक) या "मानचित्र पर स्थान समायोजित करें" का उपयोग करके निर्देशांक समायोजित करें।</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>iCloud सिंक कैसे काम करता है?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>iCloud Sync आपके डेटा का बैकअप लेता है और आपको अपने सभी डिवाइसों से विजिट देखने देता है।
+
+**महत्वपूर्ण:** बैकअप के लिए आपको सेटिंग्स में iCloud Sync चालू करना होगा। इसके बिना, अगर आप ऐप डिलीट या रीइंस्टॉल करते हैं तो आपका सारा डेटा स्थायी रूप से खो जाएगा।
+
+**यह कैसे काम करता है:**
+• हर डिवाइस अपनी विजिट्स अलग से ट्रैक और बैकअप करता है
+• आपकी विजिट्स डिवाइसों के बीच मर्ज या शेयर नहीं होतीं
+• आप अन्य डिवाइसों का विजिट इतिहास (केवल पढ़ने के लिए) देख सकते हैं, सेटिंग्स → iCloud Sync → से विजिट दिखाएं में जाकर
+
+**उदाहरण:** अगर आपके पास iPhone और iPad है, तो हर डिवाइस अपनी विजिट्स रिकॉर्ड करता है। अपने iPhone पर, आप अपने iPad को चालू करके देख सकते हैं कि आप उसके साथ कहाँ गए—लेकिन वे विजिट्स iPad की ही रहती हैं।</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>स्थान डेटा कितना सटीक है?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>स्थान सटीकता उपलब्ध संकेतों (GPS, Wi-Fi, सेलुलर) पर निर्भर करती है। ऐप प्रत्येक यात्रा के लिए सटीकता दिखाता है। आमतौर पर, सटीकता 10-100 मीटर के भीतर होती है।</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>कुछ यात्राएं दो बार क्यों दिखाई देती हैं?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>कभी-कभी सिस्टम एक ही यात्रा के लिए कई अपडेट भेजता है। ऐप इन्हें स्वचालित रूप से मर्ज करता है, लेकिन कभी-कभी डुप्लिकेट दिखाई दे सकते हैं। आप अवांछित प्रविष्टियां हटा सकते हैं।</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>स्की रिसॉर्ट या मॉल जैसे बड़े स्थानों पर क्या होता है?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>ऐप महत्वपूर्ण रुकावटों को ट्रैक करता है, निरंतर गति को नहीं। एक स्की रिसॉर्ट में, आप बेस लॉज और लंबे लंच के लिए यात्राएं देखेंगे, लेकिन हर चेयरलिफ्ट या छोटे आराम के लिए नहीं। बड़े स्थान अक्सर एक लंबी यात्रा के रूप में दिखाई देते हैं। यह 'मैंने कहाँ समय बिताया?' के लिए डिज़ाइन किया गया है, विस्तृत पथ ट्रैकिंग के लिए नहीं।</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
                         <button class="faq__question" aria-expanded="false">
                             <span>क्या मेरा लोकेशन डेटा निजी है?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -316,30 +427,6 @@
                         </button>
                         <div class="faq__answer">
                             <p>बिल्कुल। सभी डेटा आपके डिवाइस पर स्थानीय रूप से संग्रहीत होता है और केवल आपके व्यक्तिगत iCloud खाते में सिंक होता है। हम कभी भी बाहरी सर्वर पर आपका लोकेशन डेटा नहीं देखते या संग्रहीत नहीं करते।</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>क्या मैं विज़िट एडिट या डिलीट कर सकता हूं?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>हां! आपके पास पूरा नियंत्रण है। विज़िट समय एडिट करें, डुप्लिकेट जगहों को मर्ज करें, नोट्स जोड़ें, या कोई भी विज़िट डिलीट करें जो आप रखना नहीं चाहते।</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>क्या यह मेरी बैटरी खत्म करता है?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>नहीं। WhereWasI Apple की पावर-एफिशिएंट सिग्निफिकेंट लोकेशन चेंज APIs का उपयोग करता है, जो बैटरी प्रभाव को कम करते हुए आपकी विज़िट को सटीक रूप से कैप्चर करने के लिए डिज़ाइन की गई हैं।</p>
                         </div>
                     </div>
 

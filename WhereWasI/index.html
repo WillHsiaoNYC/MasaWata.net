@@ -297,17 +297,128 @@
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
                         <button class="faq__question" aria-expanded="false">
-                            <span>How does WhereWasI track my location?</span>
+                            <span>How does location tracking work?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
                         </button>
                         <div class="faq__answer">
-                            <p>WhereWasI uses iOS location services to detect when you arrive and leave places. It runs efficiently in the background without draining your battery.</p>
+                            <p>The app uses Apple's Visit Monitoring API to automatically detect when you arrive at and leave locations. This happens in the background with minimal battery impact.</p>
                         </div>
                     </div>
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Does the app work when closed?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Yes! With 'Always' location permission, the app receives visit notifications even when it's not running. Make sure to grant this permission in Settings.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>How do I grant or change location permission?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>This app needs "Always" location access to work properly — it's how we detect when you arrive at and leave places, even when the app isn't open.
+
+To grant or update permission: go to Settings → Privacy & Security → Location Services → Where Was I and select Always.
+
+"While Using" will only track visits when the app is on screen, and "Never" disables tracking entirely. For the best experience, choose "Always".</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>How do I assign a location name?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Tap on any visit to see its details, then tap 'Assign Location' to search for nearby places or create a custom label.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>How does auto location assignment work?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>When a new visit arrives, the app checks if its coordinates fall within any saved location's radius. If matched, the visit is auto-assigned to that location. If no match is found, a new location is created using nearby places or the address.
+
+If visits aren't matching your saved locations, the radius might be too small. GPS can vary 10-50 meters between visits, so increase the radius in Location Details (up to 500m) or adjust the location's coordinates using 'Adjust Location on Map' to better center it.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>How does iCloud Sync work?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>iCloud Sync backs up your data and lets you view visits from all your devices.
+
+Important: You must enable iCloud Sync in Settings for backup to work. Without it, all your data will be permanently lost if you delete or reinstall the app.
+
+How it works:
+• Each device tracks and backs up its own visits separately
+• Your visits are not merged or shared between devices
+• You can view other devices' visit history (read-only) by enabling them in Settings → iCloud Sync → Show Visits From
+
+Example: If you have an iPhone and iPad, each device records its own visits. On your iPhone, you can toggle on your iPad to see where you've been with it—but those visits stay owned by the iPad.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>How accurate is the location data?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Location accuracy depends on available signals (GPS, Wi-Fi, cellular). The app shows the accuracy for each visit. Typically, accuracy is within 10-100 meters.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Why do some visits appear twice?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Sometimes the system sends multiple updates for the same visit. The app automatically merges these, but occasionally duplicates may appear. You can delete any unwanted entries.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>What happens at large venues like ski resorts or malls?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>The app tracks significant stops, not continuous movement. At a ski resort, you'd see visits for the base lodge and a long lunch, but not every chairlift or brief rest. Large venues often appear as one long visit. This is designed for 'Where did I spend time?' rather than detailed path tracking.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
                         <button class="faq__question" aria-expanded="false">
                             <span>Is my location data private?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -316,30 +427,6 @@
                         </button>
                         <div class="faq__answer">
                             <p>Absolutely. All data is stored locally on your device and synced only to your personal iCloud account. We never see or store your location data on any external servers.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Can I edit or delete visits?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Yes! You have full control. Edit visit times, merge duplicate places, add notes, or delete any visits you don't want to keep.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Does it drain my battery?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>No. WhereWasI uses Apple's power-efficient significant location change APIs, designed to minimize battery impact while still capturing your visits accurately.</p>
                         </div>
                     </div>
 

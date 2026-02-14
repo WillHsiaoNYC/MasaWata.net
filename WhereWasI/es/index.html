@@ -297,17 +297,128 @@
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
                         <button class="faq__question" aria-expanded="false">
-                            <span>¿Cómo rastrea WhereWasI mi ubicación?</span>
+                            <span>¿Cómo funciona el seguimiento de ubicación?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
                         </button>
                         <div class="faq__answer">
-                            <p>WhereWasI utiliza los servicios de ubicación de iOS para detectar cuándo llegas y te vas de lugares. Se ejecuta eficientemente en segundo plano sin agotar tu batería.</p>
+                            <p>La app usa la API de Visit Monitoring de Apple para detectar automáticamente cuando llegas y te vas de lugares. Esto sucede en segundo plano con mínimo impacto en la batería.</p>
                         </div>
                     </div>
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>¿La app funciona cuando está cerrada?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>¡Sí! Con el permiso de ubicación Siempre, la app recibe notificaciones de visitas incluso cuando no está ejecutándose. Asegúrate de otorgar este permiso en Configuración.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>¿Cómo concedo o cambio el permiso de ubicación?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Esta app necesita acceso de ubicación "Siempre" para funcionar correctamente — así es como detectamos cuando llegas y te vas de lugares, incluso cuando la app no está abierta.
+
+Para conceder o actualizar el permiso: ve a **Ajustes → Privacidad y seguridad → Localización → Where Was I** y selecciona **Siempre**.
+
+"Mientras se usa" solo rastreará visitas cuando la app está en pantalla, y "Nunca" desactiva el rastreo completamente. Para la mejor experiencia, elige "Siempre".</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>¿Cómo asigno un nombre de ubicación?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Toca cualquier visita para ver sus detalles, luego toca Asignar ubicación para buscar lugares cercanos o crear una etiqueta personalizada.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>¿Cómo funciona la asignación automática de ubicación?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Cuando llega una nueva visita, la app verifica si sus coordenadas están dentro del radio de cualquier ubicación guardada. Si coincide, la visita se asigna automáticamente a esa ubicación. Si no hay coincidencia, se crea una nueva ubicación usando lugares cercanos o la dirección.
+
+Si las visitas no coinciden con tus ubicaciones guardadas, el radio podría ser muy pequeño. El GPS puede variar 10-50 metros entre visitas, así que aumenta el radio en Detalles de Ubicación (hasta 500m) o ajusta las coordenadas usando "Ajustar ubicación en el mapa".</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>¿Cómo funciona la sincronización de iCloud?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>iCloud Sync respalda tus datos y te permite ver visitas desde todos tus dispositivos.
+
+**Importante:** Debes activar iCloud Sync en Configuración para que el respaldo funcione. Sin esto, todos tus datos se perderán permanentemente si eliminas o reinstalas la app.
+
+**Cómo funciona:**
+• Cada dispositivo registra y respalda sus propias visitas por separado
+• Tus visitas no se combinan ni comparten entre dispositivos
+• Puedes ver el historial de visitas de otros dispositivos (solo lectura) activándolos en Configuración → iCloud Sync → Mostrar visitas de
+
+**Ejemplo:** Si tienes un iPhone y un iPad, cada dispositivo registra sus propias visitas. En tu iPhone, puedes activar tu iPad para ver dónde has estado con él, pero esas visitas siguen perteneciendo al iPad.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>¿Qué tan precisos son los datos de ubicación?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>La precisión de ubicación depende de las señales disponibles (GPS, Wi-Fi, celular). La app muestra la precisión para cada visita. Típicamente, la precisión está dentro de 10-100 metros.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>¿Por qué algunas visitas aparecen dos veces?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>A veces el sistema envía múltiples actualizaciones para la misma visita. La app las fusiona automáticamente, pero ocasionalmente pueden aparecer duplicados. Puedes eliminar las entradas no deseadas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>¿Qué pasa en lugares grandes como estaciones de esquí o centros comerciales?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>La app rastrea paradas significativas, no movimiento continuo. En una estación de esquí, verías visitas para el albergue base y un almuerzo largo, pero no cada telesilla o descanso breve. Los lugares grandes suelen aparecer como una visita larga. Está diseñado para '¿Dónde pasé tiempo?' en lugar de seguimiento detallado de rutas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
                         <button class="faq__question" aria-expanded="false">
                             <span>¿Son privados mis datos de ubicación?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -316,30 +427,6 @@
                         </button>
                         <div class="faq__answer">
                             <p>Absolutamente. Todos los datos se almacenan localmente en tu dispositivo y se sincronizan solo con tu cuenta personal de iCloud. Nunca vemos ni almacenamos tus datos de ubicación en servidores externos.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>¿Puedo editar o eliminar visitas?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>¡Sí! Tienes control total. Edita tiempos de visita, fusiona lugares duplicados, añade notas o elimina cualquier visita que no quieras conservar.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>¿Agota mi batería?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>No. WhereWasI utiliza las APIs de cambio de ubicación significativo de Apple, diseñadas para minimizar el impacto en la batería mientras captura tus visitas con precisión.</p>
                         </div>
                     </div>
 

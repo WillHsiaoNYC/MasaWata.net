@@ -297,17 +297,128 @@
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
                         <button class="faq__question" aria-expanded="false">
-                            <span>Как WhereWasI отслеживает моё местоположение?</span>
+                            <span>Как работает отслеживание местоположения?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
                         </button>
                         <div class="faq__answer">
-                            <p>WhereWasI использует службы геолокации iOS для определения прибытия и ухода из мест. Приложение эффективно работает в фоновом режиме, не разряжая батарею.</p>
+                            <p>Приложение использует API Visit Monitoring от Apple для автоматического определения прибытия и ухода из мест. Это происходит в фоновом режиме с минимальным влиянием на батарею.</p>
                         </div>
                     </div>
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Работает ли приложение, когда оно закрыто?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Да! С разрешением геолокации Всегда приложение получает уведомления о посещениях, даже когда оно не работает. Обязательно предоставьте это разрешение в Настройках.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Как предоставить или изменить разрешение на определение местоположения?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Этому приложению необходим доступ к геолокации «Всегда» для корректной работы — так мы определяем, когда вы прибываете в места и покидаете их, даже когда приложение не открыто.
+
+Чтобы предоставить или изменить разрешение: перейдите в **Настройки → Конфиденциальность и безопасность → Службы геолокации → Where Was I** и выберите **Всегда**.
+
+«При использовании» будет отслеживать посещения только когда приложение на экране, а «Никогда» полностью отключает отслеживание. Для лучшего опыта выберите «Всегда».</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Как назначить название места?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Нажмите на посещение, чтобы увидеть детали, затем нажмите Назначить место, чтобы найти ближайшие места или создать свою метку.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Как работает автоматическое назначение места?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Когда приходит новое посещение, приложение проверяет, находятся ли его координаты в радиусе сохранённого места. Если да, посещение автоматически назначается этому месту. Если совпадения нет, создаётся новое место с использованием ближайших мест или адреса.
+
+Если посещения не совпадают с вашими сохранёнными местами, радиус может быть слишком мал. GPS может отличаться на 10-50 метров между посещениями, поэтому увеличьте радиус в Деталях места (до 500м) или отрегулируйте координаты с помощью «Настроить место на карте».</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Как работает синхронизация iCloud?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>iCloud Sync создаёт резервную копию данных и позволяет просматривать посещения со всех ваших устройств.
+
+**Важно:** Для работы резервного копирования необходимо включить iCloud Sync в Настройках. Без этого все ваши данные будут безвозвратно утеряны при удалении или переустановке приложения.
+
+**Как это работает:**
+• Каждое устройство отслеживает и сохраняет свои посещения отдельно
+• Ваши посещения не объединяются и не передаются между устройствами
+• Вы можете просматривать историю посещений других устройств (только чтение), включив их в Настройках → iCloud Sync → Показать посещения с
+
+**Пример:** Если у вас есть iPhone и iPad, каждое устройство записывает свои посещения. На iPhone вы можете включить iPad, чтобы увидеть, где вы были с ним — но эти посещения остаются принадлежащими iPad.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Насколько точны данные о местоположении?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Точность местоположения зависит от доступных сигналов (GPS, Wi-Fi, сотовая связь). Приложение показывает точность для каждого посещения. Обычно точность составляет 10-100 метров.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Почему некоторые посещения появляются дважды?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Иногда система отправляет несколько обновлений для одного посещения. Приложение автоматически объединяет их, но иногда могут появляться дубликаты. Вы можете удалить ненужные записи.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>Что происходит на больших объектах, таких как горнолыжные курорты или торговые центры?</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Приложение отслеживает значительные остановки, а не постоянное движение. На горнолыжном курорте вы увидите посещения базового домика и долгого обеда, но не каждый подъёмник или короткий отдых. Большие места часто отображаются как одно долгое посещение. Это создано для «Где я провёл время?», а не для детального отслеживания маршрута.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
                         <button class="faq__question" aria-expanded="false">
                             <span>Мои данные о местоположении конфиденциальны?</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -316,30 +427,6 @@
                         </button>
                         <div class="faq__answer">
                             <p>Абсолютно. Все данные хранятся локально на вашем устройстве и синхронизируются только с вашей личной учётной записью iCloud. Мы никогда не видим и не храним ваши данные о местоположении на внешних серверах.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Могу ли я редактировать или удалять визиты?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Да! У вас полный контроль. Редактируйте время визитов, объединяйте дублирующиеся места, добавляйте заметки или удаляйте визиты, которые не хотите сохранять.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Разряжает ли это батарею?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Нет. WhereWasI использует энергоэффективные API значительных изменений местоположения Apple, разработанные для минимизации влияния на батарею при точной фиксации ваших визитов.</p>
                         </div>
                     </div>
 
