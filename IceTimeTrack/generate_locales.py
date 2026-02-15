@@ -96,7 +96,7 @@ UI_TRANSLATIONS = {
             "description": "Sledujte svůj čas na ledě automaticky s Apple Watch. Detekce střídání, záznam gólů a trestů, monitorování tepu a pohybu."
         },
         "nav": {"features": "Funkce", "howItWorks": "Jak to funguje", "screenshots": "Snímky", "faq": "FAQ", "cta": "Předobjednat", "ctaDownload": "Stáhnout"},
-        "countdown": {"title": "Spuštění za", "promo": "1 rok za $6.99", "promoSub": "Časově omezená nabídka — nenechte si ujít", "days": "Dny", "hours": "Hodiny", "minutes": "Minuty", "seconds": "Sekundy", "date": "14. února 2026", "claimOffer": "Uplatnit nabídku", "launchSpecial": "Speciální nabídka", "offerEnds": "Nabídka končí 28. února 2026", "downloadNow": "Stáhnout nyní"},
+        "countdown": {"title": "Spuštění za", "promo": "1 rok za $6.99 USD", "promoSub": "Časově omezená nabídka — nenechte si ujít", "days": "Dny", "hours": "Hodiny", "minutes": "Minuty", "seconds": "Sekundy", "date": "14. února 2026", "claimOffer": "Uplatnit nabídku", "launchSpecial": "Speciální nabídka", "offerEnds": "Nabídka končí 28. února 2026", "downloadNow": "Stáhnout nyní"},
         "hero": {"title": "Automatická detekce střídání<br>pro hokejisty", "description": "Zjistěte přesně, kolik času na ledě máte — bez dotyku hodinek. Sledujte góly, tresty a třetiny. Stačí spustit a hrát.", "preOrder": "Předobjednat nyní", "platforms": "K dispozici pro Apple Watch + iPhone · Spuštění 14. února 2026", "shiftDetection": "Detekce střídání", "goalTracking": "Sledování gólů", "penaltyLogging": "Záznam trestů", "gameAnalytics": "Herní analytika"},
         "features": {
             "title": "Funkce", "subtitle": "Vše potřebné pro sledování hry",
@@ -127,7 +127,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Automatisk skiftdetektering til Apple Watch", "description": "Spor din istid automatisk med Apple Watch. Detekter skift, log mål og straffe, overvåg puls og bevægelse."},
         "nav": {"features": "Funktioner", "howItWorks": "Sådan virker det", "screenshots": "Skærmbilleder", "faq": "FAQ", "cta": "Forudbestil", "ctaDownload": "Download"},
-        "countdown": {"title": "Lancering om", "promo": "1 år for $6.99", "promoSub": "Tidsbegrænset tilbud — gå ikke glip af det", "days": "Dage", "hours": "Timer", "minutes": "Minutter", "seconds": "Sekunder", "date": "14. februar 2026", "claimOffer": "Indløs tilbud", "launchSpecial": "Lanceringsstilbud", "offerEnds": "Tilbud slutter 28. februar 2026", "downloadNow": "Download nu"},
+        "countdown": {"title": "Lancering om", "promo": "1 år for $6.99 USD", "promoSub": "Tidsbegrænset tilbud — gå ikke glip af det", "days": "Dage", "hours": "Timer", "minutes": "Minutter", "seconds": "Sekunder", "date": "14. februar 2026", "claimOffer": "Indløs tilbud", "launchSpecial": "Lanceringsstilbud", "offerEnds": "Tilbud slutter 28. februar 2026", "downloadNow": "Download nu"},
         "hero": {"title": "Automatisk skiftdetektering<br>for hockeyspillere", "description": "Ved præcis, hvor meget istid du får — uden at trykke på dit ur. Spor mål, straffe og perioder. Start bare en session og spil.", "preOrder": "Forudbestil nu", "platforms": "Tilgængelig på Apple Watch + iPhone · Lancering 14. februar 2026", "shiftDetection": "Skiftdetektering", "goalTracking": "Målsporing", "penaltyLogging": "Straffelogning", "gameAnalytics": "Kampanalyse"},
         "features": {
             "title": "Funktioner", "subtitle": "Alt hvad du behøver for at spore din kamp",
@@ -158,7 +158,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Automatische Schichterkennung für Apple Watch", "description": "Verfolge deine Eiszeit automatisch mit der Apple Watch. Erkenne Schichten, protokolliere Tore und Strafen, überwache Herzfrequenz und Bewegung."},
         "nav": {"features": "Funktionen", "howItWorks": "So funktioniert's", "screenshots": "Screenshots", "faq": "FAQ", "cta": "Vorbestellen", "ctaDownload": "Laden"},
-        "countdown": {"title": "Start in", "promo": "1 Jahr für $6,99", "promoSub": "Zeitlich begrenztes Angebot — nicht verpassen", "days": "Tage", "hours": "Stunden", "minutes": "Minuten", "seconds": "Sekunden", "date": "14. Februar 2026", "claimOffer": "Angebot einlösen", "launchSpecial": "Start-Spezial", "offerEnds": "Angebot endet am 28. Februar 2026", "downloadNow": "Jetzt laden"},
+        "countdown": {"title": "Start in", "promo": "1 Jahr für $6,99 USD", "promoSub": "Zeitlich begrenztes Angebot — nicht verpassen", "days": "Tage", "hours": "Stunden", "minutes": "Minuten", "seconds": "Sekunden", "date": "14. Februar 2026", "claimOffer": "Angebot einlösen", "launchSpecial": "Start-Spezial", "offerEnds": "Angebot endet am 28. Februar 2026", "downloadNow": "Jetzt laden"},
         "hero": {"title": "Automatische Schichterkennung<br>für Eishockeyspieler", "description": "Wisse genau, wie viel Eiszeit du bekommst — ohne deine Uhr zu berühren. Verfolge Tore, Strafen und Drittel. Starte einfach eine Sitzung und spiel.", "preOrder": "Jetzt vorbestellen", "platforms": "Verfügbar für Apple Watch + iPhone · Start am 14. Februar 2026", "shiftDetection": "Schichterkennung", "goalTracking": "Torverfolgung", "penaltyLogging": "Strafenprotokoll", "gameAnalytics": "Spielanalyse"},
         "features": {
             "title": "Funktionen", "subtitle": "Alles was du brauchst, um dein Spiel zu verfolgen",
@@ -189,7 +189,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Detección automática de turnos de hockey para Apple Watch", "description": "Registra tu tiempo en el hielo automáticamente con Apple Watch. Detecta turnos, registra goles y penalizaciones, monitorea ritmo cardíaco y movimiento."},
         "nav": {"features": "Funciones", "howItWorks": "Cómo funciona", "screenshots": "Capturas", "faq": "FAQ", "cta": "Pre-ordenar", "ctaDownload": "Descargar"},
-        "countdown": {"title": "Lanzamiento en", "promo": "1 año por $6.99", "promoSub": "Oferta por tiempo limitado — no te la pierdas", "days": "Días", "hours": "Horas", "minutes": "Minutos", "seconds": "Segundos", "date": "14 de febrero de 2026", "claimOffer": "Reclamar oferta", "launchSpecial": "Especial de lanzamiento", "offerEnds": "La oferta termina el 28 de febrero de 2026", "downloadNow": "Descargar ahora"},
+        "countdown": {"title": "Lanzamiento en", "promo": "1 año por $6.99 USD", "promoSub": "Oferta por tiempo limitado — no te la pierdas", "days": "Días", "hours": "Horas", "minutes": "Minutos", "seconds": "Segundos", "date": "14 de febrero de 2026", "claimOffer": "Reclamar oferta", "launchSpecial": "Especial de lanzamiento", "offerEnds": "La oferta termina el 28 de febrero de 2026", "downloadNow": "Descargar ahora"},
         "hero": {"title": "Detección automática de turnos<br>para jugadores de hockey", "description": "Sabe exactamente cuánto tiempo de hielo tienes — sin tocar tu reloj. Registra goles, penalizaciones y períodos. Solo inicia una sesión y juega.", "preOrder": "Pre-ordenar ahora", "platforms": "Disponible en Apple Watch + iPhone · Lanzamiento 14 de febrero de 2026", "shiftDetection": "Detección de turnos", "goalTracking": "Seguimiento de goles", "penaltyLogging": "Registro de penalizaciones", "gameAnalytics": "Análisis de juego"},
         "features": {
             "title": "Funciones", "subtitle": "Todo lo que necesitas para seguir tu juego",
@@ -220,7 +220,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Automaattinen vaihtotunnistus Apple Watchille", "description": "Seuraa jääaikaasi automaattisesti Apple Watchilla. Tunnista vaihdot, kirjaa maalit ja jäähyt, seuraa sykettä ja liikettä."},
         "nav": {"features": "Ominaisuudet", "howItWorks": "Näin se toimii", "screenshots": "Kuvakaappaukset", "faq": "UKK", "cta": "Ennakkotilaa", "ctaDownload": "Lataa"},
-        "countdown": {"title": "Julkaisuun", "promo": "1 vuosi hintaan $6,99", "promoSub": "Rajoitetun ajan tarjous — älä missaa", "days": "Päivää", "hours": "Tuntia", "minutes": "Minuuttia", "seconds": "Sekuntia", "date": "14. helmikuuta 2026", "claimOffer": "Lunasta tarjous", "launchSpecial": "Julkaisutarjous", "offerEnds": "Tarjous päättyy 28. helmikuuta 2026", "downloadNow": "Lataa nyt"},
+        "countdown": {"title": "Julkaisuun", "promo": "1 vuosi hintaan $6,99 USD", "promoSub": "Rajoitetun ajan tarjous — älä missaa", "days": "Päivää", "hours": "Tuntia", "minutes": "Minuuttia", "seconds": "Sekuntia", "date": "14. helmikuuta 2026", "claimOffer": "Lunasta tarjous", "launchSpecial": "Julkaisutarjous", "offerEnds": "Tarjous päättyy 28. helmikuuta 2026", "downloadNow": "Lataa nyt"},
         "hero": {"title": "Automaattinen vaihtotunnistus<br>jääkiekkoilijoille", "description": "Tiedä tarkalleen kuinka paljon jääaikaa saat — ilman kellon koskettamista. Seuraa maaleja, jäähyjä ja eriä. Aloita vain sessio ja pelaa.", "preOrder": "Ennakkotilaa nyt", "platforms": "Saatavilla Apple Watch + iPhone · Julkaisu 14. helmikuuta 2026", "shiftDetection": "Vaihtotunnistus", "goalTracking": "Maaliseuranta", "penaltyLogging": "Jäähykirjaus", "gameAnalytics": "Pelianalyysi"},
         "features": {
             "title": "Ominaisuudet", "subtitle": "Kaikki mitä tarvitset pelisi seuraamiseen",
@@ -251,7 +251,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Détection automatique des présences pour Apple Watch", "description": "Suivez votre temps de glace automatiquement avec Apple Watch. Détectez les présences, enregistrez les buts et pénalités, surveillez le rythme cardiaque et le mouvement."},
         "nav": {"features": "Fonctionnalités", "howItWorks": "Comment ça marche", "screenshots": "Captures", "faq": "FAQ", "cta": "Précommander", "ctaDownload": "Télécharger"},
-        "countdown": {"title": "Lancement dans", "promo": "1 an pour 6,99 $", "promoSub": "Offre limitée dans le temps — ne la manquez pas", "days": "Jours", "hours": "Heures", "minutes": "Minutes", "seconds": "Secondes", "date": "14 février 2026", "claimOffer": "Réclamer l'offre", "launchSpecial": "Offre de lancement", "offerEnds": "L'offre se termine le 28 février 2026", "downloadNow": "Télécharger"},
+        "countdown": {"title": "Lancement dans", "promo": "1 an pour 6,99 $ USD", "promoSub": "Offre limitée dans le temps — ne la manquez pas", "days": "Jours", "hours": "Heures", "minutes": "Minutes", "seconds": "Secondes", "date": "14 février 2026", "claimOffer": "Réclamer l'offre", "launchSpecial": "Offre de lancement", "offerEnds": "L'offre se termine le 28 février 2026", "downloadNow": "Télécharger"},
         "hero": {"title": "Détection automatique des présences<br>pour les joueurs de hockey", "description": "Sachez exactement combien de temps de glace vous avez — sans toucher votre montre. Suivez les buts, les pénalités et les périodes. Démarrez simplement une session et jouez.", "preOrder": "Précommander", "platforms": "Disponible sur Apple Watch + iPhone · Lancement le 14 février 2026", "shiftDetection": "Détection des présences", "goalTracking": "Suivi des buts", "penaltyLogging": "Journal des pénalités", "gameAnalytics": "Analyse de match"},
         "features": {
             "title": "Fonctionnalités", "subtitle": "Tout ce dont vous avez besoin pour suivre votre match",
@@ -282,7 +282,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Automatikus váltásérzékelés Apple Watch-hoz", "description": "Kövesse jégidejét automatikusan az Apple Watch-csal. Érzékelje a váltásokat, naplózza a gólokat és büntetéseket, figyelje a pulzust és a mozgást."},
         "nav": {"features": "Funkciók", "howItWorks": "Hogyan működik", "screenshots": "Képernyőképek", "faq": "GYIK", "cta": "Előrendelés", "ctaDownload": "Letöltés"},
-        "countdown": {"title": "Indulás", "promo": "1 év $6,99-ért", "promoSub": "Korlátozott idejű ajánlat — ne hagyja ki", "days": "Nap", "hours": "Óra", "minutes": "Perc", "seconds": "Másodperc", "date": "2026. február 14.", "claimOffer": "Ajánlat igénylése", "launchSpecial": "Indulási akció", "offerEnds": "Az ajánlat 2026. február 28-án lejár", "downloadNow": "Letöltés most"},
+        "countdown": {"title": "Indulás", "promo": "1 év $6,99 USD-ért", "promoSub": "Korlátozott idejű ajánlat — ne hagyja ki", "days": "Nap", "hours": "Óra", "minutes": "Perc", "seconds": "Másodperc", "date": "2026. február 14.", "claimOffer": "Ajánlat igénylése", "launchSpecial": "Indulási akció", "offerEnds": "Az ajánlat 2026. február 28-án lejár", "downloadNow": "Letöltés most"},
         "hero": {"title": "Automatikus váltásérzékelés<br>jégkorongosoknak", "description": "Tudja meg pontosan, mennyi jégidőt kap — anélkül, hogy megérintené az óráját. Kövesse a gólokat, büntetéseket és harmadokat. Csak indítson egy munkamenetet és játsszon.", "preOrder": "Előrendelés most", "platforms": "Elérhető Apple Watch + iPhone · Indulás 2026. február 14.", "shiftDetection": "Váltásérzékelés", "goalTracking": "Gólkövetés", "penaltyLogging": "Büntetésnaplózás", "gameAnalytics": "Mérkőzéselemzés"},
         "features": {
             "title": "Funkciók", "subtitle": "Minden, amire szüksége van a mérkőzés követéséhez",
@@ -313,7 +313,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Rilevamento automatico dei turni per Apple Watch", "description": "Monitora il tuo tempo sul ghiaccio automaticamente con Apple Watch. Rileva i turni, registra gol e penalità, monitora frequenza cardiaca e movimento."},
         "nav": {"features": "Funzionalità", "howItWorks": "Come funziona", "screenshots": "Screenshot", "faq": "FAQ", "cta": "Preordina", "ctaDownload": "Scarica"},
-        "countdown": {"title": "Lancio tra", "promo": "1 anno a $6,99", "promoSub": "Offerta a tempo limitato — non perderla", "days": "Giorni", "hours": "Ore", "minutes": "Minuti", "seconds": "Secondi", "date": "14 febbraio 2026", "claimOffer": "Riscatta offerta", "launchSpecial": "Offerta di lancio", "offerEnds": "L'offerta scade il 28 febbraio 2026", "downloadNow": "Scarica ora"},
+        "countdown": {"title": "Lancio tra", "promo": "1 anno a $6,99 USD", "promoSub": "Offerta a tempo limitato — non perderla", "days": "Giorni", "hours": "Ore", "minutes": "Minuti", "seconds": "Secondi", "date": "14 febbraio 2026", "claimOffer": "Riscatta offerta", "launchSpecial": "Offerta di lancio", "offerEnds": "L'offerta scade il 28 febbraio 2026", "downloadNow": "Scarica ora"},
         "hero": {"title": "Rilevamento automatico dei turni<br>per giocatori di hockey", "description": "Sai esattamente quanto tempo passi sul ghiaccio — senza toccare l'orologio. Monitora gol, penalità e periodi. Avvia una sessione e gioca.", "preOrder": "Preordina ora", "platforms": "Disponibile su Apple Watch + iPhone · Lancio 14 febbraio 2026", "shiftDetection": "Rilevamento turni", "goalTracking": "Tracciamento gol", "penaltyLogging": "Registro penalità", "gameAnalytics": "Analisi partita"},
         "features": {
             "title": "Funzionalità", "subtitle": "Tutto ciò che ti serve per monitorare la tua partita",
@@ -344,7 +344,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Apple Watch用自動シフト検出ホッケーアプリ", "description": "Apple Watchでアイスタイムを自動追跡。シフト検出、ゴール・ペナルティ記録、心拍数・動きのモニタリング。セッションを開始してプレーするだけ。"},
         "nav": {"features": "機能", "howItWorks": "使い方", "screenshots": "スクリーンショット", "faq": "FAQ", "cta": "予約注文", "ctaDownload": "ダウンロード"},
-        "countdown": {"title": "リリースまで", "promo": "1年間 $6.99", "promoSub": "期間限定オファー — お見逃しなく", "days": "日", "hours": "時間", "minutes": "分", "seconds": "秒", "date": "2026年2月14日", "claimOffer": "オファーを受け取る", "launchSpecial": "リリース記念特別オファー", "offerEnds": "オファーは2026年2月28日に終了", "downloadNow": "ダウンロード"},
+        "countdown": {"title": "リリースまで", "promo": "1年間 $6.99 USD", "promoSub": "期間限定オファー — お見逃しなく", "days": "日", "hours": "時間", "minutes": "分", "seconds": "秒", "date": "2026年2月14日", "claimOffer": "オファーを受け取る", "launchSpecial": "リリース記念特別オファー", "offerEnds": "オファーは2026年2月28日に終了", "downloadNow": "ダウンロード"},
         "hero": {"title": "ホッケープレーヤーのための<br>自動シフト検出", "description": "ウォッチをタップせずに、正確なアイスタイムを把握。ゴール、ペナルティ、ピリオドを追跡。セッションを開始してプレーするだけ。", "preOrder": "今すぐ予約注文", "platforms": "Apple Watch + iPhoneで利用可能 · 2026年2月14日リリース", "shiftDetection": "シフト検出", "goalTracking": "ゴール追跡", "penaltyLogging": "ペナルティ記録", "gameAnalytics": "試合分析"},
         "features": {
             "title": "機能", "subtitle": "試合を追跡するために必要なすべて",
@@ -375,7 +375,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Apple Watch용 자동 하키 교대 감지", "description": "Apple Watch로 아이스 타임을 자동으로 추적하세요. 교대 감지, 골과 페널티 기록, 심박수와 움직임 모니터링."},
         "nav": {"features": "기능", "howItWorks": "사용 방법", "screenshots": "스크린샷", "faq": "FAQ", "cta": "사전 주문", "ctaDownload": "다운로드"},
-        "countdown": {"title": "출시까지", "promo": "1년 $6.99", "promoSub": "기간 한정 제안 — 놓치지 마세요", "days": "일", "hours": "시간", "minutes": "분", "seconds": "초", "date": "2026년 2월 14일", "claimOffer": "제안 받기", "launchSpecial": "출시 특별 제안", "offerEnds": "제안은 2026년 2월 28일에 종료", "downloadNow": "지금 다운로드"},
+        "countdown": {"title": "출시까지", "promo": "1년 $6.99 USD", "promoSub": "기간 한정 제안 — 놓치지 마세요", "days": "일", "hours": "시간", "minutes": "분", "seconds": "초", "date": "2026년 2월 14일", "claimOffer": "제안 받기", "launchSpecial": "출시 특별 제안", "offerEnds": "제안은 2026년 2월 28일에 종료", "downloadNow": "지금 다운로드"},
         "hero": {"title": "하키 선수를 위한<br>자동 교대 감지", "description": "워치를 터치하지 않고 정확한 아이스 타임을 파악하세요. 골, 페널티, 피리어드를 추적합니다. 세션을 시작하고 플레이하세요.", "preOrder": "지금 사전 주문", "platforms": "Apple Watch + iPhone에서 사용 가능 · 2026년 2월 14일 출시", "shiftDetection": "교대 감지", "goalTracking": "골 추적", "penaltyLogging": "페널티 기록", "gameAnalytics": "경기 분석"},
         "features": {
             "title": "기능", "subtitle": "경기를 추적하는 데 필요한 모든 것",
@@ -406,7 +406,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Automatisk skiftdeteksjon for Apple Watch", "description": "Spor istiden din automatisk med Apple Watch. Oppdag skift, logg mål og utvisninger, overvåk puls og bevegelse."},
         "nav": {"features": "Funksjoner", "howItWorks": "Slik fungerer det", "screenshots": "Skjermbilder", "faq": "FAQ", "cta": "Forhåndsbestill", "ctaDownload": "Last ned"},
-        "countdown": {"title": "Lansering om", "promo": "1 år for $6,99", "promoSub": "Tidsbegrenset tilbud — ikke gå glipp av det", "days": "Dager", "hours": "Timer", "minutes": "Minutter", "seconds": "Sekunder", "date": "14. februar 2026", "claimOffer": "Krev tilbud", "launchSpecial": "Lanseringstilbud", "offerEnds": "Tilbudet avsluttes 28. februar 2026", "downloadNow": "Last ned nå"},
+        "countdown": {"title": "Lansering om", "promo": "1 år for $6,99 USD", "promoSub": "Tidsbegrenset tilbud — ikke gå glipp av det", "days": "Dager", "hours": "Timer", "minutes": "Minutter", "seconds": "Sekunder", "date": "14. februar 2026", "claimOffer": "Krev tilbud", "launchSpecial": "Lanseringstilbud", "offerEnds": "Tilbudet avsluttes 28. februar 2026", "downloadNow": "Last ned nå"},
         "hero": {"title": "Automatisk skiftdeteksjon<br>for hockeyspillere", "description": "Vit nøyaktig hvor mye istid du får — uten å berøre klokken din. Spor mål, utvisninger og perioder. Bare start en økt og spill.", "preOrder": "Forhåndsbestill nå", "platforms": "Tilgjengelig på Apple Watch + iPhone · Lansering 14. februar 2026", "shiftDetection": "Skiftdeteksjon", "goalTracking": "Målsporing", "penaltyLogging": "Utvisningslogg", "gameAnalytics": "Kampanalyse"},
         "features": {
             "title": "Funksjoner", "subtitle": "Alt du trenger for å spore kampen din",
@@ -437,7 +437,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Автоматическое определение смен для Apple Watch", "description": "Отслеживайте время на льду автоматически с Apple Watch. Определение смен, запись голов и удалений, мониторинг пульса и движения."},
         "nav": {"features": "Функции", "howItWorks": "Как это работает", "screenshots": "Скриншоты", "faq": "FAQ", "cta": "Предзаказ", "ctaDownload": "Скачать"},
-        "countdown": {"title": "До запуска", "promo": "1 год за $6.99", "promoSub": "Ограниченное предложение — не упустите", "days": "Дней", "hours": "Часов", "minutes": "Минут", "seconds": "Секунд", "date": "14 февраля 2026", "claimOffer": "Получить предложение", "launchSpecial": "Специальное предложение", "offerEnds": "Предложение заканчивается 28 февраля 2026", "downloadNow": "Скачать сейчас"},
+        "countdown": {"title": "До запуска", "promo": "1 год за $6.99 USD", "promoSub": "Ограниченное предложение — не упустите", "days": "Дней", "hours": "Часов", "minutes": "Минут", "seconds": "Секунд", "date": "14 февраля 2026", "claimOffer": "Получить предложение", "launchSpecial": "Специальное предложение", "offerEnds": "Предложение заканчивается 28 февраля 2026", "downloadNow": "Скачать сейчас"},
         "hero": {"title": "Автоматическое определение смен<br>для хоккеистов", "description": "Точно знайте, сколько времени на льду вы получаете — без нажатий на часы. Отслеживайте голы, удаления и периоды. Просто начните сессию и играйте.", "preOrder": "Предзаказ сейчас", "platforms": "Доступно для Apple Watch + iPhone · Запуск 14 февраля 2026", "shiftDetection": "Определение смен", "goalTracking": "Отслеживание голов", "penaltyLogging": "Запись удалений", "gameAnalytics": "Аналитика матча"},
         "features": {
             "title": "Функции", "subtitle": "Всё необходимое для отслеживания игры",
@@ -468,7 +468,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Automatická detekcia striedaní pre Apple Watch", "description": "Sledujte svoj čas na ľade automaticky s Apple Watch. Detekcia striedaní, záznam gólov a trestov, monitorovanie tepu a pohybu."},
         "nav": {"features": "Funkcie", "howItWorks": "Ako to funguje", "screenshots": "Snímky", "faq": "FAQ", "cta": "Predobjednať", "ctaDownload": "Stiahnuť"},
-        "countdown": {"title": "Spustenie za", "promo": "1 rok za $6,99", "promoSub": "Časovo obmedzená ponuka — nenechajte si ujsť", "days": "Dní", "hours": "Hodín", "minutes": "Minút", "seconds": "Sekúnd", "date": "14. februára 2026", "claimOffer": "Uplatniť ponuku", "launchSpecial": "Špeciálna ponuka", "offerEnds": "Ponuka končí 28. februára 2026", "downloadNow": "Stiahnuť teraz"},
+        "countdown": {"title": "Spustenie za", "promo": "1 rok za $6,99 USD", "promoSub": "Časovo obmedzená ponuka — nenechajte si ujsť", "days": "Dní", "hours": "Hodín", "minutes": "Minút", "seconds": "Sekúnd", "date": "14. februára 2026", "claimOffer": "Uplatniť ponuku", "launchSpecial": "Špeciálna ponuka", "offerEnds": "Ponuka končí 28. februára 2026", "downloadNow": "Stiahnuť teraz"},
         "hero": {"title": "Automatická detekcia striedaní<br>pre hokejistov", "description": "Zistite presne, koľko času na ľade máte — bez dotyku hodiniek. Sledujte góly, tresty a tretiny. Stačí spustiť a hrať.", "preOrder": "Predobjednať teraz", "platforms": "K dispozícii pre Apple Watch + iPhone · Spustenie 14. februára 2026", "shiftDetection": "Detekcia striedaní", "goalTracking": "Sledovanie gólov", "penaltyLogging": "Záznam trestov", "gameAnalytics": "Herná analytika"},
         "features": {
             "title": "Funkcie", "subtitle": "Všetko potrebné na sledovanie hry",
@@ -499,7 +499,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Automatisk skiftdetektering för Apple Watch", "description": "Spåra din istid automatiskt med Apple Watch. Upptäck skift, logga mål och utvisningar, övervaka puls och rörelse."},
         "nav": {"features": "Funktioner", "howItWorks": "Så fungerar det", "screenshots": "Skärmbilder", "faq": "FAQ", "cta": "Förbeställ", "ctaDownload": "Ladda ner"},
-        "countdown": {"title": "Lansering om", "promo": "1 år för $6,99", "promoSub": "Tidsbegränsat erbjudande — missa inte", "days": "Dagar", "hours": "Timmar", "minutes": "Minuter", "seconds": "Sekunder", "date": "14 februari 2026", "claimOffer": "Lös in erbjudande", "launchSpecial": "Lanseringserbjudande", "offerEnds": "Erbjudandet slutar 28 februari 2026", "downloadNow": "Ladda ner nu"},
+        "countdown": {"title": "Lansering om", "promo": "1 år för $6,99 USD", "promoSub": "Tidsbegränsat erbjudande — missa inte", "days": "Dagar", "hours": "Timmar", "minutes": "Minuter", "seconds": "Sekunder", "date": "14 februari 2026", "claimOffer": "Lös in erbjudande", "launchSpecial": "Lanseringserbjudande", "offerEnds": "Erbjudandet slutar 28 februari 2026", "downloadNow": "Ladda ner nu"},
         "hero": {"title": "Automatisk skiftdetektering<br>för hockeyspelare", "description": "Vet exakt hur mycket istid du får — utan att trycka på din klocka. Spåra mål, utvisningar och perioder. Starta bara en session och spela.", "preOrder": "Förbeställ nu", "platforms": "Tillgänglig på Apple Watch + iPhone · Lansering 14 februari 2026", "shiftDetection": "Skiftdetektering", "goalTracking": "Målspårning", "penaltyLogging": "Utvisningslogg", "gameAnalytics": "Matchanalys"},
         "features": {
             "title": "Funktioner", "subtitle": "Allt du behöver för att spåra din match",
@@ -530,7 +530,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Apple Watch自动冰球换班检测", "description": "使用Apple Watch自动追踪冰上时间。检测换班，记录进球和犯规，监测心率和运动。"},
         "nav": {"features": "功能", "howItWorks": "使用方法", "screenshots": "截图", "faq": "常见问题", "cta": "预购", "ctaDownload": "下载"},
-        "countdown": {"title": "即将上线", "promo": "1年仅需$6.99", "promoSub": "限时优惠 — 不要错过", "days": "天", "hours": "时", "minutes": "分", "seconds": "秒", "date": "2026年2月14日", "claimOffer": "领取优惠", "launchSpecial": "上线特惠", "offerEnds": "优惠于2026年2月28日结束", "downloadNow": "立即下载"},
+        "countdown": {"title": "即将上线", "promo": "1年仅需$6.99 USD", "promoSub": "限时优惠 — 不要错过", "days": "天", "hours": "时", "minutes": "分", "seconds": "秒", "date": "2026年2月14日", "claimOffer": "领取优惠", "launchSpecial": "上线特惠", "offerEnds": "优惠于2026年2月28日结束", "downloadNow": "立即下载"},
         "hero": {"title": "冰球运动员的<br>自动换班检测", "description": "无需触碰手表即可准确了解您的冰上时间。追踪进球、犯规和比赛时段。只需开始一个场次即可开始。", "preOrder": "立即预购", "platforms": "适用于Apple Watch + iPhone · 2026年2月14日上线", "shiftDetection": "换班检测", "goalTracking": "进球追踪", "penaltyLogging": "犯规记录", "gameAnalytics": "比赛分析"},
         "features": {
             "title": "功能", "subtitle": "追踪比赛所需的一切",
@@ -561,7 +561,7 @@ UI_TRANSLATIONS = {
         "appName": "Ice Time Track",
         "meta": {"title": "Ice Time Track - Apple Watch自動冰球換班偵測", "description": "使用Apple Watch自動追蹤冰上時間。偵測換班，記錄進球和犯規，監測心率和運動。"},
         "nav": {"features": "功能", "howItWorks": "使用方法", "screenshots": "截圖", "faq": "常見問題", "cta": "預購", "ctaDownload": "下載"},
-        "countdown": {"title": "即將上線", "promo": "1年僅需$6.99", "promoSub": "限時優惠 — 不要錯過", "days": "天", "hours": "時", "minutes": "分", "seconds": "秒", "date": "2026年2月14日", "claimOffer": "領取優惠", "launchSpecial": "上線特惠", "offerEnds": "優惠於2026年2月28日結束", "downloadNow": "立即下載"},
+        "countdown": {"title": "即將上線", "promo": "1年僅需$6.99 USD", "promoSub": "限時優惠 — 不要錯過", "days": "天", "hours": "時", "minutes": "分", "seconds": "秒", "date": "2026年2月14日", "claimOffer": "領取優惠", "launchSpecial": "上線特惠", "offerEnds": "優惠於2026年2月28日結束", "downloadNow": "立即下載"},
         "hero": {"title": "冰球運動員的<br>自動換班偵測", "description": "無需觸碰手錶即可準確了解您的冰上時間。追蹤進球、犯規和比賽時段。只需開始一個場次即可開始。", "preOrder": "立即預購", "platforms": "適用於Apple Watch + iPhone · 2026年2月14日上線", "shiftDetection": "換班偵測", "goalTracking": "進球追蹤", "penaltyLogging": "犯規記錄", "gameAnalytics": "比賽分析"},
         "features": {
             "title": "功能", "subtitle": "追蹤比賽所需的一切",
