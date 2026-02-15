@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // Only track on production
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+        gtag('config', 'G-ZL852HY2Z4');
+      }
+    </script>
+
+    <!-- Primary Meta Tags -->
+    <title>Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi</title>
+    <meta name="title" content="Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi">
+    <meta name="description" content="Jalankan beberapa timer dan stopwatch secara bersamaan. Latihan interval, widget layar utama, manajemen sesi, dan nada dering kustom. Gratis untuk iPhone dan iPad.">
+    <meta name="keywords" content="timer, stopwatch, beberapa timer, latihan interval, timer HIIT, Tabata, aplikasi iOS, widget layar utama, timer hitung mundur, multiple timers, countdown timer">
+    <meta name="author" content="Weiren Hsiao">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://masawata.net/TimerOnMe/id/">
+
+    <!-- Hreflang Tags for Multi-language SEO -->
+    <link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/">
+    <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
+    <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
+    <link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/">
+    <link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/">
+    <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
+    <link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/">
+    <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
+    <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
+    <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
+    <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
+    <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
+    <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
+    <link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/">
+    <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
+    <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
+    <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
+    <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
+    <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://masawata.net/TimerOnMe/id/">
+    <meta property="og:title" content="Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi">
+    <meta property="og:description" content="Jalankan beberapa timer dan stopwatch secara bersamaan. Latihan interval, widget layar utama, manajemen sesi, dan nada dering kustom. Gratis untuk iPhone dan iPad.">
+    <meta property="og:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
+    <meta property="og:site_name" content="Timer Saya">
+    <meta property="og:locale" content="id_ID">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://masawata.net/TimerOnMe/id/">
+    <meta name="twitter:title" content="Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi">
+    <meta name="twitter:description" content="Jalankan beberapa timer dan stopwatch secara bersamaan. Latihan interval, widget layar utama, manajemen sesi, dan nada dering kustom. Gratis untuk iPhone dan iPad.">
+    <meta name="twitter:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
+
+    <!-- App Store Smart Banner -->
+    <meta name="apple-itunes-app" content="app-id=6746874284">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../images/TimerOnMe.png">
+    <link rel="apple-touch-icon" href="../images/TimerOnMe.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css?v=1.0">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Timer Saya",
+        "operatingSystem": "iOS",
+        "applicationCategory": "UtilitiesApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "description": "Jalankan beberapa timer dan stopwatch secara bersamaan. Latihan interval, widget layar utama, manajemen sesi, dan nada dering kustom. Gratis untuk iPhone dan iPad.",
+        "screenshot": "https://masawata.net/TimerOnMe/images/en/Title.png",
+        "softwareVersion": "3.1",
+        "author": {
+            "@type": "Person",
+            "name": "Weiren Hsiao"
+        },
+        "inLanguage": "id"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../" class="nav__logo">
+                <img src="../images/TimerOnMe.png" alt="Timer on Me" class="nav__logo-img">
+                <span class="nav__logo-text">Timer Saya</span>
+            </a>
+
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#features" class="nav__link">Fitur</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#screenshots" class="nav__link">Tangkapan Layar</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#download" class="nav__link">Unduh</a>
+                </li>
+            </ul>
+
+            <!-- Language Selector -->
+            <div class="language-selector" id="header-language-selector">
+                <button class="language-btn" aria-label="Select Language">
+                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <span class="current-lang">ID</span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="language-dropdown">
+                    <a href="../" class="language-option">English</a>
+                    <a href="../cs/" class="language-option">Čeština</a>
+                    <a href="../da/" class="language-option">Dansk</a>
+                    <a href="../de/" class="language-option">Deutsch</a>
+                    <a href="../es/" class="language-option">Español</a>
+                    <a href="../fi/" class="language-option">Suomi</a>
+                    <a href="../fr/" class="language-option">Français</a>
+                    <a href="../hi/" class="language-option">हिन्दी</a>
+                    <a href="../hu/" class="language-option">Magyar</a>
+                    <a href="../id/" class="language-option active">Indonesia</a>
+                    <a href="../it/" class="language-option">Italiano</a>
+                    <a href="../ja/" class="language-option">日本語</a>
+                    <a href="../ko/" class="language-option">한국어</a>
+                    <a href="../nb/" class="language-option">Norsk</a>
+                    <a href="../ru/" class="language-option">Русский</a>
+                    <a href="../sk/" class="language-option">Slovenčina</a>
+                    <a href="../sv/" class="language-option">Svenska</a>
+                    <a href="../vi/" class="language-option">Tiếng Việt</a>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <img src="../images/TimerOnMe.png" alt="Timer on Me App Icon" class="hero__icon">
+                    <h1 class="hero__title">Beberapa Timer, Satu Aplikasi</h1>
+                    <p class="hero__description">Jalankan sebanyak mungkin timer dan stopwatch yang Anda butuhkan, semuanya sekaligus. Sempurna untuk memasak, olahraga, belajar, atau apa pun yang memerlukan pengaturan waktu yang tepat.</p>
+                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
+                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Unduh di App Store" class="app-store-badge">
+                    </a>
+                </div>
+                <div class="hero__device">
+                    <div class="device-frame">
+                        <img src="../images/en/Title.png" alt="Timer on Me Screenshot" class="device-screen">
+                    </div>
+                </div>
+            </div>
+            <div class="hero__gradient"></div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Fitur Canggih</h2>
+                    <p class="section-subtitle">Semua yang Anda butuhkan untuk menguasai waktu Anda</p>
+                </div>
+
+                <div class="features__grid">
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Grid Multi-Timer</h3>
+                        <p class="feature-card__description">Jalankan beberapa timer dan stopwatch secara bersamaan dalam grid yang bersih dan responsif. Setiap jam memiliki kontrol independen — mulai, jeda, dan atur ulang secara individual.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-card__icon feature-card__icon--red">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="17 1 21 5 17 9"></polyline>
+                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                <polyline points="7 23 3 19 7 15"></polyline>
+                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Latihan Interval</h3>
+                        <p class="feature-card__description">Preset HIIT, Tabata, dan interval kustom bawaan. Buat urutan kerja/istirahat Anda sendiri untuk rutinitas latihan yang sempurna.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-card__icon feature-card__icon--purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Widget Layar Utama</h3>
+                        <p class="feature-card__description">Kontrol timer Anda langsung dari layar utama. Ukuran widget kecil, sedang, dan besar untuk menyesuaikan tata letak Anda.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-card__icon feature-card__icon--green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+                <polyline points="17 21 17 13 7 13 7 21"></polyline>
+                <polyline points="7 3 7 8 15 8"></polyline>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Manajemen Sesi</h3>
+                        <p class="feature-card__description">Simpan pengaturan timer Anda dan muat kapan saja. Ekspor sesi sebagai JSON, CSV, atau teks untuk berbagi dan pencadangan yang mudah.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Nada Dering Kustom</h3>
+                        <p class="feature-card__description">Pilih dari 7 suara alarm bawaan — dari bel sederhana hingga dering telepon vintage. Alarm berfungsi bahkan dalam Mode Senyap dengan iOS 18.2+.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Tampilan Pintar</h3>
+                        <p class="feature-card__description">Presisi centidetik, progres persentase, dan mode layar selalu menyala. Sesuaikan tampilan dan perilaku timer Anda.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section class="screenshots" id="screenshots">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Lihat Beraksi</h2>
+                    <p class="section-subtitle">Desain bersih bertemu fungsionalitas yang kuat</p>
+                </div>
+
+                <div class="screenshots__gallery">
+                    <div class="screenshots__track" id="screenshots-track">
+                        <div class="screenshot-item"><img src="../images/en/multi-timer.png" alt="Grid Multi-Timer" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/Interval.png" alt="Latihan Interval" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/widget.png" alt="Widget Layar Utama" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/session.png" alt="Manajemen Sesi" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/ringtone.png" alt="Nada Dering Kustom" loading="lazy"></div>
+                    </div>
+                </div>
+
+                <div class="screenshots__nav">
+                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section class="download" id="download">
+            <div class="container">
+                <div class="download__content">
+                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="download__icon">
+                    <h2 class="download__title">Mulai Hitung Waktu Sekarang</h2>
+                    <p class="download__description">Gratis untuk diunduh. Beberapa timer, latihan interval, dan widget — semuanya siap digunakan. Tidak perlu akun.</p>
+                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
+                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
+                    </a>
+                    <div class="download__platforms">
+                        <span class="platform-badge">Tersedia di iPhone dan iPad</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Section -->
+        <section class="privacy" id="privacy">
+            <div class="container">
+                <div class="privacy__content">
+                    <div class="privacy__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h2 class="privacy__title">Privasi Anda Penting</h2>
+                    <p class="privacy__description">Timer Saya menyimpan semua data Anda secara lokal di perangkat Anda. Tidak ada akun, tidak ada pelacakan, tidak ada pengumpulan data. Sesi timer Anda hanya milik Anda.</p>
+                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Baca Kebijakan Privasi kami</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="footer__logo">
+                    <span class="footer__name">Timer Saya</span>
+                </div>
+                <div class="footer__links">
+                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
+                    <a href="https://masawata.net/privacy-policy.html">Kebijakan Privasi</a>
+                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Ketentuan Layanan</a>
+                </div>
+                <p class="footer__copyright">© 2025 Timer Saya. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js?v=1.0"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+{
+  "lang": "hu",
+  "langName": "Magyar",
+  "appName": "Időzítőm",
+  "meta": {
+    "title": "Időzítőm - Több időzítő és stopper egy alkalmazásban",
+    "description": "Futtass több időzítőt és stoppert egyszerre. Intervallum edzés, kezdőképernyő widgetek, munkamenet-kezelés és egyéni csengőhangok. Ingyenes iPhone-ra és iPadre.",
+    "keywords": "időzítő, stopper, több időzítő, intervallum edzés, HIIT időzítő, Tabata, iOS alkalmazás, kezdőképernyő widget, visszaszámláló, timer, stopwatch"
+  },
+  "nav": {
+    "features": "Funkciók",
+    "screenshots": "Képernyőképek",
+    "download": "Letöltés"
+  },
+  "hero": {
+    "title": "Több időzítő, egy alkalmazás",
+    "description": "Futtass annyi időzítőt és stoppert, amennyire szükséged van, mindet egyszerre. Tökéletes főzéshez, edzéshez, tanuláshoz vagy bármihez, ami pontos időmérést igényel.",
+    "downloadAlt": "Letöltés az App Store-ból"
+  },
+  "features": {
+    "sectionTitle": "Hatékony funkciók",
+    "sectionSubtitle": "Minden, amire szükséged van az időd uralásához",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Multi-időzítő rács",
+        "description": "Futtass több időzítőt és stoppert egyidejűleg egy letisztult, reszponzív rácsban. Minden óra független vezérlőkkel rendelkezik — indítsd, szüneteltesd és állítsd vissza egyenként."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Intervallum edzés",
+        "description": "Beépített HIIT, Tabata és egyéni intervallum előbeállítások. Hozd létre saját munka/pihenő szekvenciáidat a tökéletes edzésrutinhoz."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Kezdőképernyő widgetek",
+        "description": "Vezéreld az időzítőidet közvetlenül a kezdőképernyőről. Kis, közepes és nagy widget-méretek az elrendezésedhez igazodva."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Munkamenet-kezelés",
+        "description": "Mentsd el az időzítő beállításaidat és töltsd be bármikor. Exportáld a munkameneteket JSON, CSV vagy szöveges formátumban az egyszerű megosztáshoz és mentéshez."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Egyéni csengőhangok",
+        "description": "Válassz 7 beépített riasztási hang közül — egyszerű csengetéstől a retro telefoncsörgésig. A riasztások még néma módban is működnek iOS 18.2+ verzióval."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Intelligens kijelző",
+        "description": "Századmásodperc pontosság, százalékos előrehaladás és képernyő bekapcsolva tartás mód. Szabd testre, hogyan nézzenek ki és viselkedjenek az időzítőid."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Nézd meg működés közben",
+    "sectionSubtitle": "Letisztult dizájn erős funkcionalitással"
+  },
+  "download": {
+    "title": "Kezdj el időt mérni most",
+    "description": "Ingyenesen letölthető. Több időzítő, intervallum edzés és widgetek — minden készen áll. Fiók nem szükséges.",
+    "platforms": "Elérhető iPhone-ra és iPadre"
+  },
+  "privacy": {
+    "title": "Az adatvédelmed fontos",
+    "description": "Az Időzítőm minden adatodat helyben, az eszközödön tárolja. Nincsenek fiókok, nincs nyomon követés, nincs adatgyűjtés. Az időzítő munkameneteid kizárólag a tieid.",
+    "link": "Olvasd el adatvédelmi irányelveinket"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "termsOfService": "Szolgáltatási feltételek",
+    "copyright": "© 2025 Időzítőm. Minden jog fenntartva."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "lang": "ko",
+  "langName": "한국어",
+  "appName": "내 타이머",
+  "meta": {
+    "title": "내 타이머 - 여러 타이머와 스톱워치를 하나의 앱에서",
+    "description": "여러 타이머와 스톱워치를 동시에 실행하세요. 인터벌 트레이닝, 홈 화면 위젯, 세션 관리, 사용자 지정 벨소리. iPhone과 iPad에서 무료.",
+    "keywords": "타이머, 스톱워치, 다중 타이머, 인터벌 트레이닝, HIIT 타이머, 타바타, iOS 앱, 홈 화면 위젯, 카운트다운 타이머, timer, stopwatch"
+  },
+  "nav": {
+    "features": "기능",
+    "screenshots": "스크린샷",
+    "download": "다운로드"
+  },
+  "hero": {
+    "title": "여러 타이머, 하나의 앱",
+    "description": "필요한 만큼 타이머와 스톱워치를 동시에 실행하세요. 요리, 운동, 공부 등 정확한 시간 측정이 필요한 모든 상황에 완벽합니다.",
+    "downloadAlt": "App Store에서 다운로드"
+  },
+  "features": {
+    "sectionTitle": "강력한 기능",
+    "sectionSubtitle": "시간을 완벽하게 관리하는 데 필요한 모든 것",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "멀티 타이머 그리드",
+        "description": "깔끔하고 반응형인 그리드에서 여러 타이머와 스톱워치를 동시에 실행하세요. 각 시계는 독립적으로 제어할 수 있어 개별적으로 시작, 일시 정지, 재설정이 가능합니다."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "인터벌 트레이닝",
+        "description": "내장된 HIIT, 타바타 및 사용자 지정 인터벌 프리셋. 완벽한 운동 루틴을 위한 나만의 운동/휴식 시퀀스를 만드세요."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "홈 화면 위젯",
+        "description": "홈 화면에서 바로 타이머를 제어하세요. 레이아웃에 맞는 소, 중, 대 위젯 크기를 제공합니다."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "세션 관리",
+        "description": "타이머 설정을 저장하고 언제든지 불러오세요. 간편한 공유와 백업을 위해 세션을 JSON, CSV 또는 텍스트로 내보내기할 수 있습니다."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "사용자 지정 벨소리",
+        "description": "간단한 벨부터 빈티지 전화 벨소리까지 7가지 내장 알림음 중에서 선택하세요. iOS 18.2+에서는 무음 모드에서도 알림이 작동합니다."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "스마트 디스플레이",
+        "description": "센티초 정밀도, 백분율 진행률, 화면 켜짐 유지 모드. 타이머의 모양과 동작을 원하는 대로 커스터마이즈하세요."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "실제 화면 보기",
+    "sectionSubtitle": "깔끔한 디자인과 강력한 기능의 만남"
+  },
+  "download": {
+    "title": "지금 시간 측정을 시작하세요",
+    "description": "무료 다운로드. 여러 타이머, 인터벌 트레이닝, 위젯이 모두 준비되어 있습니다. 계정이 필요 없습니다.",
+    "platforms": "iPhone과 iPad에서 사용 가능"
+  },
+  "privacy": {
+    "title": "개인정보 보호가 중요합니다",
+    "description": "내 타이머는 모든 데이터를 기기에 로컬로 저장합니다. 계정도, 추적도, 데이터 수집도 없습니다. 타이머 세션은 오직 여러분의 것입니다.",
+    "link": "개인정보 처리방침 읽기"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "서비스 이용약관",
+    "copyright": "© 2025 내 타이머. All rights reserved."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "lang": "fi",
+  "langName": "Suomi",
+  "appName": "Oma Ajastin",
+  "meta": {
+    "title": "Oma Ajastin - Useita ajastimia ja sekuntikelloja yhdessä sovelluksessa",
+    "description": "Käytä useita ajastimia ja sekuntikelloja samanaikaisesti. Intervalliharjoittelu, aloitusnäytön widgetit, istuntojen hallinta ja mukautetut soittoäänet. Ilmainen iPhonelle ja iPadille.",
+    "keywords": "ajastin, sekuntikello, useita ajastimia, intervalliharjoittelu, HIIT-ajastin, Tabata, iOS-sovellus, aloitusnäytön widget, lähtölaskenta-ajastin, timer, stopwatch"
+  },
+  "nav": {
+    "features": "Ominaisuudet",
+    "screenshots": "Kuvakaappaukset",
+    "download": "Lataa"
+  },
+  "hero": {
+    "title": "Useita ajastimia, yksi sovellus",
+    "description": "Käytä niin monta ajastinta ja sekuntikelloa kuin tarvitset, kaikkia samanaikaisesti. Täydellinen ruoanlaittoon, harjoitteluun, opiskeluun tai mihin tahansa, mikä vaatii tarkkaa ajanottoa.",
+    "downloadAlt": "Lataa App Storesta"
+  },
+  "features": {
+    "sectionTitle": "Tehokkaat ominaisuudet",
+    "sectionSubtitle": "Kaikki mitä tarvitset aikasi hallintaan",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Moniajastinruudukko",
+        "description": "Käytä useita ajastimia ja sekuntikelloja samanaikaisesti selkeässä, responsiivisessa ruudukossa. Jokaisella kellolla on itsenäiset ohjaimet — käynnistä, keskeytä ja nollaa erikseen."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Intervalliharjoittelu",
+        "description": "Sisäänrakennetut HIIT-, Tabata- ja mukautetut intervalliesiasetukset. Luo omat työ/lepo-sekvenssit täydelliseen harjoittelurutiiniin."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Aloitusnäytön widgetit",
+        "description": "Hallitse ajastimia suoraan aloitusnäytöltä. Pienet, keskikokoiset ja suuret widgetkoot sopivat asetteluusi."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Istuntojen hallinta",
+        "description": "Tallenna ajastinasetelmat ja lataa ne milloin tahansa. Vie istunnot JSON-, CSV- tai tekstitiedostona helppoa jakamista ja varmuuskopiointia varten."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Mukautetut soittoäänet",
+        "description": "Valitse 7 sisäänrakennetusta hälytysäänestä — yksinkertaisesta kellosta retrotyylisiin puhelinääniin. Hälytykset toimivat myös äänettömässä tilassa iOS 18.2+:n kanssa."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Älykäs näyttö",
+        "description": "Sadasosasekunnin tarkkuus, prosentuaalinen edistyminen ja näyttö päällä -tila. Mukauta ajastimiesi ulkoasua ja toimintaa."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Katso toiminnassa",
+    "sectionSubtitle": "Selkeä muotoilu yhdistyy tehokkaaseen toiminnallisuuteen"
+  },
+  "download": {
+    "title": "Aloita ajanotto nyt",
+    "description": "Ilmainen lataus. Useita ajastimia, intervalliharjoittelu ja widgetit — kaikki valmiina. Tiliä ei tarvita.",
+    "platforms": "Saatavilla iPhonelle ja iPadille"
+  },
+  "privacy": {
+    "title": "Yksityisyytesi on tärkeää",
+    "description": "Oma Ajastin tallentaa kaikki tietosi paikallisesti laitteellesi. Ei tilejä, ei seurantaa, ei tiedonkeruuta. Ajastinistuntosi ovat vain sinun.",
+    "link": "Lue tietosuojakäytäntömme"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "termsOfService": "Käyttöehdot",
+    "copyright": "© 2025 Oma Ajastin. Kaikki oikeudet pidätetään."
+  }
+}

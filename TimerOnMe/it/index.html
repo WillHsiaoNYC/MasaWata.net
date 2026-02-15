@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // Only track on production
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+        gtag('config', 'G-ZL852HY2Z4');
+      }
+    </script>
+
+    <!-- Primary Meta Tags -->
+    <title>Il Mio Timer - Più timer e cronometri in un'unica app</title>
+    <meta name="title" content="Il Mio Timer - Più timer e cronometri in un'unica app">
+    <meta name="description" content="Esegui più timer e cronometri contemporaneamente. Allenamento a intervalli, widget sulla schermata Home, gestione sessioni e suonerie personalizzate. Gratis per iPhone e iPad.">
+    <meta name="keywords" content="timer, cronometro, più timer, allenamento a intervalli, timer HIIT, Tabata, app iOS, widget schermata Home, conto alla rovescia, stopwatch, multiple timers">
+    <meta name="author" content="Weiren Hsiao">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://masawata.net/TimerOnMe/it/">
+
+    <!-- Hreflang Tags for Multi-language SEO -->
+    <link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/">
+    <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
+    <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
+    <link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/">
+    <link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/">
+    <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
+    <link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/">
+    <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
+    <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
+    <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
+    <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
+    <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
+    <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
+    <link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/">
+    <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
+    <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
+    <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
+    <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
+    <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://masawata.net/TimerOnMe/it/">
+    <meta property="og:title" content="Il Mio Timer - Più timer e cronometri in un'unica app">
+    <meta property="og:description" content="Esegui più timer e cronometri contemporaneamente. Allenamento a intervalli, widget sulla schermata Home, gestione sessioni e suonerie personalizzate. Gratis per iPhone e iPad.">
+    <meta property="og:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
+    <meta property="og:site_name" content="Il Mio Timer">
+    <meta property="og:locale" content="it_IT">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://masawata.net/TimerOnMe/it/">
+    <meta name="twitter:title" content="Il Mio Timer - Più timer e cronometri in un'unica app">
+    <meta name="twitter:description" content="Esegui più timer e cronometri contemporaneamente. Allenamento a intervalli, widget sulla schermata Home, gestione sessioni e suonerie personalizzate. Gratis per iPhone e iPad.">
+    <meta name="twitter:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
+
+    <!-- App Store Smart Banner -->
+    <meta name="apple-itunes-app" content="app-id=6746874284">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../images/TimerOnMe.png">
+    <link rel="apple-touch-icon" href="../images/TimerOnMe.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css?v=1.0">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Il Mio Timer",
+        "operatingSystem": "iOS",
+        "applicationCategory": "UtilitiesApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "description": "Esegui più timer e cronometri contemporaneamente. Allenamento a intervalli, widget sulla schermata Home, gestione sessioni e suonerie personalizzate. Gratis per iPhone e iPad.",
+        "screenshot": "https://masawata.net/TimerOnMe/images/en/Title.png",
+        "softwareVersion": "3.1",
+        "author": {
+            "@type": "Person",
+            "name": "Weiren Hsiao"
+        },
+        "inLanguage": "it"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../" class="nav__logo">
+                <img src="../images/TimerOnMe.png" alt="Timer on Me" class="nav__logo-img">
+                <span class="nav__logo-text">Il Mio Timer</span>
+            </a>
+
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#features" class="nav__link">Funzionalità</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#screenshots" class="nav__link">Schermate</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#download" class="nav__link">Scarica</a>
+                </li>
+            </ul>
+
+            <!-- Language Selector -->
+            <div class="language-selector" id="header-language-selector">
+                <button class="language-btn" aria-label="Select Language">
+                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <span class="current-lang">IT</span>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="language-dropdown">
+                    <a href="../" class="language-option">English</a>
+                    <a href="../cs/" class="language-option">Čeština</a>
+                    <a href="../da/" class="language-option">Dansk</a>
+                    <a href="../de/" class="language-option">Deutsch</a>
+                    <a href="../es/" class="language-option">Español</a>
+                    <a href="../fi/" class="language-option">Suomi</a>
+                    <a href="../fr/" class="language-option">Français</a>
+                    <a href="../hi/" class="language-option">हिन्दी</a>
+                    <a href="../hu/" class="language-option">Magyar</a>
+                    <a href="../id/" class="language-option">Indonesia</a>
+                    <a href="../it/" class="language-option active">Italiano</a>
+                    <a href="../ja/" class="language-option">日本語</a>
+                    <a href="../ko/" class="language-option">한국어</a>
+                    <a href="../nb/" class="language-option">Norsk</a>
+                    <a href="../ru/" class="language-option">Русский</a>
+                    <a href="../sk/" class="language-option">Slovenčina</a>
+                    <a href="../sv/" class="language-option">Svenska</a>
+                    <a href="../vi/" class="language-option">Tiếng Việt</a>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <img src="../images/TimerOnMe.png" alt="Timer on Me App Icon" class="hero__icon">
+                    <h1 class="hero__title">Più timer, un'unica app</h1>
+                    <p class="hero__description">Esegui tutti i timer e cronometri di cui hai bisogno, tutti contemporaneamente. Perfetto per cucinare, allenarsi, studiare o qualsiasi attività che richieda un cronometraggio preciso.</p>
+                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
+                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Scarica dall'App Store" class="app-store-badge">
+                    </a>
+                </div>
+                <div class="hero__device">
+                    <div class="device-frame">
+                        <img src="../images/en/Title.png" alt="Timer on Me Screenshot" class="device-screen">
+                    </div>
+                </div>
+            </div>
+            <div class="hero__gradient"></div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Funzionalità potenti</h2>
+                    <p class="section-subtitle">Tutto ciò di cui hai bisogno per padroneggiare il tuo tempo</p>
+                </div>
+
+                <div class="features__grid">
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Griglia multi-timer</h3>
+                        <p class="feature-card__description">Esegui più timer e cronometri contemporaneamente in una griglia pulita e reattiva. Ogni orologio ha controlli indipendenti: avvia, metti in pausa e reimposta singolarmente.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-card__icon feature-card__icon--red">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="17 1 21 5 17 9"></polyline>
+                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                <polyline points="7 23 3 19 7 15"></polyline>
+                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Allenamento a intervalli</h3>
+                        <p class="feature-card__description">Preset integrati per HIIT, Tabata e intervalli personalizzati. Crea le tue sequenze lavoro/riposo per la routine di allenamento perfetta.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-card__icon feature-card__icon--purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Widget schermata Home</h3>
+                        <p class="feature-card__description">Controlla i tuoi timer direttamente dalla schermata Home. Widget in formato piccolo, medio e grande per adattarsi al tuo layout.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-card__icon feature-card__icon--green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+                <polyline points="17 21 17 13 7 13 7 21"></polyline>
+                <polyline points="7 3 7 8 15 8"></polyline>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Gestione sessioni</h3>
+                        <p class="feature-card__description">Salva le configurazioni dei tuoi timer e caricale in qualsiasi momento. Esporta le sessioni in JSON, CSV o testo per una facile condivisione e backup.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Suonerie personalizzate</h3>
+                        <p class="feature-card__description">Scegli tra 7 suoni di allarme integrati — da un semplice campanello a squilli di telefono vintage. Gli allarmi funzionano anche in modalità silenziosa con iOS 18.2+.</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Display intelligente</h3>
+                        <p class="feature-card__description">Precisione al centesimo di secondo, avanzamento percentuale e modalità schermo sempre acceso. Personalizza l'aspetto e il comportamento dei tuoi timer.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section class="screenshots" id="screenshots">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Guardalo in azione</h2>
+                    <p class="section-subtitle">Design pulito incontra funzionalità potente</p>
+                </div>
+
+                <div class="screenshots__gallery">
+                    <div class="screenshots__track" id="screenshots-track">
+                        <div class="screenshot-item"><img src="../images/en/multi-timer.png" alt="Griglia multi-timer" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/Interval.png" alt="Allenamento a intervalli" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/widget.png" alt="Widget schermata Home" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/session.png" alt="Gestione sessioni" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/ringtone.png" alt="Suonerie personalizzate" loading="lazy"></div>
+                    </div>
+                </div>
+
+                <div class="screenshots__nav">
+                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section class="download" id="download">
+            <div class="container">
+                <div class="download__content">
+                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="download__icon">
+                    <h2 class="download__title">Inizia a cronometrare ora</h2>
+                    <p class="download__description">Download gratuito. Più timer, allenamento a intervalli e widget — tutto pronto all'uso. Nessun account richiesto.</p>
+                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
+                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
+                    </a>
+                    <div class="download__platforms">
+                        <span class="platform-badge">Disponibile su iPhone e iPad</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Section -->
+        <section class="privacy" id="privacy">
+            <div class="container">
+                <div class="privacy__content">
+                    <div class="privacy__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h2 class="privacy__title">La tua privacy è importante</h2>
+                    <p class="privacy__description">Il Mio Timer conserva tutti i tuoi dati localmente sul tuo dispositivo. Nessun account, nessun tracciamento, nessuna raccolta dati. Le tue sessioni timer sono solo tue.</p>
+                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Leggi la nostra informativa sulla privacy</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="footer__logo">
+                    <span class="footer__name">Il Mio Timer</span>
+                </div>
+                <div class="footer__links">
+                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
+                    <a href="https://masawata.net/privacy-policy.html">Informativa sulla privacy</a>
+                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Termini di servizio</a>
+                </div>
+                <p class="footer__copyright">© 2025 Il Mio Timer. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js?v=1.0"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+{
+  "lang": "it",
+  "langName": "Italiano",
+  "appName": "Il Mio Timer",
+  "meta": {
+    "title": "Il Mio Timer - Più timer e cronometri in un'unica app",
+    "description": "Esegui più timer e cronometri contemporaneamente. Allenamento a intervalli, widget sulla schermata Home, gestione sessioni e suonerie personalizzate. Gratis per iPhone e iPad.",
+    "keywords": "timer, cronometro, più timer, allenamento a intervalli, timer HIIT, Tabata, app iOS, widget schermata Home, conto alla rovescia, stopwatch, multiple timers"
+  },
+  "nav": {
+    "features": "Funzionalità",
+    "screenshots": "Schermate",
+    "download": "Scarica"
+  },
+  "hero": {
+    "title": "Più timer, un'unica app",
+    "description": "Esegui tutti i timer e cronometri di cui hai bisogno, tutti contemporaneamente. Perfetto per cucinare, allenarsi, studiare o qualsiasi attività che richieda un cronometraggio preciso.",
+    "downloadAlt": "Scarica dall'App Store"
+  },
+  "features": {
+    "sectionTitle": "Funzionalità potenti",
+    "sectionSubtitle": "Tutto ciò di cui hai bisogno per padroneggiare il tuo tempo",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Griglia multi-timer",
+        "description": "Esegui più timer e cronometri contemporaneamente in una griglia pulita e reattiva. Ogni orologio ha controlli indipendenti: avvia, metti in pausa e reimposta singolarmente."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Allenamento a intervalli",
+        "description": "Preset integrati per HIIT, Tabata e intervalli personalizzati. Crea le tue sequenze lavoro/riposo per la routine di allenamento perfetta."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Widget schermata Home",
+        "description": "Controlla i tuoi timer direttamente dalla schermata Home. Widget in formato piccolo, medio e grande per adattarsi al tuo layout."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Gestione sessioni",
+        "description": "Salva le configurazioni dei tuoi timer e caricale in qualsiasi momento. Esporta le sessioni in JSON, CSV o testo per una facile condivisione e backup."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Suonerie personalizzate",
+        "description": "Scegli tra 7 suoni di allarme integrati — da un semplice campanello a squilli di telefono vintage. Gli allarmi funzionano anche in modalità silenziosa con iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Display intelligente",
+        "description": "Precisione al centesimo di secondo, avanzamento percentuale e modalità schermo sempre acceso. Personalizza l'aspetto e il comportamento dei tuoi timer."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Guardalo in azione",
+    "sectionSubtitle": "Design pulito incontra funzionalità potente"
+  },
+  "download": {
+    "title": "Inizia a cronometrare ora",
+    "description": "Download gratuito. Più timer, allenamento a intervalli e widget — tutto pronto all'uso. Nessun account richiesto.",
+    "platforms": "Disponibile su iPhone e iPad"
+  },
+  "privacy": {
+    "title": "La tua privacy è importante",
+    "description": "Il Mio Timer conserva tutti i tuoi dati localmente sul tuo dispositivo. Nessun account, nessun tracciamento, nessuna raccolta dati. Le tue sessioni timer sono solo tue.",
+    "link": "Leggi la nostra informativa sulla privacy"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Informativa sulla privacy",
+    "termsOfService": "Termini di servizio",
+    "copyright": "© 2025 Il Mio Timer. Tutti i diritti riservati."
+  }
+}

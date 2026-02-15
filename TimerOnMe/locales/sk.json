@@ -1,0 +1,82 @@
+{
+  "lang": "sk",
+  "langName": "Slovenčina",
+  "appName": "Môj Časovač",
+  "meta": {
+    "title": "Môj Časovač - Viacero časovačov a stopiek v jednej aplikácii",
+    "description": "Spúšťajte viacero časovačov a stopiek súčasne. Intervalový tréning, widgety na domovskej obrazovke, správa relácií a vlastné zvonenia. Zadarmo pre iPhone a iPad.",
+    "keywords": "časovač, stopky, viacero časovačov, intervalový tréning, HIIT časovač, Tabata, iOS aplikácia, widget na domovskej obrazovke, odpočítavací časovač, timer, stopwatch"
+  },
+  "nav": {
+    "features": "Funkcie",
+    "screenshots": "Snímky obrazovky",
+    "download": "Stiahnuť"
+  },
+  "hero": {
+    "title": "Viacero časovačov, jedna aplikácia",
+    "description": "Spúšťajte toľko časovačov a stopiek, koľko potrebujete, a to všetky naraz. Ideálne na varenie, cvičenie, štúdium alebo čokoľvek, čo vyžaduje presné meranie času.",
+    "downloadAlt": "Stiahnuť z App Store"
+  },
+  "features": {
+    "sectionTitle": "Výkonné funkcie",
+    "sectionSubtitle": "Všetko, čo potrebujete na ovládnutie svojho času",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Mriežka viacerých časovačov",
+        "description": "Spúšťajte viacero časovačov a stopiek súčasne v prehľadnej, responzívnej mriežke. Každý časovač má nezávislé ovládanie — spúšťajte, pozastavujte a resetujte jednotlivo."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Intervalový tréning",
+        "description": "Vstavané predvoľby HIIT, Tabata a vlastné intervaly. Vytvorte si vlastné sekvencie práce/odpočinku pre dokonalú tréningovú rutinu."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Widgety na domovskej obrazovke",
+        "description": "Ovládajte svoje časovače priamo z domovskej obrazovky. Malé, stredné a veľké widgety, ktoré sa prispôsobia vášmu rozloženiu."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Správa relácií",
+        "description": "Uložte si nastavenia časovačov a načítajte ich kedykoľvek. Exportujte relácie ako JSON, CSV alebo text na jednoduché zdieľanie a zálohovanie."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Vlastné zvonenia",
+        "description": "Vyberte si zo 7 vstavaných zvukov alarmu — od jednoduchého zvončeka po retro telefónne zvonenie. Alarmy fungujú aj v tichom režime s iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Inteligentný displej",
+        "description": "Presnosť na stotiny sekundy, percentuálny priebeh a režim stáleho zobrazenia. Prispôsobte si vzhľad a správanie svojich časovačov."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Pozrite sa na to v akcii",
+    "sectionSubtitle": "Čistý dizajn spojený s výkonnou funkčnosťou"
+  },
+  "download": {
+    "title": "Začnite merať čas",
+    "description": "Na stiahnutie zadarmo. Viacero časovačov, intervalový tréning a widgety — všetko pripravené na použitie. Nevyžaduje účet.",
+    "platforms": "Dostupné pre iPhone a iPad"
+  },
+  "privacy": {
+    "title": "Na vašom súkromí záleží",
+    "description": "Môj Časovač uchováva všetky vaše dáta lokálne vo vašom zariadení. Žiadne účty, žiadne sledovanie, žiadny zber dát. Vaše relácie časovačov patria len vám.",
+    "link": "Prečítajte si naše zásady ochrany osobných údajov"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Zásady ochrany osobných údajov",
+    "termsOfService": "Podmienky služby",
+    "copyright": "© 2025 Môj Časovač. Všetky práva vyhradené."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "lang": "nb",
+  "langName": "Norsk Bokmål",
+  "appName": "Min Timer",
+  "meta": {
+    "title": "Min Timer - Flere tidtakere og stoppeklokker i én app",
+    "description": "Kjør flere tidtakere og stoppeklokker samtidig. Intervalltrening, hjemmeskjerm-widgeter, øktadministrasjon og egendefinerte ringetoner. Gratis for iPhone og iPad.",
+    "keywords": "tidtaker, stoppeklokke, flere tidtakere, intervalltrening, HIIT-tidtaker, Tabata, iOS-app, hjemmeskjerm-widget, nedtellingstidtaker, timer, stopwatch"
+  },
+  "nav": {
+    "features": "Funksjoner",
+    "screenshots": "Skjermbilder",
+    "download": "Last ned"
+  },
+  "hero": {
+    "title": "Flere tidtakere, én app",
+    "description": "Kjør så mange tidtakere og stoppeklokker du trenger, alle samtidig. Perfekt for matlaging, trening, studier eller alt som krever presis timing.",
+    "downloadAlt": "Last ned fra App Store"
+  },
+  "features": {
+    "sectionTitle": "Kraftige funksjoner",
+    "sectionSubtitle": "Alt du trenger for å mestre tiden din",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Multi-tidtaker-rutenett",
+        "description": "Kjør flere tidtakere og stoppeklokker samtidig i et rent, responsivt rutenett. Hver klokke har uavhengige kontroller — start, pause og tilbakestill individuelt."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Intervalltrening",
+        "description": "Innebygde HIIT-, Tabata- og egendefinerte intervallforhåndsinnstillinger. Opprett dine egne jobb/hvile-sekvenser for den perfekte treningsrutinen."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Hjemmeskjerm-widgeter",
+        "description": "Kontroller tidtakerne dine rett fra hjemmeskjermen. Små, mellomstore og store widgetstørrelser som passer til oppsettet ditt."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Øktadministrasjon",
+        "description": "Lagre tidtakeroppsettene dine og last dem inn når som helst. Eksporter økter som JSON, CSV eller tekst for enkel deling og sikkerhetskopiering."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Egendefinerte ringetoner",
+        "description": "Velg mellom 7 innebygde alarmlyder — fra en enkel bjelle til vintage telefonringer. Alarmer fungerer selv i stillemodus med iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Smart visning",
+        "description": "Centisekund-presisjon, prosentvis fremgang og hold-skjermen-på-modus. Tilpass hvordan tidtakerne dine ser ut og oppfører seg."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Se den i aksjon",
+    "sectionSubtitle": "Rent design møter kraftig funksjonalitet"
+  },
+  "download": {
+    "title": "Begynn å ta tiden nå",
+    "description": "Gratis å laste ned. Flere tidtakere, intervalltrening og widgeter — alt klart til bruk. Ingen konto nødvendig.",
+    "platforms": "Tilgjengelig for iPhone og iPad"
+  },
+  "privacy": {
+    "title": "Personvernet ditt betyr noe",
+    "description": "Min Timer lagrer alle dataene dine lokalt på enheten din. Ingen kontoer, ingen sporing, ingen datainnsamling. Tidtakerøktene dine tilhører bare deg.",
+    "link": "Les personvernerklæringen vår"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Personvernerklæring",
+    "termsOfService": "Tjenestevilkår",
+    "copyright": "© 2025 Min Timer. Alle rettigheter forbeholdt."
+  }
+}

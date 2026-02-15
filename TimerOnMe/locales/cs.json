@@ -1,0 +1,82 @@
+{
+  "lang": "cs",
+  "langName": "Čeština",
+  "appName": "Můj Časovač",
+  "meta": {
+    "title": "Můj Časovač - Více časovačů a stopek v jedné aplikaci",
+    "description": "Spouštějte více časovačů a stopek současně. Intervalový trénink, widgety na domovské obrazovce, správa relací a vlastní vyzvánění. Zdarma pro iPhone a iPad.",
+    "keywords": "časovač, stopky, více časovačů, intervalový trénink, HIIT časovač, Tabata, iOS aplikace, widget na domovské obrazovce, odpočítávací časovač, timer, stopwatch"
+  },
+  "nav": {
+    "features": "Funkce",
+    "screenshots": "Snímky obrazovky",
+    "download": "Stáhnout"
+  },
+  "hero": {
+    "title": "Více časovačů, jedna aplikace",
+    "description": "Spouštějte tolik časovačů a stopek, kolik potřebujete, a to všechny najednou. Ideální pro vaření, cvičení, studium nebo cokoli, co vyžaduje přesné měření času.",
+    "downloadAlt": "Stáhnout na App Store"
+  },
+  "features": {
+    "sectionTitle": "Výkonné funkce",
+    "sectionSubtitle": "Vše, co potřebujete k ovládnutí svého času",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Mřížka více časovačů",
+        "description": "Spouštějte více časovačů a stopek současně v přehledné, responzivní mřížce. Každý časovač má nezávislé ovládání — spouštějte, pozastavujte a resetujte jednotlivě."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Intervalový trénink",
+        "description": "Vestavěné předvolby HIIT, Tabata a vlastní intervaly. Vytvořte si vlastní sekvence práce/odpočinku pro dokonalou tréninkovú rutinu."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Widgety na domovské obrazovce",
+        "description": "Ovládejte své časovače přímo z domovské obrazovky. Malé, střední a velké widgety, které se přizpůsobí vašemu rozložení."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Správa relací",
+        "description": "Uložte si nastavení časovačů a načtěte je kdykoli. Exportujte relace jako JSON, CSV nebo text pro snadné sdílení a zálohování."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Vlastní vyzvánění",
+        "description": "Vyberte si ze 7 vestavěných zvuků alarmu — od jednoduchého zvonku po retro telefonní vyzvánění. Alarmy fungují i v tichém režimu s iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Chytrý displej",
+        "description": "Přesnost na setiny sekundy, procentuální průběh a režim stálého zobrazení. Přizpůsobte si vzhled a chování svých časovačů."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Podívejte se na to v akci",
+    "sectionSubtitle": "Čistý design spojený s výkonnou funkčností"
+  },
+  "download": {
+    "title": "Začněte měřit čas",
+    "description": "Ke stažení zdarma. Více časovačů, intervalový trénink a widgety — vše připraveno k použití. Nevyžaduje účet.",
+    "platforms": "Dostupné pro iPhone a iPad"
+  },
+  "privacy": {
+    "title": "Na vašem soukromí záleží",
+    "description": "Můj Časovač uchovává všechna vaše data lokálně ve vašem zařízení. Žádné účty, žádné sledování, žádný sběr dat. Vaše relace časovačů patří jen vám.",
+    "link": "Přečtěte si naše zásady ochrany osobních údajů"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Zásady ochrany osobních údajů",
+    "termsOfService": "Podmínky služby",
+    "copyright": "© 2025 Můj Časovač. Všechna práva vyhrazena."
+  }
+}

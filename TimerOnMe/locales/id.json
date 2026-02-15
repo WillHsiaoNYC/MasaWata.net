@@ -1,0 +1,82 @@
+{
+  "lang": "id",
+  "langName": "Bahasa Indonesia",
+  "appName": "Timer Saya",
+  "meta": {
+    "title": "Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi",
+    "description": "Jalankan beberapa timer dan stopwatch secara bersamaan. Latihan interval, widget layar utama, manajemen sesi, dan nada dering kustom. Gratis untuk iPhone dan iPad.",
+    "keywords": "timer, stopwatch, beberapa timer, latihan interval, timer HIIT, Tabata, aplikasi iOS, widget layar utama, timer hitung mundur, multiple timers, countdown timer"
+  },
+  "nav": {
+    "features": "Fitur",
+    "screenshots": "Tangkapan Layar",
+    "download": "Unduh"
+  },
+  "hero": {
+    "title": "Beberapa Timer, Satu Aplikasi",
+    "description": "Jalankan sebanyak mungkin timer dan stopwatch yang Anda butuhkan, semuanya sekaligus. Sempurna untuk memasak, olahraga, belajar, atau apa pun yang memerlukan pengaturan waktu yang tepat.",
+    "downloadAlt": "Unduh di App Store"
+  },
+  "features": {
+    "sectionTitle": "Fitur Canggih",
+    "sectionSubtitle": "Semua yang Anda butuhkan untuk menguasai waktu Anda",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Grid Multi-Timer",
+        "description": "Jalankan beberapa timer dan stopwatch secara bersamaan dalam grid yang bersih dan responsif. Setiap jam memiliki kontrol independen — mulai, jeda, dan atur ulang secara individual."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Latihan Interval",
+        "description": "Preset HIIT, Tabata, dan interval kustom bawaan. Buat urutan kerja/istirahat Anda sendiri untuk rutinitas latihan yang sempurna."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Widget Layar Utama",
+        "description": "Kontrol timer Anda langsung dari layar utama. Ukuran widget kecil, sedang, dan besar untuk menyesuaikan tata letak Anda."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Manajemen Sesi",
+        "description": "Simpan pengaturan timer Anda dan muat kapan saja. Ekspor sesi sebagai JSON, CSV, atau teks untuk berbagi dan pencadangan yang mudah."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Nada Dering Kustom",
+        "description": "Pilih dari 7 suara alarm bawaan — dari bel sederhana hingga dering telepon vintage. Alarm berfungsi bahkan dalam Mode Senyap dengan iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Tampilan Pintar",
+        "description": "Presisi centidetik, progres persentase, dan mode layar selalu menyala. Sesuaikan tampilan dan perilaku timer Anda."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Lihat Beraksi",
+    "sectionSubtitle": "Desain bersih bertemu fungsionalitas yang kuat"
+  },
+  "download": {
+    "title": "Mulai Hitung Waktu Sekarang",
+    "description": "Gratis untuk diunduh. Beberapa timer, latihan interval, dan widget — semuanya siap digunakan. Tidak perlu akun.",
+    "platforms": "Tersedia di iPhone dan iPad"
+  },
+  "privacy": {
+    "title": "Privasi Anda Penting",
+    "description": "Timer Saya menyimpan semua data Anda secara lokal di perangkat Anda. Tidak ada akun, tidak ada pelacakan, tidak ada pengumpulan data. Sesi timer Anda hanya milik Anda.",
+    "link": "Baca Kebijakan Privasi kami"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan",
+    "copyright": "© 2025 Timer Saya. Semua hak dilindungi."
+  }
+}

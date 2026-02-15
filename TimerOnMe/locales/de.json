@@ -1,0 +1,82 @@
+{
+  "lang": "de",
+  "langName": "Deutsch",
+  "appName": "Mein Timer",
+  "meta": {
+    "title": "Mein Timer - Mehrere Timer und Stoppuhren in einer App",
+    "description": "Mehrere Timer und Stoppuhren gleichzeitig laufen lassen. Intervalltraining, Homescreen-Widgets, Sitzungsverwaltung und individuelle Klingeltöne. Kostenlos für iPhone und iPad.",
+    "keywords": "Timer, Stoppuhr, mehrere Timer, Intervalltraining, HIIT-Timer, Tabata, iOS-App, Homescreen-Widget, Countdown-Timer, stopwatch, multiple timers"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "screenshots": "Screenshots",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Mehrere Timer, eine App",
+    "description": "Starte so viele Timer und Stoppuhren wie nötig, alle gleichzeitig. Perfekt zum Kochen, Trainieren, Lernen oder für alles, was präzises Timing erfordert.",
+    "downloadAlt": "Im App Store laden"
+  },
+  "features": {
+    "sectionTitle": "Leistungsstarke Funktionen",
+    "sectionSubtitle": "Alles, was du brauchst, um deine Zeit zu meistern",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Multi-Timer-Raster",
+        "description": "Mehrere Timer und Stoppuhren gleichzeitig in einem übersichtlichen, responsiven Raster ausführen. Jeder Timer hat unabhängige Steuerungen — einzeln starten, pausieren und zurücksetzen."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Intervalltraining",
+        "description": "Integrierte HIIT-, Tabata- und benutzerdefinierte Intervall-Voreinstellungen. Erstelle eigene Arbeits-/Ruhesequenzen für die perfekte Trainingsroutine."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Homescreen-Widgets",
+        "description": "Steuere deine Timer direkt vom Homescreen aus. Kleine, mittlere und große Widget-Größen für dein individuelles Layout."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Sitzungsverwaltung",
+        "description": "Speichere deine Timer-Konfigurationen und lade sie jederzeit. Exportiere Sitzungen als JSON, CSV oder Text zum einfachen Teilen und Sichern."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Individuelle Klingeltöne",
+        "description": "Wähle aus 7 integrierten Alarmtönen — von einer einfachen Glocke bis hin zu Vintage-Telefonklingeln. Alarme funktionieren auch im Lautlosmodus mit iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Intelligente Anzeige",
+        "description": "Zentisekunden-Präzision, prozentuale Fortschrittsanzeige und ein Bildschirm-an-Modus. Passe das Aussehen und Verhalten deiner Timer an."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Sieh es in Aktion",
+    "sectionSubtitle": "Klares Design trifft auf leistungsstarke Funktionalität"
+  },
+  "download": {
+    "title": "Jetzt mit dem Timing beginnen",
+    "description": "Kostenlos herunterladen. Mehrere Timer, Intervalltraining und Widgets — alles sofort einsatzbereit. Kein Konto erforderlich.",
+    "platforms": "Verfügbar für iPhone und iPad"
+  },
+  "privacy": {
+    "title": "Deine Privatsphäre ist wichtig",
+    "description": "Mein Timer speichert alle deine Daten lokal auf deinem Gerät. Keine Konten, kein Tracking, keine Datenerfassung. Deine Timer-Sitzungen gehören nur dir.",
+    "link": "Lies unsere Datenschutzrichtlinie"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "copyright": "© 2025 Mein Timer. Alle Rechte vorbehalten."
+  }
+}

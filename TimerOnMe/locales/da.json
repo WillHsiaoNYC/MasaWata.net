@@ -1,0 +1,82 @@
+{
+  "lang": "da",
+  "langName": "Dansk",
+  "appName": "Min Timer",
+  "meta": {
+    "title": "Min Timer - Flere timere og stopure i én app",
+    "description": "Kør flere timere og stopure samtidigt. Intervaltræning, widgets på hjemmeskærmen, sessionsstyring og brugerdefinerede ringetoner. Gratis til iPhone og iPad.",
+    "keywords": "timer, stopur, flere timere, intervaltræning, HIIT-timer, Tabata, iOS-app, hjemmeskærm-widget, nedtællingstimer, stopwatch, countdown timer"
+  },
+  "nav": {
+    "features": "Funktioner",
+    "screenshots": "Skærmbilleder",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Flere timere, én app",
+    "description": "Kør så mange timere og stopure, som du har brug for, alle på én gang. Perfekt til madlavning, træning, læsning eller alt, der kræver præcis timing.",
+    "downloadAlt": "Download fra App Store"
+  },
+  "features": {
+    "sectionTitle": "Kraftfulde funktioner",
+    "sectionSubtitle": "Alt du behøver for at mestre din tid",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Multi-timer-gitter",
+        "description": "Kør flere timere og stopure samtidigt i et rent, responsivt gitter. Hver timer har uafhængige kontroller — start, pause og nulstil individuelt."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Intervaltræning",
+        "description": "Indbyggede HIIT-, Tabata- og brugerdefinerede intervalforudindstillinger. Opret dine egne arbejds-/hvilesekvenser til den perfekte træningsrutine."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Hjemmeskærm-widgets",
+        "description": "Styr dine timere direkte fra din hjemmeskærm. Små, mellemstore og store widgetstørrelser, der passer til dit layout."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Sessionsstyring",
+        "description": "Gem dine timeropsætninger og indlæs dem når som helst. Eksportér sessioner som JSON, CSV eller tekst for nem deling og sikkerhedskopiering."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Brugerdefinerede ringetoner",
+        "description": "Vælg mellem 7 indbyggede alarmtoner — fra en simpel klokke til vintage telefonringninger. Alarmer virker selv i lydløs tilstand med iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Smart visning",
+        "description": "Centisekund-præcision, procentvis fremgang og en hold-skærmen-tændt-tilstand. Tilpas hvordan dine timere ser ud og opfører sig."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Se det i aktion",
+    "sectionSubtitle": "Rent design møder kraftfuld funktionalitet"
+  },
+  "download": {
+    "title": "Begynd at tage tid nu",
+    "description": "Gratis at downloade. Flere timere, intervaltræning og widgets — alt klar til brug. Ingen konto nødvendig.",
+    "platforms": "Tilgængelig til iPhone og iPad"
+  },
+  "privacy": {
+    "title": "Dit privatliv er vigtigt",
+    "description": "Min Timer gemmer alle dine data lokalt på din enhed. Ingen konti, ingen sporing, ingen dataindsamling. Dine timersessioner tilhører kun dig.",
+    "link": "Læs vores privatlivspolitik"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Privatlivspolitik",
+    "termsOfService": "Servicevilkår",
+    "copyright": "© 2025 Min Timer. Alle rettigheder forbeholdes."
+  }
+}

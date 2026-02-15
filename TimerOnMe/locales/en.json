@@ -1,0 +1,82 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "appName": "Timer on Me",
+  "meta": {
+    "title": "Timer on Me - Multiple Timers & Stopwatches in One App",
+    "description": "Run multiple timers and stopwatches simultaneously. Interval training, home screen widgets, session management, and custom ringtones. Free for iPhone and iPad.",
+    "keywords": "timer, stopwatch, multiple timers, interval training, HIIT timer, Tabata, iOS app, home screen widget, countdown timer"
+  },
+  "nav": {
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Multiple Timers, One App",
+    "description": "Run as many timers and stopwatches as you need, all at once. Perfect for cooking, workouts, studying, or anything that needs precise timing.",
+    "downloadAlt": "Download on the App Store"
+  },
+  "features": {
+    "sectionTitle": "Powerful Features",
+    "sectionSubtitle": "Everything you need to master your time",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Multi-Timer Grid",
+        "description": "Run multiple timers and stopwatches simultaneously in a clean, responsive grid. Each clock has independent controls—start, pause, and reset individually."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Interval Training",
+        "description": "Built-in HIIT, Tabata, and custom interval presets. Create your own work/rest sequences for the perfect workout routine."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Home Screen Widgets",
+        "description": "Control your timers right from your home screen. Small, medium, and large widget sizes to fit your layout."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Session Management",
+        "description": "Save your timer setups and load them anytime. Export sessions as JSON, CSV, or text for easy sharing and backup."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Custom Ringtones",
+        "description": "Choose from 7 built-in alarm sounds—from a simple bell to vintage phone rings. Alarms work even in Silent Mode with iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Smart Display",
+        "description": "Centisecond precision, percentage progress, and a keep-screen-on mode. Customize how your timers look and behave."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "See It In Action",
+    "sectionSubtitle": "Clean design meets powerful functionality"
+  },
+  "download": {
+    "title": "Start Timing Now",
+    "description": "Free to download. Multiple timers, interval training, and widgets—all ready to go. No account required.",
+    "platforms": "Available on iPhone and iPad"
+  },
+  "privacy": {
+    "title": "Your Privacy Matters",
+    "description": "Timer on Me stores all your data locally on your device. No accounts, no tracking, no data collection. Your timer sessions are yours alone.",
+    "link": "Read our Privacy Policy"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2025 Timer on Me. All rights reserved."
+  }
+}

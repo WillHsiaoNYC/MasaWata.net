@@ -1,0 +1,82 @@
+{
+  "lang": "fr",
+  "langName": "Français",
+  "appName": "Mon Chrono",
+  "meta": {
+    "title": "Mon Chrono - Plusieurs minuteurs et chronomètres dans une seule app",
+    "description": "Lancez plusieurs minuteurs et chronomètres simultanément. Entraînement par intervalles, widgets sur l'écran d'accueil, gestion des sessions et sonneries personnalisées. Gratuit pour iPhone et iPad.",
+    "keywords": "minuteur, chronomètre, plusieurs minuteurs, entraînement par intervalles, minuteur HIIT, Tabata, app iOS, widget écran d'accueil, compte à rebours, timer, stopwatch"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "screenshots": "Captures d'écran",
+    "download": "Télécharger"
+  },
+  "hero": {
+    "title": "Plusieurs minuteurs, une seule app",
+    "description": "Lancez autant de minuteurs et chronomètres que nécessaire, tous en même temps. Parfait pour la cuisine, le sport, les études ou tout ce qui nécessite un chronométrage précis.",
+    "downloadAlt": "Télécharger sur l'App Store"
+  },
+  "features": {
+    "sectionTitle": "Fonctionnalités puissantes",
+    "sectionSubtitle": "Tout ce dont vous avez besoin pour maîtriser votre temps",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Grille multi-minuteurs",
+        "description": "Exécutez plusieurs minuteurs et chronomètres simultanément dans une grille claire et réactive. Chaque horloge dispose de commandes indépendantes — démarrez, mettez en pause et réinitialisez individuellement."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Entraînement par intervalles",
+        "description": "Préréglages intégrés HIIT, Tabata et intervalles personnalisés. Créez vos propres séquences travail/repos pour la routine d'entraînement parfaite."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Widgets d'écran d'accueil",
+        "description": "Contrôlez vos minuteurs directement depuis votre écran d'accueil. Tailles de widgets petites, moyennes et grandes pour s'adapter à votre disposition."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Gestion des sessions",
+        "description": "Enregistrez vos configurations de minuteurs et rechargez-les à tout moment. Exportez les sessions en JSON, CSV ou texte pour un partage et une sauvegarde faciles."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Sonneries personnalisées",
+        "description": "Choisissez parmi 7 sons d'alarme intégrés — d'une simple cloche aux sonneries de téléphone vintage. Les alarmes fonctionnent même en mode silencieux avec iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Affichage intelligent",
+        "description": "Précision au centième de seconde, progression en pourcentage et mode écran toujours allumé. Personnalisez l'apparence et le comportement de vos minuteurs."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Voyez-le en action",
+    "sectionSubtitle": "Un design épuré allié à une fonctionnalité puissante"
+  },
+  "download": {
+    "title": "Commencez à chronométrer",
+    "description": "Téléchargement gratuit. Plusieurs minuteurs, entraînement par intervalles et widgets — tout est prêt. Aucun compte requis.",
+    "platforms": "Disponible sur iPhone et iPad"
+  },
+  "privacy": {
+    "title": "Votre vie privée compte",
+    "description": "Mon Chrono stocke toutes vos données localement sur votre appareil. Pas de comptes, pas de suivi, pas de collecte de données. Vos sessions de minuteurs n'appartiennent qu'à vous.",
+    "link": "Lire notre politique de confidentialité"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "copyright": "© 2025 Mon Chrono. Tous droits réservés."
+  }
+}

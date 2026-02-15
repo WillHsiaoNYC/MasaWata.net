@@ -1,0 +1,82 @@
+{
+  "lang": "vi",
+  "langName": "Tiếng Việt",
+  "appName": "Bộ Hẹn Giờ",
+  "meta": {
+    "title": "Bộ Hẹn Giờ - Nhiều bộ hẹn giờ và đồng hồ bấm giờ trong một ứng dụng",
+    "description": "Chạy nhiều bộ hẹn giờ và đồng hồ bấm giờ cùng lúc. Tập luyện theo chu kỳ, widget màn hình chính, quản lý phiên và nhạc chuông tùy chỉnh. Miễn phí cho iPhone và iPad.",
+    "keywords": "bộ hẹn giờ, đồng hồ bấm giờ, nhiều bộ hẹn giờ, tập luyện theo chu kỳ, hẹn giờ HIIT, Tabata, ứng dụng iOS, widget màn hình chính, đếm ngược, timer, stopwatch"
+  },
+  "nav": {
+    "features": "Tính năng",
+    "screenshots": "Ảnh chụp màn hình",
+    "download": "Tải xuống"
+  },
+  "hero": {
+    "title": "Nhiều bộ hẹn giờ, một ứng dụng",
+    "description": "Chạy bao nhiêu bộ hẹn giờ và đồng hồ bấm giờ tùy thích, tất cả cùng một lúc. Hoàn hảo cho nấu ăn, tập luyện, học tập hoặc bất cứ điều gì cần tính thời gian chính xác.",
+    "downloadAlt": "Tải xuống trên App Store"
+  },
+  "features": {
+    "sectionTitle": "Tính năng mạnh mẽ",
+    "sectionSubtitle": "Tất cả những gì bạn cần để làm chủ thời gian",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Lưới đa hẹn giờ",
+        "description": "Chạy nhiều bộ hẹn giờ và đồng hồ bấm giờ cùng lúc trong một lưới gọn gàng, linh hoạt. Mỗi đồng hồ có điều khiển độc lập — bắt đầu, tạm dừng và đặt lại riêng từng cái."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Tập luyện theo chu kỳ",
+        "description": "Cài đặt sẵn HIIT, Tabata và chu kỳ tùy chỉnh tích hợp. Tạo chuỗi tập/nghỉ của riêng bạn cho lịch tập hoàn hảo."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Widget màn hình chính",
+        "description": "Điều khiển bộ hẹn giờ ngay từ màn hình chính. Kích thước widget nhỏ, vừa và lớn phù hợp với bố cục của bạn."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Quản lý phiên",
+        "description": "Lưu cấu hình hẹn giờ và tải lại bất cứ lúc nào. Xuất phiên dưới dạng JSON, CSV hoặc văn bản để chia sẻ và sao lưu dễ dàng."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Nhạc chuông tùy chỉnh",
+        "description": "Chọn từ 7 âm báo thức tích hợp — từ tiếng chuông đơn giản đến nhạc chuông điện thoại cổ điển. Báo thức hoạt động ngay cả ở Chế độ im lặng với iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Màn hình thông minh",
+        "description": "Độ chính xác phần trăm giây, tiến trình phần trăm và chế độ giữ màn hình luôn sáng. Tùy chỉnh giao diện và hành vi của bộ hẹn giờ."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Xem hoạt động thực tế",
+    "sectionSubtitle": "Thiết kế tinh tế kết hợp chức năng mạnh mẽ"
+  },
+  "download": {
+    "title": "Bắt đầu hẹn giờ ngay",
+    "description": "Tải miễn phí. Nhiều bộ hẹn giờ, tập luyện theo chu kỳ và widget — tất cả sẵn sàng sử dụng. Không cần tài khoản.",
+    "platforms": "Có sẵn trên iPhone và iPad"
+  },
+  "privacy": {
+    "title": "Quyền riêng tư của bạn rất quan trọng",
+    "description": "Bộ Hẹn Giờ lưu trữ tất cả dữ liệu của bạn cục bộ trên thiết bị. Không tài khoản, không theo dõi, không thu thập dữ liệu. Các phiên hẹn giờ chỉ thuộc về bạn.",
+    "link": "Đọc Chính sách Quyền riêng tư của chúng tôi"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Chính sách Quyền riêng tư",
+    "termsOfService": "Điều khoản Dịch vụ",
+    "copyright": "© 2025 Bộ Hẹn Giờ. Tất cả quyền được bảo lưu."
+  }
+}

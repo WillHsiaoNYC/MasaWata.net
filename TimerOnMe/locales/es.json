@@ -1,0 +1,82 @@
+{
+  "lang": "es",
+  "langName": "Español",
+  "appName": "Mi Cronómetro",
+  "meta": {
+    "title": "Mi Cronómetro - Múltiples temporizadores y cronómetros en una app",
+    "description": "Ejecuta múltiples temporizadores y cronómetros simultáneamente. Entrenamiento por intervalos, widgets en pantalla de inicio, gestión de sesiones y tonos personalizados. Gratis para iPhone y iPad.",
+    "keywords": "temporizador, cronómetro, múltiples temporizadores, entrenamiento por intervalos, temporizador HIIT, Tabata, app iOS, widget de pantalla de inicio, cuenta atrás, timer, stopwatch"
+  },
+  "nav": {
+    "features": "Funciones",
+    "screenshots": "Capturas de pantalla",
+    "download": "Descargar"
+  },
+  "hero": {
+    "title": "Múltiples temporizadores, una app",
+    "description": "Ejecuta todos los temporizadores y cronómetros que necesites, todos a la vez. Perfecto para cocinar, entrenar, estudiar o cualquier cosa que requiera un cronometraje preciso.",
+    "downloadAlt": "Descargar en el App Store"
+  },
+  "features": {
+    "sectionTitle": "Funciones potentes",
+    "sectionSubtitle": "Todo lo que necesitas para dominar tu tiempo",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Cuadrícula multi-temporizador",
+        "description": "Ejecuta múltiples temporizadores y cronómetros simultáneamente en una cuadrícula limpia y adaptable. Cada reloj tiene controles independientes: iniciar, pausar y reiniciar individualmente."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Entrenamiento por intervalos",
+        "description": "Preajustes integrados de HIIT, Tabata e intervalos personalizados. Crea tus propias secuencias de trabajo/descanso para la rutina de entrenamiento perfecta."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Widgets de pantalla de inicio",
+        "description": "Controla tus temporizadores directamente desde la pantalla de inicio. Tamaños de widgets pequeño, mediano y grande para adaptarse a tu diseño."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Gestión de sesiones",
+        "description": "Guarda tus configuraciones de temporizadores y cárgalas en cualquier momento. Exporta sesiones como JSON, CSV o texto para compartir y respaldar fácilmente."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Tonos personalizados",
+        "description": "Elige entre 7 sonidos de alarma integrados, desde una campana simple hasta timbres de teléfono vintage. Las alarmas funcionan incluso en modo silencioso con iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Pantalla inteligente",
+        "description": "Precisión de centésimas de segundo, progreso porcentual y modo de pantalla siempre encendida. Personaliza el aspecto y el comportamiento de tus temporizadores."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Míralo en acción",
+    "sectionSubtitle": "Diseño limpio con funcionalidad potente"
+  },
+  "download": {
+    "title": "Empieza a cronometrar ahora",
+    "description": "Descarga gratuita. Múltiples temporizadores, entrenamiento por intervalos y widgets, todo listo para usar. No se requiere cuenta.",
+    "platforms": "Disponible para iPhone y iPad"
+  },
+  "privacy": {
+    "title": "Tu privacidad importa",
+    "description": "Mi Cronómetro almacena todos tus datos localmente en tu dispositivo. Sin cuentas, sin rastreo, sin recopilación de datos. Tus sesiones de temporizador son solo tuyas.",
+    "link": "Lee nuestra política de privacidad"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "copyright": "© 2025 Mi Cronómetro. Todos los derechos reservados."
+  }
+}
