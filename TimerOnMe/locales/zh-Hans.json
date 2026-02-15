@@ -1,9 +1,9 @@
 {
   "lang": "zh-Hans",
   "langName": "简体中文",
-  "appName": "我的计时器",
+  "appName": "计时达人",
   "meta": {
-    "title": "我的计时器 - 多个计时器和秒表合一的应用",
+    "title": "计时达人 - 多个计时器和秒表合一的应用",
     "description": "同时运行多个计时器和秒表。间歇训练、主屏幕小组件、会话管理和自定义铃声。iPhone 和 iPad 免费使用。",
     "keywords": "计时器, 秒表, 多个计时器, 间歇训练, HIIT计时器, Tabata, iOS应用, 主屏幕小组件, 倒计时, timer, stopwatch, multiple timers, interval training"
   },
@@ -70,13 +70,13 @@
   },
   "privacy": {
     "title": "我们重视你的隐私",
-    "description": "我的计时器将所有数据保存在你的设备本地。无需账号、无追踪、无数据收集。你的计时会话完全属于你自己。",
+    "description": "计时达人将所有数据保存在你的设备本地。无需账号、无追踪、无数据收集。你的计时会话完全属于你自己。",
     "link": "阅读隐私政策"
   },
   "footer": {
     "appStore": "App Store",
     "privacyPolicy": "隐私政策",
     "termsOfService": "服务条款",
-    "copyright": "© 2025 我的计时器. All rights reserved."
+    "copyright": "© 2025 计时达人. All rights reserved."
   }
 }

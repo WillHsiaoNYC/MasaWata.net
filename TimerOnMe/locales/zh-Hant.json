@@ -1,9 +1,9 @@
 {
   "lang": "zh-Hant",
   "langName": "繁體中文",
-  "appName": "我的計時器",
+  "appName": "計時達人",
   "meta": {
-    "title": "我的計時器 - 多個計時器與碼錶合一的應用程式",
+    "title": "計時達人 - 多個計時器與碼錶合一的應用程式",
     "description": "同時執行多個計時器與碼錶。間歇訓練、主畫面小工具、工作階段管理與自訂鈴聲。iPhone 和 iPad 免費使用。",
     "keywords": "計時器, 碼錶, 多個計時器, 間歇訓練, HIIT計時器, Tabata, iOS應用程式, 主畫面小工具, 倒數計時, timer, stopwatch, multiple timers, interval training"
   },
@@ -70,13 +70,13 @@
   },
   "privacy": {
     "title": "我們重視你的隱私",
-    "description": "我的計時器將所有資料儲存在你的裝置本機。無需帳號、無追蹤、無資料收集。你的計時工作階段完全屬於你自己。",
+    "description": "計時達人將所有資料儲存在你的裝置本機。無需帳號、無追蹤、無資料收集。你的計時工作階段完全屬於你自己。",
     "link": "閱讀隱私權政策"
   },
   "footer": {
     "appStore": "App Store",
     "privacyPolicy": "隱私權政策",
     "termsOfService": "服務條款",
-    "copyright": "© 2025 我的計時器. All rights reserved."
+    "copyright": "© 2025 計時達人. All rights reserved."
   }
 }
