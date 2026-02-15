@@ -8,7 +8,7 @@ import json
 import os
 from datetime import date
 
-# Supported languages (matching iOS app's 18 languages)
+# Supported languages (matching iOS app's 21 languages)
 LANGUAGES = [
     {'code': 'en', 'name': 'English', 'dir': ''},
     {'code': 'cs', 'name': 'Czech', 'dir': 'cs'},
@@ -24,10 +24,13 @@ LANGUAGES = [
     {'code': 'ja', 'name': 'Japanese', 'dir': 'ja'},
     {'code': 'ko', 'name': 'Korean', 'dir': 'ko'},
     {'code': 'nb', 'name': 'Norwegian', 'dir': 'nb'},
+    {'code': 'pt-BR', 'name': 'Portuguese (Brazil)', 'dir': 'pt-BR'},
     {'code': 'ru', 'name': 'Russian', 'dir': 'ru'},
     {'code': 'sk', 'name': 'Slovak', 'dir': 'sk'},
     {'code': 'sv', 'name': 'Swedish', 'dir': 'sv'},
     {'code': 'vi', 'name': 'Vietnamese', 'dir': 'vi'},
+    {'code': 'zh-Hans', 'name': 'Chinese Simplified', 'dir': 'zh-Hans'},
+    {'code': 'zh-Hant', 'name': 'Chinese Traditional', 'dir': 'zh-Hant'},
 ]
 
 APP_STORE_ID = '6746874284'
@@ -48,10 +51,13 @@ OG_LOCALES = {
     'ja': 'ja_JP',
     'ko': 'ko_KR',
     'nb': 'nb_NO',
+    'pt-BR': 'pt_BR',
     'ru': 'ru_RU',
     'sk': 'sk_SK',
     'sv': 'sv_SE',
     'vi': 'vi_VN',
+    'zh-Hans': 'zh_CN',
+    'zh-Hant': 'zh_TW',
 }
 
 # Google Analytics tracking code
@@ -174,8 +180,9 @@ def generate_html(lang, translations):
             'de': 'Deutsch', 'es': 'Español', 'fi': 'Suomi',
             'fr': 'Français', 'hi': 'हिन्दी', 'hu': 'Magyar',
             'id': 'Indonesia', 'it': 'Italiano', 'ja': '日本語',
-            'ko': '한국어', 'nb': 'Norsk', 'ru': 'Русский',
-            'sk': 'Slovenčina', 'sv': 'Svenska', 'vi': 'Tiếng Việt'
+            'ko': '한국어', 'nb': 'Norsk', 'pt-BR': 'Português',
+            'ru': 'Русский', 'sk': 'Slovenčina', 'sv': 'Svenska',
+            'vi': 'Tiếng Việt', 'zh-Hans': '简体中文', 'zh-Hant': '繁體中文'
         }
         lang_links += f'                    <a href="{href}" class="language-option{active}">{lang_names[l["code"]]}</a>\n'
 

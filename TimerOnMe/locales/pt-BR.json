@@ -1,0 +1,82 @@
+{
+  "lang": "pt-BR",
+  "langName": "Português (Brasil)",
+  "appName": "Meu Timer",
+  "meta": {
+    "title": "Meu Timer - Múltiplos Timers e Cronômetros em Um Só App",
+    "description": "Execute múltiplos timers e cronômetros simultaneamente. Treino intervalado, widgets na tela inicial, gerenciamento de sessões e toques personalizados. Grátis para iPhone e iPad.",
+    "keywords": "timer, cronômetro, múltiplos timers, treino intervalado, HIIT timer, Tabata, app iOS, widget tela inicial, contagem regressiva, stopwatch, multiple timers, interval training"
+  },
+  "nav": {
+    "features": "Recursos",
+    "screenshots": "Capturas de Tela",
+    "download": "Baixar"
+  },
+  "hero": {
+    "title": "Múltiplos Timers, Um Só App",
+    "description": "Execute quantos timers e cronômetros precisar, todos ao mesmo tempo. Perfeito para cozinhar, treinar, estudar ou qualquer atividade que exija cronometragem precisa.",
+    "downloadAlt": "Baixar na App Store"
+  },
+  "features": {
+    "sectionTitle": "Recursos Poderosos",
+    "sectionSubtitle": "Tudo o que você precisa para dominar o seu tempo",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "Grade de Múltiplos Timers",
+        "description": "Execute vários timers e cronômetros simultaneamente em uma grade limpa e responsiva. Cada relógio tem controles independentes — inicie, pause e reinicie individualmente."
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "Treino Intervalado",
+        "description": "Presets integrados de HIIT, Tabata e intervalos personalizados. Crie suas próprias sequências de exercício/descanso para a rotina de treino perfeita."
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "Widgets na Tela Inicial",
+        "description": "Controle seus timers diretamente da tela inicial. Tamanhos de widget pequeno, médio e grande para se adaptar ao seu layout."
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "Gerenciamento de Sessões",
+        "description": "Salve suas configurações de timer e carregue a qualquer momento. Exporte sessões como JSON, CSV ou texto para compartilhamento e backup fáceis."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Toques Personalizados",
+        "description": "Escolha entre 7 sons de alarme integrados — de um simples sino a toques de telefone vintage. Os alarmes funcionam até no Modo Silencioso com iOS 18.2+."
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "Tela Inteligente",
+        "description": "Precisão de centésimos de segundo, progresso em porcentagem e modo de tela sempre ligada. Personalize a aparência e o comportamento dos seus timers."
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "Veja em Ação",
+    "sectionSubtitle": "Design limpo com funcionalidade poderosa"
+  },
+  "download": {
+    "title": "Comece a Cronometrar Agora",
+    "description": "Download gratuito. Múltiplos timers, treino intervalado e widgets — tudo pronto para usar. Sem necessidade de conta.",
+    "platforms": "Disponível para iPhone e iPad"
+  },
+  "privacy": {
+    "title": "Sua Privacidade Importa",
+    "description": "O Meu Timer armazena todos os seus dados localmente no seu dispositivo. Sem contas, sem rastreamento, sem coleta de dados. Suas sessões de timer são somente suas.",
+    "link": "Leia nossa Política de Privacidade"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "copyright": "© 2025 Meu Timer. All rights reserved."
+  }
+}

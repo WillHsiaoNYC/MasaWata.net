@@ -7,7 +7,7 @@
     'use strict';
 
     // ===== Locale Detection & Persistence =====
-    const SUPPORTED_LOCALES = ['en', 'cs', 'da', 'de', 'es', 'fi', 'fr', 'hi', 'hu', 'id', 'it', 'ja', 'ko', 'nb', 'ru', 'sk', 'sv', 'vi'];
+    const SUPPORTED_LOCALES = ['en', 'cs', 'da', 'de', 'es', 'fi', 'fr', 'hi', 'hu', 'id', 'it', 'ja', 'ko', 'nb', 'pt-BR', 'ru', 'sk', 'sv', 'vi', 'zh-Hans', 'zh-Hant'];
     const LOCALE_STORAGE_KEY = 'preferred-locale';
     const BASE_PATH = '/TimerOnMe';
 
@@ -31,6 +31,14 @@
         const baseLang = userLang.split('-')[0];
         if (SUPPORTED_LOCALES.includes(baseLang)) {
             return baseLang;
+        }
+        // Special handling for Chinese variants
+        if (userLang.startsWith('zh')) {
+            return userLang.includes('TW') || userLang.includes('HK') ? 'zh-Hant' : 'zh-Hans';
+        }
+        // Special handling for Portuguese
+        if (userLang.startsWith('pt')) {
+            return 'pt-BR';
         }
         // Special handling for Norwegian
         if (userLang.startsWith('nb') || userLang.startsWith('no')) {

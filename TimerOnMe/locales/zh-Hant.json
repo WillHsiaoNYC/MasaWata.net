@@ -1,0 +1,82 @@
+{
+  "lang": "zh-Hant",
+  "langName": "繁體中文",
+  "appName": "我的計時器",
+  "meta": {
+    "title": "我的計時器 - 多個計時器與碼錶合一的應用程式",
+    "description": "同時執行多個計時器與碼錶。間歇訓練、主畫面小工具、工作階段管理與自訂鈴聲。iPhone 和 iPad 免費使用。",
+    "keywords": "計時器, 碼錶, 多個計時器, 間歇訓練, HIIT計時器, Tabata, iOS應用程式, 主畫面小工具, 倒數計時, timer, stopwatch, multiple timers, interval training"
+  },
+  "nav": {
+    "features": "功能",
+    "screenshots": "螢幕截圖",
+    "download": "下載"
+  },
+  "hero": {
+    "title": "多個計時器，一個應用程式",
+    "description": "依照需求同時執行任意數量的計時器與碼錶。無論是烹飪、健身、讀書，還是任何需要精確計時的場合，都能完美勝任。",
+    "downloadAlt": "在 App Store 下載"
+  },
+  "features": {
+    "sectionTitle": "強大功能",
+    "sectionSubtitle": "掌控時間所需的一切",
+    "list": [
+      {
+        "id": "multi-timer",
+        "icon": "grid",
+        "title": "多計時器網格",
+        "description": "在簡潔的響應式網格中同時執行多個計時器與碼錶。每個時鐘都有獨立的控制按鈕，可以個別啟動、暫停和重置。"
+      },
+      {
+        "id": "interval",
+        "icon": "repeat",
+        "title": "間歇訓練",
+        "description": "內建 HIIT、Tabata 與自訂間歇預設。建立專屬的運動/休息序列，打造完美的訓練計畫。"
+      },
+      {
+        "id": "widgets",
+        "icon": "smartphone",
+        "title": "主畫面小工具",
+        "description": "直接從主畫面控制你的計時器。提供小、中、大三種小工具尺寸，適配你的版面配置。"
+      },
+      {
+        "id": "sessions",
+        "icon": "save",
+        "title": "工作階段管理",
+        "description": "儲存你的計時器設定，隨時載入。支援將工作階段匯出為 JSON、CSV 或文字格式，方便分享與備份。"
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "自訂鈴聲",
+        "description": "從 7 種內建鬧鈴音效中選擇——從簡單的鈴聲到復古電話鈴聲應有盡有。iOS 18.2+ 靜音模式下鬧鈴也能正常響起。"
+      },
+      {
+        "id": "display",
+        "icon": "monitor",
+        "title": "智慧顯示",
+        "description": "厘秒級精度、百分比進度與螢幕常亮模式。自訂計時器的外觀與行為。"
+      }
+    ]
+  },
+  "screenshots": {
+    "sectionTitle": "實際效果展示",
+    "sectionSubtitle": "簡潔設計與強大功能的完美結合"
+  },
+  "download": {
+    "title": "立即開始計時",
+    "description": "免費下載。多個計時器、間歇訓練與小工具，一切就緒。無需註冊帳號。",
+    "platforms": "支援 iPhone 和 iPad"
+  },
+  "privacy": {
+    "title": "我們重視你的隱私",
+    "description": "我的計時器將所有資料儲存在你的裝置本機。無需帳號、無追蹤、無資料收集。你的計時工作階段完全屬於你自己。",
+    "link": "閱讀隱私權政策"
+  },
+  "footer": {
+    "appStore": "App Store",
+    "privacyPolicy": "隱私權政策",
+    "termsOfService": "服務條款",
+    "copyright": "© 2025 我的計時器. All rights reserved."
+  }
+}
