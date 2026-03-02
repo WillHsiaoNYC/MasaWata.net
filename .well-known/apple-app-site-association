@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "YJBS4SMU7Z.MasaWata.Where-was-I",
+        "paths": ["/WhereWasI/event/*"]
+      }
+    ]
+  }
+}
