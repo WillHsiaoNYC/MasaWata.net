@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Brojač 123 — Watch sync, klikovi, bodovi</title>
   <meta name="description" content="Brojač i klikač za trening, krunicu, pletenje, zalihe, navike i igre. Sync s Apple Watchem, nasumični način, grafikoni i grupirana povijest.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Brojač 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Brojač 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Brojač 123 app icon" width="96" height="96">
       <h1 class="hero__title">Brojač <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch sync, klikovi, bodovi</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Brojač i klikač za trening, krunicu, pletenje, zalihe, navike i igre. Sync s Apple Watchem, nasumični način, grafikoni i grupirana povijest.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/hr/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hr/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hr/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hr/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hr/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hr/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hr/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hr/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>PRILAGOĐENI BROJAČI</h2>
-          <ul>
-            <li>Izradi odvojene brojače za aktivnosti, igre, rutine ili popise</li>
-            <li>Vlastito ime i boja za svaki brojač</li>
-            <li>Povuci za promjenu redoslijeda</li>
-            <li>Zadrži pritisak za brzo uzastopno brojanje</li>
-            <li>Potpuno offline — bez registracije, bez oblaka</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">PRILAGOĐENI BROJAČI</p>
+          <h2 class="feature__title">Izradi odvojene brojače za aktivnosti, igre, rutine ili popise</h2>
+          <p class="feature__body">Vlastito ime i boja za svaki brojač</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>IZRAVNI UNOS I SKUPNE OPERACIJE</h2>
-          <ul>
-            <li>Dodirni brojač da izravno postaviš početnu vrijednost — nema nuliranja</li>
-            <li>Skupno +/-: promijeni brojač bilo kojim brojem jednim dodirom</li>
-            <li>Prijenos: pomakni vrijednost s jednog brojača na drugi bez duple operacije</li>
-            <li>Prilagođeni korak: jedan dodir dodaje 1, 5, 10, 100 ili što god odabereš</li>
-            <li>Uživo pregled svake promjene</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hr/clean/04-Counters.png" alt="PRILAGOĐENI BROJAČI" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">IZRAVNI UNOS I SKUPNE OPERACIJE</p>
+          <h2 class="feature__title">Dodirni brojač da izravno postaviš početnu vrijednost — nema nuliranja</h2>
+          <p class="feature__body">Skupno +/-: promijeni brojač bilo kojim brojem jednim dodirom</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>NASUMIČNI NAČIN</h2>
-          <ul>
-            <li>Brojač može svaki dodir pretvoriti u novu vrijednost od 1 do 10</li>
-            <li>Dodaj ili oduzmi nasumične vrijednosti tipkama + i -</li>
-            <li>Korisno za vježbe, igre, nagrade, razredne aktivnosti i rutine</li>
-            <li>Svaki nasumični dodir sprema se u povijest brojača</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hr/clean/04-Counters.png" alt="IZRAVNI UNOS I SKUPNE OPERACIJE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">NASUMIČNI NAČIN</p>
+          <h2 class="feature__title">Brojač može svaki dodir pretvoriti u novu vrijednost od 1 do 10</h2>
+          <p class="feature__body">Dodaj ili oduzmi nasumične vrijednosti tipkama + i -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>ZBROJEVI I GRAFIKONI</h2>
-          <ul>
-            <li>Ukupni zbroj svih brojača na prvi pogled</li>
-            <li>Prikaz u postocima: koliko svaki brojač doprinosi ukupnom</li>
-            <li>Interaktivni stupčasti grafikon — prebaci između vrijednosti (#) i postotka (%)</li>
-            <li>Sortiraj po vrijednosti za trenutačnu ljestvicu</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hr/clean/04-Counters.png" alt="NASUMIČNI NAČIN" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ZBROJEVI I GRAFIKONI</p>
+          <h2 class="feature__title">Ukupni zbroj svih brojača na prvi pogled</h2>
+          <p class="feature__body">Prikaz u postocima: koliko svaki brojač doprinosi ukupnom</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>POVIJEST I DIJELJENJE</h2>
-          <ul>
-            <li>Potpuna povijest: svako dodavanje, oduzimanje i izmjena zabilježeni</li>
-            <li>Spremi setove brojača i učitaj ih u trenu</li>
-            <li>Podijeli konfiguracije s timom, učenicima ili prijateljima</li>
-            <li>Povijest gledaj kao dnevni zapis, grupirane sesije ili statistiku po danu/tjednu/mjesecu</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hr/clean/03-WatchSync.png" alt="ZBROJEVI I GRAFIKONI" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">POVIJEST I DIJELJENJE</p>
+          <h2 class="feature__title">Potpuna povijest: svako dodavanje, oduzimanje i izmjena zabilježeni</h2>
+          <p class="feature__body">Spremi setove brojača i učitaj ih u trenu</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>SYNC UŽIVO S APPLE WATCHEM</h2>
-          <ul>
-            <li>Promijeni brojač na iPhoneu ili Apple Watchu i vrijednosti ostaju usklađene</li>
-            <li>Stvarno nativna watchOS aplikacija — ne samo pratitelj</li>
-            <li>Imena, boje i vrijednosti sinkronizirani na zapešću</li>
-            <li>Dodirni za brojanje, zadrži za ponavljanje — izravno sa sata</li>
-            <li>Radi samostalno kad iPhone nije pri ruci</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hr/clean/05-Charts.png" alt="POVIJEST I DIJELJENJE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SYNC UŽIVO S APPLE WATCHEM</p>
+          <h2 class="feature__title">Promijeni brojač na iPhoneu ili Apple Watchu i vrijednosti ostaju usklađene</h2>
+          <p class="feature__body">Stvarno nativna watchOS aplikacija — ne samo pratitelj</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>ZA iPhone, iPad I APPLE WATCH</h2>
-          <ul>
-            <li>Prilagodljivi rasporedi za svaku veličinu zaslona</li>
-            <li>iPad prikazuje više brojača odjednom, podržava Split View</li>
-            <li>Privatnost na prvom mjestu: lokalna pohrana, bez oblaka, bez računa</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hr/clean/03-WatchSync.png" alt="SYNC UŽIVO S APPLE WATCHEM" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ZA iPhone, iPad I APPLE WATCH</p>
+          <h2 class="feature__title">Prilagodljivi rasporedi za svaku veličinu zaslona</h2>
+          <p class="feature__body">iPad prikazuje više brojača odjednom, podržava Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>IDEALAN ZA</h2>
-          <ul>
-            <li>Serije i ponavljanja u teretani</li>
-            <li>Redovi pletenja i očica heklanja</li>
-            <li>Krunica, tasbih, molitvene kuglice</li>
-            <li>Bodovi u razredu i prozivka</li>
-            <li>Rukomet, odbojka, košarka — brzi rezultat</li>
-            <li>Stolni tenis</li>
-            <li>Zalihe i popis skladišta</li>
-            <li>Društvene igre, karte, belot, briškula</li>
-            <li>Krugovi u bazenu i na stazi</li>
-            <li>Promatranje ptica</li>
-            <li>Brojanje posjetitelja na događajima</li>
-            <li>Praćenje navika i ciljeva</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hr/clean/04-Counters.png" alt="ZA iPhone, iPad I APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Pravila privatnosti: https://masawata.net/privacy-policy.html Uvjeti korištenja: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Idealan Za</h2>
+      <div class="uses__tags"><span class="tag">Serije i ponavljanja u teretani</span><span class="tag">Redovi pletenja i očica heklanja</span><span class="tag">Krunica</span><span class="tag">Bodovi u razredu i prozivka</span><span class="tag">Rukomet</span><span class="tag">Stolni tenis</span><span class="tag">Zalihe i popis skladišta</span><span class="tag">Društvene igre</span><span class="tag">Krugovi u bazenu i na stazi</span><span class="tag">Promatranje ptica</span><span class="tag">Brojanje posjetitelja na događajima</span><span class="tag">Praćenje navika i ciljeva</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Preuzmi Brojač 123 i neka svako brojanje bude jednostavno — jasno, brzo, privatno.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

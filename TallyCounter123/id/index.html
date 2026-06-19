@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Penghitung 123 — Sync Watch, Clicker &amp; Skor</title>
   <meta name="description" content="Penghitung dan clicker untuk reps, tasbih, rajut, stok, kebiasaan, dan game. Sync Apple Watch, mode acak, grafik, dan riwayat berkelompok.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Penghitung 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Penghitung 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Penghitung 123 app icon" width="96" height="96">
       <h1 class="hero__title">Penghitung <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Sync Watch, Clicker &amp; Skor</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Penghitung dan clicker untuk reps, tasbih, rajut, stok, kebiasaan, dan game. Sync Apple Watch, mode acak, grafik, dan riwayat berkelompok.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/id/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/id/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/id/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/id/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/id/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/id/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/id/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/id/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>PENGHITUNG KUSTOM</h2>
-          <ul>
-            <li>Buat penghitung terpisah untuk aktivitas, game, rutinitas, atau daftar</li>
-            <li>Nama dan warna khusus untuk tiap penghitung</li>
-            <li>Seret untuk menyusun ulang</li>
-            <li>Tekan dan tahan untuk menghitung cepat berturut-turut</li>
-            <li>Sepenuhnya offline — tanpa daftar, tanpa cloud</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">PENGHITUNG KUSTOM</p>
+          <h2 class="feature__title">Buat penghitung terpisah untuk aktivitas, game, rutinitas, atau daftar</h2>
+          <p class="feature__body">Nama dan warna khusus untuk tiap penghitung</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>INPUT LANGSUNG &amp; OPERASI MASSAL</h2>
-          <ul>
-            <li>Ketuk penghitung untuk menetapkan nilai awal langsung — tanpa nol dulu</li>
-            <li>+/- massal: ubah penghitung dengan angka berapa pun sekali ketuk</li>
-            <li>Pindah: pindahkan nilai dari satu penghitung ke penghitung lain tanpa operasi ganda</li>
-            <li>Langkah kustom: satu ketuk menambah 1, 5, 10, 100 atau apa pun yang kamu pilih</li>
-            <li>Pratinjau langsung setiap perubahan</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/id/clean/04-Counters.png" alt="PENGHITUNG KUSTOM" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">INPUT LANGSUNG &amp; OPERASI MASSAL</p>
+          <h2 class="feature__title">Ketuk penghitung untuk menetapkan nilai awal langsung — tanpa nol dulu</h2>
+          <p class="feature__body">+/- massal: ubah penghitung dengan angka berapa pun sekali ketuk</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>MODE ACAK</h2>
-          <ul>
-            <li>Biarkan penghitung memilih nilai baru 1 sampai 10 setiap ketukan</li>
-            <li>Tambah atau kurangi nilai acak dengan tombol + dan -</li>
-            <li>Cocok untuk latihan, game, hadiah, aktivitas kelas, dan rutinitas</li>
-            <li>Setiap ketukan acak dicatat di riwayat penghitung</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/id/clean/04-Counters.png" alt="INPUT LANGSUNG &amp; OPERASI MASSAL" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">MODE ACAK</p>
+          <h2 class="feature__title">Biarkan penghitung memilih nilai baru 1 sampai 10 setiap ketukan</h2>
+          <p class="feature__body">Tambah atau kurangi nilai acak dengan tombol + dan -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>TOTAL &amp; GRAFIK</h2>
-          <ul>
-            <li>Total semua penghitung dalam sekali lihat</li>
-            <li>Tampilan persentase: seberapa besar kontribusi tiap penghitung</li>
-            <li>Grafik batang interaktif — beralih antara nilai (#) dan persen (%)</li>
-            <li>Urutkan berdasar nilai untuk peringkat instan</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/id/clean/04-Counters.png" alt="MODE ACAK" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">TOTAL &amp; GRAFIK</p>
+          <h2 class="feature__title">Total semua penghitung dalam sekali lihat</h2>
+          <p class="feature__body">Tampilan persentase: seberapa besar kontribusi tiap penghitung</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>RIWAYAT &amp; BAGIKAN</h2>
-          <ul>
-            <li>Riwayat lengkap: setiap penambahan, pengurangan, dan edit tercatat</li>
-            <li>Simpan set penghitung dan muat ulang kapan saja</li>
-            <li>Bagikan konfigurasi ke tim, murid, atau teman</li>
-            <li>Lihat riwayat sebagai log bertanggal, sesi berkelompok, atau statistik harian/mingguan/bulanan</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/id/clean/03-WatchSync.png" alt="TOTAL &amp; GRAFIK" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">RIWAYAT &amp; BAGIKAN</p>
+          <h2 class="feature__title">Riwayat lengkap: setiap penambahan, pengurangan, dan edit tercatat</h2>
+          <p class="feature__body">Simpan set penghitung dan muat ulang kapan saja</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>SYNC LANGSUNG DENGAN APPLE WATCH</h2>
-          <ul>
-            <li>Ubah penghitung di iPhone atau Apple Watch, keduanya tetap sinkron</li>
-            <li>Aplikasi watchOS benar-benar native — bukan sekadar pendamping</li>
-            <li>Nama, warna, dan nilai tersinkron di pergelangan</li>
-            <li>Ketuk untuk menghitung, tahan untuk mengulang — langsung dari jam</li>
-            <li>Bekerja sendiri saat iPhone tidak di dekatmu</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/id/clean/05-Charts.png" alt="RIWAYAT &amp; BAGIKAN" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SYNC LANGSUNG DENGAN APPLE WATCH</p>
+          <h2 class="feature__title">Ubah penghitung di iPhone atau Apple Watch, keduanya tetap sinkron</h2>
+          <p class="feature__body">Aplikasi watchOS benar-benar native — bukan sekadar pendamping</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>UNTUK iPhone, iPad &amp; APPLE WATCH</h2>
-          <ul>
-            <li>Tata letak adaptif untuk semua ukuran layar</li>
-            <li>iPad menampilkan lebih banyak penghitung sekaligus, mendukung Split View</li>
-            <li>Privasi dulu: penyimpanan lokal, tanpa cloud, tanpa akun</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/id/clean/03-WatchSync.png" alt="SYNC LANGSUNG DENGAN APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">UNTUK iPhone, iPad &amp; APPLE WATCH</p>
+          <h2 class="feature__title">Tata letak adaptif untuk semua ukuran layar</h2>
+          <p class="feature__body">iPad menampilkan lebih banyak penghitung sekaligus, mendukung Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>COCOK UNTUK</h2>
-          <ul>
-            <li>Set dan repetisi di gym</li>
-            <li>Baris rajutan dan jeratan kait</li>
-            <li>Tasbih, rosario, manik doa</li>
-            <li>Poin kelas dan presensi</li>
-            <li>Bulutangkis, voli, basket — skor cepat</li>
-            <li>Tenis meja</li>
-            <li>Stok dan kelola gudang</li>
-            <li>Catur, kartu, remi, domino</li>
-            <li>Putaran kolam dan lintasan</li>
-            <li>Pengamatan burung</li>
-            <li>Hitung peserta di acara</li>
-            <li>Pelacakan kebiasaan dan tujuan</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/id/clean/04-Counters.png" alt="UNTUK iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Kebijakan Privasi: https://masawata.net/privacy-policy.html Ketentuan Penggunaan: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Cocok Untuk</h2>
+      <div class="uses__tags"><span class="tag">Set dan repetisi di gym</span><span class="tag">Baris rajutan dan jeratan kait</span><span class="tag">Tasbih</span><span class="tag">Poin kelas dan presensi</span><span class="tag">Bulutangkis</span><span class="tag">Tenis meja</span><span class="tag">Stok dan kelola gudang</span><span class="tag">Catur</span><span class="tag">Putaran kolam dan lintasan</span><span class="tag">Pengamatan burung</span><span class="tag">Hitung peserta di acara</span><span class="tag">Pelacakan kebiasaan dan tujuan</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Unduh Penghitung 123 dan buat setiap penghitungan jadi mudah — jelas, cepat, privat.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

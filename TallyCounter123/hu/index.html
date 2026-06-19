@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Számláló 123 — Watch-sync, klikk, pontok</title>
   <meta name="description" content="Számláló és klikker edzéshez, rózsafüzérhez, kötéshez, készlethez, szokásokhoz és játékokhoz. Apple Watch-sync, véletlen mód, grafikonok, csoportos előzmények.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Számláló 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Számláló 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Számláló 123 app icon" width="96" height="96">
       <h1 class="hero__title">Számláló <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch-sync, klikk, pontok</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Számláló és klikker edzéshez, rózsafüzérhez, kötéshez, készlethez, szokásokhoz és játékokhoz. Apple Watch-sync, véletlen mód, grafikonok, csoportos előzmények.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/hu/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hu/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hu/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hu/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hu/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hu/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hu/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hu/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>TESTRESZABOTT SZÁMLÁLÓK</h2>
-          <ul>
-            <li>Hozz létre külön számlálókat tevékenységekhez, játékokhoz, rutinokhoz vagy listákhoz</li>
-            <li>Saját név és szín minden számlálóhoz</li>
-            <li>Húzd át az átrendezéshez</li>
-            <li>Tartsd nyomva a gyors egymás utáni számoláshoz</li>
-            <li>Teljesen offline — nincs regisztráció, nincs felhő</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">TESTRESZABOTT SZÁMLÁLÓK</p>
+          <h2 class="feature__title">Hozz létre külön számlálókat tevékenységekhez, játékokhoz, rutinokhoz vagy listákhoz</h2>
+          <p class="feature__body">Saját név és szín minden számlálóhoz</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>KÖZVETLEN BEVITEL &amp; TÖMEGES MŰVELETEK</h2>
-          <ul>
-            <li>Érintsd meg a számlálót, és állíts be közvetlenül kezdőértéket — nem kell nullázni</li>
-            <li>Tömeges +/-: módosítsd a számlálót bármilyen számmal egy érintéssel</li>
-            <li>Átvitel: vigyél át értéket az egyik számlálóról a másikra dupla művelet nélkül</li>
-            <li>Saját lépés: egy érintés hozzáad 1, 5, 10, 100 vagy bármilyen számot</li>
-            <li>Élő előnézet minden változásról</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hu/clean/04-Counters.png" alt="TESTRESZABOTT SZÁMLÁLÓK" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">KÖZVETLEN BEVITEL &amp; TÖMEGES MŰVELETEK</p>
+          <h2 class="feature__title">Érintsd meg a számlálót, és állíts be közvetlenül kezdőértéket — nem kell nullázni</h2>
+          <p class="feature__body">Tömeges +/-: módosítsd a számlálót bármilyen számmal egy érintéssel</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>VÉLETLEN MÓD</h2>
-          <ul>
-            <li>A számláló minden koppintásnál új 1-10 közötti értéket sorsol</li>
-            <li>Adj hozzá vagy vonj le véletlen értékeket a + és - gombokkal</li>
-            <li>Hasznos gyakorlatokhoz, játékokhoz, jutalmakhoz, órákhoz és rutinokhoz</li>
-            <li>Minden véletlen koppintás bekerül a számláló előzményeibe</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hu/clean/04-Counters.png" alt="KÖZVETLEN BEVITEL &amp; TÖMEGES MŰVELETEK" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">VÉLETLEN MÓD</p>
+          <h2 class="feature__title">A számláló minden koppintásnál új 1-10 közötti értéket sorsol</h2>
+          <p class="feature__body">Adj hozzá vagy vonj le véletlen értékeket a + és - gombokkal</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>ÖSSZEGEK &amp; GRAFIKONOK</h2>
-          <ul>
-            <li>Az összes számláló teljes összege egy pillantásra</li>
-            <li>Százalékos nézet: melyik számláló mennyivel járul hozzá</li>
-            <li>Interaktív oszlopdiagram — válts érték (#) és százalék (%) között</li>
-            <li>Rendezd érték szerint azonnali ranglistához</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hu/clean/04-Counters.png" alt="VÉLETLEN MÓD" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ÖSSZEGEK &amp; GRAFIKONOK</p>
+          <h2 class="feature__title">Az összes számláló teljes összege egy pillantásra</h2>
+          <p class="feature__body">Százalékos nézet: melyik számláló mennyivel járul hozzá</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>ELŐZMÉNYEK &amp; MEGOSZTÁS</h2>
-          <ul>
-            <li>Teljes előzmény: minden hozzáadás, kivonás és módosítás naplózva</li>
-            <li>Mentsd el a számlálókészleteket és tölts be őket bármikor</li>
-            <li>Oszd meg a konfigurációkat csapattársakkal, diákokkal, barátokkal</li>
-            <li>Nézd az előzményeket dátum szerinti naplóként, csoportosított munkamenetként vagy napi/heti/havi statisztikaként</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hu/clean/03-WatchSync.png" alt="ÖSSZEGEK &amp; GRAFIKONOK" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ELŐZMÉNYEK &amp; MEGOSZTÁS</p>
+          <h2 class="feature__title">Teljes előzmény: minden hozzáadás, kivonás és módosítás naplózva</h2>
+          <p class="feature__body">Mentsd el a számlálókészleteket és tölts be őket bármikor</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>ÉLŐ SYNC APPLE WATCHCSAL</h2>
-          <ul>
-            <li>Módosíts iPhone-on vagy Apple Watchon, az értékek szinkronban maradnak</li>
-            <li>Valódi natív watchOS-alkalmazás — nem csak kiegészítő</li>
-            <li>Nevek, színek és értékek szinkronban a csuklódon</li>
-            <li>Érintés számoláshoz, hosszú nyomás ismétléshez — egyenesen az óráról</li>
-            <li>Önállóan is működik, amikor az iPhone nincs kéznél</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hu/clean/05-Charts.png" alt="ELŐZMÉNYEK &amp; MEGOSZTÁS" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ÉLŐ SYNC APPLE WATCHCSAL</p>
+          <h2 class="feature__title">Módosíts iPhone-on vagy Apple Watchon, az értékek szinkronban maradnak</h2>
+          <p class="feature__body">Valódi natív watchOS-alkalmazás — nem csak kiegészítő</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>iPhone, iPad &amp; APPLE WATCH</h2>
-          <ul>
-            <li>Adaptív elrendezés minden képernyőmérethez</li>
-            <li>Az iPad több számlálót mutat egyszerre, támogatja a Split View-t</li>
-            <li>Adatvédelem elsősorban: helyi tárolás, nincs felhő, nincs fiók</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hu/clean/03-WatchSync.png" alt="ÉLŐ SYNC APPLE WATCHCSAL" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">iPhone, iPad &amp; APPLE WATCH</p>
+          <h2 class="feature__title">Adaptív elrendezés minden képernyőmérethez</h2>
+          <p class="feature__body">Az iPad több számlálót mutat egyszerre, támogatja a Split View-t</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>IDEÁLIS ERRE</h2>
-          <ul>
-            <li>Szettek és ismétlések az edzőteremben</li>
-            <li>Kötéssorok és horgolási szemek</li>
-            <li>Olvasó, tasbih, imagyöngyök</li>
-            <li>Pontok az órán és jelenléti ív</li>
-            <li>Kézilabda, röplabda, foci — gyors eredmény</li>
-            <li>Asztalitenisz</li>
-            <li>Készlet és raktárszámlálás</li>
-            <li>Társasjátékok, kártya, tarokk, ulti</li>
-            <li>Medence- és futókörök</li>
-            <li>Madármegfigyelés</li>
-            <li>Résztvevőszámlálás eseményeken</li>
-            <li>Szokás- és célkövetés</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hu/clean/04-Counters.png" alt="iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Adatvédelmi szabályzat: https://masawata.net/privacy-policy.html Felhasználási feltételek: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Ideális Erre</h2>
+      <div class="uses__tags"><span class="tag">Szettek és ismétlések az edzőteremben</span><span class="tag">Kötéssorok és horgolási szemek</span><span class="tag">Olvasó</span><span class="tag">Pontok az órán és jelenléti ív</span><span class="tag">Kézilabda</span><span class="tag">Asztalitenisz</span><span class="tag">Készlet és raktárszámlálás</span><span class="tag">Társasjátékok</span><span class="tag">Medence- és futókörök</span><span class="tag">Madármegfigyelés</span><span class="tag">Résztvevőszámlálás eseményeken</span><span class="tag">Szokás- és célkövetés</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Töltsd le a Számláló 123-t, és könnyítsd meg minden számlálást — tisztán, gyorsan, magánjelleggel.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

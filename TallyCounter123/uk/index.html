@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Лічильник 123 — Watch-синхр., кліки, бали</title>
   <meta name="description" content="Лічильник і клікер для тренувань, вервиці, в’язання, інвентарю, звичок та ігор. Синхронізація Apple Watch, випадковий режим, графіки й групована історія.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Лічильник 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Лічильник 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Лічильник 123 app icon" width="96" height="96">
       <h1 class="hero__title">Лічильник <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch-синхр., кліки, бали</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Лічильник і клікер для тренувань, вервиці, в’язання, інвентарю, звичок та ігор. Синхронізація Apple Watch, випадковий режим, графіки й групована історія.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/uk/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/uk/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/uk/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/uk/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/uk/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/uk/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/uk/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/uk/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>НАЛАШТОВУВАНІ ЛІЧИЛЬНИКИ</h2>
-          <ul>
-            <li>Створюй окремі лічильники для активностей, ігор, рутин або списків</li>
-            <li>Індивідуальна назва й колір для кожного</li>
-            <li>Перетягуй, щоб міняти порядок</li>
-            <li>Утримуй, щоб рахувати швидко</li>
-            <li>Повністю офлайн — без реєстрації, без хмари</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">НАЛАШТОВУВАНІ ЛІЧИЛЬНИКИ</p>
+          <h2 class="feature__title">Створюй окремі лічильники для активностей, ігор, рутин або списків</h2>
+          <p class="feature__body">Індивідуальна назва й колір для кожного</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>ПРЯМИЙ ВВІД ТА МАСОВІ ДІЇ</h2>
-          <ul>
-            <li>Торкнись лічильника, щоб одразу задати початкове значення — не треба скидати на нуль</li>
-            <li>Масове +/-: змінюй лічильник на будь-яке число одним дотиком</li>
-            <li>Перенесення: переноси значення з одного лічильника на інший без подвійної дії</li>
-            <li>Власний крок: один дотик додає 1, 5, 10, 100 або будь-яке число</li>
-            <li>Живий попередній перегляд кожної зміни</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/uk/clean/04-Counters.png" alt="НАЛАШТОВУВАНІ ЛІЧИЛЬНИКИ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ПРЯМИЙ ВВІД ТА МАСОВІ ДІЇ</p>
+          <h2 class="feature__title">Торкнись лічильника, щоб одразу задати початкове значення — не треба скидати на нуль</h2>
+          <p class="feature__body">Масове +/-: змінюй лічильник на будь-яке число одним дотиком</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>ВИПАДКОВИЙ РЕЖИМ</h2>
-          <ul>
-            <li>Лічильник може обирати нове значення від 1 до 10 при кожному дотику</li>
-            <li>Додавай або віднімай випадкові значення кнопками + і -</li>
-            <li>Корисно для вправ, ігор, винагород, занять і тренувальних рутин</li>
-            <li>Кожен випадковий дотик зберігається в історії лічильника</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/uk/clean/04-Counters.png" alt="ПРЯМИЙ ВВІД ТА МАСОВІ ДІЇ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ВИПАДКОВИЙ РЕЖИМ</p>
+          <h2 class="feature__title">Лічильник може обирати нове значення від 1 до 10 при кожному дотику</h2>
+          <p class="feature__body">Додавай або віднімай випадкові значення кнопками + і -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>ПІДСУМКИ ТА ГРАФІКИ</h2>
-          <ul>
-            <li>Загальна сума всіх лічильників з першого погляду</li>
-            <li>Режим відсотків: внесок кожного лічильника в загальне</li>
-            <li>Інтерактивна стовпчаста діаграма — перемикай між значенням (#) і відсотками (%)</li>
-            <li>Сортування за значенням для миттєвого рейтингу</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/uk/clean/04-Counters.png" alt="ВИПАДКОВИЙ РЕЖИМ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ПІДСУМКИ ТА ГРАФІКИ</p>
+          <h2 class="feature__title">Загальна сума всіх лічильників з першого погляду</h2>
+          <p class="feature__body">Режим відсотків: внесок кожного лічильника в загальне</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>ІСТОРІЯ ТА ПОДІЛ</h2>
-          <ul>
-            <li>Повна історія змін: кожне додавання, віднімання і редагування</li>
-            <li>Зберігай набори лічильників і завантажуй їх миттєво</li>
-            <li>Ділись конфігураціями з командою, учнями або друзями</li>
-            <li>Переглядай історію як журнал за датами, згруповані сесії або статистику день/тиждень/місяць</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/uk/clean/03-WatchSync.png" alt="ПІДСУМКИ ТА ГРАФІКИ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ІСТОРІЯ ТА ПОДІЛ</p>
+          <h2 class="feature__title">Повна історія змін: кожне додавання, віднімання і редагування</h2>
+          <p class="feature__body">Зберігай набори лічильників і завантажуй їх миттєво</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>ЖИВА СИНХРОНІЗАЦІЯ З APPLE WATCH</h2>
-          <ul>
-            <li>Зміни лічильник на iPhone або Apple Watch — обидва пристрої залишаться синхронізованими</li>
-            <li>Повноцінний нативний watchOS застосунок — не просто компаньйон</li>
-            <li>Назви, кольори та значення синхронізовані на зап&#x27;ясті</li>
-            <li>Торкнись — порахуй, утримуй — повтори, прямо з годинника</li>
-            <li>Працює самостійно, коли iPhone далеко</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/uk/clean/05-Charts.png" alt="ІСТОРІЯ ТА ПОДІЛ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ЖИВА СИНХРОНІЗАЦІЯ З APPLE WATCH</p>
+          <h2 class="feature__title">Зміни лічильник на iPhone або Apple Watch — обидва пристрої залишаться синхронізованими</h2>
+          <p class="feature__body">Повноцінний нативний watchOS застосунок — не просто компаньйон</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>ДЛЯ iPhone, iPad ТА APPLE WATCH</h2>
-          <ul>
-            <li>Адаптивні макети під будь-який розмір екрана</li>
-            <li>iPad показує більше лічильників одночасно, підтримується Split View</li>
-            <li>Приватність на першому місці: локальне зберігання, без хмари, без акаунта</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/uk/clean/03-WatchSync.png" alt="ЖИВА СИНХРОНІЗАЦІЯ З APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ДЛЯ iPhone, iPad ТА APPLE WATCH</p>
+          <h2 class="feature__title">Адаптивні макети під будь-який розмір екрана</h2>
+          <p class="feature__body">iPad показує більше лічильників одночасно, підтримується Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>ПІДХОДИТЬ ДЛЯ</h2>
-          <ul>
-            <li>Повтори та підходи в залі</li>
-            <li>Ряди в&#x27;язання і петлі гачком</li>
-            <li>Вервиця, тасбіх, молитовні намистини</li>
-            <li>Бали на уроці та перекличка</li>
-            <li>Баскетбол, волейбол, гандбол — швидкий рахунок</li>
-            <li>Настільний теніс</li>
-            <li>Інвентар і підрахунок складу</li>
-            <li>Настільні ігри, карти, преферанс, дурак</li>
-            <li>Басейн і бігові кола</li>
-            <li>Спостереження за птахами</li>
-            <li>Підрахунок відвідувачів на подіях</li>
-            <li>Трекінг звичок і цілей</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/uk/clean/04-Counters.png" alt="ДЛЯ iPhone, iPad ТА APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Політика конфіденційності: https://masawata.net/privacy-policy.html Умови використання: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">ПІДХОДИТЬ ДЛЯ</h2>
+      <div class="uses__tags"><span class="tag">Повтори та підходи в залі</span><span class="tag">Ряди в&#x27;язання і петлі гачком</span><span class="tag">Вервиця</span><span class="tag">Бали на уроці та перекличка</span><span class="tag">Баскетбол</span><span class="tag">Настільний теніс</span><span class="tag">Інвентар і підрахунок складу</span><span class="tag">Настільні ігри</span><span class="tag">Басейн і бігові кола</span><span class="tag">Спостереження за птахами</span><span class="tag">Підрахунок відвідувачів на подіях</span><span class="tag">Трекінг звичок і цілей</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Завантаж Лічильник 123 і зроби кожен підрахунок простим — ясно, швидко, приватно.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

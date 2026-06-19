@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>카운터 123 — Watch 동기화·클릭·점수</title>
   <meta name="description" content="운동, 묵주, 뜨개질, 재고, 습관, 게임을 위한 카운터와 클리커. Apple Watch 동기화, 랜덤 모드, 차트, 그룹 기록 지원.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> 카운터 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="카운터 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="카운터 123 app icon" width="96" height="96">
       <h1 class="hero__title">카운터 <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch 동기화·클릭·점수</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">운동, 묵주, 뜨개질, 재고, 습관, 게임을 위한 카운터와 클리커. Apple Watch 동기화, 랜덤 모드, 차트, 그룹 기록 지원.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/ko/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/ko/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/ko/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/ko/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/ko/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/ko/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/ko/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/ko/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>맞춤 카운터</h2>
-          <ul>
-            <li>활동, 게임, 루틴, 목록마다 별도의 카운터를 만드세요</li>
-            <li>카운터마다 이름과 색상으로 개인화</li>
-            <li>드래그 앤 드롭으로 자유 재배열</li>
-            <li>길게 눌러 빠르게 연속 카운트</li>
-            <li>완전 오프라인 — 가입·클라우드 불필요</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">맞춤 카운터</p>
+          <h2 class="feature__title">활동, 게임, 루틴, 목록마다 별도의 카운터를 만드세요</h2>
+          <p class="feature__body">카운터마다 이름과 색상으로 개인화</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>즉시 입력 &amp; 일괄 연산</h2>
-          <ul>
-            <li>아무 카운터나 탭해서 시작값 직접 설정 — 0부터 다시 시작할 필요 없음</li>
-            <li>일괄 가감: 원하는 숫자만큼 한 번에 더하거나 빼기</li>
-            <li>값 이동: 두 번 조작 없이 한 카운터에서 다른 카운터로 값 전송</li>
-            <li>사용자 지정 증분: 한 탭으로 1, 5, 10, 100, 원하는 값만큼 증가</li>
-            <li>실시간 변경 표시: 모든 변경을 즉시 하이라이트</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/ko/clean/04-Counters.png" alt="맞춤 카운터" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">즉시 입력 &amp; 일괄 연산</p>
+          <h2 class="feature__title">아무 카운터나 탭해서 시작값 직접 설정 — 0부터 다시 시작할 필요 없음</h2>
+          <p class="feature__body">일괄 가감: 원하는 숫자만큼 한 번에 더하거나 빼기</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>랜덤 모드</h2>
-          <ul>
-            <li>탭할 때마다 1~10 사이의 새 값을 무작위로 굴립니다</li>
-            <li>+ 버튼으로 더하고 - 버튼으로 무작위 값을 뺄 수 있습니다</li>
-            <li>드릴, 게임, 랜덤 보상, 수업 활동, 연습 루틴에 유용합니다</li>
-            <li>모든 랜덤 탭은 카운터 기록에 저장됩니다</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/ko/clean/04-Counters.png" alt="즉시 입력 &amp; 일괄 연산" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">랜덤 모드</p>
+          <h2 class="feature__title">탭할 때마다 1~10 사이의 새 값을 무작위로 굴립니다</h2>
+          <p class="feature__body">+ 버튼으로 더하고 - 버튼으로 무작위 값을 뺄 수 있습니다</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>합계 &amp; 차트</h2>
-          <ul>
-            <li>전체 카운터의 합계를 한눈에</li>
-            <li>백분율 보기: 각 카운터의 비중을 시각화</li>
-            <li>막대 차트: 숫자(#)와 퍼센트(%) 모드 전환</li>
-            <li>값 기준 정렬로 순위를 즉시 확인</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/ko/clean/04-Counters.png" alt="랜덤 모드" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">합계 &amp; 차트</p>
+          <h2 class="feature__title">전체 카운터의 합계를 한눈에</h2>
+          <p class="feature__body">백분율 보기: 각 카운터의 비중을 시각화</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>기록 &amp; 공유</h2>
-          <ul>
-            <li>변경 이력: 가산·감산·편집 모두 기록</li>
-            <li>카운터 세트를 저장하고 언제든 다시 불러오기</li>
-            <li>팀, 학생, 친구와 카운터 구성 공유</li>
-            <li>기록을 날짜별 로그, 그룹 세션, 일/주/월 통계로 볼 수 있습니다</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/ko/clean/03-WatchSync.png" alt="합계 &amp; 차트" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">기록 &amp; 공유</p>
+          <h2 class="feature__title">변경 이력: 가산·감산·편집 모두 기록</h2>
+          <p class="feature__body">카운터 세트를 저장하고 언제든 다시 불러오기</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>Apple Watch 실시간 동기화</h2>
-          <ul>
-            <li>iPhone 또는 Apple Watch에서 변경하면 두 기기가 함께 동기화됩니다</li>
-            <li>네이티브 watchOS 앱 — 껍데기만 있는 컴패니언이 아닙니다</li>
-            <li>카운터 이름·색상·값이 손목에서 완전 동기화</li>
-            <li>탭으로 카운트, 길게 눌러 연속 가산</li>
-            <li>iPhone이 멀리 있어도 독립적으로 작동</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/ko/clean/05-Charts.png" alt="기록 &amp; 공유" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">Apple Watch 실시간 동기화</p>
+          <h2 class="feature__title">iPhone 또는 Apple Watch에서 변경하면 두 기기가 함께 동기화됩니다</h2>
+          <p class="feature__body">네이티브 watchOS 앱 — 껍데기만 있는 컴패니언이 아닙니다</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>iPhone·iPad·Apple Watch 모두 지원</h2>
-          <ul>
-            <li>모든 화면 크기에 최적화된 레이아웃</li>
-            <li>iPad는 더 많은 카운터를 한 번에 표시, Split View 지원</li>
-            <li>프라이버시 우선: 로컬 저장, 클라우드·계정 없음</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/ko/clean/03-WatchSync.png" alt="Apple Watch 실시간 동기화" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">iPhone·iPad·Apple Watch 모두 지원</p>
+          <h2 class="feature__title">모든 화면 크기에 최적화된 레이아웃</h2>
+          <p class="feature__body">iPad는 더 많은 카운터를 한 번에 표시, Split View 지원</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>이럴 때 완벽해요</h2>
-          <ul>
-            <li>헬스장 운동 횟수 &amp; 세트 수</li>
-            <li>뜨개질 단수 &amp; 코바늘 코 수</li>
-            <li>묵주·염주·기도 횟수</li>
-            <li>수업 점수 &amp; 학생 인원</li>
-            <li>야구 투구수 &amp; 타석 수</li>
-            <li>재고 관리 &amp; 순환 카운트</li>
-            <li>보드게임·카드게임·화투 점수</li>
-            <li>수영·러닝 랩 카운트</li>
-            <li>조류 관찰 라이프 리스트</li>
-            <li>이벤트 인원 카운트</li>
-            <li>습관 추적 &amp; 목표 달성</li>
-            <li>창고 재고 카운트</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/ko/clean/04-Counters.png" alt="iPhone·iPad·Apple Watch 모두 지원" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>개인정보 처리방침: https://masawata.net/privacy-policy.html 이용 약관: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">이럴 때 완벽해요</h2>
+      <div class="uses__tags"><span class="tag">헬스장 운동 횟수 &amp; 세트 수</span><span class="tag">뜨개질 단수 &amp; 코바늘 코 수</span><span class="tag">묵주·염주·기도 횟수</span><span class="tag">수업 점수 &amp; 학생 인원</span><span class="tag">야구 투구수 &amp; 타석 수</span><span class="tag">재고 관리 &amp; 순환 카운트</span><span class="tag">보드게임·카드게임·화투 점수</span><span class="tag">수영·러닝 랩 카운트</span><span class="tag">조류 관찰 라이프 리스트</span><span class="tag">이벤트 인원 카운트</span><span class="tag">습관 추적 &amp; 목표 달성</span><span class="tag">창고 재고 카운트</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">카운터 123를 다운로드하고 모든 카운트를 쉽고 빠르게 — 명확하게, 빠르게, 프라이빗하게.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

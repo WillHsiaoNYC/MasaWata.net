@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Contador 123 — Sync Watch, toque e marcador</title>
   <meta name="description" content="Contador e clicker para treino, terço, malha, inventário, hábitos e jogos. Sync Apple Watch, modo aleatório, gráficos e histórico agrupado.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Contador 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,151 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Contador 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Contador 123 app icon" width="96" height="96">
       <h1 class="hero__title">Contador <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Sync Watch, toque e marcador</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Contador e clicker para treino, terço, malha, inventário, hábitos e jogos. Sync Apple Watch, modo aleatório, gráficos e histórico agrupado.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/pt-PT/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/pt-PT/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/pt-PT/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/pt-PT/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/pt-PT/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/pt-PT/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/pt-PT/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/pt-PT/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>CONTADORES PERSONALIZADOS</h2>
-          <ul>
-            <li>Cria contadores separados para atividades, jogos, rotinas ou listas</li>
-            <li>Nome e cor personalizados por contador</li>
-            <li>Arrasta para reordenar</li>
-            <li>Mantém premido para contar em sequência</li>
-            <li>Funciona totalmente sem ligação — sem registo, sem nuvem</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">CONTADORES PERSONALIZADOS</p>
+          <h2 class="feature__title">Cria contadores separados para atividades, jogos, rotinas ou listas</h2>
+          <p class="feature__body">Nome e cor personalizados por contador</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>INTRODUÇÃO DIRETA &amp; OPERAÇÕES EM MASSA</h2>
-          <ul>
-            <li>Toca num contador para definir um valor inicial direto — sem começar do zero</li>
-            <li>Adição/Subtração em massa: altera um contador com qualquer número num só toque</li>
-            <li>Transferência: transfere um valor de um contador para outro sem operar em duplicado</li>
-            <li>Incremento personalizado: um toque adiciona 1, 5, 10, 100 ou o valor que definires</li>
-            <li>Pré-visualização em tempo real de cada alteração</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/pt-PT/clean/04-Counters.png" alt="CONTADORES PERSONALIZADOS" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">INTRODUÇÃO DIRETA &amp; OPERAÇÕES EM MASSA</p>
+          <h2 class="feature__title">Toca num contador para definir um valor inicial direto — sem começar do zero</h2>
+          <p class="feature__body">Adição/Subtração em massa: altera um contador com qualquer número num só toque</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>MODO ALEATÓRIO</h2>
-          <ul>
-            <li>Deixa o contador sortear um novo valor de 1 a 10 a cada toque</li>
-            <li>Soma ou subtrai valores aleatórios com os botões + e -</li>
-            <li>Útil para exercícios, jogos, recompensas, aulas e rotinas de treino</li>
-            <li>Cada toque aleatório fica guardado no histórico do contador</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/pt-PT/clean/04-Counters.png" alt="INTRODUÇÃO DIRETA &amp; OPERAÇÕES EM MASSA" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">MODO ALEATÓRIO</p>
+          <h2 class="feature__title">Deixa o contador sortear um novo valor de 1 a 10 a cada toque</h2>
+          <p class="feature__body">Soma ou subtrai valores aleatórios com os botões + e -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>TOTAIS &amp; GRÁFICOS</h2>
-          <ul>
-            <li>Total geral de todos os contadores</li>
-            <li>Vista em percentagem: peso de cada contador no total</li>
-            <li>Gráfico de barras interativo — alterna entre valor (#) e percentagem (%)</li>
-            <li>Ordena por valor para veres a classificação imediata</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/pt-PT/clean/04-Counters.png" alt="MODO ALEATÓRIO" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">TOTAIS &amp; GRÁFICOS</p>
+          <h2 class="feature__title">Total geral de todos os contadores</h2>
+          <p class="feature__body">Vista em percentagem: peso de cada contador no total</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>HISTÓRICO &amp; PARTILHA</h2>
-          <ul>
-            <li>Histórico completo: cada incremento, decremento e edição ficam registados</li>
-            <li>Guarda conjuntos de contadores e recarrega-os a qualquer momento</li>
-            <li>Partilha configurações com equipa, alunos ou amigos</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/pt-PT/clean/03-WatchSync.png" alt="TOTAIS &amp; GRÁFICOS" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">HISTÓRICO &amp; PARTILHA</p>
+          <h2 class="feature__title">Histórico completo: cada incremento, decremento e edição ficam registados</h2>
+          <p class="feature__body">Guarda conjuntos de contadores e recarrega-os a qualquer momento</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>SYNC EM DIRETO COM APPLE WATCH</h2>
-          <ul>
-            <li>Atualiza um contador no iPhone ou Apple Watch e ambos ficam sincronizados</li>
-            <li>Aplicação watchOS verdadeiramente nativa — não é um simples companion</li>
-            <li>Nomes, cores e valores sincronizados no pulso</li>
-            <li>Toca para contar, mantém premido para repetir, diretamente do relógio</li>
-            <li>Funciona autonomamente quando o telemóvel não está à mão</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/pt-PT/clean/05-Charts.png" alt="HISTÓRICO &amp; PARTILHA" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SYNC EM DIRETO COM APPLE WATCH</p>
+          <h2 class="feature__title">Atualiza um contador no iPhone ou Apple Watch e ambos ficam sincronizados</h2>
+          <p class="feature__body">Aplicação watchOS verdadeiramente nativa — não é um simples companion</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>DESENHADA PARA iPhone, iPad &amp; APPLE WATCH</h2>
-          <ul>
-            <li>Layouts adaptáveis a qualquer tamanho de ecrã</li>
-            <li>iPad mostra mais contadores em simultâneo, com Split View</li>
-            <li>Privacidade em primeiro lugar: armazenamento local, sem nuvem, sem conta</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/pt-PT/clean/03-WatchSync.png" alt="SYNC EM DIRETO COM APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">DESENHADA PARA iPhone, iPad &amp; APPLE WATCH</p>
+          <h2 class="feature__title">Layouts adaptáveis a qualquer tamanho de ecrã</h2>
+          <p class="feature__body">iPad mostra mais contadores em simultâneo, com Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>PERFEITO PARA</h2>
-          <ul>
-            <li>Séries e repetições no ginásio</li>
-            <li>Carreiras de malha e pontos de crochet</li>
-            <li>Terço, tasbih e orações</li>
-            <li>Pontos em aula e chamada de alunos</li>
-            <li>Futebol, andebol, voleibol — marcador rápido</li>
-            <li>Ténis de mesa</li>
-            <li>Inventário e contagem de stock</li>
-            <li>Jogos de tabuleiro, cartas, sueca</li>
-            <li>Voltas de piscina e pista</li>
-            <li>Observação de aves</li>
-            <li>Contagem de presenças em eventos</li>
-            <li>Seguimento de hábitos e objetivos</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/pt-PT/clean/04-Counters.png" alt="DESENHADA PARA iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Política de Privacidade: https://masawata.net/privacy-policy.html Termos de utilização: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Perfeito Para</h2>
+      <div class="uses__tags"><span class="tag">Séries e repetições no ginásio</span><span class="tag">Carreiras de malha e pontos de crochet</span><span class="tag">Terço</span><span class="tag">Pontos em aula e chamada de alunos</span><span class="tag">Futebol</span><span class="tag">Ténis de mesa</span><span class="tag">Inventário e contagem de stock</span><span class="tag">Jogos de tabuleiro</span><span class="tag">Voltas de piscina e pista</span><span class="tag">Observação de aves</span><span class="tag">Contagem de presenças em eventos</span><span class="tag">Seguimento de hábitos e objetivos</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Descarrega Contador 123 e faz de cada contagem algo simples — claro, rápido, privado.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

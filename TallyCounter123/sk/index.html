@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Počítadlo 123 — Watch sync, kliky, skóre</title>
   <meta name="description" content="Počítadlo a klikr na tréning, ruženec, pletenie, inventúru, návyky aj hry. Sync s Apple Watch, náhodný režim, grafy a zoskupená história.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Počítadlo 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Počítadlo 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Počítadlo 123 app icon" width="96" height="96">
       <h1 class="hero__title">Počítadlo <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch sync, kliky, skóre</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Počítadlo a klikr na tréning, ruženec, pletenie, inventúru, návyky aj hry. Sync s Apple Watch, náhodný režim, grafy a zoskupená história.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/sk/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sk/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sk/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sk/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sk/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sk/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sk/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sk/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>VLASTNÉ POČÍTADLÁ</h2>
-          <ul>
-            <li>Vytvor samostatné počítadlá pre aktivity, hry, rutiny alebo zoznamy</li>
-            <li>Vlastný názov a farba pre každé počítadlo</li>
-            <li>Potiahni a zoraď</li>
-            <li>Podrž pre rýchle počítanie v rade</li>
-            <li>Plne offline — bez registrácie, bez cloudu</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">VLASTNÉ POČÍTADLÁ</p>
+          <h2 class="feature__title">Vytvor samostatné počítadlá pre aktivity, hry, rutiny alebo zoznamy</h2>
+          <p class="feature__body">Vlastný názov a farba pre každé počítadlo</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>PRIAMY VSTUP &amp; HROMADNÉ OPERÁCIE</h2>
-          <ul>
-            <li>Ťukni na počítadlo a nastav rovno počiatočnú hodnotu — netreba nulovať</li>
-            <li>Hromadné +/-: zmeň počítadlo o ľubovoľné číslo jedným ťuknutím</li>
-            <li>Prenos: presuň hodnotu z jedného počítadla na druhé bez dvojitej operácie</li>
-            <li>Vlastný krok: jedno ťuknutie pridá 1, 5, 10, 100 alebo čokoľvek si zvolíš</li>
-            <li>Živý náhľad každej zmeny</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sk/clean/04-Counters.png" alt="VLASTNÉ POČÍTADLÁ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">PRIAMY VSTUP &amp; HROMADNÉ OPERÁCIE</p>
+          <h2 class="feature__title">Ťukni na počítadlo a nastav rovno počiatočnú hodnotu — netreba nulovať</h2>
+          <p class="feature__body">Hromadné +/-: zmeň počítadlo o ľubovoľné číslo jedným ťuknutím</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>NÁHODNÝ REŽIM</h2>
-          <ul>
-            <li>Počítadlo môže pri každom ťuknutí vylosovať hodnotu 1 až 10</li>
-            <li>Pripočítaj alebo odpočítaj náhodné hodnoty tlačidlami + a -</li>
-            <li>Hodí sa na cvičenia, hry, odmeny, výučbu a tréningové rutiny</li>
-            <li>Každé náhodné ťuknutie sa uloží do histórie počítadla</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sk/clean/04-Counters.png" alt="PRIAMY VSTUP &amp; HROMADNÉ OPERÁCIE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">NÁHODNÝ REŽIM</p>
+          <h2 class="feature__title">Počítadlo môže pri každom ťuknutí vylosovať hodnotu 1 až 10</h2>
+          <p class="feature__body">Pripočítaj alebo odpočítaj náhodné hodnoty tlačidlami + a -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>SÚČTY &amp; GRAFY</h2>
-          <ul>
-            <li>Celkový súčet všetkých počítadiel na jeden pohľad</li>
-            <li>Percentuálny režim: podiel každého počítadla na celku</li>
-            <li>Interaktívny stĺpcový graf — prepínaj medzi hodnotou (#) a percentami (%)</li>
-            <li>Zoraď podľa hodnoty pre okamžitý rebríček</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sk/clean/04-Counters.png" alt="NÁHODNÝ REŽIM" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SÚČTY &amp; GRAFY</p>
+          <h2 class="feature__title">Celkový súčet všetkých počítadiel na jeden pohľad</h2>
+          <p class="feature__body">Percentuálny režim: podiel každého počítadla na celku</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>HISTÓRIA &amp; ZDIEĽANIE</h2>
-          <ul>
-            <li>Kompletná história: každé pripočítanie, odpočítanie aj úprava</li>
-            <li>Ukladaj sady počítadiel a načítaj ich kedykoľvek</li>
-            <li>Zdieľaj konfigurácie s tímom, spolužiakmi alebo kamarátmi</li>
-            <li>Históriu zobrazíš ako denný log, zoskupené relácie alebo štatistiky podľa dňa/týždňa/mesiaca</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sk/clean/03-WatchSync.png" alt="SÚČTY &amp; GRAFY" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">HISTÓRIA &amp; ZDIEĽANIE</p>
+          <h2 class="feature__title">Kompletná história: každé pripočítanie, odpočítanie aj úprava</h2>
+          <p class="feature__body">Ukladaj sady počítadiel a načítaj ich kedykoľvek</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>ŽIVÁ SYNCHRONIZÁCIA S APPLE WATCH</h2>
-          <ul>
-            <li>Zmeň počítadlo na iPhone alebo Apple Watch a obe zariadenia zostanú zosynchronizované</li>
-            <li>Plnohodnotná natívna watchOS aplikácia — nie iba doplnok k iPhonu</li>
-            <li>Názvy, farby a hodnoty synchronizované na zápästí</li>
-            <li>Ťukni pre počítanie, podrž pre opakovanie — priamo z hodiniek</li>
-            <li>Funguje samostatne, keď iPhone nie je poruke</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sk/clean/05-Charts.png" alt="HISTÓRIA &amp; ZDIEĽANIE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ŽIVÁ SYNCHRONIZÁCIA S APPLE WATCH</p>
+          <h2 class="feature__title">Zmeň počítadlo na iPhone alebo Apple Watch a obe zariadenia zostanú zosynchronizované</h2>
+          <p class="feature__body">Plnohodnotná natívna watchOS aplikácia — nie iba doplnok k iPhonu</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>PRE iPhone, iPad &amp; APPLE WATCH</h2>
-          <ul>
-            <li>Adaptívne rozloženia pre akúkoľvek veľkosť obrazovky</li>
-            <li>iPad zobrazí viac počítadiel naraz, podporuje Split View</li>
-            <li>Súkromie na prvom mieste: lokálne úložisko, bez cloudu, bez účtu</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sk/clean/03-WatchSync.png" alt="ŽIVÁ SYNCHRONIZÁCIA S APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">PRE iPhone, iPad &amp; APPLE WATCH</p>
+          <h2 class="feature__title">Adaptívne rozloženia pre akúkoľvek veľkosť obrazovky</h2>
+          <p class="feature__body">iPad zobrazí viac počítadiel naraz, podporuje Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>IDEÁLNE PRE</h2>
-          <ul>
-            <li>Série a opakovania v posilňovni</li>
-            <li>Riadky pletenia a očká háčkovania</li>
-            <li>Ruženec, tasbih, modlitebné korálky</li>
-            <li>Body v triede a dochádzka</li>
-            <li>Hádzaná, volejbal, futbal — rýchle skóre</li>
-            <li>Stolný tenis</li>
-            <li>Inventúra a počítanie zásob</li>
-            <li>Mariáš, žolíky, sedma a ďalšie kartové hry</li>
-            <li>Kolá v bazéne a na dráhe</li>
-            <li>Pozorovanie vtákov</li>
-            <li>Počítanie návštevníkov na podujatiach</li>
-            <li>Sledovanie návykov a cieľov</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sk/clean/04-Counters.png" alt="PRE iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Zásady ochrany osobných údajov: https://masawata.net/privacy-policy.html Podmienky používania: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Ideálne Pre</h2>
+      <div class="uses__tags"><span class="tag">Série a opakovania v posilňovni</span><span class="tag">Riadky pletenia a očká háčkovania</span><span class="tag">Ruženec</span><span class="tag">Body v triede a dochádzka</span><span class="tag">Hádzaná</span><span class="tag">Stolný tenis</span><span class="tag">Inventúra a počítanie zásob</span><span class="tag">Mariáš</span><span class="tag">Kolá v bazéne a na dráhe</span><span class="tag">Pozorovanie vtákov</span><span class="tag">Počítanie návštevníkov na podujatiach</span><span class="tag">Sledovanie návykov a cieľov</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Stiahni si Počítadlo 123 a uľahči si každé počítanie — jasne, rýchlo, súkromne.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

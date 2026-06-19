@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>काउंटर 123 — Watch सिंक, क्लिकर, स्कोर</title>
   <meta name="description" content="रेप्स, माला, बुनाई, स्टॉक, आदतों और गेम के लिए काउंटर व क्लिकर। Apple Watch सिंक, रैंडम मोड, ग्राफ और ग्रुप्ड हिस्ट्री।">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> काउंटर 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="काउंटर 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="काउंटर 123 app icon" width="96" height="96">
       <h1 class="hero__title">काउंटर <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch सिंक, क्लिकर, स्कोर</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">रेप्स, माला, बुनाई, स्टॉक, आदतों और गेम के लिए काउंटर व क्लिकर। Apple Watch सिंक, रैंडम मोड, ग्राफ और ग्रुप्ड हिस्ट्री।</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/hi/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hi/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hi/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hi/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/hi/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hi/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hi/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/hi/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>कस्टम काउंटर</h2>
-          <ul>
-            <li>गतिविधियों, गेम, रूटीन या सूचियों के लिए अलग-अलग काउंटर बनाएं</li>
-            <li>हर काउंटर के लिए अलग नाम और रंग</li>
-            <li>क्रम बदलने के लिए ड्रैग करो</li>
-            <li>तेज़ी से लगातार गिनने के लिए दबाकर रखो</li>
-            <li>पूरी तरह ऑफलाइन — कोई रजिस्ट्रेशन नहीं, कोई क्लाउड नहीं</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">कस्टम काउंटर</p>
+          <h2 class="feature__title">गतिविधियों, गेम, रूटीन या सूचियों के लिए अलग-अलग काउंटर बनाएं</h2>
+          <p class="feature__body">हर काउंटर के लिए अलग नाम और रंग</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>डायरेक्ट एंट्री और बल्क ऑपरेशन</h2>
-          <ul>
-            <li>काउंटर पर टैप करके सीधे शुरुआती वैल्यू सेट करो — शून्य से शुरू करने की ज़रूरत नहीं</li>
-            <li>बल्क +/-: किसी भी नंबर से काउंटर एक टैप में बदलो</li>
-            <li>ट्रांसफर: एक काउंटर से दूसरे में वैल्यू भेजो, डबल ऑपरेशन की ज़रूरत नहीं</li>
-            <li>कस्टम स्टेप: एक टैप से 1, 5, 10, 100 या कोई भी नंबर जोड़ो</li>
-            <li>हर बदलाव का लाइव प्रीव्यू</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hi/clean/04-Counters.png" alt="कस्टम काउंटर" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">डायरेक्ट एंट्री और बल्क ऑपरेशन</p>
+          <h2 class="feature__title">काउंटर पर टैप करके सीधे शुरुआती वैल्यू सेट करो — शून्य से शुरू करने की ज़रूरत नहीं</h2>
+          <p class="feature__body">बल्क +/-: किसी भी नंबर से काउंटर एक टैप में बदलो</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>रैंडम मोड</h2>
-          <ul>
-            <li>हर टैप पर काउंटर 1 से 10 तक नई वैल्यू चुन सकता है</li>
-            <li>+ और - बटन से रैंडम वैल्यू जोड़ें या घटाएं</li>
-            <li>ड्रिल, गेम, रिवार्ड, क्लास एक्टिविटी और अभ्यास के लिए उपयोगी</li>
-            <li>हर रैंडम टैप काउंटर की हिस्ट्री में रिकॉर्ड होता है</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hi/clean/04-Counters.png" alt="डायरेक्ट एंट्री और बल्क ऑपरेशन" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">रैंडम मोड</p>
+          <h2 class="feature__title">हर टैप पर काउंटर 1 से 10 तक नई वैल्यू चुन सकता है</h2>
+          <p class="feature__body">+ और - बटन से रैंडम वैल्यू जोड़ें या घटाएं</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>टोटल और ग्राफ</h2>
-          <ul>
-            <li>सारे काउंटरों का कुल योग एक नज़र में</li>
-            <li>प्रतिशत व्यू: हर काउंटर का कुल में योगदान</li>
-            <li>इंटरैक्टिव बार चार्ट — वैल्यू (#) और प्रतिशत (%) के बीच स्विच करो</li>
-            <li>वैल्यू के हिसाब से तुरंत रैंकिंग</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hi/clean/04-Counters.png" alt="रैंडम मोड" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">टोटल और ग्राफ</p>
+          <h2 class="feature__title">सारे काउंटरों का कुल योग एक नज़र में</h2>
+          <p class="feature__body">प्रतिशत व्यू: हर काउंटर का कुल में योगदान</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>हिस्ट्री और शेयरिंग</h2>
-          <ul>
-            <li>पूरी हिस्ट्री: हर जोड़, घटाव और बदलाव रिकॉर्ड</li>
-            <li>काउंटर सेट सेव करो और कभी भी लोड करो</li>
-            <li>कॉन्फ़िग टीम, स्टूडेंट्स या दोस्तों से शेयर करो</li>
-            <li>हिस्ट्री को तारीख लॉग, ग्रुप्ड सेशन या दिन/हफ्ते/महीने के आँकड़ों में देखें</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hi/clean/03-WatchSync.png" alt="टोटल और ग्राफ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">हिस्ट्री और शेयरिंग</p>
+          <h2 class="feature__title">पूरी हिस्ट्री: हर जोड़, घटाव और बदलाव रिकॉर्ड</h2>
+          <p class="feature__body">काउंटर सेट सेव करो और कभी भी लोड करो</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>APPLE WATCH के साथ लाइव सिंक</h2>
-          <ul>
-            <li>iPhone या Apple Watch पर काउंटर बदलें, दोनों साथ-साथ सिंक रहते हैं</li>
-            <li>असली नेटिव watchOS ऐप — सिर्फ़ कम्पैनियन नहीं</li>
-            <li>नाम, रंग और वैल्यू कलाई पर सिंक</li>
-            <li>टैप करके गिनो, दबाकर रखो रिपीट के लिए — घड़ी से सीधे</li>
-            <li>iPhone पास न हो तो भी अकेला काम करता है</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hi/clean/05-Charts.png" alt="हिस्ट्री और शेयरिंग" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">APPLE WATCH के साथ लाइव सिंक</p>
+          <h2 class="feature__title">iPhone या Apple Watch पर काउंटर बदलें, दोनों साथ-साथ सिंक रहते हैं</h2>
+          <p class="feature__body">असली नेटिव watchOS ऐप — सिर्फ़ कम्पैनियन नहीं</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>iPhone, iPad और APPLE WATCH के लिए</h2>
-          <ul>
-            <li>हर स्क्रीन साइज़ के लिए एडेप्टिव लेआउट</li>
-            <li>iPad एक साथ ज़्यादा काउंटर दिखाता है, Split View सपोर्ट</li>
-            <li>प्राइवेसी पहले: लोकल स्टोरेज, कोई क्लाउड नहीं, कोई अकाउंट नहीं</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hi/clean/03-WatchSync.png" alt="APPLE WATCH के साथ लाइव सिंक" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">iPhone, iPad और APPLE WATCH के लिए</p>
+          <h2 class="feature__title">हर स्क्रीन साइज़ के लिए एडेप्टिव लेआउट</h2>
+          <p class="feature__body">iPad एक साथ ज़्यादा काउंटर दिखाता है, Split View सपोर्ट</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>इनके लिए बढ़िया</h2>
-          <ul>
-            <li>जिम के सेट और रेप्स</li>
-            <li>बुनाई की पंक्तियाँ और क्रोशिया के टांके</li>
-            <li>माला, तस्बीह, प्रार्थना मणियाँ</li>
-            <li>क्लास में अंक और हाज़िरी</li>
-            <li>क्रिकेट, हॉकी, फुटबॉल, कबड्डी — तेज़ स्कोर</li>
-            <li>टेबल टेनिस</li>
-            <li>स्टॉक और गोदाम की गिनती</li>
-            <li>शतरंज, कार्ड, तीन पत्ती, लूडो</li>
-            <li>पूल और ट्रैक के चक्कर</li>
-            <li>पक्षी देखना</li>
-            <li>इवेंट में लोगों की गिनती</li>
-            <li>आदत और लक्ष्य ट्रैकिंग</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/hi/clean/04-Counters.png" alt="iPhone, iPad और APPLE WATCH के लिए" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>गोपनीयता नीति: https://masawata.net/privacy-policy.html उपयोग की शर्तें: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">इनके लिए बढ़िया</h2>
+      <div class="uses__tags"><span class="tag">जिम के सेट और रेप्स</span><span class="tag">बुनाई की पंक्तियाँ और क्रोशिया के टांके</span><span class="tag">माला</span><span class="tag">क्लास में अंक और हाज़िरी</span><span class="tag">क्रिकेट</span><span class="tag">टेबल टेनिस</span><span class="tag">स्टॉक और गोदाम की गिनती</span><span class="tag">शतरंज</span><span class="tag">पूल और ट्रैक के चक्कर</span><span class="tag">पक्षी देखना</span><span class="tag">इवेंट में लोगों की गिनती</span><span class="tag">आदत और लक्ष्य ट्रैकिंग</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">काउंटर 123 डाउनलोड करो और हर गिनती आसान बनाओ — साफ़, तेज़, निजी।</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>
