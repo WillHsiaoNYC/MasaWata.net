@@ -307,6 +307,17 @@
                         <p class="feature-card__description">导入你的 Google Maps Timeline，以及 Moves 和 Arc Timeline 数据，让多年的足迹一同随行。</p>
                     </div>
 
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">照片签到</h3>
+                        <p class="feature-card__description">把你拍下的照片变成足迹。Where was I ? 会读取每张照片的拍摄地点，补全你去过的地方——为拼图解锁和收藏发现提供动力。你的照片绝不会被上传或更改。</p>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -408,6 +419,42 @@
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
                         <button class="faq__question" aria-expanded="false">
+                            <span>什么是照片签到？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>照片签到是根据你设备上的照片自动创建的足迹。每次打开应用时，它会按时间和地点将你的照片分组，并把每组匹配到最近的已保存地点。与追踪的足迹不同，它显示你曾在何处，而不是停留了多久——如果你删除一张照片，对应的签到也会随之消失。你的照片绝不会被上传或修改。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>如何授予或更改照片访问权限？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Where was I ? 会使用你的照片图库，根据照片的拍摄地点来发现地点——这为照片签到、拼图解锁和收藏发现提供动力。要授予或更新权限，请前往 **设置 → 隐私与安全性 → Where Was I**，然后选择**完全访问**。“有限访问”只会扫描你选定的照片，因此可能会漏掉一些足迹。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>为什么我重新指定照片签到的地点后又变回去了？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>照片签到会在每次应用启动时根据你的照片重新生成，因此把某条签到重新指定到别的地点后，可能会在下次启动时被重置。这是因为签到是每次重新生成的，而不像追踪的足迹那样永久保存——当你重新指定时，应用会就此提醒你。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
                             <span>我可以添加或修正应用漏掉的足迹吗？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"></polyline>
@@ -418,7 +465,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
                         <button class="faq__question" aria-expanded="false">
                             <span>位置跟踪是如何工作的？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -430,7 +477,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
                         <button class="faq__question" aria-expanded="false">
                             <span>应用关闭时还能工作吗？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -442,7 +489,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
                         <button class="faq__question" aria-expanded="false">
                             <span>如何授予或更改位置权限？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -458,7 +505,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1000">
                         <button class="faq__question" aria-expanded="false">
                             <span>如何为地点指定名称？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -470,7 +517,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1100">
                         <button class="faq__question" aria-expanded="false">
                             <span>自动地点分配是如何工作的？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -484,7 +531,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1200">
                         <button class="faq__question" aria-expanded="false">
                             <span>iCloud同步如何运作？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -505,7 +552,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1300">
                         <button class="faq__question" aria-expanded="false">
                             <span>位置数据有多准确？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -517,7 +564,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1400">
                         <button class="faq__question" aria-expanded="false">
                             <span>为什么有些访问会出现两次？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -529,7 +576,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1500">
                         <button class="faq__question" aria-expanded="false">
                             <span>在滑雪场或购物中心等大型场所会怎样？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -541,7 +588,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1600">
                         <button class="faq__question" aria-expanded="false">
                             <span>我的位置数据是否安全？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

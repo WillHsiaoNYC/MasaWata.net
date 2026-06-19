@@ -81,6 +81,12 @@
         "icon": "import",
         "title": "Porta con te la tua cronologia",
         "description": "Importa la tua Google Maps Timeline, oltre ai dati di Moves e Arc Timeline, così anni di luoghi ti accompagnano nel viaggio."
+      },
+      {
+        "id": "photos",
+        "icon": "camera",
+        "title": "Check-in fotografici",
+        "description": "Trasforma le foto che scatti in visite. Where was I ? legge dove è stata scattata ogni foto per completare i luoghi in cui sei stato — alimentando lo sblocco dei puzzle e la scoperta delle collezioni. Le tue foto non vengono mai caricate né modificate."
       }
     ]
   },
@@ -108,6 +114,18 @@
       {
         "question": "Cosa sono le Collezioni?",
         "answer": "Le collezioni raggruppano le tue visite in temi a cui tieni. Segui i tuoi progressi attraverso i parchi nazionali degli Stati Uniti, i 100 famosi castelli giapponesi, paesi e regioni, oppure crea collezioni personalizzate con le tue parole chiave — si completano automaticamente man mano che visiti luoghi corrispondenti, e puoi condividere i tuoi progressi."
+      },
+      {
+        "question": "Cosa sono i check-in fotografici?",
+        "answer": "I check-in fotografici sono visite create automaticamente dalle foto sul tuo dispositivo. Ogni volta che apri l'app, raggruppa le tue foto per orario e posizione e abbina ogni gruppo al luogo salvato più vicino. A differenza delle visite tracciate, mostrano dove eri piuttosto che quanto tempo ti sei fermato — e se elimini una foto, il suo check-in semplicemente scompare. Le tue foto non vengono mai caricate né modificate."
+      },
+      {
+        "question": "Come concedo o modifico l'accesso alle foto?",
+        "answer": "Where was I ? usa la tua libreria foto per scoprire luoghi in base a dove sono state scattate le tue foto — questo alimenta i check-in fotografici, lo sblocco dei puzzle e la scoperta delle collezioni. Per concederlo o aggiornarlo, vai su Impostazioni → Privacy e sicurezza → Where Was I e scegli \"Accesso completo\". L'\"Accesso limitato\" analizza solo le foto che selezioni, quindi alcune visite potrebbero essere mancate."
+      },
+      {
+        "question": "Perché la posizione del mio check-in fotografico è tornata indietro dopo che l'avevo riassegnata?",
+        "answer": "I check-in fotografici vengono ricostruiti dalle tue foto a ogni avvio dell'app, quindi riassegnarne uno a un luogo diverso potrebbe ripristinarsi al successivo avvio. Questo perché i check-in vengono rigenerati da zero anziché salvati in modo permanente come le visite tracciate — l'app ti avvisa di questo quando ne riassegni uno."
       },
       {
         "question": "Posso aggiungere o correggere una visita che l'app ha mancato?",

@@ -307,6 +307,17 @@
                         <p class="feature-card__description">Google Maps Timeline に加え、Moves や Arc Timeline のデータもインポートできるので、何年分もの場所がそのまま引き継がれます。</p>
                     </div>
 
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">写真チェックイン</h3>
+                        <p class="feature-card__description">撮った写真をそのまま訪問に変換します。Where was I ? は各写真が撮影された場所を読み取り、訪れた場所を補完——パズルの解除やコレクションの発見にも役立てます。写真がアップロードされたり変更されたりすることはありません。</p>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -408,6 +419,42 @@
 
                     <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
                         <button class="faq__question" aria-expanded="false">
+                            <span>写真チェックインとは何ですか？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>写真チェックインは、デバイス内の写真から自動的に作成される訪問です。アプリを開くたびに、写真を時間と場所ごとにグループ化し、各グループを最も近い保存済みの場所に照合します。記録された訪問とは異なり、滞在時間ではなくあなたがどこにいたかを示します——写真を削除すれば、そのチェックインも一緒に消えます。写真がアップロードされたり変更されたりすることはありません。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>写真へのアクセスを許可・変更するにはどうすればよいですか？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Where was I ? は、写真が撮影された場所をもとに訪れた場所を見つけるために写真ライブラリを使用します——これが写真チェックイン、パズルの解除、コレクションの発見を支えています。許可または変更するには、**設定 → プライバシーとセキュリティ → Where Was I** に移動し、**フルアクセス** を選択してください。"制限付きアクセス" では選んだ写真しかスキャンされないため、一部の訪問が見逃される場合があります。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>写真チェックインの場所を割り当て直したのに、元に戻ってしまうのはなぜですか？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>写真チェックインはアプリを起動するたびに写真から作り直されるため、別の場所に割り当て直しても次回の起動時にリセットされることがあります。これは、チェックインが記録された訪問のように永続保存されるのではなく、その都度新しく再生成されるためです——割り当て直す際に、アプリがこの点について警告します。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
                             <span>アプリが見逃した訪問を追加・修正できますか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"></polyline>
@@ -418,7 +465,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
                         <button class="faq__question" aria-expanded="false">
                             <span>位置追跡はどのように機能しますか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -430,7 +477,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
                         <button class="faq__question" aria-expanded="false">
                             <span>アプリを閉じても動作しますか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -442,7 +489,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
                         <button class="faq__question" aria-expanded="false">
                             <span>位置情報の許可を与えたり変更するにはどうすればよいですか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -458,7 +505,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1000">
                         <button class="faq__question" aria-expanded="false">
                             <span>場所の名前はどのように割り当てますか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -470,7 +517,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1100">
                         <button class="faq__question" aria-expanded="false">
                             <span>自動場所割り当てはどのように機能しますか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -484,7 +531,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1200">
                         <button class="faq__question" aria-expanded="false">
                             <span>iCloud同期の仕組みは？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -505,7 +552,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1300">
                         <button class="faq__question" aria-expanded="false">
                             <span>位置データはどのくらい正確ですか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -517,7 +564,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1400">
                         <button class="faq__question" aria-expanded="false">
                             <span>なぜ一部の訪問が2回表示されるのですか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -529,7 +576,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1500">
                         <button class="faq__question" aria-expanded="false">
                             <span>スキーリゾートやモールのような大きな施設ではどうなりますか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -541,7 +588,7 @@
                         </div>
                     </div>
 
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1600">
                         <button class="faq__question" aria-expanded="false">
                             <span>位置データは安全ですか？</span>
                             <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

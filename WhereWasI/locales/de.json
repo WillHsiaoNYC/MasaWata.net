@@ -81,6 +81,12 @@
         "icon": "import",
         "title": "Nimm deinen Verlauf mit",
         "description": "Importiere deine Google Maps Timeline sowie Moves- und Arc-Timeline-Daten, damit Jahre an Orten mit auf die Reise kommen."
+      },
+      {
+        "id": "photos",
+        "icon": "camera",
+        "title": "Foto-Check-ins",
+        "description": "Verwandle deine aufgenommenen Fotos in Besuche. Where was I ? liest aus, wo jedes Foto aufgenommen wurde, und ergänzt so die Orte, an denen du warst — das treibt das Freischalten von Puzzles und das Entdecken von Sammlungen an. Deine Fotos werden niemals hochgeladen oder verändert."
       }
     ]
   },
@@ -108,6 +114,18 @@
       {
         "question": "Was sind Sammlungen?",
         "answer": "Sammlungen gruppieren deine Besuche in Themen, die dir wichtig sind. Verfolge deinen Fortschritt durch die Nationalparks der USA, die 100 berühmten japanischen Burgen, Länder und Regionen, oder erstelle eigene Sammlungen mit deinen eigenen Stichwörtern — sie füllen sich automatisch, sobald du passende Orte besuchst, und du kannst deinen Fortschritt teilen."
+      },
+      {
+        "question": "Was sind Foto-Check-ins?",
+        "answer": "Foto-Check-ins sind Besuche, die automatisch aus den Fotos auf deinem Gerät erstellt werden. Jedes Mal, wenn du die App öffnest, gruppiert sie deine Fotos nach Zeit und Ort und ordnet jede Gruppe dem nächstgelegenen gespeicherten Ort zu. Anders als erfasste Besuche zeigen sie, wo du warst, statt wie lange du geblieben bist — und wenn du ein Foto löschst, verschwindet sein Check-in einfach. Deine Fotos werden niemals hochgeladen oder verändert."
+      },
+      {
+        "question": "Wie erteile oder ändere ich den Fotozugriff?",
+        "answer": "Where was I ? nutzt deine Fotomediathek, um Orte anhand des Aufnahmeorts deiner Fotos zu entdecken — das treibt Foto-Check-ins, das Freischalten von Puzzles und das Entdecken von Sammlungen an. Um den Zugriff zu erteilen oder zu ändern, gehe zu Einstellungen → Datenschutz & Sicherheit → Where Was I und wähle Vollzugriff. „Eingeschränkter Zugriff“ durchsucht nur die von dir ausgewählten Fotos, sodass einige Besuche fehlen können."
+      },
+      {
+        "question": "Warum ist der Ort meines Foto-Check-ins nach dem Neuzuweisen wieder zurückgesprungen?",
+        "answer": "Foto-Check-ins werden bei jedem Start der App neu aus deinen Fotos aufgebaut, daher kann eine Neuzuweisung zu einem anderen Ort beim nächsten Start zurückgesetzt werden. Das liegt daran, dass Check-ins jedes Mal frisch neu erzeugt und nicht dauerhaft gespeichert werden wie erfasste Besuche — die App weist dich beim Neuzuweisen darauf hin."
       },
       {
         "question": "Kann ich einen Besuch hinzufügen oder korrigieren, den die App verpasst hat?",

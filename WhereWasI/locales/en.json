@@ -81,6 +81,12 @@
         "icon": "import",
         "title": "Bring Your History With You",
         "description": "Import your Google Maps Timeline, plus Moves and Arc Timeline data, so years of places come along for the ride."
+      },
+      {
+        "id": "photos",
+        "icon": "camera",
+        "title": "Photo Check-Ins",
+        "description": "Turn the photos you take into visits. Where was I ? reads where each photo was taken to fill in the places you went — powering puzzle unlocks and collection discovery. Your photos are never uploaded or changed."
       }
     ]
   },
@@ -108,6 +114,18 @@
       {
         "question": "What are Collections?",
         "answer": "Collections group your visits into themes you care about. Track your progress through the U.S. National Parks, the 100 Famous Japanese Castles, countries and regions, or create custom collections with your own keywords — they fill in automatically as you visit matching places, and you can share your progress."
+      },
+      {
+        "question": "What are Photo Check-Ins?",
+        "answer": "Photo Check-Ins are visits automatically created from the photos on your device. Each time you open the app, it groups your photos by time and location and matches each group to the nearest saved place. Unlike tracked visits they show where you were rather than how long you stayed — and if you delete a photo, its check-in simply disappears. Your photos are never uploaded or modified."
+      },
+      {
+        "question": "How do I grant or change photo access?",
+        "answer": "Where was I ? uses your photo library to discover places based on where your photos were taken — this powers Photo Check-Ins, puzzle unlocks, and collection discovery. To grant or update it, go to Settings → Privacy & Security → Where Was I and choose Full Access. \"Limited Access\" only scans the photos you pick, so some visits may be missed."
+      },
+      {
+        "question": "Why did my Photo Check-In location change back after I reassigned it?",
+        "answer": "Photo Check-Ins are rebuilt from your photos every time the app launches, so reassigning one to a different place may reset on the next launch. That's because check-ins are regenerated fresh rather than saved permanently like tracked visits — the app warns you about this when you reassign one."
       },
       {
         "question": "Can I add or fix a visit the app missed?",
