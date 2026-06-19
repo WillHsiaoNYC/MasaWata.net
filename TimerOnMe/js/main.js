@@ -265,4 +265,39 @@
     // ===== Prevent Flash of Unstyled Content =====
     document.documentElement.classList.add('js-loaded');
 
+    // ===== FAQ Accordion =====
+    function initFaqAccordion() {
+        const faqItems = document.querySelectorAll('.faq__item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq__question');
+            if (!question) return;
+
+            question.addEventListener('click', () => {
+                const isExpanded = question.getAttribute('aria-expanded') === 'true';
+
+                // Close all other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                        const otherQuestion = otherItem.querySelector('.faq__question');
+                        if (otherQuestion) {
+                            otherQuestion.setAttribute('aria-expanded', 'false');
+                        }
+                    }
+                });
+
+                // Toggle current item
+                item.classList.toggle('active');
+                question.setAttribute('aria-expanded', !isExpanded);
+            });
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initFaqAccordion);
+    } else {
+        initFaqAccordion();
+    }
+
 })();

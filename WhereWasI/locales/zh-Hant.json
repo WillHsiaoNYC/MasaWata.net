@@ -4,7 +4,7 @@
   "appName": "WhereWasI",
   "meta": {
     "title": "WhereWasI - 記錄你去過的每一個地方",
-    "description": "WhereWasI 自動追蹤和整理你去過的所有地方。重溫最愛的地點，發現日常生活的規律，保存私密的位置日記。",
+    "description": "Where was I ? 自動記住你去過的每一個地方，然後將其變成私密的時間軸、日曆和地圖。探索你的規律，收集國家公園和日本城堡，從 Apple Watch 或主畫面一瞥你的一天。全程在裝置上運行，無需帳戶。",
     "keywords": "位置日記, 去過的地方, 位置追蹤, 旅行記錄, iOS應用程式, 隱私, 位置歷史, 自動追蹤"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "記錄你去過的每一個地方",
-    "description": "WhereWasI 自動追蹤和整理你去過的所有地方。重溫最愛的地點，發現日常生活的規律，保存私密的旅程日記——一切都無需動手。",
+    "description": "Where was I ? 自動記住你去過的每一個地方——然後將其變成私密的時間軸、日曆和地圖。發現你的規律，收集國家公園和日本城堡，直接從你的 Apple Watch 或主畫面一瞥你的一天。一切都在你的裝置上，無需註冊帳戶。",
     "downloadAlt": "在 App Store 下載"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "資料留在裝置",
         "description": "所有位置資料安全儲存在你的 iPhone 和個人 iCloud 中。永遠不會傳送到外部伺服器。你的旅程只屬於你自己。"
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "盡在腕間",
+        "description": "直接在 Apple Watch 上查看今日足跡、本週和本月概覽，以及你最常去的地方——還有 Smart Stack 小工具，讓你最近的停留點觸手可及。"
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "主畫面和鎖定畫面小工具",
+        "description": "無需開啟應用程式即可查看最近足跡、目前所在位置的即時停留計時器，以及今日的造訪次數。點擊任意小工具即可直接進入應用程式。"
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "日曆檢視",
+        "description": "按日、週或月瀏覽你的足跡。日曆一目了然地顯示造訪次數和不同的地點，讓你幾秒鐘內就能重溫任何一天。"
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "收藏與里程碑",
+        "description": "把你的旅程變成收藏——記錄 U.S. National Parks、100 Famous Japanese Castles、國家和地區，或建立隨你出行自動填入的自訂收藏。"
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "新增、編輯與分割足跡",
+        "description": "補錄應用程式漏掉的停留點，微調抵達和離開時間，或將一次造訪分割為兩次——讓你的歷史記錄準確而完整。"
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "把你的歷史一併帶來",
+        "description": "匯入你的 Google Maps Timeline，以及 Moves 和 Arc Timeline 資料，讓多年的足跡一同隨行。"
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "今天就開始記錄",
     "description": "免費下載。安裝後即刻開始你的位置日記。無需註冊帳戶——只需你、你的 iPhone 和你去過的地方。",
-    "platforms": "支援 iPhone 和 iPad"
+    "platforms": "支援 iPhone、iPad 和 Apple Watch"
   },
   "faq": {
     "sectionTitle": "常見問題",
     "sectionSubtitle": "關於 WhereWasI 你需要了解的一切",
     "list": [
+      {
+        "question": "有 Apple Watch 應用程式和小工具嗎？",
+        "answer": "有。Where was I ? 包含一個完整的 Apple Watch 應用程式——今日足跡、本週和本月概覽，以及你最常去的地方——還有 Smart Stack 小工具。在 iPhone 上，你還能獲得顯示最近足跡、即時停留計時器、今日造訪次數和目前位置的主畫面及鎖定畫面小工具。"
+      },
+      {
+        "question": "我可以匯入我的 Google Maps Timeline 嗎？",
+        "answer": "可以。你能匯入 Google Maps Timeline 的匯出檔案，以及 Moves 和 Arc Timeline 資料——只需開啟匯入畫面並新增你的檔案即可。你過去的地點會自動配對到相應位置。"
+      },
+      {
+        "question": "什麼是收藏？",
+        "answer": "收藏會把你的足跡按你關心的主題分組。你可以追蹤 U.S. National Parks、100 Famous Japanese Castles、國家和地區的進度，或用你自己的關鍵字建立自訂收藏——當你造訪符合條件的地點時它們會自動填入，你還可以分享自己的進度。"
+      },
+      {
+        "question": "我可以新增或修正應用程式漏掉的足跡嗎？",
+        "answer": "可以。使用手動足跡精靈新增未被記錄的停留點，編輯任意足跡的抵達和離開時間，或在一次停留其實是兩次時將單次造訪分割為兩次。每條足跡都會顯示它是自動偵測的、由你新增的，還是匯入的。"
+      },
       {
         "question": "位置追蹤是如何運作的？",
         "answer": "應用程式使用Apple的Visit Monitoring API自動偵測您何時到達和離開地點。這在背景執行，對電池影響最小。"
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "隱私權政策",
     "termsOfService": "服務條款",
-    "copyright": "© 2025 WhereWasI. 保留所有權利。"
+    "copyright": "© 2026 Where was I ?. 保留所有權利。"
   }
 }

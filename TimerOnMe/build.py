@@ -107,15 +107,31 @@ FEATURE_ICONS = {
                 <circle cx="12" cy="12" r="10"></circle>
                 <polyline points="12 6 12 12 16 14"></polyline>
             </svg>''',
+    'alarm': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="13" r="8"></circle>
+                <polyline points="12 9 12 13 14.5 14.5"></polyline>
+                <path d="M5 3 2 6"></path>
+                <path d="M22 6l-3-3"></path>
+                <path d="M6 19l-2 2"></path>
+                <path d="M18 19l2 2"></path>
+            </svg>''',
+    'watch': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
+                <path d="M9 6l.6-3h4.8l.6 3"></path>
+                <path d="M9 18l.6 3h4.8l.6-3"></path>
+                <polyline points="12 10 12 12 13.5 13.5"></polyline>
+            </svg>''',
 }
 
 # Feature colors
 FEATURE_COLORS = {
     'multi-timer': 'blue',
+    'alarms': 'orange',
     'interval': 'red',
+    'watch': 'teal',
     'widgets': 'purple',
-    'sessions': 'green',
     'ringtones': 'yellow',
+    'sessions': 'green',
     'display': 'blue',
 }
 
@@ -141,8 +157,29 @@ def get_asset_path(lang_dir):
     return '../' if lang_dir else ''
 
 
+def generate_faq_html(faq_items):
+    """Generate HTML for FAQ accordion items."""
+    faq_html = ''
+    for i, item in enumerate(faq_items):
+        delay = i * 100
+        faq_html += f'''
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="{delay}">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>{item['question']}</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>{item['answer']}</p>
+                        </div>
+                    </div>
+'''
+    return faq_html
+
+
 def generate_features_html(features_list, asset_path):
-    """Generate HTML for 6 feature cards."""
+    """Generate HTML for 8 feature cards."""
     features_html = ''
     for i, feature in enumerate(features_list):
         feature_id = feature.get('id', f'feature-{i}')
@@ -188,6 +225,9 @@ def generate_html(lang, translations):
 
     # Generate features HTML
     features_html = generate_features_html(t['features']['list'], asset_path)
+
+    # Generate FAQ HTML
+    faq_html = generate_faq_html(t['faq']['list'])
 
     html = f'''<!DOCTYPE html>
 <html lang="{lang['code']}">
@@ -251,8 +291,8 @@ def generate_html(lang, translations):
             "priceCurrency": "USD"
         }},
         "description": "{t['meta']['description']}",
-        "screenshot": "{BASE_URL}/images/en/Title.png",
-        "softwareVersion": "3.1",
+        "screenshot": "{BASE_URL}/images/en/gallery-overview.jpg",
+        "softwareVersion": "4.1",
         "author": {{
             "@type": "Person",
             "name": "Weiren Hsiao"
@@ -279,6 +319,9 @@ def generate_html(lang, translations):
                 </li>
                 <li class="nav__item">
                     <a href="#download" class="nav__link">{t['nav']['download']}</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#faq" class="nav__link">{t['nav']['faq']}</a>
                 </li>
             </ul>
 
@@ -322,7 +365,7 @@ def generate_html(lang, translations):
                 </div>
                 <div class="hero__device">
                     <div class="device-frame">
-                        <img src="{asset_path}images/en/Title.png" alt="Timer on Me Screenshot" class="device-screen">
+                        <img src="{asset_path}images/en/hero.jpg" alt="Timer on Me Screenshot" class="device-screen">
                     </div>
                 </div>
             </div>
@@ -353,11 +396,12 @@ def generate_html(lang, translations):
 
                 <div class="screenshots__gallery">
                     <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="{asset_path}images/en/multi-timer.png" alt="{t['features']['list'][0]['title']}" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/Interval.png" alt="{t['features']['list'][1]['title']}" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/widget.png" alt="{t['features']['list'][2]['title']}" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/session.png" alt="{t['features']['list'][3]['title']}" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/ringtone.png" alt="{t['features']['list'][4]['title']}" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-overview.jpg" alt="Time it, wake to it, train with it" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-multitimer.jpg" alt="Run multiple timers at once" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-watch.jpg" alt="Apple Watch app" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-intervals.jpg" alt="Tabata, EMOM &amp; 30/30 intervals" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-workout.jpg" alt="Full-screen interval workouts" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-alarms.jpg" alt="Alarms that ring when locked" loading="lazy"></div>
                     </div>
                 </div>
 
@@ -385,6 +429,20 @@ def generate_html(lang, translations):
                     <div class="download__platforms">
                         <span class="platform-badge">{t['download']['platforms']}</span>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">{t['faq']['sectionTitle']}</h2>
+                    <p class="section-subtitle">{t['faq']['sectionSubtitle']}</p>
+                </div>
+
+                <div class="faq__list">
+{faq_html}
                 </div>
             </div>
         </section>

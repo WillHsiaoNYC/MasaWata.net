@@ -4,7 +4,7 @@
   "appName": "WhereWasI",
   "meta": {
     "title": "WhereWasI - Erinnere dich an jeden besuchten Ort",
-    "description": "WhereWasI verfolgt und organisiert automatisch alle Orte, die du besuchst. Besuche deine Lieblingsorte erneut, entdecke Muster in deinem Alltag und führe ein privates Standort-Tagebuch.",
+    "description": "Where was I ? merkt sich automatisch jeden Ort, an den du gehst, und verwandelt ihn in eine private Timeline, einen Kalender und eine Karte. Erkunde deine Muster, sammle Nationalparks und japanische Burgen und wirf einen Blick auf deinen Tag von der Apple Watch oder deinem Home Screen. Auf dem Gerät, ohne Konto.",
     "keywords": "Standort-Tagebuch, besuchte Orte, Standortverfolgung, Reisetagebuch, iOS-App, Datenschutz, Standortverlauf, automatische Verfolgung"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Erinnere dich an jeden besuchten Ort",
-    "description": "WhereWasI verfolgt und organisiert automatisch alle Orte, die du besuchst. Besuche deine Lieblingsorte erneut, entdecke Muster in deinem Alltag und führe ein privates Tagebuch deiner Reise—ganz ohne Aufwand.",
+    "description": "Where was I ? merkt sich automatisch jeden Ort, an den du gehst — und verwandelt ihn in eine private Timeline, einen Kalender und eine Karte. Entdecke deine Muster, sammle Nationalparks und japanische Burgen und wirf einen Blick auf deinen Tag direkt von deiner Apple Watch oder deinem Home Screen. Alles auf deinem Gerät, kein Konto erforderlich.",
     "downloadAlt": "Im App Store laden"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "Deine Daten, dein Gerät",
         "description": "Alle Standortdaten bleiben sicher auf deinem iPhone und deiner persönlichen iCloud. Nichts wird jemals an externe Server gesendet. Deine Reise bleibt deine."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "An deinem Handgelenk",
+        "description": "Sieh dir die heutigen Besuche, Wochen- und Monatszusammenfassungen und deine wichtigsten Orte direkt auf der Apple Watch an — dazu eine Smart-Stack-Komplikation, die deinen letzten Halt jederzeit griffbereit hält."
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "Home- & Lock-Screen-Widgets",
+        "description": "Sieh dir aktuelle Besuche, einen Live-Aufenthaltstimer für deinen jetzigen Standort und die heutige Besuchszahl an, ohne die App zu öffnen. Tippe auf ein beliebiges Widget, um direkt einzusteigen."
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "Kalenderansicht",
+        "description": "Durchstöbere deine Besuche nach Tag, Woche oder Monat. Der Kalender zeigt Besuchszahlen und einzigartige Orte auf einen Blick, sodass du jeden Tag in Sekunden noch einmal aufrufen kannst."
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "Sammlungen & Meilensteine",
+        "description": "Verwandle deine Reisen in Sammlungen — verfolge die Nationalparks der USA, die 100 berühmten japanischen Burgen, Länder und Regionen, oder erstelle eigene Sammlungen, die sich unterwegs automatisch füllen."
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "Besuche hinzufügen, bearbeiten & teilen",
+        "description": "Trage einen Halt nach, den die App verpasst hat, justiere Ankunfts- und Abfahrtszeiten oder teile einen Besuch in zwei auf — dein Verlauf bleibt genau und vollständig."
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "Nimm deinen Verlauf mit",
+        "description": "Importiere deine Google Maps Timeline sowie Moves- und Arc-Timeline-Daten, damit Jahre an Orten mit auf die Reise kommen."
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "Beginne heute mit dem Erinnern",
     "description": "Kostenloser Download. Dein Standort-Tagebuch beginnt in dem Moment, in dem du installierst. Kein Konto erforderlich—nur du, dein iPhone und die Orte, die du besuchst.",
-    "platforms": "Verfügbar für iPhone und iPad"
+    "platforms": "Verfügbar für iPhone, iPad und Apple Watch"
   },
   "faq": {
     "sectionTitle": "Häufig gestellte Fragen",
     "sectionSubtitle": "Alles, was du über WhereWasI wissen musst",
     "list": [
+      {
+        "question": "Gibt es eine Apple Watch App und Widgets?",
+        "answer": "Ja. Where was I ? enthält eine vollständige Apple Watch App — die heutigen Besuche, Wochen- und Monatszusammenfassungen und deine wichtigsten Orte — dazu eine Smart-Stack-Komplikation. Auf dem iPhone erhältst du außerdem Home-Screen- und Lock-Screen-Widgets, die aktuelle Besuche, einen Live-Aufenthaltstimer, die heutige Besuchszahl und deinen aktuellen Standort anzeigen."
+      },
+      {
+        "question": "Kann ich meine Google Maps Timeline importieren?",
+        "answer": "Ja. Du kannst deinen Google Maps Timeline-Export sowie Moves- und Arc-Timeline-Daten importieren — öffne einfach den Importbildschirm und füge deine Datei hinzu. Deine früheren Orte werden automatisch Standorten zugeordnet."
+      },
+      {
+        "question": "Was sind Sammlungen?",
+        "answer": "Sammlungen gruppieren deine Besuche in Themen, die dir wichtig sind. Verfolge deinen Fortschritt durch die Nationalparks der USA, die 100 berühmten japanischen Burgen, Länder und Regionen, oder erstelle eigene Sammlungen mit deinen eigenen Stichwörtern — sie füllen sich automatisch, sobald du passende Orte besuchst, und du kannst deinen Fortschritt teilen."
+      },
+      {
+        "question": "Kann ich einen Besuch hinzufügen oder korrigieren, den die App verpasst hat?",
+        "answer": "Ja. Nutze den manuellen Besuchsassistenten, um einen nicht erfassten Halt hinzuzufügen, die Ankunfts- und Abfahrtszeiten eines beliebigen Besuchs zu bearbeiten oder einen einzelnen Besuch in zwei aufzuteilen, wenn aus einem Halt eigentlich zwei wurden. Jeder Besuch zeigt an, ob er automatisch erkannt, von dir hinzugefügt oder importiert wurde."
+      },
       {
         "question": "Wie funktioniert die Standortverfolgung?",
         "answer": "Die App verwendet Apples Visit Monitoring API, um automatisch zu erkennen, wann Sie an Orten ankommen und sie verlassen. Dies geschieht im Hintergrund mit minimalem Akkuverbrauch."
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Datenschutzerklärung",
     "termsOfService": "Nutzungsbedingungen",
-    "copyright": "© 2025 WhereWasI. Alle Rechte vorbehalten."
+    "copyright": "© 2026 Where was I ?. Alle Rechte vorbehalten."
   }
 }

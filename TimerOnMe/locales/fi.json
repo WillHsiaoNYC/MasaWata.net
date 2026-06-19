@@ -4,17 +4,18 @@
   "appName": "Oma Ajastin",
   "meta": {
     "title": "Oma Ajastin - Useita ajastimia ja sekuntikelloja yhdessä sovelluksessa",
-    "description": "Käytä useita ajastimia ja sekuntikelloja samanaikaisesti. Intervalliharjoittelu, aloitusnäytön widgetit, istuntojen hallinta ja mukautetut soittoäänet. Ilmainen iPhonelle ja iPadille.",
+    "description": "Käytä jopa 50 ajastinta ja sekuntikelloa kerralla, hälytyksillä jotka soivat puhelimen ollessa lukittuna (AlarmKit), Tabata/EMOM/30-30-intervalleilla, Live Activities -toiminnoilla ja täysiverisellä Apple Watch -sovelluksella. Ilmainen iPhonelle, iPadille ja Apple Watchille.",
     "keywords": "ajastin, sekuntikello, useita ajastimia, intervalliharjoittelu, HIIT-ajastin, Tabata, iOS-sovellus, aloitusnäytön widget, lähtölaskenta-ajastin, timer, stopwatch"
   },
   "nav": {
     "features": "Ominaisuudet",
     "screenshots": "Kuvakaappaukset",
-    "download": "Lataa"
+    "download": "Lataa",
+    "faq": "UKK"
   },
   "hero": {
-    "title": "Useita ajastimia, yksi sovellus",
-    "description": "Käytä niin monta ajastinta ja sekuntikelloa kuin tarvitset, kaikkia samanaikaisesti. Täydellinen ruoanlaittoon, harjoitteluun, opiskeluun tai mihin tahansa, mikä vaatii tarkkaa ajanottoa.",
+    "title": "Jokainen ajastin, hälytys ja sekuntikello — yhtä aikaa",
+    "description": "Käytä jopa 50 ajastinta ja sekuntikelloa samanaikaisesti, aseta hälytyksiä jotka soivat vaikka iPhone on lukittuna, ja ota HIIT-treenien aikoja tarkasti — iPhonella, iPadilla ja Apple Watchilla.",
     "downloadAlt": "Lataa App Storesta"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Moniajastinruudukko",
-        "description": "Käytä useita ajastimia ja sekuntikelloja samanaikaisesti selkeässä, responsiivisessa ruudukossa. Jokaisella kellolla on itsenäiset ohjaimet — käynnistä, keskeytä ja nollaa erikseen."
+        "description": "Käytä jopa 50 itsenäistä ajastinta ja sekuntikelloa kerralla selkeässä ruudukossa. Käynnistä, keskeytä ja nollaa jokainen erikseen — tai ohjaa niitä kaikkia yhdessä."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Luotettavat hälytykset",
+        "description": "Herätys- ja muistutushälytykset mukautetuilla nimillä ja viikonpäiväaikatauluilla, AlarmKit-tekniikalla toteutettuna niin että ne soivat vaikka iPhone on lukittuna tai Oma Ajastin on suljettuna. Mukana torkkuvaihtoehdot ja omat äänet."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Intervalliharjoittelu",
-        "description": "Sisäänrakennetut HIIT-, Tabata- ja mukautetut intervalliesiasetukset. Luo omat työ/lepo-sekvenssit täydelliseen harjoittelurutiiniin."
+        "description": "Sisäänrakennetut Tabata-, EMOM- ja 30/30-esiasetukset saavat sinut treenaamaan kahdella napautuksella, lisäksi mukautettujen intervallien muokkain ja koko näytön treenitila värisignaalein."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Apple Watch -sovellus",
+        "description": "Täysiverinen natiivi Apple Watch -sovellus — käytä useita sekuntikelloja ja ajastimia ranteessasi sadasosasekunnin tarkkuudella ja komplikaatioilla, vaikka iPhone ei olisi lähettyvillä."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Aloitusnäytön widgetit",
-        "description": "Hallitse ajastimia suoraan aloitusnäytöltä. Pienet, keskikokoiset ja suuret widgetkoot sopivat asetteluusi."
+        "title": "Widgetit ja Live Activities",
+        "description": "Hallitse ajastimiasi aloitusnäytöltä interaktiivisilla widgeteillä ja seuraa lähtölaskentaa lukitusnäytöltä ja Dynamic Islandista Live Activities -toiminnolla."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Hälytysäänet omalla tavallasi",
+        "description": "Valitse tusinasta sisäänrakennetusta hälytysäänestä tai tuo omasi. Hälytyksesi soivat vaikka iPhone olisi lukittuna, äänettömällä tai sovellus suljettuna."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Istuntojen hallinta",
         "description": "Tallenna ajastinasetelmat ja lataa ne milloin tahansa. Vie istunnot JSON-, CSV- tai tekstitiedostona helppoa jakamista ja varmuuskopiointia varten."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Mukautetut soittoäänet",
-        "description": "Valitse 7 sisäänrakennetusta hälytysäänestä — yksinkertaisesta kellosta retrotyylisiin puhelinääniin. Hälytykset toimivat myös äänettömässä tilassa iOS 18.2+:n kanssa."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Aloita ajanotto nyt",
     "description": "Ilmainen lataus. Useita ajastimia, intervalliharjoittelu ja widgetit — kaikki valmiina. Tiliä ei tarvita.",
-    "platforms": "Saatavilla iPhonelle ja iPadille"
+    "platforms": "Saatavilla iPhonelle, iPadille ja Apple Watchille"
+  },
+  "faq": {
+    "sectionTitle": "Usein kysytyt kysymykset",
+    "sectionSubtitle": "Kaikki mitä sinun tarvitsee tietää Oma Ajastin -sovelluksesta",
+    "list": [
+      {
+        "question": "Soivatko hälytykset ja ajastimet, kun iPhone on lukittuna tai sovellus suljettuna?",
+        "answer": "Kyllä. Hälytykset toimivat Applen AlarmKit-tekniikalla ja soivat vaikka iPhone on lukittuna tai Oma Ajastin on suljettuna, ja ajastinten ilmoitukset laukeavat luotettavasti myös taustalla."
+      },
+      {
+        "question": "Kuinka monta ajastinta voin käyttää kerralla?",
+        "answer": "Jopa 50 itsenäistä ajastinta ja sekuntikelloa yhdessä istunnossa — käynnistä, pysäytä ja nollaa ne erikseen tai synkronoiduissa ryhmissä."
+      },
+      {
+        "question": "Onko Apple Watch -sovellusta?",
+        "answer": "Kyllä — täysiverinen natiivi watchOS-sovellus, jossa on useita samanaikaisia ajastimia ja sekuntikelloja, sadasosasekunnin tarkkuus ja komplikaatiot. Se toimii silloinkin, kun iPhone ei ole ulottuvilla."
+      },
+      {
+        "question": "Voinko käyttää sitä HIIT- ja Tabata-treeneihin?",
+        "answer": "Ehdottomasti. Sisäänrakennetut Tabata-, EMOM- ja 30/30-esiasetukset saavat sinut alkuun kahdella napautuksella, lisäksi mukautettujen intervallien muokkain omille työ-/lepo-/kierrossarjoillesi ja koko näytön treenitila."
+      },
+      {
+        "question": "Voinko lisätä omat hälytysäänet?",
+        "answer": "Kyllä — valitse mukana tulevista soittoäänistä tai tuo omat äänitiedostosi."
+      },
+      {
+        "question": "Toimiiko se offline-tilassa? Tarvitsenko tilin?",
+        "answer": "Tiliä tai internetyhteyttä ei tarvita. Kaikki toimii laitteessa ja tietosi pysyvät paikallisina."
+      },
+      {
+        "question": "Onko se ilmainen?",
+        "answer": "Kyllä, Oma Ajastin on ilmainen ladata. Valinnainen sovelluksen sisäinen osto avaa lisähälytyksiä kahden ensimmäisen lisäksi, jos tarvitset niitä."
+      }
+    ]
   },
   "privacy": {
     "title": "Yksityisyytesi on tärkeää",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Tietosuojakäytäntö",
     "termsOfService": "Käyttöehdot",
-    "copyright": "© 2025 Oma Ajastin. Kaikki oikeudet pidätetään."
+    "copyright": "© 2026 Oma Ajastin. Kaikki oikeudet pidätetään."
   }
 }

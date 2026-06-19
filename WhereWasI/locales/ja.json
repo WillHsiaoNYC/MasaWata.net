@@ -4,7 +4,7 @@
   "appName": "WhereWasI",
   "meta": {
     "title": "WhereWasI - 訪れた場所をすべて記録",
-    "description": "WhereWasI は訪れた場所を自動で追跡・整理します。お気に入りの場所を振り返り、日常のパターンを発見し、プライベートなロケーション日記を保存しましょう。",
+    "description": "Where was I ? は訪れたすべての場所を自動で記憶し、プライベートなタイムライン、カレンダー、地図に変えます。自分のパターンを探り、国立公園や日本の城を集め、Apple Watch やホーム画面から一日を振り返りましょう。すべてオンデバイスで、アカウント不要。",
     "keywords": "ロケーション日記, 訪問場所, 位置追跡, 旅行記録, iOSアプリ, プライバシー, 位置履歴, 自動追跡"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "訪れた場所をすべて記録",
-    "description": "WhereWasI は訪れた場所を自動で追跡・整理します。お気に入りの場所を振り返り、日常のパターンを発見し、プライベートな旅の記録を残しましょう——すべて手間いらずで。",
+    "description": "Where was I ? は訪れたすべての場所を自動で記憶し、プライベートなタイムライン、カレンダー、地図に変えます。自分のパターンを発見し、国立公園や日本の城を集め、Apple Watch やホーム画面から一日を振り返りましょう。すべてあなたのデバイス上で、アカウント登録は不要です。",
     "downloadAlt": "App Store でダウンロード"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "データはあなたのデバイスに",
         "description": "すべての位置データは iPhone と個人の iCloud に安全に保存されます。外部サーバーに送信されることはありません。あなたの旅はあなただけのものです。"
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "手首の上で",
+        "description": "今日の訪問、週間・月間のサマリー、よく行く場所を Apple Watch からすぐに確認できます。さらに Smart Stack コンプリケーションで、最新の立ち寄り先を一目で把握できます。"
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "ホーム画面とロック画面のウィジェット",
+        "description": "最近の訪問、現在地でのリアルタイム滞在タイマー、今日の訪問数を、アプリを開かずに確認できます。ウィジェットをタップすればすぐにアプリへ移動できます。"
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "カレンダー表示",
+        "description": "訪問を日、週、月ごとに閲覧できます。カレンダーには訪問数とユニークな場所が一目で表示されるので、どの日でも数秒で振り返れます。"
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "コレクションとマイルストーン",
+        "description": "あなたの旅をコレクションに——U.S. National Parks、100 Famous Japanese Castles、国や地域を記録したり、訪れるたびに自動で埋まるカスタムコレクションを作ったりできます。"
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "訪問の追加・編集・分割",
+        "description": "アプリが見逃した立ち寄りを後から追加したり、到着・出発時刻を微調整したり、1 つの訪問を 2 つに分割したり——履歴を正確かつ完全に保てます。"
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "これまでの履歴も一緒に",
+        "description": "Google Maps Timeline に加え、Moves や Arc Timeline のデータもインポートできるので、何年分もの場所がそのまま引き継がれます。"
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "今日から記録を始めよう",
     "description": "無料でダウンロード。インストールした瞬間からロケーション日記が始まります。アカウント登録不要——あなたと iPhone、そして訪れる場所だけ。",
-    "platforms": "iPhone と iPad で利用可能"
+    "platforms": "iPhone、iPad、Apple Watch で利用可能"
   },
   "faq": {
     "sectionTitle": "よくある質問",
     "sectionSubtitle": "WhereWasI について知っておくべきすべてのこと",
     "list": [
+      {
+        "question": "Apple Watch アプリやウィジェットはありますか？",
+        "answer": "はい。Where was I ? には本格的な Apple Watch アプリ（今日の訪問、週間・月間のサマリー、よく行く場所）に加え、Smart Stack コンプリケーションが含まれています。iPhone では、最近の訪問、リアルタイムの滞在タイマー、今日の訪問数、現在地を表示するホーム画面とロック画面のウィジェットも使えます。"
+      },
+      {
+        "question": "Google Maps Timeline をインポートできますか？",
+        "answer": "はい。Google Maps Timeline のエクスポートのほか、Moves や Arc Timeline のデータもインポートできます——インポート画面を開いてファイルを追加するだけです。過去の場所は自動的にロケーションに照合されます。"
+      },
+      {
+        "question": "コレクションとは何ですか？",
+        "answer": "コレクションは、あなたが大切にするテーマごとに訪問をまとめます。U.S. National Parks、100 Famous Japanese Castles、国や地域の達成度を記録したり、独自のキーワードでカスタムコレクションを作ったりできます——条件に合う場所を訪れると自動で埋まり、進捗を共有することもできます。"
+      },
+      {
+        "question": "アプリが見逃した訪問を追加・修正できますか？",
+        "answer": "はい。手動訪問ウィザードを使って記録されなかった立ち寄りを追加したり、任意の訪問の到着・出発時刻を編集したり、1 つの立ち寄りが実は 2 つだった場合に 1 つの訪問を 2 つに分割したりできます。各訪問には、自動検出されたか、あなたが追加したか、インポートされたかが表示されます。"
+      },
       {
         "question": "位置追跡はどのように機能しますか？",
         "answer": "アプリはAppleのVisit Monitoring APIを使用して、場所への到着と出発を自動的に検出します。これはバックグラウンドで行われ、バッテリーへの影響は最小限です。"
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "プライバシーポリシー",
     "termsOfService": "利用規約",
-    "copyright": "© 2025 WhereWasI. All rights reserved."
+    "copyright": "© 2026 Where was I ?. 無断複製・転載を禁じます。"
   }
 }

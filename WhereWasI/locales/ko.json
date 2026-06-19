@@ -4,7 +4,7 @@
   "appName": "WhereWasI",
   "meta": {
     "title": "WhereWasI - 방문한 모든 장소를 기억하세요",
-    "description": "WhereWasI는 방문한 모든 장소를 자동으로 추적하고 정리합니다. 좋아하는 장소를 다시 방문하고, 일상 패턴을 발견하며, 개인 위치 일기를 보관하세요.",
+    "description": "Where was I ? 는 당신이 가는 모든 곳을 자동으로 기억하여 개인 타임라인, 캘린더, 지도로 만들어 줍니다. 자신의 패턴을 살펴보고, 국립공원과 일본 성을 수집하며, Apple Watch나 홈 화면에서 하루를 한눈에 확인하세요. 모두 기기에서 처리되며, 계정이 필요 없습니다.",
     "keywords": "위치 일기, 방문 장소, 위치 추적, 여행 기록, iOS 앱, 개인정보, 위치 기록, 자동 추적"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "방문한 모든 장소를 기억하세요",
-    "description": "WhereWasI는 방문한 모든 장소를 자동으로 추적하고 정리합니다. 좋아하는 장소를 다시 방문하고, 일상 패턴을 발견하며, 개인 여정 일기를 보관하세요—손 하나 까딱하지 않고.",
+    "description": "Where was I ? 는 당신이 가는 모든 곳을 자동으로 기억하여 개인 타임라인, 캘린더, 지도로 만들어 줍니다. 자신의 패턴을 발견하고, 국립공원과 일본 성을 수집하며, Apple Watch나 홈 화면에서 바로 하루를 한눈에 확인하세요. 모두 당신의 기기에서 처리되며, 계정이 필요 없습니다.",
     "downloadAlt": "App Store에서 다운로드"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "당신의 데이터, 당신의 기기",
         "description": "모든 위치 데이터는 iPhone과 개인 iCloud에 안전하게 저장됩니다. 외부 서버로 전송되지 않습니다. 당신의 여정은 오직 당신의 것입니다."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "손목 위에서",
+        "description": "오늘의 방문, 주간 및 월간 요약, 자주 가는 장소를 Apple Watch에서 바로 확인하세요. 여기에 더해 Smart Stack 컴플리케이션이 최근 방문지를 한눈에 보여줍니다."
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "홈 화면 및 잠금 화면 위젯",
+        "description": "앱을 열지 않고도 최근 방문, 현재 위치에서의 실시간 체류 타이머, 오늘의 방문 횟수를 확인하세요. 위젯을 탭하면 바로 앱으로 이동합니다."
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "캘린더 보기",
+        "description": "방문을 일, 주, 월 단위로 살펴보세요. 캘린더는 방문 횟수와 고유한 장소를 한눈에 보여주므로 어떤 날이든 몇 초 만에 다시 확인할 수 있습니다."
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "컬렉션 및 마일스톤",
+        "description": "여행을 컬렉션으로 만들어 보세요—U.S. National Parks, 100 Famous Japanese Castles, 국가와 지역을 기록하거나, 방문할 때마다 자동으로 채워지는 맞춤 컬렉션을 만들 수 있습니다."
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "방문 추가, 편집 및 분할",
+        "description": "앱이 놓친 방문지를 나중에 추가하거나, 도착 및 출발 시간을 세밀하게 조정하거나, 하나의 방문을 둘로 나눌 수 있습니다—기록이 정확하고 완전하게 유지됩니다."
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "지난 기록도 함께",
+        "description": "Google Maps Timeline은 물론 Moves와 Arc Timeline 데이터까지 가져올 수 있어, 수년간의 장소가 그대로 따라옵니다."
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "오늘부터 기록을 시작하세요",
     "description": "무료로 다운로드하세요. 설치하는 순간 위치 일기가 시작됩니다. 계정 등록 불필요—당신과 iPhone, 그리고 방문하는 장소만 있으면 됩니다.",
-    "platforms": "iPhone 및 iPad에서 사용 가능"
+    "platforms": "iPhone, iPad, Apple Watch에서 사용 가능"
   },
   "faq": {
     "sectionTitle": "자주 묻는 질문",
     "sectionSubtitle": "WhereWasI에 대해 알아야 할 모든 것",
     "list": [
+      {
+        "question": "Apple Watch 앱과 위젯이 있나요?",
+        "answer": "네. Where was I ? 에는 본격적인 Apple Watch 앱(오늘의 방문, 주간 및 월간 요약, 자주 가는 장소)과 Smart Stack 컴플리케이션이 포함되어 있습니다. iPhone에서는 최근 방문, 실시간 체류 타이머, 오늘의 방문 횟수, 현재 위치를 보여주는 홈 화면 및 잠금 화면 위젯도 사용할 수 있습니다."
+      },
+      {
+        "question": "Google Maps Timeline을 가져올 수 있나요?",
+        "answer": "네. Google Maps Timeline 내보내기 파일은 물론 Moves와 Arc Timeline 데이터도 가져올 수 있습니다—가져오기 화면을 열고 파일을 추가하기만 하면 됩니다. 과거의 장소는 자동으로 위치에 매칭됩니다."
+      },
+      {
+        "question": "컬렉션이란 무엇인가요?",
+        "answer": "컬렉션은 당신이 관심 있는 주제별로 방문을 그룹화합니다. U.S. National Parks, 100 Famous Japanese Castles, 국가와 지역의 진행 상황을 기록하거나, 자신만의 키워드로 맞춤 컬렉션을 만들 수 있습니다—조건에 맞는 장소를 방문하면 자동으로 채워지고, 진행 상황을 공유할 수도 있습니다."
+      },
+      {
+        "question": "앱이 놓친 방문을 추가하거나 수정할 수 있나요?",
+        "answer": "네. 수동 방문 마법사를 사용하여 기록되지 않은 방문지를 추가하거나, 어떤 방문이든 도착 및 출발 시간을 편집하거나, 한 방문지가 사실 둘이었을 때 하나의 방문을 둘로 나눌 수 있습니다. 각 방문에는 자동으로 감지되었는지, 직접 추가했는지, 가져왔는지가 표시됩니다."
+      },
       {
         "question": "위치 추적은 어떻게 작동하나요?",
         "answer": "앱은 Apple의 Visit Monitoring API를 사용하여 장소에 도착하고 떠날 때를 자동으로 감지합니다. 이는 배터리에 최소한의 영향을 주면서 백그라운드에서 실행됩니다."
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "개인정보 처리방침",
     "termsOfService": "서비스 약관",
-    "copyright": "© 2025 WhereWasI. All rights reserved."
+    "copyright": "© 2026 Where was I ?. 모든 권리 보유."
   }
 }

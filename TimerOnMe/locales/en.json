@@ -4,17 +4,18 @@
   "appName": "Timer on Me",
   "meta": {
     "title": "Timer on Me - Multiple Timers & Stopwatches in One App",
-    "description": "Run multiple timers and stopwatches simultaneously. Interval training, home screen widgets, session management, and custom ringtones. Free for iPhone and iPad.",
+    "description": "Run up to 50 timers and stopwatches at once, with alarms that ring when locked (AlarmKit), Tabata/EMOM/30-30 intervals, Live Activities, and a full Apple Watch app. Free for iPhone, iPad & Apple Watch.",
     "keywords": "timer, stopwatch, multiple timers, interval training, HIIT timer, Tabata, iOS app, home screen widget, countdown timer"
   },
   "nav": {
     "features": "Features",
     "screenshots": "Screenshots",
-    "download": "Download"
+    "download": "Download",
+    "faq": "FAQ"
   },
   "hero": {
-    "title": "Multiple Timers, One App",
-    "description": "Run as many timers and stopwatches as you need, all at once. Perfect for cooking, workouts, studying, or anything that needs precise timing.",
+    "title": "Every Timer, Alarm & Stopwatch — At Once",
+    "description": "Run up to 50 timers and stopwatches at the same time, set alarms that ring even when your iPhone is locked, and time HIIT workouts with precision — on iPhone, iPad, and Apple Watch.",
     "downloadAlt": "Download on the App Store"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Multi-Timer Grid",
-        "description": "Run multiple timers and stopwatches simultaneously in a clean, responsive grid. Each clock has independent controls—start, pause, and reset individually."
+        "description": "Run up to 50 independent timers and stopwatches at once in a clean grid. Start, pause, and reset each one individually — or control them all together."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Reliable Alarms",
+        "description": "Wake-up and reminder alarms with custom labels and weekday schedules, powered by AlarmKit so they ring even when your iPhone is locked or Timer on Me is closed. Snooze options and your own sounds included."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Interval Training",
-        "description": "Built-in HIIT, Tabata, and custom interval presets. Create your own work/rest sequences for the perfect workout routine."
+        "description": "Built-in Tabata, EMOM, and 30/30 presets get you training in two taps, plus a custom interval editor and a full-screen workout mode with color cues."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Apple Watch App",
+        "description": "A full native Apple Watch app — run multiple stopwatches and timers on your wrist with centisecond precision and complications, even when your iPhone isn't around."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Home Screen Widgets",
-        "description": "Control your timers right from your home screen. Small, medium, and large widget sizes to fit your layout."
+        "title": "Widgets & Live Activities",
+        "description": "Control your timers from the Home Screen with interactive widgets, and watch the countdown from the Lock Screen and Dynamic Island with Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Alarm Sounds, Your Way",
+        "description": "Choose from a dozen built-in alarm sounds or import your own. Your alerts ring even when your iPhone is locked, silenced, or the app is closed."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Session Management",
         "description": "Save your timer setups and load them anytime. Export sessions as JSON, CSV, or text for easy sharing and backup."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Custom Ringtones",
-        "description": "Choose from 7 built-in alarm sounds—from a simple bell to vintage phone rings. Alarms work even in Silent Mode with iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Start Timing Now",
     "description": "Free to download. Multiple timers, interval training, and widgets—all ready to go. No account required.",
-    "platforms": "Available on iPhone and iPad"
+    "platforms": "Available on iPhone, iPad, and Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "sectionSubtitle": "Everything you need to know about Timer on Me",
+    "list": [
+      {
+        "question": "Do alarms and timers go off when my iPhone is locked or the app is closed?",
+        "answer": "Yes. Alarms are powered by Apple's AlarmKit and ring even when your iPhone is locked or Timer on Me is closed, and timer alerts fire reliably in the background too."
+      },
+      {
+        "question": "How many timers can I run at once?",
+        "answer": "Up to 50 independent timers and stopwatches in a single session — start, stop, and reset them individually or in synced groups."
+      },
+      {
+        "question": "Is there an Apple Watch app?",
+        "answer": "Yes — a full native watchOS app with multiple concurrent timers and stopwatches, centisecond precision, and complications. It works even when your iPhone is out of reach."
+      },
+      {
+        "question": "Can I use it for HIIT and Tabata workouts?",
+        "answer": "Absolutely. Built-in Tabata, EMOM, and 30/30 presets get you started in two taps, plus a custom interval editor for your own work/rest/round sequences and a full-screen workout mode."
+      },
+      {
+        "question": "Can I add my own alarm sounds?",
+        "answer": "Yes — choose from the bundled ringtones or import your own audio files."
+      },
+      {
+        "question": "Does it work offline? Do I need an account?",
+        "answer": "No account and no internet required. Everything runs on-device and your data stays local."
+      },
+      {
+        "question": "Is it free?",
+        "answer": "Yes, Timer on Me is free to download. An optional in-app purchase unlocks additional alarms beyond the first two if you need them."
+      }
+    ]
   },
   "privacy": {
     "title": "Your Privacy Matters",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
-    "copyright": "© 2025 Timer on Me. All rights reserved."
+    "copyright": "© 2026 Timer on Me. All rights reserved."
   }
 }

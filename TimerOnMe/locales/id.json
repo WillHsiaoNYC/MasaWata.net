@@ -4,17 +4,18 @@
   "appName": "Timer Saya",
   "meta": {
     "title": "Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi",
-    "description": "Jalankan beberapa timer dan stopwatch secara bersamaan. Latihan interval, widget layar utama, manajemen sesi, dan nada dering kustom. Gratis untuk iPhone dan iPad.",
+    "description": "Jalankan hingga 50 timer dan stopwatch sekaligus, dengan alarm yang berbunyi saat terkunci (AlarmKit), interval Tabata/EMOM/30-30, Live Activities, dan aplikasi Apple Watch lengkap. Gratis untuk iPhone, iPad & Apple Watch.",
     "keywords": "timer, stopwatch, beberapa timer, latihan interval, timer HIIT, Tabata, aplikasi iOS, widget layar utama, timer hitung mundur, multiple timers, countdown timer"
   },
   "nav": {
     "features": "Fitur",
     "screenshots": "Tangkapan Layar",
-    "download": "Unduh"
+    "download": "Unduh",
+    "faq": "Tanya Jawab"
   },
   "hero": {
-    "title": "Beberapa Timer, Satu Aplikasi",
-    "description": "Jalankan sebanyak mungkin timer dan stopwatch yang Anda butuhkan, semuanya sekaligus. Sempurna untuk memasak, olahraga, belajar, atau apa pun yang memerlukan pengaturan waktu yang tepat.",
+    "title": "Setiap Timer, Alarm & Stopwatch — Sekaligus",
+    "description": "Jalankan hingga 50 timer dan stopwatch sekaligus, atur alarm yang berbunyi bahkan saat iPhone Anda terkunci, dan ukur latihan HIIT dengan presisi — di iPhone, iPad, dan Apple Watch.",
     "downloadAlt": "Unduh di App Store"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Grid Multi-Timer",
-        "description": "Jalankan beberapa timer dan stopwatch secara bersamaan dalam grid yang bersih dan responsif. Setiap jam memiliki kontrol independen — mulai, jeda, dan atur ulang secara individual."
+        "description": "Jalankan hingga 50 timer dan stopwatch independen sekaligus dalam grid yang rapi. Mulai, jeda, dan atur ulang masing-masing secara individual — atau kendalikan semuanya bersamaan."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Alarm Andal",
+        "description": "Alarm bangun dan pengingat dengan label kustom dan jadwal hari kerja, didukung oleh AlarmKit sehingga berbunyi bahkan saat iPhone Anda terkunci atau Timer Saya ditutup. Opsi tunda dan suara Anda sendiri sudah termasuk."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Latihan Interval",
-        "description": "Preset HIIT, Tabata, dan interval kustom bawaan. Buat urutan kerja/istirahat Anda sendiri untuk rutinitas latihan yang sempurna."
+        "description": "Preset bawaan Tabata, EMOM, dan 30/30 membuat Anda berlatih dalam dua ketukan, ditambah editor interval kustom dan mode latihan layar penuh dengan isyarat warna."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Aplikasi Apple Watch",
+        "description": "Aplikasi Apple Watch native yang lengkap — jalankan beberapa stopwatch dan timer di pergelangan tangan Anda dengan presisi sentidetik dan komplikasi, bahkan saat iPhone Anda tidak ada di dekat Anda."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Widget Layar Utama",
-        "description": "Kontrol timer Anda langsung dari layar utama. Ukuran widget kecil, sedang, dan besar untuk menyesuaikan tata letak Anda."
+        "title": "Widget & Live Activities",
+        "description": "Kendalikan timer Anda dari Layar Utama dengan widget interaktif, dan saksikan hitung mundur dari Layar Kunci dan Dynamic Island dengan Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Suara Alarm Sesuai Selera Anda",
+        "description": "Pilih dari belasan suara alarm bawaan atau impor milik Anda sendiri. Peringatan Anda berbunyi bahkan saat iPhone Anda terkunci, disenyapkan, atau aplikasi ditutup."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Manajemen Sesi",
         "description": "Simpan pengaturan timer Anda dan muat kapan saja. Ekspor sesi sebagai JSON, CSV, atau teks untuk berbagi dan pencadangan yang mudah."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Nada Dering Kustom",
-        "description": "Pilih dari 7 suara alarm bawaan — dari bel sederhana hingga dering telepon vintage. Alarm berfungsi bahkan dalam Mode Senyap dengan iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Mulai Hitung Waktu Sekarang",
     "description": "Gratis untuk diunduh. Beberapa timer, latihan interval, dan widget — semuanya siap digunakan. Tidak perlu akun.",
-    "platforms": "Tersedia di iPhone dan iPad"
+    "platforms": "Tersedia di iPhone, iPad, dan Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Pertanyaan yang Sering Diajukan",
+    "sectionSubtitle": "Semua yang perlu Anda ketahui tentang Timer Saya",
+    "list": [
+      {
+        "question": "Apakah alarm dan timer berbunyi saat iPhone saya terkunci atau aplikasi ditutup?",
+        "answer": "Ya. Alarm didukung oleh AlarmKit dari Apple dan berbunyi bahkan saat iPhone Anda terkunci atau Timer Saya ditutup, dan peringatan timer juga aktif dengan andal di latar belakang."
+      },
+      {
+        "question": "Berapa banyak timer yang bisa saya jalankan sekaligus?",
+        "answer": "Hingga 50 timer dan stopwatch independen dalam satu sesi — mulai, hentikan, dan atur ulang masing-masing secara individual atau dalam grup yang tersinkronisasi."
+      },
+      {
+        "question": "Apakah ada aplikasi Apple Watch?",
+        "answer": "Ya — aplikasi watchOS native yang lengkap dengan beberapa timer dan stopwatch bersamaan, presisi sentidetik, dan komplikasi. Aplikasi ini berfungsi bahkan saat iPhone Anda tidak terjangkau."
+      },
+      {
+        "question": "Bisakah saya menggunakannya untuk latihan HIIT dan Tabata?",
+        "answer": "Tentu saja. Preset bawaan Tabata, EMOM, dan 30/30 membuat Anda mulai dalam dua ketukan, ditambah editor interval kustom untuk urutan kerja/istirahat/ronde Anda sendiri dan mode latihan layar penuh."
+      },
+      {
+        "question": "Bisakah saya menambahkan suara alarm saya sendiri?",
+        "answer": "Ya — pilih dari nada dering bawaan atau impor file audio Anda sendiri."
+      },
+      {
+        "question": "Apakah berfungsi offline? Apakah saya memerlukan akun?",
+        "answer": "Tidak perlu akun dan tidak perlu internet. Semuanya berjalan di perangkat dan data Anda tetap lokal."
+      },
+      {
+        "question": "Apakah gratis?",
+        "answer": "Ya, Timer Saya gratis untuk diunduh. Pembelian dalam aplikasi opsional membuka alarm tambahan di luar dua alarm pertama jika Anda membutuhkannya."
+      }
+    ]
   },
   "privacy": {
     "title": "Privasi Anda Penting",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Kebijakan Privasi",
     "termsOfService": "Ketentuan Layanan",
-    "copyright": "© 2025 Timer Saya. Semua hak dilindungi."
+    "copyright": "© 2026 Timer Saya. Semua hak dilindungi."
   }
 }

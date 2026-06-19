@@ -4,7 +4,7 @@
   "appName": "WhereWasI",
   "meta": {
     "title": "WhereWasI - Lembre de cada lugar que você visitou",
-    "description": "WhereWasI rastreia e organiza automaticamente todos os lugares que você visita. Revisite seus lugares favoritos, descubra padrões na sua vida diária e mantenha um diário de localização privado.",
+    "description": "Where was I ? lembra automaticamente de todos os lugares aonde você vai e os transforma em uma linha do tempo, calendário e mapa privados. Explore seus padrões, colecione Parques Nacionais e Castelos Japoneses e dê uma olhada no seu dia pelo Apple Watch ou pela Tela de Início. No dispositivo, sem conta.",
     "keywords": "diário de localização, lugares visitados, rastreamento de localização, registro de viagem, app iOS, privacidade, histórico de localização, rastreamento automático"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Lembre de cada lugar que você visitou",
-    "description": "WhereWasI rastreia e organiza automaticamente todos os lugares que você visita. Revisite seus lugares favoritos, descubra padrões na sua vida diária e mantenha um diário privado da sua jornada—sem mover um dedo.",
+    "description": "Where was I ? lembra automaticamente de cada lugar aonde você vai — e o transforma em uma linha do tempo, calendário e mapa privados. Descubra seus padrões, colecione Parques Nacionais e Castelos Japoneses e dê uma olhada no seu dia diretamente do seu Apple Watch ou Tela de Início. Tudo no seu dispositivo, sem conta necessária.",
     "downloadAlt": "Baixar na App Store"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "Seus dados, seu dispositivo",
         "description": "Todos os dados de localização permanecem seguros no seu iPhone e no seu iCloud pessoal. Nada é enviado para servidores externos. Sua jornada permanece só sua."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "No seu pulso",
+        "description": "Confira as visitas de hoje, os resumos da semana e do mês e seus lugares principais diretamente do Apple Watch — além de uma complicação do Smart Stack que mantém sua última parada a um olhar de distância."
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "Widgets da Tela de Início e de Bloqueio",
+        "description": "Veja as visitas recentes, um cronômetro de permanência ao vivo para onde você está agora e a contagem de visitas de hoje sem abrir o app. Toque em qualquer widget para entrar direto."
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "Visualização de calendário",
+        "description": "Navegue pelas suas visitas por dia, semana ou mês. O calendário mostra a contagem de visitas e os lugares únicos de relance, para você revisitar qualquer dia em segundos."
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "Coleções e marcos",
+        "description": "Transforme suas viagens em coleções — acompanhe os U.S. National Parks, os 100 Famous Japanese Castles, países e regiões, ou crie coleções personalizadas que se preenchem automaticamente conforme você anda."
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "Adicione, edite e divida visitas",
+        "description": "Preencha uma parada que o app não detectou, ajuste os horários de chegada e saída, ou divida uma visita em duas — seu histórico permanece preciso e completo."
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "Leve seu histórico com você",
+        "description": "Importe seu Google Maps Timeline, além dos dados do Moves e do Arc Timeline, para que anos de lugares venham junto na viagem."
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "Comece a lembrar hoje",
     "description": "Download gratuito. Seu diário de localização começa no momento em que você instala. Sem conta necessária—apenas você, seu iPhone e os lugares que você visita.",
-    "platforms": "Disponível para iPhone e iPad"
+    "platforms": "Disponível para iPhone, iPad e Apple Watch"
   },
   "faq": {
     "sectionTitle": "Perguntas frequentes",
     "sectionSubtitle": "Tudo o que você precisa saber sobre o WhereWasI",
     "list": [
+      {
+        "question": "Existe um app para Apple Watch e widgets?",
+        "answer": "Sim. O Where was I ? inclui um app completo para Apple Watch — visitas de hoje, resumos da semana e do mês e seus lugares principais — além de uma complicação do Smart Stack. No iPhone, você também recebe widgets da Tela de Início e da Tela de Bloqueio mostrando visitas recentes, um cronômetro de permanência ao vivo, a contagem de visitas de hoje e sua localização atual."
+      },
+      {
+        "question": "Posso importar meu Google Maps Timeline?",
+        "answer": "Sim. Você pode importar a exportação do seu Google Maps Timeline, bem como os dados do Moves e do Arc Timeline — basta abrir a tela de importação e adicionar seu arquivo. Seus lugares anteriores são associados a locais automaticamente."
+      },
+      {
+        "question": "O que são as Coleções?",
+        "answer": "As Coleções agrupam suas visitas em temas que importam para você. Acompanhe seu progresso pelos U.S. National Parks, pelos 100 Famous Japanese Castles, países e regiões, ou crie coleções personalizadas com suas próprias palavras-chave — elas se preenchem automaticamente conforme você visita lugares correspondentes, e você pode compartilhar seu progresso."
+      },
+      {
+        "question": "Posso adicionar ou corrigir uma visita que o app não detectou?",
+        "answer": "Sim. Use o assistente de visita manual para adicionar uma parada que não foi registrada, editar os horários de chegada e saída de qualquer visita, ou dividir uma única visita em duas quando uma parada eram, na verdade, duas. Cada visita mostra se foi detectada automaticamente, adicionada por você ou importada."
+      },
       {
         "question": "Como funciona o rastreamento de localização?",
         "answer": "O app usa a API Visit Monitoring da Apple para detectar automaticamente quando você chega e sai de locais. Isso acontece em segundo plano com impacto mínimo na bateria."
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Política de privacidade",
     "termsOfService": "Termos de serviço",
-    "copyright": "© 2025 WhereWasI. Todos os direitos reservados."
+    "copyright": "© 2026 Where was I ?. Todos os direitos reservados."
   }
 }

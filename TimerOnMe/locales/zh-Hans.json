@@ -4,17 +4,18 @@
   "appName": "计时达人",
   "meta": {
     "title": "计时达人 - 多个计时器和秒表合一的应用",
-    "description": "同时运行多个计时器和秒表。间歇训练、主屏幕小组件、会话管理和自定义铃声。iPhone 和 iPad 免费使用。",
+    "description": "同时运行多达 50 个计时器和秒表，闹钟在锁屏时也能响起（AlarmKit），支持 Tabata/EMOM/30-30 间歇、实时活动以及完整的 Apple Watch 应用。iPhone、iPad 和 Apple Watch 免费使用。",
     "keywords": "计时器, 秒表, 多个计时器, 间歇训练, HIIT计时器, Tabata, iOS应用, 主屏幕小组件, 倒计时, timer, stopwatch, multiple timers, interval training"
   },
   "nav": {
     "features": "功能",
     "screenshots": "截图",
-    "download": "下载"
+    "download": "下载",
+    "faq": "常见问题"
   },
   "hero": {
-    "title": "多个计时器，一个应用",
-    "description": "根据需要同时运行任意数量的计时器和秒表。无论是烹饪、健身、学习，还是任何需要精确计时的场景，都能完美胜任。",
+    "title": "每个计时器、闹钟和秒表——同时运行",
+    "description": "同时运行多达 50 个计时器和秒表，设置即使在 iPhone 锁屏时也能响起的闹钟，并精准地为 HIIT 训练计时——在 iPhone、iPad 和 Apple Watch 上皆可使用。",
     "downloadAlt": "在 App Store 下载"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "多计时器网格",
-        "description": "在简洁的响应式网格中同时运行多个计时器和秒表。每个时钟都有独立的控制按钮，可以单独启动、暂停和重置。"
+        "description": "在简洁的网格中同时运行多达 50 个独立的计时器和秒表。可单独启动、暂停和重置每一个，也可一起控制全部。"
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "可靠的闹钟",
+        "description": "起床和提醒闹钟，可自定义标签和按星期排程，由 AlarmKit 提供支持，因此即使 iPhone 锁屏或计时达人已关闭也能响起。包含贪睡选项和你自己的铃声。"
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "间歇训练",
-        "description": "内置 HIIT、Tabata 和自定义间歇预设。创建属于你自己的运动/休息序列，打造完美的训练计划。"
+        "description": "内置 Tabata、EMOM 和 30/30 预设，两次点击即可开始训练，还有自定义间歇编辑器和带彩色提示的全屏训练模式。"
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Apple Watch 应用",
+        "description": "完整的原生 Apple Watch 应用——在腕上运行多个秒表和计时器，精度达厘秒，并支持复杂功能，即使 iPhone 不在身边也能使用。"
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "主屏幕小组件",
-        "description": "直接从主屏幕控制你的计时器。提供小、中、大三种小组件尺寸，适配你的布局。"
+        "title": "小组件与实时活动",
+        "description": "通过交互式小组件从主屏幕控制你的计时器，并借助实时活动在锁定屏幕和灵动岛上查看倒计时。"
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "随心所欲的闹铃音",
+        "description": "从十多种内置闹铃音中选择，或导入你自己的铃声。即使 iPhone 处于锁屏、静音或应用已关闭，你的提醒也能响起。"
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "会话管理",
         "description": "保存你的计时器设置，随时加载。支持将会话导出为 JSON、CSV 或文本格式，方便分享和备份。"
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "自定义铃声",
-        "description": "从 7 种内置闹铃音中选择——从简单的铃声到复古电话铃声应有尽有。iOS 18.2+ 静音模式下闹铃也能正常响起。"
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "立即开始计时",
     "description": "免费下载。多个计时器、间歇训练和小组件，一切就绪。无需注册账号。",
-    "platforms": "支持 iPhone 和 iPad"
+    "platforms": "支持 iPhone、iPad 和 Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "常见问题",
+    "sectionSubtitle": "关于计时达人你需要了解的一切",
+    "list": [
+      {
+        "question": "iPhone 锁屏或应用关闭时，闹钟和计时器会响吗？",
+        "answer": "会。闹钟由 Apple 的 AlarmKit 提供支持，即使 iPhone 锁屏或计时达人已关闭也能响起，计时器提醒在后台也能可靠触发。"
+      },
+      {
+        "question": "我可以同时运行多少个计时器？",
+        "answer": "在单个会话中最多 50 个独立的计时器和秒表——可单独启动、停止和重置，也可按同步分组操作。"
+      },
+      {
+        "question": "有 Apple Watch 应用吗？",
+        "answer": "有——一款完整的原生 watchOS 应用，支持多个同时运行的计时器和秒表、厘秒级精度以及复杂功能。即使 iPhone 不在身边也能使用。"
+      },
+      {
+        "question": "我可以用它来做 HIIT 和 Tabata 训练吗？",
+        "answer": "当然可以。内置 Tabata、EMOM 和 30/30 预设，两次点击即可开始，还有自定义间歇编辑器供你设置自己的运动/休息/轮次序列，以及全屏训练模式。"
+      },
+      {
+        "question": "我可以添加自己的闹铃音吗？",
+        "answer": "可以——从随附的铃声中选择，或导入你自己的音频文件。"
+      },
+      {
+        "question": "它能离线使用吗？需要账号吗？",
+        "answer": "无需账号，也无需联网。一切都在设备上运行，你的数据始终保留在本地。"
+      },
+      {
+        "question": "它是免费的吗？",
+        "answer": "是的，计时达人可免费下载。如有需要，可选的应用内购买可解锁前两个之外的更多闹钟。"
+      }
+    ]
   },
   "privacy": {
     "title": "我们重视你的隐私",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "隐私政策",
     "termsOfService": "服务条款",
-    "copyright": "© 2025 计时达人. All rights reserved."
+    "copyright": "© 2026 计时达人. All rights reserved."
   }
 }

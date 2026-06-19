@@ -4,17 +4,18 @@
   "appName": "Mi Cronómetro",
   "meta": {
     "title": "Mi Cronómetro - Múltiples temporizadores y cronómetros en una app",
-    "description": "Ejecuta múltiples temporizadores y cronómetros simultáneamente. Entrenamiento por intervalos, widgets en pantalla de inicio, gestión de sesiones y tonos personalizados. Gratis para iPhone y iPad.",
+    "description": "Ejecuta hasta 50 temporizadores y cronómetros a la vez, con alarmas que suenan con el iPhone bloqueado (AlarmKit), intervalos Tabata/EMOM/30-30, Live Activities y una completa app para Apple Watch. Gratis para iPhone, iPad y Apple Watch.",
     "keywords": "temporizador, cronómetro, múltiples temporizadores, entrenamiento por intervalos, temporizador HIIT, Tabata, app iOS, widget de pantalla de inicio, cuenta atrás, timer, stopwatch"
   },
   "nav": {
     "features": "Funciones",
     "screenshots": "Capturas de pantalla",
-    "download": "Descargar"
+    "download": "Descargar",
+    "faq": "Preguntas frecuentes"
   },
   "hero": {
-    "title": "Múltiples temporizadores, una app",
-    "description": "Ejecuta todos los temporizadores y cronómetros que necesites, todos a la vez. Perfecto para cocinar, entrenar, estudiar o cualquier cosa que requiera un cronometraje preciso.",
+    "title": "Todos tus temporizadores, alarmas y cronómetros — a la vez",
+    "description": "Ejecuta hasta 50 temporizadores y cronómetros al mismo tiempo, programa alarmas que suenan incluso con el iPhone bloqueado y cronometra entrenamientos HIIT con precisión, en iPhone, iPad y Apple Watch.",
     "downloadAlt": "Descargar en el App Store"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Cuadrícula multi-temporizador",
-        "description": "Ejecuta múltiples temporizadores y cronómetros simultáneamente en una cuadrícula limpia y adaptable. Cada reloj tiene controles independientes: iniciar, pausar y reiniciar individualmente."
+        "description": "Ejecuta hasta 50 temporizadores y cronómetros independientes a la vez en una cuadrícula clara. Inicia, pausa y reinicia cada uno por separado, o contrólalos todos a la vez."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Alarmas fiables",
+        "description": "Alarmas de despertador y recordatorio con etiquetas personalizadas y horarios por día de la semana, con la tecnología de AlarmKit para que suenen incluso con el iPhone bloqueado o con Mi Cronómetro cerrado. Incluye opciones de repetición y tus propios sonidos."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Entrenamiento por intervalos",
-        "description": "Preajustes integrados de HIIT, Tabata e intervalos personalizados. Crea tus propias secuencias de trabajo/descanso para la rutina de entrenamiento perfecta."
+        "description": "Los preajustes integrados de Tabata, EMOM y 30/30 te ponen a entrenar con dos toques, además de un editor de intervalos personalizado y un modo de entrenamiento a pantalla completa con señales de color."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "App para Apple Watch",
+        "description": "Una completa app nativa para Apple Watch: ejecuta varios cronómetros y temporizadores en tu muñeca con precisión de centésimas de segundo y complicaciones, incluso cuando no tienes el iPhone cerca."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Widgets de pantalla de inicio",
-        "description": "Controla tus temporizadores directamente desde la pantalla de inicio. Tamaños de widgets pequeño, mediano y grande para adaptarse a tu diseño."
+        "title": "Widgets y Live Activities",
+        "description": "Controla tus temporizadores desde la pantalla de inicio con widgets interactivos y sigue la cuenta atrás desde la pantalla de bloqueo y la Dynamic Island con Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Sonidos de alarma a tu manera",
+        "description": "Elige entre una docena de sonidos de alarma integrados o importa los tuyos. Tus avisos suenan incluso con el iPhone bloqueado, en silencio o con la app cerrada."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Gestión de sesiones",
         "description": "Guarda tus configuraciones de temporizadores y cárgalas en cualquier momento. Exporta sesiones como JSON, CSV o texto para compartir y respaldar fácilmente."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Tonos personalizados",
-        "description": "Elige entre 7 sonidos de alarma integrados, desde una campana simple hasta timbres de teléfono vintage. Las alarmas funcionan incluso en modo silencioso con iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Empieza a cronometrar ahora",
     "description": "Descarga gratuita. Múltiples temporizadores, entrenamiento por intervalos y widgets, todo listo para usar. No se requiere cuenta.",
-    "platforms": "Disponible para iPhone y iPad"
+    "platforms": "Disponible para iPhone, iPad y Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Preguntas frecuentes",
+    "sectionSubtitle": "Todo lo que necesitas saber sobre Mi Cronómetro",
+    "list": [
+      {
+        "question": "¿Las alarmas y los temporizadores suenan con el iPhone bloqueado o con la app cerrada?",
+        "answer": "Sí. Las alarmas funcionan con AlarmKit de Apple y suenan incluso con el iPhone bloqueado o con Mi Cronómetro cerrado, y los avisos de los temporizadores también se activan de forma fiable en segundo plano."
+      },
+      {
+        "question": "¿Cuántos temporizadores puedo ejecutar a la vez?",
+        "answer": "Hasta 50 temporizadores y cronómetros independientes en una sola sesión: inícialos, deténlos y reinícialos por separado o en grupos sincronizados."
+      },
+      {
+        "question": "¿Hay una app para Apple Watch?",
+        "answer": "Sí, una completa app nativa para watchOS con varios temporizadores y cronómetros simultáneos, precisión de centésimas de segundo y complicaciones. Funciona incluso cuando el iPhone está fuera de alcance."
+      },
+      {
+        "question": "¿Puedo usarla para entrenamientos HIIT y Tabata?",
+        "answer": "Por supuesto. Los preajustes integrados de Tabata, EMOM y 30/30 te ponen en marcha con dos toques, además de un editor de intervalos personalizado para tus propias secuencias de trabajo/descanso/rondas y un modo de entrenamiento a pantalla completa."
+      },
+      {
+        "question": "¿Puedo añadir mis propios sonidos de alarma?",
+        "answer": "Sí, elige entre los tonos incluidos o importa tus propios archivos de audio."
+      },
+      {
+        "question": "¿Funciona sin conexión? ¿Necesito una cuenta?",
+        "answer": "No se requiere cuenta ni conexión a internet. Todo se ejecuta en el dispositivo y tus datos permanecen locales."
+      },
+      {
+        "question": "¿Es gratis?",
+        "answer": "Sí, Mi Cronómetro es gratis para descargar. Una compra opcional dentro de la app desbloquea alarmas adicionales más allá de las dos primeras si las necesitas."
+      }
+    ]
   },
   "privacy": {
     "title": "Tu privacidad importa",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Política de privacidad",
     "termsOfService": "Términos de servicio",
-    "copyright": "© 2025 Mi Cronómetro. Todos los derechos reservados."
+    "copyright": "© 2026 Mi Cronómetro. Todos los derechos reservados."
   }
 }

@@ -1,15 +1,5 @@
 {
     "appName": "Fitness Story",
-    "promo": {
-        "badge": "Limitiert",
-        "message": "Lebenslanges Pro",
-        "cta": "Jetzt einlösen",
-        "expires": "Gültig bis 2. Jan. 2026",
-        "days": "Tage",
-        "hours": "Std",
-        "mins": "Min",
-        "secs": "Sek"
-    },
     "meta": {
         "title": "Fitness Story - Apple Health & Watch Workouts in visuelle Reisen verwandeln",
         "description": "Verwandeln Sie Apple Watch und Health-Daten in schöne visuelle Reisen. Verfolgen Sie Laufen, Radfahren, Schwimmen und mehr. Analysieren Sie Trends, Rekorde und Fortschritt."
@@ -38,7 +28,7 @@
         },
         "analytics": {
             "title": "Professionelle Analysen",
-            "description": "Schalte eine Analyse-Suite frei, die in deine Tasche passt. Vergleiche Workouts nebeneinander, sieh dir Jahrestrends an und verfolge Kadenz und Schrittlänge."
+            "description": "Schalte eine Analyse-Suite frei, die in deine Tasche passt. Vergleiche Workouts nebeneinander, sieh dir Jahrestrends an und verfolge Kadenz und Schrittlänge. Inklusive Box-Whisker-Benchmark-Diagrammen, die Median, Quartile und Ausreißer für jede Sportart aufzeigen."
         },
         "records": {
             "title": "Persönliche Rekorde",
@@ -71,6 +61,18 @@
         "widgets": {
             "title": "Widgets",
             "description": "Behalten Sie Ihre Fitnessdaten mit schönen Widgets im Blick. Verfolgen Sie Schritte, Kalorien, Trainingsfortschritt und Körpermetriken auf einen Blick—ohne die App zu öffnen."
+        },
+        "challenges": {
+            "title": "Tägliche Challenges",
+            "description": "Stelle dich automatisch erfassten Challenges – 3-km-Lauf, 10.000 Schritte, 10-km-Radfahren und 45-Minuten-Workout – in 1-, 3- und 7-Tage-Stufen. Verdiene Abzeichen, fülle deine Trophäensammlung und feiere jeden Erfolg."
+        },
+        "shareableCards": {
+            "title": "Teilbare Karten",
+            "description": "Verwandle jedes Workout, jeden Rekord oder jede Challenge in eine schöne Teilen-Karte. Wähle aus 15 Farbthemen und wechsle zwischen Gradient- und Light-Look, passend zu deinem Stil."
+        },
+        "export": {
+            "title": "Alles exportieren",
+            "description": "Exportiere deinen gesamten Verlauf – oder einen beliebigen Zeitraum – als CSV oder JSON, samt Split-Daten, Körpermetriken und Workout-Metadaten. Deine Daten gehören immer dir."
         }
     },
     "screenshots": {
@@ -93,7 +95,7 @@
     "download": {
         "title": "Starte heute deine Fitness Story",
         "description": "Kostenloser Download mit optionalem Pro-Upgrade für erweiterte Funktionen. Deine Daten bleiben privat auf deinem Gerät.",
-        "platforms": "Verfügbar für iPhone, iPad, Mac und Apple Vision"
+        "platforms": "Verfügbar für iPhone und iPad"
     },
     "privacy": {
         "title": "Deine Privatsphäre ist wichtig",
@@ -119,6 +121,22 @@
             {
                 "question": "Welche Workout-Aktivitäten werden unterstützt?",
                 "answer": "Fitness Story unterstützt alle Workout-Typen, die Apple Watch verfolgt—über 80 Aktivitäten! Dazu gehören beliebte Aktivitäten wie Laufen, Radfahren, Schwimmen, HIIT, Yoga und Krafttraining sowie spezialisierte Aktivitäten wie Pickleball, Klettern, Kampfsport, Skifahren, Tanzen und viele mehr. Wenn Ihre Apple Watch es verfolgen kann, kann Fitness Story es visualisieren."
+            },
+            {
+                "question": "Was sind Challenges?",
+                "answer": "Challenges sind integrierte Fitnessziele – ein 3-km-Lauf, 10.000 Schritte, eine 10-km-Radtour oder ein 45-Minuten-Workout – die automatisch aus deinen Apple-Health-Daten in 1-, 3- und 7-Tage-Stufen erfasst werden. Schließe sie ab, um Abzeichen zu verdienen und deine Trophäensammlung aufzubauen."
+            },
+            {
+                "question": "Kann ich meine Daten exportieren?",
+                "answer": "Ja. Exportiere deinen gesamten Verlauf oder einen beliebigen Zeitraum als CSV oder JSON – inklusive vollständiger Split-Daten, Körpermetriken und Workout-Metadaten. Du kannst auch einen Workout-Vergleich exportieren, um ihn in deinen eigenen Tools zu analysieren."
+            },
+            {
+                "question": "Ist Fitness Story kostenlos?",
+                "answer": "Fitness Story ist kostenlos zum Download und zur Nutzung. Ein optionales Pro-Upgrade schaltet die volle Tiefe von Analyse, Challenges und Sharing frei – ganz ohne Konto und ohne Abo für den Einstieg."
+            },
+            {
+                "question": "Auf welchen Geräten funktioniert es?",
+                "answer": "Fitness Story läuft auf iPhone und iPad. Es liest deine Apple-Health- und Apple-Watch-Daten mit reinem Lesezugriff – es gibt keine Konten und keine Server, sodass alles auf deinem Gerät und in deiner privaten iCloud bleibt."
             }
         ]
     },
@@ -126,6 +144,6 @@
         "appStore": "App Store",
         "privacy": "Datenschutzerklärung",
         "terms": "Nutzungsbedingungen",
-        "copyright": "© 2025 Fitness Story. Alle Rechte vorbehalten."
+        "copyright": "© 2026 Fitness Story. Alle Rechte vorbehalten."
     }
 }

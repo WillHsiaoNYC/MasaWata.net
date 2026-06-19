@@ -59,11 +59,6 @@ GOOGLE_ANALYTICS = '''<!-- Google tag (gtag.js) -->
       }
     </script>'''
 
-# Promo banner configuration
-PROMO_LINK = 'https://apps.apple.com/redeem?ctx=offercodes&id=6748090363&code=FS2025'
-PROMO_ORIGINAL_PRICE = 'USD $29.99'
-PROMO_SALE_PRICE = 'USD $9.99'
-
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -84,49 +79,6 @@ def generate_hreflang_tags():
 
 def get_asset_path(lang_dir):
     return '../' if lang_dir else ''
-
-
-def generate_promo_banner(translations):
-    t = translations
-    return f'''    <!-- Promo Banner -->
-    <div class="promo-banner">
-        <div class="promo-banner__content">
-            <span class="promo-banner__badge">{t['promo']['badge']}</span>
-            <div class="promo-banner__text">
-                <span class="promo-banner__message">{t['promo']['message']}</span>
-                <div class="promo-banner__prices">
-                    <span class="promo-banner__original-price">{PROMO_ORIGINAL_PRICE}</span>
-                    <span class="promo-banner__sale-price">{PROMO_SALE_PRICE}</span>
-                </div>
-            </div>
-            <div class="promo-banner__countdown" id="promo-countdown">
-                <div class="promo-banner__countdown-item">
-                    <span class="promo-banner__countdown-value" id="countdown-days">--</span>
-                    <span class="promo-banner__countdown-label">{t['promo']['days']}</span>
-                </div>
-                <span class="promo-banner__countdown-separator">:</span>
-                <div class="promo-banner__countdown-item">
-                    <span class="promo-banner__countdown-value" id="countdown-hours">--</span>
-                    <span class="promo-banner__countdown-label">{t['promo']['hours']}</span>
-                </div>
-                <span class="promo-banner__countdown-separator">:</span>
-                <div class="promo-banner__countdown-item">
-                    <span class="promo-banner__countdown-value" id="countdown-minutes">--</span>
-                    <span class="promo-banner__countdown-label">{t['promo']['mins']}</span>
-                </div>
-                <span class="promo-banner__countdown-separator">:</span>
-                <div class="promo-banner__countdown-item">
-                    <span class="promo-banner__countdown-value" id="countdown-seconds">--</span>
-                    <span class="promo-banner__countdown-label">{t['promo']['secs']}</span>
-                </div>
-            </div>
-            <a href="{PROMO_LINK}" class="promo-banner__cta" target="_blank" rel="noopener">
-                {t['promo']['cta']}
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-'''
 
 
 def generate_html(lang, translations):
@@ -213,12 +165,12 @@ def generate_html(lang, translations):
         }},
         "aggregateRating": {{
             "@type": "AggregateRating",
-            "ratingValue": "5.0",
-            "ratingCount": "23"
+            "ratingValue": "4.9",
+            "ratingCount": "37"
         }},
         "description": "{t['meta']['description']}",
-        "screenshot": "{BASE_URL}/images/iphone/dashboard.png",
-        "softwareVersion": "1.0",
+        "screenshot": "{BASE_URL}/images/en/hero.jpg",
+        "softwareVersion": "6.4.2",
         "author": {{
             "@type": "Person",
             "name": "Weiren Hsiao"
@@ -227,8 +179,7 @@ def generate_html(lang, translations):
     }}
     </script>
 </head>
-<body class="has-promo-banner">
-{generate_promo_banner(t)}
+<body>
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav container">
@@ -302,7 +253,7 @@ def generate_html(lang, translations):
                 </div>
                 <div class="hero__device">
                     <div class="device-frame">
-                        <img src="{asset_path}images/en/title.jpg" alt="Fitness Story Dashboard" class="device-screen">
+                        <img src="{asset_path}images/en/hero.jpg" alt="Fitness Story Dashboard" class="device-screen">
                     </div>
                 </div>
             </div>
@@ -476,6 +427,52 @@ def generate_html(lang, translations):
                             <img src="{asset_path}images/en/health-metrics.jpg" alt="{t['features']['healthMetrics']['title']}" loading="lazy">
                         </div>
                     </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1100">
+                        <div class="feature-card__icon feature-card__icon--green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+                                <line x1="4" y1="22" x2="4" y2="15"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['challenges']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['challenges']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/gallery-challenges.jpg" alt="{t['features']['challenges']['title']}" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1200">
+                        <div class="feature-card__icon feature-card__icon--blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="18" cy="5" r="3"/>
+                                <circle cx="6" cy="12" r="3"/>
+                                <circle cx="18" cy="19" r="3"/>
+                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['shareableCards']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['shareableCards']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/gallery-records.jpg" alt="{t['features']['shareableCards']['title']}" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1300">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">{t['features']['export']['title']}</h3>
+                        <p class="feature-card__description">{t['features']['export']['description']}</p>
+                        <div class="feature-card__image">
+                            <img src="{asset_path}images/en/gallery-analysis.jpg" alt="{t['features']['export']['title']}" loading="lazy">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -490,19 +487,15 @@ def generate_html(lang, translations):
 
                 <div class="screenshots__gallery">
                     <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-dashboard-calendar.jpg" alt="Dashboard Calendar" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-storyline.jpg" alt="Storyline" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-fitness-map.jpg" alt="Fitness Map" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-personal-records.jpg" alt="Personal Records" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-personal-record-celebration.jpg" alt="Record Celebration" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-workout-organized-by-tags.jpg" alt="Workouts by Tags" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-workout-comparison-by-splits-chart.jpg" alt="Workout Comparison" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-workout-details-color-route.jpg" alt="Color Route" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-analysis-benchmark.jpg" alt="Analysis Benchmark" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-overall-steps-analysis.jpg" alt="Steps Analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-health-metrics-chart.jpg" alt="Health Metrics Chart" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-health-metrics-benchmark.jpg" alt="Health Metrics Benchmark" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/action-ipad-widgets.jpg" alt="iPad Widgets" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-insights.jpg" alt="Unlock your workout insights" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-health.jpg" alt="Complete health metrics" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-analysis.jpg" alt="Professional analysis" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-challenges.jpg" alt="Daily challenges" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-records.jpg" alt="Personal records &amp; trophy case" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-comparison.jpg" alt="Compare workouts" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-map.jpg" alt="Your locations on the map" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-activities.jpg" alt="80+ activity types" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-workout.jpg" alt="Deep workout detail" loading="lazy"></div>
                     </div>
                 </div>
 

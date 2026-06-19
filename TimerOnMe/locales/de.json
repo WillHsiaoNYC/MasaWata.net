@@ -4,17 +4,18 @@
   "appName": "Mein Timer",
   "meta": {
     "title": "Mein Timer - Mehrere Timer und Stoppuhren in einer App",
-    "description": "Mehrere Timer und Stoppuhren gleichzeitig laufen lassen. Intervalltraining, Homescreen-Widgets, Sitzungsverwaltung und individuelle Klingeltöne. Kostenlos für iPhone und iPad.",
+    "description": "Bis zu 50 Timer und Stoppuhren gleichzeitig laufen lassen, mit Weckern, die auch bei gesperrtem iPhone klingeln (AlarmKit), Tabata/EMOM/30-30-Intervallen, Live Activities und einer vollwertigen Apple Watch App. Kostenlos für iPhone, iPad und Apple Watch.",
     "keywords": "Timer, Stoppuhr, mehrere Timer, Intervalltraining, HIIT-Timer, Tabata, iOS-App, Homescreen-Widget, Countdown-Timer, stopwatch, multiple timers"
   },
   "nav": {
     "features": "Funktionen",
     "screenshots": "Screenshots",
-    "download": "Download"
+    "download": "Download",
+    "faq": "FAQ"
   },
   "hero": {
-    "title": "Mehrere Timer, eine App",
-    "description": "Starte so viele Timer und Stoppuhren wie nötig, alle gleichzeitig. Perfekt zum Kochen, Trainieren, Lernen oder für alles, was präzises Timing erfordert.",
+    "title": "Jeder Timer, Wecker & jede Stoppuhr — gleichzeitig",
+    "description": "Lass bis zu 50 Timer und Stoppuhren gleichzeitig laufen, stelle Wecker, die selbst bei gesperrtem iPhone klingeln, und stoppe HIIT-Workouts präzise — auf iPhone, iPad und Apple Watch.",
     "downloadAlt": "Im App Store laden"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Multi-Timer-Raster",
-        "description": "Mehrere Timer und Stoppuhren gleichzeitig in einem übersichtlichen, responsiven Raster ausführen. Jeder Timer hat unabhängige Steuerungen — einzeln starten, pausieren und zurücksetzen."
+        "description": "Lass bis zu 50 unabhängige Timer und Stoppuhren gleichzeitig in einem übersichtlichen Raster laufen. Starte, pausiere und setze jeden einzeln zurück — oder steuere sie alle zusammen."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Zuverlässige Wecker",
+        "description": "Weck- und Erinnerungswecker mit eigenen Bezeichnungen und Wochentagsplänen, angetrieben von AlarmKit, sodass sie selbst dann klingeln, wenn dein iPhone gesperrt oder Mein Timer geschlossen ist. Schlummeroptionen und eigene Töne inklusive."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Intervalltraining",
-        "description": "Integrierte HIIT-, Tabata- und benutzerdefinierte Intervall-Voreinstellungen. Erstelle eigene Arbeits-/Ruhesequenzen für die perfekte Trainingsroutine."
+        "description": "Integrierte Tabata-, EMOM- und 30/30-Voreinstellungen bringen dich mit zwei Tipps ins Training, dazu ein Editor für eigene Intervalle und ein Vollbild-Workout-Modus mit Farbsignalen."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Apple Watch App",
+        "description": "Eine vollwertige native Apple Watch App — lass mehrere Stoppuhren und Timer direkt am Handgelenk mit Hundertstelsekunden-Präzision und Komplikationen laufen, selbst wenn dein iPhone nicht in der Nähe ist."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Homescreen-Widgets",
-        "description": "Steuere deine Timer direkt vom Homescreen aus. Kleine, mittlere und große Widget-Größen für dein individuelles Layout."
+        "title": "Widgets & Live Activities",
+        "description": "Steuere deine Timer mit interaktiven Widgets direkt vom Homescreen aus und verfolge den Countdown auf dem Sperrbildschirm und in der Dynamic Island mit Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Alarmtöne nach deinem Geschmack",
+        "description": "Wähle aus einem Dutzend integrierter Alarmtöne oder importiere deine eigenen. Deine Alarme klingeln selbst dann, wenn dein iPhone gesperrt oder stummgeschaltet ist oder die App geschlossen ist."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Sitzungsverwaltung",
         "description": "Speichere deine Timer-Konfigurationen und lade sie jederzeit. Exportiere Sitzungen als JSON, CSV oder Text zum einfachen Teilen und Sichern."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Individuelle Klingeltöne",
-        "description": "Wähle aus 7 integrierten Alarmtönen — von einer einfachen Glocke bis hin zu Vintage-Telefonklingeln. Alarme funktionieren auch im Lautlosmodus mit iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Jetzt mit dem Timing beginnen",
     "description": "Kostenlos herunterladen. Mehrere Timer, Intervalltraining und Widgets — alles sofort einsatzbereit. Kein Konto erforderlich.",
-    "platforms": "Verfügbar für iPhone und iPad"
+    "platforms": "Verfügbar für iPhone, iPad und Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Häufig gestellte Fragen",
+    "sectionSubtitle": "Alles, was du über Mein Timer wissen musst",
+    "list": [
+      {
+        "question": "Lösen Wecker und Timer aus, wenn mein iPhone gesperrt oder die App geschlossen ist?",
+        "answer": "Ja. Wecker werden von Apples AlarmKit angetrieben und klingeln selbst dann, wenn dein iPhone gesperrt oder Mein Timer geschlossen ist, und auch Timer-Benachrichtigungen werden zuverlässig im Hintergrund ausgelöst."
+      },
+      {
+        "question": "Wie viele Timer kann ich gleichzeitig laufen lassen?",
+        "answer": "Bis zu 50 unabhängige Timer und Stoppuhren in einer einzigen Sitzung — starte, stoppe und setze sie einzeln oder in synchronisierten Gruppen zurück."
+      },
+      {
+        "question": "Gibt es eine Apple Watch App?",
+        "answer": "Ja — eine vollwertige native watchOS-App mit mehreren gleichzeitigen Timern und Stoppuhren, Hundertstelsekunden-Präzision und Komplikationen. Sie funktioniert selbst dann, wenn dein iPhone außer Reichweite ist."
+      },
+      {
+        "question": "Kann ich sie für HIIT- und Tabata-Workouts nutzen?",
+        "answer": "Auf jeden Fall. Integrierte Tabata-, EMOM- und 30/30-Voreinstellungen bringen dich mit zwei Tipps ins Training, dazu ein Editor für eigene Intervalle für deine eigenen Belastungs-/Pausen-/Runden-Abfolgen und ein Vollbild-Workout-Modus."
+      },
+      {
+        "question": "Kann ich eigene Alarmtöne hinzufügen?",
+        "answer": "Ja — wähle aus den mitgelieferten Klingeltönen oder importiere deine eigenen Audiodateien."
+      },
+      {
+        "question": "Funktioniert sie offline? Brauche ich ein Konto?",
+        "answer": "Kein Konto und keine Internetverbindung erforderlich. Alles läuft auf dem Gerät und deine Daten bleiben lokal."
+      },
+      {
+        "question": "Ist sie kostenlos?",
+        "answer": "Ja, Mein Timer kann kostenlos heruntergeladen werden. Ein optionaler In-App-Kauf schaltet bei Bedarf zusätzliche Wecker über die ersten beiden hinaus frei."
+      }
+    ]
   },
   "privacy": {
     "title": "Deine Privatsphäre ist wichtig",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Datenschutzrichtlinie",
     "termsOfService": "Nutzungsbedingungen",
-    "copyright": "© 2025 Mein Timer. Alle Rechte vorbehalten."
+    "copyright": "© 2026 Mein Timer. Alle Rechte vorbehalten."
   }
 }
