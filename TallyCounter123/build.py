@@ -68,6 +68,9 @@ SCREENSHOT_ALTS = {
     "03-WatchSync":   "Live Apple Watch sync — counters mirror between iPhone and watch",
     "04-Counters":    "List of multiple personalized counters with names, colors, and smart transfers",
     "05-Charts":      "Sessions, history, and visual insights — interactive bar chart with totals",
+    "06-SetValue":    "Set an exact value, or add, subtract, and transfer in bulk",
+    "07-Settings":    "Personalize each counter with a name, color, icon, and step size",
+    "08-Random":      "Random mode rolls a new value on every tap",
 }
 
 H2_RE = re.compile(r"^## (.+?)$", re.MULTILINE)
@@ -162,8 +165,9 @@ SCREENSHOTS = ["01-PosterLeft", "02-PosterRight", "03-WatchSync", "04-Counters",
 
 _TAG_SPLIT = re.compile(r"[,،、;؛/]| [-–—] ")
 
-# Pick the body screenshot by what a section is ABOUT, not its position: section
-# order and count vary by locale, so index-mapping would mispair image and heading.
+# Give every feature section a DISTINCT screenshot. Watch and Charts move around
+# by locale, so match those two by meaning (keyword); fill the rest in order from
+# the remaining distinct shots, never repeating within a page.
 _WATCH_RE = re.compile(r"watch|⌚|watchos", re.I)
 _CHART_RE = re.compile(
     r"chart|graph|total|percent|histor|stat|"
@@ -171,17 +175,36 @@ _CHART_RE = re.compile(
     r"gr[áa]fic|graphiq|diagramm|grafico|grafiek|wykres",
     re.I,
 )
+_ALL_SHOTS = ["04-Counters", "06-SetValue", "08-Random", "03-WatchSync", "05-Charts", "07-Settings"]
+_FILL_SHOTS = ["04-Counters", "06-SetValue", "08-Random", "07-Settings"]
 
 
-def feature_shot(sec: dict) -> str:
-    # Watch terms (often kept in English) are safe to match anywhere; chart terms
-    # match the TITLE only — a bullet like "...recorded in the history" would
-    # otherwise pull a Charts shot into an unrelated section (e.g. Random Mode).
+def _preferred_shot(sec):
+    # Watch terms (usually kept in English) are safe anywhere; chart terms match the
+    # TITLE only, so a bullet like "...recorded in the history" doesn't steal a shot.
     if _WATCH_RE.search(sec["title"] + " " + " ".join(sec["bullets"])):
         return "03-WatchSync"
     if _CHART_RE.search(sec["title"]):
         return "05-Charts"
-    return "04-Counters"
+    return None
+
+
+def assign_shots(sections):
+    """One distinct screenshot per section: Watch/Charts matched by meaning, the
+    rest filled from the remaining shots in order. Repeats only if a locale has
+    more sections than the six available shots."""
+    used, shots = set(), []
+    for sec in sections:
+        p = _preferred_shot(sec)
+        if p and p not in used:
+            shot = p
+        else:
+            shot = (next((s for s in _FILL_SHOTS if s not in used), None)
+                    or next((s for s in _ALL_SHOTS if s not in used), None)
+                    or _ALL_SHOTS[len(shots) % len(_ALL_SHOTS)])
+        used.add(shot)
+        shots.append(shot)
+    return shots
 
 
 def first_tag(bullet: str) -> str:
@@ -237,12 +260,13 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
     feature_secs = secs[:-1] if len(secs) > 1 else secs
     uses_sec = secs[-1] if len(secs) > 1 else None
 
+    shots = assign_shots(feature_secs)
     feats = []
     for i, sec in enumerate(feature_secs):
         bl = sec["bullets"]
         headline = h(bl[0]) if bl else h(sec["title"])
         body = f'\n          <p class="feature__body">{h(bl[1])}</p>' if len(bl) > 1 else ""
-        shot = feature_shot(sec)
+        shot = shots[i]
         cls = "feature is-reversed" if i % 2 else "feature"
         feats.append(f'''    <section class="{cls}">
       <div class="wrap feature__grid">
