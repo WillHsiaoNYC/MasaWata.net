@@ -369,32 +369,17 @@ ul {
     align-items: center;
 }
 
+/* Hero image is already a framed phone — no fake bezel/notch needed */
 .device-frame {
     position: relative;
     width: 280px;
-    padding: 12px;
-    background: #1D1D1F;
-    border-radius: 44px;
-    box-shadow: var(--shadow-lg);
-}
-
-.device-frame::before {
-    content: '';
-    position: absolute;
-    top: 12px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 28px;
-    background: #1D1D1F;
-    border-radius: 0 0 20px 20px;
-    z-index: 10;
 }
 
 .device-screen {
     width: 100%;
-    border-radius: 32px;
+    border-radius: 40px;
     display: block;
+    box-shadow: var(--shadow-lg);
 }
 
 .hero__gradient {
@@ -496,6 +481,26 @@ ul {
 .feature-card__icon--purple {
     background: rgba(175, 82, 222, 0.15);
     color: #AF52DE;
+}
+
+.feature-card__icon--teal {
+    background: rgba(48, 176, 199, 0.15);
+    color: #2A9FB5;
+}
+
+.feature-card__icon--indigo {
+    background: rgba(88, 86, 214, 0.12);
+    color: #5856D6;
+}
+
+.feature-card__icon--orange {
+    background: rgba(255, 149, 0, 0.15);
+    color: #E08600;
+}
+
+.feature-card__icon--pink {
+    background: rgba(255, 45, 85, 0.12);
+    color: #FF2D55;
 }
 
 .feature-card__title {
@@ -1140,17 +1145,10 @@ ul {
 
     .device-frame {
         width: 180px;
-        padding: 8px;
-        border-radius: 32px;
-    }
-
-    .device-frame::before {
-        width: 70px;
-        height: 20px;
     }
 
     .device-screen {
-        border-radius: 24px;
+        border-radius: 30px;
     }
 
     .screenshot-item {
@@ -1203,10 +1201,6 @@ ul {
     .header {
         background: rgba(29, 29, 31, 0.8);
         border-bottom-color: rgba(255, 255, 255, 0.05);
-    }
-
-    .device-frame {
-        background: #000;
     }
 
     .language-dropdown {

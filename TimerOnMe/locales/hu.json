@@ -4,17 +4,18 @@
   "appName": "Időzítőm",
   "meta": {
     "title": "Időzítőm - Több időzítő és stopper egy alkalmazásban",
-    "description": "Futtass több időzítőt és stoppert egyszerre. Intervallum edzés, kezdőképernyő widgetek, munkamenet-kezelés és egyéni csengőhangok. Ingyenes iPhone-ra és iPadre.",
+    "description": "Futtass akár 50 időzítőt és stoppert egyszerre, riasztásokkal, amelyek lezárt állapotban is megszólalnak (AlarmKit), Tabata/EMOM/30-30 intervallumokkal, Live Activities funkcióval és teljes értékű Apple Watch alkalmazással. Ingyenes iPhone-ra, iPadre és Apple Watchra.",
     "keywords": "időzítő, stopper, több időzítő, intervallum edzés, HIIT időzítő, Tabata, iOS alkalmazás, kezdőképernyő widget, visszaszámláló, timer, stopwatch"
   },
   "nav": {
     "features": "Funkciók",
     "screenshots": "Képernyőképek",
-    "download": "Letöltés"
+    "download": "Letöltés",
+    "faq": "GYIK"
   },
   "hero": {
-    "title": "Több időzítő, egy alkalmazás",
-    "description": "Futtass annyi időzítőt és stoppert, amennyire szükséged van, mindet egyszerre. Tökéletes főzéshez, edzéshez, tanuláshoz vagy bármihez, ami pontos időmérést igényel.",
+    "title": "Minden időzítő, riasztás és stopper — egyszerre",
+    "description": "Futtass akár 50 időzítőt és stoppert egyidejűleg, állíts be riasztásokat, amelyek akkor is megszólalnak, ha az iPhone-od le van zárva, és mérd a HIIT edzéseket pontosan — iPhone-on, iPaden és Apple Watchon.",
     "downloadAlt": "Letöltés az App Store-ból"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Multi-időzítő rács",
-        "description": "Futtass több időzítőt és stoppert egyidejűleg egy letisztult, reszponzív rácsban. Minden óra független vezérlőkkel rendelkezik — indítsd, szüneteltesd és állítsd vissza egyenként."
+        "description": "Futtass akár 50 független időzítőt és stoppert egyszerre egy letisztult rácsban. Indítsd, szüneteltesd és állítsd vissza mindegyiket egyenként — vagy vezéreld őket együtt."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Megbízható riasztások",
+        "description": "Ébresztő és emlékeztető riasztások egyéni címkékkel és hét napjai szerinti ütemezéssel, az AlarmKit erejével, így akkor is megszólalnak, ha az iPhone-od le van zárva vagy az Időzítőm be van zárva. Szundi lehetőségek és saját hangok is járnak hozzá."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Intervallum edzés",
-        "description": "Beépített HIIT, Tabata és egyéni intervallum előbeállítások. Hozd létre saját munka/pihenő szekvenciáidat a tökéletes edzésrutinhoz."
+        "description": "A beépített Tabata, EMOM és 30/30 előbeállítások két koppintással edzésbe lendítenek, ráadásul egyéni intervallum-szerkesztővel és teljes képernyős edzésmóddal, színes jelzésekkel."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Apple Watch alkalmazás",
+        "description": "Egy teljes értékű, natív Apple Watch alkalmazás — futtass több stoppert és időzítőt a csuklódon századmásodperc pontossággal és komplikációkkal, még akkor is, ha az iPhone-od nincs a közelben."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Kezdőképernyő widgetek",
-        "description": "Vezéreld az időzítőidet közvetlenül a kezdőképernyőről. Kis, közepes és nagy widget-méretek az elrendezésedhez igazodva."
+        "title": "Widgetek és Live Activities",
+        "description": "Vezéreld az időzítőidet a kezdőképernyőről interaktív widgetekkel, és kövesd a visszaszámlálást a zárolási képernyőről és a Dynamic Islandről a Live Activities funkcióval."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Riasztási hangok a magad módján",
+        "description": "Válassz egy tucat beépített riasztási hang közül, vagy importáld a sajátodat. A riasztásaid akkor is megszólalnak, ha az iPhone-od le van zárva, néma, vagy az alkalmazás be van zárva."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Munkamenet-kezelés",
         "description": "Mentsd el az időzítő beállításaidat és töltsd be bármikor. Exportáld a munkameneteket JSON, CSV vagy szöveges formátumban az egyszerű megosztáshoz és mentéshez."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Egyéni csengőhangok",
-        "description": "Válassz 7 beépített riasztási hang közül — egyszerű csengetéstől a retro telefoncsörgésig. A riasztások még néma módban is működnek iOS 18.2+ verzióval."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Kezdj el időt mérni most",
     "description": "Ingyenesen letölthető. Több időzítő, intervallum edzés és widgetek — minden készen áll. Fiók nem szükséges.",
-    "platforms": "Elérhető iPhone-ra és iPadre"
+    "platforms": "Elérhető iPhone-ra, iPadre és Apple Watchra"
+  },
+  "faq": {
+    "sectionTitle": "Gyakran ismételt kérdések",
+    "sectionSubtitle": "Minden, amit tudnod kell az Időzítőm alkalmazásról",
+    "list": [
+      {
+        "question": "Megszólalnak a riasztások és időzítők, ha az iPhone-om le van zárva vagy az alkalmazás be van zárva?",
+        "answer": "Igen. A riasztásokat az Apple AlarmKit működteti, és akkor is megszólalnak, ha az iPhone-od le van zárva vagy az Időzítőm be van zárva, az időzítő-értesítések pedig a háttérben is megbízhatóan elindulnak."
+      },
+      {
+        "question": "Hány időzítőt futtathatok egyszerre?",
+        "answer": "Akár 50 független időzítőt és stoppert egyetlen munkamenetben — indítsd, állítsd le és állítsd vissza őket egyenként vagy szinkronizált csoportokban."
+      },
+      {
+        "question": "Van Apple Watch alkalmazás?",
+        "answer": "Igen — egy teljes értékű, natív watchOS alkalmazás több, egyszerre futó időzítővel és stopperrel, századmásodperc pontossággal és komplikációkkal. Akkor is működik, ha az iPhone-od nincs kéznél."
+      },
+      {
+        "question": "Használhatom HIIT és Tabata edzésekhez?",
+        "answer": "Természetesen. A beépített Tabata, EMOM és 30/30 előbeállítások két koppintással elindítanak, ráadásul egy egyéni intervallum-szerkesztővel a saját munka/pihenő/kör szekvenciáidhoz és egy teljes képernyős edzésmóddal."
+      },
+      {
+        "question": "Hozzáadhatom a saját riasztási hangjaimat?",
+        "answer": "Igen — válassz a mellékelt csengőhangok közül, vagy importáld a saját hangfájljaidat."
+      },
+      {
+        "question": "Működik offline? Szükségem van fiókra?",
+        "answer": "Nincs szükség fiókra és internetre. Minden az eszközön fut, és az adataid helyben maradnak."
+      },
+      {
+        "question": "Ingyenes?",
+        "answer": "Igen, az Időzítőm ingyenesen letölthető. Egy opcionális alkalmazáson belüli vásárlás az első kettőn túl további riasztásokat old fel, ha szükséged van rájuk."
+      }
+    ]
   },
   "privacy": {
     "title": "Az adatvédelmed fontos",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Adatvédelmi irányelvek",
     "termsOfService": "Szolgáltatási feltételek",
-    "copyright": "© 2025 Időzítőm. Minden jog fenntartva."
+    "copyright": "© 2026 Időzítőm. Minden jog fenntartva."
   }
 }

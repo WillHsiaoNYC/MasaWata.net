@@ -177,21 +177,6 @@
         });
     });
 
-    // ===== FAQ Expansion =====
-    const faqQuestions = document.querySelectorAll('.faq__question');
-
-    faqQuestions.forEach(question => {
-        question.addEventListener('click', () => {
-            const item = question.closest('.faq__item');
-            const isExpanded = question.getAttribute('aria-expanded') === 'true';
-
-            // Toggle current item
-            question.setAttribute('aria-expanded', !isExpanded);
-            item.classList.toggle('active');
-        });
-    });
-
-
     // ===== Screenshots Gallery Navigation =====
     if (screenshotsTrack && prevBtn && nextBtn) {
         const scrollAmount = 250;
@@ -286,62 +271,9 @@
     // ===== Prevent Flash of Unstyled Content =====
     document.documentElement.classList.add('js-loaded');
 
-    // ===== Promo Countdown Timer =====
-    function initCountdown() {
-        const countdownEl = document.getElementById('promo-countdown');
-        if (!countdownEl) return;
-
-        const endDate = new Date('2026-01-02T23:59:59').getTime();
-
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const distance = endDate - now;
-
-            if (distance < 0) {
-                // Promo expired
-                const banner = document.querySelector('.promo-banner');
-                if (banner) banner.style.display = 'none';
-                document.body.classList.remove('has-promo-banner');
-                return;
-            }
-
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            const daysEl = document.getElementById('countdown-days');
-            const hoursEl = document.getElementById('countdown-hours');
-            const minutesEl = document.getElementById('countdown-minutes');
-            const secondsEl = document.getElementById('countdown-seconds');
-
-            if (daysEl) daysEl.textContent = String(days).padStart(2, '0');
-            if (hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');
-            if (minutesEl) minutesEl.textContent = String(minutes).padStart(2, '0');
-            if (secondsEl) secondsEl.textContent = String(seconds).padStart(2, '0');
-        }
-
-        // Update immediately and then every second
-        updateCountdown();
-        setInterval(updateCountdown, 1000);
-    }
-
-    // Initialize countdown
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initCountdown);
-    } else {
-        initCountdown();
-    }
-
-    // ===== Promo Banner and Header Height Calculation =====
+    // ===== Header Height Calculation =====
     function updateLayoutMetrics() {
-        const banner = document.querySelector('.promo-banner');
         const header = document.querySelector('.header');
-
-        if (banner) {
-            const height = banner.offsetHeight;
-            document.body.style.setProperty('--promo-banner-height', `${height}px`);
-        }
 
         if (header) {
             const headerRect = header.getBoundingClientRect();

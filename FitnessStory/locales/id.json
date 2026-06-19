@@ -1,15 +1,5 @@
 {
     "appName": "Fitness Story",
-    "promo": {
-        "badge": "Penawaran Terbatas",
-        "message": "Pro Seumur Hidup",
-        "cta": "Tukarkan",
-        "expires": "Hingga 2 Jan 2026",
-        "days": "Hari",
-        "hours": "Jam",
-        "mins": "Mnt",
-        "secs": "Dtk"
-    },
     "meta": {
         "title": "Fitness Story - Ubah Latihan Apple Health & Watch Menjadi Perjalanan Visual",
         "description": "Ubah data Apple Watch dan Kesehatan menjadi perjalanan visual yang indah. Lacak lari, bersepeda, renang, dan lainnya. Analisis tren, rekor pribadi, dan kemajuan."
@@ -38,7 +28,7 @@
         },
         "analytics": {
             "title": "Analitik Profesional",
-            "description": "Buka suite analitik yang muat di saku Anda. Bandingkan latihan secara berdampingan, lihat tren tahunan, dan lacak irama dan panjang langkah."
+            "description": "Buka suite analitik yang muat di saku Anda. Bandingkan latihan secara berdampingan, lihat tren tahunan, dan lacak irama dan panjang langkah. Termasuk grafik tolok ukur box-and-whisker yang menampilkan median, kuartil, dan pencilan Anda untuk setiap olahraga."
         },
         "records": {
             "title": "Rekor Pribadi",
@@ -71,6 +61,18 @@
         "widgets": {
             "title": "Widget",
             "description": "Pantau data fitness Anda dengan widget layar utama yang indah. Lacak langkah, kalori, kemajuan latihan, dan metrik tubuh sekilas—tanpa membuka aplikasi."
+        },
+        "challenges": {
+            "title": "Tantangan Harian",
+            "description": "Ikuti tantangan yang dilacak otomatis — Lari 3K, 10K Langkah, Bersepeda 10K, dan Latihan 45 Menit — di tingkat 1, 3, dan 7 hari. Raih lencana, isi Lemari Trofi Anda, dan rayakan setiap kemenangan."
+        },
+        "shareableCards": {
+            "title": "Kartu yang Dapat Dibagikan",
+            "description": "Ubah latihan, rekor, atau tantangan apa pun menjadi kartu berbagi yang indah. Pilih dari 15 tema warna dan beralih antara tampilan Gradien dan Terang agar sesuai gaya Anda."
+        },
+        "export": {
+            "title": "Ekspor Semuanya",
+            "description": "Ekspor seluruh riwayat Anda — atau rentang tanggal apa pun — ke CSV atau JSON, lengkap dengan data split, metrik tubuh, dan metadata latihan. Data Anda selalu milik Anda."
         }
     },
     "screenshots": {
@@ -93,7 +95,7 @@
     "download": {
         "title": "Mulai Fitness Story Anda Hari Ini",
         "description": "Unduh gratis dengan upgrade Pro opsional untuk fitur lanjutan. Data Anda tetap pribadi di perangkat Anda.",
-        "platforms": "Tersedia di iPhone, iPad, Mac, dan Apple Vision"
+        "platforms": "Tersedia di iPhone dan iPad"
     },
     "privacy": {
         "title": "Privasi Anda Penting",
@@ -119,6 +121,22 @@
             {
                 "question": "Aktivitas latihan apa yang didukung?",
                 "answer": "Cerita Kebugaran mendukung semua jenis latihan yang dilacak Apple Watch—lebih dari 80 aktivitas! Ini termasuk aktivitas populer seperti lari, bersepeda, renang, HIIT, yoga, dan latihan kekuatan, serta aktivitas khusus seperti pickleball, panjat tebing, seni bela diri, ski, dansa, dan banyak lagi. Jika Apple Watch Anda bisa melacaknya, Cerita Kebugaran bisa memvisualisasikannya."
+            },
+            {
+                "question": "Apa itu Tantangan?",
+                "answer": "Tantangan adalah sasaran kebugaran bawaan — lari 3K, 10.000 langkah, bersepeda 10K, atau latihan 45 menit — yang dilacak otomatis dari data Apple Health Anda di tingkat 1, 3, dan 7 hari. Selesaikan untuk meraih lencana dan membangun Lemari Trofi Anda."
+            },
+            {
+                "question": "Bisakah saya mengekspor data saya?",
+                "answer": "Ya. Ekspor seluruh riwayat Anda, atau rentang tanggal kustom apa pun, ke CSV atau JSON — termasuk data split lengkap, metrik tubuh, dan metadata latihan. Anda juga dapat mengekspor perbandingan latihan untuk dianalisis dengan alat Anda sendiri."
+            },
+            {
+                "question": "Apakah Fitness Story gratis?",
+                "answer": "Fitness Story gratis untuk diunduh dan digunakan. Peningkatan Pro opsional membuka kedalaman penuh analisis, tantangan, dan berbagi — tanpa akun dan tanpa langganan untuk memulai."
+            },
+            {
+                "question": "Di perangkat apa saja ini berfungsi?",
+                "answer": "Fitness Story berjalan di iPhone dan iPad. Aplikasi ini membaca data Apple Health dan Apple Watch Anda dengan akses hanya-baca — tidak ada akun dan tidak ada server, jadi semuanya tetap di perangkat dan iCloud pribadi Anda."
             }
         ]
     },
@@ -126,6 +144,6 @@
         "appStore": "App Store",
         "privacy": "Kebijakan Privasi",
         "terms": "Ketentuan Layanan",
-        "copyright": "© 2025 Fitness Story. Hak cipta dilindungi."
+        "copyright": "© 2026 Fitness Story. Hak cipta dilindungi."
     }
 }

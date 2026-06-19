@@ -4,7 +4,7 @@
   "appName": "WhereWasI",
   "meta": {
     "title": "WhereWasI - Ricorda ogni luogo che hai visitato",
-    "description": "WhereWasI traccia e organizza automaticamente tutti i luoghi che visiti. Rivisita i tuoi posti preferiti, scopri i pattern della tua vita quotidiana e tieni un diario di posizione privato.",
+    "description": "Where was I ? ricorda automaticamente ogni luogo in cui vai, poi lo trasforma in una timeline, un calendario e una mappa privati. Esplora i tuoi pattern, colleziona parchi nazionali e castelli giapponesi, e dai un'occhiata alla tua giornata da Apple Watch o dalla schermata Home. Sul dispositivo, senza account.",
     "keywords": "diario di posizione, luoghi visitati, tracciamento posizione, registro viaggi, app iOS, privacy, cronologia posizione, tracciamento automatico"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Ricorda ogni luogo che hai visitato",
-    "description": "WhereWasI traccia e organizza automaticamente tutti i luoghi che visiti. Rivisita i tuoi posti preferiti, scopri i pattern della tua vita quotidiana e tieni un diario privato del tuo viaggio—senza muovere un dito.",
+    "description": "Where was I ? ricorda automaticamente ogni luogo in cui vai — e lo trasforma in una timeline, un calendario e una mappa privati. Scopri i tuoi pattern, colleziona parchi nazionali e castelli giapponesi, e dai un'occhiata alla tua giornata direttamente dal tuo Apple Watch o dalla schermata Home. Tutto sul tuo dispositivo, senza account richiesto.",
     "downloadAlt": "Scarica sull'App Store"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "I tuoi dati, il tuo dispositivo",
         "description": "Tutti i dati di posizione rimangono al sicuro sul tuo iPhone e sul tuo iCloud personale. Nulla viene mai inviato a server esterni. Il tuo viaggio rimane solo tuo."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Al tuo polso",
+        "description": "Controlla le visite di oggi, i riepiloghi della settimana e del mese e i tuoi luoghi principali direttamente da Apple Watch — più una complication Smart Stack che tiene la tua ultima sosta a portata di sguardo."
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "Widget per schermata Home e di blocco",
+        "description": "Vedi le visite recenti, un timer di permanenza in tempo reale per il luogo in cui ti trovi ora e il numero di visite di oggi senza aprire l'app. Tocca un widget qualsiasi per entrare direttamente."
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "Vista calendario",
+        "description": "Sfoglia le tue visite per giorno, settimana o mese. Il calendario mostra il numero di visite e i luoghi unici a colpo d'occhio, così puoi rivedere qualsiasi giornata in pochi secondi."
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "Collezioni e traguardi",
+        "description": "Trasforma i tuoi viaggi in collezioni — segui i parchi nazionali degli Stati Uniti, i 100 famosi castelli giapponesi, paesi e regioni, oppure crea collezioni personalizzate che si completano automaticamente man mano che ti sposti."
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "Aggiungi, modifica e dividi le visite",
+        "description": "Recupera una sosta che l'app ha mancato, regola con precisione gli orari di arrivo e partenza, o dividi una visita in due — la tua cronologia rimane accurata e completa."
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "Porta con te la tua cronologia",
+        "description": "Importa la tua Google Maps Timeline, oltre ai dati di Moves e Arc Timeline, così anni di luoghi ti accompagnano nel viaggio."
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "Inizia a ricordare oggi",
     "description": "Download gratuito. Il tuo diario di posizione inizia nel momento in cui installi. Nessun account richiesto—solo tu, il tuo iPhone e i luoghi che visiti.",
-    "platforms": "Disponibile su iPhone e iPad"
+    "platforms": "Disponibile su iPhone, iPad e Apple Watch"
   },
   "faq": {
     "sectionTitle": "Domande frequenti",
     "sectionSubtitle": "Tutto quello che devi sapere su WhereWasI",
     "list": [
+      {
+        "question": "Esiste un'app per Apple Watch e dei widget?",
+        "answer": "Sì. Where was I ? include un'app completa per Apple Watch — le visite di oggi, i riepiloghi della settimana e del mese e i tuoi luoghi principali — più una complication Smart Stack. Su iPhone ottieni anche widget per la schermata Home e di blocco che mostrano le visite recenti, un timer di permanenza in tempo reale, il numero di visite di oggi e la tua posizione attuale."
+      },
+      {
+        "question": "Posso importare la mia Google Maps Timeline?",
+        "answer": "Sì. Puoi importare l'esportazione della tua Google Maps Timeline, oltre ai dati di Moves e Arc Timeline — basta aprire la schermata di importazione e aggiungere il tuo file. I tuoi luoghi passati vengono abbinati alle posizioni automaticamente."
+      },
+      {
+        "question": "Cosa sono le Collezioni?",
+        "answer": "Le collezioni raggruppano le tue visite in temi a cui tieni. Segui i tuoi progressi attraverso i parchi nazionali degli Stati Uniti, i 100 famosi castelli giapponesi, paesi e regioni, oppure crea collezioni personalizzate con le tue parole chiave — si completano automaticamente man mano che visiti luoghi corrispondenti, e puoi condividere i tuoi progressi."
+      },
+      {
+        "question": "Posso aggiungere o correggere una visita che l'app ha mancato?",
+        "answer": "Sì. Usa la procedura guidata per le visite manuali per aggiungere una sosta non registrata, modificare gli orari di arrivo e partenza di qualsiasi visita, o dividere una singola visita in due quando una sosta in realtà ne erano due. Ogni visita indica se è stata rilevata automaticamente, aggiunta da te o importata."
+      },
       {
         "question": "Come funziona il tracciamento della posizione?",
         "answer": "L'app usa l'API Visit Monitoring di Apple per rilevare automaticamente quando arrivi e parti dai luoghi. Questo avviene in background con impatto minimo sulla batteria."
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Informativa sulla privacy",
     "termsOfService": "Termini di servizio",
-    "copyright": "© 2025 WhereWasI. Tutti i diritti riservati."
+    "copyright": "© 2026 Where was I ?. Tutti i diritti riservati."
   }
 }

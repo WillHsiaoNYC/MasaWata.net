@@ -4,17 +4,18 @@
   "appName": "Mon Chrono",
   "meta": {
     "title": "Mon Chrono - Plusieurs minuteurs et chronomètres dans une seule app",
-    "description": "Lancez plusieurs minuteurs et chronomètres simultanément. Entraînement par intervalles, widgets sur l'écran d'accueil, gestion des sessions et sonneries personnalisées. Gratuit pour iPhone et iPad.",
+    "description": "Lancez jusqu'à 50 minuteurs et chronomètres à la fois, avec des alarmes qui sonnent même verrouillé (AlarmKit), des intervalles Tabata/EMOM/30-30, des Live Activities et une véritable app Apple Watch. Gratuit pour iPhone, iPad et Apple Watch.",
     "keywords": "minuteur, chronomètre, plusieurs minuteurs, entraînement par intervalles, minuteur HIIT, Tabata, app iOS, widget écran d'accueil, compte à rebours, timer, stopwatch"
   },
   "nav": {
     "features": "Fonctionnalités",
     "screenshots": "Captures d'écran",
-    "download": "Télécharger"
+    "download": "Télécharger",
+    "faq": "FAQ"
   },
   "hero": {
-    "title": "Plusieurs minuteurs, une seule app",
-    "description": "Lancez autant de minuteurs et chronomètres que nécessaire, tous en même temps. Parfait pour la cuisine, le sport, les études ou tout ce qui nécessite un chronométrage précis.",
+    "title": "Chaque minuteur, alarme et chronomètre — en même temps",
+    "description": "Lancez jusqu'à 50 minuteurs et chronomètres en même temps, programmez des alarmes qui sonnent même lorsque votre iPhone est verrouillé, et chronométrez vos entraînements HIIT avec précision — sur iPhone, iPad et Apple Watch.",
     "downloadAlt": "Télécharger sur l'App Store"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Grille multi-minuteurs",
-        "description": "Exécutez plusieurs minuteurs et chronomètres simultanément dans une grille claire et réactive. Chaque horloge dispose de commandes indépendantes — démarrez, mettez en pause et réinitialisez individuellement."
+        "description": "Lancez jusqu'à 50 minuteurs et chronomètres indépendants à la fois dans une grille épurée. Démarrez, mettez en pause et réinitialisez chacun individuellement — ou contrôlez-les tous ensemble."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Alarmes fiables",
+        "description": "Alarmes de réveil et de rappel avec libellés personnalisés et programmation par jours de la semaine, propulsées par AlarmKit pour qu'elles sonnent même lorsque votre iPhone est verrouillé ou que Mon Chrono est fermé. Options de répétition et sons personnels inclus."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Entraînement par intervalles",
-        "description": "Préréglages intégrés HIIT, Tabata et intervalles personnalisés. Créez vos propres séquences travail/repos pour la routine d'entraînement parfaite."
+        "description": "Les préréglages intégrés Tabata, EMOM et 30/30 vous lancent en deux touches, avec en plus un éditeur d'intervalles personnalisé et un mode entraînement plein écran avec repères colorés."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "App Apple Watch",
+        "description": "Une véritable app native Apple Watch — lancez plusieurs chronomètres et minuteurs à votre poignet avec une précision au centième de seconde et des complications, même sans votre iPhone à proximité."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Widgets d'écran d'accueil",
-        "description": "Contrôlez vos minuteurs directement depuis votre écran d'accueil. Tailles de widgets petites, moyennes et grandes pour s'adapter à votre disposition."
+        "title": "Widgets et Live Activities",
+        "description": "Contrôlez vos minuteurs depuis l'écran d'accueil grâce à des widgets interactifs, et suivez le compte à rebours depuis l'écran verrouillé et la Dynamic Island avec les Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Sons d'alarme à votre goût",
+        "description": "Choisissez parmi une douzaine de sons d'alarme intégrés ou importez les vôtres. Vos alertes sonnent même lorsque votre iPhone est verrouillé, en silencieux, ou que l'app est fermée."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Gestion des sessions",
         "description": "Enregistrez vos configurations de minuteurs et rechargez-les à tout moment. Exportez les sessions en JSON, CSV ou texte pour un partage et une sauvegarde faciles."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Sonneries personnalisées",
-        "description": "Choisissez parmi 7 sons d'alarme intégrés — d'une simple cloche aux sonneries de téléphone vintage. Les alarmes fonctionnent même en mode silencieux avec iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Commencez à chronométrer",
     "description": "Téléchargement gratuit. Plusieurs minuteurs, entraînement par intervalles et widgets — tout est prêt. Aucun compte requis.",
-    "platforms": "Disponible sur iPhone et iPad"
+    "platforms": "Disponible sur iPhone, iPad et Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Questions fréquentes",
+    "sectionSubtitle": "Tout ce qu'il faut savoir sur Mon Chrono",
+    "list": [
+      {
+        "question": "Les alarmes et les minuteurs se déclenchent-ils quand mon iPhone est verrouillé ou l'app fermée ?",
+        "answer": "Oui. Les alarmes sont propulsées par AlarmKit d'Apple et sonnent même lorsque votre iPhone est verrouillé ou que Mon Chrono est fermé, et les alertes de minuteur se déclenchent aussi de manière fiable en arrière-plan."
+      },
+      {
+        "question": "Combien de minuteurs puis-je lancer à la fois ?",
+        "answer": "Jusqu'à 50 minuteurs et chronomètres indépendants dans une seule session — démarrez-les, arrêtez-les et réinitialisez-les individuellement ou en groupes synchronisés."
+      },
+      {
+        "question": "Y a-t-il une app Apple Watch ?",
+        "answer": "Oui — une véritable app native watchOS avec plusieurs minuteurs et chronomètres simultanés, une précision au centième de seconde et des complications. Elle fonctionne même lorsque votre iPhone est hors de portée."
+      },
+      {
+        "question": "Puis-je l'utiliser pour des entraînements HIIT et Tabata ?",
+        "answer": "Absolument. Les préréglages intégrés Tabata, EMOM et 30/30 vous lancent en deux touches, avec en plus un éditeur d'intervalles personnalisé pour vos propres séquences travail/repos/séries et un mode entraînement plein écran."
+      },
+      {
+        "question": "Puis-je ajouter mes propres sons d'alarme ?",
+        "answer": "Oui — choisissez parmi les sonneries incluses ou importez vos propres fichiers audio."
+      },
+      {
+        "question": "Fonctionne-t-elle hors ligne ? Ai-je besoin d'un compte ?",
+        "answer": "Aucun compte ni connexion Internet requis. Tout fonctionne sur l'appareil et vos données restent locales."
+      },
+      {
+        "question": "Est-ce gratuit ?",
+        "answer": "Oui, Mon Chrono est gratuit à télécharger. Un achat intégré facultatif débloque des alarmes supplémentaires au-delà des deux premières si vous en avez besoin."
+      }
+    ]
   },
   "privacy": {
     "title": "Votre vie privée compte",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Politique de confidentialité",
     "termsOfService": "Conditions d'utilisation",
-    "copyright": "© 2025 Mon Chrono. Tous droits réservés."
+    "copyright": "© 2026 Mon Chrono. Tous droits réservés."
   }
 }

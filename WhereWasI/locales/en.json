@@ -3,8 +3,8 @@
   "langName": "English",
   "appName": "WhereWasI",
   "meta": {
-    "title": "WhereWasI - Remember Every Place You've Been",
-    "description": "WhereWasI automatically tracks and organizes everywhere you go. Revisit your favorite spots, discover patterns in your daily life, and keep a private location journal.",
+    "title": "Where was I ? — Your Private Location Memory",
+    "description": "Where was I ? automatically remembers everywhere you go, then turns it into a private timeline, calendar, and map. Explore your patterns, collect National Parks and Japanese Castles, and glance at your day from Apple Watch or your Home Screen. On-device, no account.",
     "keywords": "location journal, places visited, location tracking, travel log, iOS app, privacy, location history, automatic tracking"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Remember Every Place You've Been",
-    "description": "WhereWasI automatically tracks and organizes everywhere you go. Revisit your favorite spots, discover patterns in your daily life, and keep a private journal of your journey—all without lifting a finger.",
+    "description": "Where was I ? automatically remembers every place you go — then turns it into a private timeline, calendar, and map. Discover your patterns, collect National Parks and Japanese Castles, and glance at your day right from your Apple Watch or Home Screen. All on your device, no account required.",
     "downloadAlt": "Download on the App Store"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "Your Data, Your Device",
         "description": "All location data stays securely on your iPhone and your personal iCloud. Nothing is ever sent to external servers. Your journey remains yours alone."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "On Your Wrist",
+        "description": "Check today's visits, week and month summaries, and your top places right from Apple Watch — plus a Smart Stack complication that keeps your latest stop a glance away."
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "Home & Lock Screen Widgets",
+        "description": "See recent visits, a live dwell timer for where you are now, and today's visit count without opening the app. Tap any widget to jump straight in."
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "Calendar View",
+        "description": "Browse your visits by day, week, or month. The calendar shows visit counts and unique places at a glance, so you can revisit any day in seconds."
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "Collections & Milestones",
+        "description": "Turn your travels into collections — track U.S. National Parks, the 100 Famous Japanese Castles, countries and regions, or build custom collections that fill in automatically as you go."
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "Add, Edit & Split Visits",
+        "description": "Backfill a stop the app missed, fine-tune arrival and departure times, or split one visit into two — your history stays accurate and complete."
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "Bring Your History With You",
+        "description": "Import your Google Maps Timeline, plus Moves and Arc Timeline data, so years of places come along for the ride."
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "Start Remembering Today",
     "description": "Free to download. Your location journal begins the moment you install. No account required—just you, your iPhone, and the places you go.",
-    "platforms": "Available on iPhone and iPad"
+    "platforms": "Available on iPhone, iPad, and Apple Watch"
   },
   "faq": {
     "sectionTitle": "Frequently Asked Questions",
     "sectionSubtitle": "Everything you need to know about WhereWasI",
     "list": [
+      {
+        "question": "Is there an Apple Watch app and widgets?",
+        "answer": "Yes. Where was I ? includes a full Apple Watch app — today's visits, week and month summaries, and your top places — plus a Smart Stack complication. On iPhone you also get Home Screen and Lock Screen widgets showing recent visits, a live dwell timer, today's visit count, and your current location."
+      },
+      {
+        "question": "Can I import my Google Maps Timeline?",
+        "answer": "Yes. You can import your Google Maps Timeline export, as well as Moves and Arc Timeline data — just open the import screen and add your file. Your past places are matched to locations automatically."
+      },
+      {
+        "question": "What are Collections?",
+        "answer": "Collections group your visits into themes you care about. Track your progress through the U.S. National Parks, the 100 Famous Japanese Castles, countries and regions, or create custom collections with your own keywords — they fill in automatically as you visit matching places, and you can share your progress."
+      },
+      {
+        "question": "Can I add or fix a visit the app missed?",
+        "answer": "Yes. Use the manual visit wizard to add a stop that wasn't recorded, edit any visit's arrival and departure times, or split a single visit into two when one stop was really two. Every visit shows whether it was detected automatically, added by you, or imported."
+      },
       {
         "question": "How does location tracking work?",
         "answer": "The app uses Apple's Visit Monitoring API to automatically detect when you arrive at and leave locations. This happens in the background with minimal battery impact."
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
-    "copyright": "© 2025 WhereWasI. All rights reserved."
+    "copyright": "© 2026 Where was I ?. All rights reserved."
   }
 }

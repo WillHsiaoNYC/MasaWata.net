@@ -4,7 +4,7 @@
   "appName": "WhereWasI",
   "meta": {
     "title": "WhereWasI - Ingat Setiap Tempat yang Pernah Anda Kunjungi",
-    "description": "WhereWasI secara otomatis melacak dan mengatur semua tempat yang Anda kunjungi. Kunjungi kembali tempat favorit, temukan pola dalam kehidupan sehari-hari, dan simpan jurnal lokasi pribadi.",
+    "description": "Where was I ? secara otomatis mengingat setiap tempat yang Anda kunjungi, lalu mengubahnya menjadi linimasa, kalender, dan peta pribadi. Jelajahi pola Anda, kumpulkan National Parks dan Japanese Castles, dan lihat sekilas hari Anda dari Apple Watch atau Home Screen. Di perangkat, tanpa akun.",
     "keywords": "jurnal lokasi, tempat dikunjungi, pelacakan lokasi, log perjalanan, aplikasi iOS, privasi, riwayat lokasi, pelacakan otomatis"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Ingat Setiap Tempat yang Pernah Anda Kunjungi",
-    "description": "WhereWasI secara otomatis melacak dan mengatur semua tempat yang Anda kunjungi. Kunjungi kembali tempat favorit, temukan pola dalam kehidupan sehari-hari, dan simpan jurnal pribadi perjalanan Anda—tanpa perlu melakukan apa pun.",
+    "description": "Where was I ? secara otomatis mengingat setiap tempat yang Anda kunjungi — lalu mengubahnya menjadi linimasa, kalender, dan peta pribadi. Temukan pola Anda, kumpulkan National Parks dan Japanese Castles, dan lihat sekilas hari Anda langsung dari Apple Watch atau Home Screen Anda. Semua di perangkat Anda, tanpa perlu akun.",
     "downloadAlt": "Unduh di App Store"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "Data Anda, Perangkat Anda",
         "description": "Semua data lokasi tetap aman di iPhone dan iCloud pribadi Anda. Tidak ada yang dikirim ke server eksternal. Perjalanan Anda tetap milik Anda."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Di Pergelangan Tangan Anda",
+        "description": "Periksa kunjungan hari ini, ringkasan minggu dan bulan, serta tempat teratas Anda langsung dari Apple Watch — plus komplikasi Smart Stack yang menjaga perhentian terakhir Anda tetap dalam jangkauan sekilas."
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "Widget Home Screen & Lock Screen",
+        "description": "Lihat kunjungan terbaru, pengatur waktu tinggal langsung untuk tempat Anda sekarang, dan jumlah kunjungan hari ini tanpa membuka aplikasi. Ketuk widget mana saja untuk langsung masuk."
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "Tampilan Kalender",
+        "description": "Jelajahi kunjungan Anda berdasarkan hari, minggu, atau bulan. Kalender menampilkan jumlah kunjungan dan tempat unik secara sekilas, sehingga Anda dapat mengunjungi kembali hari mana pun dalam hitungan detik."
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "Koleksi & Pencapaian",
+        "description": "Ubah perjalanan Anda menjadi koleksi — lacak U.S. National Parks, 100 Famous Japanese Castles, negara dan wilayah, atau buat koleksi kustom yang terisi otomatis saat Anda bepergian."
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "Tambah, Edit & Pisahkan Kunjungan",
+        "description": "Isi perhentian yang terlewat oleh aplikasi, sempurnakan waktu kedatangan dan keberangkatan, atau pisahkan satu kunjungan menjadi dua — riwayat Anda tetap akurat dan lengkap."
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "Bawa Riwayat Anda Bersama Anda",
+        "description": "Impor Google Maps Timeline Anda, plus data Moves dan Arc Timeline, sehingga tempat-tempat bertahun-tahun ikut serta dalam perjalanan."
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "Mulai Mengingat Hari Ini",
     "description": "Unduh gratis. Jurnal lokasi Anda dimulai saat Anda menginstal. Tidak perlu akun—hanya Anda, iPhone Anda, dan tempat-tempat yang Anda kunjungi.",
-    "platforms": "Tersedia di iPhone dan iPad"
+    "platforms": "Tersedia di iPhone, iPad, dan Apple Watch"
   },
   "faq": {
     "sectionTitle": "Pertanyaan yang Sering Diajukan",
     "sectionSubtitle": "Semua yang perlu Anda ketahui tentang WhereWasI",
     "list": [
+      {
+        "question": "Apakah ada aplikasi Apple Watch dan widget?",
+        "answer": "Ya. Where was I ? menyertakan aplikasi Apple Watch lengkap — kunjungan hari ini, ringkasan minggu dan bulan, serta tempat teratas Anda — plus komplikasi Smart Stack. Di iPhone Anda juga mendapatkan widget Home Screen dan Lock Screen yang menampilkan kunjungan terbaru, pengatur waktu tinggal langsung, jumlah kunjungan hari ini, dan lokasi Anda saat ini."
+      },
+      {
+        "question": "Bisakah saya mengimpor Google Maps Timeline saya?",
+        "answer": "Ya. Anda dapat mengimpor ekspor Google Maps Timeline Anda, serta data Moves dan Arc Timeline — cukup buka layar impor dan tambahkan file Anda. Tempat-tempat masa lalu Anda dicocokkan dengan lokasi secara otomatis."
+      },
+      {
+        "question": "Apa itu Koleksi?",
+        "answer": "Koleksi mengelompokkan kunjungan Anda ke dalam tema yang Anda pedulikan. Lacak kemajuan Anda melalui U.S. National Parks, 100 Famous Japanese Castles, negara dan wilayah, atau buat koleksi kustom dengan kata kunci Anda sendiri — mereka terisi otomatis saat Anda mengunjungi tempat yang cocok, dan Anda dapat membagikan kemajuan Anda."
+      },
+      {
+        "question": "Bisakah saya menambahkan atau memperbaiki kunjungan yang terlewat oleh aplikasi?",
+        "answer": "Ya. Gunakan wizard kunjungan manual untuk menambahkan perhentian yang tidak tercatat, mengedit waktu kedatangan dan keberangkatan kunjungan mana pun, atau memisahkan satu kunjungan menjadi dua saat satu perhentian sebenarnya adalah dua. Setiap kunjungan menunjukkan apakah terdeteksi secara otomatis, ditambahkan oleh Anda, atau diimpor."
+      },
       {
         "question": "Bagaimana cara kerja pelacakan lokasi?",
         "answer": "Aplikasi menggunakan API Visit Monitoring Apple untuk mendeteksi secara otomatis saat Anda tiba dan pergi dari lokasi. Ini terjadi di latar belakang dengan dampak baterai minimal."
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Kebijakan Privasi",
     "termsOfService": "Ketentuan Layanan",
-    "copyright": "© 2025 WhereWasI. Hak cipta dilindungi."
+    "copyright": "© 2026 Where was I ?. Hak cipta dilindungi."
   }
 }

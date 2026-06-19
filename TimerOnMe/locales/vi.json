@@ -4,17 +4,18 @@
   "appName": "Bộ Hẹn Giờ",
   "meta": {
     "title": "Bộ Hẹn Giờ - Nhiều bộ hẹn giờ và đồng hồ bấm giờ trong một ứng dụng",
-    "description": "Chạy nhiều bộ hẹn giờ và đồng hồ bấm giờ cùng lúc. Tập luyện theo chu kỳ, widget màn hình chính, quản lý phiên và nhạc chuông tùy chỉnh. Miễn phí cho iPhone và iPad.",
+    "description": "Chạy đồng thời tới 50 bộ hẹn giờ và đồng hồ bấm giờ, với báo thức reo cả khi máy đã khóa (AlarmKit), chu kỳ Tabata/EMOM/30-30, Live Activities và một ứng dụng Apple Watch đầy đủ. Miễn phí cho iPhone, iPad và Apple Watch.",
     "keywords": "bộ hẹn giờ, đồng hồ bấm giờ, nhiều bộ hẹn giờ, tập luyện theo chu kỳ, hẹn giờ HIIT, Tabata, ứng dụng iOS, widget màn hình chính, đếm ngược, timer, stopwatch"
   },
   "nav": {
     "features": "Tính năng",
     "screenshots": "Ảnh chụp màn hình",
-    "download": "Tải xuống"
+    "download": "Tải xuống",
+    "faq": "Câu hỏi thường gặp"
   },
   "hero": {
-    "title": "Nhiều bộ hẹn giờ, một ứng dụng",
-    "description": "Chạy bao nhiêu bộ hẹn giờ và đồng hồ bấm giờ tùy thích, tất cả cùng một lúc. Hoàn hảo cho nấu ăn, tập luyện, học tập hoặc bất cứ điều gì cần tính thời gian chính xác.",
+    "title": "Mọi bộ hẹn giờ, báo thức và đồng hồ bấm giờ — cùng lúc",
+    "description": "Chạy đồng thời tới 50 bộ hẹn giờ và đồng hồ bấm giờ, đặt báo thức reo ngay cả khi iPhone của bạn đã khóa, và bấm giờ các bài tập HIIT một cách chính xác — trên iPhone, iPad và Apple Watch.",
     "downloadAlt": "Tải xuống trên App Store"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Lưới đa hẹn giờ",
-        "description": "Chạy nhiều bộ hẹn giờ và đồng hồ bấm giờ cùng lúc trong một lưới gọn gàng, linh hoạt. Mỗi đồng hồ có điều khiển độc lập — bắt đầu, tạm dừng và đặt lại riêng từng cái."
+        "description": "Chạy đồng thời tới 50 bộ hẹn giờ và đồng hồ bấm giờ độc lập trong một lưới gọn gàng. Bắt đầu, tạm dừng và đặt lại từng cái riêng biệt — hoặc điều khiển tất cả cùng lúc."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Báo thức đáng tin cậy",
+        "description": "Báo thức đánh thức và nhắc nhở với nhãn tùy chỉnh và lịch theo ngày trong tuần, được hỗ trợ bởi AlarmKit nên chúng vẫn reo ngay cả khi iPhone của bạn đã khóa hoặc Bộ Hẹn Giờ đã đóng. Bao gồm tùy chọn báo lại và âm thanh của riêng bạn."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Tập luyện theo chu kỳ",
-        "description": "Cài đặt sẵn HIIT, Tabata và chu kỳ tùy chỉnh tích hợp. Tạo chuỗi tập/nghỉ của riêng bạn cho lịch tập hoàn hảo."
+        "description": "Các cài đặt sẵn Tabata, EMOM và 30/30 tích hợp giúp bạn bắt đầu tập chỉ với hai lần chạm, cùng trình chỉnh sửa chu kỳ tùy chỉnh và chế độ tập toàn màn hình với tín hiệu màu sắc."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Ứng dụng Apple Watch",
+        "description": "Một ứng dụng Apple Watch gốc đầy đủ — chạy nhiều đồng hồ bấm giờ và bộ hẹn giờ ngay trên cổ tay với độ chính xác phần trăm giây và các tổ hợp thông tin, ngay cả khi không có iPhone bên cạnh."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Widget màn hình chính",
-        "description": "Điều khiển bộ hẹn giờ ngay từ màn hình chính. Kích thước widget nhỏ, vừa và lớn phù hợp với bố cục của bạn."
+        "title": "Widget và Live Activities",
+        "description": "Điều khiển các bộ hẹn giờ từ Màn hình chính bằng widget tương tác, và theo dõi đếm ngược từ Màn hình khóa và Dynamic Island với Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Âm báo thức theo cách của bạn",
+        "description": "Chọn từ hàng chục âm báo thức tích hợp hoặc nhập âm thanh của riêng bạn. Cảnh báo của bạn vẫn reo ngay cả khi iPhone đã khóa, tắt tiếng hoặc ứng dụng đã đóng."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Quản lý phiên",
         "description": "Lưu cấu hình hẹn giờ và tải lại bất cứ lúc nào. Xuất phiên dưới dạng JSON, CSV hoặc văn bản để chia sẻ và sao lưu dễ dàng."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Nhạc chuông tùy chỉnh",
-        "description": "Chọn từ 7 âm báo thức tích hợp — từ tiếng chuông đơn giản đến nhạc chuông điện thoại cổ điển. Báo thức hoạt động ngay cả ở Chế độ im lặng với iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Bắt đầu hẹn giờ ngay",
     "description": "Tải miễn phí. Nhiều bộ hẹn giờ, tập luyện theo chu kỳ và widget — tất cả sẵn sàng sử dụng. Không cần tài khoản.",
-    "platforms": "Có sẵn trên iPhone và iPad"
+    "platforms": "Có sẵn trên iPhone, iPad và Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Câu hỏi thường gặp",
+    "sectionSubtitle": "Tất cả những gì bạn cần biết về Bộ Hẹn Giờ",
+    "list": [
+      {
+        "question": "Báo thức và bộ hẹn giờ có reo khi iPhone đã khóa hoặc ứng dụng đã đóng không?",
+        "answer": "Có. Báo thức được hỗ trợ bởi AlarmKit của Apple và vẫn reo ngay cả khi iPhone của bạn đã khóa hoặc Bộ Hẹn Giờ đã đóng, và cảnh báo hẹn giờ cũng kích hoạt đáng tin cậy ở chế độ nền."
+      },
+      {
+        "question": "Tôi có thể chạy bao nhiêu bộ hẹn giờ cùng lúc?",
+        "answer": "Tối đa 50 bộ hẹn giờ và đồng hồ bấm giờ độc lập trong một phiên duy nhất — bắt đầu, dừng và đặt lại từng cái riêng biệt hoặc theo nhóm đồng bộ."
+      },
+      {
+        "question": "Có ứng dụng cho Apple Watch không?",
+        "answer": "Có — một ứng dụng watchOS gốc đầy đủ với nhiều bộ hẹn giờ và đồng hồ bấm giờ chạy đồng thời, độ chính xác phần trăm giây và các tổ hợp thông tin. Nó hoạt động ngay cả khi iPhone của bạn ở ngoài tầm với."
+      },
+      {
+        "question": "Tôi có thể dùng nó cho các bài tập HIIT và Tabata không?",
+        "answer": "Hoàn toàn được. Các cài đặt sẵn Tabata, EMOM và 30/30 tích hợp giúp bạn bắt đầu chỉ với hai lần chạm, cùng trình chỉnh sửa chu kỳ tùy chỉnh cho các chuỗi tập/nghỉ/hiệp của riêng bạn và chế độ tập toàn màn hình."
+      },
+      {
+        "question": "Tôi có thể thêm âm báo thức của riêng mình không?",
+        "answer": "Có — chọn từ các nhạc chuông đi kèm hoặc nhập tệp âm thanh của riêng bạn."
+      },
+      {
+        "question": "Nó có hoạt động ngoại tuyến không? Tôi có cần tài khoản không?",
+        "answer": "Không cần tài khoản và không cần internet. Mọi thứ chạy ngay trên thiết bị và dữ liệu của bạn được giữ cục bộ."
+      },
+      {
+        "question": "Nó có miễn phí không?",
+        "answer": "Có, Bộ Hẹn Giờ miễn phí tải xuống. Một giao dịch mua trong ứng dụng tùy chọn sẽ mở khóa thêm báo thức ngoài hai cái đầu tiên nếu bạn cần."
+      }
+    ]
   },
   "privacy": {
     "title": "Quyền riêng tư của bạn rất quan trọng",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Chính sách Quyền riêng tư",
     "termsOfService": "Điều khoản Dịch vụ",
-    "copyright": "© 2025 Bộ Hẹn Giờ. Tất cả quyền được bảo lưu."
+    "copyright": "© 2026 Bộ Hẹn Giờ. Tất cả quyền được bảo lưu."
   }
 }

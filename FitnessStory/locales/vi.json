@@ -1,15 +1,5 @@
 {
     "appName": "Fitness Story",
-    "promo": {
-        "badge": "Ưu đãi có hạn",
-        "message": "Pro trọn đời",
-        "cta": "Đổi ngay",
-        "expires": "Đến 2/1/2026",
-        "days": "Ngày",
-        "hours": "Giờ",
-        "mins": "Phút",
-        "secs": "Giây"
-    },
     "meta": {
         "title": "Fitness Story - Biến Bài Tập Apple Health & Watch Thành Hành Trình Trực Quan",
         "description": "Biến dữ liệu Apple Watch và Sức khỏe thành hành trình trực quan đẹp mắt. Theo dõi chạy bộ, đạp xe, bơi lội và hơn thế nữa. Phân tích xu hướng, kỷ lục cá nhân và tiến độ."
@@ -38,7 +28,7 @@
         },
         "analytics": {
             "title": "Phân tích chuyên nghiệp",
-            "description": "Mở khóa bộ công cụ phân tích vừa túi. So sánh bài tập song song, xem xu hướng hàng năm và theo dõi nhịp chân và độ dài bước chân."
+            "description": "Mở khóa bộ công cụ phân tích vừa túi. So sánh bài tập song song, xem xu hướng hàng năm và theo dõi nhịp chân và độ dài bước chân. Bao gồm biểu đồ chuẩn hộp và râu thể hiện trung vị, tứ phân vị và giá trị ngoại lai cho mọi môn thể thao."
         },
         "records": {
             "title": "Kỷ lục cá nhân",
@@ -71,6 +61,18 @@
         "widgets": {
             "title": "Widget",
             "description": "Giữ dữ liệu fitness luôn hiển thị với các widget màn hình chính đẹp mắt. Theo dõi bước chân, calo, tiến độ tập luyện và chỉ số cơ thể chỉ trong nháy mắt—không cần mở ứng dụng."
+        },
+        "challenges": {
+            "title": "Thử thách hằng ngày",
+            "description": "Tham gia các thử thách được theo dõi tự động — Chạy 3K, 10K Bước, Đạp xe 10K và Tập luyện 45 phút — qua các mốc 1, 3 và 7 ngày. Nhận huy hiệu, lấp đầy Tủ cúp và ăn mừng mọi chiến thắng."
+        },
+        "shareableCards": {
+            "title": "Thẻ chia sẻ",
+            "description": "Biến mọi bài tập, kỷ lục hay thử thách thành một tấm thẻ chia sẻ đẹp mắt. Chọn từ 15 chủ đề màu và chuyển đổi giữa kiểu Gradient và Sáng để hợp phong cách của bạn."
+        },
+        "export": {
+            "title": "Xuất mọi thứ",
+            "description": "Xuất toàn bộ lịch sử — hoặc bất kỳ khoảng thời gian nào — sang CSV hoặc JSON, đầy đủ dữ liệu chặng, chỉ số cơ thể và siêu dữ liệu bài tập. Dữ liệu của bạn luôn là của bạn."
         }
     },
     "screenshots": {
@@ -93,7 +95,7 @@
     "download": {
         "title": "Bắt đầu Fitness Story của bạn ngay hôm nay",
         "description": "Tải miễn phí với tùy chọn nâng cấp Pro cho các tính năng nâng cao. Dữ liệu của bạn được bảo mật riêng tư trên thiết bị.",
-        "platforms": "Có sẵn trên iPhone, iPad, Mac và Apple Vision"
+        "platforms": "Có sẵn trên iPhone và iPad"
     },
     "privacy": {
         "title": "Quyền riêng tư của bạn quan trọng",
@@ -119,6 +121,22 @@
             {
                 "question": "Ứng dụng hỗ trợ những hoạt động tập luyện nào?",
                 "answer": "Câu Chuyện Thể Hình hỗ trợ tất cả các loại bài tập mà Apple Watch theo dõi—hơn 80 hoạt động! Bao gồm các hoạt động phổ biến như chạy bộ, đạp xe, bơi lội, HIIT, yoga và tập tạ, cùng với các hoạt động chuyên biệt như pickleball, leo núi, võ thuật, trượt tuyết, nhảy múa và nhiều hơn nữa. Nếu Apple Watch của bạn có thể theo dõi, Câu Chuyện Thể Hình có thể trực quan hóa."
+            },
+            {
+                "question": "Thử thách là gì?",
+                "answer": "Thử thách là các mục tiêu thể dục tích hợp sẵn — chạy 3K, 10.000 bước, đạp xe 10K hoặc tập luyện 45 phút — được theo dõi tự động từ dữ liệu Apple Health của bạn qua các mốc 1, 3 và 7 ngày. Hoàn thành để nhận huy hiệu và xây dựng Tủ cúp của bạn."
+            },
+            {
+                "question": "Tôi có thể xuất dữ liệu của mình không?",
+                "answer": "Có. Xuất toàn bộ lịch sử, hoặc bất kỳ khoảng thời gian tùy chỉnh nào, sang CSV hoặc JSON — bao gồm đầy đủ dữ liệu chặng, chỉ số cơ thể và siêu dữ liệu bài tập. Bạn cũng có thể xuất bản so sánh bài tập để phân tích bằng công cụ của riêng mình."
+            },
+            {
+                "question": "Fitness Story có miễn phí không?",
+                "answer": "Fitness Story miễn phí tải xuống và sử dụng. Bản nâng cấp Pro tùy chọn mở khóa toàn bộ chiều sâu của phân tích, thử thách và chia sẻ — không cần tài khoản và không cần đăng ký để bắt đầu."
+            },
+            {
+                "question": "Ứng dụng chạy trên thiết bị nào?",
+                "answer": "Fitness Story chạy trên iPhone và iPad. Ứng dụng đọc dữ liệu Apple Health và Apple Watch của bạn với quyền chỉ đọc — không có tài khoản và không có máy chủ, nên mọi thứ luôn nằm trên thiết bị và iCloud riêng tư của bạn."
             }
         ]
     },
@@ -126,6 +144,6 @@
         "appStore": "App Store",
         "privacy": "Chính sách Bảo mật",
         "terms": "Điều khoản Dịch vụ",
-        "copyright": "© 2025 Fitness Story. Bảo lưu mọi quyền."
+        "copyright": "© 2026 Fitness Story. Bảo lưu mọi quyền."
     }
 }

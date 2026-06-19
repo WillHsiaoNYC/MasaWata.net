@@ -4,17 +4,18 @@
   "appName": "Min Timer",
   "meta": {
     "title": "Min Timer - Flere timere og stopure i én app",
-    "description": "Kør flere timere og stopure samtidigt. Intervaltræning, widgets på hjemmeskærmen, sessionsstyring og brugerdefinerede ringetoner. Gratis til iPhone og iPad.",
+    "description": "Kør op til 50 timere og stopure på én gang, med alarmer der ringer, når telefonen er låst (AlarmKit), Tabata/EMOM/30-30-intervaller, Live Activities og en komplet Apple Watch-app. Gratis til iPhone, iPad og Apple Watch.",
     "keywords": "timer, stopur, flere timere, intervaltræning, HIIT-timer, Tabata, iOS-app, hjemmeskærm-widget, nedtællingstimer, stopwatch, countdown timer"
   },
   "nav": {
     "features": "Funktioner",
     "screenshots": "Skærmbilleder",
-    "download": "Download"
+    "download": "Download",
+    "faq": "FAQ"
   },
   "hero": {
-    "title": "Flere timere, én app",
-    "description": "Kør så mange timere og stopure, som du har brug for, alle på én gang. Perfekt til madlavning, træning, læsning eller alt, der kræver præcis timing.",
+    "title": "Alle timere, alarmer og stopure — på én gang",
+    "description": "Kør op til 50 timere og stopure samtidigt, indstil alarmer der ringer, selv når din iPhone er låst, og tag tid på HIIT-træning med præcision — på iPhone, iPad og Apple Watch.",
     "downloadAlt": "Download fra App Store"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Multi-timer-gitter",
-        "description": "Kør flere timere og stopure samtidigt i et rent, responsivt gitter. Hver timer har uafhængige kontroller — start, pause og nulstil individuelt."
+        "description": "Kør op til 50 uafhængige timere og stopure på én gang i et rent gitter. Start, sæt på pause og nulstil hver enkelt individuelt — eller styr dem alle samlet."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Pålidelige alarmer",
+        "description": "Vækkeure og påmindelsesalarmer med brugerdefinerede etiketter og ugedagsplaner, drevet af AlarmKit, så de ringer, selv når din iPhone er låst, eller Min Timer er lukket. Snooze-muligheder og dine egne lyde inkluderet."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Intervaltræning",
-        "description": "Indbyggede HIIT-, Tabata- og brugerdefinerede intervalforudindstillinger. Opret dine egne arbejds-/hvilesekvenser til den perfekte træningsrutine."
+        "description": "Indbyggede Tabata-, EMOM- og 30/30-forudindstillinger får dig i gang med to tryk, plus en brugerdefineret intervaleditor og en fuldskærms træningstilstand med farvesignaler."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Apple Watch-app",
+        "description": "En komplet native Apple Watch-app — kør flere stopure og timere på dit håndled med centisekund-præcision og komplikationer, selv når din iPhone ikke er i nærheden."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Hjemmeskærm-widgets",
-        "description": "Styr dine timere direkte fra din hjemmeskærm. Små, mellemstore og store widgetstørrelser, der passer til dit layout."
+        "title": "Widgets og Live Activities",
+        "description": "Styr dine timere fra hjemmeskærmen med interaktive widgets, og se nedtællingen fra låseskærmen og Dynamic Island med Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Alarmlyde på din måde",
+        "description": "Vælg mellem et dusin indbyggede alarmlyde, eller importér dine egne. Dine alarmer ringer, selv når din iPhone er låst, lydløs, eller appen er lukket."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Sessionsstyring",
         "description": "Gem dine timeropsætninger og indlæs dem når som helst. Eksportér sessioner som JSON, CSV eller tekst for nem deling og sikkerhedskopiering."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Brugerdefinerede ringetoner",
-        "description": "Vælg mellem 7 indbyggede alarmtoner — fra en simpel klokke til vintage telefonringninger. Alarmer virker selv i lydløs tilstand med iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Begynd at tage tid nu",
     "description": "Gratis at downloade. Flere timere, intervaltræning og widgets — alt klar til brug. Ingen konto nødvendig.",
-    "platforms": "Tilgængelig til iPhone og iPad"
+    "platforms": "Tilgængelig til iPhone, iPad og Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Ofte stillede spørgsmål",
+    "sectionSubtitle": "Alt du behøver at vide om Min Timer",
+    "list": [
+      {
+        "question": "Går alarmer og timere i gang, når min iPhone er låst, eller appen er lukket?",
+        "answer": "Ja. Alarmer drives af Apples AlarmKit og ringer, selv når din iPhone er låst, eller Min Timer er lukket, og timeralarmer udløses også pålideligt i baggrunden."
+      },
+      {
+        "question": "Hvor mange timere kan jeg køre på én gang?",
+        "answer": "Op til 50 uafhængige timere og stopure i én session — start, stop og nulstil dem individuelt eller i synkroniserede grupper."
+      },
+      {
+        "question": "Findes der en Apple Watch-app?",
+        "answer": "Ja — en komplet native watchOS-app med flere samtidige timere og stopure, centisekund-præcision og komplikationer. Den virker, selv når din iPhone er uden for rækkevidde."
+      },
+      {
+        "question": "Kan jeg bruge den til HIIT- og Tabata-træning?",
+        "answer": "Absolut. Indbyggede Tabata-, EMOM- og 30/30-forudindstillinger får dig i gang med to tryk, plus en brugerdefineret intervaleditor til dine egne arbejds-/hvile-/runde-sekvenser og en fuldskærms træningstilstand."
+      },
+      {
+        "question": "Kan jeg tilføje mine egne alarmlyde?",
+        "answer": "Ja — vælg mellem de medfølgende ringetoner, eller importér dine egne lydfiler."
+      },
+      {
+        "question": "Virker den offline? Skal jeg bruge en konto?",
+        "answer": "Ingen konto og ingen internetforbindelse kræves. Alt kører på enheden, og dine data forbliver lokale."
+      },
+      {
+        "question": "Er den gratis?",
+        "answer": "Ja, Min Timer er gratis at downloade. Et valgfrit køb i appen låser op for yderligere alarmer ud over de første to, hvis du har brug for dem."
+      }
+    ]
   },
   "privacy": {
     "title": "Dit privatliv er vigtigt",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Privatlivspolitik",
     "termsOfService": "Servicevilkår",
-    "copyright": "© 2025 Min Timer. Alle rettigheder forbeholdes."
+    "copyright": "© 2026 Min Timer. Alle rettigheder forbeholdes."
   }
 }

@@ -81,6 +81,36 @@ FEATURE_ICONS = {
     'shield': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg>''',
+    'watch': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
+                <path d="M9 6l.6-3h4.8l.6 3"></path>
+                <path d="M9 18l.6 3h4.8l.6-3"></path>
+                <polyline points="12 10 12 12 13.5 13.5"></polyline>
+            </svg>''',
+    'widgets': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7" rx="1.5"></rect>
+                <rect x="14" y="3" width="7" height="7" rx="1.5"></rect>
+                <rect x="3" y="14" width="7" height="7" rx="1.5"></rect>
+                <rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
+            </svg>''',
+    'calendar': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+            </svg>''',
+    'collection': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15 8.5 22 9.3 17 14 18.2 21 12 17.7 5.8 21 7 14 2 9.3 9 8.5 12 2"></polygon>
+            </svg>''',
+    'edit': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"></path>
+            </svg>''',
+    'import': '''<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>''',
 }
 
 # Feature colors
@@ -89,6 +119,12 @@ FEATURE_COLORS = {
     'statistics': 'green',
     'map': 'purple',
     'privacy': 'yellow',
+    'watch': 'red',
+    'widgets': 'teal',
+    'calendar': 'indigo',
+    'collections': 'orange',
+    'edit': 'pink',
+    'import': 'green',
 }
 
 
@@ -114,7 +150,7 @@ def get_asset_path(lang_dir):
 
 
 def generate_features_html(features_list, asset_path):
-    """Generate HTML for 4 feature cards."""
+    """Generate HTML for the feature cards."""
     features_html = ''
     for i, feature in enumerate(features_list):
         feature_id = feature.get('id', f'feature-{i}')
@@ -245,8 +281,8 @@ def generate_html(lang, translations):
             "priceCurrency": "USD"
         }},
         "description": "{t['meta']['description']}",
-        "screenshot": "{BASE_URL}/images/en/screenshot.png",
-        "softwareVersion": "1.0",
+        "screenshot": "{BASE_URL}/images/en/hero.jpg",
+        "softwareVersion": "5.2",
         "author": {{
             "@type": "Person",
             "name": "Weiren Hsiao"
@@ -319,7 +355,7 @@ def generate_html(lang, translations):
                 </div>
                 <div class="hero__device">
                     <div class="device-frame">
-                        <img src="{asset_path}images/en/title.jpg" alt="WhereWasI Screenshot" class="device-screen">
+                        <img src="{asset_path}images/en/hero.jpg" alt="WhereWasI Screenshot" class="device-screen">
                     </div>
                 </div>
             </div>
@@ -350,11 +386,14 @@ def generate_html(lang, translations):
 
                 <div class="screenshots__gallery">
                     <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="{asset_path}images/en/screenshot-1.jpg" alt="Screenshot 1" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/screenshot-2.jpg" alt="Screenshot 2" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/screenshot-3.jpg" alt="Screenshot 3" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/screenshot-4.jpg" alt="Screenshot 4" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="{asset_path}images/en/screenshot-5.jpg" alt="Screenshot 5" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-poster.jpg" alt="Track locations, cherish journeys" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-poster2.jpg" alt="Automatically recorded" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-watch.jpg" alt="Apple Watch support" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-analysis.jpg" alt="Powerful analytics" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-locations.jpg" alt="Organized locations" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-collections.jpg" alt="Collections" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-parks.jpg" alt="U.S. National Parks progress" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="{asset_path}images/en/gallery-photos.jpg" alt="Photos at your places" loading="lazy"></div>
                     </div>
                 </div>
 

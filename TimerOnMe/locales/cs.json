@@ -4,17 +4,18 @@
   "appName": "Můj Časovač",
   "meta": {
     "title": "Můj Časovač - Více časovačů a stopek v jedné aplikaci",
-    "description": "Spouštějte více časovačů a stopek současně. Intervalový trénink, widgety na domovské obrazovce, správa relací a vlastní vyzvánění. Zdarma pro iPhone a iPad.",
+    "description": "Spouštějte až 50 časovačů a stopek najednou, s budíky, které zvoní i při zamčeném telefonu (AlarmKit), intervaly Tabata/EMOM/30-30, Live Activities a plnohodnotnou aplikací pro Apple Watch. Zdarma pro iPhone, iPad a Apple Watch.",
     "keywords": "časovač, stopky, více časovačů, intervalový trénink, HIIT časovač, Tabata, iOS aplikace, widget na domovské obrazovce, odpočítávací časovač, timer, stopwatch"
   },
   "nav": {
     "features": "Funkce",
     "screenshots": "Snímky obrazovky",
-    "download": "Stáhnout"
+    "download": "Stáhnout",
+    "faq": "Časté dotazy"
   },
   "hero": {
-    "title": "Více časovačů, jedna aplikace",
-    "description": "Spouštějte tolik časovačů a stopek, kolik potřebujete, a to všechny najednou. Ideální pro vaření, cvičení, studium nebo cokoli, co vyžaduje přesné měření času.",
+    "title": "Každý časovač, budík i stopky — najednou",
+    "description": "Spouštějte až 50 časovačů a stopek současně, nastavte budíky, které zvoní i při zamčeném iPhonu, a měřte HIIT tréninky s přesností — na iPhonu, iPadu i Apple Watch.",
     "downloadAlt": "Stáhnout na App Store"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Mřížka více časovačů",
-        "description": "Spouštějte více časovačů a stopek současně v přehledné, responzivní mřížce. Každý časovač má nezávislé ovládání — spouštějte, pozastavujte a resetujte jednotlivě."
+        "description": "Spouštějte až 50 nezávislých časovačů a stopek najednou v přehledné mřížce. Každý spusťte, pozastavte a resetujte jednotlivě — nebo je ovládejte všechny společně."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Spolehlivé budíky",
+        "description": "Budíky a připomínky s vlastními popisky a rozvrhem podle dnů v týdnu, poháněné technologií AlarmKit, takže zvoní i při zamčeném iPhonu nebo zavřené aplikaci Můj Časovač. Včetně odložení a vlastních zvuků."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Intervalový trénink",
-        "description": "Vestavěné předvolby HIIT, Tabata a vlastní intervaly. Vytvořte si vlastní sekvence práce/odpočinku pro dokonalou tréninkovú rutinu."
+        "description": "Vestavěné předvolby Tabata, EMOM a 30/30 vás rozcvičí dvěma klepnutími, plus editor vlastních intervalů a celoobrazovkový režim tréninku s barevnými signály."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Aplikace pro Apple Watch",
+        "description": "Plnohodnotná nativní aplikace pro Apple Watch — spouštějte více stopek a časovačů přímo na zápěstí s přesností na setiny sekundy a komplikacemi, i když iPhone není po ruce."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Widgety na domovské obrazovce",
-        "description": "Ovládejte své časovače přímo z domovské obrazovky. Malé, střední a velké widgety, které se přizpůsobí vašemu rozložení."
+        "title": "Widgety a Live Activities",
+        "description": "Ovládejte své časovače z domovské obrazovky pomocí interaktivních widgetů a sledujte odpočítávání na zamykací obrazovce a v Dynamic Island díky Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Zvuky budíku po vašem",
+        "description": "Vyberte si z tuctu vestavěných zvuků budíku nebo si naimportujte vlastní. Vaše upozornění zvoní i při zamčeném či ztlumeném iPhonu nebo zavřené aplikaci."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Správa relací",
         "description": "Uložte si nastavení časovačů a načtěte je kdykoli. Exportujte relace jako JSON, CSV nebo text pro snadné sdílení a zálohování."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Vlastní vyzvánění",
-        "description": "Vyberte si ze 7 vestavěných zvuků alarmu — od jednoduchého zvonku po retro telefonní vyzvánění. Alarmy fungují i v tichém režimu s iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Začněte měřit čas",
     "description": "Ke stažení zdarma. Více časovačů, intervalový trénink a widgety — vše připraveno k použití. Nevyžaduje účet.",
-    "platforms": "Dostupné pro iPhone a iPad"
+    "platforms": "Dostupné pro iPhone, iPad a Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Časté dotazy",
+    "sectionSubtitle": "Vše, co potřebujete vědět o aplikaci Můj Časovač",
+    "list": [
+      {
+        "question": "Spustí se budíky a časovače i při zamčeném iPhonu nebo zavřené aplikaci?",
+        "answer": "Ano. Budíky jsou poháněny technologií AlarmKit od Apple a zvoní i při zamčeném iPhonu nebo zavřené aplikaci Můj Časovač a upozornění časovačů spolehlivě fungují i na pozadí."
+      },
+      {
+        "question": "Kolik časovačů mohu spustit najednou?",
+        "answer": "Až 50 nezávislých časovačů a stopek v jedné relaci — spouštějte, zastavujte a resetujte je jednotlivě nebo v synchronizovaných skupinách."
+      },
+      {
+        "question": "Existuje aplikace pro Apple Watch?",
+        "answer": "Ano — plnohodnotná nativní aplikace pro watchOS s více souběžnými časovači a stopkami, přesností na setiny sekundy a komplikacemi. Funguje, i když iPhone není na dosah."
+      },
+      {
+        "question": "Mohu ji používat pro HIIT a Tabata tréninky?",
+        "answer": "Rozhodně. Vestavěné předvolby Tabata, EMOM a 30/30 vás rozcvičí dvěma klepnutími, plus editor vlastních intervalů pro vaše vlastní sekvence práce/odpočinku/kol a celoobrazovkový režim tréninku."
+      },
+      {
+        "question": "Mohu přidat vlastní zvuky budíku?",
+        "answer": "Ano — vyberte si z přibalených vyzvánění nebo si naimportujte vlastní zvukové soubory."
+      },
+      {
+        "question": "Funguje offline? Potřebuji účet?",
+        "answer": "Žádný účet ani internet není potřeba. Vše běží přímo v zařízení a vaše data zůstávají lokálně."
+      },
+      {
+        "question": "Je zdarma?",
+        "answer": "Ano, aplikaci Můj Časovač lze stáhnout zdarma. Volitelný nákup v aplikaci odemkne další budíky nad rámec prvních dvou, pokud je potřebujete."
+      }
+    ]
   },
   "privacy": {
     "title": "Na vašem soukromí záleží",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Zásady ochrany osobních údajů",
     "termsOfService": "Podmínky služby",
-    "copyright": "© 2025 Můj Časovač. Všechna práva vyhrazena."
+    "copyright": "© 2026 Můj Časovač. Všechna práva vyhrazena."
   }
 }

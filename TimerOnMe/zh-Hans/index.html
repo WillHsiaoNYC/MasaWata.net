@@ -20,7 +20,7 @@
     <!-- Primary Meta Tags -->
     <title>计时达人 - 多个计时器和秒表合一的应用</title>
     <meta name="title" content="计时达人 - 多个计时器和秒表合一的应用">
-    <meta name="description" content="同时运行多个计时器和秒表。间歇训练、主屏幕小组件、会话管理和自定义铃声。iPhone 和 iPad 免费使用。">
+    <meta name="description" content="同时运行多达 50 个计时器和秒表，闹钟在锁屏时也能响起（AlarmKit），支持 Tabata/EMOM/30-30 间歇、实时活动以及完整的 Apple Watch 应用。iPhone、iPad 和 Apple Watch 免费使用。">
     <meta name="keywords" content="计时器, 秒表, 多个计时器, 间歇训练, HIIT计时器, Tabata, iOS应用, 主屏幕小组件, 倒计时, timer, stopwatch, multiple timers, interval training">
     <meta name="author" content="Weiren Hsiao">
     <meta name="robots" content="index, follow">
@@ -56,7 +56,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://masawata.net/TimerOnMe/zh-Hans/">
     <meta property="og:title" content="计时达人 - 多个计时器和秒表合一的应用">
-    <meta property="og:description" content="同时运行多个计时器和秒表。间歇训练、主屏幕小组件、会话管理和自定义铃声。iPhone 和 iPad 免费使用。">
+    <meta property="og:description" content="同时运行多达 50 个计时器和秒表，闹钟在锁屏时也能响起（AlarmKit），支持 Tabata/EMOM/30-30 间歇、实时活动以及完整的 Apple Watch 应用。iPhone、iPad 和 Apple Watch 免费使用。">
     <meta property="og:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
     <meta property="og:site_name" content="计时达人">
     <meta property="og:locale" content="zh_CN">
@@ -65,7 +65,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://masawata.net/TimerOnMe/zh-Hans/">
     <meta name="twitter:title" content="计时达人 - 多个计时器和秒表合一的应用">
-    <meta name="twitter:description" content="同时运行多个计时器和秒表。间歇训练、主屏幕小组件、会话管理和自定义铃声。iPhone 和 iPad 免费使用。">
+    <meta name="twitter:description" content="同时运行多达 50 个计时器和秒表，闹钟在锁屏时也能响起（AlarmKit），支持 Tabata/EMOM/30-30 间歇、实时活动以及完整的 Apple Watch 应用。iPhone、iPad 和 Apple Watch 免费使用。">
     <meta name="twitter:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
 
     <!-- App Store Smart Banner -->
@@ -91,9 +91,9 @@
             "price": "0",
             "priceCurrency": "USD"
         },
-        "description": "同时运行多个计时器和秒表。间歇训练、主屏幕小组件、会话管理和自定义铃声。iPhone 和 iPad 免费使用。",
-        "screenshot": "https://masawata.net/TimerOnMe/images/en/Title.png",
-        "softwareVersion": "3.1",
+        "description": "同时运行多达 50 个计时器和秒表，闹钟在锁屏时也能响起（AlarmKit），支持 Tabata/EMOM/30-30 间歇、实时活动以及完整的 Apple Watch 应用。iPhone、iPad 和 Apple Watch 免费使用。",
+        "screenshot": "https://masawata.net/TimerOnMe/images/en/gallery-overview.jpg",
+        "softwareVersion": "4.1",
         "author": {
             "@type": "Person",
             "name": "Weiren Hsiao"
@@ -120,6 +120,9 @@
                 </li>
                 <li class="nav__item">
                     <a href="#download" class="nav__link">下载</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#faq" class="nav__link">常见问题</a>
                 </li>
             </ul>
 
@@ -176,15 +179,15 @@
             <div class="hero__container container">
                 <div class="hero__content">
                     <img src="../images/TimerOnMe.png" alt="Timer on Me App Icon" class="hero__icon">
-                    <h1 class="hero__title">多个计时器，一个应用</h1>
-                    <p class="hero__description">根据需要同时运行任意数量的计时器和秒表。无论是烹饪、健身、学习，还是任何需要精确计时的场景，都能完美胜任。</p>
+                    <h1 class="hero__title">每个计时器、闹钟和秒表——同时运行</h1>
+                    <p class="hero__description">同时运行多达 50 个计时器和秒表，设置即使在 iPhone 锁屏时也能响起的闹钟，并精准地为 HIIT 训练计时——在 iPhone、iPad 和 Apple Watch 上皆可使用。</p>
                     <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
                         <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="在 App Store 下载" class="app-store-badge">
                     </a>
                 </div>
                 <div class="hero__device">
                     <div class="device-frame">
-                        <img src="../images/en/Title.png" alt="Timer on Me Screenshot" class="device-screen">
+                        <img src="../images/en/hero.jpg" alt="Timer on Me Screenshot" class="device-screen">
                     </div>
                 </div>
             </div>
@@ -211,10 +214,25 @@
             </svg>
                         </div>
                         <h3 class="feature-card__title">多计时器网格</h3>
-                        <p class="feature-card__description">在简洁的响应式网格中同时运行多个计时器和秒表。每个时钟都有独立的控制按钮，可以单独启动、暂停和重置。</p>
+                        <p class="feature-card__description">在简洁的网格中同时运行多达 50 个独立的计时器和秒表。可单独启动、暂停和重置每一个，也可一起控制全部。</p>
                     </div>
 
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-card__icon feature-card__icon--orange">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="13" r="8"></circle>
+                <polyline points="12 9 12 13 14.5 14.5"></polyline>
+                <path d="M5 3 2 6"></path>
+                <path d="M22 6l-3-3"></path>
+                <path d="M6 19l-2 2"></path>
+                <path d="M18 19l2 2"></path>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">可靠的闹钟</h3>
+                        <p class="feature-card__description">起床和提醒闹钟，可自定义标签和按星期排程，由 AlarmKit 提供支持，因此即使 iPhone 锁屏或计时达人已关闭也能响起。包含贪睡选项和你自己的铃声。</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="feature-card__icon feature-card__icon--red">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="17 1 21 5 17 9"></polyline>
@@ -224,21 +242,45 @@
             </svg>
                         </div>
                         <h3 class="feature-card__title">间歇训练</h3>
-                        <p class="feature-card__description">内置 HIIT、Tabata 和自定义间歇预设。创建属于你自己的运动/休息序列，打造完美的训练计划。</p>
+                        <p class="feature-card__description">内置 Tabata、EMOM 和 30/30 预设，两次点击即可开始训练，还有自定义间歇编辑器和带彩色提示的全屏训练模式。</p>
                     </div>
 
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-card__icon feature-card__icon--teal">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
+                <path d="M9 6l.6-3h4.8l.6 3"></path>
+                <path d="M9 18l.6 3h4.8l.6-3"></path>
+                <polyline points="12 10 12 12 13.5 13.5"></polyline>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Apple Watch 应用</h3>
+                        <p class="feature-card__description">完整的原生 Apple Watch 应用——在腕上运行多个秒表和计时器，精度达厘秒，并支持复杂功能，即使 iPhone 不在身边也能使用。</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
                         <div class="feature-card__icon feature-card__icon--purple">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
                 <line x1="12" y1="18" x2="12.01" y2="18"></line>
             </svg>
                         </div>
-                        <h3 class="feature-card__title">主屏幕小组件</h3>
-                        <p class="feature-card__description">直接从主屏幕控制你的计时器。提供小、中、大三种小组件尺寸，适配你的布局。</p>
+                        <h3 class="feature-card__title">小组件与实时活动</h3>
+                        <p class="feature-card__description">通过交互式小组件从主屏幕控制你的计时器，并借助实时活动在锁定屏幕和灵动岛上查看倒计时。</p>
                     </div>
 
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="feature-card__icon feature-card__icon--yellow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+            </svg>
+                        </div>
+                        <h3 class="feature-card__title">随心所欲的闹铃音</h3>
+                        <p class="feature-card__description">从十多种内置闹铃音中选择，或导入你自己的铃声。即使 iPhone 处于锁屏、静音或应用已关闭，你的提醒也能响起。</p>
+                    </div>
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
                         <div class="feature-card__icon feature-card__icon--green">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
@@ -250,18 +292,7 @@
                         <p class="feature-card__description">保存你的计时器设置，随时加载。支持将会话导出为 JSON、CSV 或文本格式，方便分享和备份。</p>
                     </div>
 
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">自定义铃声</h3>
-                        <p class="feature-card__description">从 7 种内置闹铃音中选择——从简单的铃声到复古电话铃声应有尽有。iOS 18.2+ 静音模式下闹铃也能正常响起。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
                         <div class="feature-card__icon feature-card__icon--blue">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="12" cy="12" r="10"></circle>
@@ -286,11 +317,12 @@
 
                 <div class="screenshots__gallery">
                     <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/multi-timer.png" alt="多计时器网格" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/Interval.png" alt="间歇训练" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/widget.png" alt="主屏幕小组件" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/session.png" alt="会话管理" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/ringtone.png" alt="自定义铃声" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/gallery-overview.jpg" alt="Time it, wake to it, train with it" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/gallery-multitimer.jpg" alt="Run multiple timers at once" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/gallery-watch.jpg" alt="Apple Watch app" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/gallery-intervals.jpg" alt="Tabata, EMOM &amp; 30/30 intervals" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/gallery-workout.jpg" alt="Full-screen interval workouts" loading="lazy"></div>
+                        <div class="screenshot-item"><img src="../images/en/gallery-alarms.jpg" alt="Alarms that ring when locked" loading="lazy"></div>
                     </div>
                 </div>
 
@@ -316,8 +348,106 @@
                         <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
                     </a>
                     <div class="download__platforms">
-                        <span class="platform-badge">支持 iPhone 和 iPad</span>
+                        <span class="platform-badge">支持 iPhone、iPad 和 Apple Watch</span>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">常见问题</h2>
+                    <p class="section-subtitle">关于计时达人你需要了解的一切</p>
+                </div>
+
+                <div class="faq__list">
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>iPhone 锁屏或应用关闭时，闹钟和计时器会响吗？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>会。闹钟由 Apple 的 AlarmKit 提供支持，即使 iPhone 锁屏或计时达人已关闭也能响起，计时器提醒在后台也能可靠触发。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>我可以同时运行多少个计时器？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>在单个会话中最多 50 个独立的计时器和秒表——可单独启动、停止和重置，也可按同步分组操作。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>有 Apple Watch 应用吗？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>有——一款完整的原生 watchOS 应用，支持多个同时运行的计时器和秒表、厘秒级精度以及复杂功能。即使 iPhone 不在身边也能使用。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>我可以用它来做 HIIT 和 Tabata 训练吗？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>当然可以。内置 Tabata、EMOM 和 30/30 预设，两次点击即可开始，还有自定义间歇编辑器供你设置自己的运动/休息/轮次序列，以及全屏训练模式。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>我可以添加自己的闹铃音吗？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>可以——从随附的铃声中选择，或导入你自己的音频文件。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>它能离线使用吗？需要账号吗？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>无需账号，也无需联网。一切都在设备上运行，你的数据始终保留在本地。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
+                        <button class="faq__question" aria-expanded="false">
+                            <span>它是免费的吗？</span>
+                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq__answer">
+                            <p>是的，计时达人可免费下载。如有需要，可选的应用内购买可解锁前两个之外的更多闹钟。</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -352,7 +482,7 @@
                     <a href="https://masawata.net/privacy-policy.html">隐私政策</a>
                     <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">服务条款</a>
                 </div>
-                <p class="footer__copyright">© 2025 计时达人. All rights reserved.</p>
+                <p class="footer__copyright">© 2026 计时达人. All rights reserved.</p>
             </div>
         </div>
     </footer>

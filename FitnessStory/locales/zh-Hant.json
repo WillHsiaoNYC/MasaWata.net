@@ -1,15 +1,5 @@
 {
     "appName": "健身故事",
-    "promo": {
-        "badge": "限時優惠",
-        "message": "終身 Pro 版",
-        "cta": "立即兌換",
-        "expires": "截止至2026年1月2日",
-        "days": "天",
-        "hours": "時",
-        "mins": "分",
-        "secs": "秒"
-    },
     "meta": {
         "title": "Fitness Story - 將Apple Health和Watch健身數據轉化為視覺旅程",
         "description": "將Apple Watch和健康數據轉化為精美的視覺旅程。追蹤跑步、騎行、游泳等運動。分析趨勢、個人記錄和進度。"
@@ -38,7 +28,7 @@
         },
         "analytics": {
             "title": "專業分析",
-            "description": "解鎖口袋中的分析套件。並排比較運動數據，查看年度趨勢，追蹤步頻和步幅。"
+            "description": "解鎖口袋中的分析套件。並排比較運動數據，查看年度趨勢，追蹤步頻和步幅。 還包括箱形圖基準圖表，揭示每項運動的中位數、四分位數和異常值。"
         },
         "records": {
             "title": "個人記錄",
@@ -71,6 +61,18 @@
         "widgets": {
             "title": "小工具",
             "description": "透過精美的主畫面小工具讓健身數據觸手可及。無需開啟應用程式，即可一目瞭然地查看步數、卡路里、運動進度和身體指標。"
+        },
+        "challenges": {
+            "title": "每日挑戰",
+            "description": "挑戰自動追蹤的目標——3 公里跑、1 萬步、10 公里騎行和 45 分鐘鍛鍊——分為 1 天、3 天和 7 天等級。贏取徽章，填滿你的獎盃陳列櫃，慶祝每一次勝利。"
+        },
+        "shareableCards": {
+            "title": "可分享卡片",
+            "description": "將任意鍛鍊、記錄或挑戰變成精美的分享卡片。從 15 種配色主題中選擇，並在漸層與淺色外觀之間切換，匹配你的風格。"
+        },
+        "export": {
+            "title": "匯出一切",
+            "description": "將完整歷史記錄——或任意日期範圍——匯出為 CSV 或 JSON，包含分段資料、身體指標和鍛鍊中繼資料。你的資料始終屬於你。"
         }
     },
     "screenshots": {
@@ -93,7 +95,7 @@
     "download": {
         "title": "開啟您的 Fitness Story",
         "description": "免費下載，可選升級 Pro 版解鎖進階功能。您的數據安全儲存在裝置本機。",
-        "platforms": "支援 iPhone、iPad、Mac 和 Apple Vision"
+        "platforms": "支援 iPhone 和 iPad"
     },
     "privacy": {
         "title": "您的隱私至關重要",
@@ -119,6 +121,22 @@
             {
                 "question": "應用程式支援哪些運動類型？",
                 "answer": "健身故事支援 Apple Watch 追蹤的所有運動類型——超過 80 種！包括跑步、騎車、游泳、HIIT、瑜伽、重量訓練等熱門運動，以及匹克球、攀岩、武術、滑雪、舞蹈等專業活動。只要 Apple Watch 能追蹤，健身故事就能視覺化呈現。"
+            },
+            {
+                "question": "什麼是挑戰？",
+                "answer": "挑戰是內建的健身目標——3 公里跑、10,000 步、10 公里騎行或 45 分鐘鍛鍊——根據你的 Apple 健康資料，在 1 天、3 天和 7 天等級中自動追蹤。完成它們即可贏取徽章並打造你的獎盃陳列櫃。"
+            },
+            {
+                "question": "我可以匯出資料嗎？",
+                "answer": "可以。將完整歷史記錄或任意自訂日期範圍匯出為 CSV 或 JSON——包含完整的分段資料、身體指標和鍛鍊中繼資料。你還可以匯出鍛鍊比較，在自己的工具中進行分析。"
+            },
+            {
+                "question": "Fitness Story 免費嗎？",
+                "answer": "Fitness Story 可免費下載和使用。可選的 Pro 升級將解鎖分析、挑戰和分享的全部深度——無需帳戶，也無需訂閱即可開始使用。"
+            },
+            {
+                "question": "它支援哪些裝置？",
+                "answer": "Fitness Story 可在 iPhone 和 iPad 上執行。它以唯讀權限讀取你的 Apple 健康和 Apple Watch 資料——沒有帳戶也沒有伺服器，因此一切都保存在你的裝置和你的私人 iCloud 中。"
             }
         ]
     },
@@ -126,6 +144,6 @@
         "appStore": "App Store",
         "privacy": "隱私權政策",
         "terms": "服務條款",
-        "copyright": "© 2025 Fitness Story. 保留所有權利。"
+        "copyright": "© 2026 Fitness Story. 保留所有權利。"
     }
 }

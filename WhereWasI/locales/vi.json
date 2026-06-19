@@ -4,7 +4,7 @@
   "appName": "WhereWasI",
   "meta": {
     "title": "WhereWasI - Ghi nhớ mọi nơi bạn đã đến",
-    "description": "WhereWasI tự động theo dõi và sắp xếp mọi nơi bạn đến. Quay lại những địa điểm yêu thích, khám phá quy luật trong cuộc sống hàng ngày và lưu giữ nhật ký vị trí riêng tư.",
+    "description": "Where was I ? tự động ghi nhớ mọi nơi bạn đến, rồi biến chúng thành dòng thời gian, lịch và bản đồ riêng tư. Khám phá quy luật của bạn, sưu tầm Vườn Quốc gia và Lâu đài Nhật Bản, và xem nhanh ngày của bạn từ Apple Watch hoặc Màn hình chính. Trên thiết bị, không cần tài khoản.",
     "keywords": "nhật ký vị trí, địa điểm đã đến, theo dõi vị trí, nhật ký du lịch, ứng dụng iOS, quyền riêng tư, lịch sử vị trí, theo dõi tự động"
   },
   "nav": {
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Ghi nhớ mọi nơi bạn đã đến",
-    "description": "WhereWasI tự động theo dõi và sắp xếp mọi nơi bạn đến. Quay lại những địa điểm yêu thích, khám phá quy luật trong cuộc sống hàng ngày và lưu giữ nhật ký riêng tư về hành trình của bạn—không cần làm gì cả.",
+    "description": "Where was I ? tự động ghi nhớ mọi nơi bạn đến — rồi biến chúng thành dòng thời gian, lịch và bản đồ riêng tư. Khám phá quy luật của bạn, sưu tầm Vườn Quốc gia và Lâu đài Nhật Bản, và xem nhanh ngày của bạn ngay từ Apple Watch hoặc Màn hình chính. Tất cả trên thiết bị của bạn, không cần tài khoản.",
     "downloadAlt": "Tải xuống trên App Store"
   },
   "features": {
@@ -45,6 +45,42 @@
         "icon": "shield",
         "title": "Dữ liệu của bạn, thiết bị của bạn",
         "description": "Tất cả dữ liệu vị trí được lưu trữ an toàn trên iPhone và iCloud cá nhân của bạn. Không gì được gửi đến máy chủ bên ngoài. Hành trình của bạn mãi mãi là của bạn."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Ngay trên cổ tay bạn",
+        "description": "Kiểm tra lượt ghé thăm hôm nay, tóm tắt tuần và tháng, cùng những địa điểm hàng đầu của bạn ngay từ Apple Watch — kèm theo một complication Smart Stack giúp điểm dừng mới nhất luôn trong tầm mắt."
+      },
+      {
+        "id": "widgets",
+        "icon": "widgets",
+        "title": "Tiện ích Màn hình chính & Màn hình khóa",
+        "description": "Xem các lượt ghé thăm gần đây, bộ đếm thời gian lưu trú trực tiếp cho nơi bạn đang ở, và số lượt ghé thăm hôm nay mà không cần mở ứng dụng. Chạm vào bất kỳ tiện ích nào để vào thẳng ứng dụng."
+      },
+      {
+        "id": "calendar",
+        "icon": "calendar",
+        "title": "Xem theo lịch",
+        "description": "Duyệt các lượt ghé thăm của bạn theo ngày, tuần hoặc tháng. Lịch hiển thị số lượt ghé thăm và số địa điểm khác nhau trong nháy mắt, để bạn có thể xem lại bất kỳ ngày nào chỉ trong vài giây."
+      },
+      {
+        "id": "collections",
+        "icon": "collection",
+        "title": "Bộ sưu tập & Cột mốc",
+        "description": "Biến những chuyến đi của bạn thành bộ sưu tập — theo dõi U.S. National Parks, 100 Famous Japanese Castles, các quốc gia và khu vực, hoặc tạo bộ sưu tập tùy chỉnh tự động lấp đầy khi bạn di chuyển."
+      },
+      {
+        "id": "edit",
+        "icon": "edit",
+        "title": "Thêm, Chỉnh sửa & Tách lượt ghé thăm",
+        "description": "Bổ sung một điểm dừng mà ứng dụng bỏ sót, tinh chỉnh thời gian đến và đi, hoặc tách một lượt ghé thăm thành hai — lịch sử của bạn luôn chính xác và đầy đủ."
+      },
+      {
+        "id": "import",
+        "icon": "import",
+        "title": "Mang lịch sử của bạn theo cùng",
+        "description": "Nhập Google Maps Timeline của bạn, cùng dữ liệu Moves và Arc Timeline, để nhiều năm địa điểm cùng đồng hành."
       }
     ]
   },
@@ -55,12 +91,28 @@
   "download": {
     "title": "Bắt đầu ghi nhớ ngay hôm nay",
     "description": "Tải miễn phí. Nhật ký vị trí của bạn bắt đầu ngay khi cài đặt. Không cần tài khoản—chỉ bạn, iPhone và những nơi bạn đến.",
-    "platforms": "Có sẵn trên iPhone và iPad"
+    "platforms": "Có sẵn trên iPhone, iPad và Apple Watch"
   },
   "faq": {
     "sectionTitle": "Câu hỏi thường gặp",
     "sectionSubtitle": "Tất cả những gì bạn cần biết về WhereWasI",
     "list": [
+      {
+        "question": "Có ứng dụng Apple Watch và tiện ích không?",
+        "answer": "Có. Where was I ? bao gồm một ứng dụng Apple Watch đầy đủ — lượt ghé thăm hôm nay, tóm tắt tuần và tháng, cùng những địa điểm hàng đầu của bạn — kèm theo một complication Smart Stack. Trên iPhone, bạn còn có các tiện ích Màn hình chính và Màn hình khóa hiển thị lượt ghé thăm gần đây, bộ đếm thời gian lưu trú trực tiếp, số lượt ghé thăm hôm nay và vị trí hiện tại của bạn."
+      },
+      {
+        "question": "Tôi có thể nhập Google Maps Timeline của mình không?",
+        "answer": "Có. Bạn có thể nhập tệp xuất Google Maps Timeline, cũng như dữ liệu Moves và Arc Timeline — chỉ cần mở màn hình nhập và thêm tệp của bạn. Các địa điểm trước đây của bạn sẽ được tự động khớp với các địa điểm."
+      },
+      {
+        "question": "Bộ sưu tập là gì?",
+        "answer": "Bộ sưu tập nhóm các lượt ghé thăm của bạn thành những chủ đề bạn quan tâm. Theo dõi tiến trình của bạn qua U.S. National Parks, 100 Famous Japanese Castles, các quốc gia và khu vực, hoặc tạo bộ sưu tập tùy chỉnh với từ khóa của riêng bạn — chúng tự động lấp đầy khi bạn ghé thăm các địa điểm phù hợp, và bạn có thể chia sẻ tiến trình của mình."
+      },
+      {
+        "question": "Tôi có thể thêm hoặc sửa một lượt ghé thăm mà ứng dụng bỏ sót không?",
+        "answer": "Có. Sử dụng trình hướng dẫn lượt ghé thăm thủ công để thêm một điểm dừng chưa được ghi lại, chỉnh sửa thời gian đến và đi của bất kỳ lượt ghé thăm nào, hoặc tách một lượt ghé thăm thành hai khi một điểm dừng thực ra là hai. Mỗi lượt ghé thăm cho biết nó được phát hiện tự động, do bạn thêm vào, hay được nhập."
+      },
       {
         "question": "Theo dõi vị trí hoạt động như thế nào?",
         "answer": "Ứng dụng sử dụng API Visit Monitoring của Apple để tự động phát hiện khi bạn đến và rời khỏi các địa điểm. Điều này diễn ra ở nền với tác động tối thiểu đến pin."
@@ -112,6 +164,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Chính sách Bảo mật",
     "termsOfService": "Điều khoản Dịch vụ",
-    "copyright": "© 2025 WhereWasI. Bảo lưu mọi quyền."
+    "copyright": "© 2026 Where was I ?. Bảo lưu mọi quyền."
   }
 }

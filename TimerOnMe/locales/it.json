@@ -4,17 +4,18 @@
   "appName": "Il Mio Timer",
   "meta": {
     "title": "Il Mio Timer - Più timer e cronometri in un'unica app",
-    "description": "Esegui più timer e cronometri contemporaneamente. Allenamento a intervalli, widget sulla schermata Home, gestione sessioni e suonerie personalizzate. Gratis per iPhone e iPad.",
+    "description": "Esegui fino a 50 timer e cronometri contemporaneamente, con sveglie che suonano anche da bloccato (AlarmKit), intervalli Tabata/EMOM/30-30, Live Activities e un'app Apple Watch completa. Gratis per iPhone, iPad e Apple Watch.",
     "keywords": "timer, cronometro, più timer, allenamento a intervalli, timer HIIT, Tabata, app iOS, widget schermata Home, conto alla rovescia, stopwatch, multiple timers"
   },
   "nav": {
     "features": "Funzionalità",
     "screenshots": "Schermate",
-    "download": "Scarica"
+    "download": "Scarica",
+    "faq": "FAQ"
   },
   "hero": {
-    "title": "Più timer, un'unica app",
-    "description": "Esegui tutti i timer e cronometri di cui hai bisogno, tutti contemporaneamente. Perfetto per cucinare, allenarsi, studiare o qualsiasi attività che richieda un cronometraggio preciso.",
+    "title": "Ogni timer, sveglia e cronometro — tutto insieme",
+    "description": "Esegui fino a 50 timer e cronometri contemporaneamente, imposta sveglie che suonano anche quando il tuo iPhone è bloccato e cronometra gli allenamenti HIIT con precisione — su iPhone, iPad e Apple Watch.",
     "downloadAlt": "Scarica dall'App Store"
   },
   "features": {
@@ -25,31 +26,43 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Griglia multi-timer",
-        "description": "Esegui più timer e cronometri contemporaneamente in una griglia pulita e reattiva. Ogni orologio ha controlli indipendenti: avvia, metti in pausa e reimposta singolarmente."
+        "description": "Esegui fino a 50 timer e cronometri indipendenti contemporaneamente in una griglia pulita. Avvia, metti in pausa e reimposta ciascuno singolarmente — oppure controllali tutti insieme."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Sveglie affidabili",
+        "description": "Sveglie e promemoria con etichette personalizzate e programmazione per giorni della settimana, basate su AlarmKit così suonano anche quando il tuo iPhone è bloccato o Il Mio Timer è chiuso. Opzioni di posticipo e suoni personali inclusi."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Allenamento a intervalli",
-        "description": "Preset integrati per HIIT, Tabata e intervalli personalizzati. Crea le tue sequenze lavoro/riposo per la routine di allenamento perfetta."
+        "description": "I preset integrati Tabata, EMOM e 30/30 ti fanno iniziare ad allenarti in due tocchi, oltre a un editor di intervalli personalizzato e una modalità allenamento a schermo intero con segnali colorati."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "App Apple Watch",
+        "description": "Un'app Apple Watch nativa e completa — esegui più cronometri e timer al polso con precisione al centesimo di secondo e complicazioni, anche quando il tuo iPhone non è nei paraggi."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Widget schermata Home",
-        "description": "Controlla i tuoi timer direttamente dalla schermata Home. Widget in formato piccolo, medio e grande per adattarsi al tuo layout."
+        "title": "Widget e Live Activities",
+        "description": "Controlla i tuoi timer dalla schermata Home con widget interattivi e segui il conto alla rovescia dalla schermata di blocco e dalla Dynamic Island con le Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Suoni di allarme a modo tuo",
+        "description": "Scegli tra una dozzina di suoni di allarme integrati o importa i tuoi. I tuoi avvisi suonano anche quando il tuo iPhone è bloccato, silenziato o l'app è chiusa."
       },
       {
         "id": "sessions",
         "icon": "save",
         "title": "Gestione sessioni",
         "description": "Salva le configurazioni dei tuoi timer e caricale in qualsiasi momento. Esporta le sessioni in JSON, CSV o testo per una facile condivisione e backup."
-      },
-      {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Suonerie personalizzate",
-        "description": "Scegli tra 7 suoni di allarme integrati — da un semplice campanello a squilli di telefono vintage. Gli allarmi funzionano anche in modalità silenziosa con iOS 18.2+."
       },
       {
         "id": "display",
@@ -66,7 +79,41 @@
   "download": {
     "title": "Inizia a cronometrare ora",
     "description": "Download gratuito. Più timer, allenamento a intervalli e widget — tutto pronto all'uso. Nessun account richiesto.",
-    "platforms": "Disponibile su iPhone e iPad"
+    "platforms": "Disponibile su iPhone, iPad e Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Domande frequenti",
+    "sectionSubtitle": "Tutto ciò che devi sapere su Il Mio Timer",
+    "list": [
+      {
+        "question": "Le sveglie e i timer suonano quando il mio iPhone è bloccato o l'app è chiusa?",
+        "answer": "Sì. Le sveglie sono basate su AlarmKit di Apple e suonano anche quando il tuo iPhone è bloccato o Il Mio Timer è chiuso, e anche gli avvisi dei timer si attivano in modo affidabile in background."
+      },
+      {
+        "question": "Quanti timer posso eseguire contemporaneamente?",
+        "answer": "Fino a 50 timer e cronometri indipendenti in un'unica sessione — avviali, fermali e reimpostali singolarmente o in gruppi sincronizzati."
+      },
+      {
+        "question": "C'è un'app per Apple Watch?",
+        "answer": "Sì — un'app watchOS nativa e completa con più timer e cronometri simultanei, precisione al centesimo di secondo e complicazioni. Funziona anche quando il tuo iPhone è fuori portata."
+      },
+      {
+        "question": "Posso usarla per allenamenti HIIT e Tabata?",
+        "answer": "Assolutamente. I preset integrati Tabata, EMOM e 30/30 ti fanno iniziare in due tocchi, oltre a un editor di intervalli personalizzato per le tue sequenze lavoro/riposo/round e una modalità allenamento a schermo intero."
+      },
+      {
+        "question": "Posso aggiungere i miei suoni di allarme?",
+        "answer": "Sì — scegli tra le suonerie incluse o importa i tuoi file audio."
+      },
+      {
+        "question": "Funziona offline? Ho bisogno di un account?",
+        "answer": "Nessun account e nessuna connessione Internet richiesti. Tutto funziona sul dispositivo e i tuoi dati restano locali."
+      },
+      {
+        "question": "È gratis?",
+        "answer": "Sì, Il Mio Timer è gratuito da scaricare. Un acquisto in-app facoltativo sblocca sveglie aggiuntive oltre alle prime due, se ne hai bisogno."
+      }
+    ]
   },
   "privacy": {
     "title": "La tua privacy è importante",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Informativa sulla privacy",
     "termsOfService": "Termini di servizio",
-    "copyright": "© 2025 Il Mio Timer. Tutti i diritti riservati."
+    "copyright": "© 2026 Il Mio Timer. Tutti i diritti riservati."
   }
 }

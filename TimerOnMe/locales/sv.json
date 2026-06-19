@@ -4,17 +4,18 @@
   "appName": "Min Timer",
   "meta": {
     "title": "Min Timer - Flera timers och tidtagarur i en app",
-    "description": "Kör flera timers och tidtagarur samtidigt. Intervallträning, hemskärmswidgets, sessionshantering och anpassade ringsignaler. Gratis för iPhone och iPad.",
+    "description": "Kör upp till 50 timers och tidtagarur samtidigt, med larm som ringer när enheten är låst (AlarmKit), Tabata/EMOM/30-30-intervaller, Live Activities och en komplett Apple Watch-app. Gratis för iPhone, iPad och Apple Watch.",
     "keywords": "timer, tidtagarur, flera timers, intervallträning, HIIT-timer, Tabata, iOS-app, hemskärmswidget, nedräkningstimer, stopwatch, multiple timers"
   },
   "nav": {
     "features": "Funktioner",
     "screenshots": "Skärmdumpar",
-    "download": "Ladda ner"
+    "download": "Ladda ner",
+    "faq": "Vanliga frågor"
   },
   "hero": {
-    "title": "Flera timers, en app",
-    "description": "Kör så många timers och tidtagarur som du behöver, alla samtidigt. Perfekt för matlagning, träning, studier eller vad som helst som kräver exakt tidtagning.",
+    "title": "Varje timer, larm och tidtagarur — samtidigt",
+    "description": "Kör upp till 50 timers och tidtagarur samtidigt, ställ in larm som ringer även när din iPhone är låst, och tajma HIIT-pass med precision — på iPhone, iPad och Apple Watch.",
     "downloadAlt": "Ladda ner från App Store"
   },
   "features": {
@@ -25,19 +26,37 @@
         "id": "multi-timer",
         "icon": "grid",
         "title": "Multi-timer-rutnät",
-        "description": "Kör flera timers och tidtagarur samtidigt i ett rent, responsivt rutnät. Varje klocka har oberoende kontroller — starta, pausa och återställ individuellt."
+        "description": "Kör upp till 50 oberoende timers och tidtagarur samtidigt i ett rent rutnät. Starta, pausa och återställ var och en individuellt — eller styr dem alla tillsammans."
+      },
+      {
+        "id": "alarms",
+        "icon": "alarm",
+        "title": "Pålitliga larm",
+        "description": "Väckar- och påminnelselarm med egna etiketter och veckoscheman, drivna av AlarmKit så att de ringer även när din iPhone är låst eller Min Timer är stängd. Snooze-alternativ och dina egna ljud ingår."
       },
       {
         "id": "interval",
         "icon": "repeat",
         "title": "Intervallträning",
-        "description": "Inbyggda HIIT-, Tabata- och anpassade intervallförinställningar. Skapa egna arbets-/vilosekvenser för den perfekta träningsrutinen."
+        "description": "Inbyggda förinställningar för Tabata, EMOM och 30/30 får dig att träna på två tryck, plus en redigerare för egna intervaller och ett träningsläge i helskärm med färgsignaler."
+      },
+      {
+        "id": "watch",
+        "icon": "watch",
+        "title": "Apple Watch-app",
+        "description": "En komplett inbyggd Apple Watch-app — kör flera tidtagarur och timers direkt på handleden med centisekundsprecision och komplikationer, även när din iPhone inte är i närheten."
       },
       {
         "id": "widgets",
         "icon": "smartphone",
-        "title": "Hemskärmswidgets",
-        "description": "Styr dina timers direkt från hemskärmen. Små, mellanstora och stora widgetstorlekar som passar din layout."
+        "title": "Widgets och Live Activities",
+        "description": "Styr dina timers från hemskärmen med interaktiva widgets, och följ nedräkningen från låsskärmen och Dynamic Island med Live Activities."
+      },
+      {
+        "id": "ringtones",
+        "icon": "bell",
+        "title": "Larmljud, på ditt sätt",
+        "description": "Välj bland ett dussin inbyggda larmljud eller importera dina egna. Dina aviseringar ringer även när din iPhone är låst, ljudlös eller appen är stängd."
       },
       {
         "id": "sessions",
@@ -46,16 +65,10 @@
         "description": "Spara dina timerinställningar och ladda dem när som helst. Exportera sessioner som JSON, CSV eller text för enkel delning och säkerhetskopiering."
       },
       {
-        "id": "ringtones",
-        "icon": "bell",
-        "title": "Anpassade ringsignaler",
-        "description": "Välj mellan 7 inbyggda larmljud — från en enkel klocka till vintage telefonringsignaler. Larm fungerar även i tyst läge med iOS 18.2+."
-      },
-      {
         "id": "display",
         "icon": "monitor",
         "title": "Smart visning",
-        "description": "Centisekundsprecision, procentuell förlopp och håll-skärmen-på-läge. Anpassa hur dina timers ser ut och beter sig."
+        "description": "Centisekundsprecision, procentuellt förlopp och håll-skärmen-på-läge. Anpassa hur dina timers ser ut och beter sig."
       }
     ]
   },
@@ -66,7 +79,41 @@
   "download": {
     "title": "Börja ta tid nu",
     "description": "Gratis att ladda ner. Flera timers, intervallträning och widgets — allt redo att använda. Inget konto krävs.",
-    "platforms": "Tillgänglig för iPhone och iPad"
+    "platforms": "Tillgänglig för iPhone, iPad och Apple Watch"
+  },
+  "faq": {
+    "sectionTitle": "Vanliga frågor",
+    "sectionSubtitle": "Allt du behöver veta om Min Timer",
+    "list": [
+      {
+        "question": "Går larm och timers igång när min iPhone är låst eller appen är stängd?",
+        "answer": "Ja. Larmen drivs av Apples AlarmKit och ringer även när din iPhone är låst eller Min Timer är stängd, och timeraviseringar utlöses pålitligt även i bakgrunden."
+      },
+      {
+        "question": "Hur många timers kan jag köra samtidigt?",
+        "answer": "Upp till 50 oberoende timers och tidtagarur i en enda session — starta, stoppa och återställ dem individuellt eller i synkroniserade grupper."
+      },
+      {
+        "question": "Finns det en Apple Watch-app?",
+        "answer": "Ja — en komplett inbyggd watchOS-app med flera samtidiga timers och tidtagarur, centisekundsprecision och komplikationer. Den fungerar även när din iPhone är utom räckhåll."
+      },
+      {
+        "question": "Kan jag använda den för HIIT- och Tabata-pass?",
+        "answer": "Absolut. Inbyggda förinställningar för Tabata, EMOM och 30/30 får dig igång på två tryck, plus en redigerare för egna intervaller för dina egna arbets-/vilo-/rondsekvenser och ett träningsläge i helskärm."
+      },
+      {
+        "question": "Kan jag lägga till egna larmljud?",
+        "answer": "Ja — välj bland de medföljande ringsignalerna eller importera dina egna ljudfiler."
+      },
+      {
+        "question": "Fungerar den offline? Behöver jag ett konto?",
+        "answer": "Inget konto och ingen internetanslutning krävs. Allt körs på enheten och dina data stannar lokalt."
+      },
+      {
+        "question": "Är den gratis?",
+        "answer": "Ja, Min Timer är gratis att ladda ner. Ett valfritt köp i appen låser upp ytterligare larm utöver de första två om du behöver dem."
+      }
+    ]
   },
   "privacy": {
     "title": "Din integritet är viktig",
@@ -77,6 +124,6 @@
     "appStore": "App Store",
     "privacyPolicy": "Integritetspolicy",
     "termsOfService": "Användarvillkor",
-    "copyright": "© 2025 Min Timer. Alla rättigheter förbehållna."
+    "copyright": "© 2026 Min Timer. Alla rättigheter förbehållna."
   }
 }
