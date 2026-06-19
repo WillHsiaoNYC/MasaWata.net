@@ -160,15 +160,28 @@ def hero_title_with_123(name: str) -> str:
 
 SCREENSHOTS = ["01-PosterLeft", "02-PosterRight", "03-WatchSync", "04-Counters", "05-Charts"]
 
-# Clean (headline-cropped) shots used in the page body, mapped per feature index.
-SHOTS_FEATURE = ["04-Counters", "04-Counters", "04-Counters", "03-WatchSync", "05-Charts", "03-WatchSync"]
 _TAG_SPLIT = re.compile(r"[,،、;؛/]| [-–—] ")
 
+# Pick the body screenshot by what a section is ABOUT, not its position: section
+# order and count vary by locale, so index-mapping would mispair image and heading.
+_WATCH_RE = re.compile(r"watch|⌚|watchos", re.I)
+_CHART_RE = re.compile(
+    r"chart|graph|total|percent|histor|stat|"
+    r"グラフ|チャート|图表|圖表|차트|그래프|график|диаграм|"
+    r"gr[áa]fic|graphiq|diagramm|grafico|grafiek|wykres",
+    re.I,
+)
 
-def feature_shot(i: int) -> str:
-    if i < len(SHOTS_FEATURE):
-        return SHOTS_FEATURE[i]
-    return ["04-Counters", "03-WatchSync", "05-Charts"][i % 3]
+
+def feature_shot(sec: dict) -> str:
+    # Watch terms (often kept in English) are safe to match anywhere; chart terms
+    # match the TITLE only — a bullet like "...recorded in the history" would
+    # otherwise pull a Charts shot into an unrelated section (e.g. Random Mode).
+    if _WATCH_RE.search(sec["title"] + " " + " ".join(sec["bullets"])):
+        return "03-WatchSync"
+    if _CHART_RE.search(sec["title"]):
+        return "05-Charts"
+    return "04-Counters"
 
 
 def first_tag(bullet: str) -> str:
@@ -215,8 +228,8 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
     # ── Device showcase (clean, headline-cropped shots) ──
     SHOWCASE = ["03-WatchSync", "04-Counters", "05-Charts"]
     showcase_block = "\n".join(
-        f'      <div class="showcase__shot"><img src="{p_shots}/clean/{s}.png" alt="{h(SCREENSHOT_ALTS[s])}" loading="eager"></div>'
-        for s in SHOWCASE
+        f'      <div class="showcase__shot"><img src="{p_shots}/clean/{s}.jpg" alt="{h(SCREENSHOT_ALTS[s])}" loading="{load}"></div>'
+        for s, load in zip(SHOWCASE, ("lazy", "eager", "lazy"))
     )
 
     # ── Feature sections: eyebrow (title) + distilled headline/line + screenshot ──
@@ -229,7 +242,7 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
         bl = sec["bullets"]
         headline = h(bl[0]) if bl else h(sec["title"])
         body = f'\n          <p class="feature__body">{h(bl[1])}</p>' if len(bl) > 1 else ""
-        shot = feature_shot(i)
+        shot = feature_shot(sec)
         cls = "feature is-reversed" if i % 2 else "feature"
         feats.append(f'''    <section class="{cls}">
       <div class="wrap feature__grid">
@@ -237,7 +250,7 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
           <p class="feature__eyebrow">{h(sec["title"])}</p>
           <h2 class="feature__title">{headline}</h2>{body}
         </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="{p_shots}/clean/{shot}.png" alt="{h(sec["title"])}" loading="lazy"></div></div>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="{p_shots}/clean/{shot}.jpg" alt="{h(sec["title"])}" loading="lazy"></div></div>
       </div>
     </section>''')
     features_block = "\n".join(feats)
