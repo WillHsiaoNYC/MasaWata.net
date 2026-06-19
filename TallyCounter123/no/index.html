@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Teller 123 — Watch-sync, klikker, score</title>
   <meta name="description" content="Teller og klikker for trening, rosenkrans, strikking, lager, vaner og spill. Apple Watch-sync, tilfeldig modus, grafer og gruppert historikk.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Teller 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Teller 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Teller 123 app icon" width="96" height="96">
       <h1 class="hero__title">Teller <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch-sync, klikker, score</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Teller og klikker for trening, rosenkrans, strikking, lager, vaner og spill. Apple Watch-sync, tilfeldig modus, grafer og gruppert historikk.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/no/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/no/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/no/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/no/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/no/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/no/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/no/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/no/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>TILPASSEDE TELLERE</h2>
-          <ul>
-            <li>Lag egne tellere for aktiviteter, spill, rutiner eller lister</li>
-            <li>Eget navn og farge per teller</li>
-            <li>Dra for å endre rekkefølge</li>
-            <li>Hold inne for å telle raskt</li>
-            <li>Helt offline — ingen konto, ingen sky</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">TILPASSEDE TELLERE</p>
+          <h2 class="feature__title">Lag egne tellere for aktiviteter, spill, rutiner eller lister</h2>
+          <p class="feature__body">Eget navn og farge per teller</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>DIREKTE INNTASTING &amp; BULKHANDLINGER</h2>
-          <ul>
-            <li>Trykk på en teller for å sette en startverdi direkte — uten å nullstille først</li>
-            <li>Bulk-+/-: endre en teller med et hvilket som helst tall med ett trykk</li>
-            <li>Overføring: flytt en verdi fra en teller til en annen uten å telle dobbelt</li>
-            <li>Egendefinert steg: ett trykk legger til 1, 5, 10, 100 eller det du velger</li>
-            <li>Live forhåndsvisning av hver endring</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/no/clean/04-Counters.png" alt="TILPASSEDE TELLERE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">DIREKTE INNTASTING &amp; BULKHANDLINGER</p>
+          <h2 class="feature__title">Trykk på en teller for å sette en startverdi direkte — uten å nullstille først</h2>
+          <p class="feature__body">Bulk-+/-: endre en teller med et hvilket som helst tall med ett trykk</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>TILFELDIG MODUS</h2>
-          <ul>
-            <li>La en teller rulle en ny verdi fra 1 til 10 for hvert trykk</li>
-            <li>Legg til eller trekk fra tilfeldige verdier med + og -</li>
-            <li>Nyttig til øvelser, spill, belønninger, klasseaktiviteter og rutiner</li>
-            <li>Hvert tilfeldige trykk lagres i tellerens historikk</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/no/clean/04-Counters.png" alt="DIREKTE INNTASTING &amp; BULKHANDLINGER" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">TILFELDIG MODUS</p>
+          <h2 class="feature__title">La en teller rulle en ny verdi fra 1 til 10 for hvert trykk</h2>
+          <p class="feature__body">Legg til eller trekk fra tilfeldige verdier med + og -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>SUMMER &amp; GRAFER</h2>
-          <ul>
-            <li>Samlet sum av alle tellere i ett blikk</li>
-            <li>Prosentvisning: hvor mye hver teller bidrar til helheten</li>
-            <li>Interaktivt søylediagram — veksle mellom verdi (#) og prosent (%)</li>
-            <li>Sorter etter verdi for en umiddelbar rangering</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/no/clean/04-Counters.png" alt="TILFELDIG MODUS" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SUMMER &amp; GRAFER</p>
+          <h2 class="feature__title">Samlet sum av alle tellere i ett blikk</h2>
+          <p class="feature__body">Prosentvisning: hvor mye hver teller bidrar til helheten</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>HISTORIKK &amp; DELING</h2>
-          <ul>
-            <li>Full historikk: hver økning, reduksjon og redigering logges</li>
-            <li>Lagre sett med tellere og last dem inn igjen på et blunk</li>
-            <li>Del konfigurasjoner med laget, elever eller venner</li>
-            <li>Se historikk som datologg, grupperte økter eller statistikk per dag/uke/måned</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/no/clean/03-WatchSync.png" alt="SUMMER &amp; GRAFER" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">HISTORIKK &amp; DELING</p>
+          <h2 class="feature__title">Full historikk: hver økning, reduksjon og redigering logges</h2>
+          <p class="feature__body">Lagre sett med tellere og last dem inn igjen på et blunk</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>LIVE-SYNC MED APPLE WATCH</h2>
-          <ul>
-            <li>Oppdater en teller på iPhone eller Apple Watch, så holdes begge synkronisert</li>
-            <li>Ekte native watchOS-app — ikke bare en følgesvenn</li>
-            <li>Navn, farger og verdier synkronisert på håndleddet</li>
-            <li>Trykk for å telle, hold for repetisjon — rett fra klokka</li>
-            <li>Fungerer alene når iPhonen ikke er i nærheten</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/no/clean/05-Charts.png" alt="HISTORIKK &amp; DELING" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">LIVE-SYNC MED APPLE WATCH</p>
+          <h2 class="feature__title">Oppdater en teller på iPhone eller Apple Watch, så holdes begge synkronisert</h2>
+          <p class="feature__body">Ekte native watchOS-app — ikke bare en følgesvenn</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>FOR iPhone, iPad &amp; APPLE WATCH</h2>
-          <ul>
-            <li>Adaptive layouter for alle skjermstørrelser</li>
-            <li>iPad viser flere tellere samtidig, støtter Split View</li>
-            <li>Personvern først: lokal lagring, ingen sky, ingen konto</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/no/clean/03-WatchSync.png" alt="LIVE-SYNC MED APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">FOR iPhone, iPad &amp; APPLE WATCH</p>
+          <h2 class="feature__title">Adaptive layouter for alle skjermstørrelser</h2>
+          <p class="feature__body">iPad viser flere tellere samtidig, støtter Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>PERFEKT FOR</h2>
-          <ul>
-            <li>Sett og reps på trening</li>
-            <li>Rader i strikking og masker i hekling</li>
-            <li>Rosenkrans, tasbih, bønneperler</li>
-            <li>Poeng i klassen og oppmøte</li>
-            <li>Håndball, volleyball, fotball — rask poengregning</li>
-            <li>Bordtennis</li>
-            <li>Inventar og lagertelling</li>
-            <li>Brettspill, kort, bridge, kasino</li>
-            <li>Baneomganger i svømming og løp</li>
-            <li>Fuglekikking</li>
-            <li>Telling av deltakere på arrangementer</li>
-            <li>Vaner og mål</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/no/clean/04-Counters.png" alt="FOR iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Personvernerklæring: https://masawata.net/privacy-policy.html Bruksvilkår: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Perfekt For</h2>
+      <div class="uses__tags"><span class="tag">Sett og reps på trening</span><span class="tag">Rader i strikking og masker i hekling</span><span class="tag">Rosenkrans</span><span class="tag">Poeng i klassen og oppmøte</span><span class="tag">Håndball</span><span class="tag">Bordtennis</span><span class="tag">Inventar og lagertelling</span><span class="tag">Brettspill</span><span class="tag">Baneomganger i svømming og løp</span><span class="tag">Fuglekikking</span><span class="tag">Telling av deltakere på arrangementer</span><span class="tag">Vaner og mål</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Last ned Teller 123 og gjør hver opptelling enkel — klart, raskt, privat.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

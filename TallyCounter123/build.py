@@ -87,7 +87,8 @@ def parse_description(desc: str) -> dict:
     """Parse App Description into intro, feature sections, and closing paragraph."""
     lines = desc.splitlines()
     cutoff = next(
-        (i for i, l in enumerate(lines) if l.lstrip().startswith(("Privacy Policy", "Terms"))),
+        (i for i, l in enumerate(lines)
+         if l.lstrip().startswith(("Privacy Policy", "Terms")) or "http" in l),
         len(lines),
     )
     body = "\n".join(lines[:cutoff]).strip()
@@ -159,6 +160,28 @@ def hero_title_with_123(name: str) -> str:
 
 SCREENSHOTS = ["01-PosterLeft", "02-PosterRight", "03-WatchSync", "04-Counters", "05-Charts"]
 
+# Clean (headline-cropped) shots used in the page body, mapped per feature index.
+SHOTS_FEATURE = ["04-Counters", "04-Counters", "04-Counters", "03-WatchSync", "05-Charts", "03-WatchSync"]
+_TAG_SPLIT = re.compile(r"[,،、;؛/]| [-–—] ")
+
+
+def feature_shot(i: int) -> str:
+    if i < len(SHOTS_FEATURE):
+        return SHOTS_FEATURE[i]
+    return ["04-Counters", "03-WatchSync", "05-Charts"][i % 3]
+
+
+def first_tag(bullet: str) -> str:
+    """First clause of a comma-separated 'use' bullet -> a short tag."""
+    return _TAG_SPLIT.split(bullet, 1)[0].strip()
+
+
+def nice_title(s: str) -> str:
+    """All-caps Latin titles -> Title Case; leaves other scripts / mixed case untouched."""
+    if s and s == s.upper() and any("a" <= c.lower() <= "z" for c in s):
+        return s.title()
+    return s
+
 
 def render_lang_switcher(current_asc: str, dir_name: str) -> str:
     """Footer <select> that navigates to the chosen locale on change."""
@@ -189,24 +212,45 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
     desc_meta = h(promo)
     hero_title = hero_title_with_123(name)
 
-    features_html = []
-    for i, sec in enumerate(parsed["sections"], start=1):
-        bullets = "\n".join(f"            <li>{h(b)}</li>" for b in sec["bullets"])
-        features_html.append(f'''      <article class="feature">
-        <div class="feature__num" aria-hidden="true">{i:02d}</div>
-        <div class="feature__content">
-          <h2>{h(sec["title"])}</h2>
-          <ul>
-{bullets}
-          </ul>
-        </div>
-      </article>''')
-    features_block = "\n".join(features_html)
-
+    # ── Device showcase (clean, headline-cropped shots) ──
+    SHOWCASE = ["03-WatchSync", "04-Counters", "05-Charts"]
     showcase_block = "\n".join(
-        f'        <div class="showcase__shot"><img src="{p_shots}/{s}.png" alt="{h(SCREENSHOT_ALTS[s])}" loading="lazy" width="880" height="1912"></div>'
-        for s in SCREENSHOTS
+        f'      <div class="showcase__shot"><img src="{p_shots}/clean/{s}.png" alt="{h(SCREENSHOT_ALTS[s])}" loading="eager"></div>'
+        for s in SHOWCASE
     )
+
+    # ── Feature sections: eyebrow (title) + distilled headline/line + screenshot ──
+    secs = parsed["sections"]
+    feature_secs = secs[:-1] if len(secs) > 1 else secs
+    uses_sec = secs[-1] if len(secs) > 1 else None
+
+    feats = []
+    for i, sec in enumerate(feature_secs):
+        bl = sec["bullets"]
+        headline = h(bl[0]) if bl else h(sec["title"])
+        body = f'\n          <p class="feature__body">{h(bl[1])}</p>' if len(bl) > 1 else ""
+        shot = feature_shot(i)
+        cls = "feature is-reversed" if i % 2 else "feature"
+        feats.append(f'''    <section class="{cls}">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">{h(sec["title"])}</p>
+          <h2 class="feature__title">{headline}</h2>{body}
+        </div>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="{p_shots}/clean/{shot}.png" alt="{h(sec["title"])}" loading="lazy"></div></div>
+      </div>
+    </section>''')
+    features_block = "\n".join(feats)
+
+    # ── Popular uses -> tag grid ──
+    uses_block = ""
+    if uses_sec and uses_sec["bullets"]:
+        tags = "".join(f'<span class="tag">{h(first_tag(b))}</span>' for b in uses_sec["bullets"])
+        uses_block = f'''
+    <section class="uses reveal">
+      <h2 class="uses__h">{h(nice_title(uses_sec["title"]))}</h2>
+      <div class="uses__tags">{tags}</div>
+    </section>'''
 
     # JSON-LD screenshot array — feeds Google's rich-result software card.
     screenshot_urls = [f"{SITE_BASE}/images/screenshots/{asc}/{s}.png" for s in SCREENSHOTS]
@@ -218,16 +262,15 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
 
     lang_switcher_html = render_lang_switcher(asc, dir_name)
 
-    closing_html = h(parsed["closing"]) if parsed["closing"] else ""
-    pitch_block = ""
-    if closing_html:
-        pitch_block = f'''
-    <section class="pitch">
-      <p>{closing_html}</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id{APP_STORE_ID}" rel="noopener">
-        {APP_STORE_SVG}
-        Download on the App Store
-      </a>
+    closing = h(parsed["closing"]) if parsed["closing"] else ""
+    closing_block = ""
+    if closing:
+        closing_block = f'''
+    <section class="end reveal">
+      <h2 class="end__h">{closing}</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id{APP_STORE_ID}" rel="noopener">{APP_STORE_SVG} Download on the App Store</a>
+      </div>
     </section>'''
 
     return f'''<!DOCTYPE html>
@@ -235,7 +278,7 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>{title_meta}</title>
   <meta name="description" content="{desc_meta}">
@@ -263,11 +306,7 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
   <link rel="icon" type="image/png" sizes="512x512" href="{p_img}/icon-512.png">
   <link rel="apple-touch-icon" href="{p_img}/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="{p_css}/style.css?v=6">
+  <link rel="stylesheet" href="{p_css}/style.css?v=7">
 
   <script type="application/ld+json">
   {{
@@ -299,21 +338,22 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="{p_img}/icon-512.png" alt=""> {h(name)}</div>
+    <div class="bar__right">
       {lang_switcher_html}
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id{APP_STORE_ID}" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="{p_img}/icon-512.png" alt="{h(name)} app icon" width="104" height="104">
+      <img class="hero__icon" src="{p_img}/icon-512.png" alt="{h(name)} app icon" width="96" height="96">
       <h1 class="hero__title">{hero_title}</h1>
       <p class="hero__subtitle">{h(subtitle)}</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id{APP_STORE_ID}" rel="noopener">
-        {APP_STORE_SVG}
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id{APP_STORE_ID}" rel="noopener">{APP_STORE_SVG} Download on the App Store</a>
+      </div>
       <p class="hero__blurb">{desc_meta}</p>
     </section>
 
@@ -321,19 +361,20 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
 {showcase_block}
     </section>
 
-    <section class="features" aria-label="Features">
 {features_block}
-    </section>
-{pitch_block}
+{uses_block}
+{closing_block}
+  </main>
 
-    <footer>
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="{p_js}/counter.js" defer></script>
 </body>

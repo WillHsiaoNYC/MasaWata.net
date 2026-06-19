@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Sayaç 123 — Watch sync, tıkla, skor</title>
   <meta name="description" content="Spor, tespih, örgü, stok, alışkanlık ve oyunlar için sayaç ve tıklayıcı. Apple Watch sync, rastgele mod, grafikler ve gruplanmış geçmiş.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Sayaç 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,151 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Sayaç 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Sayaç 123 app icon" width="96" height="96">
       <h1 class="hero__title">Sayaç <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch sync, tıkla, skor</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Spor, tespih, örgü, stok, alışkanlık ve oyunlar için sayaç ve tıklayıcı. Apple Watch sync, rastgele mod, grafikler ve gruplanmış geçmiş.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/tr/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/tr/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/tr/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/tr/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/tr/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/tr/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/tr/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/tr/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>ÖZEL SAYAÇLAR</h2>
-          <ul>
-            <li>Etkinlikler, oyunlar, rutinler veya listeler için ayrı sayaçlar oluştur</li>
-            <li>Her sayaca özel isim ve renk</li>
-            <li>Sıralamak için sürükle</li>
-            <li>Hızlı ardışık sayım için basılı tut</li>
-            <li>Tamamen çevrimdışı — kayıt yok, bulut yok</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ÖZEL SAYAÇLAR</p>
+          <h2 class="feature__title">Etkinlikler, oyunlar, rutinler veya listeler için ayrı sayaçlar oluştur</h2>
+          <p class="feature__body">Her sayaca özel isim ve renk</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>DOĞRUDAN GİRİŞ VE TOPLU İŞLEMLER</h2>
-          <ul>
-            <li>Sayaca dokun, başlangıç değerini doğrudan ayarla — sıfırlamaya gerek yok</li>
-            <li>Toplu +/-: sayacı herhangi bir sayıyla tek dokunuşta değiştir</li>
-            <li>Aktarım: bir sayaçtan diğerine değer aktar, iki ayrı işlem yok</li>
-            <li>Özel adım: tek dokunuş 1, 5, 10, 100 veya istediğin sayıyı ekler</li>
-            <li>Her değişimin canlı önizlemesi</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/tr/clean/04-Counters.png" alt="ÖZEL SAYAÇLAR" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">DOĞRUDAN GİRİŞ VE TOPLU İŞLEMLER</p>
+          <h2 class="feature__title">Sayaca dokun, başlangıç değerini doğrudan ayarla — sıfırlamaya gerek yok</h2>
+          <p class="feature__body">Toplu +/-: sayacı herhangi bir sayıyla tek dokunuşta değiştir</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>RASTGELE MOD</h2>
-          <ul>
-            <li>Sayaç her dokunuşta 1 ile 10 arasında yeni bir değer seçsin</li>
-            <li>+ ve - düğmeleriyle rastgele değer ekle veya çıkar</li>
-            <li>Egzersizler, oyunlar, ödüller, sınıf etkinlikleri ve rutinler için kullanışlı</li>
-            <li>Her rastgele dokunuş sayacın geçmişine kaydedilir</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/tr/clean/04-Counters.png" alt="DOĞRUDAN GİRİŞ VE TOPLU İŞLEMLER" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">RASTGELE MOD</p>
+          <h2 class="feature__title">Sayaç her dokunuşta 1 ile 10 arasında yeni bir değer seçsin</h2>
+          <p class="feature__body">+ ve - düğmeleriyle rastgele değer ekle veya çıkar</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>TOPLAMLAR VE GRAFİKLER</h2>
-          <ul>
-            <li>Tüm sayaçların toplamı tek bakışta</li>
-            <li>Yüzde görünümü: her sayacın toplama katkısı</li>
-            <li>Etkileşimli çubuk grafik — değer (#) ile yüzde (%) arasında geçiş</li>
-            <li>Değere göre sıralama ile anlık liste</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/tr/clean/04-Counters.png" alt="RASTGELE MOD" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">TOPLAMLAR VE GRAFİKLER</p>
+          <h2 class="feature__title">Tüm sayaçların toplamı tek bakışta</h2>
+          <p class="feature__body">Yüzde görünümü: her sayacın toplama katkısı</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>GEÇMİŞ VE PAYLAŞIM</h2>
-          <ul>
-            <li>Tam geçmiş: her ekleme, çıkarma ve düzenleme kaydedilir</li>
-            <li>Sayaç setlerini kaydet ve istediğin an yeniden yükle</li>
-            <li>Yapılandırmaları ekip, öğrenciler veya arkadaşlarla paylaş</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/tr/clean/03-WatchSync.png" alt="TOPLAMLAR VE GRAFİKLER" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">GEÇMİŞ VE PAYLAŞIM</p>
+          <h2 class="feature__title">Tam geçmiş: her ekleme, çıkarma ve düzenleme kaydedilir</h2>
+          <p class="feature__body">Sayaç setlerini kaydet ve istediğin an yeniden yükle</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>APPLE WATCH İLE CANLI SYNC</h2>
-          <ul>
-            <li>iPhone veya Apple Watch’ta değiştir; iki cihaz da senkron kalır</li>
-            <li>Gerçek yerel watchOS uygulaması — basit bir eşlik uygulaması değil</li>
-            <li>İsimler, renkler ve değerler bileğinde senkronize</li>
-            <li>Saymak için dokun, tekrar için basılı tut — doğrudan saatten</li>
-            <li>iPhone yakın olmasa bile tek başına çalışır</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/tr/clean/05-Charts.png" alt="GEÇMİŞ VE PAYLAŞIM" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">APPLE WATCH İLE CANLI SYNC</p>
+          <h2 class="feature__title">iPhone veya Apple Watch’ta değiştir; iki cihaz da senkron kalır</h2>
+          <p class="feature__body">Gerçek yerel watchOS uygulaması — basit bir eşlik uygulaması değil</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>iPhone, iPad VE APPLE WATCH İÇİN</h2>
-          <ul>
-            <li>Her ekran boyutuna uyumlu düzenler</li>
-            <li>iPad aynı anda daha fazla sayaç gösterir, Split View destekli</li>
-            <li>Önce gizlilik: yerel depolama, bulut yok, hesap yok</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/tr/clean/03-WatchSync.png" alt="APPLE WATCH İLE CANLI SYNC" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">iPhone, iPad VE APPLE WATCH İÇİN</p>
+          <h2 class="feature__title">Her ekran boyutuna uyumlu düzenler</h2>
+          <p class="feature__body">iPad aynı anda daha fazla sayaç gösterir, Split View destekli</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>ŞUNLAR İÇİN İDEAL</h2>
-          <ul>
-            <li>Spor salonunda setler ve tekrarlar</li>
-            <li>Örgü sıraları ve tığ ilmekleri</li>
-            <li>Tespih, zikir, dua tesbihleri</li>
-            <li>Sınıf puanları ve yoklama</li>
-            <li>Hentbol, voleybol, basketbol — hızlı skor</li>
-            <li>Masa tenisi</li>
-            <li>Stok ve depo sayımı</li>
-            <li>Masa oyunları, kâğıt oyunları, okey, tavla</li>
-            <li>Havuz ve pist turları</li>
-            <li>Kuş gözlemi</li>
-            <li>Etkinliklerde katılımcı sayımı</li>
-            <li>Alışkanlık ve hedef takibi</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/tr/clean/04-Counters.png" alt="iPhone, iPad VE APPLE WATCH İÇİN" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Gizlilik Politikası: https://masawata.net/privacy-policy.html Kullanım Koşulları: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Şunlar İçi̇n İdeal</h2>
+      <div class="uses__tags"><span class="tag">Spor salonunda setler ve tekrarlar</span><span class="tag">Örgü sıraları ve tığ ilmekleri</span><span class="tag">Tespih</span><span class="tag">Sınıf puanları ve yoklama</span><span class="tag">Hentbol</span><span class="tag">Masa tenisi</span><span class="tag">Stok ve depo sayımı</span><span class="tag">Masa oyunları</span><span class="tag">Havuz ve pist turları</span><span class="tag">Kuş gözlemi</span><span class="tag">Etkinliklerde katılımcı sayımı</span><span class="tag">Alışkanlık ve hedef takibi</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Sayaç 123&#x27;yi indir ve her sayımı kolaylaştır — net, hızlı, özel.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

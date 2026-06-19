@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Μετρητής 123 — Sync Watch, κλικ, σκορ</title>
   <meta name="description" content="Μετρητής και clicker για άσκηση, κομποσκοίνι, πλέξιμο, απόθεμα, συνήθειες και παιχνίδια. Sync με Apple Watch, τυχαία λειτουργία, γραφήματα και ομαδοποιημένο ιστορικό.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Μετρητής 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,151 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Μετρητής 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Μετρητής 123 app icon" width="96" height="96">
       <h1 class="hero__title">Μετρητής <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Sync Watch, κλικ, σκορ</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Μετρητής και clicker για άσκηση, κομποσκοίνι, πλέξιμο, απόθεμα, συνήθειες και παιχνίδια. Sync με Apple Watch, τυχαία λειτουργία, γραφήματα και ομαδοποιημένο ιστορικό.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/el/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/el/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/el/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/el/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/el/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/el/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/el/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/el/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>ΠΡΟΣΑΡΜΟΣΜΕΝΟΙ ΜΕΤΡΗΤΕΣ</h2>
-          <ul>
-            <li>Δημιούργησε ξεχωριστούς μετρητές για δραστηριότητες, παιχνίδια, ρουτίνες ή λίστες</li>
-            <li>Ξεχωριστό όνομα και χρώμα για καθέναν</li>
-            <li>Σύρε για αναδιάταξη</li>
-            <li>Κράτα πατημένο για γρήγορη συνεχόμενη μέτρηση</li>
-            <li>Πλήρως χωρίς σύνδεση — χωρίς εγγραφή, χωρίς cloud</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ΠΡΟΣΑΡΜΟΣΜΕΝΟΙ ΜΕΤΡΗΤΕΣ</p>
+          <h2 class="feature__title">Δημιούργησε ξεχωριστούς μετρητές για δραστηριότητες, παιχνίδια, ρουτίνες ή λίστες</h2>
+          <p class="feature__body">Ξεχωριστό όνομα και χρώμα για καθέναν</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>ΑΠΕΥΘΕΙΑΣ ΚΑΤΑΧΩΡΗΣΗ &amp; ΜΑΖΙΚΕΣ ΕΝΕΡΓΕΙΕΣ</h2>
-          <ul>
-            <li>Άγγιξε έναν μετρητή για να ορίσεις αρχική τιμή κατευθείαν — δεν χρειάζεται μηδενισμός</li>
-            <li>Μαζικό +/-: άλλαξε έναν μετρητή με οποιονδήποτε αριθμό με ένα άγγιγμα</li>
-            <li>Μεταφορά: πέρνα μια τιμή από τον έναν μετρητή στον άλλον χωρίς διπλή κίνηση</li>
-            <li>Προσαρμοσμένο βήμα: ένα άγγιγμα προσθέτει 1, 5, 10, 100 ή ό,τι ορίσεις</li>
-            <li>Ζωντανή προεπισκόπηση κάθε αλλαγής</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/el/clean/04-Counters.png" alt="ΠΡΟΣΑΡΜΟΣΜΕΝΟΙ ΜΕΤΡΗΤΕΣ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ΑΠΕΥΘΕΙΑΣ ΚΑΤΑΧΩΡΗΣΗ &amp; ΜΑΖΙΚΕΣ ΕΝΕΡΓΕΙΕΣ</p>
+          <h2 class="feature__title">Άγγιξε έναν μετρητή για να ορίσεις αρχική τιμή κατευθείαν — δεν χρειάζεται μηδενισμός</h2>
+          <p class="feature__body">Μαζικό +/-: άλλαξε έναν μετρητή με οποιονδήποτε αριθμό με ένα άγγιγμα</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>ΤΥΧΑΙΑ ΛΕΙΤΟΥΡΓΙΑ</h2>
-          <ul>
-            <li>Ο μετρητής δίνει νέα τιμή από 1 έως 10 σε κάθε πάτημα</li>
-            <li>Πρόσθεσε ή αφαίρεσε τυχαίες τιμές με τα κουμπιά + και -</li>
-            <li>Χρήσιμο για ασκήσεις, παιχνίδια, ανταμοιβές, τάξη και πρακτική</li>
-            <li>Κάθε τυχαίο πάτημα αποθηκεύεται στο ιστορικό</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/el/clean/04-Counters.png" alt="ΑΠΕΥΘΕΙΑΣ ΚΑΤΑΧΩΡΗΣΗ &amp; ΜΑΖΙΚΕΣ ΕΝΕΡΓΕΙΕΣ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ΤΥΧΑΙΑ ΛΕΙΤΟΥΡΓΙΑ</p>
+          <h2 class="feature__title">Ο μετρητής δίνει νέα τιμή από 1 έως 10 σε κάθε πάτημα</h2>
+          <p class="feature__body">Πρόσθεσε ή αφαίρεσε τυχαίες τιμές με τα κουμπιά + και -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>ΣΥΝΟΛΑ &amp; ΓΡΑΦΗΜΑΤΑ</h2>
-          <ul>
-            <li>Συνολικό άθροισμα όλων των μετρητών με μια ματιά</li>
-            <li>Προβολή ποσοστού: πόσο συνεισφέρει ο καθένας στο σύνολο</li>
-            <li>Διαδραστικό ραβδόγραμμα — εναλλαγή ανάμεσα σε τιμή (#) και ποσοστό (%)</li>
-            <li>Ταξινόμηση κατά τιμή για άμεση κατάταξη</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/el/clean/04-Counters.png" alt="ΤΥΧΑΙΑ ΛΕΙΤΟΥΡΓΙΑ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ΣΥΝΟΛΑ &amp; ΓΡΑΦΗΜΑΤΑ</p>
+          <h2 class="feature__title">Συνολικό άθροισμα όλων των μετρητών με μια ματιά</h2>
+          <p class="feature__body">Προβολή ποσοστού: πόσο συνεισφέρει ο καθένας στο σύνολο</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>ΙΣΤΟΡΙΚΟ &amp; ΚΟΙΝΟΠΟΙΗΣΗ</h2>
-          <ul>
-            <li>Πλήρες ιστορικό: κάθε πρόσθεση, αφαίρεση και επεξεργασία καταγράφεται</li>
-            <li>Αποθήκευσε σετ μετρητών και φόρτωσέ τα ξανά ανά πάσα στιγμή</li>
-            <li>Μοιράσου ρυθμίσεις με ομάδα, μαθητές ή φίλους</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/el/clean/03-WatchSync.png" alt="ΣΥΝΟΛΑ &amp; ΓΡΑΦΗΜΑΤΑ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ΙΣΤΟΡΙΚΟ &amp; ΚΟΙΝΟΠΟΙΗΣΗ</p>
+          <h2 class="feature__title">Πλήρες ιστορικό: κάθε πρόσθεση, αφαίρεση και επεξεργασία καταγράφεται</h2>
+          <p class="feature__body">Αποθήκευσε σετ μετρητών και φόρτωσέ τα ξανά ανά πάσα στιγμή</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>ΖΩΝΤΑΝΟΣ ΣΥΓΧΡΟΝΙΣΜΟΣ ΜΕ APPLE WATCH</h2>
-          <ul>
-            <li>Άλλαξε μετρητή σε iPhone ή Apple Watch και οι τιμές μένουν συγχρονισμένες</li>
-            <li>Γνήσια εγγενής εφαρμογή watchOS — όχι απλό συνοδευτικό</li>
-            <li>Ονόματα, χρώματα και τιμές συγχρονισμένα στον καρπό</li>
-            <li>Άγγιξε για μέτρηση, κράτα για επανάληψη — απευθείας από το ρολόι</li>
-            <li>Δουλεύει ανεξάρτητα όταν το iPhone δεν είναι κοντά</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/el/clean/05-Charts.png" alt="ΙΣΤΟΡΙΚΟ &amp; ΚΟΙΝΟΠΟΙΗΣΗ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ΖΩΝΤΑΝΟΣ ΣΥΓΧΡΟΝΙΣΜΟΣ ΜΕ APPLE WATCH</p>
+          <h2 class="feature__title">Άλλαξε μετρητή σε iPhone ή Apple Watch και οι τιμές μένουν συγχρονισμένες</h2>
+          <p class="feature__body">Γνήσια εγγενής εφαρμογή watchOS — όχι απλό συνοδευτικό</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>ΓΙΑ iPhone, iPad &amp; APPLE WATCH</h2>
-          <ul>
-            <li>Προσαρμόσιμες διατάξεις για κάθε μέγεθος οθόνης</li>
-            <li>Το iPad δείχνει περισσότερους μετρητές μαζί, υποστηρίζει Split View</li>
-            <li>Ιδιωτικότητα πρώτα: τοπική αποθήκευση, χωρίς cloud, χωρίς λογαριασμό</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/el/clean/03-WatchSync.png" alt="ΖΩΝΤΑΝΟΣ ΣΥΓΧΡΟΝΙΣΜΟΣ ΜΕ APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ΓΙΑ iPhone, iPad &amp; APPLE WATCH</p>
+          <h2 class="feature__title">Προσαρμόσιμες διατάξεις για κάθε μέγεθος οθόνης</h2>
+          <p class="feature__body">Το iPad δείχνει περισσότερους μετρητές μαζί, υποστηρίζει Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>ΙΔΑΝΙΚΟ ΓΙΑ</h2>
-          <ul>
-            <li>Σετ και επαναλήψεις στο γυμναστήριο</li>
-            <li>Σειρές πλεξίματος και βελονιές βελονακιού</li>
-            <li>Κομποσκοίνι, τασμπίχ, χάντρες προσευχής</li>
-            <li>Πόντοι στην τάξη και απουσιολόγιο</li>
-            <li>Μπάσκετ, βόλεϊ, χάντμπολ — γρήγορο σκορ</li>
-            <li>Πινγκ πονγκ</li>
-            <li>Απόθεμα και μέτρηση αποθήκης</li>
-            <li>Επιτραπέζια, χαρτιά, πρέφα, μπιρίμπα</li>
-            <li>Γύροι στην πισίνα και στην πίστα</li>
-            <li>Παρατήρηση πτηνών</li>
-            <li>Μέτρηση κόσμου σε εκδηλώσεις</li>
-            <li>Παρακολούθηση συνηθειών και στόχων</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/el/clean/04-Counters.png" alt="ΓΙΑ iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Πολιτική απορρήτου: https://masawata.net/privacy-policy.html Όροι χρήσης: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">ΙΔΑΝΙΚΟ ΓΙΑ</h2>
+      <div class="uses__tags"><span class="tag">Σετ και επαναλήψεις στο γυμναστήριο</span><span class="tag">Σειρές πλεξίματος και βελονιές βελονακιού</span><span class="tag">Κομποσκοίνι</span><span class="tag">Πόντοι στην τάξη και απουσιολόγιο</span><span class="tag">Μπάσκετ</span><span class="tag">Πινγκ πονγκ</span><span class="tag">Απόθεμα και μέτρηση αποθήκης</span><span class="tag">Επιτραπέζια</span><span class="tag">Γύροι στην πισίνα και στην πίστα</span><span class="tag">Παρατήρηση πτηνών</span><span class="tag">Μέτρηση κόσμου σε εκδηλώσεις</span><span class="tag">Παρακολούθηση συνηθειών και στόχων</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Κατέβασε το Μετρητής 123 και κάνε κάθε μέτρηση εύκολη — καθαρά, γρήγορα, ιδιωτικά.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

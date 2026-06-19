@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Räknare 123 — Watch-sync, klick, poäng</title>
   <meta name="description" content="Räknare och klicker för träning, rosenkrans, stickning, lager, vanor och spel. Apple Watch-sync, slumpmässigt läge, diagram och grupperad historik.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Räknare 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Räknare 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Räknare 123 app icon" width="96" height="96">
       <h1 class="hero__title">Räknare <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch-sync, klick, poäng</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Räknare och klicker för träning, rosenkrans, stickning, lager, vanor och spel. Apple Watch-sync, slumpmässigt läge, diagram och grupperad historik.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/sv/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sv/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sv/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sv/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sv/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sv/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sv/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sv/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>ANPASSADE RÄKNARE</h2>
-          <ul>
-            <li>Skapa separata räknare för aktiviteter, spel, rutiner eller listor</li>
-            <li>Eget namn och färg per räknare</li>
-            <li>Dra för att sortera om</li>
-            <li>Håll nedtryckt för snabb räkning</li>
-            <li>Helt offline — inget konto, inget moln</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ANPASSADE RÄKNARE</p>
+          <h2 class="feature__title">Skapa separata räknare för aktiviteter, spel, rutiner eller listor</h2>
+          <p class="feature__body">Eget namn och färg per räknare</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>DIREKTINMATNING &amp; BULKÅTGÄRDER</h2>
-          <ul>
-            <li>Tryck på en räknare för att sätta ett startvärde direkt — utan att nollställa först</li>
-            <li>Bulk-+/-: ändra en räknare med valfritt nummer med ett tryck</li>
-            <li>Överföring: flytta ett värde från en räknare till en annan utan dubbelt räknande</li>
-            <li>Eget steg: ett tryck lägger till 1, 5, 10, 100 eller vad du vill</li>
-            <li>Direktvy av varje ändring</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sv/clean/04-Counters.png" alt="ANPASSADE RÄKNARE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">DIREKTINMATNING &amp; BULKÅTGÄRDER</p>
+          <h2 class="feature__title">Tryck på en räknare för att sätta ett startvärde direkt — utan att nollställa först</h2>
+          <p class="feature__body">Bulk-+/-: ändra en räknare med valfritt nummer med ett tryck</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>SLUMPMÄSSIGT LÄGE</h2>
-          <ul>
-            <li>Låt en räknare rulla ett nytt värde från 1 till 10 vid varje tryck</li>
-            <li>Lägg till eller dra ifrån slumpvärden med + och -</li>
-            <li>Praktiskt för övningar, spel, belöningar, klassaktiviteter och rutiner</li>
-            <li>Varje slumptryck sparas i räknarens historik</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sv/clean/04-Counters.png" alt="DIREKTINMATNING &amp; BULKÅTGÄRDER" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SLUMPMÄSSIGT LÄGE</p>
+          <h2 class="feature__title">Låt en räknare rulla ett nytt värde från 1 till 10 vid varje tryck</h2>
+          <p class="feature__body">Lägg till eller dra ifrån slumpvärden med + och -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>SUMMOR &amp; DIAGRAM</h2>
-          <ul>
-            <li>Totalsumma för alla räknare på en gång</li>
-            <li>Procentvy: hur mycket varje räknare bidrar till helheten</li>
-            <li>Interaktivt stapeldiagram — växla mellan värde (#) och procent (%)</li>
-            <li>Sortera efter värde för en direkt ranking</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sv/clean/04-Counters.png" alt="SLUMPMÄSSIGT LÄGE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SUMMOR &amp; DIAGRAM</p>
+          <h2 class="feature__title">Totalsumma för alla räknare på en gång</h2>
+          <p class="feature__body">Procentvy: hur mycket varje räknare bidrar till helheten</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>HISTORIK &amp; DELNING</h2>
-          <ul>
-            <li>Fullständig historik: varje ökning, minskning och redigering loggas</li>
-            <li>Spara uppsättningar av räknare och ladda dem direkt</li>
-            <li>Dela konfigurationer med laget, elever eller vänner</li>
-            <li>Visa historik som datumlogg, grupperade pass eller statistik per dag/vecka/månad</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sv/clean/03-WatchSync.png" alt="SUMMOR &amp; DIAGRAM" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">HISTORIK &amp; DELNING</p>
+          <h2 class="feature__title">Fullständig historik: varje ökning, minskning och redigering loggas</h2>
+          <p class="feature__body">Spara uppsättningar av räknare och ladda dem direkt</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>LIVE-SYNC MED APPLE WATCH</h2>
-          <ul>
-            <li>Uppdatera en räknare på iPhone eller Apple Watch, så hålls båda synkade</li>
-            <li>Riktig native watchOS-app — ingen enkel följeslagare</li>
-            <li>Namn, färger och värden synkade på handleden</li>
-            <li>Tryck för att räkna, håll för repetition — direkt från klockan</li>
-            <li>Fungerar självständigt när telefonen är utom räckhåll</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sv/clean/05-Charts.png" alt="HISTORIK &amp; DELNING" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">LIVE-SYNC MED APPLE WATCH</p>
+          <h2 class="feature__title">Uppdatera en räknare på iPhone eller Apple Watch, så hålls båda synkade</h2>
+          <p class="feature__body">Riktig native watchOS-app — ingen enkel följeslagare</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>FÖR iPhone, iPad &amp; APPLE WATCH</h2>
-          <ul>
-            <li>Responsiva layouter för alla skärmstorlekar</li>
-            <li>iPad visar fler räknare samtidigt, stödjer Split View</li>
-            <li>Integritet först: lokal lagring, inget moln, inget konto</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sv/clean/03-WatchSync.png" alt="LIVE-SYNC MED APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">FÖR iPhone, iPad &amp; APPLE WATCH</p>
+          <h2 class="feature__title">Responsiva layouter för alla skärmstorlekar</h2>
+          <p class="feature__body">iPad visar fler räknare samtidigt, stödjer Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>PERFEKT FÖR</h2>
-          <ul>
-            <li>Set och reps på gymmet</li>
-            <li>Varv i stickning och maskor i virkning</li>
-            <li>Rosenkrans, tasbih, bönepärlor</li>
-            <li>Poäng i klassen och närvaro</li>
-            <li>Handboll, innebandy, fotboll — snabb poängräkning</li>
-            <li>Bordtennis</li>
-            <li>Inventering och lagerräkning</li>
-            <li>Sällskapsspel, kort, bridge, canasta</li>
-            <li>Bassäng- och löparvarv</li>
-            <li>Fågelskådning</li>
-            <li>Räkna besökare vid evenemang</li>
-            <li>Följ vanor och mål</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sv/clean/04-Counters.png" alt="FÖR iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Integritetspolicy: https://masawata.net/privacy-policy.html Användarvillkor: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Perfekt För</h2>
+      <div class="uses__tags"><span class="tag">Set och reps på gymmet</span><span class="tag">Varv i stickning och maskor i virkning</span><span class="tag">Rosenkrans</span><span class="tag">Poäng i klassen och närvaro</span><span class="tag">Handboll</span><span class="tag">Bordtennis</span><span class="tag">Inventering och lagerräkning</span><span class="tag">Sällskapsspel</span><span class="tag">Bassäng- och löparvarv</span><span class="tag">Fågelskådning</span><span class="tag">Räkna besökare vid evenemang</span><span class="tag">Följ vanor och mål</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Ladda ner Räknare 123 och gör varje räkning enkel — tydlig, snabb, privat.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

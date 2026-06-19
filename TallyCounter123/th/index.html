@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>เคาน์เตอร์ 123 — ซิงก์ Watch คลิกเกอร์ คะแนน</title>
   <meta name="description" content="เครื่องนับและคลิกเกอร์สำหรับยิม ประคำ ถัก สต็อก นิสัย และเกม ซิงก์ Apple Watch โหมดสุ่ม กราฟ และประวัติแบบกลุ่ม">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> เคาน์เตอร์ 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="เคาน์เตอร์ 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="เคาน์เตอร์ 123 app icon" width="96" height="96">
       <h1 class="hero__title">เคาน์เตอร์ <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">ซิงก์ Watch คลิกเกอร์ คะแนน</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">เครื่องนับและคลิกเกอร์สำหรับยิม ประคำ ถัก สต็อก นิสัย และเกม ซิงก์ Apple Watch โหมดสุ่ม กราฟ และประวัติแบบกลุ่ม</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/th/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/th/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/th/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/th/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/th/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/th/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/th/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/th/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>ตัวนับปรับแต่งได้</h2>
-          <ul>
-            <li>สร้างตัวนับแยกสำหรับกิจกรรม เกม รูทีน หรือรายการต่างๆ</li>
-            <li>ชื่อและสีเฉพาะสำหรับแต่ละตัวนับ</li>
-            <li>ลากเพื่อจัดเรียงใหม่</li>
-            <li>กดค้างเพื่อนับต่อเนื่องแบบเร็ว</li>
-            <li>ออฟไลน์เต็มรูปแบบ — ไม่ต้องลงทะเบียน ไม่มีคลาวด์</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ตัวนับปรับแต่งได้</p>
+          <h2 class="feature__title">สร้างตัวนับแยกสำหรับกิจกรรม เกม รูทีน หรือรายการต่างๆ</h2>
+          <p class="feature__body">ชื่อและสีเฉพาะสำหรับแต่ละตัวนับ</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>ป้อนตรงและทำงานเป็นชุด</h2>
-          <ul>
-            <li>แตะตัวนับเพื่อกำหนดค่าเริ่มต้นได้ทันที — ไม่ต้องรีเซ็ตเป็นศูนย์</li>
-            <li>+/- เป็นชุด: เปลี่ยนตัวนับด้วยตัวเลขใดก็ได้ด้วยการแตะครั้งเดียว</li>
-            <li>โอน: ย้ายค่าจากตัวนับหนึ่งไปอีกตัวโดยไม่ต้องทำสองครั้ง</li>
-            <li>ขั้นกำหนดเอง: แตะหนึ่งครั้งเพิ่ม 1, 5, 10, 100 หรือตามที่เลือก</li>
-            <li>แสดงตัวอย่างสดของทุกการเปลี่ยนแปลง</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/th/clean/04-Counters.png" alt="ตัวนับปรับแต่งได้" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ป้อนตรงและทำงานเป็นชุด</p>
+          <h2 class="feature__title">แตะตัวนับเพื่อกำหนดค่าเริ่มต้นได้ทันที — ไม่ต้องรีเซ็ตเป็นศูนย์</h2>
+          <p class="feature__body">+/- เป็นชุด: เปลี่ยนตัวนับด้วยตัวเลขใดก็ได้ด้วยการแตะครั้งเดียว</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>โหมดสุ่ม</h2>
-          <ul>
-            <li>ให้ตัวนับสุ่มค่าใหม่ตั้งแต่ 1 ถึง 10 ทุกครั้งที่แตะ</li>
-            <li>เพิ่มหรือลบค่าสุ่มด้วยปุ่ม + และ -</li>
-            <li>เหมาะกับการฝึก เกม รางวัลสุ่ม กิจกรรมในชั้นเรียน และรูทีน</li>
-            <li>ทุกการแตะแบบสุ่มถูกบันทึกไว้ในประวัติของตัวนับ</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/th/clean/04-Counters.png" alt="ป้อนตรงและทำงานเป็นชุด" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">โหมดสุ่ม</p>
+          <h2 class="feature__title">ให้ตัวนับสุ่มค่าใหม่ตั้งแต่ 1 ถึง 10 ทุกครั้งที่แตะ</h2>
+          <p class="feature__body">เพิ่มหรือลบค่าสุ่มด้วยปุ่ม + และ -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>ยอดรวมและกราฟ</h2>
-          <ul>
-            <li>ยอดรวมของตัวนับทั้งหมดในพริบตา</li>
-            <li>มุมมองเปอร์เซ็นต์: สัดส่วนของแต่ละตัวนับในยอดรวม</li>
-            <li>กราฟแท่งแบบโต้ตอบ — สลับระหว่างค่า (#) และเปอร์เซ็นต์ (%)</li>
-            <li>เรียงตามค่าเพื่อดูอันดับทันที</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/th/clean/04-Counters.png" alt="โหมดสุ่ม" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ยอดรวมและกราฟ</p>
+          <h2 class="feature__title">ยอดรวมของตัวนับทั้งหมดในพริบตา</h2>
+          <p class="feature__body">มุมมองเปอร์เซ็นต์: สัดส่วนของแต่ละตัวนับในยอดรวม</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>ประวัติและการแชร์</h2>
-          <ul>
-            <li>ประวัติครบ: ทุกการเพิ่ม ลด และแก้ไขถูกบันทึก</li>
-            <li>บันทึกชุดตัวนับและโหลดใหม่ได้ทันที</li>
-            <li>แชร์การตั้งค่ากับทีม นักเรียน หรือเพื่อน</li>
-            <li>ดูประวัติเป็นบันทึกตามวันที่ เซสชันแบบกลุ่ม หรือสถิติรายวัน/สัปดาห์/เดือน</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/th/clean/03-WatchSync.png" alt="ยอดรวมและกราฟ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ประวัติและการแชร์</p>
+          <h2 class="feature__title">ประวัติครบ: ทุกการเพิ่ม ลด และแก้ไขถูกบันทึก</h2>
+          <p class="feature__body">บันทึกชุดตัวนับและโหลดใหม่ได้ทันที</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>ซิงก์สดกับ APPLE WATCH</h2>
-          <ul>
-            <li>แก้ตัวนับบน iPhone หรือ Apple Watch แล้วค่าจะซิงก์กัน</li>
-            <li>แอป watchOS แบบเนทีฟจริงๆ — ไม่ใช่แค่แอปคู่กัน</li>
-            <li>ชื่อ สี และค่าซิงก์อยู่บนข้อมือ</li>
-            <li>แตะเพื่อนับ กดค้างเพื่อทำซ้ำ — จากนาฬิกาโดยตรง</li>
-            <li>ทำงานได้อิสระแม้ไม่มี iPhone อยู่ใกล้</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/th/clean/05-Charts.png" alt="ประวัติและการแชร์" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ซิงก์สดกับ APPLE WATCH</p>
+          <h2 class="feature__title">แก้ตัวนับบน iPhone หรือ Apple Watch แล้วค่าจะซิงก์กัน</h2>
+          <p class="feature__body">แอป watchOS แบบเนทีฟจริงๆ — ไม่ใช่แค่แอปคู่กัน</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>สำหรับ iPhone, iPad และ APPLE WATCH</h2>
-          <ul>
-            <li>เลย์เอาต์ปรับตามขนาดหน้าจอทุกรูปแบบ</li>
-            <li>iPad แสดงตัวนับได้มากขึ้นในครั้งเดียว รองรับ Split View</li>
-            <li>ความเป็นส่วนตัวมาก่อน: เก็บในเครื่อง ไม่มีคลาวด์ ไม่มีบัญชี</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/th/clean/03-WatchSync.png" alt="ซิงก์สดกับ APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">สำหรับ iPhone, iPad และ APPLE WATCH</p>
+          <h2 class="feature__title">เลย์เอาต์ปรับตามขนาดหน้าจอทุกรูปแบบ</h2>
+          <p class="feature__body">iPad แสดงตัวนับได้มากขึ้นในครั้งเดียว รองรับ Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>เหมาะสำหรับ</h2>
-          <ul>
-            <li>เซ็ตและเรพในยิม</li>
-            <li>แถวการถักและโครเชต์</li>
-            <li>ประคำ ตัสบีห์ ลูกปัดสวดมนต์</li>
-            <li>คะแนนในห้องเรียนและการเช็กชื่อ</li>
-            <li>วอลเลย์บอล บาสเกตบอล แฮนด์บอล — คะแนนเร็ว</li>
-            <li>ปิงปอง</li>
-            <li>สต็อกและนับคลังสินค้า</li>
-            <li>บอร์ดเกม ไพ่ รัมมี่ ดัมมี่</li>
-            <li>รอบสระว่ายน้ำและลู่วิ่ง</li>
-            <li>ดูนก</li>
-            <li>นับผู้เข้าร่วมงาน</li>
-            <li>ติดตามนิสัยและเป้าหมาย</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/th/clean/04-Counters.png" alt="สำหรับ iPhone, iPad และ APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>นโยบายความเป็นส่วนตัว: https://masawata.net/privacy-policy.html ข้อกำหนดการใช้งาน: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">เหมาะสำหรับ</h2>
+      <div class="uses__tags"><span class="tag">เซ็ตและเรพในยิม</span><span class="tag">แถวการถักและโครเชต์</span><span class="tag">ประคำ ตัสบีห์ ลูกปัดสวดมนต์</span><span class="tag">คะแนนในห้องเรียนและการเช็กชื่อ</span><span class="tag">วอลเลย์บอล บาสเกตบอล แฮนด์บอล</span><span class="tag">ปิงปอง</span><span class="tag">สต็อกและนับคลังสินค้า</span><span class="tag">บอร์ดเกม ไพ่ รัมมี่ ดัมมี่</span><span class="tag">รอบสระว่ายน้ำและลู่วิ่ง</span><span class="tag">ดูนก</span><span class="tag">นับผู้เข้าร่วมงาน</span><span class="tag">ติดตามนิสัยและเป้าหมาย</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">ดาวน์โหลด เคาน์เตอร์ 123 แล้วทำให้การนับทุกครั้งง่ายขึ้น — ชัดเจน รวดเร็ว และเป็นส่วนตัว</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Bộ đếm 123 — Sync Watch, clicker, điểm</title>
   <meta name="description" content="Bộ đếm và clicker cho gym, tràng hạt, đan len, tồn kho, thói quen và trò chơi. Sync Apple Watch, chế độ ngẫu nhiên, biểu đồ và lịch sử nhóm.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Bộ đếm 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Bộ đếm 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Bộ đếm 123 app icon" width="96" height="96">
       <h1 class="hero__title">Bộ đếm <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Sync Watch, clicker, điểm</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Bộ đếm và clicker cho gym, tràng hạt, đan len, tồn kho, thói quen và trò chơi. Sync Apple Watch, chế độ ngẫu nhiên, biểu đồ và lịch sử nhóm.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/vi/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/vi/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/vi/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/vi/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/vi/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/vi/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/vi/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/vi/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>BỘ ĐẾM TÙY CHỈNH</h2>
-          <ul>
-            <li>Tạo bộ đếm riêng cho hoạt động, trò chơi, thói quen hoặc danh sách</li>
-            <li>Tên và màu riêng cho từng bộ đếm</li>
-            <li>Kéo để sắp xếp lại</li>
-            <li>Giữ để đếm nhanh liên tục</li>
-            <li>Ngoại tuyến hoàn toàn — không đăng ký, không đám mây</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">BỘ ĐẾM TÙY CHỈNH</p>
+          <h2 class="feature__title">Tạo bộ đếm riêng cho hoạt động, trò chơi, thói quen hoặc danh sách</h2>
+          <p class="feature__body">Tên và màu riêng cho từng bộ đếm</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>NHẬP TRỰC TIẾP &amp; THAO TÁC HÀNG LOẠT</h2>
-          <ul>
-            <li>Chạm vào bộ đếm để đặt giá trị khởi đầu trực tiếp — không cần reset về 0</li>
-            <li>+/- hàng loạt: thay đổi bộ đếm bằng số bất kỳ chỉ một chạm</li>
-            <li>Chuyển: di chuyển giá trị từ bộ đếm này sang bộ đếm khác mà không cần thao tác kép</li>
-            <li>Bước tùy chỉnh: một chạm thêm 1, 5, 10, 100 hoặc số bạn chọn</li>
-            <li>Xem trước trực tiếp mỗi thay đổi</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/vi/clean/04-Counters.png" alt="BỘ ĐẾM TÙY CHỈNH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">NHẬP TRỰC TIẾP &amp; THAO TÁC HÀNG LOẠT</p>
+          <h2 class="feature__title">Chạm vào bộ đếm để đặt giá trị khởi đầu trực tiếp — không cần reset về 0</h2>
+          <p class="feature__body">+/- hàng loạt: thay đổi bộ đếm bằng số bất kỳ chỉ một chạm</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>CHẾ ĐỘ NGẪU NHIÊN</h2>
-          <ul>
-            <li>Cho bộ đếm chọn giá trị mới từ 1 đến 10 sau mỗi lần chạm</li>
-            <li>Cộng hoặc trừ giá trị ngẫu nhiên bằng nút + và -</li>
-            <li>Hữu ích cho bài tập, trò chơi, phần thưởng, lớp học và thói quen luyện tập</li>
-            <li>Mỗi lần chạm ngẫu nhiên được lưu trong lịch sử bộ đếm</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/vi/clean/04-Counters.png" alt="NHẬP TRỰC TIẾP &amp; THAO TÁC HÀNG LOẠT" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">CHẾ ĐỘ NGẪU NHIÊN</p>
+          <h2 class="feature__title">Cho bộ đếm chọn giá trị mới từ 1 đến 10 sau mỗi lần chạm</h2>
+          <p class="feature__body">Cộng hoặc trừ giá trị ngẫu nhiên bằng nút + và -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>TỔNG &amp; BIỂU ĐỒ</h2>
-          <ul>
-            <li>Tổng tất cả bộ đếm chỉ trong một cái nhìn</li>
-            <li>Chế độ phần trăm: mỗi bộ đếm đóng góp bao nhiêu vào tổng</li>
-            <li>Biểu đồ cột tương tác — chuyển giữa giá trị (#) và phần trăm (%)</li>
-            <li>Sắp xếp theo giá trị để có bảng xếp hạng tức thì</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/vi/clean/04-Counters.png" alt="CHẾ ĐỘ NGẪU NHIÊN" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">TỔNG &amp; BIỂU ĐỒ</p>
+          <h2 class="feature__title">Tổng tất cả bộ đếm chỉ trong một cái nhìn</h2>
+          <p class="feature__body">Chế độ phần trăm: mỗi bộ đếm đóng góp bao nhiêu vào tổng</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>LỊCH SỬ &amp; CHIA SẺ</h2>
-          <ul>
-            <li>Lịch sử đầy đủ: mọi thao tác cộng, trừ, chỉnh sửa đều được ghi lại</li>
-            <li>Lưu bộ đếm và tải lại bất cứ lúc nào</li>
-            <li>Chia sẻ cấu hình với đội, học sinh hay bạn bè</li>
-            <li>Xem lịch sử dạng nhật ký theo ngày, phiên được nhóm hoặc thống kê ngày/tuần/tháng</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/vi/clean/03-WatchSync.png" alt="TỔNG &amp; BIỂU ĐỒ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">LỊCH SỬ &amp; CHIA SẺ</p>
+          <h2 class="feature__title">Lịch sử đầy đủ: mọi thao tác cộng, trừ, chỉnh sửa đều được ghi lại</h2>
+          <p class="feature__body">Lưu bộ đếm và tải lại bất cứ lúc nào</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>SYNC TRỰC TIẾP VỚI APPLE WATCH</h2>
-          <ul>
-            <li>Cập nhật bộ đếm trên iPhone hoặc Apple Watch, cả hai sẽ luôn đồng bộ</li>
-            <li>Ứng dụng watchOS gốc thực sự — không chỉ là bản đồng hành</li>
-            <li>Tên, màu và giá trị đồng bộ trên cổ tay</li>
-            <li>Chạm để đếm, giữ để lặp — trực tiếp từ đồng hồ</li>
-            <li>Hoạt động độc lập khi iPhone không bên cạnh</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/vi/clean/05-Charts.png" alt="LỊCH SỬ &amp; CHIA SẺ" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SYNC TRỰC TIẾP VỚI APPLE WATCH</p>
+          <h2 class="feature__title">Cập nhật bộ đếm trên iPhone hoặc Apple Watch, cả hai sẽ luôn đồng bộ</h2>
+          <p class="feature__body">Ứng dụng watchOS gốc thực sự — không chỉ là bản đồng hành</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>CHO iPhone, iPad &amp; APPLE WATCH</h2>
-          <ul>
-            <li>Bố cục thích ứng cho mọi kích thước màn hình</li>
-            <li>iPad hiển thị nhiều bộ đếm cùng lúc, hỗ trợ Split View</li>
-            <li>Quyền riêng tư trên hết: lưu cục bộ, không đám mây, không tài khoản</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/vi/clean/03-WatchSync.png" alt="SYNC TRỰC TIẾP VỚI APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">CHO iPhone, iPad &amp; APPLE WATCH</p>
+          <h2 class="feature__title">Bố cục thích ứng cho mọi kích thước màn hình</h2>
+          <p class="feature__body">iPad hiển thị nhiều bộ đếm cùng lúc, hỗ trợ Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>PHÙ HỢP CHO</h2>
-          <ul>
-            <li>Set và rep tại phòng gym</li>
-            <li>Hàng đan len và mũi móc</li>
-            <li>Tràng hạt, tasbih, chuỗi hạt cầu nguyện</li>
-            <li>Điểm trong lớp và điểm danh</li>
-            <li>Bóng chuyền, bóng rổ, bóng đá — tính điểm nhanh</li>
-            <li>Bóng bàn</li>
-            <li>Kiểm kho và đếm tồn</li>
-            <li>Cờ vua, bài, tam cúc, tiến lên</li>
-            <li>Vòng hồ bơi và đường chạy</li>
-            <li>Quan sát chim</li>
-            <li>Đếm khách tại sự kiện</li>
-            <li>Theo dõi thói quen và mục tiêu</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/vi/clean/04-Counters.png" alt="CHO iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Chính sách quyền riêng tư: https://masawata.net/privacy-policy.html Điều khoản sử dụng: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Phù Hợp Cho</h2>
+      <div class="uses__tags"><span class="tag">Set và rep tại phòng gym</span><span class="tag">Hàng đan len và mũi móc</span><span class="tag">Tràng hạt</span><span class="tag">Điểm trong lớp và điểm danh</span><span class="tag">Bóng chuyền</span><span class="tag">Bóng bàn</span><span class="tag">Kiểm kho và đếm tồn</span><span class="tag">Cờ vua</span><span class="tag">Vòng hồ bơi và đường chạy</span><span class="tag">Quan sát chim</span><span class="tag">Đếm khách tại sự kiện</span><span class="tag">Theo dõi thói quen và mục tiêu</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Tải Bộ đếm 123 và làm cho mọi phép đếm trở nên đơn giản — rõ ràng, nhanh chóng, riêng tư.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>

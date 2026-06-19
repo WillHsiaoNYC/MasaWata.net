@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#FFF1E1">
+  <meta name="theme-color" content="#ffffff">
 
   <title>Števec 123 — Watch sync, kliki, točke</title>
   <meta name="description" content="Števec in klikač za vadbo, rožni venec, pletenje, zalogo, navade in igre. Sync z Apple Watch, naključni način, grafi in združena zgodovina.">
@@ -67,11 +67,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
   <link rel="apple-touch-icon" href="../images/icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="../css/style.css?v=6">
+  <link rel="stylesheet" href="../css/style.css?v=7">
 
   <script type="application/ld+json">
   {
@@ -107,10 +103,9 @@
 </head>
 
 <body>
-  <main>
-    <div class="bg-mark" aria-hidden="true">123</div>
-
-    <header class="page-header">
+  <div class="bar">
+    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Števec 123</div>
+    <div class="bar__right">
       <label class="lang-switch" aria-label="Choose language">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
         <select onchange="if(this.value)location.href=this.value">
@@ -151,152 +146,120 @@
         <option value="../he/">עברית</option>
         </select>
       </label>
-    </header>
+      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
+    </div>
+  </div>
 
+  <main>
     <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Števec 123 app icon" width="104" height="104">
+      <img class="hero__icon" src="../images/icon-512.png" alt="Števec 123 app icon" width="96" height="96">
       <h1 class="hero__title">Števec <span class="hero__counter" id="counter" data-target="123">123</span></h1>
       <p class="hero__subtitle">Watch sync, kliki, točke</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="hero__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
       <p class="hero__blurb">Števec in klikač za vadbo, rožni venec, pletenje, zalogo, navade in igre. Sync z Apple Watch, naključni način, grafi in združena zgodovina.</p>
     </section>
 
     <section class="showcase" aria-label="Screenshots">
-        <div class="showcase__shot"><img src="../images/screenshots/sl-SI/01-PosterLeft.png" alt="Tally Counter 123 marketing poster — count anything with custom counters" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sl-SI/02-PosterRight.png" alt="Tally Counter 123 marketing poster — fast input, charts, and history" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sl-SI/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sl-SI/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="lazy" width="880" height="1912"></div>
-        <div class="showcase__shot"><img src="../images/screenshots/sl-SI/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy" width="880" height="1912"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sl-SI/clean/03-WatchSync.png" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sl-SI/clean/04-Counters.png" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
+      <div class="showcase__shot"><img src="../images/screenshots/sl-SI/clean/05-Charts.png" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="eager"></div>
     </section>
 
-    <section class="features" aria-label="Features">
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">01</div>
-        <div class="feature__content">
-          <h2>PRILAGOJENI ŠTEVCI</h2>
-          <ul>
-            <li>Ustvari ločene števce za aktivnosti, igre, rutine ali sezname</li>
-            <li>Lastno ime in barva za vsak števec</li>
-            <li>Povleci za preureditev</li>
-            <li>Zadrži za hitro zaporedno štetje</li>
-            <li>Povsem brez povezave — brez registracije, brez oblaka</li>
-          </ul>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">PRILAGOJENI ŠTEVCI</p>
+          <h2 class="feature__title">Ustvari ločene števce za aktivnosti, igre, rutine ali sezname</h2>
+          <p class="feature__body">Lastno ime in barva za vsak števec</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">02</div>
-        <div class="feature__content">
-          <h2>NEPOSREDNI VNOS IN MNOŽIČNE OPERACIJE</h2>
-          <ul>
-            <li>Dotakni se števca in nastavi začetno vrednost neposredno — brez ničljenja</li>
-            <li>Množično +/-: spremeni števec za poljubno število z enim dotikom</li>
-            <li>Prenos: prenesi vrednost iz enega števca v drugega brez dvojne operacije</li>
-            <li>Lasten korak: en dotik doda 1, 5, 10, 100 ali kar izbereš</li>
-            <li>Sprotni predogled vsake spremembe</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sl-SI/clean/04-Counters.png" alt="PRILAGOJENI ŠTEVCI" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">NEPOSREDNI VNOS IN MNOŽIČNE OPERACIJE</p>
+          <h2 class="feature__title">Dotakni se števca in nastavi začetno vrednost neposredno — brez ničljenja</h2>
+          <p class="feature__body">Množično +/-: spremeni števec za poljubno število z enim dotikom</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">03</div>
-        <div class="feature__content">
-          <h2>NAKLJUČNI NAČIN</h2>
-          <ul>
-            <li>Naj števec ob vsakem dotiku izbere novo vrednost od 1 do 10</li>
-            <li>Dodajaj ali odštevaj naključne vrednosti z gumboma + in -</li>
-            <li>Uporabno za vaje, igre, nagrade, razredne aktivnosti in rutine</li>
-            <li>Vsak naključni dotik se shrani v zgodovino števca</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sl-SI/clean/04-Counters.png" alt="NEPOSREDNI VNOS IN MNOŽIČNE OPERACIJE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">NAKLJUČNI NAČIN</p>
+          <h2 class="feature__title">Naj števec ob vsakem dotiku izbere novo vrednost od 1 do 10</h2>
+          <p class="feature__body">Dodajaj ali odštevaj naključne vrednosti z gumboma + in -</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">04</div>
-        <div class="feature__content">
-          <h2>SEŠTEVKI IN GRAFI</h2>
-          <ul>
-            <li>Skupni seštevek vseh števcev na prvi pogled</li>
-            <li>Odstotni prikaz: kolikšen je prispevek vsakega števca</li>
-            <li>Interaktivni stolpčni graf — preklopi med vrednostjo (#) in odstotkom (%)</li>
-            <li>Razvrsti po vrednosti za takojšnjo lestvico</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sl-SI/clean/04-Counters.png" alt="NAKLJUČNI NAČIN" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">SEŠTEVKI IN GRAFI</p>
+          <h2 class="feature__title">Skupni seštevek vseh števcev na prvi pogled</h2>
+          <p class="feature__body">Odstotni prikaz: kolikšen je prispevek vsakega števca</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">05</div>
-        <div class="feature__content">
-          <h2>ZGODOVINA IN DELJENJE</h2>
-          <ul>
-            <li>Popolna zgodovina: vsako prištevanje, odštevanje in urejanje je zabeleženo</li>
-            <li>Shrani komplete števcev in jih naloži kadar koli</li>
-            <li>Deli konfiguracije z ekipo, učenci ali prijatelji</li>
-            <li>Zgodovino glej kot dnevni dnevnik, združene seje ali statistiko po dnevu/tednu/mesecu</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sl-SI/clean/03-WatchSync.png" alt="SEŠTEVKI IN GRAFI" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ZGODOVINA IN DELJENJE</p>
+          <h2 class="feature__title">Popolna zgodovina: vsako prištevanje, odštevanje in urejanje je zabeleženo</h2>
+          <p class="feature__body">Shrani komplete števcev in jih naloži kadar koli</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">06</div>
-        <div class="feature__content">
-          <h2>ŽIVA SINHRONIZACIJA Z APPLE WATCH</h2>
-          <ul>
-            <li>Posodobi števec na iPhonu ali Apple Watchu in vrednosti ostanejo usklajene</li>
-            <li>Prava izvorna watchOS aplikacija — ne zgolj spremljevalec</li>
-            <li>Imena, barve in vrednosti sinhronizirani na zapestju</li>
-            <li>Dotakni se za štetje, zadrži za ponovitev — naravnost z ure</li>
-            <li>Deluje samostojno, ko iPhona ni pri roki</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sl-SI/clean/05-Charts.png" alt="ZGODOVINA IN DELJENJE" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature is-reversed">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ŽIVA SINHRONIZACIJA Z APPLE WATCH</p>
+          <h2 class="feature__title">Posodobi števec na iPhonu ali Apple Watchu in vrednosti ostanejo usklajene</h2>
+          <p class="feature__body">Prava izvorna watchOS aplikacija — ne zgolj spremljevalec</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">07</div>
-        <div class="feature__content">
-          <h2>ZA iPhone, iPad IN APPLE WATCH</h2>
-          <ul>
-            <li>Prilagodljive postavitve za vsako velikost zaslona</li>
-            <li>iPad prikazuje več števcev hkrati, podpira Split View</li>
-            <li>Zasebnost na prvem mestu: lokalna hramba, brez oblaka, brez računa</li>
-          </ul>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sl-SI/clean/03-WatchSync.png" alt="ŽIVA SINHRONIZACIJA Z APPLE WATCH" loading="lazy"></div></div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="wrap feature__grid">
+        <div class="feature__text reveal">
+          <p class="feature__eyebrow">ZA iPhone, iPad IN APPLE WATCH</p>
+          <h2 class="feature__title">Prilagodljive postavitve za vsako velikost zaslona</h2>
+          <p class="feature__body">iPad prikazuje več števcev hkrati, podpira Split View</p>
         </div>
-      </article>
-      <article class="feature">
-        <div class="feature__num" aria-hidden="true">08</div>
-        <div class="feature__content">
-          <h2>IDEALEN ZA</h2>
-          <ul>
-            <li>Serije in ponovitve v telovadnici</li>
-            <li>Vrstice pletenja in petlje kvačkanja</li>
-            <li>Rožni venec, tasbih, molilne jagode</li>
-            <li>Točke v razredu in prisotnost</li>
-            <li>Rokomet, odbojka, košarka — hitri rezultat</li>
-            <li>Namizni tenis</li>
-            <li>Zaloga in štetje skladišča</li>
-            <li>Družabne igre, karte, tarok, remi</li>
-            <li>Krogi v bazenu in na progi</li>
-            <li>Opazovanje ptic</li>
-            <li>Štetje obiskovalcev na dogodkih</li>
-            <li>Spremljanje navad in ciljev</li>
-          </ul>
-        </div>
-      </article>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/screenshots/sl-SI/clean/04-Counters.png" alt="ZA iPhone, iPad IN APPLE WATCH" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <section class="pitch">
-      <p>Pravilnik o zasebnosti: https://masawata.net/privacy-policy.html Pogoji uporabe: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p>
-      <a class="hero__cta" href="https://apps.apple.com/app/id6769252146" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg>
-        Download on the App Store
-      </a>
+    <section class="uses reveal">
+      <h2 class="uses__h">Idealen Za</h2>
+      <div class="uses__tags"><span class="tag">Serije in ponovitve v telovadnici</span><span class="tag">Vrstice pletenja in petlje kvačkanja</span><span class="tag">Rožni venec</span><span class="tag">Točke v razredu in prisotnost</span><span class="tag">Rokomet</span><span class="tag">Namizni tenis</span><span class="tag">Zaloga in štetje skladišča</span><span class="tag">Družabne igre</span><span class="tag">Krogi v bazenu in na progi</span><span class="tag">Opazovanje ptic</span><span class="tag">Štetje obiskovalcev na dogodkih</span><span class="tag">Spremljanje navad in ciljev</span></div>
     </section>
 
-    <footer>
+    <section class="end reveal">
+      <h2 class="end__h">Prenesi Števec 123 in vsakdanje štetje naredi enostavno — jasno, hitro, zasebno.</h2>
+      <div class="end__cta">
+        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
       <small>© 2026 Masawata</small>
       <nav>
         <a href="https://masawata.net/privacy-policy.html">Privacy</a>
         <a href="https://masawata.net/">Support</a>
       </nav>
-    </footer>
-  </main>
+    </div>
+  </footer>
 
   <script src="../js/counter.js" defer></script>
 </body>
