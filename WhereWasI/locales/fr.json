@@ -81,6 +81,12 @@
         "icon": "import",
         "title": "Emportez votre historique avec vous",
         "description": "Importez votre Google Maps Timeline, ainsi que les données Moves et Arc Timeline, pour que des années de lieux fassent le voyage avec vous."
+      },
+      {
+        "id": "photos",
+        "icon": "camera",
+        "title": "Check-ins photo",
+        "description": "Transformez les photos que vous prenez en visites. Where was I ? lit l'endroit où chaque photo a été prise pour compléter les lieux où vous êtes allé — ce qui alimente le déverrouillage des puzzles et la découverte des collections. Vos photos ne sont jamais téléchargées ni modifiées."
       }
     ]
   },
@@ -108,6 +114,18 @@
       {
         "question": "Que sont les Collections ?",
         "answer": "Les collections regroupent vos visites en thèmes qui vous intéressent. Suivez votre progression à travers les parcs nationaux des États-Unis, les 100 châteaux japonais célèbres, les pays et les régions, ou créez des collections personnalisées avec vos propres mots-clés — elles se remplissent automatiquement à mesure que vous visitez des lieux correspondants, et vous pouvez partager votre progression."
+      },
+      {
+        "question": "Que sont les check-ins photo ?",
+        "answer": "Les check-ins photo sont des visites créées automatiquement à partir des photos de votre appareil. Chaque fois que vous ouvrez l'app, elle regroupe vos photos par heure et par lieu et associe chaque groupe au lieu enregistré le plus proche. Contrairement aux visites suivies, ils montrent où vous étiez plutôt que combien de temps vous êtes resté — et si vous supprimez une photo, son check-in disparaît tout simplement. Vos photos ne sont jamais téléchargées ni modifiées."
+      },
+      {
+        "question": "Comment accorder ou modifier l'accès aux photos ?",
+        "answer": "Where was I ? utilise votre photothèque pour découvrir des lieux en fonction de l'endroit où vos photos ont été prises — cela alimente les check-ins photo, le déverrouillage des puzzles et la découverte des collections. Pour l'accorder ou le mettre à jour, allez dans Réglages → Confidentialité et sécurité → Where Was I et choisissez Accès complet. L'« Accès limité » n'analyse que les photos que vous sélectionnez, de sorte que certaines visites peuvent être manquées."
+      },
+      {
+        "question": "Pourquoi le lieu de mon check-in photo est-il revenu en arrière après l'avoir réattribué ?",
+        "answer": "Les check-ins photo sont reconstruits à partir de vos photos à chaque lancement de l'app, donc en réattribuer un à un autre lieu peut être réinitialisé au lancement suivant. C'est parce que les check-ins sont régénérés à neuf plutôt qu'enregistrés de façon permanente comme les visites suivies — l'app vous avertit de cela lorsque vous en réattribuez un."
       },
       {
         "question": "Puis-je ajouter ou corriger une visite que l'app a manquée ?",

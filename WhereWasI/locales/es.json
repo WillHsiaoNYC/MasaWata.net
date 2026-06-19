@@ -81,6 +81,12 @@
         "icon": "import",
         "title": "Lleva tu historial contigo",
         "description": "Importa tu Google Maps Timeline, además de los datos de Moves y Arc Timeline, para que años de lugares te acompañen en el camino."
+      },
+      {
+        "id": "photos",
+        "icon": "camera",
+        "title": "Registros con fotos",
+        "description": "Convierte las fotos que tomas en visitas. Where was I ? lee dónde se tomó cada foto para completar los lugares a los que fuiste — impulsando el desbloqueo de rompecabezas y el descubrimiento de colecciones. Tus fotos nunca se suben ni se modifican."
       }
     ]
   },
@@ -108,6 +114,18 @@
       {
         "question": "¿Qué son las Colecciones?",
         "answer": "Las colecciones agrupan tus visitas en temas que te interesan. Sigue tu progreso por los parques nacionales de EE. UU., los 100 castillos japoneses famosos, países y regiones, o crea colecciones personalizadas con tus propias palabras clave — se completan automáticamente a medida que visitas lugares que coinciden, y puedes compartir tu progreso."
+      },
+      {
+        "question": "¿Qué son los registros con fotos?",
+        "answer": "Los registros con fotos son visitas creadas automáticamente a partir de las fotos de tu dispositivo. Cada vez que abres la app, agrupa tus fotos por hora y ubicación y asocia cada grupo al lugar guardado más cercano. A diferencia de las visitas rastreadas, muestran dónde estuviste en lugar de cuánto tiempo te quedaste — y si eliminas una foto, su registro simplemente desaparece. Tus fotos nunca se suben ni se modifican."
+      },
+      {
+        "question": "¿Cómo concedo o cambio el acceso a las fotos?",
+        "answer": "Where was I ? usa tu fototeca para descubrir lugares según dónde se tomaron tus fotos — esto impulsa los registros con fotos, el desbloqueo de rompecabezas y el descubrimiento de colecciones. Para concederlo o actualizarlo, ve a Ajustes → Privacidad y seguridad → Where Was I y elige Acceso completo. El \"Acceso limitado\" solo analiza las fotos que seleccionas, por lo que algunas visitas pueden quedar sin registrar."
+      },
+      {
+        "question": "¿Por qué la ubicación de mi registro con foto volvió a cambiar después de reasignarla?",
+        "answer": "Los registros con fotos se reconstruyen a partir de tus fotos cada vez que se inicia la app, por lo que reasignar uno a otro lugar puede restablecerse en el siguiente inicio. Esto se debe a que los registros se regeneran desde cero en lugar de guardarse de forma permanente como las visitas rastreadas — la app te avisa de esto cuando reasignas uno."
       },
       {
         "question": "¿Puedo añadir o corregir una visita que la app no registró?",

@@ -81,6 +81,12 @@
         "icon": "import",
         "title": "Bawa Riwayat Anda Bersama Anda",
         "description": "Impor Google Maps Timeline Anda, plus data Moves dan Arc Timeline, sehingga tempat-tempat bertahun-tahun ikut serta dalam perjalanan."
+      },
+      {
+        "id": "photos",
+        "icon": "camera",
+        "title": "Check-In Foto",
+        "description": "Ubah foto yang Anda ambil menjadi kunjungan. Where was I ? membaca tempat setiap foto diambil untuk mengisi tempat-tempat yang Anda kunjungi — yang menggerakkan pembukaan teka-teki dan penemuan koleksi. Foto Anda tidak pernah diunggah atau diubah."
       }
     ]
   },
@@ -108,6 +114,18 @@
       {
         "question": "Apa itu Koleksi?",
         "answer": "Koleksi mengelompokkan kunjungan Anda ke dalam tema yang Anda pedulikan. Lacak kemajuan Anda melalui U.S. National Parks, 100 Famous Japanese Castles, negara dan wilayah, atau buat koleksi kustom dengan kata kunci Anda sendiri — mereka terisi otomatis saat Anda mengunjungi tempat yang cocok, dan Anda dapat membagikan kemajuan Anda."
+      },
+      {
+        "question": "Apa itu Check-In Foto?",
+        "answer": "Check-In Foto adalah kunjungan yang dibuat secara otomatis dari foto di perangkat Anda. Setiap kali Anda membuka aplikasi, ia mengelompokkan foto Anda berdasarkan waktu dan lokasi lalu mencocokkan setiap kelompok dengan tempat tersimpan terdekat. Berbeda dengan kunjungan yang dilacak, mereka menunjukkan di mana Anda berada, bukan berapa lama Anda tinggal — dan jika Anda menghapus sebuah foto, check-in-nya langsung menghilang. Foto Anda tidak pernah diunggah atau dimodifikasi."
+      },
+      {
+        "question": "Bagaimana cara memberikan atau mengubah akses foto?",
+        "answer": "Where was I ? menggunakan pustaka foto Anda untuk menemukan tempat berdasarkan lokasi pengambilan foto Anda — ini menggerakkan Check-In Foto, pembukaan teka-teki, dan penemuan koleksi. Untuk memberikan atau memperbaruinya, buka **Pengaturan → Privasi & Keamanan → Where Was I** dan pilih **Akses Penuh**. \"Akses Terbatas\" hanya memindai foto yang Anda pilih, sehingga beberapa kunjungan mungkin terlewat."
+      },
+      {
+        "question": "Mengapa lokasi Check-In Foto saya kembali berubah setelah saya menetapkannya ulang?",
+        "answer": "Check-In Foto dibangun ulang dari foto Anda setiap kali aplikasi diluncurkan, jadi menetapkannya ulang ke tempat yang berbeda mungkin diatur ulang pada peluncuran berikutnya. Itu karena check-in dibuat ulang dari awal alih-alih disimpan permanen seperti kunjungan yang dilacak — aplikasi memperingatkan Anda tentang hal ini saat Anda menetapkannya ulang."
       },
       {
         "question": "Bisakah saya menambahkan atau memperbaiki kunjungan yang terlewat oleh aplikasi?",
