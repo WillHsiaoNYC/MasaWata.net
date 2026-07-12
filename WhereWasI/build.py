@@ -280,6 +280,13 @@ def generate_html(lang, translations):
         "name": "{t['appName']}",
         "operatingSystem": "iOS",
         "applicationCategory": "LifestyleApplication",
+        "sameAs": "https://apps.apple.com/app/id6758056060",
+        "downloadUrl": "https://apps.apple.com/app/id6758056060",
+        "publisher": {{
+            "@type": "Organization",
+            "name": "MasaWata Tech",
+            "url": "https://masawata.net/"
+        }},
         "offers": {{
             "@type": "Offer",
             "price": "0",
