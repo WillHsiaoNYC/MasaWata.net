@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Google tag (gtag.js) -->
@@ -11,35 +10,73 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'G-ZL852HY2Z4');
+    if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+      gtag('config', 'G-ZL852HY2Z4');
+    }
   </script>
+
+  <!-- Primary Meta Tags -->
+  <title>Privacy Policy — MasaWata Tech</title>
+  <meta name="description" content="Privacy policy for MasaWata Tech apps: your data stays on your device. Learn how MasaWata handles your information.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://masawata.net/privacy-policy.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://masawata.net/privacy-policy.html">
+  <meta property="og:title" content="Privacy Policy — MasaWata Tech">
+  <meta property="og:description" content="Your data stays on your device. How MasaWata Tech handles your information.">
+  <meta property="og:site_name" content="MasaWata">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
   <style>
+    :root {
+      --paper: #fcfcfb; --ink: #16181d; --muted: #4b4f57; --hair: #e6e5e1; --accent: #1a2ad0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #0d0e11; --ink: #eceef2; --muted: #b3b8c1; --hair: #23262d; --accent: #93a1ff; }
+    }
+    * { box-sizing: border-box; }
     body {
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 1.25rem 4rem;
+      background: var(--paper);
+      color: var(--ink);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
     }
-    h1, h2 {
-      color: #111;
+    .topbar {
+      display: flex; align-items: center; gap: .55rem;
+      padding: 1.4rem 0;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--hair);
     }
-    a {
-      color: #007AFF;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+    .topbar a { display: inline-flex; align-items: center; gap: .5rem; text-decoration: none; color: var(--muted); font-size: .95rem; font-weight: 560; }
+    .topbar a:hover { color: var(--ink); }
+    .topbar svg { width: 22px; height: 22px; border-radius: 6px; }
+    h1 { font-size: 2rem; letter-spacing: -.02em; margin: .5rem 0 .25rem; }
+    h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; letter-spacing: -.01em; }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); font-size: .95rem; margin-bottom: 1.5rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin: .2rem 0; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>Effective Date:</strong> May 18, 2025</p>
+  <div class="topbar">
+    <a href="/">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#2438f5"/><path d="M7 23V10.5c0-.5.6-.8 1-.4l4.7 5.2c.4.4 1 .4 1.4 0L18.8 10c.4-.4 1-.1 1 .4V23" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="22.4" y="14" width="2.6" height="9" rx="1" fill="#fff" opacity=".9"/></svg>
+      MasaWata
+    </a>
+  </div>
 
-  <p><strong>MasaWata Tech</strong> ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application, <strong>Counter on Me</strong>, available on the Apple App Store.</p>
+  <h1>Privacy Policy</h1>
+  <p class="meta"><strong>Effective Date:</strong> May 18, 2025</p>
+
+  <p><strong>MasaWata Tech</strong> ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile applications, available on the Apple App Store.</p>
 
   <h2>1. Information We Do Not Collect</h2>
   <p>We do <strong>not</strong> collect or store any personal data, including but not limited to:</p>
@@ -54,7 +91,7 @@
   <p>Your data stays on your device and is not transmitted to any server controlled by us or any third party.</p>
 
   <h2>2. Third-Party Services</h2>
-  <p>Our app does <strong>not</strong> use third-party services that may collect information used to identify you. If future versions of the app integrate such services, this policy will be updated accordingly.</p>
+  <p>Our apps do <strong>not</strong> use third-party services that may collect information used to identify you. If future versions of our apps integrate such services, this policy will be updated accordingly.</p>
 
   <h2>3. Children’s Privacy</h2>
   <p>We do not knowingly collect personally identifiable information from children under the age of 13. If we discover that such information has been provided to us without parental consent, we will delete it immediately.</p>
@@ -64,6 +101,6 @@
 
   <h2>5. Contact Us</h2>
   <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-  <p><strong>Email:</strong> fitnessstoryapp@gmail.com</a></p>
+  <p><strong>Email:</strong> <a href="mailto:fitnessstoryapp@gmail.com">fitnessstoryapp@gmail.com</a></p>
 </body>
 </html>

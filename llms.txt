@@ -1,0 +1,27 @@
+# MasaWata
+
+> MasaWata Tech is an independent studio building small, focused apps for iPhone and Apple Watch. Every app does one thing well, works on-device, and collects no personal data — no accounts, no tracking. All apps are free on the Apple App Store.
+
+Each app below has a marketing landing page on this site (localized into many languages under its path, e.g. `/FitnessStory/ja/`) and a listing on the Apple App Store.
+
+## Apps
+
+- [Fitness Story](https://masawata.net/FitnessStory/): Turns Apple Watch and Apple Health workouts into a visual story — trends, personal records, and progress. Category: Health & Fitness. iOS & watchOS. App Store: https://apps.apple.com/app/id6748090363
+- [Ice Time Track](https://masawata.net/IceTimeTrack/): Automatically detects hockey shifts on Apple Watch and logs ice time, goals, and penalties. Category: Sports. iOS & watchOS. App Store: https://apps.apple.com/app/id6758258172
+- [Tally Counter 123](https://masawata.net/TallyCounter123/): A Watch-synced tally counter, clicker, and scorekeeper for reps, rounds, rosary, inventory, and games. Category: Utilities. iOS & watchOS. App Store: https://apps.apple.com/app/id6769252146
+- [Timer on Me](https://masawata.net/TimerOnMe/): Run up to 50 timers and stopwatches at once, with alarms that ring even when the phone is locked (AlarmKit) and Tabata/EMOM modes. Category: Utilities. iOS & watchOS. App Store: https://apps.apple.com/app/id6746874284
+- [Where was I?](https://masawata.net/WhereWasI/): Quietly remembers everywhere you go and turns it into a private timeline, map, and calendar. Everything stays on your device. Category: Travel / Navigation. iOS. App Store: https://apps.apple.com/app/id6758056060
+
+## Site
+
+- [Home](https://masawata.net/): Studio overview and index of all apps.
+- [Privacy Policy](https://masawata.net/privacy-policy.html): Apps keep your data on your device; no personal data is collected.
+- [Sitemap](https://masawata.net/sitemap.xml): XML sitemap index covering every app and language.
+
+## About
+
+- Developer: MasaWata Tech
+- Platforms: iOS and Apple Watch (watchOS)
+- Pricing: Free on the Apple App Store
+- Privacy: On-device; no accounts required; no personal data collected
+- Contact: fitnessstoryapp@gmail.com
