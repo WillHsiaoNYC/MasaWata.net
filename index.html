@@ -1,69 +1,607 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Privacy Policy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+        gtag('config', 'G-ZL852HY2Z4');
+      }
+    </script>
 
-    gtag('config', 'G-ZL852HY2Z4');
-  </script>
-  <style>
-    body {
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
+    <!-- Primary Meta Tags -->
+    <title>MasaWata — Focused apps for iPhone &amp; Apple Watch</title>
+    <meta name="title" content="MasaWata — Focused apps for iPhone &amp; Apple Watch">
+    <meta name="description" content="MasaWata Tech builds small, focused apps for iPhone and Apple Watch that measure, remember, and visualize your day — on-device, with no accounts and no tracking. Fitness Story, Ice Time Track, Tally Counter 123, Timer on Me, and Where was I?">
+    <meta name="keywords" content="MasaWata, MasaWata Tech, iOS apps, Apple Watch apps, indie apps, Fitness Story, Ice Time Track, Tally Counter, Timer on Me, Where was I, privacy-first">
+    <meta name="author" content="MasaWata Tech">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="canonical" href="https://masawata.net/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://masawata.net/">
+    <meta property="og:title" content="MasaWata — Focused apps for iPhone &amp; Apple Watch">
+    <meta property="og:description" content="Small, focused apps that measure, remember, and visualize your day — on-device, no accounts, no tracking.">
+    <meta property="og:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
+    <meta property="og:site_name" content="MasaWata">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="MasaWata — Focused apps for iPhone &amp; Apple Watch">
+    <meta name="twitter:description" content="Small, focused apps that measure, remember, and visualize your day — on-device, no accounts, no tracking.">
+    <meta name="twitter:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="alternate" type="application/llms.txt" href="/llms.txt">
+
+    <style>
+        :root {
+            --paper: #fcfcfb;
+            --surface: #ffffff;
+            --ink: #16181d;
+            --muted: #676c76;
+            --faint: #9aa0aa;
+            --hair: #e6e5e1;
+            --hair-strong: #d6d5d0;
+            --accent: #2438f5;
+            --accent-ink: #1a2ad0;
+            --shadow: 0 1px 2px rgba(20, 24, 40, .04), 0 12px 32px -18px rgba(20, 24, 40, .22);
+            --mono: ui-monospace, "SF Mono", "SFMono-Regular", "JetBrains Mono", "Roboto Mono", Menlo, Consolas, monospace;
+            --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --paper: #0d0e11;
+                --surface: #15171c;
+                --ink: #eceef2;
+                --muted: #9aa0ab;
+                --faint: #6a707b;
+                --hair: #23262d;
+                --hair-strong: #2e323b;
+                --accent: #6a7dff;
+                --accent-ink: #93a1ff;
+                --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 16px 40px -20px rgba(0, 0, 0, .7);
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { -webkit-text-size-adjust: 100%; }
+        body {
+            background: var(--paper);
+            color: var(--ink);
+            font-family: var(--sans);
+            line-height: 1.6;
+            font-size: 17px;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+        a { color: inherit; }
+        img { max-width: 100%; display: block; }
+
+        .wrap {
+            width: 100%;
+            max-width: 1060px;
+            margin-inline: auto;
+            padding-inline: clamp(1.25rem, 5vw, 3rem);
+        }
+
+        .mono {
+            font-family: var(--mono);
+            font-size: .72rem;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+        }
+
+        /* ---------- Header ---------- */
+        .site-header {
+            border-bottom: 1px solid var(--hair);
+            position: sticky;
+            top: 0;
+            background: color-mix(in srgb, var(--paper) 88%, transparent);
+            backdrop-filter: saturate(180%) blur(12px);
+            z-index: 10;
+        }
+        .site-header__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            height: 60px;
+        }
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: .6rem;
+            text-decoration: none;
+            font-weight: 680;
+            letter-spacing: -.01em;
+        }
+        .brand__mark {
+            width: 26px; height: 26px;
+            border-radius: 7px;
+            flex: none;
+        }
+        .brand__name { font-size: 1.02rem; }
+        .site-nav {
+            display: flex;
+            align-items: center;
+            gap: clamp(1rem, 3vw, 1.9rem);
+        }
+        .site-nav a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: .92rem;
+            transition: color .15s ease;
+        }
+        .site-nav a:hover { color: var(--ink); }
+        .site-nav a.is-cta {
+            color: var(--accent-ink);
+            font-weight: 600;
+        }
+
+        /* ---------- Hero ---------- */
+        .hero { padding-top: clamp(3.5rem, 9vw, 6.5rem); padding-bottom: clamp(2.5rem, 6vw, 4rem); }
+        .hero__eyebrow { color: var(--faint); display: block; margin-bottom: 1.4rem; }
+        .hero__title {
+            font-size: clamp(2.35rem, 6.4vw, 4.15rem);
+            line-height: 1.02;
+            letter-spacing: -.03em;
+            font-weight: 700;
+            max-width: 15ch;
+        }
+        .hero__title em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .hero__lead {
+            margin-top: 1.5rem;
+            font-size: clamp(1.05rem, 2.3vw, 1.28rem);
+            color: var(--muted);
+            max-width: 46ch;
+            line-height: 1.55;
+        }
+
+        /* ---------- Signature: measurement rule ---------- */
+        .rule { margin-top: clamp(2.5rem, 6vw, 3.6rem); position: relative; }
+        .rule__scale {
+            height: 26px;
+            border-bottom: 1.5px solid var(--ink);
+            background-image: repeating-linear-gradient(90deg, var(--hair-strong) 0 1px, transparent 1px 14px);
+            background-position: bottom;
+            background-size: 100% 11px;
+            background-repeat: repeat-x;
+            position: relative;
+        }
+        .rule__needle {
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 2px;
+            height: 26px;
+            background: var(--accent);
+            box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 16%, transparent);
+            animation: sweep 1.6s cubic-bezier(.22, 1, .36, 1) both;
+        }
+        .rule__needle::after {
+            content: "";
+            position: absolute;
+            top: -5px; left: -3px;
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+        @keyframes sweep {
+            from { transform: translateX(0); opacity: 0; }
+            60%  { opacity: 1; }
+            to   { transform: translateX(min(340px, 62%)); opacity: 1; }
+        }
+        .rule__caption {
+            margin-top: .9rem;
+            color: var(--faint);
+            display: flex;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .rule__needle { animation: none; transform: translateX(min(340px, 62%)); opacity: 1; }
+        }
+
+        /* ---------- Apps index ---------- */
+        .apps { padding-top: clamp(3rem, 7vw, 5rem); padding-bottom: 2rem; }
+        .apps__head {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
+            padding-bottom: 1.4rem;
+            border-bottom: 1.5px solid var(--ink);
+        }
+        .apps__title { font-size: 1.05rem; font-weight: 650; letter-spacing: -.01em; }
+        .apps__count { color: var(--faint); }
+
+        .index { list-style: none; }
+        .app {
+            display: grid;
+            grid-template-columns: 60px 1fr auto;
+            gap: clamp(1rem, 3vw, 1.9rem);
+            align-items: start;
+            padding: clamp(1.5rem, 3.4vw, 2.1rem) 0;
+            border-bottom: 1px solid var(--hair);
+            position: relative;
+        }
+        .app__icon {
+            width: 60px; height: 60px;
+            border-radius: 14px;
+            border: 1px solid var(--hair);
+            background: var(--surface);
+            box-shadow: var(--shadow);
+        }
+        .app__body { min-width: 0; }
+        .app__cat { color: var(--accent-ink); display: block; margin-bottom: .5rem; }
+        .app__name {
+            font-size: clamp(1.35rem, 3.2vw, 1.7rem);
+            font-weight: 660;
+            letter-spacing: -.02em;
+            line-height: 1.15;
+        }
+        .app__name a { text-decoration: none; }
+        .app__name a::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+        }
+        .app__desc {
+            margin-top: .6rem;
+            color: var(--muted);
+            max-width: 54ch;
+            font-size: 1.02rem;
+        }
+        .app__actions {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: .55rem;
+            position: relative;
+            z-index: 1;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .4rem;
+            text-decoration: none;
+            font-size: .88rem;
+            font-weight: 560;
+            white-space: nowrap;
+            padding: .5rem .85rem;
+            border-radius: 8px;
+            transition: background .15s ease, color .15s ease, border-color .15s ease;
+        }
+        .btn--store {
+            background: var(--ink);
+            color: var(--paper);
+        }
+        .btn--store:hover { background: var(--accent); }
+        .btn--ghost {
+            color: var(--muted);
+            border: 1px solid var(--hair-strong);
+        }
+        .btn--ghost:hover { color: var(--ink); border-color: var(--ink); }
+        .app__arrow {
+            color: var(--faint);
+            font-family: var(--mono);
+            font-size: 1.1rem;
+            transition: transform .2s ease, color .2s ease;
+        }
+        .app:hover .app__arrow { transform: translateX(4px); color: var(--accent); }
+
+        @media (max-width: 680px) {
+            .app { grid-template-columns: 48px 1fr; }
+            .app__icon { width: 48px; height: 48px; border-radius: 11px; }
+            .app__actions {
+                grid-column: 1 / -1;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                margin-top: .35rem;
+            }
+        }
+
+        /* ---------- Footer ---------- */
+        .site-footer {
+            margin-top: clamp(3rem, 7vw, 5rem);
+            border-top: 1.5px solid var(--ink);
+            padding-top: 2.4rem;
+            padding-bottom: 3.5rem;
+        }
+        .site-footer__grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem 3rem;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .site-footer__blurb { max-width: 38ch; color: var(--muted); font-size: .96rem; }
+        .site-footer__blurb strong { color: var(--ink); font-weight: 640; }
+        .foot-links { display: flex; flex-direction: column; gap: .6rem; }
+        .foot-links a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: .94rem;
+            transition: color .15s ease;
+        }
+        .foot-links a:hover { color: var(--ink); }
+        .site-footer__legal {
+            margin-top: 2.4rem;
+            color: var(--faint);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: .5rem;
+        }
+
+        a:focus-visible, .btn:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+            border-radius: 4px;
+        }
+    </style>
+
+    <!-- Structured Data: studio + full app catalog for search engines and AI agents -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://masawata.net/#org",
+                "name": "MasaWata Tech",
+                "alternateName": "MasaWata",
+                "url": "https://masawata.net/",
+                "logo": "https://masawata.net/favicon.svg",
+                "email": "fitnessstoryapp@gmail.com",
+                "description": "Independent studio building focused, privacy-first apps for iPhone and Apple Watch."
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://masawata.net/#website",
+                "url": "https://masawata.net/",
+                "name": "MasaWata",
+                "inLanguage": "en",
+                "publisher": { "@id": "https://masawata.net/#org" }
+            },
+            {
+                "@type": "CollectionPage",
+                "@id": "https://masawata.net/#apps",
+                "url": "https://masawata.net/",
+                "name": "MasaWata apps",
+                "isPartOf": { "@id": "https://masawata.net/#website" },
+                "about": { "@id": "https://masawata.net/#org" },
+                "mainEntity": {
+                    "@type": "ItemList",
+                    "numberOfItems": 5,
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "item": {
+                                "@type": "SoftwareApplication",
+                                "name": "Fitness Story",
+                                "operatingSystem": "iOS, watchOS",
+                                "applicationCategory": "HealthApplication",
+                                "url": "https://masawata.net/FitnessStory/",
+                                "downloadUrl": "https://apps.apple.com/app/id6748090363",
+                                "description": "Turns Apple Watch and Health workouts into a visual story of trends, personal records, and progress.",
+                                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+                                "publisher": { "@id": "https://masawata.net/#org" }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "item": {
+                                "@type": "SoftwareApplication",
+                                "name": "Ice Time Track",
+                                "operatingSystem": "iOS, watchOS",
+                                "applicationCategory": "SportsApplication",
+                                "url": "https://masawata.net/IceTimeTrack/",
+                                "downloadUrl": "https://apps.apple.com/app/id6758258172",
+                                "description": "Automatically detects hockey shifts on Apple Watch and logs ice time, goals, and penalties.",
+                                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+                                "publisher": { "@id": "https://masawata.net/#org" }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "item": {
+                                "@type": "SoftwareApplication",
+                                "name": "Tally Counter 123",
+                                "operatingSystem": "iOS, watchOS",
+                                "applicationCategory": "UtilitiesApplication",
+                                "url": "https://masawata.net/TallyCounter123/",
+                                "downloadUrl": "https://apps.apple.com/app/id6769252146",
+                                "description": "A Watch-synced tally counter and scorekeeper for reps, rounds, inventory, and games.",
+                                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+                                "publisher": { "@id": "https://masawata.net/#org" }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 4,
+                            "item": {
+                                "@type": "SoftwareApplication",
+                                "name": "Timer on Me",
+                                "operatingSystem": "iOS, watchOS",
+                                "applicationCategory": "UtilitiesApplication",
+                                "url": "https://masawata.net/TimerOnMe/",
+                                "downloadUrl": "https://apps.apple.com/app/id6746874284",
+                                "description": "Run up to 50 timers and stopwatches at once, with alarms that ring even when the phone is locked.",
+                                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+                                "publisher": { "@id": "https://masawata.net/#org" }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 5,
+                            "item": {
+                                "@type": "SoftwareApplication",
+                                "name": "Where was I?",
+                                "operatingSystem": "iOS",
+                                "applicationCategory": "TravelApplication",
+                                "url": "https://masawata.net/WhereWasI/",
+                                "downloadUrl": "https://apps.apple.com/app/id6758056060",
+                                "description": "Quietly remembers everywhere you go and turns it into a private timeline, map, and calendar.",
+                                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+                                "publisher": { "@id": "https://masawata.net/#org" }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
     }
-    h1, h2 {
-      color: #111;
-    }
-    a {
-      color: #007AFF;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    </script>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>Effective Date:</strong> May 18, 2025</p>
+    <header class="site-header">
+        <div class="wrap site-header__inner">
+            <a class="brand" href="/" aria-label="MasaWata home">
+                <svg class="brand__mark" viewBox="0 0 32 32" role="img" aria-hidden="true">
+                    <rect width="32" height="32" rx="8" fill="#2438f5"/>
+                    <path d="M7 23V10.5c0-.5.6-.8 1-.4l4.7 5.2c.4.4 1 .4 1.4 0L18.8 10c.4-.4 1-.1 1 .4V23" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <rect x="22.4" y="14" width="2.6" height="9" rx="1" fill="#fff" opacity=".9"/>
+                </svg>
+                <span class="brand__name">MasaWata</span>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="/privacy-policy.html">Privacy</a>
+                <a class="is-cta" href="#apps">Get the apps</a>
+            </nav>
+        </div>
+    </header>
 
-  <p><strong>MasaWata Tech</strong> ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application, <strong>Counter on Me</strong>, available on the Apple App Store.</p>
+    <main>
+        <section class="hero">
+            <div class="wrap">
+                <span class="mono hero__eyebrow">MasaWata Tech · Independent apps</span>
+                <h1 class="hero__title">Small, sharp apps for iPhone and <em>Apple&nbsp;Watch</em>.</h1>
+                <p class="hero__lead">Focused tools that measure, remember, and show you your day — on-device, with no accounts and nothing tracked.</p>
 
-  <h2>1. Information We Do Not Collect</h2>
-  <p>We do <strong>not</strong> collect or store any personal data, including but not limited to:</p>
-  <ul>
-    <li>Names</li>
-    <li>Email addresses</li>
-    <li>Phone numbers</li>
-    <li>Location data</li>
-    <li>Usage data</li>
-    <li>Diagnostics or analytics data</li>
-  </ul>
-  <p>Your data stays on your device and is not transmitted to any server controlled by us or any third party.</p>
+                <div class="rule">
+                    <div class="rule__scale" aria-hidden="true">
+                        <span class="rule__needle"></span>
+                    </div>
+                    <div class="mono rule__caption">
+                        <span>5 apps</span>
+                        <span>iOS &amp; watchOS</span>
+                        <span>On-device · Private</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <h2>2. Third-Party Services</h2>
-  <p>Our app does <strong>not</strong> use third-party services that may collect information used to identify you. If future versions of the app integrate such services, this policy will be updated accordingly.</p>
+        <section class="apps" id="apps">
+            <div class="wrap">
+                <div class="apps__head">
+                    <h2 class="apps__title">The apps</h2>
+                    <span class="mono apps__count">Index · 05</span>
+                </div>
 
-  <h2>3. Children’s Privacy</h2>
-  <p>We do not knowingly collect personally identifiable information from children under the age of 13. If we discover that such information has been provided to us without parental consent, we will delete it immediately.</p>
+                <ul class="index">
+                    <li class="app">
+                        <img class="app__icon" src="/FitnessStory/images/Fitness%20Story.png" alt="Fitness Story app icon" width="60" height="60">
+                        <div class="app__body">
+                            <span class="mono app__cat">Health</span>
+                            <h3 class="app__name"><a href="/FitnessStory/">Fitness Story</a></h3>
+                            <p class="app__desc">Turns your Apple Watch and Health workouts into a visual story — trends, personal records, and progress you can actually see.</p>
+                        </div>
+                        <div class="app__actions">
+                            <a class="btn btn--store" href="https://apps.apple.com/app/id6748090363" target="_blank" rel="noopener">App Store</a>
+                            <span class="app__arrow" aria-hidden="true">→</span>
+                        </div>
+                    </li>
 
-  <h2>4. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We encourage you to review this page periodically for any changes. Updates are effective immediately upon posting to this page.</p>
+                    <li class="app">
+                        <img class="app__icon" src="/IceTimeTrack/images/app-icon.png" alt="Ice Time Track app icon" width="60" height="60">
+                        <div class="app__body">
+                            <span class="mono app__cat">Hockey</span>
+                            <h3 class="app__name"><a href="/IceTimeTrack/">Ice Time Track</a></h3>
+                            <p class="app__desc">Detects your hockey shifts automatically on Apple Watch, then logs ice time, goals, and penalties for the whole game.</p>
+                        </div>
+                        <div class="app__actions">
+                            <a class="btn btn--store" href="https://apps.apple.com/app/id6758258172" target="_blank" rel="noopener">App Store</a>
+                            <span class="app__arrow" aria-hidden="true">→</span>
+                        </div>
+                    </li>
 
-  <h2>5. Contact Us</h2>
-  <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-  <p><strong>Email:</strong> fitnessstoryapp@gmail.com</a></p>
+                    <li class="app">
+                        <img class="app__icon" src="/TallyCounter123/images/icon-512.png" alt="Tally Counter 123 app icon" width="60" height="60">
+                        <div class="app__body">
+                            <span class="mono app__cat">Counter</span>
+                            <h3 class="app__name"><a href="/TallyCounter123/">Tally Counter 123</a></h3>
+                            <p class="app__desc">A Watch-synced tally counter and scorekeeper for reps, rounds, rosary, inventory, and games.</p>
+                        </div>
+                        <div class="app__actions">
+                            <a class="btn btn--store" href="https://apps.apple.com/app/id6769252146" target="_blank" rel="noopener">App Store</a>
+                            <span class="app__arrow" aria-hidden="true">→</span>
+                        </div>
+                    </li>
+
+                    <li class="app">
+                        <img class="app__icon" src="/TimerOnMe/images/TimerOnMe.png" alt="Timer on Me app icon" width="60" height="60">
+                        <div class="app__body">
+                            <span class="mono app__cat">Timers</span>
+                            <h3 class="app__name"><a href="/TimerOnMe/">Timer on Me</a></h3>
+                            <p class="app__desc">Run up to 50 timers and stopwatches at once — with alarms that still ring when your phone is locked.</p>
+                        </div>
+                        <div class="app__actions">
+                            <a class="btn btn--store" href="https://apps.apple.com/app/id6746874284" target="_blank" rel="noopener">App Store</a>
+                            <span class="app__arrow" aria-hidden="true">→</span>
+                        </div>
+                    </li>
+
+                    <li class="app">
+                        <img class="app__icon" src="/WhereWasI/images/WhereWasI.png" alt="Where was I? app icon" width="60" height="60">
+                        <div class="app__body">
+                            <span class="mono app__cat">Location</span>
+                            <h3 class="app__name"><a href="/WhereWasI/">Where was I?</a></h3>
+                            <p class="app__desc">Quietly remembers everywhere you go and turns it into a private timeline, map, and calendar. Nothing leaves your phone.</p>
+                        </div>
+                        <div class="app__actions">
+                            <a class="btn btn--store" href="https://apps.apple.com/app/id6758056060" target="_blank" rel="noopener">App Store</a>
+                            <span class="app__arrow" aria-hidden="true">→</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="site-footer__grid">
+                <p class="site-footer__blurb"><strong>MasaWata Tech</strong> — independent apps for the Apple ecosystem. Every app does one thing well and keeps your data on your device.</p>
+                <nav class="foot-links" aria-label="Footer">
+                    <a href="#apps">All apps</a>
+                    <a href="/privacy-policy.html">Privacy Policy</a>
+                    <a href="mailto:fitnessstoryapp@gmail.com">fitnessstoryapp@gmail.com</a>
+                </nav>
+            </div>
+            <div class="mono site-footer__legal">
+                <span>© 2026 MasaWata Tech</span>
+                <span>No accounts · No tracking · On-device</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
