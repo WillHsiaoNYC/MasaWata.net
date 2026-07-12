@@ -184,6 +184,13 @@ def generate_html(lang, translations):
         "name": "{t['appName']}",
         "operatingSystem": "iOS, watchOS",
         "applicationCategory": "SportsApplication",
+        "sameAs": "https://apps.apple.com/app/id6758258172",
+        "downloadUrl": "https://apps.apple.com/app/id6758258172",
+        "publisher": {{
+            "@type": "Organization",
+            "name": "MasaWata Tech",
+            "url": "https://masawata.net/"
+        }},
         "offers": {{
             "@type": "Offer",
             "price": "0",
