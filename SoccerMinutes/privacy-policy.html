@@ -41,7 +41,7 @@
         "@type": "WebPage",
         "name": "Soccer Time Track Privacy Policy",
         "url": "https://masawata.net/SoccerMinutes/privacy-policy.html",
-        "dateModified": "2026-07-17",
+        "dateModified": "2026-07-18",
         "about": {
             "@type": "SoftwareApplication",
             "name": "Soccer Time Track",
@@ -83,7 +83,7 @@
                 <p class="eyebrow">Privacy policy</p>
                 <h1>Your data. Your game.</h1>
                 <p class="subpage__intro">This policy explains what Soccer Time Track processes, why it needs that information, where it is stored, how Apple services are involved, and the controls available to you.</p>
-                <p class="subpage__meta">Effective July 17, 2026 · Soccer Time Track for iPhone and Apple Watch</p>
+                <p class="subpage__meta">Effective July 18, 2026 · Soccer Time Track for iPhone and Apple Watch</p>
             </header>
 
             <div class="legal-layout">
@@ -106,7 +106,7 @@
 
                 <article class="legal-content">
                     <section id="summary">
-                        <div class="notice"><strong>In short:</strong> Soccer Time Track has no developer account system, no advertising, and no third-party analytics inside the app. Match and performance data is processed for app features on your devices. If iCloud Sync is enabled, app records are also stored in your private iCloud database. This website uses Google Analytics, described separately below.</div>
+                        <div class="notice"><strong>In short:</strong> Soccer Time Track has no developer account system, no advertising, and no third-party analytics inside the app. Match and performance data is processed for app features on your devices. When iCloud Sync is on, app records are sent to and retained in your private iCloud database. This website uses Google Analytics, described separately below.</div>
                     </section>
 
                     <section id="scope">
@@ -171,7 +171,14 @@
                         <p>Soccer Time Track stores its session records in app storage on your devices. During normal operation, the Watch app sends live and completed session information to the paired iPhone using Apple’s device communication frameworks.</p>
 
                         <h3>Private iCloud database</h3>
-                        <p>If iCloud Sync is enabled, including when it remains enabled in the app’s Settings, app records are synchronized through Apple CloudKit to the private iCloud database associated with your Apple Account. These records may include session details, match events, location details, and derived performance metrics. iCloud availability, security, retention, and account controls are also subject to Apple’s terms and settings.</p>
+                        <p>iCloud Sync is enabled by default and can be turned off in the app’s Settings. While it is on, the app sends records through Apple CloudKit to the private iCloud database associated with your Apple Account. Depending on the session and permissions, synchronized records may include:</p>
+                        <ul>
+                            <li>Session dates, times, type, field and sideline periods, team, jersey number, opponent, notes, and match events.</li>
+                            <li>Precise session coordinates, venue name, and venue address.</li>
+                            <li>Heart-rate readings and summaries, active energy or calorie totals, walking or running distance, and an identifier connecting the app session with its Apple Health workout.</li>
+                            <li>Speed, acceleration, step cadence, sprint and burst events, and related performance summaries.</li>
+                        </ul>
+                        <p>The app synchronizes copied values and app records rather than the underlying Apple Health database. iCloud availability, security, retention, and account controls are also subject to Apple’s terms and settings.</p>
 
                         <h3>No separate Soccer Time Track backend</h3>
                         <p>Soccer Time Track does not require a developer account and MasaWata does not operate a separate app backend that receives your session history. We do not build an advertising or analytics profile from app session data.</p>
@@ -276,7 +283,7 @@
             </div>
             <div class="footer__legal">
                 <span>© 2026 MasaWata Tech</span>
-                <span>Effective July 17, 2026</span>
+                <span>Effective July 18, 2026</span>
             </div>
         </div>
     </footer>

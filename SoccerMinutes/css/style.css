@@ -886,7 +886,7 @@ a {
 
 .gallery {
     display: grid;
-    grid-auto-columns: min(330px, 78vw);
+    grid-auto-columns: clamp(190px, 17vw, 244px);
     grid-auto-flow: column;
     gap: 18px;
     padding: 8px max(20px, calc((100vw - var(--container)) / 2)) 34px;
@@ -899,15 +899,20 @@ a {
 }
 
 .gallery figure {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     scroll-snap-align: start;
 }
 
 .gallery img {
     width: 100%;
+    height: auto;
+    aspect-ratio: 660 / 1434;
     border: 1px solid var(--line);
     border-radius: 20px;
     box-shadow: 0 24px 54px rgba(0, 0, 0, 0.32);
+    object-fit: contain;
 }
 
 .gallery figcaption {
