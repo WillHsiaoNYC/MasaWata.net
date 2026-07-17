@@ -2,7 +2,7 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
         <loc>https://masawata.net/pages.xml</loc>
-        <lastmod>2026-07-12</lastmod>
+        <lastmod>2026-07-17</lastmod>
     </sitemap>
     <sitemap>
         <loc>https://masawata.net/FitnessStory/sitemap.xml</loc>
@@ -11,6 +11,10 @@
     <sitemap>
         <loc>https://masawata.net/IceTimeTrack/sitemap.xml</loc>
         <lastmod>2026-02-08</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://masawata.net/SoccerMinutes/sitemap.xml</loc>
+        <lastmod>2026-07-17</lastmod>
     </sitemap>
     <sitemap>
         <loc>https://masawata.net/WhereWasI/sitemap.xml</loc>
