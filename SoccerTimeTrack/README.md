@@ -2,16 +2,16 @@
 
 Static, English-first product site published at:
 
-- `https://masawata.net/SoccerMinutes/`
-- `https://masawata.net/SoccerMinutes/support.html`
-- `https://masawata.net/SoccerMinutes/privacy-policy.html`
+- `https://masawata.net/SoccerTimeTrack/`
+- `https://masawata.net/SoccerTimeTrack/support.html`
+- `https://masawata.net/SoccerTimeTrack/privacy-policy.html`
 
-There is no build step. Serve the repository root with any static HTTP server for local review. Keep the canonical product name **Soccer Time Track** even though the established public path is `/SoccerMinutes/`.
+There is no build step. Serve the repository root with any static HTTP server for local review. The legacy `/SoccerMinutes/` endpoints redirect to these canonical pages so existing App Store links remain valid during migration.
 
 Run the no-dependency source checks with:
 
 ```bash
-ruby SoccerMinutes/validate.rb
+ruby SoccerTimeTrack/validate.rb
 ```
 
 ## Source assets

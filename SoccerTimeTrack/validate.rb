@@ -7,7 +7,14 @@ require "uri"
 
 site_root = Pathname.new(__dir__)
 repository_root = site_root.parent
-pages = %w[index.html support.html privacy-policy.html].map { |name| site_root.join(name) }
+canonical_pages = %w[index.html support.html privacy-policy.html].map { |name| site_root.join(name) }
+legacy_root = repository_root.join("SoccerMinutes")
+redirects = {
+  legacy_root.join("index.html") => "https://masawata.net/SoccerTimeTrack/",
+  legacy_root.join("support.html") => "https://masawata.net/SoccerTimeTrack/support.html",
+  legacy_root.join("privacy-policy.html") => "https://masawata.net/SoccerTimeTrack/privacy-policy.html"
+}
+pages = canonical_pages + redirects.keys
 pages << repository_root.join("index.html")
 errors = []
 
@@ -52,6 +59,14 @@ pages.each do |page|
   end
 end
 
+redirects.each do |page, target|
+  html = page.read
+  relative_name = page.relative_path_from(repository_root)
+  errors << "#{relative_name}: missing canonical target #{target}" unless html.include?(%(<link rel="canonical" href="#{target}">))
+  errors << "#{relative_name}: missing redirect target #{target}" unless html.include?(%(url=#{target}))
+  errors << "#{relative_name}: legacy redirect must be noindex" unless html.include?(%(<meta name="robots" content="noindex,follow">))
+end
+
 %w[sitemap.xml].each do |name|
   path = site_root.join(name)
   begin
@@ -62,7 +77,7 @@ end
 end
 
 if errors.empty?
-  puts "Validated #{pages.length} product and catalog pages, local links, images, anchors, JSON-LD, and sitemap XML."
+  puts "Validated #{pages.length} product, redirect, and catalog pages, local links, images, anchors, JSON-LD, and sitemap XML."
 else
   warn errors.join("\n")
   exit 1

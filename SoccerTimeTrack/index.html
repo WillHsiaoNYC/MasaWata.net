@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+        gtag('config', 'G-ZL852HY2Z4');
+      }
+    </script>
+
+    <title>Soccer Time Track — Field Time &amp; Match Analytics</title>
+    <meta name="title" content="Soccer Time Track — Field Time &amp; Match Analytics">
+    <meta name="description" content="Track field time automatically on Apple Watch. Review distance, sprints, heart rate, match events, live metrics, and progress on iPhone.">
+    <meta name="keywords" content="soccer tracker, football tracker, Apple Watch soccer, field time, match analytics, sprint tracking, player stats, soccer workout">
+    <meta name="author" content="MasaWata Tech">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="canonical" href="https://masawata.net/SoccerTimeTrack/">
+    <link rel="alternate" hreflang="en" href="https://masawata.net/SoccerTimeTrack/">
+    <link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://masawata.net/SoccerTimeTrack/">
+    <meta property="og:title" content="Soccer Time Track — See Your Game Differently">
+    <meta property="og:description" content="Automatic field time, sprint analysis, live metrics, and the story behind every score — from Apple Watch to iPhone.">
+    <meta property="og:image" content="https://masawata.net/SoccerTimeTrack/images/og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="See your game differently with Soccer Time Track">
+    <meta property="og:site_name" content="Soccer Time Track">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Soccer Time Track — See Your Game Differently">
+    <meta name="twitter:description" content="Automatic field time, sprint analysis, live metrics, and the story behind every score.">
+    <meta name="twitter:image" content="https://masawata.net/SoccerTimeTrack/images/og.jpg">
+    <meta name="twitter:image:alt" content="See your game differently with Soccer Time Track">
+
+    <meta name="apple-itunes-app" content="app-id=6791397600">
+    <link rel="icon" type="image/png" href="images/app-icon.png">
+    <link rel="apple-touch-icon" href="images/app-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700;1,800&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "SoftwareApplication",
+                "@id": "https://masawata.net/SoccerTimeTrack/#app",
+                "name": "Soccer Time Track",
+                "alternateName": "SoccerTrack",
+                "operatingSystem": "iOS, watchOS",
+                "applicationCategory": "SportsApplication",
+                "url": "https://masawata.net/SoccerTimeTrack/",
+                "sameAs": "https://apps.apple.com/app/id6791397600",
+                "image": "https://masawata.net/SoccerTimeTrack/images/app-icon.png",
+                "description": "Soccer Time Track uses Apple Watch to detect field time and track soccer performance, match events, and progress on iPhone.",
+                "featureList": [
+                    "Automatic playing, low-activity, and sideline detection",
+                    "Field time and stint tracking",
+                    "Distance, speed, sprint, burst, heart-rate, and calorie metrics",
+                    "Goals, assists, cards, substitutions, and period event logging",
+                    "Live iPhone session metrics",
+                    "Session history, trends, personal records, and data export"
+                ],
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "MasaWata Tech",
+                    "url": "https://masawata.net/"
+                }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://masawata.net/SoccerTimeTrack/#webpage",
+                "url": "https://masawata.net/SoccerTimeTrack/",
+                "name": "Soccer Time Track — Field Time & Match Analytics",
+                "mainEntity": { "@id": "https://masawata.net/SoccerTimeTrack/#app" },
+                "isPartOf": {
+                    "@type": "WebSite",
+                    "url": "https://masawata.net/",
+                    "name": "MasaWata"
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="site-header">
+        <nav class="nav container" id="nav" aria-label="Primary navigation">
+            <a class="brand" href="./" aria-label="Soccer Time Track home">
+                <img src="images/app-icon.png" alt="" width="42" height="42">
+                <span>Soccer Time Track</span>
+            </a>
+
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#how">How it works</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screens</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a class="nav__cta" href="#launch">Coming soon</a></li>
+            </ul>
+
+            <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <div class="hero__grid container">
+                <div class="hero__copy">
+                    <p class="eyebrow">Soccer · Apple Watch + iPhone</p>
+                    <h1>See your game <span>differently.</span></h1>
+                    <p class="hero__lead">Start a session on Apple Watch, then play. Soccer Time Track separates field time from sideline time and turns every match into performance data you can actually use.</p>
+
+                    <div class="hero__actions">
+                        <a class="button button--primary" href="#how">See how it works</a>
+                        <a class="button button--secondary" href="#screenshots">Explore the app</a>
+                        <span class="release-status">App Store launch in preparation</span>
+                    </div>
+
+                    <ul class="hero__proof" aria-label="Product highlights">
+                        <li>No app account</li>
+                        <li>No ads</li>
+                        <li>Private iCloud sync</li>
+                    </ul>
+                </div>
+
+                <div class="hero__visual">
+                    <img src="images/hero-watch.jpg" alt="Soccer Time Track on Apple Watch during a live match, with controls for logging match events" width="900" height="1956" fetchpriority="high">
+                    <div class="hero__readout" aria-label="Example live session metrics">
+                        <div><strong>69:00</strong><span>Field time</span></div>
+                        <div><strong>12</strong><span>Sprints</span></div>
+                        <div><strong>5.4 km</strong><span>Distance</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="signal-strip" aria-label="Core capabilities">
+            <div class="signal-strip__grid container">
+                <div class="signal"><span class="signal__value">Automatic</span><span class="signal__label">Field-time detection</span></div>
+                <div class="signal"><span class="signal__value">Live</span><span class="signal__label">Phone + Watch metrics</span></div>
+                <div class="signal"><span class="signal__value">Complete</span><span class="signal__label">Match event log</span></div>
+                <div class="signal"><span class="signal__value">Private</span><span class="signal__label">Your data, your devices</span></div>
+            </div>
+        </section>
+
+        <section class="intro">
+            <div class="intro__grid container">
+                <div>
+                    <p class="eyebrow">Beyond the final score</p>
+                    <h2 class="section-heading">The match has <span>more to say.</span></h2>
+                </div>
+                <p class="intro__copy">The scoreboard remembers one result. Soccer Time Track remembers <strong>how you got there</strong> — your minutes on the field, the moments you exploded into space, the events that changed the game, and the progress that appears over time.</p>
+            </div>
+        </section>
+
+        <section class="poster" aria-label="Soccer Time Track product overview">
+            <div class="poster__frame container">
+                <img src="images/poster-left.jpg" alt="Soccer Time Track highlights: automatic field time, sprint and burst analysis, match and personal stats" width="660" height="1434" loading="lazy">
+                <img src="images/poster-right.jpg" alt="Soccer Time Track dashboard shown on iPhone" width="660" height="1434" loading="lazy">
+            </div>
+        </section>
+
+        <section class="how" id="how">
+            <div class="container">
+                <div class="how__header">
+                    <div>
+                        <p class="eyebrow">Three simple moves</p>
+                        <h2 class="section-heading">Start. Play. <span>Review.</span></h2>
+                    </div>
+                    <p class="section-lead">The tracking happens in the background so your attention stays where it belongs: on the match.</p>
+                </div>
+
+                <ol class="steps">
+                    <li class="step">
+                        <span class="step__number">01</span>
+                        <h3>Start on your wrist</h3>
+                        <p>Choose Match, Practice, Friendly, or Other on Apple Watch and begin the session.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step__number">02</span>
+                        <h3>Play without tapping</h3>
+                        <p>Motion, cadence, and GPS speed help classify playing, low-activity, and sideline time automatically.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step__number">03</span>
+                        <h3>See the whole story</h3>
+                        <p>Review your session, match events, trends, and personal records on iPhone after the whistle.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <div class="features__header">
+                    <div>
+                        <p class="eyebrow">Your game, measured</p>
+                        <h2 class="section-heading">Every phase. <span>Every effort.</span></h2>
+                    </div>
+                    <p class="section-lead">A match-day system built around the way players move, compete, and improve.</p>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="feature-card feature-card--wide">
+                        <span class="feature-card__tag">Automatic field time</span>
+                        <h3>Know when you were in it.</h3>
+                        <p>See playing, low-activity, and sideline periods as a clear timeline, with every stint measured from start to finish.</p>
+                        <div class="state-meter" aria-label="Example session timeline"><span></span><span></span><span></span></div>
+                    </article>
+
+                    <article class="feature-card feature-card--narrow">
+                        <span class="feature-card__tag">Performance</span>
+                        <h3>Effort you can see.</h3>
+                        <p>Track distance, speed, heart rate, active calories, cadence, acceleration, sprints, and high-intensity bursts.</p>
+                        <div class="mini-stats" aria-hidden="true">
+                            <div class="mini-stat"><strong>25.6 km/h</strong><span>Top speed</span></div>
+                            <div class="mini-stat"><strong>18</strong><span>Bursts</span></div>
+                            <div class="mini-stat"><strong>158 bpm</strong><span>Heart rate</span></div>
+                            <div class="mini-stat"><strong>5.4 km</strong><span>Distance</span></div>
+                        </div>
+                    </article>
+
+                    <article class="feature-card feature-card--narrow">
+                        <span class="feature-card__tag">Match events</span>
+                        <h3>The story behind the score.</h3>
+                        <p>Log goals for and against, your goals and assists, yellow and red cards, substitutions, and period markers from your wrist.</p>
+                        <div class="scoreline" aria-hidden="true"><span>METRO FC</span><strong>2–1</strong><span>NORTHSIDE</span></div>
+                    </article>
+
+                    <article class="feature-card feature-card--wide">
+                        <span class="feature-card__tag">Live session</span>
+                        <h3>Live data. Full focus.</h3>
+                        <p>A paired iPhone can display the active state and live performance metrics while Apple Watch keeps your workout running.</p>
+                        <div class="sparkbars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+                    </article>
+
+                    <article class="feature-card feature-card--half">
+                        <span class="feature-card__tag">History + analysis</span>
+                        <h3>See your progress.</h3>
+                        <p>Compare matches and practices, explore trends, and surface personal records across your growing session history.</p>
+                    </article>
+
+                    <article class="feature-card feature-card--half">
+                        <span class="feature-card__tag">Built around your game</span>
+                        <h3>Tune the detection.</h3>
+                        <p>Adjust sensitivity, haptic alerts, activity thresholds, teams, jersey numbers, and session behavior to fit how you play.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="privacy-band">
+            <div class="privacy-band__grid container">
+                <div>
+                    <p class="eyebrow">Privacy is part of the product</p>
+                    <h2 class="section-heading">Your data. <span>Your game.</span></h2>
+                    <p class="section-lead">No Soccer Time Track account, no advertising, and no third-party analytics inside the app.</p>
+                    <div class="hero__actions">
+                        <a class="button button--secondary" href="privacy-policy.html">Read the privacy policy</a>
+                    </div>
+                </div>
+                <ul class="privacy-points">
+                    <li>Sessions are stored on your devices</li>
+                    <li>Optional sync uses your private iCloud database</li>
+                    <li>Apple Health access is controlled by you</li>
+                    <li>CSV and JSON exports happen only when you choose</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="screenshots" id="screenshots">
+            <div class="screenshots__header container">
+                <div>
+                    <p class="eyebrow">Inside the app</p>
+                    <h2 class="section-heading">From kickoff to <span>full analysis.</span></h2>
+                </div>
+                <div class="gallery-controls" aria-label="Screenshot gallery controls">
+                    <button class="gallery-button" id="gallery-prev" type="button" aria-label="Previous screenshot">←</button>
+                    <button class="gallery-button" id="gallery-next" type="button" aria-label="Next screenshot">→</button>
+                </div>
+            </div>
+
+            <div class="gallery" id="gallery" tabindex="0" aria-label="Soccer Time Track screenshots">
+                <figure><img src="images/screenshots/03-watch-match.jpg" alt="Apple Watch live session and match event controls" width="660" height="1434" loading="lazy"><figcaption>Match day on your wrist</figcaption></figure>
+                <figure><img src="images/screenshots/04-dashboard.jpg" alt="Soccer Time Track iPhone dashboard with calendar and monthly totals" width="660" height="1434" loading="lazy"><figcaption>Own every session</figcaption></figure>
+                <figure><img src="images/screenshots/05-session-detail.jpg" alt="Session details with field time, sprints, distance, and stint timeline" width="660" height="1434" loading="lazy"><figcaption>Every detail, in play</figcaption></figure>
+                <figure><img src="images/screenshots/06-performance-analysis.jpg" alt="Performance analysis with recent trends and cumulative statistics" width="660" height="1434" loading="lazy"><figcaption>See your progress</figcaption></figure>
+                <figure><img src="images/screenshots/07-game-stats.jpg" alt="Game statistics showing record, goals, assists, and match log" width="660" height="1434" loading="lazy"><figcaption>The story behind the score</figcaption></figure>
+                <figure><img src="images/screenshots/08-live-session.jpg" alt="Live iPhone session with playing state and real-time sensor metrics" width="660" height="1434" loading="lazy"><figcaption>Live data, full focus</figcaption></figure>
+                <figure><img src="images/screenshots/09-settings.jpg" alt="Settings for teams, automatic session ending, detection sensitivity, and haptics" width="660" height="1434" loading="lazy"><figcaption>Tune it to your game</figcaption></figure>
+                <figure><img src="images/screenshots/10-welcome.jpg" alt="Soccer Time Track welcome screen summarizing automatic tracking and Apple Health integration" width="660" height="1434" loading="lazy"><figcaption>Your game, measured</figcaption></figure>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="faq__header">
+                    <div>
+                        <p class="eyebrow">Questions, answered</p>
+                        <h2 class="section-heading">Before the <span>first whistle.</span></h2>
+                    </div>
+                    <p class="section-lead">The essentials about hardware, detection, Apple Health, privacy, and your session data.</p>
+                </div>
+
+                <div class="faq__list">
+                    <article class="faq__item">
+                        <h3><button class="faq__question" type="button" aria-expanded="false"><span>Do I need an Apple Watch?</span><span class="faq__symbol" aria-hidden="true">+</span></button></h3>
+                        <div class="faq__answer"><div><p>Automatic field-time detection and live workout metrics require Apple Watch. You can still add and manage manual sessions on iPhone.</p></div></div>
+                    </article>
+                    <article class="faq__item">
+                        <h3><button class="faq__question" type="button" aria-expanded="false"><span>How does automatic field-time detection work?</span><span class="faq__symbol" aria-hidden="true">+</span></button></h3>
+                        <div class="faq__answer"><div><p>During a session, motion, step cadence, and GPS speed help classify your activity as Playing, Low Activity, or Sideline. Detection is an estimate and can be tuned in Settings for different playing styles and conditions.</p></div></div>
+                    </article>
+                    <article class="faq__item">
+                        <h3><button class="faq__question" type="button" aria-expanded="false"><span>Does my iPhone need to stay nearby?</span><span class="faq__symbol" aria-hidden="true">+</span></button></h3>
+                        <div class="faq__answer"><div><p>Apple Watch records the session on your wrist. A nearby paired iPhone is needed to see the live companion view, but the completed session transfers when connectivity is available.</p></div></div>
+                    </article>
+                    <article class="faq__item">
+                        <h3><button class="faq__question" type="button" aria-expanded="false"><span>What does Soccer Time Track save to Apple Health?</span><span class="faq__symbol" aria-hidden="true">+</span></button></h3>
+                        <div class="faq__answer"><div><p>With your permission, the app can save a completed soccer workout and use heart rate, active energy, and walking/running distance to build your session insights. You control Health access in Apple’s Settings and Health apps.</p></div></div>
+                    </article>
+                    <article class="faq__item">
+                        <h3><button class="faq__question" type="button" aria-expanded="false"><span>Where is my data stored?</span><span class="faq__symbol" aria-hidden="true">+</span></button></h3>
+                        <div class="faq__answer"><div><p>Sessions are stored on your devices. If iCloud Sync is enabled, records are also stored in your private iCloud database so they can stay in sync. Soccer Time Track has no developer account system or advertising profile.</p></div></div>
+                    </article>
+                    <article class="faq__item">
+                        <h3><button class="faq__question" type="button" aria-expanded="false"><span>Can I export or delete my sessions?</span><span class="faq__symbol" aria-hidden="true">+</span></button></h3>
+                        <div class="faq__answer"><div><p>Yes. Export sessions, stints, and match events as CSV or JSON. Delete individual sessions or all sessions from Settings; linked Apple Health workouts can also be removed when you choose that option.</p></div></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="support-callout">
+            <div class="support-callout__panel container">
+                <div>
+                    <h2>Need a hand before match day?</h2>
+                    <p>Setup guidance, permission checks, sync help, and direct support are all in one place.</p>
+                </div>
+                <a class="button button--primary" href="support.html">Visit support</a>
+            </div>
+        </section>
+
+        <section class="final-cta" id="launch">
+            <div class="final-cta__panel container">
+                <div>
+                    <p class="eyebrow">Launching on the App Store</p>
+                    <h2>Stop guessing. Start seeing your game.</h2>
+                    <p>The first release of Soccer Time Track is being prepared now for iPhone and Apple Watch.</p>
+                </div>
+                <span class="release-status">Coming soon</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="images/app-icon.png" alt="" width="38" height="38" loading="lazy">
+                    <div><strong>Soccer Time Track</strong><span>By MasaWata Tech</span></div>
+                </div>
+                <nav class="footer__links" aria-label="Footer navigation">
+                    <a href="./">Product</a>
+                    <a href="support.html">Support</a>
+                    <a href="privacy-policy.html">Privacy</a>
+                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms</a>
+                    <a href="https://masawata.net/">MasaWata</a>
+                </nav>
+            </div>
+            <div class="footer__legal">
+                <span>© 2026 MasaWata.net</span>
+                <span>Apple, Apple Watch, iPhone, iCloud, and Apple Health are trademarks of Apple Inc.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
