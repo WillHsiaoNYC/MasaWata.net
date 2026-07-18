@@ -18,7 +18,8 @@ masawata.net/
 ├── .well-known/            → apple-app-site-association (universal links)
 ├── FitnessStory/           → masawata.net/FitnessStory/    (build.py, [lang]/, sitemap.xml)
 ├── IceTimeTrack/           → masawata.net/IceTimeTrack/
-├── SoccerMinutes/          → masawata.net/SoccerMinutes/  (Soccer Time Track)
+├── SoccerTimeTrack/        → masawata.net/SoccerTimeTrack/  (Soccer Time Track)
+├── SoccerMinutes/          → legacy redirects to SoccerTimeTrack/
 ├── TallyCounter123/        → masawata.net/TallyCounter123/
 ├── TimerOnMe/              → masawata.net/TimerOnMe/
 └── WhereWasI/              → masawata.net/WhereWasI/
@@ -29,10 +30,11 @@ Each app directory is a self-contained marketing site. Most established multi-la
 ## Sites
 
 - **Home** (`/`): Studio hub — links to every app, with `Organization` / `WebSite` / `ItemList` structured data.
-- **Privacy Policy** (`/privacy-policy.html`): Shared privacy information for apps without a dedicated product policy. Soccer Time Track uses its app-specific policy below `/SoccerMinutes/`.
+- **Privacy Policy** (`/privacy-policy.html`): Shared privacy information for apps without a dedicated product policy. Soccer Time Track uses its app-specific policy below `/SoccerTimeTrack/`.
 - **Fitness Story** (`/FitnessStory/`): Apple Health & Watch workouts → visual journeys.
 - **Ice Time Track** (`/IceTimeTrack/`): Automatic hockey shift detection for Apple Watch.
-- **Soccer Time Track** (`/SoccerMinutes/`): Automatic soccer field time, match events, and player performance analysis for Apple Watch and iPhone.
+- **Soccer Time Track** (`/SoccerTimeTrack/`): Automatic soccer field time, match events, and player performance analysis for Apple Watch and iPhone.
+- **Soccer Time Track legacy path** (`/SoccerMinutes/`): Redirects old marketing, support, and privacy-policy URLs to `/SoccerTimeTrack/`.
 - **Tally Counter 123** (`/TallyCounter123/`): Watch-synced tally counter & scorekeeper.
 - **Timer on Me** (`/TimerOnMe/`): Up to 50 timers & stopwatches at once.
 - **Where was I?** (`/WhereWasI/`): Private, automatic location memory.
