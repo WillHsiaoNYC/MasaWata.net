@@ -13,6 +13,10 @@
       {
         "appID": "YJBS4SMU7Z.MasaWata.Ice-Time-Track-Phone",
         "paths": ["/IceTimeTrack/event/*"]
+      },
+      {
+        "appID": "YJBS4SMU7Z.MasaWata.Timer-on-Me",
+        "paths": ["/TimerOnMe/event/*"]
       }
     ]
   }
