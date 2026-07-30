@@ -1,26 +1,50 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "YJBS4SMU7Z.MasaWata.Where-was-I",
-        "paths": ["/WhereWasI/event/*"]
+        "appIDs": ["YJBS4SMU7Z.MasaWata.Where-was-I"],
+        "components": [
+          {
+            "/": "/WhereWasI/event/*",
+            "comment": "Opens Where was I event content."
+          }
+        ]
       },
       {
-        "appID": "YJBS4SMU7Z.MasaWata.Fitness-Report",
-        "paths": ["/FitnessStory/event/*"]
+        "appIDs": ["YJBS4SMU7Z.MasaWata.Fitness-Report"],
+        "components": [
+          {
+            "/": "/FitnessStory/event/*",
+            "comment": "Opens Fitness Report event content."
+          }
+        ]
       },
       {
-        "appID": "YJBS4SMU7Z.MasaWata.Ice-Time-Track-Phone",
-        "paths": ["/IceTimeTrack/event/*"]
+        "appIDs": ["YJBS4SMU7Z.MasaWata.Ice-Time-Track-Phone"],
+        "components": [
+          {
+            "/": "/IceTimeTrack/event/*",
+            "comment": "Opens Ice Time Track event content."
+          }
+        ]
       },
       {
-        "appID": "YJBS4SMU7Z.MasaWata.Timer-on-Me",
-        "paths": ["/TimerOnMe/event/*"]
+        "appIDs": ["YJBS4SMU7Z.MasaWata.Timer-on-Me"],
+        "components": [
+          {
+            "/": "/TimerOnMe/event/*",
+            "comment": "Opens Timer on Me event content."
+          }
+        ]
       },
       {
-        "appID": "YJBS4SMU7Z.net.MasaWata.TallyCounter123",
-        "paths": ["/TallyCounter123/event/*"]
+        "appIDs": ["YJBS4SMU7Z.net.MasaWata.TallyCounter123"],
+        "components": [
+          {
+            "/": "/TallyCounter123/event/*",
+            "comment": "Opens Tally Counter 123 event content."
+          }
+        ]
       }
     ]
   }
