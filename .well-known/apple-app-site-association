@@ -17,6 +17,10 @@
       {
         "appID": "YJBS4SMU7Z.MasaWata.Timer-on-Me",
         "paths": ["/TimerOnMe/event/*"]
+      },
+      {
+        "appID": "YJBS4SMU7Z.net.MasaWata.TallyCounter123",
+        "paths": ["/TallyCounter123/event/*"]
       }
     ]
   }
