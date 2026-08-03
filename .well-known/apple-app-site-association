@@ -45,6 +45,15 @@
             "comment": "Opens Tally Counter 123 event content."
           }
         ]
+      },
+      {
+        "appIDs": ["YJBS4SMU7Z.MasaWata.SoccerTrack"],
+        "components": [
+          {
+            "/": "/SoccerTimeTrack/event/*",
+            "comment": "Opens Soccer Time Track event content."
+          }
+        ]
       }
     ]
   }
