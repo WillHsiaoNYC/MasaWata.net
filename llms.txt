@@ -8,7 +8,7 @@ Each app below has a marketing landing page on this site. Several product sites 
 
 - [Fitness Story](https://masawata.net/FitnessStory/): Turns Apple Watch and Apple Health workouts into a visual story — trends, personal records, and progress. Category: Health & Fitness. iOS & watchOS. App Store: https://apps.apple.com/app/id6748090363
 - [Ice Time Track](https://masawata.net/IceTimeTrack/): Automatically detects hockey shifts on Apple Watch and logs ice time, goals, and penalties. Category: Sports. iOS & watchOS. App Store: https://apps.apple.com/app/id6758258172
-- [Soccer Time Track](https://masawata.net/SoccerTimeTrack/): Automatically detects soccer field time on Apple Watch and brings performance metrics, match events, live data, trends, and personal records to iPhone. Category: Sports / Health & Fitness. iOS & watchOS. App Store ID: 6791397600; launch in preparation.
+- [Soccer Time Track](https://masawata.net/SoccerTimeTrack/): Automatically detects soccer field time on Apple Watch and brings performance metrics, match events, live data, trends, and personal records to iPhone. Category: Sports / Health & Fitness. iOS & watchOS. App Store: https://apps.apple.com/app/id6791397600
 - [Tally Counter 123](https://masawata.net/TallyCounter123/): A Watch-synced tally counter, clicker, and scorekeeper for reps, rounds, rosary, inventory, and games. Category: Utilities. iOS & watchOS. App Store: https://apps.apple.com/app/id6769252146
 - [Timer on Me](https://masawata.net/TimerOnMe/): Run up to 50 timers and stopwatches at once, with alarms that ring even when the phone is locked (AlarmKit) and Tabata/EMOM modes. Category: Utilities. iOS & watchOS. App Store: https://apps.apple.com/app/id6746874284
 - [Where was I?](https://masawata.net/WhereWasI/): Quietly remembers everywhere you go and turns it into a private timeline, map, and calendar. Everything stays on your device. Category: Travel / Navigation. iOS. App Store: https://apps.apple.com/app/id6758056060
@@ -24,6 +24,6 @@ Each app below has a marketing landing page on this site. Several product sites 
 
 - Developer: MasaWata Tech
 - Platforms: iOS and Apple Watch (watchOS)
-- Pricing: See each product’s App Store listing; Soccer Time Track launch details are still being prepared
+- Pricing: See each product’s App Store listing
 - Privacy: No unnecessary developer accounts; see each app’s policy for its on-device and optional Apple-service data flows
 - Contact: fitnessstoryapp@gmail.com

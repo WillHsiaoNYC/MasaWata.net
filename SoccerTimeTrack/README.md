@@ -21,6 +21,6 @@ The optimized website images come from the approved English App Store screenshot
 ## Release checklist
 
 1. Validate the three HTML pages, JSON-LD blocks, internal links, and `sitemap.xml`.
-2. Confirm the App Store launch status and CTA before replacing “Coming soon.”
+2. Confirm the App Store listing and download CTA still resolve to the current product.
 3. Keep the privacy policy aligned with the release build’s Health, motion, location, iCloud, export, analytics, retention, and deletion behavior.
 4. Update the root `index.html`, `llms.txt`, and `sitemap.xml` whenever the product name, availability, or App Store URL changes.
