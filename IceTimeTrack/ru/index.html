@@ -1,940 +1,122 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html lang="ru" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZL852HY2Z4');
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Ice Time Track - Автоматическое определение смен для Apple Watch</title>
-    <meta name="title" content="Ice Time Track - Автоматическое определение смен для Apple Watch">
-    <meta name="description" content="Отслеживайте время на льду автоматически с Apple Watch. Определение смен, запись голов и удалений, мониторинг пульса и движения.">
-    <meta name="keywords" content="hockey, ice time, shift tracking, Apple Watch, hockey app, ice hockey, shift detection, hockey stats, game tracker">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/IceTimeTrack/ru/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/IceTimeTrack/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/IceTimeTrack/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/IceTimeTrack/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/IceTimeTrack/fr/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/IceTimeTrack/nb/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/IceTimeTrack/ru/">
-    <meta property="og:title" content="Ice Time Track - Автоматическое определение смен для Apple Watch">
-    <meta property="og:description" content="Отслеживайте время на льду автоматически с Apple Watch. Определение смен, запись голов и удалений, мониторинг пульса и движения.">
-    <meta property="og:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-    <meta property="og:site_name" content="Ice Time Track">
-    <meta property="og:locale" content="ru_RU">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/IceTimeTrack/ru/">
-    <meta name="twitter:title" content="Ice Time Track - Автоматическое определение смен для Apple Watch">
-    <meta name="twitter:description" content="Отслеживайте время на льду автоматически с Apple Watch. Определение смен, запись голов и удалений, мониторинг пульса и движения.">
-    <meta name="twitter:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-
-    <!-- Apple Smart Banner (placeholder app-id) -->
-    <meta name="apple-itunes-app" content="app-id=PLACEHOLDER">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/app-icon.png">
-    <link rel="apple-touch-icon" href="../images/app-icon.png">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Ice Time Track",
-        "operatingSystem": "iOS, watchOS",
-        "applicationCategory": "SportsApplication",
-        "sameAs": "https://apps.apple.com/app/id6758258172",
-        "downloadUrl": "https://apps.apple.com/app/id6758258172",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Отслеживайте время на льду автоматически с Apple Watch. Определение смен, запись голов и удалений, мониторинг пульса и движения.",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "ru"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ice Time Track — Хоккей Смены Тренировки</title>
+  <meta name="description" content="Автоматический учёт времени на льду с Apple Watch — теперь с учётом экипировки и напоминаниями о заточке коньков. После игры смотрите смены, статистику и здоровье.">
+  <meta name="apple-itunes-app" content="app-id=6758258172">
+  <link rel="canonical" href="https://masawata.net/IceTimeTrack/ru/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/IceTimeTrack/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/IceTimeTrack/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/IceTimeTrack/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/IceTimeTrack/fr-FR/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/IceTimeTrack/no/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:dark;--accent:#FFB81C;--accent-dark:#C98400;--bg:#0D0D0D;--surface:#1A1A1A;--ink:#FFFFFF;--muted:#A0A0A0;--line:#2A2A2A}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ice Time Track", "description": "Автоматический учёт времени на льду с Apple Watch — теперь с учётом экипировки и напоминаниями о заточке коньков. После игры смотрите смены, статистику и здоровье.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/IceTimeTrack/ru/", "downloadUrl": "https://apps.apple.com/app/id6758258172", "image": ["https://masawata.net/IceTimeTrack/images/asc/ru/01-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/02-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/03-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/04-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/05-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/06-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/07-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/08-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/09-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/10-watch.webp", "https://masawata.net/IceTimeTrack/images/asc/ru/11-watch.webp"]}</script>
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/app-icon.png" alt="Ice Time Track" class="nav__logo-icon">
-                <span class="nav__logo-text">Ice Time Track</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item"><a href="#features" class="nav__link">Функции</a></li>
-                <li class="nav__item"><a href="#how-it-works" class="nav__link">Как это работает</a></li>
-                <li class="nav__item"><a href="#screenshots" class="nav__link">Скриншоты</a></li>
-                <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
-                <li class="nav__item"><a href="#download" class="nav__link nav__link--cta" id="nav-cta">Предзаказ</a></li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">RU</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../ru/" class="language-option active">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Countdown Section -->
-        <section class="countdown" id="countdown">
-            <div class="container">
-                <div class="countdown__content">
-                    <h2 class="countdown__title" id="cd-title">До запуска</h2>
-                    <p class="countdown__promo countdown--hidden" id="cd-promo">1 год за $6.99 USD</p>
-                    <p class="countdown__promo-sub countdown--hidden" id="cd-promo-sub">Ограниченное предложение — не упустите</p>
-                    <div class="countdown__timer">
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-days">00</span>
-                            <span class="countdown__label">Дней</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-hours">00</span>
-                            <span class="countdown__label">Часов</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-minutes">00</span>
-                            <span class="countdown__label">Минут</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-seconds">00</span>
-                            <span class="countdown__label">Секунд</span>
-                        </div>
-                    </div>
-                    <p class="countdown__date" id="cd-date">14 февраля 2026</p>
-                    <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6758258172&code=LAUNCH" class="countdown__claim-btn countdown--hidden" id="cd-claim" target="_blank" rel="noopener">Получить предложение</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="hero" id="hero">
-            <div class="hero__bg"></div>
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <div class="hero__icon-wrapper">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="hero__icon">
-                    </div>
-
-                    <h1 class="hero__title">Автоматическое определение смен<br>для хоккеистов</h1>
-                    <p class="hero__description">Точно знайте, сколько времени на льду вы получаете — без нажатий на часы. Отслеживайте голы, удаления и периоды. Просто начните сессию и играйте.</p>
-
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn" id="hero-download" target="_blank" rel="noopener">Предзаказ сейчас</a>
-
-                    <img src="../assets/app-store-badges/app-store-badge-ru.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-
-                    <p class="hero__platforms">Доступно для Apple Watch + iPhone · Запуск 14 февраля 2026</p>
-
-                    <div class="hero__callouts">
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                            <span>Определение смен</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
-                            <span>Отслеживание голов</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
-                            <span>Запись удалений</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                            <span>Аналитика матча</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero__device">
-                    <img src="../images/hero-watch.png" alt="Ice Time Track on Apple Watch" class="hero__image">
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Функции</h2>
-                    <p class="section-subtitle">Всё необходимое для отслеживания игры</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Автоматическое определение смен</h3>
-                        <p class="feature-card__description">Выходите на лёд, и часы это знают. Никаких кнопок во время игры — сенсоры автоматически определяют катание vs. скамейку.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Отслеживание игровых событий</h3>
-                        <p class="feature-card__description">Записывайте голы, передачи и удаления прямо с запястья. Отслеживайте периоды и ведите полную запись каждой игры.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Показатели здоровья в реальном времени</h3>
-                        <p class="feature-card__description">Мониторинг пульса, сожжённых калорий и интенсивности движения в реальном времени.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Анализ сессии</h3>
-                        <p class="feature-card__description">Просматривайте общее время на льду, количество смен, среднюю продолжительность смены и личные рекорды.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M16 16l2 2"/><path d="M8 16l-2 2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Интеграция с Apple Здоровье</h3>
-                        <p class="feature-card__description">Сессии синхронизируются с Apple Здоровье как хоккейные тренировки.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="1" y1="1" x2="23" y2="23"/><path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.56 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Работает офлайн</h3>
-                        <p class="feature-card__description">Часы записывают всё самостоятельно. iPhone на скамейке не нужен — данные синхронизируются автоматически после игры.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- How It Works Section -->
-        <section class="how-it-works" id="how-it-works">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Как это работает</h2>
-                    <p class="section-subtitle">От разминки до анализа после игры</p>
-                </div>
-
-                <div class="how-it-works__steps">
-                    <div class="step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="step__number">1</div>
-                        <h3 class="step__title">Перед игрой</h3>
-                        <p class="step__description">Откройте Ice Time Track на Apple Watch. Нажмите Игра, Тренировка или Товарищеская игра.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-before.png" alt="Перед игрой" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="step__number">2</div>
-                        <h3 class="step__title">Во время игры</h3>
-                        <p class="step__description">Выходите на лёд, и часы автоматически определят это. Записывайте голы и удаления нажатием.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-during.png" alt="Во время игры" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="step__number">3</div>
-                        <h3 class="step__title">После игры</h3>
-                        <p class="step__description">Сессия синхронизируется с iPhone. Просмотрите время на льду, смены, пульс и игровые события.</p>
-                        <div class="step__device step__device--phone">
-                            <img src="../images/step-after.png" alt="После игры" class="step__device-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Gallery Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Смотрите в действии</h2>
-                    <p class="section-subtitle">Разработано для хоккеистов</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <button class="screenshots__arrow screenshots__arrow--prev" aria-label="Previous screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-                    </button>
-
-                    <div class="screenshots__track">
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-on-ice.png" alt="Apple Watch on-ice session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-sessions.png" alt="iPhone sessions" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-events.png" alt="Apple Watch events" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-analytics.png" alt="iPhone analytics" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-game-detail.png" alt="iPhone game detail" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-settings.png" alt="iPhone settings" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-session.png" alt="iPhone live session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-session-header.png" alt="iPhone session header" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-meter.png" alt="iPhone live meter" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-motion-stats.png" alt="iPhone motion stats" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-shift-list.png" alt="iPhone shift list" class="screenshot-img"></div>
-                    </div>
-
-                    <button class="screenshots__arrow screenshots__arrow--next" aria-label="Next screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section (hidden until launch) -->
-        <section class="testimonials testimonials--hidden" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Что говорят игроки</h2>
-                    <p class="section-subtitle">Доверяют хоккеисты повсюду</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Наконец приложение, которое отслеживает моё время на льду без нажатий. Революция в отслеживании смен."</p>
-                        <span class="testimonial-card__author">— Hockey Dad</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Люблю смотреть пульс и статистику смен после каждой игры. Помогает понять мою физическую форму."</p>
-                        <span class="testimonial-card__author">— Beer League Player</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Автоматическое определение удивительно точное. Мои дети используют его каждую игру."</p>
-                        <span class="testimonial-card__author">— Youth Hockey Parent</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Часто задаваемые вопросы</h2>
-                    <p class="section-subtitle">Всё, что нужно знать об Ice Time Track</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как начать отслеживание сессии?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Откройте приложение Ice Time Track на Apple Watch. Выберите тип сессии (Матч, Тренировка, Товарищеский матч или Другое) и нажмите для начала. Приложение автоматически определит, когда вы на льду, а когда на скамейке.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>В чём разница между Матчем, Тренировкой и Товарищеским матчем?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Это метки для организации ваших сессий. Матч — для официальных игр, Тренировка — для командных тренировок, Товарищеский матч — для неофициальных игр, а Другое — для всего остального, например, свободного катания. Обнаружение работает одинаково для всех типов.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Нужен ли мне iPhone во время матча?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Нет. Apple Watch записывают всё самостоятельно. Ваша сессия автоматически синхронизируется с iPhone, когда устройства окажутся в зоне действия после матча.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что такое шаг?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>"Шаг" обнаруживается вашими Apple Watch, когда акселерометр фиксирует ритмичное движение руки. На самом деле часы не фиксируют касание ноги земли — они распознают движение руки, сопровождающее перемещение. В хоккее шаг конькобежца и работа клюшкой создают похожие движения рук, поэтому приложение использует "шаги в секунду" как один из показателей активной игры.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что такое ускорение?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ускорение измеряет, как быстро вы разгоняетесь, замедляетесь или меняете направление. Акселерометр Apple Watch фиксирует это движение в трёх измерениях. Резкие остановки, взрывные старты и быстрые смены направления при выходе из зоны регистрируются как высокое ускорение — а сидение на скамейке в ожидании следующей смены показывает минимальную активность.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что такое вращение?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Вращение измеряет, насколько сильно и быстро вы поворачиваетесь или вращаетесь. Гироскоп Apple Watch фиксирует это движение, которое особенно характерно для хоккея — перебежки через нейтральную зону, развороты для катания спиной вперёд в обороне или уход от силового приёма создают характерные паттерны вращения. В сочетании с ускорением это помогает приложению отличить активное катание от стояния на месте.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как приложение узнаёт, что я на льду?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Приложение объединяет несколько датчиков: акселерометр определяет интенсивность движения, шагомер отслеживает ваш конькобежный шаг, а GPS измеряет скорость. Когда вы активно катаетесь, эти датчики показывают высокую активность. Когда вы сидите на скамейке, активность значительно снижается.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как статус на льду/на скамейке определяется по движению?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Watch считывает интенсивность движения, конькобежный шаг и скорость GPS. Когда приложение обнаруживает достаточно сильное движение от этих датчиков, оно отмечает вас как находящегося на льду. Когда все три показателя падают до низкого уровня и остаются там, начинается переход на скамейку.</p><p>Настройка чувствительности контролирует, сколько движения необходимо:</p><p>• Высокая — Улавливает более лёгкие движения. Используйте, если ваши смены не обнаруживаются.<br>• Средняя — Сбалансированная для большинства игроков. Это значение по умолчанию.<br>• Низкая — Требует более сильного движения для определения как катание. Используйте, если вы получаете ложные определения на льду, находясь на скамейке.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как работают расширенные настройки обнаружения?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Расширенные настройки дают полный контроль над каждым порогом обнаружения. Изменение любого ползунка автоматически переключает чувствительность на «Пользовательские».</p><p>Триггер На льду — Чтобы быть отмеченным как катание, ЛИБО ваша скорость GPS должна превысить порог в течение 3 секунд, ЛИБО и ускорение, и каденция шагов должны превысить свои пороги на время удержания.<br>• Acceleration: 0.2–3.0G (default: 0.2G)<br>• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)<br>• GPS Speed: 0.5–3.0 m/s (default: 1.5)<br>• Hold Duration: 1–5 sec (default: 2s)</p><p>Триггер На скамейке — Для перехода на скамейку ВСЕ три показания должны упасть ниже своих порогов на время удержания.<br>• Acceleration: 0.3–1.5G (default: 0.7G)<br>• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)<br>• GPS Speed: 0.1–1.0 m/s (default: 0.5)<br>• Hold Duration: 1–5 sec (default: 3s)</p><p>Рекомендуем использовать предустановленные уровни (Высокий, Средний, Низкий), если вам не нужна тонкая настройка. Нажмите «Сбросить на предустановку» в любое время для возврата.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Почему есть задержка, когда я прекращаю кататься?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Это "буфер движения" — короткий период ожидания (по умолчанию 20 секунд), прежде чем приложение подтвердит, что вы вернулись на скамейку. Это предотвращает подсчёт коротких пауз во время смены как времени на скамейке.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что такое буфер движения?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Буфер движения — это настраиваемая задержка (10-30 секунд), предотвращающая ложное завершение смен. Когда вы прекращаете двигаться, приложение ждёт это время, прежде чем отметить вас как "на скамейке". Если вы снова начнёте двигаться во время буфера, ваша смена продолжится без прерывания.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что такое журнал матча?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Журнал матча позволяет записывать события во время сессии — голы за, голы против, удаления и начала периодов. События записываются с Apple Watch во время игры и также могут добавляться с iPhone. Счёт и личная статистика (мои голы, мои передачи, штрафные минуты) рассчитываются на основе записанных вами событий.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Нужно ли начинать сессию Матч, чтобы использовать журнал матча?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Нет. Журнал матча доступен для всех типов сессий — Матч, Тренировка, Товарищеский матч и Другое. Вы можете записывать голы и удаления в любой сессии.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Могу ли я записать результат матча без запуска живой сессии на Apple Watch?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Да. Нажмите кнопку + рядом с «Недавние сессии» на Панели управления, чтобы добавить ручную запись матча. Вы можете ввести счёт, соперника, голы, передачи, удаления и информацию о периодах — всё без ношения Watch. Это полезно для записи матчей задним числом или для аналитических целей.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как записывать события на Watch?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Во время активной сессии нажмите кнопку LOG в нижней части экрана. Выберите тип события (гол за, гол против, удаление или начало периода) и заполните детали. Событие записывается с текущим временем и появляется на вашем iPhone в течение нескольких секунд.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как записывать события на iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Пока сессия активна на Watch, откройте приложение на iPhone для просмотра живой сессии. События, записанные на Watch, отображаются на iPhone в реальном времени. Вы также можете добавлять или удалять события напрямую с iPhone. Учтите, что изменения на iPhone не отправляются обратно на Watch во время сессии — Watch продолжает показывать свой журнал. По окончании сессии оба источника объединяются автоматически, и изменения с iPhone (добавления и удаления) имеют приоритет.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Какие типы событий можно записывать?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Четыре типа: Гол за (можно отметить «Я забил» или «Я ассистировал»), Гол против, Удаление (с типом нарушения, продолжительностью и против вашей команды или соперника) и Начало периода (отмечает перерывы на вашей временной шкале).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что произойдёт, если я не укажу время события?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Если вы добавите событие без указания временной метки, оно сохраняется без неё. Событие по-прежнему отображается в журнале матча и учитывается в счёте и статистике. Вы всегда можете вернуться и добавить или исправить время после сессии на странице деталей сессии на iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Можно ли редактировать события после сессии?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Да. Откройте сессию на iPhone и нажмите на любое событие для редактирования его деталей — тип, время, личное участие (гол/передача), информация об удалении и другое. Вы также можете добавлять новые события или удалять существующие. Все изменения сохраняются немедленно.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как объединяются события Watch и iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Во время сессии Watch и iPhone ведут каждый свою запись. Когда сессия завершается и Watch отправляет финальные данные на iPhone, приложение объединяет оба источника: события, удалённые на iPhone, убираются, добавленные — включаются, а счёт пересчитывается по объединённому списку. Итоговый результат сохраняется как одна объединённая сессия.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что делает чувствительность обнаружения?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Чувствительность определяет, сколько движения необходимо для регистрации как "катание." Высокая чувствительность обнаруживает лёгкие движения (полезно, если смены не обнаруживаются). Низкая чувствительность требует более сильного движения (полезно при ложных обнаружениях на скамейке). Средняя — это значение по умолчанию, которое хорошо подходит большинству игроков.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как настроить буферное время?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Откройте приложение Ice Time Track на вашем iPhone, перейдите в Настройки и отрегулируйте выбор "Буфер движения." Короткие буферы (10–15 секунд) завершают смены быстрее. Длинные буферы (25–30 секунд) более снисходительны к коротким паузам во время смен.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что такое тактильные уведомления и как ими пользоваться?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Тактильные оповещения — это вибрационные уведомления на ваших Watch, когда ваш статус меняется. Вы можете настроить их на вибрацию при выходе на лёд, при возвращении на скамейку, в обоих случаях или полностью отключить. Это помогает оставаться в курсе событий, не глядя на Watch.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что делает «Автоматическое завершение сессии»?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Автозавершение автоматически останавливает сессию после установленного времени (по умолчанию 100 минут). Это предотвращает бесконечную работу приложения, если вы забудете завершить её вручную, что экономит батарею и гарантирует сохранение данных.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Если я изменю настройки во время активной сессии, они вступят в силу немедленно?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Да. Изменения чувствительности, буфера движения и тактильных оповещений синхронизируются с вашими Watch и вступают в силу немедленно во время текущей сессии. Вам не нужно ждать следующей сессии — настройки применяются в течение нескольких секунд после изменения на iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Что такое Расширенные настройки?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Расширенные настройки позволяют точно настроить каждый порог обнаружения индивидуально. Разверните раздел в настройках Обнаружения для настройки ускорения, каденции шагов, скорости GPS и длительности удержания для триггеров на льду и на скамейке. При изменении любого ползунка чувствительность автоматически переключается на "Пользовательская." Используйте "Сброс к предустановке" для возврата к предустановкам Низкая/Средняя/Высокая.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Какие данные сохраняются в Apple Health?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>При включении приложение сохраняет вашу сессию как хоккейную тренировку, включая: продолжительность, сожжённые активные калории и данные о пульсе (средний и максимальный). Это учитывается в ваших кольцах Активности и истории фитнеса.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как включить/отключить интеграцию с HealthKit?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Откройте Настройки в приложении iPhone и включите «Сохранять в Apple Здоровье». При включении завершённые сессии сохраняются как тренировки. При выключении ваши данные остаются только в Ice Time Track.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Почему не отображается пульс?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Убедитесь, что часы надеты плотно и датчик пульса хорошо контактирует с кожей. Отображение пульса может занять 30–60 секунд после начала сессии. Если проблемы сохраняются, проверьте, что Ice Time Track имеет разрешение на чтение пульса в Настройки &gt; Конфиденциальность &gt; Здоровье.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как синхронизируются сессии между Watch и iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Тренировки синхронизируются автоматически, когда оба устройства находятся в зоне действия и подключены. После завершения тренировки на часах она передаётся на iPhone в течение нескольких секунд или минут. Вы также можете вручную запустить синхронизацию из приложения на iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Почему моя сессия не отображается на iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Сначала убедитесь, что тренировка завершена на часах. Откройте оба приложения и убедитесь, что Bluetooth включён. Тренировки синхронизируются, когда приложение на часах открыто или вскоре после завершения. Если она по-прежнему не появляется, попробуйте снова открыть приложение на часах для запуска синхронизации.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Можно ли удалить сессию?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Да. В приложении на iPhone перейдите в список тренировок, смахните влево на тренировке, которую хотите удалить, и нажмите Удалить. Это удалит её с обоих устройств.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Приложение неточно определяет мои смены</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Попробуйте настроить чувствительность обнаружения в Настройках. Если смены не обнаруживаются, увеличьте чувствительность до Высокой. Если вы получаете ложные срабатывания на скамейке, уменьшите до Низкой. Также убедитесь, что часы надёжно закреплены на запястье, а не поверх толстых перчаток.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Приложение перестало записывать во время матча</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Это может произойти, если часы перезагрузятся или приложение аварийно закроется. Проверьте, не сработало ли автоматическое завершение раньше, чем ожидалось (настраивается в Настройках).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Приложение Watch застряло на «Требуется синхронизация»</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Приложения на часах и iPhone должны обмениваться данными для завершения начальной настройки. Убедитесь, что приложение на iPhone открыто во время настройки часов. Если экран не исчезает, принудительно закройте оба приложения и перезапустите их. Если проблема сохраняется, удалите и переустановите оба приложения.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Зачем приложению доступ к геолокации?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Местоположение (GPS) используется для измерения скорости катания, что помогает точно определить, когда вы на льду, а когда на скамейке. Данные GPS остаются на ваших устройствах и никуда не загружаются.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Зачем приложению доступ к движению и фитнесу?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Датчики движения (акселерометр и гироскоп) определяют ваши паттерны движения, чтобы отличить катание от сидения. Доступ к данным о физической активности позволяет считывать количество шагов для повышения точности определения. Эти данные обрабатываются полностью на ваших часах.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Передаются ли мои данные кому-либо?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Нет. Все данные тренировок, показатели здоровья и данные датчиков остаются на ваших Apple Watch и iPhone. Ничего не загружается на внешние серверы. Ваши данные принадлежат вам.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Как включить доступ к геолокации, если я случайно отказал?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Вариант 1 (на часах): Откройте Настройки &gt; Конфиденциальность и безопасность &gt; Службы геолокации &gt; Ice Time Track, затем выберите «При использовании». Вариант 2 (с iPhone): Откройте приложение Watch &gt; Конфиденциальность &gt; Службы геолокации &gt; Ice Time Track и включите доступ.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Download CTA Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content" data-aos="fade-up">
-                    <div class="download__icon">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="download__icon-img">
-                    </div>
-                    <h2 class="download__title">Готовы отслеживать время на льду?</h2>
-                    <p class="download__description">Скачайте Ice Time Track и начните следующую сессию. Автоматическое определение смен, запись игровых событий и показатели здоровья — всё с запястья.</p>
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn launch-btn--lg" id="download-cta" target="_blank" rel="noopener">Предзаказ сейчас</a>
-                    <img src="../assets/app-store-badges/app-store-badge-ru.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <span class="footer__name">Ice Time Track</span>
-                <div class="footer__links">
-                    <a href="/privacy-policy.html" class="footer__link">Политика конфиденциальности</a>
-                    <a href="#" class="footer__link">Условия использования</a>
-                    <a href="mailto:support@masawata.net" class="footer__link">Поддержка</a>
-                </div>
-                <p class="footer__copyright">© 2026 MasaWata. Все права защищены.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/app-icon.png" alt="" width="44" height="44"><span>Ice Time Track</span></a>
+    <details class="asc-languages">
+      <summary>Язык: Русский</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Ice Time Track</p>
+        <h1>Хоккей Смены Тренировки</h1>
+        <p>Автоматический учёт времени на льду с Apple Watch — теперь с учётом экипировки и напоминаниями о заточке коньков. После игры смотрите смены, статистику и здоровье.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Загрузить из App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/ru/01-phone.webp" alt="Ice Time Track">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>О приложении</h2>
+      <div class="asc-prose"><p>Ваши смены. Отслеживаются автоматически.</p>
+<p>Ice Time Track использует Apple Watch для определения, когда вы катаетесь и когда на скамейке. Без кнопок, без хлопот. Просто начните сессию и играйте.</p>
+<h3>КАК ЭТО РАБОТАЕТ</h3>
+<p>Наш алгоритм определения движения анализирует данные акселерометра, гироскопа и GPS, чтобы отличить катание от отдыха. Ваш iPhone синхронизирует обновления в реальном времени для просмотра статистики во время или после игры.</p>
+<h3>ФУНКЦИИ</h3>
+<ul><li>Автоматическое определение смен, отслеживание движения и показателей здоровья</li><li>Общее время на льду и разбивка по сменам</li><li>Журнал матча – голы, штрафы, перерывы</li><li>Пульс и калории за смену</li><li>Визуальная шкала времени паттерна лёд/скамейка</li><li>История сессий с трендами</li><li>Геотеги для каждого катка</li><li>Режимы матча, тренировки и товарищеской игры</li><li>Опциональные тактильные оповещения</li><li>Экспорт данных в CSV или JSON</li></ul>
+<h3>ИНТЕГРАЦИЯ APPLE</h3>
+<p>Работает с Apple Watch. Синхронизируется с Apple Здоровье.</p>
+<h3>КОНФИДЕНЦИАЛЬНОСТЬ</h3>
+<p>Все данные хранятся локально. Аккаунт не требуется.</p>
+<p>Создано хоккеистами для хоккеистов. Знайте своё время на льду. Поднимите свою игру.</p>
+<p>Ice Time Track превращает Apple Watch в интеллектуального хоккейного помощника, который точно знает, когда вы на льду и когда на скамейке. Без кнопок. Без отвлечений. Чистое автоматическое отслеживание для концентрации на лучшей игре.</p>
+<h3>КАК ЭТО РАБОТАЕТ</h3>
+<p>Начните сессию на Apple Watch и забудьте о ней. Наше продвинутое определение движения анализирует данные в реальном времени. iPhone остаётся синхронизированным с живыми обновлениями – смотрите статистику с трибун или просматривайте всё после финальной сирены.</p>
+<h3>ЧТО ВЫ ОТКРОЕТЕ</h3>
+<ul><li>Общее Время на Льду — Точно знайте, сколько минут провели там, где это важно</li><li>Разбивка по Сменам — Каждая смена с продолжительностью, пульсом и калориями</li><li>Журналы матчей – голы/штрафы по периодам</li><li>Отслеживание Пульса — Мониторинг усилий при катании vs восстановлении</li><li>Сожжённые Калории — Точные данные, синхронизированные из Apple Здоровье</li><li>Шкала Времени Сессии — Визуальный график паттерна лёд/скамейка</li><li>Память Локации — Автоматическая пометка катка</li><li>Исторические Тренды — Сравнивайте сессии и отслеживайте прогресс</li></ul>
+<h3>ДЛЯ КАЖДОГО ИГРОКА</h3>
+<p>Любительская лига, интенсивные тренировки или товарищеские матчи – Ice Time Track адаптируется. Помечайте сессии по типу, добавляйте имена соперников и ведите личный хоккейный дневник.</p>
+<h3>БЕСШОВНАЯ ИНТЕГРАЦИЯ APPLE</h3>
+<ul><li>Синхронизация тренировок с Apple Здоровье</li><li>Работа в фоне во время сессий</li><li>Опциональные тактильные оповещения при переходах лёд/скамейка</li><li>Оптимизировано для низкого расхода батареи</li></ul>
+<h3>КОНФИДЕНЦИАЛЬНОСТЬ ПРЕЖДЕ ВСЕГО</h3>
+<p>Ваши данные остаются вашими. Хранятся локально на устройствах. Без аккаунтов. Данные не продаются. Никогда.</p>
+<h3>ОТ ИГРОКОВ ДЛЯ ИГРОКОВ</h3>
+<p>Создано любителями хоккея, уставшими угадывать время на льду. Реальные цифры. Реальная аналитика. Ноль сложностей.</p>
+<p>Скачайте сейчас и больше не гадайте о своём времени на льду.</p>
+<p>Шнуруйте коньки. Вбрасывайте шайбу. Остальное за нами.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Снимки экрана</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/ru/01-phone.webp" alt="Ice Time Track — Снимки экрана 1" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/02-phone.webp" alt="Ice Time Track — Снимки экрана 2" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/03-phone.webp" alt="Ice Time Track — Снимки экрана 3" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/04-phone.webp" alt="Ice Time Track — Снимки экрана 4" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/05-phone.webp" alt="Ice Time Track — Снимки экрана 5" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/06-phone.webp" alt="Ice Time Track — Снимки экрана 6" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/07-phone.webp" alt="Ice Time Track — Снимки экрана 7" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/08-phone.webp" alt="Ice Time Track — Снимки экрана 8" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/09-phone.webp" alt="Ice Time Track — Снимки экрана 9" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/10-watch.webp" alt="Ice Time Track — Снимки экрана 10" loading="lazy"></figure>
+<figure><img src="../images/asc/ru/11-watch.webp" alt="Ice Time Track — Снимки экрана 11" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Ice Time Track</h2>
+      <p>Автоматический учёт времени на льду с Apple Watch — теперь с учётом экипировки и напоминаниями о заточке коньков. После игры смотрите смены, статистику и здоровье.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Загрузить из App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Политика конфиденциальности</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Условия использования</a>
+    <a href="https://masawata.net/">Поддержка</a>
+  </footer>
 </body>
 </html>

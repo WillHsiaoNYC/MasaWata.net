@@ -1,668 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Fitness Story - Transform Apple Health & Watch Workouts into Visual Journeys</title>
-    <meta name="title" content="Fitness Story - Transform Apple Health & Watch Workouts into Visual Journeys">
-    <meta name="description" content="Transform your Apple Watch and Health workouts into beautiful visual journeys. Track running, cycling, swimming & more. Analyze trends, personal records, and progress.">
-    <meta name="keywords" content="fitness, workout, Apple Health, tracking, personal records, exercise, health, running, cycling, data visualization, iOS app">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/FitnessStory/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/FitnessStory/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/FitnessStory/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/FitnessStory/zh-Hant/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/FitnessStory/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/FitnessStory/ko/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/FitnessStory/fr/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/FitnessStory/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/FitnessStory/es/">
-    <link rel="alternate" hreflang="pt" href="https://masawata.net/FitnessStory/pt/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/FitnessStory/it/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/FitnessStory/ru/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/FitnessStory/hi/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/FitnessStory/id/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/FitnessStory/vi/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/FitnessStory/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/FitnessStory/">
-    <meta property="og:title" content="Fitness Story - Transform Apple Health & Watch Workouts into Visual Journeys">
-    <meta property="og:description" content="Transform your Apple Watch and Health workouts into beautiful visual journeys. Track running, cycling, swimming & more. Analyze trends, personal records, and progress.">
-    <meta property="og:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
-    <meta property="og:site_name" content="Fitness Story">
-    <meta property="og:locale" content="en_US">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/FitnessStory/">
-    <meta name="twitter:title" content="Fitness Story - Transform Apple Health & Watch Workouts into Visual Journeys">
-    <meta name="twitter:description" content="Transform your Apple Watch and Health workouts into beautiful visual journeys. Track running, cycling, swimming & more. Analyze trends, personal records, and progress.">
-    <meta name="twitter:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6748090363">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/Fitness%20Story.png">
-    <link rel="apple-touch-icon" href="images/Fitness%20Story.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css?v=1.2">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Fitness Story",
-        "operatingSystem": "iOS",
-        "applicationCategory": "HealthApplication",
-        "sameAs": "https://apps.apple.com/app/id6748090363",
-        "downloadUrl": "https://apps.apple.com/app/id6748090363",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "37"
-        },
-        "description": "Transform your Apple Watch and Health workouts into beautiful visual journeys. Track running, cycling, swimming & more. Analyze trends, personal records, and progress.",
-        "screenshot": "https://masawata.net/FitnessStory/images/en/hero.jpg",
-        "softwareVersion": "6.4.2",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "en"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitness Story — Workout Insights / Challenges</title>
+  <meta name="description" content="Now on Apple Watch: today&#x27;s steps on any watch face, plus a Today screen for distance, calories and floors — straight from Apple Health.">
+  <meta name="apple-itunes-app" content="app-id=6748090363">
+  <link rel="canonical" href="https://masawata.net/FitnessStory/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/FitnessStory/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/FitnessStory/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/FitnessStory/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/FitnessStory/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/FitnessStory/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/FitnessStory/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/FitnessStory/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/FitnessStory/fr-FR/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/FitnessStory/hi/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/FitnessStory/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/FitnessStory/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/FitnessStory/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/FitnessStory/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/FitnessStory/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/FitnessStory/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/FitnessStory/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/FitnessStory/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/FitnessStory/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/FitnessStory/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/FitnessStory/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/FitnessStory/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/FitnessStory/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/FitnessStory/tr/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/FitnessStory/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/FitnessStory/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/FitnessStory/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/FitnessStory/">
+  <link rel="stylesheet" href="../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Fitness Story", "description": "Now on Apple Watch: today's steps on any watch face, plus a Today screen for distance, calories and floors — straight from Apple Health.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/FitnessStory/", "downloadUrl": "https://apps.apple.com/app/id6748090363", "image": ["https://masawata.net/FitnessStory/images/asc/en-US/01-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/02-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/03-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/04-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/05-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/06-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/07-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/08-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/09-phone.webp", "https://masawata.net/FitnessStory/images/asc/en-US/10-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="" class="nav__logo">
-                <img src="images/Fitness%20Story.png" alt="Fitness Story" class="nav__logo-img">
-                <span class="nav__logo-text">Fitness Story</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">Features</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">Screenshots</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#testimonials" class="nav__link">Testimonials</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">Download</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">EN</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="" class="language-option active">English</a>
-                    <a href="zh-Hans/" class="language-option">简体中文</a>
-                    <a href="zh-Hant/" class="language-option">繁體中文</a>
-                    <a href="ja/" class="language-option">日本語</a>
-                    <a href="ko/" class="language-option">한국어</a>
-                    <a href="fr/" class="language-option">Français</a>
-                    <a href="de/" class="language-option">Deutsch</a>
-                    <a href="es/" class="language-option">Español</a>
-                    <a href="pt/" class="language-option">Português</a>
-                    <a href="it/" class="language-option">Italiano</a>
-                    <a href="ru/" class="language-option">Русский</a>
-                    <a href="hi/" class="language-option">हिन्दी</a>
-                    <a href="id/" class="language-option">Indonesia</a>
-                    <a href="vi/" class="language-option">Tiếng Việt</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="images/Fitness%20Story.png" alt="Fitness Story App Icon" class="hero__icon">
-                    <h1 class="hero__title">Your Fitness Journey, Beautifully Visualized</h1>
-                    <p class="hero__description">Transform your Apple Watch and Health data into a beautiful, insightful journey. Track running, cycling, swimming, and all your workouts. Analyze trends, personal records, and celebrate every victory.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="hero__rating">
-                        <div class="stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <span class="rating-text">5.0 on the App Store</span>
-                    </div>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="images/en/hero.jpg" alt="Fitness Story Dashboard" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Powerful Features</h2>
-                    <p class="section-subtitle">Everything you need to understand and celebrate your fitness journey</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Professional Analytics</h3>
-                        <p class="feature-card__description">Unlock an analysis suite that fits in your pocket. Compare workouts side-by-side, view year-over-year trends, and track cadence and stride length, including Box-and-Whisker benchmark charts that reveal your median, quartiles, and outliers for every sport.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/graphs.jpg" alt="Professional Analytics" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                <line x1="16" y1="2" x2="16" y2="6"></line>
-                                <line x1="8" y1="2" x2="8" y2="6"></line>
-                                <line x1="3" y1="10" x2="21" y2="10"></line>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Interactive Dashboard</h3>
-                        <p class="feature-card__description">Access a fully interactive dashboard that connects your daily movement to your overall well-being. Track consistency with contribution graphs and streak counters.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/dashboard.jpg" alt="Interactive Dashboard" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Storyline</h3>
-                        <p class="feature-card__description">Experience your fitness history as a continuous narrative. Scroll through a rich, visual timeline that weaves your activities together with your memories.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/storyline.jpg" alt="Storyline" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">My Locations</h3>
-                        <p class="feature-card__description">View your workout history on a map, grouped by city and country. See everywhere your fitness journey has taken you around the world.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/fitness-map.jpg" alt="My Locations" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Favorites & Tags</h3>
-                        <p class="feature-card__description">Organize your training with custom tags like "Intervals," "Recovery," or "Race Day." Mark your best sessions with a heart to build a collection of top performances.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/favorites.jpg" alt="Favorites & Tags" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 8 7 8M18 9h1.5a2.5 2.5 0 000-5C17 4 17 8 17 8"/>
-                                <path d="M4 22h16"/>
-                                <path d="M10 22V8h4v14"/>
-                                <path d="M8 6V4h8v2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Personal Records</h3>
-                        <p class="feature-card__description">We automatically detect Personal Records and display them with your photos and notes. Keep your favorite victories front and center in your Trophy Case.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/personal-records.jpg" alt="Personal Records" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 3h5v5M8 3H3v5M3 16v5h5M16 21h5v-5"/>
-                                <line x1="21" y1="3" x2="14" y2="10"/>
-                                <line x1="3" y1="21" x2="10" y2="14"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Workouts Comparison</h3>
-                        <p class="feature-card__description">Compare multiple workouts side-by-side (up to 10) to see your progress. Analyze pace, heart rate, elevation, and more to understand how your performance has evolved over time.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/workout-comparison.jpg" alt="Workouts Comparison" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"/>
-                                <path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20"/>
-                                <path d="M2 12h20"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Color Route</h3>
-                        <p class="feature-card__description">Visualize your workout routes like never before. Color your path by pace, elevation, cadence, or stride length to instantly see where you pushed hardest.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/color-route.jpg" alt="Color Route" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Celebrate Records</h3>
-                        <p class="feature-card__description">Every personal record deserves recognition. When you break a new PR, celebrate the moment with beautiful visuals that capture your achievement.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/record-celebration.jpg" alt="Celebrate Records" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="3" width="7" height="7" rx="1"/>
-                                <rect x="14" y="3" width="7" height="7" rx="1"/>
-                                <rect x="3" y="14" width="7" height="7" rx="1"/>
-                                <rect x="14" y="14" width="7" height="7" rx="1"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Widgets</h3>
-                        <p class="feature-card__description">Keep your fitness data front and center with beautiful home screen widgets. Track steps, calories, workout progress, and body metrics at a glance—no app launch required.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/widgets.jpg" alt="Widgets" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Health Metrics</h3>
-                        <p class="feature-card__description">Monitor all your essential health metrics—from steps and calories to heart rate, VO2 max, sleep, and beyond—at a glance. Compare your trends against personal benchmarks to stay on track.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/health-metrics.jpg" alt="Health Metrics" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
-                                <line x1="4" y1="22" x2="4" y2="15"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Daily Challenges</h3>
-                        <p class="feature-card__description">Take on auto-tracked challenges — 3K Run, 10K Steps, 10K Cycling, and 45-Minute Workout — across 1-, 3-, and 7-day tiers. Earn badges, fill your Trophy Case, and celebrate every win.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/gallery-challenges.jpg" alt="Daily Challenges" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1200">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="18" cy="5" r="3"/>
-                                <circle cx="6" cy="12" r="3"/>
-                                <circle cx="18" cy="19" r="3"/>
-                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
-                                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Shareable Cards</h3>
-                        <p class="feature-card__description">Turn any workout, record, or challenge into a beautiful share card. Pick from 15 color themes and switch between Gradient and Light looks to match your style.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/gallery-records.jpg" alt="Shareable Cards" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1300">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7 10 12 15 17 10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Export Everything</h3>
-                        <p class="feature-card__description">Export your full history — or any date range — to CSV or JSON, complete with split data, body metrics, and workout metadata. Your data is always yours.</p>
-                        <div class="feature-card__image">
-                            <img src="images/en/gallery-analysis.jpg" alt="Export Everything" loading="lazy">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">See It In Action</h2>
-                    <p class="section-subtitle">Beautiful design meets powerful functionality</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="images/en/gallery-insights.jpg" alt="Unlock your workout insights" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-health.jpg" alt="Complete health metrics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-analysis.jpg" alt="Professional analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-challenges.jpg" alt="Daily challenges" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-records.jpg" alt="Personal records &amp; trophy case" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-comparison.jpg" alt="Compare workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-map.jpg" alt="Your locations on the map" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-activities.jpg" alt="80+ activity types" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-workout.jpg" alt="Deep workout detail" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section class="testimonials" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">What Users Say</h2>
-                    <p class="section-subtitle">Join thousands of fitness enthusiasts who love Fitness Story</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"This provides wonderful fitness trends that Apple can't provide otherwise. Gorgeous layout has an Apple feel."</p>
-                        <p class="testimonial-card__author">— Antcido</p>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"Finally, a fitness app that turns raw data into visuals that actually motivate me. Love the PR tracking and year-over-year comparison!"</p>
-                        <p class="testimonial-card__author">— Sigmasigmarizz</p>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"This is giving me insights that neither Strava nor the health app has been able to provide. If you are into fitness you must give it a try!"</p>
-                        <p class="testimonial-card__author">— Cleverc77</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="images/Fitness%20Story.png" alt="Fitness Story" class="download__icon">
-                    <h2 class="download__title">Start Your Fitness Story Today</h2>
-                    <p class="download__description">Free to download with optional Pro upgrade for advanced features. Your data stays private on your device.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">Available on iPhone and iPad</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Frequently Asked Questions</h2>
-                    <p class="section-subtitle">Everything you need to know about Fitness Story</p>
-                </div>
-
-                <div class="faq__list">
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>How does the app track my workouts?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story doesn't track workouts directly—your Apple Watch and iPhone already do that beautifully! Your devices continuously collect workout data and body metrics, storing everything in Apple Health. Simply grant the app read-only access, and we'll transform all that data into stunning reports, insightful analysis, and actionable insights.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Where are my notes, photos, tags, ratings, and favorites stored?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>All your personal additions—notes, photos, tags, ratings, and favorites—are securely saved in your device's local storage and your personal iCloud account. Your data syncs seamlessly across all your Apple devices. Even if you delete the app, your data remains safe in iCloud and will be restored when you reinstall.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>What body metrics does the app display?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story presents a comprehensive view of your health data: daily steps, active calories, VO2 max, heart rate zones, blood oxygen levels, wrist temperature, weight, lean body mass, body fat percentage, BMI, respiratory rate, and detailed sleep analysis. Everything you need to understand your body's performance.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>What workout activities are supported?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story supports every workout type that Apple Watch tracks—over 80 activities! This includes popular ones like Running, Cycling, Swimming, HIIT, Yoga, and Strength Training, plus specialized activities like Pickleball, Climbing, Martial Arts, Skiing, Dance, and many more. If your Apple Watch can track it, Fitness Story can visualize it.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>What are Challenges?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Challenges are built-in fitness goals — a 3K run, 10,000 steps, a 10K cycle, or a 45-minute workout — tracked automatically from your Apple Health data across 1-, 3-, and 7-day tiers. Complete them to earn badges and build your Trophy Case.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Can I export my data?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Yes. Export your entire history, or any custom date range, to CSV or JSON — including full split data, body metrics, and workout metadata. You can also export a workout comparison to analyze in your own tools.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Is Fitness Story free?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story is free to download and use. An optional Pro upgrade unlocks the full depth of analysis, challenges, and sharing — with no accounts and no subscriptions required to get started.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Which devices does it work on?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story runs on iPhone and iPad. It reads your Apple Health and Apple Watch data with read-only access — there are no accounts and no servers, so everything stays on your device and your private iCloud.</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">Your Privacy Matters</h2>
-                    <p class="privacy__description">Fitness Story reads your data directly from Apple Health in read-only mode. All calculations and analysis happen securely on your device. Your health data is never sent to us or any third parties.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Read our Privacy Policy</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="images/Fitness%20Story.png" alt="Fitness Story" class="footer__logo">
-                    <span class="footer__name">Fitness Story</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">Privacy Policy</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms of Service</a>
-                </div>
-                <p class="footer__copyright">© 2026 Fitness Story. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="./"><img src="images/Fitness Story.png" alt="" width="44" height="44"><span>Fitness Story</span></a>
+    <details class="asc-languages">
+      <summary>Language: English</summary>
+      <nav><a href="cs/" lang="cs">Čeština</a>
+<a href="da/" lang="da">Dansk</a>
+<a href="de-DE/" lang="de-DE">Deutsch</a>
+<a href="./" lang="en-US">English</a>
+<a href="es-ES/" lang="es-ES">Español (España)</a>
+<a href="es-MX/" lang="es-MX">Español (México)</a>
+<a href="fi/" lang="fi">Suomi</a>
+<a href="fr-FR/" lang="fr-FR">Français</a>
+<a href="hi/" lang="hi">हिन्दी</a>
+<a href="hu/" lang="hu">Magyar</a>
+<a href="id/" lang="id">Bahasa Indonesia</a>
+<a href="it/" lang="it">Italiano</a>
+<a href="ja/" lang="ja">日本語</a>
+<a href="ko/" lang="ko">한국어</a>
+<a href="nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="no/" lang="no">Norsk</a>
+<a href="pl/" lang="pl">Polski</a>
+<a href="pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="ru/" lang="ru">Русский</a>
+<a href="sk/" lang="sk">Slovenčina</a>
+<a href="sv/" lang="sv">Svenska</a>
+<a href="th/" lang="th">ไทย</a>
+<a href="tr/" lang="tr">Türkçe</a>
+<a href="vi/" lang="vi">Tiếng Việt</a>
+<a href="zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Fitness Story</p>
+        <h1>Workout Insights / Challenges</h1>
+        <p>Now on Apple Watch: today&#x27;s steps on any watch face, plus a Today screen for distance, calories and floors — straight from Apple Health.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6748090363" rel="noopener">Download on the App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="images/asc/en-US/01-phone.webp" alt="Fitness Story">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>About the app</h2>
+      <div class="asc-prose"><p>Stop guessing. Start knowing. Fitness Story transforms your Apple Health data into the most powerful, detailed analysis available on iOS. No accounts. No servers. Just your entire fitness journey, visualized.</p>
+<p>Whether you&#x27;re tracking sleep stages, analyzing run cadence, or chasing a marathon PR, this is the all-in-one dashboard your hard work deserves.</p>
+<p>Works with any device or app that syncs to Apple Health — Apple Watch, Garmin, Polar, Suunto, Zwift, and more.</p>
+<h3>PROFESSIONAL-GRADE ANALYSIS</h3>
+<ul><li>Trend &amp; Benchmark Charts: Use Box-and-Whisker plots to see median, quartiles, and outliers for every sport type.</li><li>Granular Breakdowns: Filter your history by Time of Day, Distance ranges, Duration, Pace buckets, Elevation gain, Cadence, and Stride Length.</li><li>Rank Everything: A single tap ranks today&#x27;s metrics (Distance, Pace, HR, etc.) against your entire history. Know immediately if you hit a &quot;Top 15%&quot; performance.</li><li>The Contribution Graph: A GitHub-style heatmap of your entire workout history. Flip it to see detailed daily stats.</li></ul>
+<h3>WORKOUT DETAILS REIMAGINED</h3>
+<ul><li>Smart Maps: Color-code your outdoor routes by Speed, Elevation, or Heart Rate Zones. (Includes China Map Correction).</li><li>Deep Split Analysis: View KM or Mile splits with pace, elevation, HR, and cadence for every single lap.</li><li>Heart Rate Zones: Visualize time spent in customized Zones 1–5 based on your age heart resting rate.</li><li>Rich Context: Add photos, rich text notes, effort ratings (1–10), and custom tags to every workout.</li></ul>
+<h3>COMPLETE HEALTH COMMAND CENTER</h3>
+<ul><li>Everything your Apple Watch measures, visualized in one place with daily, weekly, and yearly trends:</li><li>Cardio Health: Resting Heart Rate, VO2 Max (age-adjusted), Blood Oxygen, and Respiratory Rate.</li><li>Body Composition: Weight, Body Fat %, Lean Body Mass, and BMI with trend indicators.</li><li>Activity &amp; Recovery: Steps (with hourly breakdown), Active vs. Basal Calories, and Wrist Temperature deviations.</li><li>Advanced Sleep Tracking: Deep, Core, REM, and Awake stages visualized night-by-night.</li><li>Correlation Overlays: Overlay multiple health metrics to see how your sleep affects your heart rate or how your weight impacts your VO2 Max.</li></ul>
+<h3>COMPARE &amp; COMPETE</h3>
+<ul><li>Workout Comparison: Select up to 10 workouts to compare side-by-side. See variance percentages (e.g., &quot;+1.5% Faster&quot;) for every metric, by split!</li><li>Comparison Export: Want to analyze with different data tools? Export your workout comparison!</li><li>Personal Records: Automatic tracking for 1K, 5K, 10K, Half, Marathon, and custom distances. Earn Gold, Silver, and Bronze trophies.</li><li>Story Timeline: A chronological feed of every milestone, record, and workout you&#x27;ve ever completed.</li></ul>
+<h3>YOUR DATA, EVERYWHERE</h3>
+<ul><li>Global Map: See every place you&#x27;ve ever exercised on a clustered, interactive world map.</li><li>Powerful Export: Export your entire history (or custom ranges) to CSV or JSON. Includes full split data, body metrics, and metadata.</li><li>iCloud Sync: Your favorites, tags, notes, and ratings sync instantly across all your devices.</li><li>Privacy First: No hidden servers. Your data lives on your device and in your private iCloud.</li><li>Your sweat tells a story. It&#x27;s time to read it. Download Fitness Story today.</li></ul>
+<p>Download Fitness Story and unlock the insight!</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Screenshots</h2>
+      <div class="asc-gallery"><figure><img src="images/asc/en-US/01-phone.webp" alt="Fitness Story — Screenshots 1" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/02-phone.webp" alt="Fitness Story — Screenshots 2" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/03-phone.webp" alt="Fitness Story — Screenshots 3" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/04-phone.webp" alt="Fitness Story — Screenshots 4" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/05-phone.webp" alt="Fitness Story — Screenshots 5" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/06-phone.webp" alt="Fitness Story — Screenshots 6" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/07-phone.webp" alt="Fitness Story — Screenshots 7" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/08-phone.webp" alt="Fitness Story — Screenshots 8" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/09-phone.webp" alt="Fitness Story — Screenshots 9" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/10-phone.webp" alt="Fitness Story — Screenshots 10" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Fitness Story</h2>
+      <p>Now on Apple Watch: today&#x27;s steps on any watch face, plus a Today screen for distance, calories and floors — straight from Apple Health.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6748090363" rel="noopener">Download on the App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Privacy Policy</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Service</a>
+    <a href="https://masawata.net/">Support</a>
+  </footer>
 </body>
 </html>

@@ -1,668 +1,127 @@
-<!DOCTYPE html>
-<html lang="vi">
+<!doctype html>
+<html lang="vi" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Fitness Story - Biến Bài Tập Apple Health & Watch Thành Hành Trình Trực Quan</title>
-    <meta name="title" content="Fitness Story - Biến Bài Tập Apple Health & Watch Thành Hành Trình Trực Quan">
-    <meta name="description" content="Biến dữ liệu Apple Watch và Sức khỏe thành hành trình trực quan đẹp mắt. Theo dõi chạy bộ, đạp xe, bơi lội và hơn thế nữa. Phân tích xu hướng, kỷ lục cá nhân và tiến độ.">
-    <meta name="keywords" content="fitness, workout, Apple Health, tracking, personal records, exercise, health, running, cycling, data visualization, iOS app">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/FitnessStory/vi/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/FitnessStory/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/FitnessStory/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/FitnessStory/zh-Hant/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/FitnessStory/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/FitnessStory/ko/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/FitnessStory/fr/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/FitnessStory/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/FitnessStory/es/">
-    <link rel="alternate" hreflang="pt" href="https://masawata.net/FitnessStory/pt/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/FitnessStory/it/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/FitnessStory/ru/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/FitnessStory/hi/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/FitnessStory/id/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/FitnessStory/vi/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/FitnessStory/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/FitnessStory/vi/">
-    <meta property="og:title" content="Fitness Story - Biến Bài Tập Apple Health & Watch Thành Hành Trình Trực Quan">
-    <meta property="og:description" content="Biến dữ liệu Apple Watch và Sức khỏe thành hành trình trực quan đẹp mắt. Theo dõi chạy bộ, đạp xe, bơi lội và hơn thế nữa. Phân tích xu hướng, kỷ lục cá nhân và tiến độ.">
-    <meta property="og:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
-    <meta property="og:site_name" content="Fitness Story">
-    <meta property="og:locale" content="vi_VN">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/FitnessStory/vi/">
-    <meta name="twitter:title" content="Fitness Story - Biến Bài Tập Apple Health & Watch Thành Hành Trình Trực Quan">
-    <meta name="twitter:description" content="Biến dữ liệu Apple Watch và Sức khỏe thành hành trình trực quan đẹp mắt. Theo dõi chạy bộ, đạp xe, bơi lội và hơn thế nữa. Phân tích xu hướng, kỷ lục cá nhân và tiến độ.">
-    <meta name="twitter:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6748090363">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/Fitness%20Story.png">
-    <link rel="apple-touch-icon" href="../images/Fitness%20Story.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.2">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Fitness Story",
-        "operatingSystem": "iOS",
-        "applicationCategory": "HealthApplication",
-        "sameAs": "https://apps.apple.com/app/id6748090363",
-        "downloadUrl": "https://apps.apple.com/app/id6748090363",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "37"
-        },
-        "description": "Biến dữ liệu Apple Watch và Sức khỏe thành hành trình trực quan đẹp mắt. Theo dõi chạy bộ, đạp xe, bơi lội và hơn thế nữa. Phân tích xu hướng, kỷ lục cá nhân và tiến độ.",
-        "screenshot": "https://masawata.net/FitnessStory/images/en/hero.jpg",
-        "softwareVersion": "6.4.2",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "vi"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Câu Chuyện Thể Dục — Khám phá dữ liệu tập luyện</title>
+  <meta name="description" content="Đã có trên Apple Watch: số bước hôm nay trên mọi mặt đồng hồ, cùng màn hình Hôm nay với khoảng cách, calo và số tầng — thẳng từ Apple Health.">
+  <meta name="apple-itunes-app" content="app-id=6748090363">
+  <link rel="canonical" href="https://masawata.net/FitnessStory/vi/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/FitnessStory/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/FitnessStory/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/FitnessStory/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/FitnessStory/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/FitnessStory/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/FitnessStory/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/FitnessStory/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/FitnessStory/fr-FR/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/FitnessStory/hi/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/FitnessStory/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/FitnessStory/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/FitnessStory/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/FitnessStory/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/FitnessStory/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/FitnessStory/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/FitnessStory/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/FitnessStory/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/FitnessStory/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/FitnessStory/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/FitnessStory/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/FitnessStory/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/FitnessStory/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/FitnessStory/tr/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/FitnessStory/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/FitnessStory/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/FitnessStory/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/FitnessStory/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Câu Chuyện Thể Dục", "description": "Đã có trên Apple Watch: số bước hôm nay trên mọi mặt đồng hồ, cùng màn hình Hôm nay với khoảng cách, calo và số tầng — thẳng từ Apple Health.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/FitnessStory/vi/", "downloadUrl": "https://apps.apple.com/app/id6748090363", "image": ["https://masawata.net/FitnessStory/images/asc/vi/01-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/02-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/03-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/04-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/05-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/06-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/07-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/08-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/09-phone.webp", "https://masawata.net/FitnessStory/images/asc/vi/10-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="nav__logo-img">
-                <span class="nav__logo-text">Fitness Story</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">Tính năng</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">Ảnh chụp màn hình</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#testimonials" class="nav__link">Đánh giá</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">Tải xuống</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">VI</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../pt/" class="language-option">Português</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../id/" class="language-option">Indonesia</a>
-                    <a href="../vi/" class="language-option active">Tiếng Việt</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story App Icon" class="hero__icon">
-                    <h1 class="hero__title">Hành trình fitness của bạn, được trực quan hóa tuyệt đẹp</h1>
-                    <p class="hero__description">Biến dữ liệu Apple Watch và Sức khỏe thành hành trình đẹp mắt, sâu sắc. Theo dõi chạy bộ, đạp xe, bơi lội và tất cả bài tập. Phân tích xu hướng, kỷ lục và ăn mừng mọi chiến thắng.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-vi.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="hero__rating">
-                        <div class="stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <span class="rating-text">5.0 trên App Store</span>
-                    </div>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="Fitness Story Dashboard" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Tính năng mạnh mẽ</h2>
-                    <p class="section-subtitle">Tất cả những gì bạn cần để hiểu và ăn mừng hành trình fitness của mình</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Phân tích chuyên nghiệp</h3>
-                        <p class="feature-card__description">Mở khóa bộ công cụ phân tích vừa túi. So sánh bài tập song song, xem xu hướng hàng năm và theo dõi nhịp chân và độ dài bước chân. Bao gồm biểu đồ chuẩn hộp và râu thể hiện trung vị, tứ phân vị và giá trị ngoại lai cho mọi môn thể thao.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/graphs.jpg" alt="Phân tích chuyên nghiệp" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                <line x1="16" y1="2" x2="16" y2="6"></line>
-                                <line x1="8" y1="2" x2="8" y2="6"></line>
-                                <line x1="3" y1="10" x2="21" y2="10"></line>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Bảng điều khiển tương tác</h3>
-                        <p class="feature-card__description">Truy cập bảng điều khiển tương tác hoàn toàn kết nối hoạt động hàng ngày của bạn với sức khỏe tổng thể. Theo dõi sự nhất quán với biểu đồ đóng góp và bộ đếm chuỗi.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/dashboard.jpg" alt="Bảng điều khiển tương tác" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Dòng thời gian</h3>
-                        <p class="feature-card__description">Trải nghiệm lịch sử fitness của bạn như một câu chuyện liên tục. Cuộn qua dòng thời gian trực quan phong phú kết nối các hoạt động của bạn với những kỷ niệm.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/storyline.jpg" alt="Dòng thời gian" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Địa điểm của tôi</h3>
-                        <p class="feature-card__description">Xem lịch sử tập luyện trên bản đồ, được nhóm theo thành phố và quốc gia. Xem hành trình fitness đã đưa bạn đến những đâu trên thế giới.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/fitness-map.jpg" alt="Địa điểm của tôi" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Yêu thích & Nhãn</h3>
-                        <p class="feature-card__description">Sắp xếp bài tập với các nhãn tùy chỉnh như "Interval", "Phục hồi" hoặc "Ngày đua". Đánh dấu tim cho các buổi tập tốt nhất để xây dựng bộ sưu tập thành tích đỉnh cao.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/favorites.jpg" alt="Yêu thích & Nhãn" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 8 7 8M18 9h1.5a2.5 2.5 0 000-5C17 4 17 8 17 8"/>
-                                <path d="M4 22h16"/>
-                                <path d="M10 22V8h4v14"/>
-                                <path d="M8 6V4h8v2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Kỷ lục cá nhân</h3>
-                        <p class="feature-card__description">Chúng tôi tự động phát hiện Kỷ lục Cá nhân và hiển thị chúng với ảnh và ghi chú của bạn. Giữ những chiến thắng yêu thích ở vị trí nổi bật trong Tủ Danh Hiệu.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/personal-records.jpg" alt="Kỷ lục cá nhân" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 3h5v5M8 3H3v5M3 16v5h5M16 21h5v-5"/>
-                                <line x1="21" y1="3" x2="14" y2="10"/>
-                                <line x1="3" y1="21" x2="10" y2="14"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">So sánh bài tập</h3>
-                        <p class="feature-card__description">So sánh nhiều bài tập song song (tối đa 10) để xem tiến trình của bạn. Phân tích tốc độ, nhịp tim, độ cao và hơn thế nữa để hiểu hiệu suất của bạn đã phát triển như thế nào theo thời gian.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/workout-comparison.jpg" alt="So sánh bài tập" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"/>
-                                <path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20"/>
-                                <path d="M2 12h20"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Lộ Trình Màu Sắc</h3>
-                        <p class="feature-card__description">Trực quan hóa lộ trình tập luyện của bạn theo cách chưa từng có. Tô màu đường đi theo tốc độ, độ cao, nhịp bước hoặc độ dài sải chân.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/color-route.jpg" alt="Lộ Trình Màu Sắc" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Ăn Mừng Kỷ Lục</h3>
-                        <p class="feature-card__description">Mọi kỷ lục cá nhân đều xứng đáng được công nhận. Khi bạn phá vỡ PR mới, hãy ăn mừng khoảnh khắc đó với hình ảnh đẹp ghi lại thành tích của bạn.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/record-celebration.jpg" alt="Ăn Mừng Kỷ Lục" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="3" width="7" height="7" rx="1"/>
-                                <rect x="14" y="3" width="7" height="7" rx="1"/>
-                                <rect x="3" y="14" width="7" height="7" rx="1"/>
-                                <rect x="14" y="14" width="7" height="7" rx="1"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Widget</h3>
-                        <p class="feature-card__description">Giữ dữ liệu fitness luôn hiển thị với các widget màn hình chính đẹp mắt. Theo dõi bước chân, calo, tiến độ tập luyện và chỉ số cơ thể chỉ trong nháy mắt—không cần mở ứng dụng.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/widgets.jpg" alt="Widget" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Chỉ Số Sức Khỏe</h3>
-                        <p class="feature-card__description">Theo dõi tất cả các chỉ số sức khỏe quan trọng—từ bước chân và calo đến nhịp tim, VO2 max, giấc ngủ và hơn thế nữa—chỉ trong nháy mắt. So sánh xu hướng của bạn với các tiêu chuẩn cá nhân.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/health-metrics.jpg" alt="Chỉ Số Sức Khỏe" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
-                                <line x1="4" y1="22" x2="4" y2="15"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Thử thách hằng ngày</h3>
-                        <p class="feature-card__description">Tham gia các thử thách được theo dõi tự động — Chạy 3K, 10K Bước, Đạp xe 10K và Tập luyện 45 phút — qua các mốc 1, 3 và 7 ngày. Nhận huy hiệu, lấp đầy Tủ cúp và ăn mừng mọi chiến thắng.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-challenges.jpg" alt="Thử thách hằng ngày" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1200">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="18" cy="5" r="3"/>
-                                <circle cx="6" cy="12" r="3"/>
-                                <circle cx="18" cy="19" r="3"/>
-                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
-                                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Thẻ chia sẻ</h3>
-                        <p class="feature-card__description">Biến mọi bài tập, kỷ lục hay thử thách thành một tấm thẻ chia sẻ đẹp mắt. Chọn từ 15 chủ đề màu và chuyển đổi giữa kiểu Gradient và Sáng để hợp phong cách của bạn.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-records.jpg" alt="Thẻ chia sẻ" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1300">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7 10 12 15 17 10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Xuất mọi thứ</h3>
-                        <p class="feature-card__description">Xuất toàn bộ lịch sử — hoặc bất kỳ khoảng thời gian nào — sang CSV hoặc JSON, đầy đủ dữ liệu chặng, chỉ số cơ thể và siêu dữ liệu bài tập. Dữ liệu của bạn luôn là của bạn.</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-analysis.jpg" alt="Xuất mọi thứ" loading="lazy">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Xem ứng dụng hoạt động</h2>
-                    <p class="section-subtitle">Thiết kế đẹp mắt kết hợp chức năng mạnh mẽ</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-insights.jpg" alt="Unlock your workout insights" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-health.jpg" alt="Complete health metrics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-analysis.jpg" alt="Professional analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-challenges.jpg" alt="Daily challenges" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-records.jpg" alt="Personal records &amp; trophy case" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-comparison.jpg" alt="Compare workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-map.jpg" alt="Your locations on the map" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-activities.jpg" alt="80+ activity types" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-workout.jpg" alt="Deep workout detail" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section class="testimonials" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Người dùng nói gì</h2>
-                    <p class="section-subtitle">Tham gia cùng hàng nghìn người đam mê fitness yêu thích Fitness Story</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"Ứng dụng này cung cấp xu hướng fitness tuyệt vời mà Apple không thể cung cấp theo cách khác. Giao diện đẹp với phong cách Apple."</p>
-                        <p class="testimonial-card__author">— Antcido</p>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"Cuối cùng cũng có một ứng dụng fitness biến dữ liệu thô thành hình ảnh thực sự tạo động lực cho tôi. Yêu tính năng theo dõi kỷ lục cá nhân và so sánh theo năm!"</p>
-                        <p class="testimonial-card__author">— Sigmasigmarizz</p>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"Ứng dụng này cho tôi những thông tin mà cả Strava lẫn ứng dụng Sức khỏe đều không thể cung cấp. Nếu bạn yêu thích fitness, bạn phải thử ngay!"</p>
-                        <p class="testimonial-card__author">— Cleverc77</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="download__icon">
-                    <h2 class="download__title">Bắt đầu Fitness Story của bạn ngay hôm nay</h2>
-                    <p class="download__description">Tải miễn phí với tùy chọn nâng cấp Pro cho các tính năng nâng cao. Dữ liệu của bạn được bảo mật riêng tư trên thiết bị.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-vi.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">Có sẵn trên iPhone và iPad</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Câu Hỏi Thường Gặp</h2>
-                    <p class="section-subtitle">Tất cả những gì bạn cần biết về Câu Chuyện Thể Hình</p>
-                </div>
-
-                <div class="faq__list">
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Ứng dụng theo dõi bài tập của tôi như thế nào?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Câu Chuyện Thể Hình không trực tiếp theo dõi bài tập—Apple Watch và iPhone của bạn đã làm điều đó hoàn hảo rồi! Thiết bị của bạn liên tục thu thập dữ liệu bài tập và các chỉ số cơ thể, lưu trữ tất cả trong Apple Health. Chỉ cần cấp cho ứng dụng quyền truy cập chỉ đọc, và chúng tôi sẽ biến tất cả dữ liệu đó thành báo cáo tuyệt đẹp, phân tích sâu sắc và thông tin hữu ích.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Ghi chú, ảnh, nhãn, đánh giá và yêu thích của tôi được lưu ở đâu?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Tất cả dữ liệu cá nhân của bạn—ghi chú, ảnh, nhãn, đánh giá và yêu thích—được lưu trữ an toàn trong bộ nhớ cục bộ của thiết bị và tài khoản iCloud cá nhân của bạn. Dữ liệu của bạn đồng bộ liền mạch trên tất cả thiết bị Apple. Ngay cả khi bạn xóa ứng dụng, dữ liệu của bạn vẫn an toàn trong iCloud và sẽ được khôi phục khi cài đặt lại.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Ứng dụng hiển thị những chỉ số cơ thể nào?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Câu Chuyện Thể Hình trình bày cái nhìn toàn diện về dữ liệu sức khỏe của bạn: bước chân hàng ngày, calo hoạt động, VO2 max, vùng nhịp tim, nồng độ oxy trong máu, nhiệt độ cổ tay, cân nặng, khối lượng cơ nạc, tỷ lệ mỡ cơ thể, BMI, nhịp thở và phân tích giấc ngủ chi tiết. Mọi thứ bạn cần để hiểu hiệu suất cơ thể.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Ứng dụng hỗ trợ những hoạt động tập luyện nào?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Câu Chuyện Thể Hình hỗ trợ tất cả các loại bài tập mà Apple Watch theo dõi—hơn 80 hoạt động! Bao gồm các hoạt động phổ biến như chạy bộ, đạp xe, bơi lội, HIIT, yoga và tập tạ, cùng với các hoạt động chuyên biệt như pickleball, leo núi, võ thuật, trượt tuyết, nhảy múa và nhiều hơn nữa. Nếu Apple Watch của bạn có thể theo dõi, Câu Chuyện Thể Hình có thể trực quan hóa.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Thử thách là gì?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Thử thách là các mục tiêu thể dục tích hợp sẵn — chạy 3K, 10.000 bước, đạp xe 10K hoặc tập luyện 45 phút — được theo dõi tự động từ dữ liệu Apple Health của bạn qua các mốc 1, 3 và 7 ngày. Hoàn thành để nhận huy hiệu và xây dựng Tủ cúp của bạn.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Tôi có thể xuất dữ liệu của mình không?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Có. Xuất toàn bộ lịch sử, hoặc bất kỳ khoảng thời gian tùy chỉnh nào, sang CSV hoặc JSON — bao gồm đầy đủ dữ liệu chặng, chỉ số cơ thể và siêu dữ liệu bài tập. Bạn cũng có thể xuất bản so sánh bài tập để phân tích bằng công cụ của riêng mình.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Fitness Story có miễn phí không?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story miễn phí tải xuống và sử dụng. Bản nâng cấp Pro tùy chọn mở khóa toàn bộ chiều sâu của phân tích, thử thách và chia sẻ — không cần tài khoản và không cần đăng ký để bắt đầu.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Ứng dụng chạy trên thiết bị nào?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story chạy trên iPhone và iPad. Ứng dụng đọc dữ liệu Apple Health và Apple Watch của bạn với quyền chỉ đọc — không có tài khoản và không có máy chủ, nên mọi thứ luôn nằm trên thiết bị và iCloud riêng tư của bạn.</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">Quyền riêng tư của bạn quan trọng</h2>
-                    <p class="privacy__description">Fitness Story đọc dữ liệu trực tiếp từ Apple Health ở chế độ chỉ đọc. Tất cả tính toán và phân tích diễn ra an toàn trên thiết bị của bạn. Dữ liệu sức khỏe của bạn không bao giờ được gửi cho chúng tôi hoặc bất kỳ bên thứ ba nào.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Đọc Chính sách Bảo mật</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="footer__logo">
-                    <span class="footer__name">Fitness Story</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">Chính sách Bảo mật</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Điều khoản Dịch vụ</a>
-                </div>
-                <p class="footer__copyright">© 2026 Fitness Story. Bảo lưu mọi quyền.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/Fitness Story.png" alt="" width="44" height="44"><span>Câu Chuyện Thể Dục</span></a>
+    <details class="asc-languages">
+      <summary>Ngôn ngữ: Tiếng Việt</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Câu Chuyện Thể Dục</p>
+        <h1>Khám phá dữ liệu tập luyện</h1>
+        <p>Đã có trên Apple Watch: số bước hôm nay trên mọi mặt đồng hồ, cùng màn hình Hôm nay với khoảng cách, calo và số tầng — thẳng từ Apple Health.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6748090363" rel="noopener">Tải xuống từ App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/vi/01-phone.webp" alt="Câu Chuyện Thể Dục">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Giới thiệu ứng dụng</h2>
+      <div class="asc-prose"><p>Đừng đoán mò. Hãy nắm rõ. Câu Chuyện Thể Hình biến dữ liệu Apple Health của bạn thành bản phân tích chi tiết và mạnh mẽ nhất trên iOS. Không tài khoản. Không máy chủ. Chỉ có hành trình thể hình của bạn — được trực quan hóa hoàn toàn.</p>
+<p>Dù bạn theo dõi giấc ngủ, phân tích nhịp chạy hay chinh phục kỷ lục marathon — đây chính là bảng điều khiển toàn diện xứng đáng với nỗ lực của bạn.</p>
+<p>Hoạt động với mọi thiết bị hoặc ứng dụng đồng bộ với Apple Health — Apple Watch, Garmin, Polar, Suunto, Zwift và nhiều hơn nữa.</p>
+<h3>PHÂN TÍCH CHUYÊN NGHIỆP</h3>
+<ul><li>Biểu đồ xu hướng &amp; chuẩn đối sánh: Sử dụng biểu đồ Box-and-Whisker để xem trung vị, tứ phân vị và giá trị ngoại lệ cho từng loại thể thao.</li><li>Phân tích chi tiết: Lọc lịch sử theo thời gian trong ngày, khoảng cách, thời lượng, tốc độ, độ cao, nhịp bước và độ dài sải chân.</li><li>Xếp hạng mọi thứ: Chỉ một chạm để xếp hạng chỉ số hôm nay (khoảng cách, tốc độ, nhịp tim...) so với toàn bộ lịch sử. Biết ngay nếu bạn đạt hiệu suất &quot;Top 15%&quot;.</li><li>Biểu đồ đóng góp: Bản đồ nhiệt kiểu GitHub cho toàn bộ lịch sử tập luyện. Lật để xem thống kê chi tiết từng ngày.</li></ul>
+<h3>BÀI TẬP ĐƯỢC TÁI HÌNH DUNG</h3>
+<ul><li>Bản đồ thông minh: Tô màu lộ trình ngoài trời theo tốc độ, độ cao hoặc vùng nhịp tim. (Hỗ trợ hiệu chỉnh bản đồ Trung Quốc).</li><li>Phân tích split chuyên sâu: Xem các split theo KM hoặc Mile với tốc độ, độ cao, nhịp tim và nhịp bước cho từng vòng.</li><li>Vùng nhịp tim: Trực quan hóa thời gian ở vùng tùy chỉnh 1–5 dựa trên tuổi và nhịp tim nghỉ.</li><li>Ngữ cảnh phong phú: Thêm ảnh, ghi chú định dạng, đánh giá nỗ lực (1–10) và thẻ tùy chỉnh cho mỗi bài tập.</li></ul>
+<h3>TRUNG TÂM ĐIỀU KHIỂN SỨC KHỎE</h3>
+<ul><li>Mọi chỉ số Apple Watch đo được, trực quan hóa tại một nơi với xu hướng ngày, tuần và năm:</li><li>Tim mạch: Nhịp tim nghỉ, VO2 Max (điều chỉnh theo tuổi), nồng độ oxy máu và nhịp thở.</li><li>Thành phần cơ thể: Cân nặng, tỷ lệ mỡ, khối lượng cơ nạc và BMI với chỉ báo xu hướng.</li><li>Hoạt động &amp; phục hồi: Bước chân (phân tích theo giờ), calo hoạt động so với calo cơ bản, và biến thiên nhiệt độ cổ tay.</li><li>Theo dõi giấc ngủ nâng cao: Trực quan hóa các giai đoạn sâu, Core, REM và thức giấc từng đêm.</li><li>Chồng chéo tương quan: Kết hợp nhiều chỉ số sức khỏe để thấy giấc ngủ ảnh hưởng nhịp tim hay cân nặng tác động VO2 Max như thế nào.</li></ul>
+<h3>SO SÁNH &amp; CẠNH TRANH</h3>
+<ul><li>So sánh bài tập: Chọn tối đa 10 bài tập để so sánh song song. Xem phần trăm chênh lệch (ví dụ: &quot;+1,5% nhanh hơn&quot;) cho mọi chỉ số, theo từng split!</li><li>Xuất so sánh: Muốn phân tích với công cụ khác? Xuất dữ liệu so sánh bài tập của bạn!</li><li>Kỷ lục cá nhân: Tự động theo dõi cho 1K, 5K, 10K, bán marathon, marathon và khoảng cách tùy chỉnh. Nhận cúp Vàng, Bạc và Đồng.</li><li>Dòng thời gian: Bản tin thời gian của mọi cột mốc, kỷ lục và bài tập bạn từng hoàn thành.</li></ul>
+<h3>DỮ LIỆU CỦA BẠN — Ở KHẮP NƠI</h3>
+<ul><li>Bản đồ toàn cầu: Xem mọi nơi bạn từng tập luyện trên bản đồ thế giới tương tác với phân cụm.</li><li>Xuất dữ liệu mạnh mẽ: Xuất toàn bộ lịch sử (hoặc khoảng thời gian tùy chọn) sang CSV hoặc JSON. Bao gồm dữ liệu split đầy đủ, chỉ số cơ thể và metadata.</li><li>Đồng bộ iCloud: Mục yêu thích, thẻ, ghi chú và đánh giá đồng bộ tức thì trên tất cả thiết bị.</li><li>Quyền riêng tư là trên hết: Không máy chủ ẩn. Dữ liệu nằm trên thiết bị và iCloud riêng của bạn.</li><li>Mồ hôi của bạn kể một câu chuyện. Đã đến lúc đọc nó. Tải Câu Chuyện Thể Hình ngay hôm nay.</li></ul>
+<p>Tải Câu Chuyện Thể Hình và khám phá tiềm năng của bạn!</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Ảnh chụp màn hình</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/vi/01-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 1" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/02-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 2" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/03-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 3" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/04-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 4" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/05-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 5" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/06-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 6" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/07-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 7" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/08-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 8" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/09-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 9" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/10-phone.webp" alt="Câu Chuyện Thể Dục — Ảnh chụp màn hình 10" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Câu Chuyện Thể Dục</h2>
+      <p>Đã có trên Apple Watch: số bước hôm nay trên mọi mặt đồng hồ, cùng màn hình Hôm nay với khoảng cách, calo và số tầng — thẳng từ Apple Health.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6748090363" rel="noopener">Tải xuống từ App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Chính sách quyền riêng tư</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Điều khoản dịch vụ</a>
+    <a href="https://masawata.net/">Hỗ trợ</a>
+  </footer>
 </body>
 </html>

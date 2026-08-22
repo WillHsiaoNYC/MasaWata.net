@@ -1,312 +1,1291 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/zh-Hans/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/zh-Hant/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/ja/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/ko/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/fr/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/de/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/es/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/pt/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/it/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/ru/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/hi/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/id/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/WhereWasI/vi/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
-    </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/ar-SA/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/ca/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/cs/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/da/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/de-DE/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/el/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/es-ES/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/es-MX/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/fi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/fr-FR/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/he/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/hi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/hr/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/hu/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/id/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/it/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/ja/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/ko/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/nl-NL/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/no/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/pl/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/pt-BR/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/ro/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/ru/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/sk/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/sv/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/th/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/tr/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/uk/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/vi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/zh-Hans/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/WhereWasI/zh-Hant/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/"/>
+  </url>
 </urlset>

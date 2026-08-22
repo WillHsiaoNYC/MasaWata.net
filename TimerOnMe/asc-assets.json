@@ -1,0 +1,2450 @@
+{
+  "ar-SA": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "cfcae5a62f8a7f7890a9991b37b47b8e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/0b/a7/3a0ba7aa-9920-8287-39c4-afe557a35608/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ac23a9185ccc0333d14109d703e14436",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/c6/2e/71c62eec-2d8a-89d2-ff64-ab45300bac9f/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "89001c2fc9c22cda9f95300aa2157266",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/0d/da/3c0dda50-9b39-a763-9b87-28f32918bb22/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "a4486f862fdb909be5ea808b2cbee875",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/f3/1a/7cf31a6e-c1cf-5535-8f1b-6836ce504357/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "254ab860e3f10782595941c4b436b8a6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/d6/a5/4cd6a502-d1d0-f65b-6e32-a4f9b220bea6/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3b2cb2cb17d54ef02300639922d9b8fa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/b9/d1/48b9d126-ebf8-dfd7-37a5-0c193aaff660/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "306d418aab6daec031eb91da10161786",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/30/d2/c030d27f-a12e-2e61-6009-13b899434247/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ca": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1a98d6a339217872a4bdde514c190dd9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/67/61/a56761cf-8c18-8614-c112-dc01806e4d23/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "cd5dc93023ef6eef69da2849ce45c96f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/89/6f/0f896f31-fcbe-846a-d008-ebe183edc3dd/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "40dd66afabd85885ecd86f330753a62e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/ba/b9/e7bab97a-4a11-6fae-6ae2-52b7539d1535/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3ff8872c220effb174565dce10120b18",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/57/b9/7057b97c-03a8-2d6f-ab7a-e7c3549f502a/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c70743258d978b64e78dea07bd482cb2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/f6/f6/e7f6f68b-a59e-6db3-6d94-941a61d81910/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "4efdc47f9d424d042b388f475c110f2b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/da/87/3fda8763-ff6b-283b-36ff-aadb459ddacf/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "661213e3c445981ca15dad81c75495aa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/f2/8e/79f28ebf-de55-0a83-0ec9-6291af416018/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "cs": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3fa5cfb6b7cab71ef1acd51fe863f3bb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/78/34/a9783465-6853-87a2-7267-921e628d0d36/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "0b69da297edcd86eff9de7ce23c48792",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/e5/65/0ee56578-1547-f2d3-929e-8b7b8088e2d7/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8dda17e85b64d872196010c25accf9d5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/f2/04/85f2040b-f976-6eaf-5a4c-96c731ca6f11/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "26b5311faeac5c3aae5532e855f218f1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/2d/0e/ac2d0e80-c5a9-e0d0-2032-96430c80f429/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f0335b6ec62bd33d87b0d6424c988ab2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/2e/83/bf2e8380-275c-f5cb-20ea-381a06b12dce/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1342b03da7d65796567e6827cdffbab8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/e1/5e/b9e15edd-cdfe-790e-a762-95e87574f0d1/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "9e38edd9f3dd9d78075bf697d25a4ac4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/8d/ee/928deed2-33ef-dec3-521a-38a8d378847a/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "da": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "5dfab8120a5ecc5dd448762301e510ac",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/a4/d2/5ba4d2e7-2d43-165d-1017-122eba8f68d7/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "eb6e4b9cb89dfd7b7f75e70b0a0874be",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/d6/19/cbd61927-a55e-7601-948e-4e7e6a36c1ea/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "309ca21b8afc23f72685e8ba2634ac3b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/fa/b6/fefab667-3e91-8dec-03c0-4bc0fb6d765d/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "feb4427bc8e05013159a973eef6e0de8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/78/3a/04783ab7-31b5-f7e7-e821-82f8c1f48144/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "644c113eb0524c4008b2ecd099312a26",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/a3/1a/8ca31af9-3bfa-8073-eb52-ce0bcaba951f/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "156ce6ac3682a9ac1efbb777881b1df4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/d8/84/15d884bc-1ce0-2cef-f08d-944cff868923/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "dcd86714825130fc21c3a5158ce94260",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/70/b7/7670b704-1683-e934-c764-116955cf9bc9/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "de-DE": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "5a64daadeb56a17cf1582017988f5bb5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/9e/74/369e7425-4f83-84d3-89a9-81030295b889/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f5ead86e68e56aaecb0d601c1e078156",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/aa/91/dcaa9110-8184-6e25-5c44-f7f5b67255da/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "290334fd59d852b7fdd7cfc83da601ca",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/b2/04/dfb204d5-7eed-c4c3-8841-169d5b22d4c4/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "85f68b57a4e79724b7d8bc894ca9d6ae",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/b9/42/42b942ee-f97a-8473-a4c3-9c58418ed6c5/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "300b4bfcd5324e28ca3f441f0b04a6e0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/15/89/fc1589c9-56de-1d72-a141-5a98f6d00a2e/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "d0736daddbb7563ecd777edc1d429b0f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/1d/3c/151d3c4f-d397-bf9e-5c10-7767e9638a8a/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e4b0ee93d070951db11303aadf06a299",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/38/14/383814dc-1d4f-15a9-9f38-57ae980ac5af/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "el": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f003ff10a4ef63a1099f64c6dcd29dff",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/ae/24/8cae244f-8a09-f942-0db9-9df566abebd6/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c8e825e231c49dd7b91bcb86813f506e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/e5/83/e3e583ba-00f9-5672-1cda-ba102d31fb43/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f6de3cf66be74599366b7f7580e8ee29",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/5b/26/885b2698-4081-7067-5bbc-591ad77797d3/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "04aa6cccce1a413f35d70fc65ff652c2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/94/3d/ed943d23-3a45-bd37-69c5-3a594e68e212/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3ea19db39b6ae34a152a8b95150cc1ef",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/76/0e/fd760e2e-d3c7-e0c0-8a4b-1ff4adcbdd11/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8f8b03126f4734934322c8f9d185d906",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/37/22/9c37226c-6623-e512-18e1-877dc5fcdac8/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "7308bb0891f327098c2358e7e2bfdc49",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/be/57/65be5753-3ca3-941c-cc43-bae164ebd408/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "en-US": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "738a8acb67e6ce5b29beba60a2b62445",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/8b/74/ae8b74f1-0cb8-4608-35e7-486f415d438b/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "4a36aa28741addfa4f1a7bbd7b18604c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/fd/81/8cfd816a-9e19-4f4e-e0a1-4f9a8be5c6bd/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "0dbbdd1afbf02cb02453ca7d505f27b3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/e8/a4/e5e8a4b5-f6cb-c687-6fbb-9d9ce7262c36/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "5fe4fd0a9e94a602ad647ea191d4d3fd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/81/8e/63818e6a-8308-41b9-d7bd-2c44e880919c/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c84549e1d50b3b41c50d8b20e46ffada",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/c5/4a/3ec54a71-a1dd-509c-bcca-068aa0e29806/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c6191a8a4fa8a5c28f7f89452dae8575",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/5a/c0/975ac04f-3a92-b9c1-2214-054d1c39c1ac/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f562fbfd64306140abcf08fd721e223a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/6d/d5/3d6dd5e5-5a2d-bf63-76bd-2c9b701972c0/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "es-ES": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "b91acae9bb72895952181dedcad99295",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/ae/33/b1ae338b-ead3-02a1-e8d6-0d45d4bef64d/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3ad91c7b2e23f6601eb208b7e5015110",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/18/45/c81845b9-f151-6481-a9f0-37209f2154ff/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "021bd80f61ef0885f30df2b166e681d1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/83/12/b78312e5-dc91-cf28-9f33-fa5e7e4011f8/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f099f949d84b9de3a377fa8e2521f463",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/99/ba/2499ba03-ff4f-5b3d-4434-18b88db71528/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "26da68e31b0219caec522e290b9f39dc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/58/93/02589325-0ee0-cfdc-01b4-7ea6349dc3ca/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "af883feca4c562979f25193bded30b98",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/71/08/2a710876-e962-13e7-2bff-9b6fdb4383e4/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "65bbb4221fb3547e8cebd0e21c8d6680",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/f2/a3/e9f2a3dd-31cf-22ce-d6c9-d16187b5782c/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "es-MX": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "a59bc62716faa92eab2b564b8889eaf5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/b1/7e/bdb17e0e-73b5-52a2-6d6f-18e8bc68e13c/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "2b78a17236567989418a49c981d64d19",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/72/fb/f172fb82-e450-d6be-467d-bf793f8acaa1/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "577b2e32147e9e71629b8e9370035cce",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/fd/15/75fd1520-b667-f456-32d5-88f8225ab91e/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "fba76480a96cc3b10dd77fbaa70edf15",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/d9/43/75d94318-17fe-d4cd-e2fb-64998283d38a/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "7d3cbd5dc61c088a183eb6c4e663caab",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/60/fa/7e60fa1c-ccd0-bf3d-5a0c-1fc54a287804/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ef7ecba3c7d43d87ff04e923e0f2811f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/cd/29/18cd29a7-9cc0-6e30-028a-0e21f62e765a/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "447a7a9f655a2ab5171523ddb1114068",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/1b/d6/991bd628-5b2c-4560-dddc-817103d9fab8/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "fi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "7eeead0cf2177a1ded39678489872e30",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/f9/57/e4f957af-6024-1b33-040e-59cb5eda0432/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "fb6955d9e4cf968f59482a4b787c75f0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/36/d5/4236d5bc-4a87-39b5-4098-223657a350d9/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "12f9fdbe061322421eb117fc5109eddb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/83/11/528311ef-bea1-6576-0b63-a397fda82d86/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "0b81f150e9ca8d31b4e3e25c8cdfec69",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/c7/0c/84c70cf3-510d-af8b-2b25-692ce5a94c88/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "fd01c992e3bdf694913e66a190358d57",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/4f/d4/ee4fd486-d7a4-65a4-a9d2-3623144d7462/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "7d6e84375ecb8fb98f5f99e215355a7c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/cb/1c/07cb1c88-24f9-d3c2-24a3-2a0bd198f8e1/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "4eaa1171bf750a5dfb794ca5f335bd64",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/21/65/d82165e6-eca7-ba75-3221-6784ddb4ec5e/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "fr-FR": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "08b8e1335088529c40a7f17a0e05919e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/ca/7a/8eca7a32-0a6c-ceed-31a9-f09e3394ec55/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "017c3249d2c6c54909dd64a3db1edfa9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/38/c6/3138c6c7-276b-b63b-07dd-996efa75737e/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c8f5cefebbb537c4ced939ca28d11285",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/ef/47/c0ef4723-e6fe-9d8b-2529-5a0df25f2339/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f4e0444420d0d4368e8f5b232565733b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/44/b3/ff44b3bb-7013-13ff-8460-16a5ffdc0d55/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1410bfb95887713725860ac03a4e671e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/3a/94/c53a94bb-5127-08ec-3fcb-aa196e31209b/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "d50fe1e29f31fa1ef2b4c0edc166c1db",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/33/95/0a339534-153f-2521-63c8-032d435b356f/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "134955b96eb3ecdb4f120891c5aad348",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/35/f3/6135f313-6d8e-8331-5b8c-240b7479f360/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "he": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e4c650a7d1e9e1115c31bf5638275900",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/f7/60/f9f7603b-4392-7e7c-a514-faf8a3b1b3ea/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8fbacae0303c4929e8b41eb9d2a348f5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/83/41/98834127-f6d2-f773-9e47-aa628f2ea9fb/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "cb57f6d9dd14f40f8edced7fd5a9f741",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/24/d1/b624d109-05e7-a4b2-d448-e661b6964272/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "004452a3a35e0535ed58a600b2214a7d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/58/e7/2f58e769-ecf3-52bc-0aed-a2672c61bbcc/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "50d3adefecf1ed62bf1413680ef837d4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/ae/70/f1ae709c-2289-9229-77cd-3125afff4b90/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "5455df8d08dd34219f17d764666e563b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/9f/de/d39fde50-a075-a4a2-990b-ae79a1ef07c1/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c8d74410f69fb9758defe7358a3bb0e1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/7d/f8/477df889-99db-0c4c-12b2-a1fad2b1b8a6/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "hi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "59a4da6a7adfa031ff99b26f20e7c21e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/3d/09/853d0985-1cdd-5053-f892-59363b24f0a0/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1a3086637bcc002378ccbb1dbb424175",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/87/eb/c187eb59-63c1-ac7a-ccaa-3c0350dc0730/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "497a246bed17ec8f7c8e82536eccbfd5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/6a/1a/256a1a70-770a-c38b-f764-2fa0b8e5d4ab/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8c5edfb31235cc9e5fc1478e2d2e13b5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/07/04/0e0704dd-7e53-fe06-2567-8ab45ec2d76b/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "d9c513cd2e4c40c6fb15795d560ba6ad",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/ff/93/48ff93e1-800b-f651-66ce-0bb4997c0e1a/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e66057bacb94e39af7b2ebb2db5b1601",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/e5/6d/b2e56d00-d90f-45ee-5da3-320dba06c29f/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "a5e5631cfbedf8fbc56f000fc9243026",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/e7/5c/f3e75c90-e17d-8e9f-7bd7-8ca999389c9e/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "hr": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "a08f712ccbbb09f16a8e6e73471911e4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/ba/24/83ba248b-9377-547d-87a6-e8e608215f51/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "52cf26ecc80465fa5d6d5e98766cd407",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/10/72/f11072b2-0685-3fc5-dd3a-12a3ed4c68e7/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "eb46763fca7e23f7e6b7551dd8e3f3eb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/66/f1/d966f10f-10d1-3767-7897-840a06a5b238/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "7e9fcea4f8fc48733314dfb07f8310d9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/dc/bd/7adcbd73-b378-3f5d-0bb9-24a96efbbc1d/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3445cf111d4b5de5de2db3eaca57c24e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/fe/98/2ffe9824-c354-29bd-f738-35048862f2f5/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "2b15bfb4fc691f03461d9aeeea842da0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/de/b3/b9/deb3b95c-1a9f-7b45-7c8b-06d3d8641a87/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "17b08cfa0f0f1f2270f08d9a488c9b63",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/1d/dd/541dddbd-84da-ec9e-8943-480c2974de21/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "hu": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "5f556cd4958dc1a5f921c639c2c4d2f0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/f7/eb/e1f7eb28-8ea6-92e8-ed9e-25f0ef501162/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "25379301af826001784286d6ae76e507",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/b1/4b/5fb14be7-68c0-a983-feba-9a6b4bb3aaa1/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "28ecd8351f61170429f7926ca2857e74",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/c6/d7/a0c6d73b-90dc-9a97-0d1a-0d52e287d14e/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "423ee9203c1fc45d58fc3534f4c15a3c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/40/b4/5140b48f-ae33-dadf-7aaf-c21166657822/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "032562d904791689eac8615061a052dc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f8/b1/95/f8b19542-1807-6f42-e906-97bbb9d8ca1f/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "24b44868a2fe2f8a724e8a3d0098a750",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/90/80/649080c7-8cbf-0092-b902-1c7bd7485c44/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "cce0dab7fec27b980d223466352cf76b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/ba/7a/1cba7aa7-648c-39c4-621b-35d045396592/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "id": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ec0c073a4c4f690bcf64f34e3ae7b09a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/ec/0b/64ec0bcb-42b3-1403-57c3-62cc6860ceb8/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "2ba73ac71a93c889784d61a92de9dd69",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/f5/cb/6ef5cbef-4e3d-d2bc-6c2e-86927bfa2861/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "71e230fc87fbb442de342ba9251583e8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/de/44/72de4428-885d-d7a2-459d-7690eff72a97/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "859288925cf4f01f80524624f7177815",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/5d/6e/615d6e86-8cd5-c429-da1d-4e2b912af874/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "d94e39ef97184970ce72c7d4d4e2361a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/0a/be/890abeb0-0878-13b9-2900-51f15312ed5c/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "0d2cde33108ca8f9312f79771edf5157",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/d5/54/5ad5543c-76b3-8dab-d0fa-82346d82e9db/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1a67a95c883822b8d74199011ad2bb86",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/da/30/0ada30a1-aabe-73fd-0826-2a1c9bd6af7f/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "it": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "33f24471ed36a007aaa73ddec2fa1a0e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/64/7d/16647de6-3096-8bd6-044c-a4f274b4faf3/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "6a2bab511c814d3d1381dc404737045f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/b9/81/ceb981e0-5135-fe64-9d7a-d937b47ceb78/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3c9c31eca6b8f71b5c93c7d2892b84ec",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/f2/3f/7ef23f1d-62f2-539d-8739-374b1c89012c/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "b3892f2c4ab0c94231f95be9efdbd4f7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f6/ec/b8/f6ecb899-7fdf-cf95-f9c9-124c69c5ecbc/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "dd0fded7529da1b94149746a31fa42b1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/de/41/51/de415136-ea0d-8956-7e67-12f3032d4297/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ea19f9ff1ddb9f70336a979dbc7e2a7b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/b9/82/70b982dd-230f-61b5-ec54-4716e8911ede/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ccaadc820d08a11e83c551bc78f67e2b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/31/df/3131dfbf-93fe-6ae4-2c5f-f18f497d2596/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ja": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e25e7da47d4446b20e01236041746e55",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/a2/59/1ea2593a-f86c-bb1b-7b7b-fcab3cd15f3e/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "fd2b3a02938f81fe4a40dc8e64f1750b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/11/e3/e511e326-3dbe-55f1-09ab-9256acacd0cd/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "35c646c64c88393a4126ac614f93da3b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/90/7e/cc/907ecc46-c916-ad21-8fa0-8b981661dd2f/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "05102ea331253c25885962c73b495cce",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/1c/b4/d11cb4fb-c3c8-3c78-c64c-bde0b3330785/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "de4e4f0d4dcce507e623221874e8a2cf",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/94/3a/8f/943a8fe3-1c5d-a76f-dfa6-3d8653f513e8/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "5db33a56978c1ef51b2f34f5edb6c68a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/1e/c4/461ec4f3-8f49-90a0-5641-bfbf383035bd/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "d8d967451f253dc473c10acbef4a3605",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/4c/1c/cc4c1c9c-3848-f1ea-975a-ef2f1bd11807/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ko": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c4ee67de314419065a4c59e74d4c0548",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/b8/3b/d6b83b82-8422-d188-69d0-95cbeaab8dee/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ee2207db74f05b38b73a1dbe39f61850",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/c5/05/2dc50537-c71c-0c78-be69-3f34e5f0cf9a/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "b9681ba92ee1126f655fcf5c80fdf1ef",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/f8/2f/d2f82f90-282e-27ea-d079-fe16602becab/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f62332c91b2966f2b477248120c6d92e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/5d/68/675d6870-3ccf-74db-6698-c6bf0a1b71be/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "13e6c32e936ecd4375ff6e80b54686fa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/99/60/9199609c-38e6-5cf2-17fa-308884cfa398/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "84a24ded9753747bc4b756d690b03666",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/c4/53/e4c453af-6f25-db6f-50f4-ea79cbf7b5db/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "5ef41b8b15b7b3da3939142a06eed8c2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/24/da/3a24da99-81ca-b067-dc98-8324c2f4285c/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "nl-NL": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "094f57892dee476ce969b62918909378",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/da/89/39da891d-e441-ba83-daf7-42c0e8ffbcba/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3bb5a593abadb76e5d3f141ff5315e78",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/64/31/556431b8-ac78-fb35-e27a-f31e3d09b055/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "bf48da60a24af61abc54face91ffc6f9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/49/27/1b4927c2-7c36-b88a-86ad-e9e3fcdfb77d/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "fbc1365e6d642011718eae692639d43e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/85/eb/fe85ebaa-d3bf-ff7e-785b-67dbbb181dd9/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "accb8e0b581bbc1becb53ff6da05470d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/9b/68/b89b682a-0da7-3d87-2619-21aecf347f52/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "a474eafc03af6ac71875178eae081a2b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/c3/fc/6fc3fc2c-344d-f7ad-d0c2-baadc2f3b18e/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "d6789b65fefaecba5d885b6f07741f39",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/6c/86/546c86f2-ac74-8bec-847d-776e0049b219/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "no": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "b6378fa9921bf9a000cb91d42a195066",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/c3/a7/91c3a77a-fb6c-a8a2-4c36-693a242c2418/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e60e42935280e17205ddf094e2826342",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/22/0a/06220a74-3fac-8862-2e8d-eea3c3205fd5/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8745f743636dc22269c1dde2cbe35772",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/a8/02/12a802b0-86d5-f48b-16e1-cc1d30713034/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "4f4702200126501cf37a20d9b425eb39",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/b9/a8/0ab9a88c-1f81-d88a-14fa-e897c857f512/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e5052e2011b28acb5b7332e2669fedcf",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/ae/9c/d2ae9c47-ab72-e9a0-c34e-9bc5320388cc/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "05e1217710e5cb4b343fe4e251cb962b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/00/61/e00061d9-b874-23e5-f987-d768cac6b156/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3fdceb12a435366ad5d3f130ac9ba5fa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/96/a2/ef96a245-a667-88fa-07a0-927c2167f917/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "pl": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "bb5e0446356a96ec22c0648caa310063",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/b5/d4/40b5d4d5-998f-9e22-1cb8-721434f2218d/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f4b015b684c8f75edb926bdcd7206d61",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/85/3c/97853c54-a416-07df-672b-1c1cd3e2eb35/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "a31f2e0f903961d2cb4f8ffb7d0630fe",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/58/fb/2858fb90-3cc7-d3f1-ba11-02e3630bffc8/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "dfdb0198a408dc772037d404a0943134",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/ce/20/c2ce2024-9157-824a-c3c5-03be7ee9c22b/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "d0b3fab7b8a958de1c406f058044572c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/00/06/0d00060c-f086-b405-7a86-98413bfa456f/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "7b40a0858bebc920573f36e63e5fe210",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/57/2d/8b572d2e-5e12-dc84-abce-02a8862e319c/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "86c0e78d8210c1df1c769172a301cf48",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/bb/64/c4bb644f-ac88-aaf7-6859-0e3e52cae5ce/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "pt-BR": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "be9eb2aaeb79fea10f5927c0a0971b49",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/f9/a1/81f9a1fd-8d05-781c-f0c6-33bc2fafbb81/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "796dfc068ba3d40e53bcf256c709ca7d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/86/6f/61866f40-ca00-24e0-7a95-161623d5835e/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8d9ca6714b902f48ef0c4dec75ca15ce",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/d8/15/91d8157a-b45d-934f-4e1a-d1756f2c914a/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "38d1ad461d6115fa23dac9405441ce2b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/5d/69/0f5d6950-95b9-f802-f539-1eb0eee57442/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "68612a5d8ba4a8809e2f92c16c1116d5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/6e/4b/556e4b12-7346-1d85-9782-9773bd9faf20/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f7675d04904680b22eb5bd02c749b910",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/92/48/5f/92485fe5-3860-54ab-5a15-78270cbfab61/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f8b4873465ddeb2b55f7003ffe3bf3d8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/a0/ad/5da0ad8c-4793-6958-b573-d4a49e1197ec/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "pt-PT": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "90f4efb618f4a150a92fd5dd05d0801b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/26/b7/9c26b7a8-41cb-8262-05e2-13eadfd533fc/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "6912ea29c5df5151164a5a8e93c85176",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/8f/d1/348fd127-eedc-92db-b610-f643842c510c/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f075e20466c45a7e67aac3008124c1e8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/cd/e0/0ecde044-f423-8dbd-917a-85549c045ec8/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1c7f8a02f0deb8eeccd725555e6408f5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/d4/86/a4d48690-05fb-7c7f-903b-b814f116a27c/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "df7f72ebc7674e1ec86c277e718846e5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/5e/d0/ba5ed08f-cfb4-3c23-76b8-1c3784fee449/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "9185ea8fd1e035925058048ff9acf554",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/f0/29/f7f029be-8c25-613d-3835-9c79ac3072ef/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ffc75fbe058efd1aa8d2aa70354f4486",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/61/ea/8261eadf-b32c-1f0e-8478-a52f03d05fee/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ro": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "b5846b78d0845bd20216efca975ab902",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/72/46/bb724647-4bde-e8eb-10dd-d753111a3be8/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "765fa09bfdc19cf6c16117b49dff6020",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/7f/83/9d7f8387-213c-f9f2-c70c-da0b5263aa15/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "03631bd471290a9ebece44a34dafdbd0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/13/a0/d113a07e-36b4-d6e7-485b-028c51f6e248/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "6f60370b550796868e2a7a9b769accf5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/3f/24/e53f24b7-05c6-837e-e34a-2fb4fcc24088/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "791f4e3173a0c3ef8216acb7391adba7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/7f/9f/1d7f9f7a-a13e-e3c7-178b-cccad33bbce4/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ee62b4c9e80ab6994372b1cdddf47c8a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/fa/55/c3fa550c-d2b7-2c3d-4e4f-d80ce6582631/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "991bf4d3c826b3856561e6b3d4213d3f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/df/f3/b5dff3f3-3987-6311-574d-b86de74b1656/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ru": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ac04655cb0e5ef3de67bb54484e163c5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/6b/e0/b66be065-9e67-c7e5-5951-daeaf5c3d585/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "b2b8ed3002da04ca34f31f85a482a0d2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/82/1d/ac821dcf-4264-ce67-4cdc-9a4cfc45f671/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "700126abcdc755c47ca63fd3a8290465",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/44/61/964461c6-54b7-cf6e-9f8a-fdc6fc2e19d1/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "657cb5be1ba17480b3aa4197dfb5daf6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/bc/80/3bbc800f-003c-be67-af2b-cdf208bb47ca/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "6499157bfcbbd3252f94fd75da60fd82",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/2a/5f/cc2a5fbf-3a23-a1ae-05e8-5068bc7c9f23/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "dd5d72a8f76b0bef53dc065bc9f92967",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/ed/49/eced4938-99b2-6511-ca84-17eb6732eab6/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "d8aab044fce286911ca19509079f69ef",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/a7/be/37a7be96-bd3c-302b-c0f0-dd1e7b1d45eb/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "sk": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1453dc10f9a142e65045b7e86320d548",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/cc/e9/edcce9fe-5c3e-6062-f933-c90dbb3a2256/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c1a14a91331d48dd752c88fe13b377b5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/ca/b6/fecab69f-8584-568a-e27d-04dfb3a2e8ee/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "933258f59b8ea1397e1af8da457d8815",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/73/b7/b673b7c1-1d1e-3d74-7e48-3cb7c1cc1dba/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "7f160c940b410fa3bdb5126fc96a13b5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/e0/4b/e3e04bd8-65ee-143e-fc2a-b54538211b72/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "121f07e7a578dcb04669be557e5c5f90",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/ef/c7/a1efc754-9bfa-abf9-d727-1ae1c0acd845/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "bbe8b78e875635e4ec676b34448c31e8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c6/87/ba/c687baca-b062-0518-2c84-1b31a81a0e36/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e765023d2aa57c27a0b5bc392c054463",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/f7/88/bff788a8-0e8e-07c8-162f-7b8af134aa2b/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "sv": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "bd8f3b2f81792fd581f399eb9addd712",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/85/c2/4685c211-7851-9831-88e9-80d9412cf5a8/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c3b9b7a1eb9382523276388a0dd01a9c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/f4/c5/1cf4c542-f1d4-0003-12e7-51b2b059c95e/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ce00d68215fac46be8a548a308e60563",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/4a/cf/644acfc5-9a64-ae19-d605-ae45724d4a91/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "19d91f4957112ac5e29b95ea727b4109",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/29/52/f029524a-c88a-7260-3810-f19c3b67d70f/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "9c11ec877d01aeba218d0cd928e936ff",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/6e/56/236e56fa-a791-3a03-ab7d-0b92f256cfad/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "844fceccbf13d35251d88302f34459ac",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/6d/b9/b96db9d7-2f4f-ac16-1246-13bfd6c57134/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "105d51140873cd84fc1a695926a4d8db",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/e6/fb/bfe6fbeb-4b96-66be-4728-b4b565466d08/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "th": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "9af171f5a4826202a160e8911299ec5e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/13/85/721385f6-a868-990a-d42e-f38228bb8e98/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "ff65934a87fdfb7f88dcc2483dd9df2f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/9d/a9/bc9da9e5-d561-b1e8-1ef0-991ec71a77ab/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "03da07f681596b29764dba486e3e4084",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/28/57/1828579e-4089-126c-f5cf-040ceac7f696/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "636a44fbe9d2a126acc1e34acbe825b2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/6b/bd/0e6bbd0a-d22f-2b2d-db05-6696a70e609c/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "754b3c6df4d0f4c3c23219bfa3210321",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/9b/c8/3d9bc823-4441-102a-c7b4-a6ebc456dfb6/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "67068b1416853d8d855f6892b2e11852",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/95/38/6b9538b7-7f45-21b0-7d8e-00bbac7067d3/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e21cbf68e636d163b9d2b74e0ea0fd79",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/76/57/18765752-dde2-faf9-1576-e788e8d0429b/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "tr": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "63ace661f8d127f11e6ed3d33852e49b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/81/a2/f981a274-32be-420c-73f5-baf64b78b19e/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "7805c3f54e135c904e55fc6f6c97bc18",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/4f/4e/714f4e65-894b-88e2-71a3-d449439ebc14/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "b7a51ca74bb1f40ab94d12196f455189",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/79/bb/2879bb70-69e1-ccfa-a943-4ae379889031/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "6e6894b2de64915299cf0e04d8ae419e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/c8/d1/9bc8d143-3b40-5287-fc06-fb9d8e352602/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8fc6fee39ccb441b61a0e045d5170991",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/92/3f/9a/923f9a6a-dd78-5d09-33a0-155fa1318fce/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "35d57d129d3d74a4a40439ac1c5a7cc7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/c5/70/8dc57053-5104-b07d-b169-af7aead23a19/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "3f7e88b1cb1de8ee80156c34065a0f66",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/95/0b/25950b50-4ab9-bb17-e543-10b3dcd211a4/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "uk": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "63dc85d41407b222e6ebb513e036a1ba",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/bf/c5/f0bfc56e-6468-a03e-1488-6e12ae9aa10a/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "03b4b1919ef117ddf48bcad5aaae3ce2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/d7/3d/a1d73d06-e944-42ba-28f9-995b7285527c/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "dc85effaa1f0cedb0146df8e73d38760",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/48/1c/cf481c06-acb2-4538-5dbc-8f60d99b7d25/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1eb350ce2eab1adcfa7be185315d3f7b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/4f/b5/d74fb510-58ec-fa0b-647e-c689b62e4947/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c09c44c6a589e031a497baf06b2d75e1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/b5/a8/59b5a8a4-b631-e1df-60e8-21566832bead/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "befdf44b671ae3d71764de6742694d97",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/bf/1f/28bf1f6d-5571-bb3c-a082-e36a75cd64db/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c11b210773274b68d6912f78eae76d97",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/8b/6a/838b6a5d-8252-462f-cf1b-0297298b037e/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "vi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "713b4c5663fdb6f71a9b77c8b64e8d09",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/d3/12/c9d3127c-8d57-d485-acef-35d184b3ec0b/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e47a3b33af3235f1b6a9542c31ffd09d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/48/d7/9948d7d7-8d87-d32b-8172-dce95cdde27f/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "6b0c7e5ebc24a9d367e721ded0c8c716",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/33/20/ca332061-c04a-1e87-6005-314ef5d78e2e/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e1048458586850d638467892b2cfbb04",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/71/3c/36713cab-bc6c-019b-10fd-e24a02e27fcc/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "b9ca36be8a8732864266af0af4cb7e7d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/c9/c6/c0c9c6bd-d188-0e8f-78dd-50fd0fefcc61/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "533404a50cb00de685be1b9ada42c593",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/e2/a3/17e2a3f8-724c-00a4-ab0a-239c8d2711b5/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "c72a642bb24729bdc9c52102dbec152d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/de/b6/42/deb642d7-1fc1-62b4-79c0-c1d6d173603d/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "zh-Hans": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8e3b4ef3970224086c11a6f196bd2439",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/ba/2f/31ba2f5d-333f-cad7-76fa-24b764c453d1/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "416645a14c24e997c384267cc8e89b30",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/34/2d/f8342ddf-227a-b1fe-870b-8610a2a4652b/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "1364fcb9006232891b8bbf2cede5b7aa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/3e/93/fb3e93c1-9c6b-a162-f782-e7b68b83ea93/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "54d9651d058f87bc3224c0f4cf0d43b4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/a9/30/89a930d6-9420-e5ab-375a-474e9734d660/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "8f8c1772a410cbc8154dfe570a23b279",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/4c/26/2b4c2665-b70b-8426-8d7a-eec9ca07fe59/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "cec1b508a1674ce5e9e0db6f3b72b430",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/71/50/617150a2-305a-1eb1-bd74-49a386710609/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e63331d6d86e776430aa6e271ea2a5da",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/fa/15/76fa156f-287e-c61b-8645-6ea61717d01a/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "zh-Hant": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "04f63d06b671fd669085c3ab7685bae1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/f3/e3/a6f3e3a4-395a-73a2-762d-904a9ac76091/01_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "cb97dabfa0880fc15bea1d31a0a66931",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/d7/97/e8d797bf-60fd-46d2-1550-8ad016d35158/02_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "03_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "0ecc3ad25310ffd96858c22431281773",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/e7/26/a6e7260f-4bad-7f90-5b8c-e862e7b07693/03_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "04_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "e3e99531569ffd17221b634e8099c9a9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/73/d3/15/73d3157b-d5fc-b858-5d0a-856468cf16af/04_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "05_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "a4f25835a38ea63c3f6b228f00ccf45a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/c3/fc/28c3fc2b-4867-638a-9ad5-97745c9e3142/05_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "06_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "23d28e341e87cc7b511f49e325db542b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/6a/5e/cb6a5e27-e708-9e0c-9417-14276eaa3e19/06_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "07_APP_IPHONE_67_0.png",
+      "sourceFileChecksum": "f52156dcf498517164c46883d056d66f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/1b/06/261b06b8-1ca9-9fcd-ab0f-c4b3620885ee/07_APP_IPHONE_67_0.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ]
+}

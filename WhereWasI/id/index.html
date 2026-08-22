@@ -1,652 +1,159 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html lang="id" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>WhereWasI - Ingat Setiap Tempat yang Pernah Anda Kunjungi</title>
-    <meta name="title" content="WhereWasI - Ingat Setiap Tempat yang Pernah Anda Kunjungi">
-    <meta name="description" content="Where was I ? secara otomatis mengingat setiap tempat yang Anda kunjungi, lalu mengubahnya menjadi linimasa, kalender, dan peta pribadi. Jelajahi pola Anda, kumpulkan National Parks dan Japanese Castles, dan lihat sekilas hari Anda dari Apple Watch atau Home Screen. Di perangkat, tanpa akun.">
-    <meta name="keywords" content="jurnal lokasi, tempat dikunjungi, pelacakan lokasi, log perjalanan, aplikasi iOS, privasi, riwayat lokasi, pelacakan otomatis">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/WhereWasI/id/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/">
-    <link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/WhereWasI/id/">
-    <meta property="og:title" content="WhereWasI - Ingat Setiap Tempat yang Pernah Anda Kunjungi">
-    <meta property="og:description" content="Where was I ? secara otomatis mengingat setiap tempat yang Anda kunjungi, lalu mengubahnya menjadi linimasa, kalender, dan peta pribadi. Jelajahi pola Anda, kumpulkan National Parks dan Japanese Castles, dan lihat sekilas hari Anda dari Apple Watch atau Home Screen. Di perangkat, tanpa akun.">
-    <meta property="og:image" content="https://masawata.net/WhereWasI/images/WhereWasI.png">
-    <meta property="og:site_name" content="WhereWasI">
-    <meta property="og:locale" content="id_ID">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/WhereWasI/id/">
-    <meta name="twitter:title" content="WhereWasI - Ingat Setiap Tempat yang Pernah Anda Kunjungi">
-    <meta name="twitter:description" content="Where was I ? secara otomatis mengingat setiap tempat yang Anda kunjungi, lalu mengubahnya menjadi linimasa, kalender, dan peta pribadi. Jelajahi pola Anda, kumpulkan National Parks dan Japanese Castles, dan lihat sekilas hari Anda dari Apple Watch atau Home Screen. Di perangkat, tanpa akun.">
-    <meta name="twitter:image" content="https://masawata.net/WhereWasI/images/WhereWasI.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6758056060">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/WhereWasI.png">
-    <link rel="apple-touch-icon" href="../images/WhereWasI.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.1">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "WhereWasI",
-        "operatingSystem": "iOS",
-        "applicationCategory": "LifestyleApplication",
-        "sameAs": "https://apps.apple.com/app/id6758056060",
-        "downloadUrl": "https://apps.apple.com/app/id6758056060",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Where was I ? secara otomatis mengingat setiap tempat yang Anda kunjungi, lalu mengubahnya menjadi linimasa, kalender, dan peta pribadi. Jelajahi pola Anda, kumpulkan National Parks dan Japanese Castles, dan lihat sekilas hari Anda dari Apple Watch atau Home Screen. Di perangkat, tanpa akun.",
-        "screenshot": "https://masawata.net/WhereWasI/images/en/hero.jpg",
-        "softwareVersion": "5.2",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "id"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Di Mana Aku? — Lacak Tempat/Foto &amp; Progres</title>
+  <meta name="description" content="Baru: 103 kuil Ichinomiya Jepang, masing-masing dengan lencana ukirannya. Pelacakan kunjungan otomatis dan timeline pribadi, semua di perangkatmu.">
+  <meta name="apple-itunes-app" content="app-id=6758056060">
+  <link rel="canonical" href="https://masawata.net/WhereWasI/id/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Di Mana Aku?", "description": "Baru: 103 kuil Ichinomiya Jepang, masing-masing dengan lencana ukirannya. Pelacakan kunjungan otomatis dan timeline pribadi, semua di perangkatmu.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/WhereWasI/id/", "downloadUrl": "https://apps.apple.com/app/id6758056060", "image": ["https://masawata.net/WhereWasI/images/asc/id/01-phone.webp", "https://masawata.net/WhereWasI/images/asc/id/02-phone.webp", "https://masawata.net/WhereWasI/images/asc/id/03-phone.webp", "https://masawata.net/WhereWasI/images/asc/id/04-phone.webp", "https://masawata.net/WhereWasI/images/asc/id/05-phone.webp", "https://masawata.net/WhereWasI/images/asc/id/06-phone.webp", "https://masawata.net/WhereWasI/images/asc/id/07-phone.webp", "https://masawata.net/WhereWasI/images/asc/id/08-phone.webp", "https://masawata.net/WhereWasI/images/asc/id/09-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/WhereWasI.png" alt="WhereWasI" class="nav__logo-img">
-                <span class="nav__logo-text">WhereWasI</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">Fitur</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">Tangkapan Layar</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">Unduh</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#faq" class="nav__link">FAQ</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">ID</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../pt/" class="language-option">Português</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../id/" class="language-option active">Indonesia</a>
-                    <a href="../vi/" class="language-option">Tiếng Việt</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI App Icon" class="hero__icon">
-                    <h1 class="hero__title">Ingat Setiap Tempat yang Pernah Anda Kunjungi</h1>
-                    <p class="hero__description">Where was I ? secara otomatis mengingat setiap tempat yang Anda kunjungi — lalu mengubahnya menjadi linimasa, kalender, dan peta pribadi. Temukan pola Anda, kumpulkan National Parks dan Japanese Castles, dan lihat sekilas hari Anda langsung dari Apple Watch atau Home Screen Anda. Semua di perangkat Anda, tanpa perlu akun.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-id.svg" alt="Unduh di App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="WhereWasI Screenshot" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Fitur Canggih</h2>
-                    <p class="section-subtitle">Semua yang Anda butuhkan untuk mengingat dan menjelajahi riwayat lokasi</p>
-                </div>
-
-                <div class="features__grid features__grid--4">
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Hidup Anda dalam Timeline</h3>
-                        <p class="feature-card__description">Gulir melalui riwayat yang terorganisir indah dari semua tempat yang pernah Anda kunjungi. Lihat kunjungan Anda berdasarkan hari, minggu, atau bulan—cerita hidup Anda terungkap secara otomatis.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="18" y1="20" x2="18" y2="10"></line>
-                <line x1="12" y1="20" x2="12" y2="4"></line>
-                <line x1="6" y1="20" x2="6" y2="14"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Temukan Pola Anda</h3>
-                        <p class="feature-card__description">Dapatkan wawasan tentang kehidupan sehari-hari Anda. Lihat tempat yang paling sering dikunjungi, waktu yang dihabiskan di setiap lokasi, dan bagaimana rutinitas Anda berkembang seiring waktu.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
-                <line x1="8" y1="2" x2="8" y2="18"></line>
-                <line x1="16" y1="6" x2="16" y2="22"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Dunia Anda Sekilas</h3>
-                        <p class="feature-card__description">Lihat semua kunjungan Anda di peta interaktif. Perkecil untuk melihat semua tempat yang pernah Anda kunjungi, atau perbesar untuk menjelajahi satu lingkungan.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Data Anda, Perangkat Anda</h3>
-                        <p class="feature-card__description">Semua data lokasi tetap aman di iPhone dan iCloud pribadi Anda. Tidak ada yang dikirim ke server eksternal. Perjalanan Anda tetap milik Anda.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
-                <path d="M9 6l.6-3h4.8l.6 3"></path>
-                <path d="M9 18l.6 3h4.8l.6-3"></path>
-                <polyline points="12 10 12 12 13.5 13.5"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Di Pergelangan Tangan Anda</h3>
-                        <p class="feature-card__description">Periksa kunjungan hari ini, ringkasan minggu dan bulan, serta tempat teratas Anda langsung dari Apple Watch — plus komplikasi Smart Stack yang menjaga perhentian terakhir Anda tetap dalam jangkauan sekilas.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--teal">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="7" height="7" rx="1.5"></rect>
-                <rect x="14" y="3" width="7" height="7" rx="1.5"></rect>
-                <rect x="3" y="14" width="7" height="7" rx="1.5"></rect>
-                <rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Widget Home Screen & Lock Screen</h3>
-                        <p class="feature-card__description">Lihat kunjungan terbaru, pengatur waktu tinggal langsung untuk tempat Anda sekarang, dan jumlah kunjungan hari ini tanpa membuka aplikasi. Ketuk widget mana saja untuk langsung masuk.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--indigo">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-                <line x1="3" y1="9" x2="21" y2="9"></line>
-                <line x1="8" y1="2" x2="8" y2="6"></line>
-                <line x1="16" y1="2" x2="16" y2="6"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Tampilan Kalender</h3>
-                        <p class="feature-card__description">Jelajahi kunjungan Anda berdasarkan hari, minggu, atau bulan. Kalender menampilkan jumlah kunjungan dan tempat unik secara sekilas, sehingga Anda dapat mengunjungi kembali hari mana pun dalam hitungan detik.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--orange">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="12 2 15 8.5 22 9.3 17 14 18.2 21 12 17.7 5.8 21 7 14 2 9.3 9 8.5 12 2"></polygon>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Koleksi & Pencapaian</h3>
-                        <p class="feature-card__description">Ubah perjalanan Anda menjadi koleksi — lacak U.S. National Parks, 100 Famous Japanese Castles, negara dan wilayah, atau buat koleksi kustom yang terisi otomatis saat Anda bepergian.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
-                        <div class="feature-card__icon feature-card__icon--pink">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 20h9"></path>
-                <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Tambah, Edit & Pisahkan Kunjungan</h3>
-                        <p class="feature-card__description">Isi perhentian yang terlewat oleh aplikasi, sempurnakan waktu kedatangan dan keberangkatan, atau pisahkan satu kunjungan menjadi dua — riwayat Anda tetap akurat dan lengkap.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Bawa Riwayat Anda Bersama Anda</h3>
-                        <p class="feature-card__description">Impor Google Maps Timeline Anda, plus data Moves dan Arc Timeline, sehingga tempat-tempat bertahun-tahun ikut serta dalam perjalanan.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                <circle cx="12" cy="13" r="4"></circle>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Check-In Foto</h3>
-                        <p class="feature-card__description">Ubah foto yang Anda ambil menjadi kunjungan. Where was I ? membaca tempat setiap foto diambil untuk mengisi tempat-tempat yang Anda kunjungi — yang menggerakkan pembukaan teka-teki dan penemuan koleksi. Foto Anda tidak pernah diunggah atau diubah.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Lihat Aksinya</h2>
-                    <p class="section-subtitle">Desain indah bertemu fungsionalitas canggih</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-poster.jpg" alt="Track locations, cherish journeys" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-poster2.jpg" alt="Automatically recorded" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-watch.jpg" alt="Apple Watch support" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-analysis.jpg" alt="Powerful analytics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-locations.jpg" alt="Organized locations" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-collections.jpg" alt="Collections" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-parks.jpg" alt="U.S. National Parks progress" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-photos.jpg" alt="Photos at your places" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI" class="download__icon">
-                    <h2 class="download__title">Mulai Mengingat Hari Ini</h2>
-                    <p class="download__description">Unduh gratis. Jurnal lokasi Anda dimulai saat Anda menginstal. Tidak perlu akun—hanya Anda, iPhone Anda, dan tempat-tempat yang Anda kunjungi.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-id.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">Tersedia di iPhone, iPad, dan Apple Watch</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
-                    <p class="section-subtitle">Semua yang perlu Anda ketahui tentang WhereWasI</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apakah ada aplikasi Apple Watch dan widget?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya. Where was I ? menyertakan aplikasi Apple Watch lengkap — kunjungan hari ini, ringkasan minggu dan bulan, serta tempat teratas Anda — plus komplikasi Smart Stack. Di iPhone Anda juga mendapatkan widget Home Screen dan Lock Screen yang menampilkan kunjungan terbaru, pengatur waktu tinggal langsung, jumlah kunjungan hari ini, dan lokasi Anda saat ini.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bisakah saya mengimpor Google Maps Timeline saya?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya. Anda dapat mengimpor ekspor Google Maps Timeline Anda, serta data Moves dan Arc Timeline — cukup buka layar impor dan tambahkan file Anda. Tempat-tempat masa lalu Anda dicocokkan dengan lokasi secara otomatis.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apa itu Koleksi?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Koleksi mengelompokkan kunjungan Anda ke dalam tema yang Anda pedulikan. Lacak kemajuan Anda melalui U.S. National Parks, 100 Famous Japanese Castles, negara dan wilayah, atau buat koleksi kustom dengan kata kunci Anda sendiri — mereka terisi otomatis saat Anda mengunjungi tempat yang cocok, dan Anda dapat membagikan kemajuan Anda.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apa itu Check-In Foto?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Check-In Foto adalah kunjungan yang dibuat secara otomatis dari foto di perangkat Anda. Setiap kali Anda membuka aplikasi, ia mengelompokkan foto Anda berdasarkan waktu dan lokasi lalu mencocokkan setiap kelompok dengan tempat tersimpan terdekat. Berbeda dengan kunjungan yang dilacak, mereka menunjukkan di mana Anda berada, bukan berapa lama Anda tinggal — dan jika Anda menghapus sebuah foto, check-in-nya langsung menghilang. Foto Anda tidak pernah diunggah atau dimodifikasi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bagaimana cara memberikan atau mengubah akses foto?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Where was I ? menggunakan pustaka foto Anda untuk menemukan tempat berdasarkan lokasi pengambilan foto Anda — ini menggerakkan Check-In Foto, pembukaan teka-teki, dan penemuan koleksi. Untuk memberikan atau memperbaruinya, buka **Pengaturan → Privasi & Keamanan → Where Was I** dan pilih **Akses Penuh**. "Akses Terbatas" hanya memindai foto yang Anda pilih, sehingga beberapa kunjungan mungkin terlewat.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mengapa lokasi Check-In Foto saya kembali berubah setelah saya menetapkannya ulang?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Check-In Foto dibangun ulang dari foto Anda setiap kali aplikasi diluncurkan, jadi menetapkannya ulang ke tempat yang berbeda mungkin diatur ulang pada peluncuran berikutnya. Itu karena check-in dibuat ulang dari awal alih-alih disimpan permanen seperti kunjungan yang dilacak — aplikasi memperingatkan Anda tentang hal ini saat Anda menetapkannya ulang.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bisakah saya menambahkan atau memperbaiki kunjungan yang terlewat oleh aplikasi?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya. Gunakan wizard kunjungan manual untuk menambahkan perhentian yang tidak tercatat, mengedit waktu kedatangan dan keberangkatan kunjungan mana pun, atau memisahkan satu kunjungan menjadi dua saat satu perhentian sebenarnya adalah dua. Setiap kunjungan menunjukkan apakah terdeteksi secara otomatis, ditambahkan oleh Anda, atau diimpor.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bagaimana cara kerja pelacakan lokasi?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Aplikasi menggunakan API Visit Monitoring Apple untuk mendeteksi secara otomatis saat Anda tiba dan pergi dari lokasi. Ini terjadi di latar belakang dengan dampak baterai minimal.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apakah aplikasi bekerja saat ditutup?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya! Dengan izin lokasi Selalu, aplikasi menerima notifikasi kunjungan meskipun tidak berjalan. Pastikan untuk memberikan izin ini di Pengaturan.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bagaimana cara memberikan atau mengubah izin lokasi?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Aplikasi ini memerlukan akses lokasi "Selalu" agar berfungsi dengan baik — begitulah cara kami mendeteksi saat Anda tiba dan pergi dari lokasi, bahkan saat aplikasi tidak dibuka.
-
-Untuk memberikan atau memperbarui izin: buka **Pengaturan → Privasi & Keamanan → Layanan Lokasi → Where Was I** dan pilih **Selalu**.
-
-"Saat Menggunakan" hanya akan melacak kunjungan saat aplikasi ada di layar, dan "Tidak Pernah" menonaktifkan pelacakan sepenuhnya. Untuk pengalaman terbaik, pilih "Selalu".</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1000">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bagaimana cara menetapkan nama lokasi?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ketuk kunjungan mana saja untuk melihat detailnya, lalu ketuk Tetapkan Lokasi untuk mencari tempat terdekat atau membuat label kustom.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bagaimana penetapan lokasi otomatis bekerja?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Saat kunjungan baru tiba, aplikasi memeriksa apakah koordinatnya berada dalam radius lokasi yang tersimpan. Jika cocok, kunjungan otomatis ditetapkan ke lokasi itu. Jika tidak ada kecocokan, lokasi baru dibuat menggunakan tempat terdekat atau alamat.
-
-Jika kunjungan tidak cocok dengan lokasi tersimpan Anda, radiusnya mungkin terlalu kecil. GPS bisa bervariasi 10-50 meter antar kunjungan, jadi tingkatkan radius di Detail Lokasi (hingga 500m) atau sesuaikan koordinat lokasi dengan "Sesuaikan Lokasi di Peta".</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bagaimana cara kerja sinkronisasi iCloud?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>iCloud Sync mencadangkan data Anda dan memungkinkan Anda melihat kunjungan dari semua perangkat Anda.
-
-**Penting:** Anda harus mengaktifkan iCloud Sync di Pengaturan agar pencadangan berfungsi. Tanpa ini, semua data Anda akan hilang permanen jika Anda menghapus atau menginstal ulang aplikasi.
-
-**Cara kerjanya:**
-• Setiap perangkat melacak dan mencadangkan kunjungannya sendiri secara terpisah
-• Kunjungan Anda tidak digabungkan atau dibagikan antar perangkat
-• Anda dapat melihat riwayat kunjungan perangkat lain (hanya baca) dengan mengaktifkannya di Pengaturan → iCloud Sync → Tampilkan Kunjungan Dari
-
-**Contoh:** Jika Anda memiliki iPhone dan iPad, setiap perangkat mencatat kunjungannya sendiri. Di iPhone, Anda dapat mengaktifkan iPad untuk melihat di mana Anda pernah berada dengannya—tetapi kunjungan tersebut tetap milik iPad.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Seberapa akurat data lokasinya?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Akurasi lokasi bergantung pada sinyal yang tersedia (GPS, Wi-Fi, seluler). Aplikasi menampilkan akurasi untuk setiap kunjungan. Biasanya, akurasi dalam 10-100 meter.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mengapa beberapa kunjungan muncul dua kali?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kadang sistem mengirim beberapa pembaruan untuk kunjungan yang sama. Aplikasi secara otomatis menggabungkannya, tapi sesekali duplikat mungkin muncul. Anda dapat menghapus entri yang tidak diinginkan.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apa yang terjadi di tempat besar seperti resor ski atau mal?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Aplikasi melacak perhentian signifikan, bukan gerakan terus-menerus. Di resor ski, Anda akan melihat kunjungan untuk pondok dasar dan makan siang panjang, tapi tidak setiap kereta gantung atau istirahat singkat. Tempat besar sering muncul sebagai satu kunjungan panjang. Ini dirancang untuk 'Di mana saya menghabiskan waktu?' bukan pelacakan jalur detail.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apakah data lokasi saya pribadi?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Tentu saja. Semua data disimpan secara lokal di perangkat Anda dan hanya disinkronkan ke akun iCloud pribadi Anda. Kami tidak pernah melihat atau menyimpan data lokasi Anda di server eksternal.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">Privasi Anda Penting</h2>
-                    <p class="privacy__description">WhereWasI menyimpan semua data lokasi Anda di perangkat dan akun iCloud pribadi Anda. Perjalanan Anda tidak pernah dibagikan dengan kami atau pihak ketiga mana pun.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Baca Kebijakan Privasi kami</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI" class="footer__logo">
-                    <span class="footer__name">WhereWasI</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">Kebijakan Privasi</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Ketentuan Layanan</a>
-                </div>
-                <p class="footer__copyright">© 2026 Where was I ?. Hak cipta dilindungi.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js?v=1.1"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/WhereWasI.png" alt="" width="44" height="44"><span>Di Mana Aku?</span></a>
+    <details class="asc-languages">
+      <summary>Bahasa: Bahasa Indonesia</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Di Mana Aku?</p>
+        <h1>Lacak Tempat/Foto &amp; Progres</h1>
+        <p>Baru: 103 kuil Ichinomiya Jepang, masing-masing dengan lencana ukirannya. Pelacakan kunjungan otomatis dan timeline pribadi, semua di perangkatmu.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758056060" rel="noopener">Unduh di App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/id/01-phone.webp" alt="Di Mana Aku?">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Tentang aplikasi</h2>
+      <div class="asc-prose"><p>Where was I ? — Memori Lokasi Pribadimu</p>
+<p>Pernah coba ingat restoran enak yang kamu kunjungi bulan lalu? Where was I ? secara otomatis melacak kunjunganmu dan membuat timeline indah dari perjalanan hidupmu.</p>
+<h3>PELACAKAN OTOMATIS</h3>
+<p>Tidak perlu catat manual. Aplikasi ini diam-diam merekam saat kamu tiba dan pergi, menciptakan riwayat kunjungan detail tanpa usaha apa pun.</p>
+<h3>TAMPILAN KALENDER CERDAS</h3>
+<p>Lihat kunjunganmu per hari, minggu, atau bulan. Kalender intuitif menampilkan jumlah kunjungan dan tempat unik sekilas. Ketuk hari mana pun untuk melihat di mana kamu berada.</p>
+<h3>WIDGET LAYAR UTAMA &amp; LAYAR KUNCI</h3>
+<p>Lihat kunjungan terbarumu dengan widget Layar Utama ukuran sedang. Widget Layar Kunci menampilkan lokasimu saat ini, timer durasi singgah langsung, atau jumlah kunjungan hari ini — semua dapat diketuk.</p>
+<h3>LOKASI TERORGANISIR</h3>
+<p>Lokasi otomatis dikelompokkan berdasarkan wilayah dan kota. Tetapkan kategori kustom seperti Rumah, Kantor, Gym, atau Kafe. Buat kategorimu sendiri dengan ikon dan warna kustom.</p>
+<h3>ANALITIK CANGGIH</h3>
+<p>Temukan pola dalam hidupmu:</p>
+<ul><li>Distribusi waktu di setiap kategori</li><li>Tempat yang paling sering kamu kunjungi</li><li>Analisis ritme mingguan</li><li>Tren frekuensi kunjungan</li><li>Grafik durasi singgah per lokasi — lihat berapa lama biasanya kamu singgah, per hari, minggu, bulan, atau tahun</li></ul>
+<h3>KOLEKSI WILAYAH NEGARA</h3>
+<p>Ubah perjalananmu menjadi puzzle! Lihat berapa banyak negara bagian, provinsi, atau wilayah yang kamu kunjungi. Bagikan sebagai gambar puzzle.</p>
+<h3>PROGRES TAMAN NASIONAL</h3>
+<p>Jelajahi alam bebas! Catat otomatis kunjunganmu ke taman nasional dan lacak progresmu bersamaan dengan lokasi harianmu.</p>
+<h3>100 KASTIL TERKENAL JEPANG</h3>
+<p>Sedang berkeliling Jepang? Koleksi bawaan baru melacak kunjunganmu ke 100 kastil terkenal negara ini. Temukan di tab Koleksi → Jelajahi → Jepang.</p>
+<h3>KOLEKSI KUSTOM</h3>
+<p>Lacak apa pun yang kamu mau — Apple Stores, museum, toko buku. Buat koleksi, atur kata kunci, dan biarkan terisi otomatis. Setiap koleksi menampilkan jumlah, riwayat, dan peta.</p>
+<h3>IMPOR RIWAYAT LOKASIMU</h3>
+<p>Datang dari aplikasi lain? Bawa seluruh riwayatmu — format terdeteksi otomatis, ekspor besar ditangani, dan kamu akan melihat pratinjau sebelum apa pun diimpor:</p>
+<ul><li>Google Timeline (ekspor Google Maps atau Google Takeout)</li><li>Arc Timeline (berkas .json bulanan yang kamu ekspor dari Arc)</li><li>Moves (cadangan ProtoGeo / Facebook Moves)</li></ul>
+<h3>MANAJEMEN MASSAL</h3>
+<p>Kelola semua lokasimu di satu tempat. Cari, urutkan, dan filter. Pilih beberapa lokasi untuk dikategorikan atau dihapus secara massal. Jaga pustaka lokasimu tetap rapi.</p>
+<h3>PRIVASI UTAMA</h3>
+<p>Data lokasimu tetap di perangkatmu. Tidak perlu akun. Tidak ada data dikirim ke server. Pergerakanmu adalah urusanmu.</p>
+<h3>COCOK UNTUK:</h3>
+<ul><li>Melacak jam kerja dan lokasi</li><li>Mengingat restoran dan toko</li><li>Menganalisis rutinitas harian</li><li>Jurnal perjalanan dan taman nasional</li><li>Laporan pengeluaran dan jarak tempuh</li><li>Memahami alokasi waktu</li></ul>
+<h3>FITUR:</h3>
+<ul><li>Deteksi kedatangan dan kepergian otomatis</li><li>Tampilan kalender dengan timeline kunjungan harian</li><li>Widget Layar Utama dan Layar Kunci dengan deep-linking</li><li>Pengelompokan lokasi berdasarkan wilayah dan kota</li><li>Kategori kustom dengan ikon dan warna</li><li>Saran kategori cerdas dari Apple Maps</li><li>Riwayat kunjungan detail dengan durasi</li><li>Grafik durasi singgah per lokasi (hari / minggu / bulan / tahun)</li><li>Dashboard analitik dengan insight</li><li>Cari dan filter lokasi</li><li>Koleksi wilayah negara dengan gambar puzzle yang dapat dibagikan</li><li>Pelacakan progres taman nasional</li><li>Koleksi bawaan 100 Kastil Terkenal Jepang</li><li>Koleksi kustom dengan pencocokan kata kunci otomatis, edit manual, dan statistik</li><li>Manajemen lokasi massal</li><li>Impor dari Google Timeline, Arc Timeline, dan Moves</li><li>Kemampuan ekspor</li><li>Tidak perlu akun</li><li>Desain berfokus pada privasi</li></ul>
+<p>Mulai bangun memori lokasimu hari ini. Download Where was I ? dan jangan pernah lupa tempat yang pernah kamu kunjungi.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Tangkapan layar</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/id/01-phone.webp" alt="Di Mana Aku? — Tangkapan layar 1" loading="lazy"></figure>
+<figure><img src="../images/asc/id/02-phone.webp" alt="Di Mana Aku? — Tangkapan layar 2" loading="lazy"></figure>
+<figure><img src="../images/asc/id/03-phone.webp" alt="Di Mana Aku? — Tangkapan layar 3" loading="lazy"></figure>
+<figure><img src="../images/asc/id/04-phone.webp" alt="Di Mana Aku? — Tangkapan layar 4" loading="lazy"></figure>
+<figure><img src="../images/asc/id/05-phone.webp" alt="Di Mana Aku? — Tangkapan layar 5" loading="lazy"></figure>
+<figure><img src="../images/asc/id/06-phone.webp" alt="Di Mana Aku? — Tangkapan layar 6" loading="lazy"></figure>
+<figure><img src="../images/asc/id/07-phone.webp" alt="Di Mana Aku? — Tangkapan layar 7" loading="lazy"></figure>
+<figure><img src="../images/asc/id/08-phone.webp" alt="Di Mana Aku? — Tangkapan layar 8" loading="lazy"></figure>
+<figure><img src="../images/asc/id/09-phone.webp" alt="Di Mana Aku? — Tangkapan layar 9" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Di Mana Aku?</h2>
+      <p>Baru: 103 kuil Ichinomiya Jepang, masing-masing dengan lencana ukirannya. Pelacakan kunjungan otomatis dan timeline pribadi, semua di perangkatmu.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758056060" rel="noopener">Unduh di App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Kebijakan Privasi</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Ketentuan Layanan</a>
+    <a href="https://masawata.net/">Dukungan</a>
+  </footer>
 </body>
 </html>

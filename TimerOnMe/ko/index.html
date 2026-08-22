@@ -1,500 +1,144 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!doctype html>
+<html lang="ko" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>내 타이머 - 여러 타이머와 스톱워치를 하나의 앱에서</title>
-    <meta name="title" content="내 타이머 - 여러 타이머와 스톱워치를 하나의 앱에서">
-    <meta name="description" content="최대 50개의 타이머와 스톱워치를 동시에 실행하세요. 잠금 상태에서도 울리는 알람(AlarmKit), 타바타/EMOM/30-30 인터벌, 라이브 액티비티, 완전한 Apple Watch 앱까지. iPhone, iPad, Apple Watch에서 무료.">
-    <meta name="keywords" content="타이머, 스톱워치, 다중 타이머, 인터벌 트레이닝, HIIT 타이머, 타바타, iOS 앱, 홈 화면 위젯, 카운트다운 타이머, timer, stopwatch">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/TimerOnMe/ko/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/">
-    <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/TimerOnMe/ko/">
-    <meta property="og:title" content="내 타이머 - 여러 타이머와 스톱워치를 하나의 앱에서">
-    <meta property="og:description" content="최대 50개의 타이머와 스톱워치를 동시에 실행하세요. 잠금 상태에서도 울리는 알람(AlarmKit), 타바타/EMOM/30-30 인터벌, 라이브 액티비티, 완전한 Apple Watch 앱까지. iPhone, iPad, Apple Watch에서 무료.">
-    <meta property="og:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-    <meta property="og:site_name" content="내 타이머">
-    <meta property="og:locale" content="ko_KR">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/TimerOnMe/ko/">
-    <meta name="twitter:title" content="내 타이머 - 여러 타이머와 스톱워치를 하나의 앱에서">
-    <meta name="twitter:description" content="최대 50개의 타이머와 스톱워치를 동시에 실행하세요. 잠금 상태에서도 울리는 알람(AlarmKit), 타바타/EMOM/30-30 인터벌, 라이브 액티비티, 완전한 Apple Watch 앱까지. iPhone, iPad, Apple Watch에서 무료.">
-    <meta name="twitter:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6746874284">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/TimerOnMe.png">
-    <link rel="apple-touch-icon" href="../images/TimerOnMe.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.0">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "내 타이머",
-        "operatingSystem": "iOS",
-        "applicationCategory": "UtilitiesApplication",
-        "sameAs": "https://apps.apple.com/app/id6746874284",
-        "downloadUrl": "https://apps.apple.com/app/id6746874284",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "최대 50개의 타이머와 스톱워치를 동시에 실행하세요. 잠금 상태에서도 울리는 알람(AlarmKit), 타바타/EMOM/30-30 인터벌, 라이브 액티비티, 완전한 Apple Watch 앱까지. iPhone, iPad, Apple Watch에서 무료.",
-        "screenshot": "https://masawata.net/TimerOnMe/images/en/gallery-overview.jpg",
-        "softwareVersion": "4.1",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "ko"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Timer on Me — 타이머·알람·스톱워치·HIIT</title>
+  <meta name="description" content="날짜 알람 추가: 원하는 미래 날짜와 시간에 일회성 알람 설정, 반복 알람, 50개 타이머 동시 사용, HIIT·Tabata 운동 및 Apple Watch 지원.">
+  <meta name="apple-itunes-app" content="app-id=6746874284">
+  <link rel="canonical" href="https://masawata.net/TimerOnMe/ko/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
+  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Timer on Me", "description": "날짜 알람 추가: 원하는 미래 날짜와 시간에 일회성 알람 설정, 반복 알람, 50개 타이머 동시 사용, HIIT·Tabata 운동 및 Apple Watch 지원.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/TimerOnMe/ko/", "downloadUrl": "https://apps.apple.com/app/id6746874284", "image": ["https://masawata.net/TimerOnMe/images/asc/ko/01-phone.webp", "https://masawata.net/TimerOnMe/images/asc/ko/02-phone.webp", "https://masawata.net/TimerOnMe/images/asc/ko/03-phone.webp", "https://masawata.net/TimerOnMe/images/asc/ko/04-phone.webp", "https://masawata.net/TimerOnMe/images/asc/ko/05-phone.webp", "https://masawata.net/TimerOnMe/images/asc/ko/06-phone.webp", "https://masawata.net/TimerOnMe/images/asc/ko/07-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/TimerOnMe.png" alt="Timer on Me" class="nav__logo-img">
-                <span class="nav__logo-text">내 타이머</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">기능</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">스크린샷</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">다운로드</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#faq" class="nav__link">자주 묻는 질문</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">KO</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../id/" class="language-option">Indonesia</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option active">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../pt-BR/" class="language-option">Português</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../vi/" class="language-option">Tiếng Việt</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me App Icon" class="hero__icon">
-                    <h1 class="hero__title">모든 타이머, 알람, 스톱워치를 한 번에</h1>
-                    <p class="hero__description">최대 50개의 타이머와 스톱워치를 동시에 실행하고, iPhone이 잠겨 있어도 울리는 알람을 설정하며, HIIT 운동을 정밀하게 측정하세요. iPhone, iPad, Apple Watch에서 모두 가능합니다.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="App Store에서 다운로드" class="app-store-badge">
-                    </a>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="Timer on Me Screenshot" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">강력한 기능</h2>
-                    <p class="section-subtitle">시간을 완벽하게 관리하는 데 필요한 모든 것</p>
-                </div>
-
-                <div class="features__grid">
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="7" height="7"></rect>
-                <rect x="14" y="3" width="7" height="7"></rect>
-                <rect x="3" y="14" width="7" height="7"></rect>
-                <rect x="14" y="14" width="7" height="7"></rect>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">멀티 타이머 그리드</h3>
-                        <p class="feature-card__description">최대 50개의 독립적인 타이머와 스톱워치를 깔끔한 그리드에서 동시에 실행하세요. 각각을 개별적으로 시작, 일시 정지, 재설정하거나 모두 함께 제어할 수 있습니다.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--orange">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="13" r="8"></circle>
-                <polyline points="12 9 12 13 14.5 14.5"></polyline>
-                <path d="M5 3 2 6"></path>
-                <path d="M22 6l-3-3"></path>
-                <path d="M6 19l-2 2"></path>
-                <path d="M18 19l2 2"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">확실하게 울리는 알람</h3>
-                        <p class="feature-card__description">사용자 지정 라벨과 요일별 일정을 지원하는 기상 및 리마인더 알람입니다. AlarmKit으로 구동되어 iPhone이 잠겨 있거나 내 타이머가 닫혀 있어도 울립니다. 다시 알림 옵션과 직접 만든 사운드도 지원합니다.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="17 1 21 5 17 9"></polyline>
-                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
-                <polyline points="7 23 3 19 7 15"></polyline>
-                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">인터벌 트레이닝</h3>
-                        <p class="feature-card__description">내장된 타바타, EMOM, 30/30 프리셋으로 두 번만 탭하면 운동을 시작할 수 있습니다. 사용자 지정 인터벌 편집기와 컬러 신호가 있는 전체 화면 운동 모드도 함께 제공됩니다.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--teal">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
-                <path d="M9 6l.6-3h4.8l.6 3"></path>
-                <path d="M9 18l.6 3h4.8l.6-3"></path>
-                <polyline points="12 10 12 12 13.5 13.5"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Apple Watch 앱</h3>
-                        <p class="feature-card__description">완전한 네이티브 Apple Watch 앱입니다. iPhone이 곁에 없어도 손목에서 여러 개의 스톱워치와 타이머를 센티초 정밀도로 실행하고 컴플리케이션으로 확인할 수 있습니다.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                <line x1="12" y1="18" x2="12.01" y2="18"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">위젯과 라이브 액티비티</h3>
-                        <p class="feature-card__description">인터랙티브 위젯으로 홈 화면에서 타이머를 제어하고, 라이브 액티비티로 잠금 화면과 다이내믹 아일랜드에서 카운트다운을 확인하세요.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">내 방식대로 알람 사운드</h3>
-                        <p class="feature-card__description">십여 가지 내장 알람 사운드 중에서 선택하거나 직접 가져오세요. iPhone이 잠겨 있거나 무음 상태이거나 앱이 닫혀 있어도 알림이 울립니다.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
-                <polyline points="17 21 17 13 7 13 7 21"></polyline>
-                <polyline points="7 3 7 8 15 8"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">세션 관리</h3>
-                        <p class="feature-card__description">타이머 설정을 저장하고 언제든지 불러오세요. 간편한 공유와 백업을 위해 세션을 JSON, CSV 또는 텍스트로 내보내기할 수 있습니다.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">스마트 디스플레이</h3>
-                        <p class="feature-card__description">센티초 정밀도, 백분율 진행률, 화면 켜짐 유지 모드. 타이머의 모양과 동작을 원하는 대로 커스터마이즈하세요.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">실제 화면 보기</h2>
-                    <p class="section-subtitle">깔끔한 디자인과 강력한 기능의 만남</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-overview.jpg" alt="Time it, wake to it, train with it" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-multitimer.jpg" alt="Run multiple timers at once" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-watch.jpg" alt="Apple Watch app" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-intervals.jpg" alt="Tabata, EMOM &amp; 30/30 intervals" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-workout.jpg" alt="Full-screen interval workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-alarms.jpg" alt="Alarms that ring when locked" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="download__icon">
-                    <h2 class="download__title">지금 시간 측정을 시작하세요</h2>
-                    <p class="download__description">무료 다운로드. 여러 타이머, 인터벌 트레이닝, 위젯이 모두 준비되어 있습니다. 계정이 필요 없습니다.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">iPhone, iPad, Apple Watch에서 사용 가능</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">자주 묻는 질문</h2>
-                    <p class="section-subtitle">내 타이머에 대해 알아야 할 모든 것</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>iPhone이 잠겨 있거나 앱이 닫혀 있어도 알람과 타이머가 울리나요?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>네. 알람은 Apple의 AlarmKit으로 구동되어 iPhone이 잠겨 있거나 내 타이머가 닫혀 있어도 울리며, 타이머 알림도 백그라운드에서 안정적으로 작동합니다.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>한 번에 몇 개의 타이머를 실행할 수 있나요?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>하나의 세션에서 최대 50개의 독립적인 타이머와 스톱워치를 실행할 수 있습니다. 개별적으로 또는 동기화된 그룹으로 시작, 정지, 재설정할 수 있습니다.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apple Watch 앱이 있나요?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>네. 여러 타이머와 스톱워치를 동시에 실행하고 센티초 정밀도와 컴플리케이션을 지원하는 완전한 네이티브 watchOS 앱입니다. iPhone이 손이 닿지 않는 곳에 있어도 작동합니다.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>HIIT와 타바타 운동에 사용할 수 있나요?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>물론입니다. 내장된 타바타, EMOM, 30/30 프리셋으로 두 번만 탭하면 시작할 수 있고, 직접 운동/휴식/라운드 시퀀스를 만들 수 있는 사용자 지정 인터벌 편집기와 전체 화면 운동 모드도 제공됩니다.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>내 알람 사운드를 추가할 수 있나요?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>네. 기본 제공되는 벨소리 중에서 선택하거나 직접 오디오 파일을 가져올 수 있습니다.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>오프라인에서도 작동하나요? 계정이 필요한가요?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>계정도 인터넷도 필요 없습니다. 모든 것이 기기에서 실행되며 데이터는 로컬에 보관됩니다.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>무료인가요?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>네, 내 타이머는 무료로 다운로드할 수 있습니다. 필요한 경우 선택적 인앱 구매를 통해 처음 두 개를 넘는 추가 알람을 잠금 해제할 수 있습니다.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">개인정보 보호가 중요합니다</h2>
-                    <p class="privacy__description">내 타이머는 모든 데이터를 기기에 로컬로 저장합니다. 계정도, 추적도, 데이터 수집도 없습니다. 타이머 세션은 오직 여러분의 것입니다.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">개인정보 처리방침 읽기</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="footer__logo">
-                    <span class="footer__name">내 타이머</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">개인정보 처리방침</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">서비스 이용약관</a>
-                </div>
-                <p class="footer__copyright">© 2026 내 타이머. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js?v=1.0"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/TimerOnMe.png" alt="" width="44" height="44"><span>Timer on Me</span></a>
+    <details class="asc-languages">
+      <summary>언어: 한국어</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../pt-PT/" lang="pt-PT">Português (Portugal)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Timer on Me</p>
+        <h1>타이머·알람·스톱워치·HIIT</h1>
+        <p>날짜 알람 추가: 원하는 미래 날짜와 시간에 일회성 알람 설정, 반복 알람, 50개 타이머 동시 사용, HIIT·Tabata 운동 및 Apple Watch 지원.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">App Store에서 다운로드</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/ko/01-phone.webp" alt="Timer on Me">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>앱 정보</h2>
+      <div class="asc-prose"><p>내 타이머는 iPhone, iPad, Apple Watch를 위한 멀티 타이머 &amp; 스톱워치 앱입니다. 최대 50개의 타이머를 동시에 실행하고, HIIT, 타바타, 뽀모도로를 정확하게 측정하세요. 그리고 알람은 반드시 울립니다 — 앱을 닫거나 iPhone이 잠겨 있어도.</p>
+<h3>알람</h3>
+<ul><li>기상 알람과 리마인더 알람, 라벨과 요일별 반복을 자유롭게 설정</li><li>AlarmKit 기반 — iPhone이 잠겨 있거나 내 타이머가 닫혀 있어도 울립니다</li><li>스누즈 시간 선택 가능 (3 / 5 / 9 / 15 / 30분) 또는 스누즈 끄기</li><li>내장 벨소리에서 고르거나 직접 가져온 사운드 사용</li><li>전용 알람 탭에서 원터치로 켜고 끄기</li></ul>
+<h3>인터벌 트레이닝 &amp; 운동</h3>
+<ul><li>타바타, EMOM, 30/30 프리셋 내장, 두 번 탭으로 바로 시작</li><li>사용자 정의 인터벌 편집기: 운동, 휴식, 라운드 수를 분·초 단위로 자유롭게 설정</li><li>전체 화면 트레이닝 모드, 단계별 색상 표시와 음소거 옵션</li><li>도중에 일시정지, 건너뛰기, 재시작해도 진행 상황은 그대로</li></ul>
+<p>Apple Watch</p>
+<ul><li>완전한 네이티브 watchOS 앱, 단순 동기화 표시가 아닙니다</li><li>손목에서 여러 스톱워치와 타이머를 동시에 실행</li><li>스톱워치는 100분의 1초 정밀도</li><li>전용 컴플리케이션으로 원터치 실행</li><li>iPhone이 없어도 독립적으로 작동</li></ul>
+<h3>타이머 50개 동시 실행</h3>
+<ul><li>한 화면에서 최대 50개의 타이머와 스톱워치 관리</li><li>개별 또는 그룹으로 시작, 정지, 초기화</li><li>자동 반복으로 라운드 훈련이 간편</li><li>0을 지나도 계속 측정, 초과 시간 자동 추적</li><li>진행바 색상: 50%에서 노란색, 10%에서 빨간색</li><li>드래그 앤 드롭 정렬과 사용자 지정 이름</li></ul>
+<h3>확실하게 울리는 알람</h3>
+<ul><li>AlarmKit: iPhone 잠금 중에도 앱이 닫혀 있어도 알람은 울립니다</li><li>Dynamic Island과 라이브 액티비티로 한눈에 진행 확인</li><li>홈 화면 위젯: 소·중·대 3가지 크기</li><li>벨소리, 새소리, 빈티지 전화음 등 내장 알림음</li><li>탭 한 번으로 미리 듣기</li><li>&quot;화면 항상 켜기&quot; 모드로 긴 세션 중 화면 어두워짐 방지</li></ul>
+<h3>맞춤 설정 &amp; 공유</h3>
+<ul><li>소수, 합계, 퍼센트 표시를 취향대로 전환</li><li>자주 쓰는 설정을 저장·덮어쓰기, 다음엔 원터치로 불러오기</li><li>타이머 설정을 CSV, JSON, 일반 텍스트로 내보내기</li><li>동료, 학생, 코치와 공유</li></ul>
+<p>iPhone, iPad, Apple Watch 전체 지원</p>
+<ul><li>모든 화면 크기에 자동 대응</li><li>iPad의 Split View 지원</li><li>34개 언어 지원</li></ul>
+<h3>이럴 때 유용해요</h3>
+<ul><li>수능, 공시, 토익 공부 + 뽀모도로 집중</li><li>HIIT, 타바타, 크로스핏, 근력 운동</li><li>복싱, 태권도, 격투기 라운드</li><li>라면, 커피 드립, 계란 삶기, 오븐 요리</li><li>요가, 필라테스, 명상, 호흡법</li><li>아이 양치, 독서, 숙제 타이머</li><li>발표 연습, 악기 연습</li><li>수업, 회의, 워크숍</li><li>보드게임, 파티 게임</li></ul>
+<p>지금 내 타이머를 다운로드하고 1분 1초를 손에 쥐세요 — 헬스장, 사무실, 집 어디서든.</p>
+<p>개인정보 처리방침: https://masawata.net/privacy-policy.html 이용약관: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>스크린샷</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/ko/01-phone.webp" alt="Timer on Me — 스크린샷 1" loading="lazy"></figure>
+<figure><img src="../images/asc/ko/02-phone.webp" alt="Timer on Me — 스크린샷 2" loading="lazy"></figure>
+<figure><img src="../images/asc/ko/03-phone.webp" alt="Timer on Me — 스크린샷 3" loading="lazy"></figure>
+<figure><img src="../images/asc/ko/04-phone.webp" alt="Timer on Me — 스크린샷 4" loading="lazy"></figure>
+<figure><img src="../images/asc/ko/05-phone.webp" alt="Timer on Me — 스크린샷 5" loading="lazy"></figure>
+<figure><img src="../images/asc/ko/06-phone.webp" alt="Timer on Me — 스크린샷 6" loading="lazy"></figure>
+<figure><img src="../images/asc/ko/07-phone.webp" alt="Timer on Me — 스크린샷 7" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Timer on Me</h2>
+      <p>날짜 알람 추가: 원하는 미래 날짜와 시간에 일회성 알람 설정, 반복 알람, 50개 타이머 동시 사용, HIIT·Tabata 운동 및 Apple Watch 지원.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">App Store에서 다운로드</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">개인정보 처리방침</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">서비스 약관</a>
+    <a href="https://masawata.net/">지원</a>
+  </footer>
 </body>
 </html>

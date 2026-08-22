@@ -1,0 +1,3038 @@
+{
+  "ar-SA": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "694619a2944f79da9c42fa75fa9f2a61",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/8b/b9/b68bb91d-63b7-c8db-71d7-c682355788c3/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "a2be421f16340a5d1bc2d1e92bc55a27",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/83/9d/c9839d86-d0f9-dfc5-29fe-18ff12d814e4/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "0f3e357b3ff89a35b2f0490995123b20",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/59/6e/e4596eea-c731-154b-6e30-c900a057be7a/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "17c52c86c768a54c0fcfb48d0193d06e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/5a/5d/2a5a5d58-48e8-e30b-0499-13fd48573151/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "a9393ce1cb7e847b6c55238d7e376709",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/b1/ed/79b1ede9-1738-e5d7-810f-a191d5abbdf7/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "7c34ed9e2408e8558e3489ba19ab234f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/bf/64/56bf64fb-3fb0-1653-0383-279fa09a98a2/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "807d77c9c640cad7012f926ce1194cc4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/0b/f8/1a0bf89a-930f-4abb-bd44-c01a976589a4/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "139dfcdf8326d14a4b63672893e7073f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/71/e5/9271e522-897a-a1e5-305d-8eb5e59f56f6/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "90cb8cad4c57aa11c88df24e5bb159d7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/b8/de/10b8de34-9e00-2f8b-1aa3-820172c3c65c/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ca": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "1e3e00efc4ad88685e67f5714c7941c4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/35/78/89357855-e992-140a-f8a9-73b86dd7332d/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "c6ef5f7f110d8f873fc48dfc34520be9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/c2/a6/bac2a6d1-21cd-fb7b-90ed-89affd1d30ce/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "f3c9506f7577a9acca11791083189600",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/d5/01/ced5017f-dd3d-15aa-5f66-8fd4e99064e1/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "3f37bbb6d6670b9b3b9c16d4fd57457e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/62/70/b9627042-23f1-df7f-9c11-c54f7a9572d6/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "6667248f2d3faf606473aaabf3b43a01",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/d3/cc/d5d3ccf9-2b50-c4c4-b2ac-e706e0b0ea44/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "b61d40dea6db324182001f09c150b2b3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/84/70/cc84700e-5ce4-f3d0-8568-a489bb72d9a6/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "eac86be8dae58168f06b438fbc1e661f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/52/2b/ce522b2f-dd3a-874a-ea0e-ac174e69b471/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "a9a672bee6ca93d3d302203048c27885",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/a3/3d/1ea33dcd-ad42-33df-5804-2f6f864adb40/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "6af0491a84d6e197b00d25191272ea08",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/98/4e/68984ebe-7568-580a-4f04-4acb7226aae9/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "cs": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "b415e70e6b35267aec4bae01b043ba46",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/2d/97/5d2d973a-3a4a-be6a-1c9e-635b1ddfe413/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "db122faf381cac4adfd73a3f1a2c40ef",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/30/79/a330791f-6cfa-658c-0d3d-d6d0baddce7d/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "f87275d41750bf9da7c62a841a969e06",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/f3/95/8df3951f-b7e8-1096-9509-a919f43d28a1/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "499d4476120e912068b0ce12b4269302",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/94/bc/ed94bc0c-e0ab-2a18-9f78-5642cee70e1b/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "4086fb913549b331654ab7e2d18f2614",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/14/bd/f414bdca-2ae9-36a7-9a50-079791e61195/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "330d6dfa450dc25445322978298c7e72",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/85/57/8e855763-eb53-1b86-32ee-c33b78c875c3/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "68aa30cd4766854768d6112a78999832",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/a8/76/8ca876c4-3979-2942-9716-cf9eaeff465b/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "eb10aef49dee705332e3bc8fe6c1be8a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/c4/53/cdc45358-754b-81ac-671e-60980b8e567e/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "af0eac1185484d5fcb6fef09dd57cfcc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/ea/2c/d9ea2c71-7331-83d7-745d-ce9ae60ada87/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "da": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "478a3b60013850207d6e67a52cae6b15",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/72/2f/ea722fe4-b663-5f5e-6be9-2e8004f12233/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "5e4c0bd5fd316d88a207dfd924ff8e54",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/e9/56/60e956e0-dd89-990f-ad3e-541d16dc0b17/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "0b6de9cef5c79dedba1c6ac8116ed98b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/8f/d4/e58fd43b-ec84-f8cf-1d87-24ed623a4373/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "d79389fd235e20ae0c581850d8d6e54b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/b9/e2/9cb9e227-0f08-9344-4647-957e71c852f3/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "2ae5581eeef2f2bdf44e50ee563f4e36",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/64/35/ef64350b-06ae-df03-0e29-f4ad21c319d0/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "6a54d01215b965416dae412f6547da96",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/cb/e2/1bcbe2ac-c3b4-012e-f435-048156557404/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "a99e1ada3c57e3468cf18d7423a0a70d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/0d/22/a10d2260-e203-ee64-c89b-c3be4f109ffd/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "0c540bbc69139e51c7ddb3616e49ccdd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/e3/70/2ae37058-e7bf-405f-718e-46f1e403c4d6/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "8a53c3dcc1180351c5959172dd8b2c92",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/62/47/bd62474f-2844-20e6-8bc1-bc5e554f439c/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "de-DE": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "dbc8535deefcd304d50df08f74de640d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b5/08/64/b50864fe-5cb4-204f-d8fe-447b95bdb16d/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "7aac71684692c7afede90be43abfa630",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/1c/86/4a1c8641-7914-a510-ea99-68eb3e8b9363/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "5102c695c94f75458cd5cdcc12149e87",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/33/e0/b833e056-728e-5d8c-65ff-fa18b42ac508/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "062252abfa15d755a1dee6dad1d941fb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/be/72/98be726f-2c46-8252-25b3-4db069b4634c/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "da4a96db6d515e4403b79eec76df1ce7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/68/89/9b688964-3add-1ae0-a423-353a2abb1e8d/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "55346fb1d3b209d3a7ee8d4893f31126",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/fc/21/5ffc215b-6506-acc2-d9da-18e28c36e297/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "29e3a8c89712fafee72985afd78ebbe0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/39/6f/55396fb0-1eb6-5964-b055-efd4a6fd3735/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "0a1aff312dba788b0fbeb18f776bc687",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/66/7e/f5667ee7-77af-c5db-e2b8-c752c2e44204/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "e5b4d3609eda3cd42bf1fbba5c62741e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/10/3c/bb103c40-9941-5862-664c-9361f9da0ffa/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "el": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "2213ca8c40a93790d77f4b75052817c7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/b9/de/5db9de2f-a5d5-70ce-9e3f-42848179a449/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "0b02135bf65d4a86149730723db0ac1c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/62/81/5c6281f8-e3e6-4315-5b2d-d569a3c67699/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "24c020b32f5b357f570796906b20ead5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/2a/55/3f2a55a7-ce10-4572-61f1-047b8b830618/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "45b04d6c2021fa60313dff1f01988fd9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/f0/8a/02f08a18-a686-f123-dafb-aef359405e63/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "e120ea73a3f4de17ad2b16ab9cf91c6e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/32/1d/a7321dbe-561d-cca4-d4a0-e21a71d59f25/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "79efe87058da500b699b99ec72cfe99e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/c5/60/08c56000-386a-0522-2e9b-66cb9388edbf/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "38a257deb07f2ca9f991aeef37f2a05e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/9b/3e/d09b3ee1-6d88-49e3-ec8c-5c2e60ca4806/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "3255431bd6152402bd9a1315969d3c81",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/1c/e5/bc1ce57b-c5a0-2fb3-2b06-027b68b53680/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "fe75a20ef19b7419b242694de8e78287",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/f7/f5/1df7f59a-1b22-99e2-1a4b-6d7529eded3c/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "en-US": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "7a5f9f3a75fdb9178b1fb508542e7d45",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/32/88/6332886f-940c-959d-e274-21e7d3274571/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "8401d79ad2c28c1a4599d9a05cb747bd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/52/35/e9523574-37fa-7716-790b-5ad7a2a811d0/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "394edaaf57bde13226ec10fd9a12310c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/45/d4/9945d4de-ef45-d974-54ad-d71ba836a09d/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "321d2091461081123e1756e6e288ddd2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/59/07/7c5907b3-4112-60f7-33b5-0d82e8c37096/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "baaaf67b2defce578e057eec740cef80",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/62/c4/a162c45f-ed35-9221-672c-3e404a5c3e6d/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "8e39c4d01fa1ddc636a73d604406c8fa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/16/73/17167367-d707-2f77-5fbd-21cfa2a18210/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "f44ddd35da8ccd4256e26556ca126611",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/43/ce/2843ce95-9cb7-3aa5-f8be-1a3cd3d1a875/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "d1a96cf553f7ed8e18b3132afcc53c23",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/8c/20/798c20a6-e689-d9b5-d980-1508e47dda97/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "b9c33902d20c7753bc396a39d0f650ac",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/35/f3/da35f37a-4f3c-5fb2-50c9-dd7f64226621/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "es-ES": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "cb5d288f66427bc406e5fec5d3a7603e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/45/5a/2d455a9e-b2a9-bd31-224c-9ecde77e7e76/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "f63e53b86c15a65a43aec0ab525ea1f9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/72/5e/bf725ebe-3427-b118-e158-acb56c650011/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "784df6f4b20b6d29529ad6f3da57a7fe",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/2e/2e/be2e2ec1-7381-0c2e-78f1-533a01be25e6/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "e8bc1a295a471208b643d88d0bb68281",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/9f/58/759f58b6-675e-34b8-e8b4-36829e366ea3/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "52ede2c8a2d5d974da7df49ae6f23e3a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/28/01/66280143-9b5c-4181-e5a2-1df1eb91ac68/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "b7ad7462053219f4ef6fff0acaf1eb71",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/b1/2f/14b12f56-cce7-dd17-2ca7-b08a8ed61760/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "e707a39d47446795a2890be7fdbcbabe",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/9e/5c/b89e5c0e-b84d-17df-eb33-54327d3849f5/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "aebfa019d4472647be3f9d017ea63315",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/eb/10/dceb10d1-9bae-8068-b297-aa56d4f303cb/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "57804fa60aef7a81b348c1a6074f2025",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/99/96/cc99967f-fa22-1963-9aac-afc95ebb4d66/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "es-MX": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "cb5d288f66427bc406e5fec5d3a7603e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/b0/fa/dfb0fa96-4495-7444-494d-9dfda96633c9/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "f63e53b86c15a65a43aec0ab525ea1f9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/00/97/050097a7-e0ef-e74d-fdce-ec9379e2700e/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "784df6f4b20b6d29529ad6f3da57a7fe",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/72/1b/ac721b4e-5579-3b96-cad4-8f019f16c868/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "0dcb1062abd204e124a371c817aff2f5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/eb/7a/14eb7a44-5de6-f360-68c3-b309f751850d/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "eaaa9b93b9f1636f299b6c3118ea9040",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/8d/93/b68d930c-b6fb-0723-ef33-0cd508945560/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "8963c8f6af0890bb6c5a9015ae7daa89",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/58/53/1b/58531b5f-33d3-c74e-9319-532e4b9f8dce/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "f18df6d8e66d4e117302a1bd3a9e2658",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/4c/c6/b04cc6c4-f1ae-ca5a-2d6a-82b78d36ca08/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "1c7ff0615435405cd44bcdc2dff7a1e3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/ad/7f/f9ad7f1b-dd9b-dd97-8625-5b3d2ba787c8/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "dfa4dd6ca2eb4445d02ab9dfdd12e5cf",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/4e/fc/fe4efca8-55c1-65b5-568d-71602cd89d36/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "fi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "625e1e4aa7f181d4cc7cb65919054ebe",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/07/38/8c07383f-9618-a039-a565-7f5bc0b5680a/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "11bf071944a99813b7befb25e7bbc01e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/53/00/5c5300f5-de56-b478-3daa-722ac48a339d/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "d80c318443aaae4ac36f0ad1dd34ad9e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/07/c0/0c07c0a5-0fa4-f9fa-84fa-0cd5846caa99/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "6abe0cbc30f72683c8b7d4fe0ef3967c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/0c/7e/dc0c7ee3-eab0-a6cb-2dc5-485e0b41413e/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "937a94ad5d7abafbc7ee5be7fdf14e81",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/6b/66/026b6617-65e5-5fe5-de41-095c1bc1a56d/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "714460fd63e2c415bd92510cac5f3730",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/1b/a6/be1ba6ba-d48f-20d7-7e09-b660e103aa3f/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "da65bc6c1d358ba85c0680730b656700",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/6b/7a/1a6b7a5d-73aa-5847-32eb-b793d3d1d294/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "fe53408665e0cca70c9ee6bc20d214e3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/c8/cd/cbc8cdc5-44c7-390d-e6bd-387f6b2d99f7/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "590dffb3a85cf7b397b5dab587793b8f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/8f/98/b28f989a-0208-a25d-93d5-d9551534ccfe/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "fr-FR": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "7b22e76494ae14f50d70068930965856",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/85/cd/6985cd8d-f53a-1955-ffab-05fd2567ad2b/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "b4a8fcf2625d9c0301968d6a86b137c4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/fe/d3/2efed336-277c-3158-e022-e1ab1567e52a/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "47cdfe7f66e0c3c1218f6eff549f35d7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/8e/cf/f08ecf62-6abe-a776-809b-ef98a2e15645/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "bda1d1e6784b0518bee1c68af6d24a77",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/1d/42/f11d42b9-370f-868b-c71a-c9b6fff01342/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "bb556b216a6bf1ef180b7ccea0c7e402",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/06/bf/1c06bf2a-acef-c972-a8af-3a9b5db307b6/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "df168982c280a4bebd389f74379a7c0c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/c2/77/0fc27718-1f10-7a5b-12d8-6df3309f0dc6/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "1f27617a02ea62039466e1c5c58c5bb2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/98/6c/63986cb6-c0bb-14f5-014f-ee781b18faaa/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "5886b4893a9112c30ed34f664a8c84fe",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/10/24/0010245c-3bed-f2a5-5e54-1760b508a8b9/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "e3cf12de9e910185c0f52bce191c941f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/9d/ee/d79deea9-d53f-3f7c-68e6-30fb1a0cef33/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "he": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "633f2c12ed01b824cab0a38aa64f9a53",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/ba/6c/8aba6c8b-a0ac-d9d4-b1be-19087ea5c164/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "998c28e74b50ab69598bdd871ac5da39",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/c2/eb/c7c2eb59-eab0-286f-9803-67e2fdafb4cf/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "35af2d190909118465c46294e059ae33",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/87/94/648794ca-9db1-a737-fc32-464d07ba06a4/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "087930ba13592be47a816189fceed542",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/d4/74/12d47437-d2f1-fa3d-47f8-9ec2c7683a0d/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "7cdc22db1d2f8c15d5d54b5c32e160af",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/c2/68/30c26855-e6ae-d8db-e6ef-9342e97dfa92/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "3751040be04cc7d81a43747ec6371671",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/04/b0/6304b0a2-3d05-ca3f-9e49-247551cd1b59/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "021b0dd952d9699833b6efe8e307d609",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/0c/1c/210c1cb2-0cb4-a448-3f67-6b6edf741e24/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "7b9782c8487f221693534568b20041f7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/a7/c6/87a7c657-e51a-cbd9-8d0b-fa1fff3d2220/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "b711bd3657b3f7596d8dcd47fe8a0e75",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/a5/93/b8a59390-62e8-4114-a882-829814698a32/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "hi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "d9290dc1b4e4a380ea08eb48a9f0c080",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/6e/f9/4a6ef9d5-f584-1208-ce7c-1124b4525504/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "00d10d7252c9a86941b601cbd5f6c886",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/f2/f4/c0f2f4ae-2bb6-c5fd-5f75-93d3430960af/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "88c6491e293d6111b92d8c0eb44e040a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/16/4c/1a164c68-9bdf-5d07-1063-9e9a26deb74a/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "239c3b98e1c7aa2cc1966f87a150ebfe",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/d8/71/08d87115-f930-14ea-534f-79539c8da3d3/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "a248f82d0f84d1f7c5a867e56fd04d2d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/9f/ed/379fed93-9e7e-031b-f6b5-4461f85971dd/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "e8e072093acce599b859f4ae0737b01f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/fb/45/18fb45ff-ab8e-b23b-4fb7-520134ff3d0d/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "980353e22094d21e21b6167bd45a1786",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/4e/5b/094e5bf5-c01f-0974-dc88-a4faaac040af/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "9b5d0795fdbfc8a2e4fabbe41d02fbdc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/79/d4/5679d4b5-fe14-53ba-9a25-5d20228c6b32/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "9b352cf36b9e72bffac07e85c756ee96",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/96/a2/b296a2b3-f08b-a06d-5d04-16e50722ac34/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "hr": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "e1ff81cc5e36d247b0d04c855dfee2a9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/f4/cc/f5f4cc59-1520-84d0-06c7-112e69d3fd76/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "2dd3460c06fc9151ffe20deb8efa817f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/12/95/131295c2-c847-8e27-6243-dfcfced92073/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "433ec1bcdaa0d9db2f7bf50046856937",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/69/67/d3696757-3e41-2024-7026-b559f5772399/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "7e1e19dd71382938cd19180d1ff16645",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/f4/be/d7f4be4e-aa49-6360-dd3b-a94b3502f838/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "92d20300de69ec38924ccf57d7f0ee68",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/5e/7f/695e7f96-6902-7480-a334-032740e2bdbf/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "7dc7efef2ee50969f670c3f28bb19a01",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/ce/47/c3ce47a4-ce2c-8410-485b-42e2dd1d99a7/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "6a093fa23247715ad2001fc739b3fb78",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/6b/44/716b444b-a0ba-a3e0-4903-b555e1cf493a/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "bdef08d92edb88d7af43c9600de9559b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/21/42/5d2142c4-0822-4146-80b4-1a9a9a8b6c26/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "c1de17c0f4998aec6ecd36e6f688f65c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/e9/db/cce9db2e-20be-bdb4-856b-211d397d851a/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "hu": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "70a1bca9043aebd3d85ec0a0c6ba9e8f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/da/dc/98dadcd1-d73c-835f-cab6-a1cd84062ad7/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "558f48ac07b0d003b263081d9fb889d9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/37/b8/7c37b8af-18d5-2cfa-8805-6855b2752c3a/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "308c6d89cf5bd033b3fcfffa8cae099b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/a8/8b/ada88b10-628d-e675-fe78-f7ecad8bc7eb/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "bce5b212f36ddaeee2f1508d5039d425",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/c2/a2/c3c2a2d3-a411-1ab2-4af7-e3a73dcc66e7/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "b9411a804b9010113bfffa5dd41539b1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/77/35/ef7735a7-0070-5f72-b393-e972938c8ff1/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "e15a66d5233fd3bee2be2f61f2062c6c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/bf/18/6bbf18b8-a721-3e10-702c-0adb0637ff1b/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "d82509fd2df2b06da4e1d0b2f656ec1c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/ce/c6/c2cec6d4-a28e-831b-181d-db23386ca393/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "ba8de4911dd248ab2077e4d2c9c1a232",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/ba/e5/a9bae588-5de3-38c3-76c7-b4195cd2ad17/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "cd17e715b6d41da70f49de03a7a667a9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/bb/87/bebb8756-5d68-723c-ce30-b5eb9a15cd1d/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "id": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "dec26d8795a3f5845e4a1bc2ad1f77d4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/d6/d2/3bd6d2ff-f880-a9ac-539c-0edfeaed62db/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "7b496feda5627c6eb4f44d504f6db98b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/3d/4b/c43d4b98-75cd-b735-c801-7e10f153a8b8/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "5f755cec516aef4615a5e86303efc4c0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/0b/7b/e30b7bee-2da1-cf89-258d-b00cd0bd31b0/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "553f7ef290722b6c797a0d91f2293829",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/5c/e1/175ce1e5-bcd6-31ff-4d59-986820521da0/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "0a7b9dabf4913d0efcb4667e29ceb3d3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/8a/73/f58a735d-ec81-c514-3726-dfe37b70151c/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "9b67b2f20b10fa330b7494b845d2cdc6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/62/e2/8a62e206-582d-d8ca-ce16-61ae104d1bf5/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "cffe867e6f05dc390d62ae61a2cfa8ed",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/a6/bd/a4a6bd32-d689-300d-fa9a-8ae781eb3fb8/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "0a049d7c830753a86af8cee6900ce221",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/da/91/b7da91c4-4c69-41d2-e3fa-f49350fa3419/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "3aaa56373d8b69dfe1074af1842d57eb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/62/26/47622617-c693-1d68-6633-63954d7115c1/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "it": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "caf7276ec26f73b07190ce35c230a1f1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/00/f7/6600f74e-9fac-447e-f661-4fd60ef3ed4c/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "9e32fee935a5049c29f8ebae9b834bc5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/e5/c7/13e5c790-d980-21f7-2ef7-cf3f9416397a/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "f0b3ff491009eea0a503a9705b044b20",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/26/26/f3262619-c3ef-c0c4-65f5-b82df54993af/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "4cfa30473eedff345f91ba2ed9636c91",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/19/fc/a419fc5f-6775-8444-4984-6b65d4657e53/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "909291aacd97de14b97c7bcf81a49baa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/8a/77/588a7712-d5d6-ce0e-fbb5-17c9f14305c5/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "cbbdf598f6a3ca7de3347882627c37ed",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/60/ef/8760ef43-e468-7d1b-14e4-029efabe7c09/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "f5ffcfaaf2111cf2c3b6ceb38d2974f6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/98/60/9d98604b-f185-2d8f-e092-df4eedb602a8/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "6f6de67d54df936ab88cbc986f23e501",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/2b/30/822b30f9-481f-0226-994b-780836204a00/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "0d137f26414f8fbeb59df853137ef8dc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/3e/d5/763ed511-a691-eb88-59c9-4ecd9d03b9d5/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ja": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "d743bbaeb7a4cebfe0dbae92024e9483",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/5e/c7/b55ec701-1b91-bdfc-2b2e-0f590d0e635a/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "76661f6fbda480a5b41934c8a55d141b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/57/00/da570088-89a3-8290-37c2-479ed9643a8c/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "c17df1f26cfdf04d9e9d652aba370a56",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/54/73/cb5473f4-c36d-8428-1e41-9bf592f0eb9e/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "cf5e7ae92adea89c46788bb95648db73",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/db/4f/6cdb4f6d-6450-e1dd-4fcc-656788f3d24e/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "72d09e5ffcbd29c05984ffb6a59b721c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/ce/cd/47cecdd3-7d40-5e34-e6f6-3d04e066bb76/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "7f8ddb824c02a3720fda80d70604580b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/bb/0d/23bb0de4-6a0c-0e4e-1309-d5a75c0010af/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "eb65c18e394540c34bba56580709074e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/e3/2b/c6e32b30-1c17-91a2-fd21-1f9d63869e7f/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "9c860d5c0ef600f5192f856687b6f022",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/bd/cd/86bdcde3-81f6-f5e4-6f93-54ba00aaa9b4/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "303861e81efef1d8d94b9c5539190c0b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/46/bc/2246bc10-0857-1162-bfb4-94bd9f40da76/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ko": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "c01ace830e8041e41875fa9c7c098884",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/df/22/84df22e6-ca34-0844-1bba-3981bf38d78b/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "9379b474a96a988253dddf7f1a6b3e3a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/22/8a/fd228a42-27e1-dab0-5dbf-f63d4652cfac/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "fb0d093504771c3515e0add5a9b9df4a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/ea/ba/b4eabad5-a8e9-ce6b-2827-858933373fb5/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "dfb2050033f8718147aa4e23a7979f0d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/fb/49/cdfb49fc-a0bc-e59d-8475-3f6a5f68d53d/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "ffdee9a2eaa2184c01ec114430b56a8e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/ce/50/bdce50a7-114c-1495-80e6-853d2cd31558/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "8e9f8ec6ed5994bce5be09907402dff3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/dc/1a/bbdc1ab6-e4b4-c313-4bf4-e74f1e44dd21/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "f848990dd8c9f384c5d076c9228555c1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/db/25/3bdb252d-e53b-9b2d-1c04-9906e103b78d/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "0995a95a2a5213f17f9ce3b8a9053b92",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/48/e8/9948e800-1906-937c-2c21-7659833284c9/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "4d9a0dc8ba331cdaa2a59c0c3800b7c2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/c5/4d/eac54d1f-df2a-bb4c-af31-1b1d1dbc16f3/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "nl-NL": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "e75617e296123af5ff9b1f1b6300fa65",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/0d/5e/450d5e09-421c-c246-04f8-c06df14245bf/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "86e7bcf0c73fb82927aa82805274bf10",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/f1/99/c0f199d0-c731-f969-2d25-4a9e19689da8/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "c44ebb3c26a9469d22e904824fbf6775",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/a4/df/d0a4df19-1bfe-aa63-d451-1339889472e4/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "f69c056d1f4ce42facaf5a4cc32f3020",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/61/91/7b6191de-520e-7dc3-45e5-fed51e7eead8/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "7317ecf1cf47c08e1b8be4b1cbf236ae",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/f6/88/45f688a6-fe83-d1ff-6a1c-c03d19ca74aa/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "5ef18ec68a7d90c94b8748c88f62cdeb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/8c/dc/1f8cdcfd-7979-6234-8cfa-4f4dd280cf9f/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "a7299255ce12d304efaa62fd7aa3d7f7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1d/85/81/1d8581a0-f6d4-db0f-e457-2286be6e1e4b/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "281e2105e8ef0548adf8442c8d908389",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/cc/5b/64cc5b68-3c5a-e98f-ed49-38379338b7ce/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "2c5a0533ff92e14977d8b0af05728e87",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/bc/34/a2bc34b5-35ae-7c0c-4574-0530ca7bfa0c/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "no": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "350b6fae34c612798cf4408e4a86deba",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/20/94/512094fc-274c-b210-149e-f7ee715aa212/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "f20bf5a7898d099f97f2f5d0d5929f9a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/c7/23/9bc72322-3c3a-282d-1a63-d2fd7e13ab6c/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "ae359026e92cc69ab6c767ef14df93eb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/08/71/9a087116-da18-1a4c-c36c-97334f3e0aad/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "8e7ad5792018e64a8dd08a367e4be487",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/54/3f/02543ff9-533c-e3f9-3619-97aac8726584/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "5347a8ced987cb9919f187d4b20ac182",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/17/8f/63178f28-9852-a41f-31b7-3467daeee75d/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "a1b5ccabc7ed23fe14b11eeacc9e143f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/8d/ab/bb8dab0c-d430-8a9e-a56c-744ff54b1bfd/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "526b0fde959afc084e13fa8066d6a55f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/78/2b/ad782bf2-c930-f6bc-5ef5-7a5e600910ac/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "86f7d695902c72cf4751ac4b63c90230",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/61/30/0a613052-2f81-11ed-72fd-884e92a847a9/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "47513158b5d1fbf3bfa7952233eaaa88",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/d1/bb/afd1bbf8-8da9-3e45-5cd6-e088ab7dd7c7/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "pl": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "cf596ad7a650008556430ddd470e1f3c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/1d/83/a31d835f-599f-119e-2754-352fc997d09a/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "811e8899740f6eae39e6a369a82efd31",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/02/60/460260cb-86c0-c665-471c-5b93b2186d44/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "34a93a2e800abb3fd474e8fad44876a0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/07/ec/1207ecc6-bdc9-2bc6-bb2c-1b561fe9fc64/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "0d14e1df1ca2981d916e352d43a8cbf7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/f7/9d/baf79d99-f568-e431-fb70-5bd1e11bc939/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "2e52c2f6c3f72915712469241d51e345",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/fa/4a/6afa4af0-4655-5a04-259a-f4a833e0e7f4/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "2cbc18720a272d85d31d629b10225083",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/00/ed/0a00edc3-6cd4-1b64-1288-de3453ebc679/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "bba189f164986e3a08ec4034ca3dd62c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/54/08/a3540874-6910-1610-a7f9-782826347fe4/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "16a21866f865d8191dc77fc15c519795",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/c4/26/a6c426d0-73f1-4fec-47b3-13f3c88bcd41/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "e24fa9e377b487d9c832866a98d9a586",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/79/fc/0179fcc3-644f-1802-efb4-c0ec3ab75462/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "pt-BR": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "a0c41e5cb9dcc0160f9da0dabe568c1c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/8c/e1/3a8ce1f9-3cb4-cad5-41a5-6e29cfe4d7f1/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "281d7ff6bf6ad5a027e8d66472d05edb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/71/ca/5871ca1e-f2dc-93f9-5b35-0e95e19188b9/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "4b3f18ee8081f979397b400dde7ce960",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/d7/fd/5bd7fd75-7eb9-2ec4-ac13-e0f942e104fb/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "7b11e3b575593fc9ddc56d233051fec3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/a1/66/eea166f4-40e7-ea11-c1f3-2671812a3328/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "8ff80282bd7ed3f533e687db8b711db1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/d8/4f/24d84fd8-e270-8b79-aeed-8e27f0a19851/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "8a301eb24f6784a54c322b01e29bc3f7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/66/f4/0166f465-d9d2-9d82-0e46-a699ebf3ae29/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "ad2c36d5d896e1cdd98a64b2459dba05",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/61/0f/e0610fc1-fbad-16bb-2b73-d79155090c34/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "9a65d38a4640afbdb39cbe063dfa4392",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/3d/5f/483d5f3a-9b47-93eb-c93f-134c599485c4/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "c7d499ae173546e9466107f8f89f7370",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/63/d4/8763d4dc-6d59-f349-0ee3-d2bac98355a1/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ro": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "730437986617cab15f93aa07ee628cf4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/cc/3b/25cc3b8e-b805-6431-5241-61eb1790b482/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "9f8c3a9d0663f3c5a93c8b910d7e7227",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/19/6c/eb196ca9-ba95-1dc1-dd37-c01056887c5d/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "3834079b89a7e4c477b34ac636237a7b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/8f/0a/f88f0a9a-7208-0ceb-0711-3d9e92cc6efa/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "144c229b8a7b48048e570b3070f3a00b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/e6/4b/a4e64b92-1a02-02b4-2c5d-89560f5abb66/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "bf993e9d87cd181b230f5a4addf24460",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/52/7f/5a527f58-7604-27fa-c2ec-41e81a92be22/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "8c87af790b77a5533db3200fe4d1f13d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/a3/46/3fa346a1-e017-2306-02f9-1290e4182001/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "000985ebb262ec8faac1fca96b8e9a7c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/13/9a/a9139abb-9de1-80f7-2c93-2113aa40a18a/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "c18ad2b33827a756ec6d46b8d1f47221",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/02/79/700279c5-3078-d79b-2c1e-cf2d2e906ff1/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "a98de9a5a4a4aaa5ddbdcc055b3c81e6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/27/f0/2927f056-0761-dd46-6086-7a4de01faf71/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ru": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "871856e45c0dcda30bc8dd24c3b3bb35",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/0c/e1/700ce12b-d484-60cb-17d6-6a1625ab54cd/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "731c9e9471163cb22b65a74da06bada4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/81/3e/72813e32-7ed0-eaa7-c219-29cd007685f4/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "a27ce4812c61223a3f7ea53631869a0a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/bb/7d/86bb7d74-69de-9621-8d66-e386ccb75d9f/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "cae310f88e0cc27a990cf1125d21f787",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/ec/19/38ec1954-47ed-cc6b-487b-379c2ffb9ffb/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "9add209539170f2fb532927a81ddd376",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/88/13/b48813db-e483-3a2e-e197-6a3f3205c320/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "bbbce1d8ddf5d84f08aaac68c8d2e7f6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/c0/67/28c0678d-d468-779a-153c-f335bd31edcc/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "9d75ea31c6e21cb33092ec08fb0fedf8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/89/02/5289022a-5ea6-63ff-f77e-e21ee67f35c9/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "9fe18a28823b654b179cfd384787d082",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/60/1e/50601ea2-fa61-0d78-78df-0958bc60ccda/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "085dbcc13657a94a9d3c0ea7d4e4eb07",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/c4/59/20c459a6-5ee0-7021-0d58-ed0da036489d/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "sk": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "a6779393f22109b7838bc7b5b3bf4117",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/fd/72/ddfd72fa-3579-d928-e178-5c44070c67e3/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "162857ab00d3c04b4bad0adc01444de1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/31/e9/ea31e911-b3d2-c0e5-c6c6-1aa3a0916309/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "97fcd66bbede93c185a877bcac8930fc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/05/88/6b0588ff-b6d7-2d32-7ab6-a7ad3248ab73/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "57e66db6e68c99de308c5d9bc3129c14",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/82/7f/06827fd9-955b-5eb4-72bf-c8fd93cd4b81/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "b50996b67343357cc0acb57bbb43340c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/65/b0/6665b061-5f76-cb67-2f3c-e642564c6c26/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "61b7691133802ab6313b535e4947dd2d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/aa/a5/e8aaa5a6-5398-4f65-8fc4-b7cc4029f2dd/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "9512fe532ed452da6bee18de011a9d4c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/99/4e/44994ede-7044-1aff-a477-ca581f4a5079/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "29f75293ecb6dc05e9bcf59ae2f26ce6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/c2/48/0ac248db-bafd-3a26-408c-671eaf3f6442/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "6011e2b4eeedd09e1c616e5124106c7a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/3f/83/d93f8340-c8b1-7c1f-a8da-0a5c9a49194f/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "sv": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "54a305a7b5a854de64580505eb20466b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/1b/74/f41b748a-877c-d7db-7133-f61591e26246/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "eb6b29837815f73887d41d3a25e34ee6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/d1/c7/c0d1c7a3-2d3a-c8a3-be79-3641f993187a/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "4f49a76910bb6a4cd6056ff018a19690",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/9e/a0/2c9ea062-88e0-8c6c-13ac-2688ebbe7777/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "5984d974df54d4a77b42e329fc651291",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/f2/d9/0ef2d91b-bc51-87f5-53ca-b252886bbbc0/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "2c211ee46d3cb65eaeccd4ca98f8e4ca",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/7a/a7/8d7aa763-dc67-0a7b-97ef-c2b872ea5c4a/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "3e469d1ced79eaa05d3364f6335a9eae",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/37/13/bf3713f7-c78a-37a4-7187-93ef9aa6987e/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "570f95e84dccb3f40d5a7216e05ed7f5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/25/3c/01253c5d-b816-81f8-2675-62f1d440c86d/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "d20766ac60668a480c3a10f08ad99290",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/43/21/6c432175-d426-edc0-fa4b-9da8c5a3d393/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "c6e02c08bb3b5d83faa4f63a30fc1410",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/de/96/6dde966b-29d0-c7e4-56c3-4836f78f777a/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "th": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "fb7c0d0bbaf3447ea1009ad58593915a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/82/03/9c8203e8-cada-7f51-332b-0377ff05521d/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "637c288466ef5fff61401b75166b9c97",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/f2/09/8cf209b8-de79-c350-dad2-629aee86d376/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "1b3d30c3c3ec24a276c77a1a7a737fbd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/b9/0d/f7b90dc5-bfbd-24d8-2e4d-7cb2882012b5/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "58edd244f18096480ad4b55b44398e8e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/26/dc/6026dc3a-a3cd-3fea-b9c5-6c5bdf6e9488/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "9838f842a82542560742b98a4c47466f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/47/9c/04479c5b-054f-3822-ca31-878001543539/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "facf0729465d16946172b3d11c214f54",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/ca/82/5bca8241-30ea-d4e6-d4e7-4ecb942b1f05/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "5b1991de56baff9000feb5dba4a179fc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/21/93/4f219393-6014-e127-6b88-f8d8de5d9e6b/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "7c199289cd520a76cdc103f82dcaad3f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/0f/15/7c0f1586-52dd-b1fc-f4c5-4f7e97bd4a98/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "0d4532eec640e72c27d45c9e4e60851c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/da/69/6fda69a8-a3da-de5d-3288-f5dd14a36ab8/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "tr": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "2cedd52ef1d267e975134b53a8f2ebd0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/f4/01/25f4018f-a602-b59f-b1a6-627f0eb0caca/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "b1ac30fff5370c205591dbd0360a576e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/47/a4/2c47a414-dc10-eef4-23a5-b9c8ba7d0bf8/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "bb00970eb494129f72825f72c69ecc7c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/3f/c3/7b3fc350-bf02-c17a-28dd-68079f3589dc/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "a202ccaa6dc4e5e58cce51e9cef005cc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/00/e9/5800e92c-9962-085f-33df-6ae2dd6fbb1e/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "614da4b87383381c38654191bf3e1203",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/39/da/3839daa4-4fc6-f123-3a48-b4970e725c83/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "e66c6d920dd4008dc93733c03e500104",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/a4/51/60a451a8-06b1-1d75-6c04-027fa66c8a34/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "baebf7dc3c638b56dc13b744a1f416cc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/f9/80/79f9808a-d33a-a1a9-8793-7c5cd5b7e916/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "13810cd4e83db690e7a7b9628c4ed504",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/0c/74/170c74bb-5e2c-ae3a-37c5-2adcda11bba6/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "7f98baaef9706037d51b2d4a85c23f69",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/63/65/9c6365ad-d49b-c258-2f02-d1e77ddb5661/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "uk": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "097c0e42cab7363ff790393b15b169b9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/1b/b3/811bb32f-65d6-e371-38b2-be7067335e30/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "450bb373afbec15b4a268546306f4f3a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/4f/e5/8d4fe51e-c00c-81c9-0588-f4937494e189/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "0497c9660a1476e48f59f2d3cab68104",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/d6/8d/07d68dfc-f45a-59b2-6faf-bb5955db8515/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "92926a8dfc79a0bbe02885eb6f405223",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/27/e5/6c27e563-d18b-7e0a-cd56-e23326c401de/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "700acb24f663aedf27f0c4eecb086df4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/39/e2/8839e26e-d0d9-e86f-ee33-2e357d5e38cc/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "8be24ba2259c2acd882e1de6077598ea",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/e2/e1/3ee2e11d-2e97-e422-8b44-1c2589a1ee4e/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "91be92799b55e2db19d66a07c5de3605",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/fe/bb/a9febb3c-d225-68b6-aa7e-588f19cf5a52/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "c8aca16626f1b16ae5c1c18a28d1358f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/94/59/94/94599458-2c1a-3cd7-8f56-0e49dcc7c67b/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "d12b0f39d53e87fc9e0337794f1ed705",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/4b/7e/984b7e76-ede9-6ca9-e4e9-3278bf4f98ce/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "vi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "4a451e7e71c65fa2c7ab44d8e20d237c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/d5/08/f3d50805-b955-9ec5-cd21-a3cf40ddce0a/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "8a8400529b7f974d9509859df8b4b9e2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/18/40/1a184097-98ba-f6fe-11dc-1dae521626f4/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "6cb0527c6af1ed70112088b6138db1e7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/d9/74/e4d9740a-2136-351f-e0d1-44e2b2b4aa90/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "6396efb7b33811c005ced3e8a0935f91",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/0c/08/590c08cc-8e0d-2c97-25c4-2021a131735e/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "b04bd3e115086d88d076fccaf9fafb42",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/81/00/128100ad-e3b1-b12a-35cd-67e9e64e899b/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "f5f056eee26d45ae7b7287bf2d57a05a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/fb/c7/98fbc76e-9444-64b9-3e64-b7f7d23fa62b/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "b86ad959be3944d5a732cd8ad1fbfe1b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/d4/64/8ed46492-030b-0fcf-b4d6-6839dd654796/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "27ad618c8afc77880ccfbe16ea1bf555",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/c4/97/37c4976a-83fc-3334-6299-db5baa3a1438/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "bfb8133e1662dfbc2c1b90cf6cae223d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/d7/a4/6bd7a461-9484-4cd0-25a7-9eabd7bd16a7/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "zh-Hans": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "28e74fb891dc4910c38f71e5ae94aaf1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/e5/c7/08e5c7f3-c678-642c-09c6-9296107a3c61/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "621a719488963d2badefaa2c71681995",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/44/b1/c044b183-e16f-2315-8ba3-a1fbc00e98ca/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "697ac15d077b939244f481af1ba11bf9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/00/a3/c700a34e-0493-20cc-08c7-a30bd9364d70/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "6b000fb6c3ad0cf356d8032437d47087",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/5e/b9/435eb906-18f5-2383-2c5e-af12c9159aba/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "899c3a4fb9cf764ee51c066ae47ad2c7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/15/d5/7215d5d9-0906-35b8-f3e1-0bda70e2546f/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "47f90d702e9ebb5f40c019815b8753dc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/46/3a/a2463a0e-68d8-59ae-a404-508af725ac7d/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "c4095b5caf75d760d23a160c47222a47",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/0e/b1/6b0eb11a-b1e6-bd71-a108-c465114156de/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "9d5393525bb9ee91d2c85cffdf83c2a3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/b4/41/46b441df-229c-fdc0-611a-67acdeed11e6/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "e8d4c72cb13b9ec20f6cabc4acc52ec1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/de/43/dbde4362-7222-6e19-c014-31e5a664eb02/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "zh-Hant": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-01-PosterLeft.png",
+      "sourceFileChecksum": "036fbdf91798a3ac1f9fad4162ca6527",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/2a/c2/622ac2b0-f5d9-d662-caed-a4a3810f1205/iPhone-01-PosterLeft.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-02-PosterRight.png",
+      "sourceFileChecksum": "9de29fe280681ecd742f5a0faa4c9b8a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/64/35/ef643552-8b03-8dea-1ad4-af5f4754a797/iPhone-02-PosterRight.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-03-WatchSupport.png",
+      "sourceFileChecksum": "7bdf46b0e9138bf4a97aaec80a168a9b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/de/2f/7ede2f7b-d1f1-c6dc-8fca-d6da19347c72/iPhone-03-WatchSupport.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-04-Dashboard.png",
+      "sourceFileChecksum": "c8626bfdeb1638939e77b22895d365b3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/de/8c/81de8c66-f969-56d2-1d0f-c94c305305b8/iPhone-04-Dashboard.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-05-Analysis.png",
+      "sourceFileChecksum": "71ec830c92413961808a61cf25d3ebfa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/b8/60/57b860fd-1cfa-858a-1f01-1efdc2c30358/iPhone-05-Analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-06-Locations.png",
+      "sourceFileChecksum": "1bff974a390e113b981f7f0a866d6d0a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/de/67/eede6706-b794-2ae3-0c67-d10e66d1db2c/iPhone-06-Locations.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-07-Collections.png",
+      "sourceFileChecksum": "6e7e8630536a5ec6d8ca3a3a7d591ac0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/b9/7f/19b97f03-ac2b-9d66-3aef-28e917124302/iPhone-07-Collections.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-08-USNationalParks.png",
+      "sourceFileChecksum": "d79c1cc6900d361bc1b7a3826a7bb18e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/19/b4/1c19b470-3d72-aae6-1fe9-495ba6fea322/iPhone-08-USNationalParks.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone-09-ArchesPhotos.png",
+      "sourceFileChecksum": "666dd59c8c41708aef8d118b7ebc3102",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/f9/05/1ef90521-cc1c-36b8-49f9-ca3e356b2696/iPhone-09-ArchesPhotos.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ]
+}

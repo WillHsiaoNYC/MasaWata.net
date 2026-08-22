@@ -1,613 +1,1364 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/cs/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/da/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/de/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/es/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/fi/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/fr/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/hi/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/hu/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/id/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/it/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/ja/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/ko/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/nb/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/pt-BR/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/ru/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/sk/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/sv/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/vi/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/zh-Hans/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
-
-    <url>
-        <loc>https://masawata.net/TimerOnMe/zh-Hant/</loc>
-        <lastmod>2026-07-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/"/>
-        <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
-        <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/"/>
-        <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/"/>
-        <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
-        <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
-        <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
-        <xhtml:link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
-        <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
-        <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
-        <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
-        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
-    </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/ar-SA/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/ca/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/cs/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/da/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/de-DE/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/el/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/es-ES/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/es-MX/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/fi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/fr-FR/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/he/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/hi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/hr/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/hu/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/id/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/it/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/ja/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/ko/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/nl-NL/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/no/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/pl/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/pt-BR/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/pt-PT/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/ro/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/ru/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/sk/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/sv/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/th/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/tr/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/uk/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/vi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/zh-Hans/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TimerOnMe/zh-Hant/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/"/>
+  </url>
 </urlset>

@@ -1,940 +1,122 @@
-<!DOCTYPE html>
-<html lang="it">
+<!doctype html>
+<html lang="it" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZL852HY2Z4');
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Ice Time Track - Rilevamento automatico dei turni per Apple Watch</title>
-    <meta name="title" content="Ice Time Track - Rilevamento automatico dei turni per Apple Watch">
-    <meta name="description" content="Monitora il tuo tempo sul ghiaccio automaticamente con Apple Watch. Rileva i turni, registra gol e penalità, monitora frequenza cardiaca e movimento.">
-    <meta name="keywords" content="hockey, ice time, shift tracking, Apple Watch, hockey app, ice hockey, shift detection, hockey stats, game tracker">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/IceTimeTrack/it/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/IceTimeTrack/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/IceTimeTrack/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/IceTimeTrack/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/IceTimeTrack/fr/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/IceTimeTrack/nb/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/IceTimeTrack/it/">
-    <meta property="og:title" content="Ice Time Track - Rilevamento automatico dei turni per Apple Watch">
-    <meta property="og:description" content="Monitora il tuo tempo sul ghiaccio automaticamente con Apple Watch. Rileva i turni, registra gol e penalità, monitora frequenza cardiaca e movimento.">
-    <meta property="og:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-    <meta property="og:site_name" content="Ice Time Track">
-    <meta property="og:locale" content="it_IT">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/IceTimeTrack/it/">
-    <meta name="twitter:title" content="Ice Time Track - Rilevamento automatico dei turni per Apple Watch">
-    <meta name="twitter:description" content="Monitora il tuo tempo sul ghiaccio automaticamente con Apple Watch. Rileva i turni, registra gol e penalità, monitora frequenza cardiaca e movimento.">
-    <meta name="twitter:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-
-    <!-- Apple Smart Banner (placeholder app-id) -->
-    <meta name="apple-itunes-app" content="app-id=PLACEHOLDER">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/app-icon.png">
-    <link rel="apple-touch-icon" href="../images/app-icon.png">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Ice Time Track",
-        "operatingSystem": "iOS, watchOS",
-        "applicationCategory": "SportsApplication",
-        "sameAs": "https://apps.apple.com/app/id6758258172",
-        "downloadUrl": "https://apps.apple.com/app/id6758258172",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Monitora il tuo tempo sul ghiaccio automaticamente con Apple Watch. Rileva i turni, registra gol e penalità, monitora frequenza cardiaca e movimento.",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "it"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ice Time Track — Hockey Turni Allenamento</title>
+  <meta name="description" content="Tracciamento automatico del tempo sul ghiaccio con Apple Watch – ora con gestione attrezzatura e promemoria d&#x27;affilatura pattini. Rivedi turni, statistiche e salute.">
+  <meta name="apple-itunes-app" content="app-id=6758258172">
+  <link rel="canonical" href="https://masawata.net/IceTimeTrack/it/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/IceTimeTrack/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/IceTimeTrack/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/IceTimeTrack/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/IceTimeTrack/fr-FR/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/IceTimeTrack/no/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:dark;--accent:#FFB81C;--accent-dark:#C98400;--bg:#0D0D0D;--surface:#1A1A1A;--ink:#FFFFFF;--muted:#A0A0A0;--line:#2A2A2A}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ice Time Track", "description": "Tracciamento automatico del tempo sul ghiaccio con Apple Watch – ora con gestione attrezzatura e promemoria d'affilatura pattini. Rivedi turni, statistiche e salute.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/IceTimeTrack/it/", "downloadUrl": "https://apps.apple.com/app/id6758258172", "image": ["https://masawata.net/IceTimeTrack/images/asc/it/01-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/02-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/03-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/04-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/05-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/06-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/07-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/08-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/09-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/it/10-watch.webp", "https://masawata.net/IceTimeTrack/images/asc/it/11-watch.webp"]}</script>
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/app-icon.png" alt="Ice Time Track" class="nav__logo-icon">
-                <span class="nav__logo-text">Ice Time Track</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item"><a href="#features" class="nav__link">Funzionalità</a></li>
-                <li class="nav__item"><a href="#how-it-works" class="nav__link">Come funziona</a></li>
-                <li class="nav__item"><a href="#screenshots" class="nav__link">Screenshot</a></li>
-                <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
-                <li class="nav__item"><a href="#download" class="nav__link nav__link--cta" id="nav-cta">Preordina</a></li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">IT</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../it/" class="language-option active">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Countdown Section -->
-        <section class="countdown" id="countdown">
-            <div class="container">
-                <div class="countdown__content">
-                    <h2 class="countdown__title" id="cd-title">Lancio tra</h2>
-                    <p class="countdown__promo countdown--hidden" id="cd-promo">1 anno a $6,99 USD</p>
-                    <p class="countdown__promo-sub countdown--hidden" id="cd-promo-sub">Offerta a tempo limitato — non perderla</p>
-                    <div class="countdown__timer">
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-days">00</span>
-                            <span class="countdown__label">Giorni</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-hours">00</span>
-                            <span class="countdown__label">Ore</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-minutes">00</span>
-                            <span class="countdown__label">Minuti</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-seconds">00</span>
-                            <span class="countdown__label">Secondi</span>
-                        </div>
-                    </div>
-                    <p class="countdown__date" id="cd-date">14 febbraio 2026</p>
-                    <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6758258172&code=LAUNCH" class="countdown__claim-btn countdown--hidden" id="cd-claim" target="_blank" rel="noopener">Riscatta offerta</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="hero" id="hero">
-            <div class="hero__bg"></div>
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <div class="hero__icon-wrapper">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="hero__icon">
-                    </div>
-
-                    <h1 class="hero__title">Rilevamento automatico dei turni<br>per giocatori di hockey</h1>
-                    <p class="hero__description">Sai esattamente quanto tempo passi sul ghiaccio — senza toccare l'orologio. Monitora gol, penalità e periodi. Avvia una sessione e gioca.</p>
-
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn" id="hero-download" target="_blank" rel="noopener">Preordina ora</a>
-
-                    <img src="../assets/app-store-badges/app-store-badge-it.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-
-                    <p class="hero__platforms">Disponibile su Apple Watch + iPhone · Lancio 14 febbraio 2026</p>
-
-                    <div class="hero__callouts">
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                            <span>Rilevamento turni</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
-                            <span>Tracciamento gol</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
-                            <span>Registro penalità</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                            <span>Analisi partita</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero__device">
-                    <img src="../images/hero-watch.png" alt="Ice Time Track on Apple Watch" class="hero__image">
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Funzionalità</h2>
-                    <p class="section-subtitle">Tutto ciò che ti serve per monitorare la tua partita</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Rilevamento automatico dei turni</h3>
-                        <p class="feature-card__description">Sali sul ghiaccio e il tuo orologio lo sa. Nessun pulsante durante il gioco — i sensori rilevano automaticamente il pattinaggio vs. la panchina.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Tracciamento eventi di gioco</h3>
-                        <p class="feature-card__description">Registra gol, assist e penalità direttamente dal polso. Monitora i periodi e mantieni un registro completo.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Metriche salute in tempo reale</h3>
-                        <p class="feature-card__description">Monitora frequenza cardiaca, calorie bruciate e intensità del movimento in tempo reale.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Analisi sessione</h3>
-                        <p class="feature-card__description">Rivedi tempo totale sul ghiaccio, numero di turni, durata media dei turni e record personali.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M16 16l2 2"/><path d="M8 16l-2 2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Integrazione Apple Salute</h3>
-                        <p class="feature-card__description">Le sessioni si sincronizzano con Apple Salute come allenamenti di hockey.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="1" y1="1" x2="23" y2="23"/><path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.56 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Funziona offline</h3>
-                        <p class="feature-card__description">Il tuo orologio registra tutto in modo indipendente. Nessun iPhone necessario in panchina — i dati si sincronizzano automaticamente dopo la partita.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- How It Works Section -->
-        <section class="how-it-works" id="how-it-works">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Come funziona</h2>
-                    <p class="section-subtitle">Dal riscaldamento all'analisi post-partita</p>
-                </div>
-
-                <div class="how-it-works__steps">
-                    <div class="step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="step__number">1</div>
-                        <h3 class="step__title">Prima della partita</h3>
-                        <p class="step__description">Apri Ice Time Track sul tuo Apple Watch. Tocca Partita, Allenamento o Scrimmage.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-before.png" alt="Prima della partita" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="step__number">2</div>
-                        <h3 class="step__title">Durante la partita</h3>
-                        <p class="step__description">Sali sul ghiaccio e il tuo orologio lo rileva automaticamente. Registra gol e penalità con un tocco.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-during.png" alt="Durante la partita" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="step__number">3</div>
-                        <h3 class="step__title">Dopo la partita</h3>
-                        <p class="step__description">La tua sessione si sincronizza con l'iPhone. Rivedi tempo sul ghiaccio, turni, frequenza cardiaca ed eventi.</p>
-                        <div class="step__device step__device--phone">
-                            <img src="../images/step-after.png" alt="Dopo la partita" class="step__device-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Gallery Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Guardalo in azione</h2>
-                    <p class="section-subtitle">Progettato per giocatori di hockey</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <button class="screenshots__arrow screenshots__arrow--prev" aria-label="Previous screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-                    </button>
-
-                    <div class="screenshots__track">
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-on-ice.png" alt="Apple Watch on-ice session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-sessions.png" alt="iPhone sessions" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-events.png" alt="Apple Watch events" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-analytics.png" alt="iPhone analytics" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-game-detail.png" alt="iPhone game detail" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-settings.png" alt="iPhone settings" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-session.png" alt="iPhone live session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-session-header.png" alt="iPhone session header" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-meter.png" alt="iPhone live meter" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-motion-stats.png" alt="iPhone motion stats" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-shift-list.png" alt="iPhone shift list" class="screenshot-img"></div>
-                    </div>
-
-                    <button class="screenshots__arrow screenshots__arrow--next" aria-label="Next screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section (hidden until launch) -->
-        <section class="testimonials testimonials--hidden" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Cosa dicono i giocatori</h2>
-                    <p class="section-subtitle">Scelto dai giocatori di hockey ovunque</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Finalmente un'app che traccia il mio tempo sul ghiaccio senza dover toccare nulla. Rivoluzionario per il monitoraggio dei turni."</p>
-                        <span class="testimonial-card__author">— Hockey Dad</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Adoro vedere la mia frequenza cardiaca e le statistiche dei turni dopo ogni partita."</p>
-                        <span class="testimonial-card__author">— Beer League Player</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Il rilevamento automatico è sorprendentemente preciso. I miei figli lo usano ad ogni partita."</p>
-                        <span class="testimonial-card__author">— Youth Hockey Parent</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Domande frequenti</h2>
-                    <p class="section-subtitle">Tutto ciò che devi sapere su Ice Time Track</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come inizio a registrare una sessione?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Apri l'app Ice Time Track sul tuo Apple Watch. Seleziona il tipo di sessione (Partita, Allenamento, Scrimmage o Altro) e tocca per iniziare. L'app rileverà automaticamente quando sei sul ghiaccio e quando in panchina.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Qual è la differenza tra Partita, Allenamento e Scrimmage?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sono etichette per organizzare le tue sessioni. Partita è per le gare ufficiali, Allenamento per gli allenamenti di squadra, Scrimmage per le partite informali e Altro per tutto il resto come il pattinaggio libero. Il rilevamento funziona allo stesso modo per tutti i tipi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Devo avere il mio iPhone con me durante una partita?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>No. L'Apple Watch registra tutto in modo indipendente. La tua sessione si sincronizzerà automaticamente con l'iPhone quando i dispositivi saranno nel raggio d'azione dopo la partita.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cos'è un passo?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Un "passo" viene rilevato dal tuo Apple Watch quando rileva un pattern ritmico di oscillazione del braccio tramite l'accelerometro. Non rileva il piede che tocca il suolo — riconosce invece il movimento del braccio che accompagna il movimento. Durante l'hockey, la tua falcata di pattinaggio e il maneggio del bastone creano movimenti simili, quindi l'app usa i "passi al secondo" come indicatore di gioco attivo.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cos'è l'accelerazione?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>L'accelerazione misura quanto velocemente stai accelerando, rallentando o cambiando direzione. L'accelerometro del tuo Apple Watch rileva questo movimento in tre dimensioni. Fermate brusche, partenze esplosive e rapidi cambi di direzione durante un breakout registrano un'alta accelerazione — mentre stare seduti in panchina in attesa del prossimo cambio mostra un'attività minima.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cos'è la rotazione?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>La rotazione misura quanto e quanto velocemente stai girando o ruotando. Il giroscopio del tuo Apple Watch rileva questo movimento, particolarmente comune nell'hockey — i crossover attraverso la zona neutra, il pivot per pattinare all'indietro in difesa o il girarsi dopo un contrasto creano schemi di rotazione distinti. Combinata con l'accelerazione, questo aiuta l'app a distinguere il pattinaggio attivo dallo stare fermi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come fa l'app a sapere quando sono sul ghiaccio?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>L'app combina più sensori: l'accelerometro rileva l'intensità del movimento, il contapassi traccia la tua falcata di pattinaggio e il GPS misura la tua velocità. Quando pattini attivamente, questi sensori mostrano un'alta attività. Quando sei seduto in panchina, l'attività cala significativamente.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come viene attivato lo stato sul ghiaccio/panchina dal movimento?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Il tuo Watch legge l'intensità del movimento, la falcata di pattinaggio e la velocità GPS. Quando l'app rileva un movimento abbastanza forte da questi sensori, ti segna come sul ghiaccio. Quando tutti e tre scendono a livelli bassi e rimangono lì, inizia la transizione alla panchina.</p><p>L'impostazione Sensibilità controlla quanta movimento è necessario:</p><p>• Alta — Rileva movimenti più leggeri. Usala se i tuoi cambi non vengono rilevati.<br>• Media — Bilanciata per la maggior parte dei giocatori. Questa è l'impostazione predefinita.<br>• Bassa — Richiede un movimento più forte per contare come pattinaggio. Usala se ricevi false letture sul ghiaccio mentre sei in panchina.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come funzionano le impostazioni di rilevamento avanzate?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Le Impostazioni avanzate ti danno il pieno controllo su ogni soglia di rilevamento. La regolazione di qualsiasi cursore passa automaticamente la sensibilità a "Personalizzata."</p><p>Attivatore Sul ghiaccio — Per essere segnalato come pattinaggio, la tua velocità GPS deve superare la sua soglia per 3 secondi, OPPURE sia la tua accelerazione che la cadenza dei passi devono superare le loro soglie per la durata di mantenimento.<br>• Acceleration: 0.2–3.0G (default: 0.2G)<br>• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)<br>• GPS Speed: 0.5–3.0 m/s (default: 1.5)<br>• Hold Duration: 1–5 sec (default: 2s)</p><p>Attivatore In panchina — Per passare alla panchina, TUTTE e tre le letture devono scendere sotto le loro soglie per la durata di mantenimento.<br>• Acceleration: 0.3–1.5G (default: 0.7G)<br>• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)<br>• GPS Speed: 0.1–1.0 m/s (default: 0.5)<br>• Hold Duration: 1–5 sec (default: 3s)</p><p>Consigliamo di usare i livelli preimpostati (Alto, Medio, Basso) a meno che non sia necessaria una regolazione fine. Tocca "Ripristina preimpostazione" in qualsiasi momento per ripristinare.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Perché c'è un ritardo quando smetto di pattinare?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Questo è il "buffer di movimento" — un breve periodo di attesa (predefinito 20 secondi) prima che l'app confermi che sei tornato in panchina. Questo impedisce che brevi pause durante un cambio vengano conteggiate come tempo in panchina.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cos'è il buffer di movimento?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Il buffer di movimento è un ritardo configurabile (10-30 secondi) che previene false conclusioni di cambio. Quando smetti di muoverti, l'app attende questo tempo prima di segnarti come "in panchina". Se ricominci a muoverti durante il buffer, il tuo cambio continua senza interruzione.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cos'è il registro partita?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Il registro partita ti permette di annotare eventi durante una sessione — gol a favore, gol subiti, penalità e inizi periodo. Gli eventi vengono registrati dal tuo Apple Watch durante il gioco e possono anche essere aggiunti dall'iPhone. Il punteggio e le statistiche personali (i miei gol, i miei assist, i minuti di penalità) vengono calcolati dagli eventi che registri.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Devo avviare una sessione Partita per usare il registro partita?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>No. Il registro partita è disponibile per tutti i tipi di sessione — Partita, Allenamento, Scrimmage e Altro. Puoi registrare gol e penalità in qualsiasi sessione.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Posso registrare un risultato senza avviare una sessione di tracciamento in diretta sull'Apple Watch?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sì. Tocca il pulsante + accanto a "Sessioni recenti" nella Dashboard per aggiungere un risultato manuale. Puoi inserire il punteggio, l'avversario, i gol, gli assist, le penalità e le informazioni sui periodi — il tutto senza indossare il Watch. Questo è utile per registrare partite a posteriori o per scopi analitici.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come registro eventi sul mio Watch?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Durante una sessione attiva, tocca il pulsante LOG nella parte inferiore dello schermo. Seleziona il tipo di evento (gol a favore, gol subito, penalità o inizio periodo) e compila i dettagli. L'evento viene registrato con l'ora corrente e appare sul tuo iPhone in pochi secondi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come registro eventi sul mio iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Mentre una sessione è attiva sul tuo Watch, apri l'app iPhone per vedere la tua sessione in diretta. Gli eventi registrati sul Watch appaiono sul tuo iPhone in tempo reale. Puoi anche aggiungere o eliminare eventi direttamente dall'iPhone. Nota che le modifiche fatte sull'iPhone non vengono rinviate al Watch durante la sessione — il Watch continua a mostrare il proprio registro. Quando la sessione termina, entrambe le fonti vengono unite automaticamente e le modifiche fatte sull'iPhone (aggiunte ed eliminazioni) hanno la priorità.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Quali tipi di eventi posso registrare?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Quattro tipi: Gol a favore (opzionalmente segna "Ho segnato" o "Ho assistito"), Gol subito, Penalità (con tipo di penalità, durata e se è contro la tua squadra o l'avversario) e Inizio periodo (segna gli intervalli nella tua cronologia).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cosa succede se non imposto un orario per un evento?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Se aggiungi un evento senza specificare un orario, viene salvato senza. L'evento appare comunque nel tuo registro partita e conta per il tuo punteggio e le statistiche. Puoi sempre tornare indietro e aggiungere o correggere l'ora dopo la sessione dalla pagina dei dettagli della sessione sul tuo iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Posso modificare gli eventi dopo la sessione?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sì. Apri la sessione sul tuo iPhone e tocca qualsiasi evento per modificarne i dettagli — tipo, orario, coinvolgimento personale (gol/assist), info penalità e altro. Puoi anche aggiungere nuovi eventi o eliminare quelli esistenti. Tutte le modifiche vengono salvate immediatamente.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come vengono uniti gli eventi di Watch e iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Durante la sessione, Watch e iPhone mantengono ciascuno il proprio registro. Quando la sessione termina e il Watch invia i dati finali al tuo iPhone, l'app unisce entrambe le fonti: gli eventi eliminati sull'iPhone vengono rimossi, quelli aggiunti vengono inclusi e il punteggio viene ricalcolato dalla lista unita. Il risultato finale viene salvato come un'unica sessione unificata.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cosa fa la sensibilità di rilevamento?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>La sensibilità controlla quanto movimento è necessario per essere registrato come "pattinaggio." L'alta sensibilità rileva movimenti più leggeri (utile se i turni non vengono rilevati). La bassa sensibilità richiede movimenti più forti (utile se si verificano falsi rilevamenti in panchina). Medio è l'impostazione predefinita e funziona bene per la maggior parte dei giocatori.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come regolo il tempo di buffer?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Apri l'app Ice Time Track sul tuo iPhone, vai su Impostazioni e regola il selettore "Buffer di movimento." I buffer più brevi (10-15 secondi) terminano i turni più velocemente. I buffer più lunghi (25-30 secondi) sono più tolleranti verso brevi pause durante i turni.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cosa sono gli avvisi tattili e come li uso?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Gli avvisi aptici sono notifiche a vibrazione sul tuo Watch quando il tuo stato cambia. Puoi impostarli per vibrare quando sali sul ghiaccio, quando torni in panchina, in entrambi i casi, o disattivarli completamente. Questo ti aiuta a rimanere consapevole senza guardare il Watch.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cosa fa "Termina sessione automaticamente"?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>La fine automatica interrompe automaticamente la sessione dopo un tempo impostato (predefinito 100 minuti). Questo impedisce all'app di funzionare indefinitamente se dimentichi di terminarla manualmente, risparmiando batteria e garantendo il salvataggio dei dati.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Se cambio le impostazioni durante una sessione attiva, hanno effetto immediato?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sì. Le modifiche a sensibilità, buffer di movimento e avvisi aptici si sincronizzano con il Watch e hanno effetto immediato durante una sessione in corso. Non devi aspettare la prossima sessione: le regolazioni si applicano entro pochi secondi dalla modifica sul tuo iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Cosa sono le Impostazioni avanzate?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Le Impostazioni avanzate ti permettono di regolare ogni soglia di rilevamento individualmente. Espandi la sezione nelle impostazioni di Rilevamento per configurare accelerazione, cadenza dei passi, velocità GPS e durata di mantenimento per gli attivatori sia in pista che in panchina. Quando regoli un cursore, la sensibilità passa automaticamente a "Personalizzato." Usa "Ripristina preimpostazione" per tornare alle preimpostazioni Basso/Medio/Alto.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Quali dati vengono salvati in Apple Salute?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Quando abilitato, l'app salva la tua sessione come allenamento di Hockey includendo: durata, calorie attive bruciate e dati sulla frequenza cardiaca (media e massima). Questo contribuisce ai tuoi anelli di Attività e alla cronologia del fitness.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come attivo/disattivo l'integrazione HealthKit?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Apri Impostazioni nell'app iPhone e attiva "Salva su Apple Salute." Quando abilitato, le sessioni completate vengono salvate come allenamenti. Quando disabilitato, i tuoi dati rimangono solo in Ice Time Track.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Perché la mia frequenza cardiaca non viene mostrata?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Assicurati che il Watch sia indossato stretto e il sensore della frequenza cardiaca abbia un buon contatto con la pelle. La frequenza cardiaca può impiegare 30-60 secondi per apparire dopo l'avvio di una sessione. Se i problemi persistono, verifica che Ice Time Track abbia il permesso di leggere la frequenza cardiaca in Impostazioni &gt; Privacy &gt; Salute.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come si sincronizzano le sessioni tra Watch e iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Le sessioni si sincronizzano automaticamente quando entrambi i dispositivi sono nel raggio d'azione e collegati. Dopo aver terminato una sessione sul Watch, questa viene trasferita al tuo iPhone entro pochi secondi o minuti. Puoi anche attivare manualmente una sincronizzazione dall'app iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Perché la mia sessione non appare sul mio iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Prima di tutto, assicurati che la sessione sia terminata sul Watch. Apri entrambe le app e verifica che il Bluetooth sia attivato. Le sessioni si sincronizzano quando l'app Watch è aperta o poco dopo la fine. Se ancora non appare, prova ad aprire di nuovo l'app Watch per avviare la sincronizzazione.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Posso eliminare una sessione?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sì. Nell'app iPhone, vai all'elenco delle sessioni, scorri verso sinistra sulla sessione che vuoi rimuovere e tocca Elimina. Questo la rimuove da entrambi i dispositivi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>L'app non rileva i miei cambi con precisione</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Prova a regolare la sensibilità del rilevamento nelle Impostazioni. Se i turni non vengono rilevati, aumenta la sensibilità ad Alta. Se ricevi falsi rilevamenti in panchina, riduci a Bassa. Assicurati inoltre che il Watch sia indossato saldamente al polso, non sopra guanti spessi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>L'app ha smesso di registrare a metà partita</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Questo può accadere se il Watch si riavvia o l'app va in crash. Controlla se la fine automatica si è attivata prima del previsto (regolabile nelle Impostazioni).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>L'app Watch è bloccata su 'Sincronizzazione richiesta'</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Le app Watch e iPhone devono comunicare per completare la configurazione iniziale. Assicurati che l'app iPhone sia aperta durante la configurazione del Watch. Se la schermata persiste, forza la chiusura di entrambe le app e riavviale. Se il problema continua, elimina e reinstalla entrambe le app.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Perché l'app ha bisogno dell'accesso alla posizione?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>La posizione (GPS) viene utilizzata per misurare la velocità di pattinaggio, il che aiuta a rilevare con precisione quando sei sul ghiaccio rispetto alla panchina. I dati GPS restano sui tuoi dispositivi e non vengono caricati da nessuna parte.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Perché l'app ha bisogno dell'accesso a movimento e fitness?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>I sensori di movimento (accelerometro e giroscopio) rilevano i tuoi schemi di movimento per distinguere il pattinaggio dalla posizione seduta. L'accesso fitness consente di leggere il conteggio dei passi per migliorare la precisione del rilevamento. Questi dati vengono elaborati interamente sul tuo Watch.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>I miei dati vengono condivisi con qualcuno?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>No. Tutti i dati delle sessioni, le metriche sanitarie e le letture dei sensori restano sul tuo Apple Watch e iPhone. Nulla viene caricato su server esterni. I tuoi dati sono tuoi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Come attivo l'accesso alla posizione se l'ho negato per errore?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Opzione 1 (su Watch): Apri Impostazioni &gt; Privacy e sicurezza &gt; Servizi di localizzazione &gt; Ice Time Track, poi seleziona "Durante l'utilizzo". Opzione 2 (da iPhone): Apri l'app Watch &gt; Privacy &gt; Servizi di localizzazione &gt; Ice Time Track e abilita l'accesso.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Download CTA Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content" data-aos="fade-up">
-                    <div class="download__icon">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="download__icon-img">
-                    </div>
-                    <h2 class="download__title">Pronto a monitorare il tuo tempo sul ghiaccio?</h2>
-                    <p class="download__description">Scarica Ice Time Track e inizia la tua prossima sessione. Rilevamento automatico dei turni, registro eventi e metriche salute — tutto dal polso.</p>
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn launch-btn--lg" id="download-cta" target="_blank" rel="noopener">Preordina ora</a>
-                    <img src="../assets/app-store-badges/app-store-badge-it.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <span class="footer__name">Ice Time Track</span>
-                <div class="footer__links">
-                    <a href="/privacy-policy.html" class="footer__link">Informativa sulla privacy</a>
-                    <a href="#" class="footer__link">Termini di servizio</a>
-                    <a href="mailto:support@masawata.net" class="footer__link">Supporto</a>
-                </div>
-                <p class="footer__copyright">© 2026 MasaWata. Tutti i diritti riservati.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/app-icon.png" alt="" width="44" height="44"><span>Ice Time Track</span></a>
+    <details class="asc-languages">
+      <summary>Lingua: Italiano</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Ice Time Track</p>
+        <h1>Hockey Turni Allenamento</h1>
+        <p>Tracciamento automatico del tempo sul ghiaccio con Apple Watch – ora con gestione attrezzatura e promemoria d&#x27;affilatura pattini. Rivedi turni, statistiche e salute.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Scarica dall’App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/it/01-phone.webp" alt="Ice Time Track">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Informazioni sull’app</h2>
+      <div class="asc-prose"><p>I tuoi turni. Tracciati automaticamente.</p>
+<p>Ice Time Track usa il tuo Apple Watch per rilevare quando stai pattinando e quando sei in panchina. Nessun pulsante, nessun problema. Avvia una sessione e gioca.</p>
+<h3>COME FUNZIONA</h3>
+<p>Il nostro algoritmo di rilevamento del movimento analizza i dati di accelerometro, giroscopio e GPS per distinguere il pattinaggio dal riposo. Il tuo iPhone sincronizza aggiornamenti in tempo reale per consultare le statistiche durante o dopo la partita.</p>
+<h3>FUNZIONALITÀ</h3>
+<ul><li>Rilevamento automatico dei turni, tracciamento movimento e metriche salute</li><li>Tempo totale sul ghiaccio e dettaglio per turno</li><li>Registro partita – gol, penalità, intervalli</li><li>Frequenza cardiaca e calorie per turno</li><li>Timeline visiva del pattern ghiaccio/panchina</li><li>Storico sessioni con tendenze</li><li>Tag posizione per ogni pista</li><li>Modalità partita, allenamento e scrimmage</li><li>Avvisi aptici opzionali</li><li>Esporta dati in CSV o JSON</li></ul>
+<h3>INTEGRAZIONE APPLE</h3>
+<p>Funziona con Apple Watch. Si sincronizza con Apple Salute.</p>
+<h3>PRIVACY</h3>
+<p>Tutti i dati memorizzati localmente. Nessun account richiesto.</p>
+<p>Creato da giocatori di hockey, per giocatori di hockey. Conosci il tuo tempo sul ghiaccio. Eleva il tuo gioco.</p>
+<p>Ice Time Track trasforma il tuo Apple Watch in un compagno hockey intelligente che sa esattamente quando sei sul ghiaccio e quando in panchina. Nessun pulsante. Nessuna distrazione. Solo tracciamento automatico puro per concentrarti sul tuo miglior gioco.</p>
+<h3>COME FUNZIONA</h3>
+<p>Avvia una sessione sul tuo Apple Watch e dimenticatene. Il nostro rilevamento avanzato analizza i dati in tempo reale. Il tuo iPhone resta sincronizzato con aggiornamenti live – guarda le tue statistiche salire dalle tribune o rivedi tutto dopo la sirena finale.</p>
+<h3>COSA SCOPRIRAI</h3>
+<ul><li>Tempo Totale sul Ghiaccio — Sappi esattamente quanti minuti hai trascorso dove conta</li><li>Dettaglio Turno per Turno — Ogni turno con durata, frequenza cardiaca e calorie</li><li>Registri partita – gol/penalità per periodo</li><li>Tracciamento Cardiaco — Monitora lo sforzo pattinando vs recupero</li><li>Calorie Bruciate — Dati precisi sincronizzati da Apple Salute</li><li>Timeline Sessione — Grafico visivo del tuo pattern ghiaccio/panchina</li><li>Memoria Posizione — Tag automatico della pista</li><li>Tendenze Storiche — Confronta sessioni e traccia i progressi</li></ul>
+<h3>COSTRUITO PER OGNI PATTINATORE</h3>
+<p>Che tu giochi partite amatoriali, ti alleni duramente o competa in scrimmage – Ice Time Track si adatta. Tagga le sessioni per tipo, aggiungi nomi avversari e crea il tuo diario hockey personale.</p>
+<h3>INTEGRAZIONE APPLE FLUIDA</h3>
+<ul><li>Sincronizza allenamenti con Apple Salute</li><li>Funziona in background durante le sessioni</li><li>Avvisi aptici opzionali per transizioni ghiaccio/panchina</li><li>Ottimizzato per basso impatto batteria</li></ul>
+<h3>PRIVACY PRIMA</h3>
+<p>I tuoi dati restano tuoi. Memorizzati localmente sui tuoi dispositivi. Nessun account. Nessun dato venduto. Mai.</p>
+<h3>DA GIOCATORI, PER GIOCATORI</h3>
+<p>Creato da amanti dell&#x27;hockey stanchi di indovinare il tempo sul ghiaccio. Numeri reali. Analisi reali. Zero attrito.</p>
+<p>Scarica ora e non chiederti mai più quanto hai giocato.</p>
+<p>Allaccia i pattini. Butta il puck. Al resto pensiamo noi.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Screenshot</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/it/01-phone.webp" alt="Ice Time Track — Screenshot 1" loading="lazy"></figure>
+<figure><img src="../images/asc/it/02-phone.webp" alt="Ice Time Track — Screenshot 2" loading="lazy"></figure>
+<figure><img src="../images/asc/it/03-phone.webp" alt="Ice Time Track — Screenshot 3" loading="lazy"></figure>
+<figure><img src="../images/asc/it/04-phone.webp" alt="Ice Time Track — Screenshot 4" loading="lazy"></figure>
+<figure><img src="../images/asc/it/05-phone.webp" alt="Ice Time Track — Screenshot 5" loading="lazy"></figure>
+<figure><img src="../images/asc/it/06-phone.webp" alt="Ice Time Track — Screenshot 6" loading="lazy"></figure>
+<figure><img src="../images/asc/it/07-phone.webp" alt="Ice Time Track — Screenshot 7" loading="lazy"></figure>
+<figure><img src="../images/asc/it/08-phone.webp" alt="Ice Time Track — Screenshot 8" loading="lazy"></figure>
+<figure><img src="../images/asc/it/09-phone.webp" alt="Ice Time Track — Screenshot 9" loading="lazy"></figure>
+<figure><img src="../images/asc/it/10-watch.webp" alt="Ice Time Track — Screenshot 10" loading="lazy"></figure>
+<figure><img src="../images/asc/it/11-watch.webp" alt="Ice Time Track — Screenshot 11" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Ice Time Track</h2>
+      <p>Tracciamento automatico del tempo sul ghiaccio con Apple Watch – ora con gestione attrezzatura e promemoria d&#x27;affilatura pattini. Rivedi turni, statistiche e salute.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Scarica dall’App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Informativa sulla privacy</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Termini di servizio</a>
+    <a href="https://masawata.net/">Assistenza</a>
+  </footer>
 </body>
 </html>

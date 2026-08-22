@@ -1,500 +1,144 @@
-<!DOCTYPE html>
-<html lang="da">
+<!doctype html>
+<html lang="da" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Min Timer - Flere timere og stopure i én app</title>
-    <meta name="title" content="Min Timer - Flere timere og stopure i én app">
-    <meta name="description" content="Kør op til 50 timere og stopure på én gang, med alarmer der ringer, når telefonen er låst (AlarmKit), Tabata/EMOM/30-30-intervaller, Live Activities og en komplet Apple Watch-app. Gratis til iPhone, iPad og Apple Watch.">
-    <meta name="keywords" content="timer, stopur, flere timere, intervaltræning, HIIT-timer, Tabata, iOS-app, hjemmeskærm-widget, nedtællingstimer, stopwatch, countdown timer">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/TimerOnMe/da/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/">
-    <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/TimerOnMe/da/">
-    <meta property="og:title" content="Min Timer - Flere timere og stopure i én app">
-    <meta property="og:description" content="Kør op til 50 timere og stopure på én gang, med alarmer der ringer, når telefonen er låst (AlarmKit), Tabata/EMOM/30-30-intervaller, Live Activities og en komplet Apple Watch-app. Gratis til iPhone, iPad og Apple Watch.">
-    <meta property="og:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-    <meta property="og:site_name" content="Min Timer">
-    <meta property="og:locale" content="da_DK">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/TimerOnMe/da/">
-    <meta name="twitter:title" content="Min Timer - Flere timere og stopure i én app">
-    <meta name="twitter:description" content="Kør op til 50 timere og stopure på én gang, med alarmer der ringer, når telefonen er låst (AlarmKit), Tabata/EMOM/30-30-intervaller, Live Activities og en komplet Apple Watch-app. Gratis til iPhone, iPad og Apple Watch.">
-    <meta name="twitter:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6746874284">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/TimerOnMe.png">
-    <link rel="apple-touch-icon" href="../images/TimerOnMe.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.0">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Min Timer",
-        "operatingSystem": "iOS",
-        "applicationCategory": "UtilitiesApplication",
-        "sameAs": "https://apps.apple.com/app/id6746874284",
-        "downloadUrl": "https://apps.apple.com/app/id6746874284",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Kør op til 50 timere og stopure på én gang, med alarmer der ringer, når telefonen er låst (AlarmKit), Tabata/EMOM/30-30-intervaller, Live Activities og en komplet Apple Watch-app. Gratis til iPhone, iPad og Apple Watch.",
-        "screenshot": "https://masawata.net/TimerOnMe/images/en/gallery-overview.jpg",
-        "softwareVersion": "4.1",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "da"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Timer on Me — Timer, vækkeur, stopur, HIIT</title>
+  <meta name="description" content="Nu med datoalarmer: sæt en engangsalarm til enhver fremtidig dato &amp; tid, ved siden af tilbagevendende alarmer, 50 timere på én gang, HIIT &amp; Tabata og Apple Watch.">
+  <meta name="apple-itunes-app" content="app-id=6746874284">
+  <link rel="canonical" href="https://masawata.net/TimerOnMe/da/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
+  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Timer on Me", "description": "Nu med datoalarmer: sæt en engangsalarm til enhver fremtidig dato & tid, ved siden af tilbagevendende alarmer, 50 timere på én gang, HIIT & Tabata og Apple Watch.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/TimerOnMe/da/", "downloadUrl": "https://apps.apple.com/app/id6746874284", "image": ["https://masawata.net/TimerOnMe/images/asc/da/01-phone.webp", "https://masawata.net/TimerOnMe/images/asc/da/02-phone.webp", "https://masawata.net/TimerOnMe/images/asc/da/03-phone.webp", "https://masawata.net/TimerOnMe/images/asc/da/04-phone.webp", "https://masawata.net/TimerOnMe/images/asc/da/05-phone.webp", "https://masawata.net/TimerOnMe/images/asc/da/06-phone.webp", "https://masawata.net/TimerOnMe/images/asc/da/07-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/TimerOnMe.png" alt="Timer on Me" class="nav__logo-img">
-                <span class="nav__logo-text">Min Timer</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">Funktioner</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">Skærmbilleder</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">Download</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#faq" class="nav__link">FAQ</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">DA</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option active">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../id/" class="language-option">Indonesia</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../pt-BR/" class="language-option">Português</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../vi/" class="language-option">Tiếng Việt</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me App Icon" class="hero__icon">
-                    <h1 class="hero__title">Alle timere, alarmer og stopure — på én gang</h1>
-                    <p class="hero__description">Kør op til 50 timere og stopure samtidigt, indstil alarmer der ringer, selv når din iPhone er låst, og tag tid på HIIT-træning med præcision — på iPhone, iPad og Apple Watch.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Download fra App Store" class="app-store-badge">
-                    </a>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="Timer on Me Screenshot" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Kraftfulde funktioner</h2>
-                    <p class="section-subtitle">Alt du behøver for at mestre din tid</p>
-                </div>
-
-                <div class="features__grid">
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="7" height="7"></rect>
-                <rect x="14" y="3" width="7" height="7"></rect>
-                <rect x="3" y="14" width="7" height="7"></rect>
-                <rect x="14" y="14" width="7" height="7"></rect>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Multi-timer-gitter</h3>
-                        <p class="feature-card__description">Kør op til 50 uafhængige timere og stopure på én gang i et rent gitter. Start, sæt på pause og nulstil hver enkelt individuelt — eller styr dem alle samlet.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--orange">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="13" r="8"></circle>
-                <polyline points="12 9 12 13 14.5 14.5"></polyline>
-                <path d="M5 3 2 6"></path>
-                <path d="M22 6l-3-3"></path>
-                <path d="M6 19l-2 2"></path>
-                <path d="M18 19l2 2"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Pålidelige alarmer</h3>
-                        <p class="feature-card__description">Vækkeure og påmindelsesalarmer med brugerdefinerede etiketter og ugedagsplaner, drevet af AlarmKit, så de ringer, selv når din iPhone er låst, eller Min Timer er lukket. Snooze-muligheder og dine egne lyde inkluderet.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="17 1 21 5 17 9"></polyline>
-                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
-                <polyline points="7 23 3 19 7 15"></polyline>
-                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Intervaltræning</h3>
-                        <p class="feature-card__description">Indbyggede Tabata-, EMOM- og 30/30-forudindstillinger får dig i gang med to tryk, plus en brugerdefineret intervaleditor og en fuldskærms træningstilstand med farvesignaler.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--teal">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
-                <path d="M9 6l.6-3h4.8l.6 3"></path>
-                <path d="M9 18l.6 3h4.8l.6-3"></path>
-                <polyline points="12 10 12 12 13.5 13.5"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Apple Watch-app</h3>
-                        <p class="feature-card__description">En komplet native Apple Watch-app — kør flere stopure og timere på dit håndled med centisekund-præcision og komplikationer, selv når din iPhone ikke er i nærheden.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                <line x1="12" y1="18" x2="12.01" y2="18"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Widgets og Live Activities</h3>
-                        <p class="feature-card__description">Styr dine timere fra hjemmeskærmen med interaktive widgets, og se nedtællingen fra låseskærmen og Dynamic Island med Live Activities.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Alarmlyde på din måde</h3>
-                        <p class="feature-card__description">Vælg mellem et dusin indbyggede alarmlyde, eller importér dine egne. Dine alarmer ringer, selv når din iPhone er låst, lydløs, eller appen er lukket.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
-                <polyline points="17 21 17 13 7 13 7 21"></polyline>
-                <polyline points="7 3 7 8 15 8"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Sessionsstyring</h3>
-                        <p class="feature-card__description">Gem dine timeropsætninger og indlæs dem når som helst. Eksportér sessioner som JSON, CSV eller tekst for nem deling og sikkerhedskopiering.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Smart visning</h3>
-                        <p class="feature-card__description">Centisekund-præcision, procentvis fremgang og en hold-skærmen-tændt-tilstand. Tilpas hvordan dine timere ser ud og opfører sig.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Se det i aktion</h2>
-                    <p class="section-subtitle">Rent design møder kraftfuld funktionalitet</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-overview.jpg" alt="Time it, wake to it, train with it" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-multitimer.jpg" alt="Run multiple timers at once" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-watch.jpg" alt="Apple Watch app" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-intervals.jpg" alt="Tabata, EMOM &amp; 30/30 intervals" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-workout.jpg" alt="Full-screen interval workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-alarms.jpg" alt="Alarms that ring when locked" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="download__icon">
-                    <h2 class="download__title">Begynd at tage tid nu</h2>
-                    <p class="download__description">Gratis at downloade. Flere timere, intervaltræning og widgets — alt klar til brug. Ingen konto nødvendig.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">Tilgængelig til iPhone, iPad og Apple Watch</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Ofte stillede spørgsmål</h2>
-                    <p class="section-subtitle">Alt du behøver at vide om Min Timer</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Går alarmer og timere i gang, når min iPhone er låst, eller appen er lukket?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ja. Alarmer drives af Apples AlarmKit og ringer, selv når din iPhone er låst, eller Min Timer er lukket, og timeralarmer udløses også pålideligt i baggrunden.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvor mange timere kan jeg køre på én gang?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Op til 50 uafhængige timere og stopure i én session — start, stop og nulstil dem individuelt eller i synkroniserede grupper.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Findes der en Apple Watch-app?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ja — en komplet native watchOS-app med flere samtidige timere og stopure, centisekund-præcision og komplikationer. Den virker, selv når din iPhone er uden for rækkevidde.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Kan jeg bruge den til HIIT- og Tabata-træning?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Absolut. Indbyggede Tabata-, EMOM- og 30/30-forudindstillinger får dig i gang med to tryk, plus en brugerdefineret intervaleditor til dine egne arbejds-/hvile-/runde-sekvenser og en fuldskærms træningstilstand.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Kan jeg tilføje mine egne alarmlyde?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ja — vælg mellem de medfølgende ringetoner, eller importér dine egne lydfiler.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Virker den offline? Skal jeg bruge en konto?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ingen konto og ingen internetforbindelse kræves. Alt kører på enheden, og dine data forbliver lokale.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Er den gratis?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ja, Min Timer er gratis at downloade. Et valgfrit køb i appen låser op for yderligere alarmer ud over de første to, hvis du har brug for dem.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">Dit privatliv er vigtigt</h2>
-                    <p class="privacy__description">Min Timer gemmer alle dine data lokalt på din enhed. Ingen konti, ingen sporing, ingen dataindsamling. Dine timersessioner tilhører kun dig.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Læs vores privatlivspolitik</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="footer__logo">
-                    <span class="footer__name">Min Timer</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">Privatlivspolitik</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Servicevilkår</a>
-                </div>
-                <p class="footer__copyright">© 2026 Min Timer. Alle rettigheder forbeholdes.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js?v=1.0"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/TimerOnMe.png" alt="" width="44" height="44"><span>Timer on Me</span></a>
+    <details class="asc-languages">
+      <summary>Sprog: Dansk</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../pt-PT/" lang="pt-PT">Português (Portugal)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Timer on Me</p>
+        <h1>Timer, vækkeur, stopur, HIIT</h1>
+        <p>Nu med datoalarmer: sæt en engangsalarm til enhver fremtidig dato &amp; tid, ved siden af tilbagevendende alarmer, 50 timere på én gang, HIIT &amp; Tabata og Apple Watch.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">Hent i App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/da/01-phone.webp" alt="Timer on Me">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Om appen</h2>
+      <div class="asc-prose"><p>Timer on Me er din multi-timer og stopur til iPhone, iPad og Apple Watch. Op til 50 uafhængige timere på én gang, præcise intervaltræninger og alarmer, der faktisk ringer — selv med låst iPhone eller lukket app.</p>
+<h3>VÆKKEUR</h3>
+<ul><li>Vække- og påmindelsesalarmer med egne labels og ugedagsplaner</li><li>Drevet af AlarmKit — ringer, selv når iPhone er låst eller Timer on Me er lukket</li><li>Indstillelig snooze (3 / 5 / 9 / 15 / 30 minutter) eller ingen snooze</li><li>Vælg blandt indbyggede ringetoner eller importér dine egne lyde</li><li>Tænd og sluk med ét tryk fra det dedikerede Vækkeur-faneblad</li></ul>
+<h3>TRÆNING OG INTERVALLER</h3>
+<ul><li>Klare Tabata-, EMOM- og 30/30-presets — to tryk og du er i gang</li><li>Egen intervaleditor: arbejde, pause og runder i minutter og sekunder</li><li>Fuldskærms træningstilstand med farveskift pr. fase og lydløs mulighed</li><li>Pause, spring over og genoptag midt i sessionen uden at miste fremskridt</li></ul>
+<h3>APPLE WATCH</h3>
+<ul><li>Rigtig native watchOS-app, ikke bare en spejling af telefonen</li><li>Flere stopure og timere kørende på håndleddet samtidig</li><li>Stopur med hundrededeles sekunds præcision</li><li>Egne urskive-komplikationer til ét-tryks-start</li><li>Virker selvstændigt, også uden iPhone i nærheden</li></ul>
+<h3>50 TIMERE SAMTIDIG</h3>
+<ul><li>Op til 50 uafhængige timere og stopure i samme session</li><li>Start, stop og nulstil enkeltvis eller i grupper</li><li>Auto-gentagelse til cykliske runder</li><li>Timere tæller videre efter nul for at fange overtid</li><li>Farvede fremskridtsbjælker: gul ved 50 %, rød ved 10 %</li><li>Træk for at sortere, giv dine egne navne</li></ul>
+<h3>PÅLIDELIGE ALARMER</h3>
+<ul><li>AlarmKit: alarmerne ringer, selv når iPhone er låst eller appen lukket</li><li>Dynamic Island og Live Activity — fremskridt på et øjeblik</li><li>Hjemmeskærm-widgets: lille, mellem, stor</li><li>Indbyggede toner: klokker, fuglesang, vintage-telefoner</li><li>Tryk for at lytte før du vælger</li><li>&quot;Hold skærm tændt&quot;-tilstand til lange sessioner</li></ul>
+<h3>TILPAS OG DEL</h3>
+<ul><li>Vis eller skjul decimaler, totaler og procenter</li><li>Gem og overskriv presets, hent dem frem med ét tryk</li><li>Eksportér som CSV, JSON eller ren tekst</li><li>Del med kolleger, elever eller din træner</li></ul>
+<p>TIL iPhone, iPad OG APPLE WATCH</p>
+<ul><li>Layout der tilpasser sig enhver skærmstørrelse</li><li>Split View på iPad</li><li>34 sprog</li></ul>
+<h3>PERFEKT TIL</h3>
+<ul><li>HIIT, Tabata, CrossFit og kredsløbstræning</li><li>Runder af boksning, kickboxing og kampsport</li><li>Pomodoro, gymnasium, HF og eksamenslæsning</li><li>Kaffebrygning, te, blødkogte æg, frikadeller og ovn</li><li>Yoga, pilates, meditation og åndedrætsøvelser</li><li>Generalprøver og instrumentøvelse</li><li>Undervisning, workshops og gruppeaktiviteter</li><li>Brætspil og hyggeaftener</li></ul>
+<p>Hent Timer on Me og tag kontrol over hvert minut — i fitnesscenteret, på arbejdet eller derhjemme.</p>
+<p>Privatlivspolitik: https://masawata.net/privacy-policy.html Servicevilkår: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Skærmbilleder</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/da/01-phone.webp" alt="Timer on Me — Skærmbilleder 1" loading="lazy"></figure>
+<figure><img src="../images/asc/da/02-phone.webp" alt="Timer on Me — Skærmbilleder 2" loading="lazy"></figure>
+<figure><img src="../images/asc/da/03-phone.webp" alt="Timer on Me — Skærmbilleder 3" loading="lazy"></figure>
+<figure><img src="../images/asc/da/04-phone.webp" alt="Timer on Me — Skærmbilleder 4" loading="lazy"></figure>
+<figure><img src="../images/asc/da/05-phone.webp" alt="Timer on Me — Skærmbilleder 5" loading="lazy"></figure>
+<figure><img src="../images/asc/da/06-phone.webp" alt="Timer on Me — Skærmbilleder 6" loading="lazy"></figure>
+<figure><img src="../images/asc/da/07-phone.webp" alt="Timer on Me — Skærmbilleder 7" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Timer on Me</h2>
+      <p>Nu med datoalarmer: sæt en engangsalarm til enhver fremtidig dato &amp; tid, ved siden af tilbagevendende alarmer, 50 timere på én gang, HIIT &amp; Tabata og Apple Watch.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">Hent i App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Privatlivspolitik</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Servicevilkår</a>
+    <a href="https://masawata.net/">Support</a>
+  </footer>
 </body>
 </html>

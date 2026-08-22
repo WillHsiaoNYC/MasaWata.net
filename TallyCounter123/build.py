@@ -127,9 +127,9 @@ def h(s: str) -> str:
 
 def hreflang_block() -> str:
     out = []
-    for _, _, hlang, _, d, _, _ in LOCALES:
+    for _, asc, _hlang, _, d, _, _ in LOCALES:
         url = f"{SITE_BASE}/{d}/" if d else f"{SITE_BASE}/"
-        out.append(f'  <link rel="alternate" hreflang="{hlang}" href="{url}">')
+        out.append(f'  <link rel="alternate" hreflang="{asc}" href="{url}">')
     out.append(f'  <link rel="alternate" hreflang="x-default" href="{SITE_BASE}/">')
     return "\n".join(out)
 
@@ -161,7 +161,16 @@ def hero_title_with_123(name: str) -> str:
     return " ".join(parts).strip()
 
 
-SCREENSHOTS = ["01-PosterLeft", "02-PosterRight", "03-WatchSync", "04-Counters", "05-Charts"]
+SCREENSHOTS = {
+    "01-PosterLeft": "01-phone.webp",
+    "02-PosterRight": "02-phone.webp",
+    "03-WatchSync": "03-phone.webp",
+    "04-Counters": "04-phone.webp",
+    "05-Charts": "05-phone.webp",
+    "06-SetValue": "06-phone.webp",
+    "07-Settings": "07-phone.webp",
+    "08-Random": "08-phone.webp",
+}
 
 _TAG_SPLIT = re.compile(r"[,،、;؛/]| [-–—] ")
 
@@ -241,8 +250,8 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
     p_img = "../images" if dir_name else "images"
     p_css = "../css" if dir_name else "css"
     p_js = "../js" if dir_name else "js"
-    p_shots = (f"../images/screenshots/{asc}" if dir_name
-               else f"images/screenshots/{asc}")
+    p_shots = (f"../images/asc/{asc}" if dir_name
+               else f"images/asc/{asc}")
 
     title_meta = h(f"{name} — {subtitle}") if subtitle else h(name)
     desc_meta = h(promo)
@@ -251,7 +260,7 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
     # ── Device showcase (clean, headline-cropped shots) ──
     SHOWCASE = ["03-WatchSync", "04-Counters", "05-Charts"]
     showcase_block = "\n".join(
-        f'      <div class="showcase__shot"><img src="{p_shots}/clean/{s}.jpg" alt="{h(SCREENSHOT_ALTS[s])}" loading="{load}"></div>'
+        f'      <div class="showcase__shot"><img src="{p_shots}/{SCREENSHOTS[s]}" alt="{h(SCREENSHOT_ALTS[s])}" loading="{load}"></div>'
         for s, load in zip(SHOWCASE, ("lazy", "eager", "lazy"))
     )
 
@@ -274,7 +283,7 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
           <p class="feature__eyebrow">{h(sec["title"])}</p>
           <h2 class="feature__title">{headline}</h2>{body}
         </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="{p_shots}/clean/{shot}.jpg" alt="{h(sec["title"])}" loading="lazy"></div></div>
+        <div class="feature__media reveal"><div class="feature__phone"><img src="{p_shots}/{SCREENSHOTS[shot]}" alt="{h(sec["title"])}" loading="lazy"></div></div>
       </div>
     </section>''')
     features_block = "\n".join(feats)
@@ -290,7 +299,7 @@ def render_page(*, asc, hlang, og, rtl, name, subtitle, promo, keywords, parsed,
     </section>'''
 
     # JSON-LD screenshot array — feeds Google's rich-result software card.
-    screenshot_urls = [f"{SITE_BASE}/images/screenshots/{asc}/{s}.png" for s in SCREENSHOTS]
+    screenshot_urls = [f"{SITE_BASE}/images/asc/{asc}/{filename}" for filename in SCREENSHOTS.values()]
     screenshot_json = ",\n      ".join(f'"{u}"' for u in screenshot_urls)
 
     keywords_meta = ""

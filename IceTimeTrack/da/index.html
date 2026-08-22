@@ -1,940 +1,122 @@
-<!DOCTYPE html>
-<html lang="da">
+<!doctype html>
+<html lang="da" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZL852HY2Z4');
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Ice Time Track - Automatisk skiftdetektering til Apple Watch</title>
-    <meta name="title" content="Ice Time Track - Automatisk skiftdetektering til Apple Watch">
-    <meta name="description" content="Spor din istid automatisk med Apple Watch. Detekter skift, log mål og straffe, overvåg puls og bevægelse.">
-    <meta name="keywords" content="hockey, ice time, shift tracking, Apple Watch, hockey app, ice hockey, shift detection, hockey stats, game tracker">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/IceTimeTrack/da/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/IceTimeTrack/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/IceTimeTrack/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/IceTimeTrack/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/IceTimeTrack/fr/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/IceTimeTrack/nb/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/IceTimeTrack/da/">
-    <meta property="og:title" content="Ice Time Track - Automatisk skiftdetektering til Apple Watch">
-    <meta property="og:description" content="Spor din istid automatisk med Apple Watch. Detekter skift, log mål og straffe, overvåg puls og bevægelse.">
-    <meta property="og:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-    <meta property="og:site_name" content="Ice Time Track">
-    <meta property="og:locale" content="da_DK">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/IceTimeTrack/da/">
-    <meta name="twitter:title" content="Ice Time Track - Automatisk skiftdetektering til Apple Watch">
-    <meta name="twitter:description" content="Spor din istid automatisk med Apple Watch. Detekter skift, log mål og straffe, overvåg puls og bevægelse.">
-    <meta name="twitter:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-
-    <!-- Apple Smart Banner (placeholder app-id) -->
-    <meta name="apple-itunes-app" content="app-id=PLACEHOLDER">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/app-icon.png">
-    <link rel="apple-touch-icon" href="../images/app-icon.png">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Ice Time Track",
-        "operatingSystem": "iOS, watchOS",
-        "applicationCategory": "SportsApplication",
-        "sameAs": "https://apps.apple.com/app/id6758258172",
-        "downloadUrl": "https://apps.apple.com/app/id6758258172",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Spor din istid automatisk med Apple Watch. Detekter skift, log mål og straffe, overvåg puls og bevægelse.",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "da"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ice Time Track — Ice Hockey Skift Træning</title>
+  <meta name="description" content="Automatisk istidssporing med Apple Watch – nu med udstyrssporing og påmindelser om skøjteslibning. Se skift, statistik og sundhed efter hver kamp.">
+  <meta name="apple-itunes-app" content="app-id=6758258172">
+  <link rel="canonical" href="https://masawata.net/IceTimeTrack/da/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/IceTimeTrack/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/IceTimeTrack/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/IceTimeTrack/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/IceTimeTrack/fr-FR/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/IceTimeTrack/no/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:dark;--accent:#FFB81C;--accent-dark:#C98400;--bg:#0D0D0D;--surface:#1A1A1A;--ink:#FFFFFF;--muted:#A0A0A0;--line:#2A2A2A}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ice Time Track", "description": "Automatisk istidssporing med Apple Watch – nu med udstyrssporing og påmindelser om skøjteslibning. Se skift, statistik og sundhed efter hver kamp.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/IceTimeTrack/da/", "downloadUrl": "https://apps.apple.com/app/id6758258172", "image": ["https://masawata.net/IceTimeTrack/images/asc/da/01-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/02-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/03-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/04-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/05-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/06-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/07-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/08-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/09-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/da/10-watch.webp", "https://masawata.net/IceTimeTrack/images/asc/da/11-watch.webp"]}</script>
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/app-icon.png" alt="Ice Time Track" class="nav__logo-icon">
-                <span class="nav__logo-text">Ice Time Track</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item"><a href="#features" class="nav__link">Funktioner</a></li>
-                <li class="nav__item"><a href="#how-it-works" class="nav__link">Sådan virker det</a></li>
-                <li class="nav__item"><a href="#screenshots" class="nav__link">Skærmbilleder</a></li>
-                <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
-                <li class="nav__item"><a href="#download" class="nav__link nav__link--cta" id="nav-cta">Forudbestil</a></li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">DA</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option active">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Countdown Section -->
-        <section class="countdown" id="countdown">
-            <div class="container">
-                <div class="countdown__content">
-                    <h2 class="countdown__title" id="cd-title">Lancering om</h2>
-                    <p class="countdown__promo countdown--hidden" id="cd-promo">1 år for $6.99 USD</p>
-                    <p class="countdown__promo-sub countdown--hidden" id="cd-promo-sub">Tidsbegrænset tilbud — gå ikke glip af det</p>
-                    <div class="countdown__timer">
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-days">00</span>
-                            <span class="countdown__label">Dage</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-hours">00</span>
-                            <span class="countdown__label">Timer</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-minutes">00</span>
-                            <span class="countdown__label">Minutter</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-seconds">00</span>
-                            <span class="countdown__label">Sekunder</span>
-                        </div>
-                    </div>
-                    <p class="countdown__date" id="cd-date">14. februar 2026</p>
-                    <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6758258172&code=LAUNCH" class="countdown__claim-btn countdown--hidden" id="cd-claim" target="_blank" rel="noopener">Indløs tilbud</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="hero" id="hero">
-            <div class="hero__bg"></div>
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <div class="hero__icon-wrapper">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="hero__icon">
-                    </div>
-
-                    <h1 class="hero__title">Automatisk skiftdetektering<br>for hockeyspillere</h1>
-                    <p class="hero__description">Ved præcis, hvor meget istid du får — uden at trykke på dit ur. Spor mål, straffe og perioder. Start bare en session og spil.</p>
-
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn" id="hero-download" target="_blank" rel="noopener">Forudbestil nu</a>
-
-                    <img src="../assets/app-store-badges/app-store-badge-da.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-
-                    <p class="hero__platforms">Tilgængelig på Apple Watch + iPhone · Lancering 14. februar 2026</p>
-
-                    <div class="hero__callouts">
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                            <span>Skiftdetektering</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
-                            <span>Målsporing</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
-                            <span>Straffelogning</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                            <span>Kampanalyse</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero__device">
-                    <img src="../images/hero-watch.png" alt="Ice Time Track on Apple Watch" class="hero__image">
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Funktioner</h2>
-                    <p class="section-subtitle">Alt hvad du behøver for at spore din kamp</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Automatisk skiftdetektering</h3>
-                        <p class="feature-card__description">Træd på isen, og dit ur ved det. Ingen knapper at trykke under spil — sensorer registrerer skøjteløb vs. bænktid automatisk.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Kamphændelsesregistrering</h3>
-                        <p class="feature-card__description">Log mål, assists og straffe direkte fra dit håndled. Spor perioder og hold en komplet oversigt over hver kamp.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Sundhedsdata i realtid</h3>
-                        <p class="feature-card__description">Overvåg puls, forbrændte kalorier og bevægelsesintensitet i realtid. Se hvor hårdt du arbejder hvert skift.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Sessionsanalyse</h3>
-                        <p class="feature-card__description">Gennemgå total istid, antal skift, gennemsnitlig skiftlængde og personlige rekorder.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M16 16l2 2"/><path d="M8 16l-2 2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Apple Health-integration</h3>
-                        <p class="feature-card__description">Sessioner synkroniseres til Apple Health som hockeytræninger. Bidrag til dine aktivitetsringe.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="1" y1="1" x2="23" y2="23"/><path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.56 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Virker offline</h3>
-                        <p class="feature-card__description">Dit ur registrerer alt uafhængigt. Ingen iPhone nødvendig på bænken — data synkroniseres automatisk efter kampen.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- How It Works Section -->
-        <section class="how-it-works" id="how-it-works">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Sådan virker det</h2>
-                    <p class="section-subtitle">Fra opvarmning til analyse efter kampen</p>
-                </div>
-
-                <div class="how-it-works__steps">
-                    <div class="step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="step__number">1</div>
-                        <h3 class="step__title">Før kampen</h3>
-                        <p class="step__description">Åbn Ice Time Track på dit Apple Watch. Tryk på Kamp, Træning eller Scrimmage.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-before.png" alt="Før kampen" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="step__number">2</div>
-                        <h3 class="step__title">Under kampen</h3>
-                        <p class="step__description">Træd på isen, og dit ur registrerer det automatisk. Log mål og straffe med et tryk.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-during.png" alt="Under kampen" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="step__number">3</div>
-                        <h3 class="step__title">Efter kampen</h3>
-                        <p class="step__description">Din session synkroniseres til din iPhone. Gennemgå istid, skift, puls og kamphændelser.</p>
-                        <div class="step__device step__device--phone">
-                            <img src="../images/step-after.png" alt="Efter kampen" class="step__device-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Gallery Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Se det i aktion</h2>
-                    <p class="section-subtitle">Designet til hockeyspillere</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <button class="screenshots__arrow screenshots__arrow--prev" aria-label="Previous screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-                    </button>
-
-                    <div class="screenshots__track">
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-on-ice.png" alt="Apple Watch on-ice session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-sessions.png" alt="iPhone sessions" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-events.png" alt="Apple Watch events" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-analytics.png" alt="iPhone analytics" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-game-detail.png" alt="iPhone game detail" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-settings.png" alt="iPhone settings" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-session.png" alt="iPhone live session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-session-header.png" alt="iPhone session header" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-meter.png" alt="iPhone live meter" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-motion-stats.png" alt="iPhone motion stats" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-shift-list.png" alt="iPhone shift list" class="screenshot-img"></div>
-                    </div>
-
-                    <button class="screenshots__arrow screenshots__arrow--next" aria-label="Next screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section (hidden until launch) -->
-        <section class="testimonials testimonials--hidden" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Hvad spillere siger</h2>
-                    <p class="section-subtitle">Betroet af hockeyspillere overalt</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Endelig en app der sporer min istid uden at jeg skal trykke på noget. Game changer for at spore mine skift."</p>
-                        <span class="testimonial-card__author">— Hockey Dad</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Elsker at se min puls og skiftstatistik efter hver kamp. Hjælper mig med at forstå min kondition."</p>
-                        <span class="testimonial-card__author">— Beer League Player</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Den automatiske detektering er overraskende præcis. Mine børn bruger den til hver kamp nu."</p>
-                        <span class="testimonial-card__author">— Youth Hockey Parent</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Ofte stillede spørgsmål</h2>
-                    <p class="section-subtitle">Alt hvad du behøver at vide om Ice Time Track</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan starter jeg en session?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Åbn Ice Time Track-appen på dit Apple Watch. Vælg din sessionstype (Kamp, Træning, Scrimmage eller Andet) og tryk for at begynde. Appen begynder automatisk at registrere, hvornår du er på isen kontra på bænken.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad er forskellen mellem Kamp, Træning og Scrimmage?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Det er etiketter til at organisere dine sessioner. Kamp er til officielle kampe, Træning til holdtræning, Scrimmage til uformelle kampe og Andet til alt andet som offentlig skøjteløb. Registreringen fungerer ens for alle typer.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Skal jeg have min iPhone med under en kamp?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nej. Apple Watch optager alt uafhængigt. Din session synkroniseres automatisk til din iPhone, når enhederne er inden for rækkevidde efter kampen.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad er et skridt?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Et "skridt" registreres af dit Apple Watch, når det registrerer et rytmisk armsving via accelerometeret. Det registrerer ikke din fod, der rammer jorden — i stedet genkender det armbevægelsen, der følger med bevægelse. Under ishockey skaber din skøjtetag og stickwork lignende armbevægelser, så appen bruger "skridt per sekund" som en indikator for aktiv spil.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad er acceleration?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Acceleration måler, hvor hurtigt du accelererer, bremser eller skifter retning. Dit Apple Watch' accelerometer registrerer denne bevægelse i tre dimensioner. Hårde stop, eksplosive starter og hurtige retningsskift under et udbrud registreres som høj acceleration — mens du sidder på bænken og venter på dit næste skifte, vises minimal aktivitet.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad er rotation?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Rotation måler, hvor meget og hvor hurtigt du drejer eller snurrer. Dit Apple Watch' gyroskop registrerer denne bevægelse, som er særligt almindelig i ishockey — crossovers gennem den neutrale zone, vending for at skøjte baglæns i forsvar eller at snurre fri af en tackling skaber alle tydelige rotationsmønstre. Kombineret med acceleration hjælper dette appen med at skelne aktivt skøjteløb fra at stå stille.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan ved appen, hvornår jeg er på isen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Appen kombinerer flere sensorer: accelerometeret registrerer bevægelsesintensitet, skridttælleren sporer din skøjtetag, og GPS måler din hastighed. Når du aktivt skøjter, viser disse sensorer høj aktivitet. Når du sidder på bænken, falder aktiviteten markant.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan udløses på-isen/bænk-status af bevægelse?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Dit Watch aflæser bevægelsesintensitet, skøjtetag og GPS-hastighed. Når appen registrerer stærk nok bevægelse fra disse sensorer, markerer den dig som på isen. Når alle tre falder til lave niveauer og forbliver der, starter overgangen til bænken.</p><p>Følsomhedsindstillingen styrer, hvor meget bevægelse der kræves:</p><p>• Høj — Opfanger lettere bevægelser. Brug dette, hvis dine skifter ikke registreres.<br>• Medium — Balanceret for de fleste spillere. Dette er standard.<br>• Lav — Kræver stærkere bevægelse for at tælle som skøjteløb. Brug dette, hvis du får falske på-isen-aflæsninger, mens du er på bænken.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan fungerer de avancerede detektionsindstillinger?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Avancerede indstillinger giver dig fuld kontrol over hver detektionstærskel. Justering af en skyder skifter automatisk følsomheden til "Brugerdefineret."</p><p>På-isen-udløser — For at blive markeret som skøjteløb, skal ENTEN din GPS-hastighed overstige sin tærskel i 3 sekunder, ELLER både din acceleration og skridt-kadence skal overstige deres tærskler i holdevarigheden.<br>• Acceleration: 0.2–3.0G (default: 0.2G)<br>• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)<br>• GPS Speed: 0.5–3.0 m/s (default: 1.5)<br>• Hold Duration: 1–5 sec (default: 2s)</p><p>På-bænken-udløser — For at skifte til bænk, skal ALLE tre aflæsninger falde under deres tærskler i holdevarigheden.<br>• Acceleration: 0.3–1.5G (default: 0.7G)<br>• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)<br>• GPS Speed: 0.1–1.0 m/s (default: 0.5)<br>• Hold Duration: 1–5 sec (default: 3s)</p><p>Vi anbefaler at bruge forindstillede niveauer (Høj, Medium, Lav), medmindre du har brug for finjustering. Tryk på "Nulstil til forindstilling" når som helst for at vende tilbage.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvorfor er der en forsinkelse, når jeg stopper med at skøjte?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Dette er "bevægelsesbufferen" — en kort venteperiode (standard 20 sekunder), før appen bekræfter, at du er tilbage på bænken. Dette forhindrer korte pauser under et skifte i at blive talt som bænktid.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad er bevægelsesbufferen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Bevægelsesbufferen er en indstillelig forsinkelse (10-30 sekunder), der forhindrer falske skifteafslutninger. Når du holder op med at bevæge dig, venter appen denne tid, før den markerer dig som "på bænken". Hvis du begynder at bevæge dig igen under bufferen, fortsætter dit skifte uafbrudt.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad er kamploggen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kamploggen lader dig registrere begivenheder under en session — mål for, mål imod, straffe og periodestarter. Begivenheder logges fra dit Apple Watch under spil og kan også tilføjes fra din iPhone. Scoren og personlige statistikker (mine mål, mine assists, strafminutter) beregnes ud fra de begivenheder, du logger.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Skal jeg starte en Kamp-session for at bruge kamploggen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nej. Kamploggen er tilgængelig for alle sessionstyper — Kamp, Træning, Scrimmage og Andet. Du kan logge mål og straffe i enhver session.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Kan jeg logge et kampresultat uden at starte en live session på Apple Watch?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ja. Tryk på +-knappen ved siden af "Seneste sessioner" på Dashboardet for at tilføje en manuel kampregistrering. Du kan indtaste score, modstander, mål, assists, straffe og periodeinformation — alt uden at bære dit Watch. Dette er nyttigt til at logge kampe bagefter eller til analytiske formål.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan logger jeg begivenheder på mit Watch?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Under en aktiv session skal du trykke på LOG-knappen nederst på skærmen. Vælg begivenhedstypen (mål for, mål imod, straf eller periodestart) og udfyld detaljerne. Begivenheden registreres med det aktuelle tidspunkt og vises på din iPhone inden for få sekunder.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan logger jeg begivenheder på min iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Mens en session er aktiv på dit Watch, åbn iPhone-appen for at se din live session. Begivenheder logget på Watch vises på din iPhone i realtid. Du kan også tilføje eller slette begivenheder direkte fra iPhone. Bemærk at ændringer foretaget på iPhone ikke sendes tilbage til Watch under sessionen — Watch fortsætter med at vise sin egen log. Når sessionen slutter, flettes begge kilder automatisk, og eventuelle ændringer du har foretaget på iPhone (tilføjelser og sletninger) har prioritet.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvilke typer begivenheder kan jeg logge?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fire typer: Mål for (valgfrit marker "Jeg scorede" eller "Jeg assisterede"), Mål imod, Straf (med straftype, varighed og om den er mod dit hold eller modstanderen) og Periodestart (markerer pauser i din tidslinje).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad sker der, hvis jeg ikke angiver et tidspunkt for en begivenhed?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Hvis du tilføjer en begivenhed uden at angive et tidsstempel, gemmes den uden et. Begivenheden vises stadig i din kamplog og tæller med i din score og statistik. Du kan altid gå tilbage og tilføje eller rette tiden efter sessionen fra sessionens detaljeside på din iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Kan jeg redigere begivenheder efter sessionen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ja. Åbn sessionen på din iPhone og tryk på en begivenhed for at redigere dens detaljer — type, tidsstempel, personlig involvering (scoret/assisteret), strafinformation og mere. Du kan også tilføje nye begivenheder eller slette eksisterende. Alle ændringer gemmes med det samme.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan flettes Watch- og iPhone-begivenheder sammen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Under sessionen fører Watch og iPhone hver sin egen optegnelse. Når sessionen slutter og Watch sender de endelige data til din iPhone, fletter appen begge kilder: begivenheder du slettede på iPhone fjernes, begivenheder du tilføjede på iPhone inkluderes, og scoren genberegnes fra den flettede liste. Det endelige resultat gemmes som én samlet session.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad gør detektionsfølsomheden?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Følsomhed styrer, hvor meget bevægelse der kræves for at registrere "skøjtning." Høj følsomhed registrerer lettere bevægelser (godt hvis skift ikke bliver registreret). Lav følsomhed kræver stærkere bevægelse (godt hvis du får falske registreringer på bænken). Medium er standard og fungerer godt for de fleste spillere.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan justerer jeg buffertiden?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Åbn Ice Time Track-appen på din iPhone, gå til Indstillinger, og juster "Bevægelsesbuffer"-vælgeren. Kortere buffere (10-15 sekunder) afslutter skift hurtigere. Længere buffere (25-30 sekunder) er mere tils give over for korte pauser under skift.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad er haptiske advarsler, og hvordan bruger jeg dem?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Haptiske alarmer er vibrationsnotifikationer på dit Watch, når din status ændres. Du kan indstille dem til at vibrere, når du træder på isen, når du vender tilbage til bænken, begge dele, eller slå dem helt fra. Dette hjælper dig med at holde styr på tingene uden at se på dit Watch.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad gør "Automatisk afslutning af session"?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Auto-afslut stopper automatisk din session efter en indstillet tid (standard 100 minutter). Dette forhindrer appen i at køre uendeligt, hvis du glemmer at afslutte manuelt, hvilket sparer batteri og sikrer, at dine data gemmes.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvis jeg ændrer indstillinger under en aktiv session, træder de i kraft med det samme?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ja. Ændringer af følsomhed, bevægelsesbuffer og haptiske alarmer synkroniseres til dit Watch og træder i kraft med det samme under en igangværende session. Du behøver ikke vente til næste session – justeringer anvendes inden for sekunder efter ændring på din iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvad er Avancerede indstillinger?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Avancerede indstillinger lader dig finjustere hver detektionsgrænse individuelt. Udvid sektionen i Detektionsindstillinger for at konfigurere acceleration, skridtkadence, GPS-hastighed og holdvarighed for både på-isen- og på-bænken-udløsere. Når du justerer en skyder, skifter følsomheden automatisk til "Brugerdefineret." Brug "Nulstil til forindstilling" for at gå tilbage til Lav/Medium/Høj forindstillinger.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvilke data gemmes i Apple Health?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Når aktiveret gemmer appen din session som en hockey-træning med: varighed, forbrændte aktive kalorier og pulsdata (gennemsnit og maksimum). Dette bidrager til dine Aktivitetsringe og konditionshistorik.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan aktiverer/deaktiverer jeg HealthKit-integration?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Åbn Indstillinger i iPhone-appen og slå "Gem til Apple Health" til. Når aktiveret gemmes afsluttede sessioner som træninger. Når deaktiveret forbliver dine data kun i Ice Time Track.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvorfor vises min puls ikke?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sørg for at dit Watch sidder tæt og pulssensoren har god hudkontakt. Pulsen kan tage 30-60 sekunder om at vises efter start af en session. Hvis problemerne fortsætter, tjek at Ice Time Track har tilladelse til at læse puls i Indstillinger &gt; Privatliv &gt; Sundhed.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan synkroniseres sessioner mellem Watch og iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sessioner synkroniserer automatisk, når begge enheder er inden for rækkevidde og forbundet. Når du afslutter en session på dit Watch, overføres den til din iPhone inden for få sekunder til et par minutter. Du kan også manuelt udløse en synkronisering fra iPhone-appen.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvorfor vises min session ikke på min iPhone?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sørg først for, at sessionen er afsluttet på dit Watch. Åbn begge apps, og sørg for, at Bluetooth er aktiveret. Sessioner synkroniserer, når Watch-appen er åben eller kort efter afslutning. Hvis den stadig ikke vises, prøv at åbne Watch-appen igen for at udløse synkroniseringen.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Kan jeg slette en session?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ja. I iPhone-appen skal du gå til din sessionsliste, swipe til venstre på den session, du vil fjerne, og trykke på Slet. Dette fjerner den fra begge enheder.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Appen registrerer ikke mine skift præcist</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Prøv at justere følsomheden for skiftdetektering i Indstillinger. Hvis skift ikke registreres, øg følsomheden til Høj. Hvis du får falske detektioner på bænken, sænk til Lav. Sørg også for, at dit Watch sidder sikkert på håndleddet, ikke over tykke handsker.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Appen stoppede med at optage midt i kampen</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Dette kan ske, hvis Watchet genstarter, eller appen går ned. Tjek om automatisk afslutning blev udløst tidligere end forventet (kan justeres i Indstillinger).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Watch-appen sidder fast på 'Synkronisering påkrævet'</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Watch- og iPhone-appsene skal kommunikere for at fuldføre den indledende opsætning. Sørg for, at iPhone-appen er åben under opsætning af Watch. Hvis skærmen forbliver, tvangsafslut begge apps og genstart dem. Hvis problemet fortsætter, slet og geninstaller både iPhone- og Watch-appsene.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvorfor har appen brug for adgang til placering?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Placering (GPS) bruges til at måle din skøjtehastighed, hvilket hjælper med præcist at detektere, hvornår du er på isen versus bænken. GPS-data forbliver på dine enheder og uploades ikke nogen steder.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvorfor har appen brug for adgang til bevægelse og fitness?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Bevægelsessensorer (accelerometer og gyroskop) registrerer dine bevægelsesmønstre for at skelne mellem skøjteløb og at sidde. Fitnessadgang gør det muligt at læse dit skridttal for at forbedre detektionens nøjagtighed. Disse data behandles udelukkende på dit Watch.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Deles mine data med nogen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nej. Alle dine sessionsdata, sundhedsmetrikker og sensoraflæsninger forbliver på dit Apple Watch og iPhone. Intet uploades til eksterne servere. Dine data er dine.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hvordan aktiverer jeg placeringsadgang, hvis jeg ved et uheld afviste den?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Mulighed 1 (på Watch): Åbn Indstillinger &gt; Privatliv og sikkerhed &gt; Lokalitetstjenester &gt; Ice Time Track, og vælg "Under brug". Mulighed 2 (fra iPhone): Åbn Watch-appen &gt; Privatliv &gt; Lokalitetstjenester &gt; Ice Time Track, og aktiver adgang.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Download CTA Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content" data-aos="fade-up">
-                    <div class="download__icon">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="download__icon-img">
-                    </div>
-                    <h2 class="download__title">Klar til at spore din istid?</h2>
-                    <p class="download__description">Hent Ice Time Track og start din næste session. Automatisk skiftdetektering, kamphændelseslogning og sundhedsdata — alt fra dit håndled.</p>
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn launch-btn--lg" id="download-cta" target="_blank" rel="noopener">Forudbestil nu</a>
-                    <img src="../assets/app-store-badges/app-store-badge-da.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <span class="footer__name">Ice Time Track</span>
-                <div class="footer__links">
-                    <a href="/privacy-policy.html" class="footer__link">Privatlivspolitik</a>
-                    <a href="#" class="footer__link">Servicevilkår</a>
-                    <a href="mailto:support@masawata.net" class="footer__link">Support</a>
-                </div>
-                <p class="footer__copyright">© 2026 MasaWata. Alle rettigheder forbeholdes.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/app-icon.png" alt="" width="44" height="44"><span>Ice Time Track</span></a>
+    <details class="asc-languages">
+      <summary>Sprog: Dansk</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Ice Time Track</p>
+        <h1>Ice Hockey Skift Træning</h1>
+        <p>Automatisk istidssporing med Apple Watch – nu med udstyrssporing og påmindelser om skøjteslibning. Se skift, statistik og sundhed efter hver kamp.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Hent i App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/da/01-phone.webp" alt="Ice Time Track">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Om appen</h2>
+      <div class="asc-prose"><p>Dine skift. Sporet automatisk.</p>
+<p>Ice Time Track bruger dit Apple Watch til at registrere, hvornår du skøjter, og hvornår du er på bænken. Ingen knapper, intet besvær. Start bare en session og spil.</p>
+<h3>SÅDAN VIRKER DET</h3>
+<p>Vores bevægelsesdetekteringsalgoritme analyserer accelerometer-, gyroskop- og GPS-data for at skelne skøjteløb fra hvile. Din iPhone synkroniserer live opdateringer, så du kan se statistik i realtid eller efter kampen.</p>
+<h3>FUNKTIONER</h3>
+<ul><li>Automatisk skiftregistrering, bevægelses- og sundhedssporing</li><li>Samlet istid og opdeling pr. skift</li><li>Kamplog – mål, straffe, pauser</li><li>Puls og kalorier pr. skift</li><li>Visuel tidslinje for is/bænk-mønster</li><li>Sessionshistorik med trends</li><li>Stedmærkning for hver skøjtehal</li><li>Kamp-, trænings- og scrimmage-tilstande</li><li>Valgfri haptiske advarsler</li><li>Eksporter data til CSV eller JSON</li></ul>
+<h3>APPLE INTEGRATION</h3>
+<p>Fungerer med Apple Watch. Synkroniserer med Apple Sundhed.</p>
+<h3>PRIVATLIV</h3>
+<p>Alle data gemt lokalt. Ingen konto påkrævet.</p>
+<p>Bygget af ishockeyspillere til ishockeyspillere. Kend din istid. Løft dit spil.</p>
+<p>Ice Time Track forvandler dit Apple Watch til en intelligent hockeyledsager, der præcist ved, hvornår du er på isen, og hvornår du er på bænken. Ingen knapper. Ingen distraktioner. Ren automatisk sporing, så du kan fokusere på at spille dit bedste.</p>
+<h3>SÅDAN VIRKER DET</h3>
+<p>Start en session på dit Apple Watch og glem den. Vores avancerede bevægelsesdetektion analyserer data i realtid. Din iPhone forbliver synkroniseret med live opdateringer – se dine statistikker fra tribunen eller gennemgå alt efter den afsluttende fløjte.</p>
+<h3>HVAD DU VIL OPDAGE</h3>
+<ul><li>Samlet Istid — Ved præcis, hvor mange minutter du brugte, hvor det tæller</li><li>Skift-for-Skift Opdeling — Hvert skift med varighed, puls og kalorier</li><li>Kamplogs – mål/straffe pr. periode</li><li>Pulssporing — Overvåg indsats under skøjteløb vs. restitution</li><li>Forbrændte Kalorier — Præcise data synkroniseret fra Apple Sundhed</li><li>Sessionstidslinje — Visuelt diagram over dit is/bænk-mønster</li><li>Stedhukommelse — Automatisk mærkning af skøjtehallen</li><li>Historiske Trends — Sammenlign sessioner og spor fremskridt</li></ul>
+<h3>BYGGET TIL ENHVER SKØJTELØBER</h3>
+<p>Uanset om du spiller amatørliga, træner hårdt eller konkurrerer i scrimmages – Ice Time Track tilpasser sig. Mærk sessioner efter type, tilføj modstandernavne og opbyg din personlige hockeydagbog.</p>
+<h3>PROBLEMFRI APPLE INTEGRATION</h3>
+<ul><li>Synkroniserer træninger til Apple Sundhed</li><li>Kører i baggrunden under sessioner</li><li>Valgfri haptiske advarsler ved is/bænk-overgange</li><li>Optimeret til lavt batteriforbrug</li></ul>
+<h3>PRIVATLIV FØRST</h3>
+<p>Dine data forbliver dine. Gemt lokalt på dine enheder. Ingen konti. Ingen data solgt. Aldrig.</p>
+<h3>FRA SPILLERE TIL SPILLERE</h3>
+<p>Bygget af hockeyelskere trætte af at gætte istid. Ægte tal. Ægte indsigt. Nul friktion.</p>
+<p>Download nu og spekuler aldrig mere over din istid.</p>
+<p>Snør skøjterne. Drop pucken. Vi klarer resten.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Skærmbilleder</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/da/01-phone.webp" alt="Ice Time Track — Skærmbilleder 1" loading="lazy"></figure>
+<figure><img src="../images/asc/da/02-phone.webp" alt="Ice Time Track — Skærmbilleder 2" loading="lazy"></figure>
+<figure><img src="../images/asc/da/03-phone.webp" alt="Ice Time Track — Skærmbilleder 3" loading="lazy"></figure>
+<figure><img src="../images/asc/da/04-phone.webp" alt="Ice Time Track — Skærmbilleder 4" loading="lazy"></figure>
+<figure><img src="../images/asc/da/05-phone.webp" alt="Ice Time Track — Skærmbilleder 5" loading="lazy"></figure>
+<figure><img src="../images/asc/da/06-phone.webp" alt="Ice Time Track — Skærmbilleder 6" loading="lazy"></figure>
+<figure><img src="../images/asc/da/07-phone.webp" alt="Ice Time Track — Skærmbilleder 7" loading="lazy"></figure>
+<figure><img src="../images/asc/da/08-phone.webp" alt="Ice Time Track — Skærmbilleder 8" loading="lazy"></figure>
+<figure><img src="../images/asc/da/09-phone.webp" alt="Ice Time Track — Skærmbilleder 9" loading="lazy"></figure>
+<figure><img src="../images/asc/da/10-watch.webp" alt="Ice Time Track — Skærmbilleder 10" loading="lazy"></figure>
+<figure><img src="../images/asc/da/11-watch.webp" alt="Ice Time Track — Skærmbilleder 11" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Ice Time Track</h2>
+      <p>Automatisk istidssporing med Apple Watch – nu med udstyrssporing og påmindelser om skøjteslibning. Se skift, statistik og sundhed efter hver kamp.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Hent i App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Privatlivspolitik</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Servicevilkår</a>
+    <a href="https://masawata.net/">Support</a>
+  </footer>
 </body>
 </html>

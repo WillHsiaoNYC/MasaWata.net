@@ -1,668 +1,127 @@
-<!DOCTYPE html>
-<html lang="hi">
+<!doctype html>
+<html lang="hi" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Fitness Story - Apple Health और Watch वर्कआउट को विज़ुअल जर्नी में बदलें</title>
-    <meta name="title" content="Fitness Story - Apple Health और Watch वर्कआउट को विज़ुअल जर्नी में बदलें">
-    <meta name="description" content="Apple Watch और Health डेटा को सुंदर विज़ुअल जर्नी में बदलें। रनिंग, साइकलिंग, स्विमिंग और अधिक ट्रैक करें। ट्रेंड, पर्सनल रिकॉर्ड और प्रगति का विश्लेषण करें।">
-    <meta name="keywords" content="fitness, workout, Apple Health, tracking, personal records, exercise, health, running, cycling, data visualization, iOS app">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/FitnessStory/hi/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/FitnessStory/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/FitnessStory/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/FitnessStory/zh-Hant/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/FitnessStory/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/FitnessStory/ko/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/FitnessStory/fr/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/FitnessStory/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/FitnessStory/es/">
-    <link rel="alternate" hreflang="pt" href="https://masawata.net/FitnessStory/pt/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/FitnessStory/it/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/FitnessStory/ru/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/FitnessStory/hi/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/FitnessStory/id/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/FitnessStory/vi/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/FitnessStory/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/FitnessStory/hi/">
-    <meta property="og:title" content="Fitness Story - Apple Health और Watch वर्कआउट को विज़ुअल जर्नी में बदलें">
-    <meta property="og:description" content="Apple Watch और Health डेटा को सुंदर विज़ुअल जर्नी में बदलें। रनिंग, साइकलिंग, स्विमिंग और अधिक ट्रैक करें। ट्रेंड, पर्सनल रिकॉर्ड और प्रगति का विश्लेषण करें।">
-    <meta property="og:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
-    <meta property="og:site_name" content="फिटनेस स्टोरी">
-    <meta property="og:locale" content="hi_IN">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/FitnessStory/hi/">
-    <meta name="twitter:title" content="Fitness Story - Apple Health और Watch वर्कआउट को विज़ुअल जर्नी में बदलें">
-    <meta name="twitter:description" content="Apple Watch और Health डेटा को सुंदर विज़ुअल जर्नी में बदलें। रनिंग, साइकलिंग, स्विमिंग और अधिक ट्रैक करें। ट्रेंड, पर्सनल रिकॉर्ड और प्रगति का विश्लेषण करें।">
-    <meta name="twitter:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6748090363">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/Fitness%20Story.png">
-    <link rel="apple-touch-icon" href="../images/Fitness%20Story.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.2">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "फिटनेस स्टोरी",
-        "operatingSystem": "iOS",
-        "applicationCategory": "HealthApplication",
-        "sameAs": "https://apps.apple.com/app/id6748090363",
-        "downloadUrl": "https://apps.apple.com/app/id6748090363",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "37"
-        },
-        "description": "Apple Watch और Health डेटा को सुंदर विज़ुअल जर्नी में बदलें। रनिंग, साइकलिंग, स्विमिंग और अधिक ट्रैक करें। ट्रेंड, पर्सनल रिकॉर्ड और प्रगति का विश्लेषण करें।",
-        "screenshot": "https://masawata.net/FitnessStory/images/en/hero.jpg",
-        "softwareVersion": "6.4.2",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "hi"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>फिटनेस स्टोरी — अपने वर्कआउट इनसाइट पाएं</title>
+  <meta name="description" content="अब Apple Watch पर: किसी भी वॉच फ़ेस पर आज के कदम, साथ में दूरी, कैलोरी और मंज़िलों वाली “आज” स्क्रीन — सीधे Apple Health से।">
+  <meta name="apple-itunes-app" content="app-id=6748090363">
+  <link rel="canonical" href="https://masawata.net/FitnessStory/hi/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/FitnessStory/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/FitnessStory/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/FitnessStory/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/FitnessStory/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/FitnessStory/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/FitnessStory/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/FitnessStory/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/FitnessStory/fr-FR/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/FitnessStory/hi/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/FitnessStory/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/FitnessStory/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/FitnessStory/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/FitnessStory/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/FitnessStory/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/FitnessStory/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/FitnessStory/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/FitnessStory/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/FitnessStory/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/FitnessStory/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/FitnessStory/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/FitnessStory/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/FitnessStory/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/FitnessStory/tr/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/FitnessStory/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/FitnessStory/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/FitnessStory/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/FitnessStory/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "फिटनेस स्टोरी", "description": "अब Apple Watch पर: किसी भी वॉच फ़ेस पर आज के कदम, साथ में दूरी, कैलोरी और मंज़िलों वाली “आज” स्क्रीन — सीधे Apple Health से।", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/FitnessStory/hi/", "downloadUrl": "https://apps.apple.com/app/id6748090363", "image": ["https://masawata.net/FitnessStory/images/asc/hi/01-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/02-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/03-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/04-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/05-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/06-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/07-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/08-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/09-phone.webp", "https://masawata.net/FitnessStory/images/asc/hi/10-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="nav__logo-img">
-                <span class="nav__logo-text">फिटनेस स्टोरी</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">विशेषताएं</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">स्क्रीनशॉट</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#testimonials" class="nav__link">प्रशंसापत्र</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">डाउनलोड</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">HI</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../pt/" class="language-option">Português</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../hi/" class="language-option active">हिन्दी</a>
-                    <a href="../id/" class="language-option">Indonesia</a>
-                    <a href="../vi/" class="language-option">Tiếng Việt</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story App Icon" class="hero__icon">
-                    <h1 class="hero__title">आपकी फिटनेस यात्रा, खूबसूरती से विज़ुअलाइज़्ड</h1>
-                    <p class="hero__description">Apple Watch और Health डेटा को एक सुंदर, अंतर्दृष्टिपूर्ण यात्रा में बदलें। रनिंग, साइकलिंग, स्विमिंग और सभी वर्कआउट ट्रैक करें। ट्रेंड, रिकॉर्ड का विश्लेषण करें और हर जीत का जश्न मनाएं।</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-hi.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="hero__rating">
-                        <div class="stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <span class="rating-text">App Store पर 5.0</span>
-                    </div>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="Fitness Story Dashboard" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">शक्तिशाली विशेषताएं</h2>
-                    <p class="section-subtitle">अपनी फिटनेस यात्रा को समझने और मनाने के लिए सब कुछ</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">प्रोफेशनल एनालिटिक्स</h3>
-                        <p class="feature-card__description">एक एनालिटिक्स सूट अनलॉक करें जो आपकी जेब में फिट हो। वर्कआउट की तुलना साथ-साथ करें, वार्षिक रुझान देखें और केडेंस और स्ट्राइड लंबाई ट्रैक करें। इसमें बॉक्स-एंड-व्हिस्कर बेंचमार्क चार्ट शामिल हैं जो हर खेल के लिए आपका माध्यिका, चतुर्थक और आउटलायर दिखाते हैं।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/graphs.jpg" alt="प्रोफेशनल एनालिटिक्स" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                <line x1="16" y1="2" x2="16" y2="6"></line>
-                                <line x1="8" y1="2" x2="8" y2="6"></line>
-                                <line x1="3" y1="10" x2="21" y2="10"></line>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">इंटरैक्टिव डैशबोर्ड</h3>
-                        <p class="feature-card__description">एक पूर्ण इंटरैक्टिव डैशबोर्ड एक्सेस करें जो आपकी दैनिक गतिविधि को आपके समग्र स्वास्थ्य से जोड़ता है। योगदान ग्राफ़ और स्ट्रीक काउंटर के साथ निरंतरता ट्रैक करें।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/dashboard.jpg" alt="इंटरैक्टिव डैशबोर्ड" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">स्टोरीलाइन</h3>
-                        <p class="feature-card__description">अपने फिटनेस इतिहास को एक सतत कथा के रूप में अनुभव करें। एक समृद्ध, विज़ुअल टाइमलाइन में स्क्रॉल करें जो आपकी गतिविधियों को आपकी यादों के साथ जोड़ती है।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/storyline.jpg" alt="स्टोरीलाइन" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">मेरे स्थान</h3>
-                        <p class="feature-card__description">अपने वर्कआउट इतिहास को मानचित्र पर देखें, शहर और देश के अनुसार समूहीकृत। देखें कि आपकी फिटनेस यात्रा आपको दुनिया भर में कहां-कहां ले गई।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/fitness-map.jpg" alt="मेरे स्थान" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">पसंदीदा और टैग</h3>
-                        <p class="feature-card__description">"इंटरवल्स", "रिकवरी" या "रेस डे" जैसे कस्टम टैग के साथ अपने प्रशिक्षण को व्यवस्थित करें। शीर्ष प्रदर्शनों का संग्रह बनाने के लिए अपने सर्वश्रेष्ठ सत्रों को दिल से चिह्नित करें।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/favorites.jpg" alt="पसंदीदा और टैग" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 8 7 8M18 9h1.5a2.5 2.5 0 000-5C17 4 17 8 17 8"/>
-                                <path d="M4 22h16"/>
-                                <path d="M10 22V8h4v14"/>
-                                <path d="M8 6V4h8v2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">व्यक्तिगत रिकॉर्ड</h3>
-                        <p class="feature-card__description">हम स्वचालित रूप से व्यक्तिगत रिकॉर्ड का पता लगाते हैं और उन्हें आपकी तस्वीरों और नोट्स के साथ प्रदर्शित करते हैं। अपनी पसंदीदा जीत को ट्रॉफी केस में सामने रखें।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/personal-records.jpg" alt="व्यक्तिगत रिकॉर्ड" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 3h5v5M8 3H3v5M3 16v5h5M16 21h5v-5"/>
-                                <line x1="21" y1="3" x2="14" y2="10"/>
-                                <line x1="3" y1="21" x2="10" y2="14"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">वर्कआउट तुलना</h3>
-                        <p class="feature-card__description">अपनी प्रगति देखने के लिए कई वर्कआउट की साथ-साथ तुलना करें (10 तक)। समय के साथ आपका प्रदर्शन कैसे विकसित हुआ है यह समझने के लिए गति, हृदय गति, ऊंचाई और अधिक का विश्लेषण करें।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/workout-comparison.jpg" alt="वर्कआउट तुलना" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"/>
-                                <path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20"/>
-                                <path d="M2 12h20"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">रंगीन रूट</h3>
-                        <p class="feature-card__description">अपने वर्कआउट रूट को पहले जैसा कभी नहीं देखा होगा वैसे विज़ुअलाइज़ करें। गति, ऊंचाई, केडेंस या स्ट्राइड लंबाई से अपने पथ को रंगें।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/color-route.jpg" alt="रंगीन रूट" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">रिकॉर्ड का जश्न</h3>
-                        <p class="feature-card__description">हर व्यक्तिगत रिकॉर्ड मान्यता का हकदार है। जब आप नया PR तोड़ें, तो सुंदर विज़ुअल्स के साथ उस पल का जश्न मनाएं।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/record-celebration.jpg" alt="रिकॉर्ड का जश्न" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="3" width="7" height="7" rx="1"/>
-                                <rect x="14" y="3" width="7" height="7" rx="1"/>
-                                <rect x="3" y="14" width="7" height="7" rx="1"/>
-                                <rect x="14" y="14" width="7" height="7" rx="1"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">विजेट्स</h3>
-                        <p class="feature-card__description">सुंदर होम स्क्रीन विजेट्स के साथ अपना फिटनेस डेटा हमेशा सामने रखें। ऐप खोले बिना कदम, कैलोरी, वर्कआउट प्रगति और बॉडी मेट्रिक्स एक नज़र में देखें।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/widgets.jpg" alt="विजेट्स" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">स्वास्थ्य मेट्रिक्स</h3>
-                        <p class="feature-card__description">एक नज़र में अपने सभी आवश्यक स्वास्थ्य मेट्रिक्स—कदमों और कैलोरी से लेकर हृदय गति, VO2 max, नींद और अधिक—की निगरानी करें। अपने रुझानों की व्यक्तिगत बेंचमार्क से तुलना करें।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/health-metrics.jpg" alt="स्वास्थ्य मेट्रिक्स" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
-                                <line x1="4" y1="22" x2="4" y2="15"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">दैनिक चुनौतियाँ</h3>
-                        <p class="feature-card__description">अपने आप ट्रैक होने वाली चुनौतियाँ अपनाएँ — 3K रन, 10K कदम, 10K साइक्लिंग और 45-मिनट वर्कआउट — 1, 3 और 7-दिन के स्तरों में। बैज कमाएँ, अपना ट्रॉफी केस भरें और हर जीत का जश्न मनाएँ।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-challenges.jpg" alt="दैनिक चुनौतियाँ" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1200">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="18" cy="5" r="3"/>
-                                <circle cx="6" cy="12" r="3"/>
-                                <circle cx="18" cy="19" r="3"/>
-                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
-                                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">साझा करने योग्य कार्ड</h3>
-                        <p class="feature-card__description">किसी भी वर्कआउट, रिकॉर्ड या चुनौती को एक सुंदर शेयर कार्ड में बदलें। 15 रंग थीम में से चुनें और अपनी शैली से मेल खाने के लिए ग्रेडिएंट और लाइट लुक के बीच स्विच करें।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-records.jpg" alt="साझा करने योग्य कार्ड" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1300">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7 10 12 15 17 10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">सब कुछ एक्सपोर्ट करें</h3>
-                        <p class="feature-card__description">अपना पूरा इतिहास — या कोई भी तारीख सीमा — स्प्लिट डेटा, बॉडी मेट्रिक्स और वर्कआउट मेटाडेटा सहित CSV या JSON में एक्सपोर्ट करें। आपका डेटा हमेशा आपका है।</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-analysis.jpg" alt="सब कुछ एक्सपोर्ट करें" loading="lazy">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">इसे एक्शन में देखें</h2>
-                    <p class="section-subtitle">सुंदर डिज़ाइन शक्तिशाली कार्यक्षमता से मिलता है</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-insights.jpg" alt="Unlock your workout insights" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-health.jpg" alt="Complete health metrics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-analysis.jpg" alt="Professional analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-challenges.jpg" alt="Daily challenges" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-records.jpg" alt="Personal records &amp; trophy case" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-comparison.jpg" alt="Compare workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-map.jpg" alt="Your locations on the map" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-activities.jpg" alt="80+ activity types" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-workout.jpg" alt="Deep workout detail" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section class="testimonials" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">उपयोगकर्ता क्या कहते हैं</h2>
-                    <p class="section-subtitle">हज़ारों फिटनेस उत्साही लोगों से जुड़ें जो Fitness Story से प्यार करते हैं</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"यह ऐप शानदार फिटनेस ट्रेंड प्रदान करता है जो Apple अन्यथा प्रदान नहीं कर सकता। खूबसूरत लेआउट में Apple जैसा अनुभव है।"</p>
-                        <p class="testimonial-card__author">— Antcido</p>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"आखिरकार एक फिटनेस ऐप मिला जो कच्चे डेटा को ऐसे विज़ुअल में बदलता है जो वास्तव में मुझे प्रेरित करते हैं। PR ट्रैकिंग और साल-दर-साल तुलना बहुत पसंद है!"</p>
-                        <p class="testimonial-card__author">— Sigmasigmarizz</p>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"यह ऐप मुझे वो जानकारी देता है जो न तो Strava और न ही Health ऐप दे पाए। अगर आप फिटनेस में रुचि रखते हैं तो इसे जरूर आज़माएं!"</p>
-                        <p class="testimonial-card__author">— Cleverc77</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="download__icon">
-                    <h2 class="download__title">आज ही अपनी Fitness Story शुरू करें</h2>
-                    <p class="download__description">उन्नत सुविधाओं के लिए वैकल्पिक Pro अपग्रेड के साथ मुफ्त डाउनलोड। आपका डेटा आपके डिवाइस पर निजी रहता है।</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-hi.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">iPhone और iPad पर उपलब्ध</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">अक्सर पूछे जाने वाले प्रश्न</h2>
-                    <p class="section-subtitle">फिटनेस स्टोरी के बारे में वह सब कुछ जो आपको जानना चाहिए</p>
-                </div>
-
-                <div class="faq__list">
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>ऐप मेरे वर्कआउट को कैसे ट्रैक करता है?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>फिटनेस स्टोरी सीधे वर्कआउट ट्रैक नहीं करता—आपकी Apple Watch और iPhone पहले से ही यह काम बखूबी कर रहे हैं! आपके डिवाइस लगातार वर्कआउट डेटा और बॉडी मेट्रिक्स एकत्र करते हैं और सब कुछ Apple Health में स्टोर करते हैं। बस ऐप को रीड-ओनली एक्सेस दें, और हम सभी डेटा को शानदार रिपोर्ट, गहन विश्लेषण और उपयोगी इनसाइट्स में बदल देंगे।</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>मेरे नोट्स, फोटो, टैग, रेटिंग और फेवरिट्स कहां स्टोर होते हैं?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>आपका सारा पर्सनल डेटा—नोट्स, फोटो, टैग, रेटिंग और फेवरिट्स—आपके डिवाइस के लोकल स्टोरेज और आपके पर्सनल iCloud अकाउंट में सुरक्षित रूप से स्टोर होता है। आपका डेटा आपके सभी Apple डिवाइस में सहजता से सिंक होता है। अगर आप ऐप डिलीट भी करते हैं, तो भी आपका डेटा iCloud में सुरक्षित रहता है और रीइंस्टॉल करने पर रिस्टोर हो जाता है।</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>ऐप कौन सी बॉडी मेट्रिक्स दिखाता है?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>फिटनेस स्टोरी आपके हेल्थ डेटा का व्यापक दृश्य प्रस्तुत करता है: दैनिक कदम, सक्रिय कैलोरी, VO2 max, हृदय गति ज़ोन, रक्त ऑक्सीजन स्तर, कलाई का तापमान, वजन, लीन बॉडी मास, बॉडी फैट प्रतिशत, BMI, श्वसन दर और विस्तृत नींद विश्लेषण। आपके शरीर के प्रदर्शन को समझने के लिए सब कुछ।</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>ऐप किन वर्कआउट गतिविधियों को सपोर्ट करता है?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>फिटनेस स्टोरी Apple Watch द्वारा ट्रैक किए जाने वाले सभी वर्कआउट प्रकारों को सपोर्ट करता है—80 से अधिक! इसमें रनिंग, साइकलिंग, स्विमिंग, HIIT, योगा और स्ट्रेंथ ट्रेनिंग जैसी लोकप्रिय गतिविधियां शामिल हैं, साथ ही पिकलबॉल, क्लाइंबिंग, मार्शल आर्ट्स, स्कीइंग, डांस जैसी विशेष गतिविधियां भी। अगर आपकी Apple Watch ट्रैक कर सकती है, तो फिटनेस स्टोरी विज़ुअलाइज़ कर सकता है।</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>चुनौतियाँ क्या हैं?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>चुनौतियाँ अंतर्निहित फिटनेस लक्ष्य हैं — 3K रन, 10,000 कदम, 10K साइकिल या 45-मिनट वर्कआउट — जो आपके Apple Health डेटा से 1, 3 और 7-दिन के स्तरों में अपने आप ट्रैक होते हैं। इन्हें पूरा करके बैज कमाएँ और अपना ट्रॉफी केस बनाएँ।</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>क्या मैं अपना डेटा एक्सपोर्ट कर सकता हूँ?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>हाँ। अपना पूरा इतिहास, या कोई भी कस्टम तारीख सीमा, CSV या JSON में एक्सपोर्ट करें — पूर्ण स्प्लिट डेटा, बॉडी मेट्रिक्स और वर्कआउट मेटाडेटा सहित। आप अपने स्वयं के टूल में विश्लेषण के लिए वर्कआउट तुलना भी एक्सपोर्ट कर सकते हैं।</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>क्या Fitness Story मुफ़्त है?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story डाउनलोड और उपयोग करने के लिए मुफ़्त है। एक वैकल्पिक Pro अपग्रेड विश्लेषण, चुनौतियों और शेयरिंग की पूरी गहराई अनलॉक करता है — शुरू करने के लिए किसी खाते या सदस्यता की आवश्यकता नहीं।</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>यह किन डिवाइसों पर काम करता है?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story iPhone और iPad पर चलता है। यह आपके Apple Health और Apple Watch डेटा को केवल-पढ़ने की पहुँच के साथ पढ़ता है — कोई खाता और कोई सर्वर नहीं, इसलिए सब कुछ आपके डिवाइस और आपके निजी iCloud पर रहता है।</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">आपकी गोपनीयता मायने रखती है</h2>
-                    <p class="privacy__description">Fitness Story आपके डेटा को सीधे Apple Health से रीड-ओनली मोड में पढ़ता है। सभी गणनाएं और विश्लेषण आपके डिवाइस पर सुरक्षित रूप से होते हैं। आपका स्वास्थ्य डेटा कभी भी हमें या किसी तीसरे पक्ष को नहीं भेजा जाता।</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">हमारी गोपनीयता नीति पढ़ें</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="footer__logo">
-                    <span class="footer__name">फिटनेस स्टोरी</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">गोपनीयता नीति</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">सेवा की शर्तें</a>
-                </div>
-                <p class="footer__copyright">© 2026 Fitness Story. सर्वाधिकार सुरक्षित।</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/Fitness Story.png" alt="" width="44" height="44"><span>फिटनेस स्टोरी</span></a>
+    <details class="asc-languages">
+      <summary>भाषा: हिन्दी</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">फिटनेस स्टोरी</p>
+        <h1>अपने वर्कआउट इनसाइट पाएं</h1>
+        <p>अब Apple Watch पर: किसी भी वॉच फ़ेस पर आज के कदम, साथ में दूरी, कैलोरी और मंज़िलों वाली “आज” स्क्रीन — सीधे Apple Health से।</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6748090363" rel="noopener">App Store से डाउनलोड करें</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/hi/01-phone.webp" alt="फिटनेस स्टोरी">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>ऐप के बारे में</h2>
+      <div class="asc-prose"><p>अंदाज़ा लगाना बंद करो। समझना शुरू करो। फिटनेस स्टोरी आपके Apple Health डेटा को iOS पर उपलब्ध सबसे शक्तिशाली और विस्तृत एनालिसिस में बदल देता है। कोई अकाउंट नहीं। कोई सर्वर नहीं। बस आपकी पूरी फिटनेस जर्नी, विज़ुअलाइज़्ड।</p>
+<p>चाहे आप नींद के चरणों को ट्रैक कर रहे हों, रनिंग cadence एनालाइज़ कर रहे हों, या marathon PR का पीछा कर रहे हों — यह वो all-in-one डैशबोर्ड है जिसकी आपकी मेहनत हकदार है।</p>
+<p>Apple Health से सिंक होने वाले किसी भी डिवाइस या ऐप के साथ काम करता है — Apple Watch, Garmin, Polar, Suunto, Zwift और भी बहुत कुछ।</p>
+<h3>प्रोफेशनल-ग्रेड एनालिसिस</h3>
+<ul><li>Trend &amp; Benchmark Charts: Box-and-Whisker plots से हर स्पोर्ट टाइप के median, quartiles और outliers देखें।</li><li>Granular Breakdowns: अपनी हिस्ट्री को समय, दूरी, अवधि, Pace, Elevation gain, Cadence और Stride Length के आधार पर फ़िल्टर करें।</li><li>सब कुछ रैंक करें: एक टैप से आज की मेट्रिक्स (दूरी, Pace, HR, आदि) की तुलना अपनी पूरी हिस्ट्री से करें। तुरंत जानें कि आपकी परफ़ॉर्मेंस &quot;Top 15%&quot; में है या नहीं।</li><li>Contribution Graph: आपकी पूरी workout हिस्ट्री का GitHub-स्टाइल heatmap। डेली स्टैट्स देखने के लिए पलटें।</li></ul>
+<h3>WORKOUT डिटेल्स — नए अंदाज़ में</h3>
+<ul><li>Smart Maps: अपने आउटडोर रूट्स को Speed, Elevation, या Heart Rate Zones के हिसाब से कलर-कोड करें। (China Map Correction शामिल)।</li><li>Deep Split Analysis: हर लैप के लिए KM या Mile splits देखें — pace, elevation, HR और cadence के साथ।</li><li>Heart Rate Zones: अपनी उम्र और resting heart rate के आधार पर कस्टम Zone 1–5 में बिताया गया समय विज़ुअलाइज़ करें।</li><li>Rich Context: हर workout में फ़ोटो, रिच टेक्स्ट नोट्स, एफर्ट रेटिंग (1–10), और कस्टम टैग्स जोड़ें।</li></ul>
+<h3>संपूर्ण हेल्थ कमांड सेंटर</h3>
+<ul><li>आपकी Apple Watch जो कुछ भी मापती है, डेली, वीकली और ईयरली trends के साथ एक जगह विज़ुअलाइज़्ड:</li><li>कार्डियो हेल्थ: Resting Heart Rate, VO2 Max (उम्र-समायोजित), Blood Oxygen, और Respiratory Rate।</li><li>बॉडी कम्पोज़िशन: वज़न, Body Fat %, Lean Body Mass, और BMI — trend इंडिकेटर्स के साथ।</li><li>एक्टिविटी और रिकवरी: कदम (घंटेवार ब्रेकडाउन), Active vs. Basal Calories, और Wrist Temperature विचलन।</li><li>एडवांस्ड स्लीप ट्रैकिंग: Deep, Core, REM, और Awake स्टेज रात-दर-रात विज़ुअलाइज़्ड।</li><li>Correlation Overlays: कई हेल्थ मेट्रिक्स को ओवरले करें और देखें कि आपकी नींद कैसे आपकी heart rate को प्रभावित करती है या आपका वज़न VO2 Max पर कैसे असर डालता है।</li></ul>
+<h3>तुलना करें और प्रतिस्पर्धा करें</h3>
+<ul><li>Workout Comparison: 10 workouts तक सिलेक्ट करें और side-by-side तुलना करें। हर मेट्रिक के लिए variance प्रतिशत देखें (जैसे, &quot;+1.5% तेज़&quot;) — स्प्लिट-वाइज़!</li><li>Comparison Export: अलग डेटा टूल्स से एनालिसिस करना चाहते हैं? अपनी workout comparison एक्सपोर्ट करें!</li><li>Personal Records: 1K, 5K, 10K, Half, Marathon, और कस्टम दूरियों के लिए ऑटोमैटिक ट्रैकिंग। Gold, Silver और Bronze ट्रॉफ़ी अर्जित करें।</li><li>Story Timeline: हर milestone, रिकॉर्ड और workout का कालानुक्रमिक फ़ीड।</li></ul>
+<h3>आपका डेटा, हर जगह</h3>
+<ul><li>Global Map: एक इंटरैक्टिव वर्ल्ड मैप पर वो हर जगह देखें जहाँ आपने कभी एक्सरसाइज़ किया।</li><li>Powerful Export: अपनी पूरी हिस्ट्री (या कस्टम रेंज) CSV या JSON में एक्सपोर्ट करें। पूरा स्प्लिट डेटा, बॉडी मेट्रिक्स और मेटाडेटा शामिल।</li><li>iCloud Sync: आपके फ़ेवरिट्स, टैग्स, नोट्स और रेटिंग्स सभी डिवाइसेज़ पर तुरंत सिंक।</li><li>Privacy First: कोई छुपे सर्वर नहीं। आपका डेटा आपके डिवाइस और प्राइवेट iCloud में रहता है।</li><li>आपके पसीने की एक कहानी है। अब उसे पढ़ने का वक़्त है। आज ही फिटनेस स्टोरी डाउनलोड करें।</li></ul>
+<p>फिटनेस स्टोरी डाउनलोड करें और अपनी असली प्रगति जानें!</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>स्क्रीनशॉट</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/hi/01-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 1" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/02-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 2" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/03-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 3" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/04-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 4" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/05-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 5" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/06-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 6" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/07-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 7" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/08-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 8" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/09-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 9" loading="lazy"></figure>
+<figure><img src="../images/asc/hi/10-phone.webp" alt="फिटनेस स्टोरी — स्क्रीनशॉट 10" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>फिटनेस स्टोरी</h2>
+      <p>अब Apple Watch पर: किसी भी वॉच फ़ेस पर आज के कदम, साथ में दूरी, कैलोरी और मंज़िलों वाली “आज” स्क्रीन — सीधे Apple Health से।</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6748090363" rel="noopener">App Store से डाउनलोड करें</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">गोपनीयता नीति</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">सेवा की शर्तें</a>
+    <a href="https://masawata.net/">सहायता</a>
+  </footer>
 </body>
 </html>
