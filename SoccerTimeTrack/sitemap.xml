@@ -1,21 +1,1364 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://masawata.net/SoccerTimeTrack/</loc>
-        <lastmod>2026-08-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://masawata.net/SoccerTimeTrack/support.html</loc>
-        <lastmod>2026-08-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://masawata.net/SoccerTimeTrack/privacy-policy.html</loc>
-        <lastmod>2026-08-13</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/ar-SA/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/ca/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/cs/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/da/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/de-DE/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/el/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/es-ES/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/fi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/fr-FR/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/he/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/hi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/hr/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/hu/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/id/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/it/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/ja/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/ko/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/nl-NL/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/no/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/pl/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/pt-BR/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/pt-PT/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/ro/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/ru/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/sk/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/sl-SI/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/sv/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/th/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/tr/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/uk/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/vi/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/zh-Hans/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/SoccerTimeTrack/zh-Hant/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/SoccerTimeTrack/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/SoccerTimeTrack/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/SoccerTimeTrack/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/SoccerTimeTrack/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/SoccerTimeTrack/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/SoccerTimeTrack/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/SoccerTimeTrack/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/SoccerTimeTrack/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/SoccerTimeTrack/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/SoccerTimeTrack/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/SoccerTimeTrack/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/SoccerTimeTrack/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/SoccerTimeTrack/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/SoccerTimeTrack/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/SoccerTimeTrack/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/SoccerTimeTrack/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/SoccerTimeTrack/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/SoccerTimeTrack/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/SoccerTimeTrack/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/SoccerTimeTrack/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/SoccerTimeTrack/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/SoccerTimeTrack/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/SoccerTimeTrack/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/SoccerTimeTrack/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/SoccerTimeTrack/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/SoccerTimeTrack/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/SoccerTimeTrack/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/SoccerTimeTrack/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/SoccerTimeTrack/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/SoccerTimeTrack/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/SoccerTimeTrack/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/SoccerTimeTrack/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/SoccerTimeTrack/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/SoccerTimeTrack/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/SoccerTimeTrack/"/>
+  </url>
 </urlset>

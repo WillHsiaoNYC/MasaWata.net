@@ -1,500 +1,144 @@
-<!DOCTYPE html>
-<html lang="fi">
+<!doctype html>
+<html lang="fi" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Oma Ajastin - Useita ajastimia ja sekuntikelloja yhdessä sovelluksessa</title>
-    <meta name="title" content="Oma Ajastin - Useita ajastimia ja sekuntikelloja yhdessä sovelluksessa">
-    <meta name="description" content="Käytä jopa 50 ajastinta ja sekuntikelloa kerralla, hälytyksillä jotka soivat puhelimen ollessa lukittuna (AlarmKit), Tabata/EMOM/30-30-intervalleilla, Live Activities -toiminnoilla ja täysiverisellä Apple Watch -sovelluksella. Ilmainen iPhonelle, iPadille ja Apple Watchille.">
-    <meta name="keywords" content="ajastin, sekuntikello, useita ajastimia, intervalliharjoittelu, HIIT-ajastin, Tabata, iOS-sovellus, aloitusnäytön widget, lähtölaskenta-ajastin, timer, stopwatch">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/TimerOnMe/fi/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/">
-    <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/TimerOnMe/fi/">
-    <meta property="og:title" content="Oma Ajastin - Useita ajastimia ja sekuntikelloja yhdessä sovelluksessa">
-    <meta property="og:description" content="Käytä jopa 50 ajastinta ja sekuntikelloa kerralla, hälytyksillä jotka soivat puhelimen ollessa lukittuna (AlarmKit), Tabata/EMOM/30-30-intervalleilla, Live Activities -toiminnoilla ja täysiverisellä Apple Watch -sovelluksella. Ilmainen iPhonelle, iPadille ja Apple Watchille.">
-    <meta property="og:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-    <meta property="og:site_name" content="Oma Ajastin">
-    <meta property="og:locale" content="fi_FI">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/TimerOnMe/fi/">
-    <meta name="twitter:title" content="Oma Ajastin - Useita ajastimia ja sekuntikelloja yhdessä sovelluksessa">
-    <meta name="twitter:description" content="Käytä jopa 50 ajastinta ja sekuntikelloa kerralla, hälytyksillä jotka soivat puhelimen ollessa lukittuna (AlarmKit), Tabata/EMOM/30-30-intervalleilla, Live Activities -toiminnoilla ja täysiverisellä Apple Watch -sovelluksella. Ilmainen iPhonelle, iPadille ja Apple Watchille.">
-    <meta name="twitter:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6746874284">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/TimerOnMe.png">
-    <link rel="apple-touch-icon" href="../images/TimerOnMe.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.0">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Oma Ajastin",
-        "operatingSystem": "iOS",
-        "applicationCategory": "UtilitiesApplication",
-        "sameAs": "https://apps.apple.com/app/id6746874284",
-        "downloadUrl": "https://apps.apple.com/app/id6746874284",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Käytä jopa 50 ajastinta ja sekuntikelloa kerralla, hälytyksillä jotka soivat puhelimen ollessa lukittuna (AlarmKit), Tabata/EMOM/30-30-intervalleilla, Live Activities -toiminnoilla ja täysiverisellä Apple Watch -sovelluksella. Ilmainen iPhonelle, iPadille ja Apple Watchille.",
-        "screenshot": "https://masawata.net/TimerOnMe/images/en/gallery-overview.jpg",
-        "softwareVersion": "4.1",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "fi"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Timer on Me — Ajastin, herätys, HIIT, sauna</title>
+  <meta name="description" content="Nyt päivämääräherätykset: kertaluonteinen herätys mille tahansa tulevalle päivämäärälle, toistuvia herätyksiä, 50 ajastinta, HIIT &amp; Tabata ja Apple Watch.">
+  <meta name="apple-itunes-app" content="app-id=6746874284">
+  <link rel="canonical" href="https://masawata.net/TimerOnMe/fi/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
+  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Timer on Me", "description": "Nyt päivämääräherätykset: kertaluonteinen herätys mille tahansa tulevalle päivämäärälle, toistuvia herätyksiä, 50 ajastinta, HIIT & Tabata ja Apple Watch.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/TimerOnMe/fi/", "downloadUrl": "https://apps.apple.com/app/id6746874284", "image": ["https://masawata.net/TimerOnMe/images/asc/fi/01-phone.webp", "https://masawata.net/TimerOnMe/images/asc/fi/02-phone.webp", "https://masawata.net/TimerOnMe/images/asc/fi/03-phone.webp", "https://masawata.net/TimerOnMe/images/asc/fi/04-phone.webp", "https://masawata.net/TimerOnMe/images/asc/fi/05-phone.webp", "https://masawata.net/TimerOnMe/images/asc/fi/06-phone.webp", "https://masawata.net/TimerOnMe/images/asc/fi/07-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/TimerOnMe.png" alt="Timer on Me" class="nav__logo-img">
-                <span class="nav__logo-text">Oma Ajastin</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">Ominaisuudet</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">Kuvakaappaukset</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">Lataa</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#faq" class="nav__link">UKK</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">FI</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option active">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../id/" class="language-option">Indonesia</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../pt-BR/" class="language-option">Português</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../vi/" class="language-option">Tiếng Việt</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me App Icon" class="hero__icon">
-                    <h1 class="hero__title">Jokainen ajastin, hälytys ja sekuntikello — yhtä aikaa</h1>
-                    <p class="hero__description">Käytä jopa 50 ajastinta ja sekuntikelloa samanaikaisesti, aseta hälytyksiä jotka soivat vaikka iPhone on lukittuna, ja ota HIIT-treenien aikoja tarkasti — iPhonella, iPadilla ja Apple Watchilla.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Lataa App Storesta" class="app-store-badge">
-                    </a>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="Timer on Me Screenshot" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Tehokkaat ominaisuudet</h2>
-                    <p class="section-subtitle">Kaikki mitä tarvitset aikasi hallintaan</p>
-                </div>
-
-                <div class="features__grid">
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="7" height="7"></rect>
-                <rect x="14" y="3" width="7" height="7"></rect>
-                <rect x="3" y="14" width="7" height="7"></rect>
-                <rect x="14" y="14" width="7" height="7"></rect>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Moniajastinruudukko</h3>
-                        <p class="feature-card__description">Käytä jopa 50 itsenäistä ajastinta ja sekuntikelloa kerralla selkeässä ruudukossa. Käynnistä, keskeytä ja nollaa jokainen erikseen — tai ohjaa niitä kaikkia yhdessä.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--orange">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="13" r="8"></circle>
-                <polyline points="12 9 12 13 14.5 14.5"></polyline>
-                <path d="M5 3 2 6"></path>
-                <path d="M22 6l-3-3"></path>
-                <path d="M6 19l-2 2"></path>
-                <path d="M18 19l2 2"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Luotettavat hälytykset</h3>
-                        <p class="feature-card__description">Herätys- ja muistutushälytykset mukautetuilla nimillä ja viikonpäiväaikatauluilla, AlarmKit-tekniikalla toteutettuna niin että ne soivat vaikka iPhone on lukittuna tai Oma Ajastin on suljettuna. Mukana torkkuvaihtoehdot ja omat äänet.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="17 1 21 5 17 9"></polyline>
-                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
-                <polyline points="7 23 3 19 7 15"></polyline>
-                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Intervalliharjoittelu</h3>
-                        <p class="feature-card__description">Sisäänrakennetut Tabata-, EMOM- ja 30/30-esiasetukset saavat sinut treenaamaan kahdella napautuksella, lisäksi mukautettujen intervallien muokkain ja koko näytön treenitila värisignaalein.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--teal">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
-                <path d="M9 6l.6-3h4.8l.6 3"></path>
-                <path d="M9 18l.6 3h4.8l.6-3"></path>
-                <polyline points="12 10 12 12 13.5 13.5"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Apple Watch -sovellus</h3>
-                        <p class="feature-card__description">Täysiverinen natiivi Apple Watch -sovellus — käytä useita sekuntikelloja ja ajastimia ranteessasi sadasosasekunnin tarkkuudella ja komplikaatioilla, vaikka iPhone ei olisi lähettyvillä.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                <line x1="12" y1="18" x2="12.01" y2="18"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Widgetit ja Live Activities</h3>
-                        <p class="feature-card__description">Hallitse ajastimiasi aloitusnäytöltä interaktiivisilla widgeteillä ja seuraa lähtölaskentaa lukitusnäytöltä ja Dynamic Islandista Live Activities -toiminnolla.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Hälytysäänet omalla tavallasi</h3>
-                        <p class="feature-card__description">Valitse tusinasta sisäänrakennetusta hälytysäänestä tai tuo omasi. Hälytyksesi soivat vaikka iPhone olisi lukittuna, äänettömällä tai sovellus suljettuna.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
-                <polyline points="17 21 17 13 7 13 7 21"></polyline>
-                <polyline points="7 3 7 8 15 8"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Istuntojen hallinta</h3>
-                        <p class="feature-card__description">Tallenna ajastinasetelmat ja lataa ne milloin tahansa. Vie istunnot JSON-, CSV- tai tekstitiedostona helppoa jakamista ja varmuuskopiointia varten.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Älykäs näyttö</h3>
-                        <p class="feature-card__description">Sadasosasekunnin tarkkuus, prosentuaalinen edistyminen ja näyttö päällä -tila. Mukauta ajastimiesi ulkoasua ja toimintaa.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Katso toiminnassa</h2>
-                    <p class="section-subtitle">Selkeä muotoilu yhdistyy tehokkaaseen toiminnallisuuteen</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-overview.jpg" alt="Time it, wake to it, train with it" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-multitimer.jpg" alt="Run multiple timers at once" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-watch.jpg" alt="Apple Watch app" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-intervals.jpg" alt="Tabata, EMOM &amp; 30/30 intervals" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-workout.jpg" alt="Full-screen interval workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-alarms.jpg" alt="Alarms that ring when locked" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="download__icon">
-                    <h2 class="download__title">Aloita ajanotto nyt</h2>
-                    <p class="download__description">Ilmainen lataus. Useita ajastimia, intervalliharjoittelu ja widgetit — kaikki valmiina. Tiliä ei tarvita.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">Saatavilla iPhonelle, iPadille ja Apple Watchille</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Usein kysytyt kysymykset</h2>
-                    <p class="section-subtitle">Kaikki mitä sinun tarvitsee tietää Oma Ajastin -sovelluksesta</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Soivatko hälytykset ja ajastimet, kun iPhone on lukittuna tai sovellus suljettuna?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kyllä. Hälytykset toimivat Applen AlarmKit-tekniikalla ja soivat vaikka iPhone on lukittuna tai Oma Ajastin on suljettuna, ja ajastinten ilmoitukset laukeavat luotettavasti myös taustalla.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Kuinka monta ajastinta voin käyttää kerralla?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Jopa 50 itsenäistä ajastinta ja sekuntikelloa yhdessä istunnossa — käynnistä, pysäytä ja nollaa ne erikseen tai synkronoiduissa ryhmissä.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Onko Apple Watch -sovellusta?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kyllä — täysiverinen natiivi watchOS-sovellus, jossa on useita samanaikaisia ajastimia ja sekuntikelloja, sadasosasekunnin tarkkuus ja komplikaatiot. Se toimii silloinkin, kun iPhone ei ole ulottuvilla.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Voinko käyttää sitä HIIT- ja Tabata-treeneihin?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ehdottomasti. Sisäänrakennetut Tabata-, EMOM- ja 30/30-esiasetukset saavat sinut alkuun kahdella napautuksella, lisäksi mukautettujen intervallien muokkain omille työ-/lepo-/kierrossarjoillesi ja koko näytön treenitila.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Voinko lisätä omat hälytysäänet?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kyllä — valitse mukana tulevista soittoäänistä tai tuo omat äänitiedostosi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Toimiiko se offline-tilassa? Tarvitsenko tilin?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Tiliä tai internetyhteyttä ei tarvita. Kaikki toimii laitteessa ja tietosi pysyvät paikallisina.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Onko se ilmainen?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kyllä, Oma Ajastin on ilmainen ladata. Valinnainen sovelluksen sisäinen osto avaa lisähälytyksiä kahden ensimmäisen lisäksi, jos tarvitset niitä.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">Yksityisyytesi on tärkeää</h2>
-                    <p class="privacy__description">Oma Ajastin tallentaa kaikki tietosi paikallisesti laitteellesi. Ei tilejä, ei seurantaa, ei tiedonkeruuta. Ajastinistuntosi ovat vain sinun.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Lue tietosuojakäytäntömme</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="footer__logo">
-                    <span class="footer__name">Oma Ajastin</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">Tietosuojakäytäntö</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Käyttöehdot</a>
-                </div>
-                <p class="footer__copyright">© 2026 Oma Ajastin. Kaikki oikeudet pidätetään.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js?v=1.0"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/TimerOnMe.png" alt="" width="44" height="44"><span>Timer on Me</span></a>
+    <details class="asc-languages">
+      <summary>Kieli: Suomi</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../pt-PT/" lang="pt-PT">Português (Portugal)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Timer on Me</p>
+        <h1>Ajastin, herätys, HIIT, sauna</h1>
+        <p>Nyt päivämääräherätykset: kertaluonteinen herätys mille tahansa tulevalle päivämäärälle, toistuvia herätyksiä, 50 ajastinta, HIIT &amp; Tabata ja Apple Watch.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">Lataa App Storesta</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/fi/01-phone.webp" alt="Timer on Me">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Tietoja apista</h2>
+      <div class="asc-prose"><p>Timer on Me on moniajastin ja sekuntikello iPhonelle, iPadille ja Apple Watchille. Jopa 50 itsenäistä ajastinta yhtä aikaa, tarkat intervallitreenit ja hälytykset, jotka oikeasti soivat — myös kun iPhone on lukossa tai sovellus kiinni.</p>
+<h3>HERÄTYKSET</h3>
+<ul><li>Herätys- ja muistutushälytykset omilla nimillä ja viikonpäiväaikatauluilla</li><li>AlarmKitin voimalla — soi myös kun iPhone on lukossa tai Timer on Me kiinni</li><li>Säädettävä torkku (3 / 5 / 9 / 15 / 30 minuuttia) tai ei torkkua lainkaan</li><li>Valitse sisäänrakennetuista soittoäänistä tai tuo omat äänesi</li><li>Päälle ja pois yhdellä napautuksella omasta Herätys-välilehdestä</li></ul>
+<h3>TREENI JA INTERVALLIT</h3>
+<ul><li>Valmiit Tabata-, EMOM- ja 30/30-presetit — kaksi napautusta ja menoksi</li><li>Oma intervallieditori: työ, lepo ja kierrokset minuutteina ja sekunteina</li><li>Koko näytön treenitila, värinvaihto vaiheittain ja hiljainen tila</li><li>Pysäytys, ohitus ja jatkaminen kesken treenin ilman etenemisen menetystä</li></ul>
+<h3>APPLE WATCH</h3>
+<ul><li>Aito natiivi watchOS-sovellus, ei pelkkä puhelimen peili</li><li>Useita sekuntikelloja ja ajastimia ranteessa yhtä aikaa</li><li>Sekuntikello sadasosasekunnin tarkkuudella</li><li>Omat kellotaulun komplikaatiot yhden napautuksen käynnistykseen</li><li>Toimii itsenäisesti, vaikka iPhone ei olisi lähellä</li></ul>
+<h3>50 AJASTINTA YHTÄ AIKAA</h3>
+<ul><li>Jopa 50 itsenäistä ajastinta ja sekuntikelloa samassa istunnossa</li><li>Käynnistä, pysäytä ja nollaa yksittäin tai ryhminä</li><li>Automaattinen toisto syklisille kierroksille</li><li>Ajastimet jatkavat nollan jälkeen ylitysajan tallentamiseksi</li><li>Värilliset edistymispalkit: keltainen 50 %:ssa, punainen 10 %:ssa</li><li>Järjestä vetämällä, nimeä omin sanoin</li></ul>
+<h3>LUOTETTAVAT HÄLYTYKSET</h3>
+<ul><li>AlarmKit: hälytykset soivat myös kun iPhone on lukossa tai sovellus kiinni</li><li>Dynamic Island ja Live Activity — eteneminen yhdellä vilkaisulla</li><li>Kotinäytön widgetit: pieni, keskikoko, suuri</li><li>Sisäänrakennetut äänet: kellot, linnunlaulu, vintage-puhelimet</li><li>Napauta kuullaksesi ennen valintaa</li><li>&quot;Pidä näyttö päällä&quot; -tila pitkiin treeneihin</li></ul>
+<h3>MUKAUTA JA JAA</h3>
+<ul><li>Näytä tai piilota desimaalit, summat ja prosentit</li><li>Tallenna ja korvaa presetit, palauta yhdellä napautuksella</li><li>Vie CSV-, JSON- tai tekstitiedostona</li><li>Jaa kollegoille, oppilaille tai valmentajalle</li></ul>
+<p>iPhonelle, iPadille JA APPLE WATCHille</p>
+<ul><li>Sovitteleva asettelu kaikille näyttökokoille</li><li>Split View iPadilla</li><li>34 kieltä</li></ul>
+<h3>TÄYDELLINEN</h3>
+<ul><li>HIIT, Tabata, CrossFit ja kiertoharjoittelu</li><li>Nyrkkeily, potkunyrkkeily ja kamppailulajien kierrokset</li><li>Pomodoro, ylioppilaskirjoitukset ja keskittyminen</li><li>Kahvin suodatus, tee, pehmeäksi keitetty kananmuna, uunin ajat</li><li>Jooga, pilates, meditaatio ja hengitysharjoitukset</li><li>Esitysharjoitukset ja soittoläksyt</li><li>Oppitunnit, työpajat ja ryhmätoiminta</li><li>Lautapelit ja saunailtojen ajoitukset</li></ul>
+<p>Lataa Timer on Me ja ota jokainen minuutti haltuun — salilla, töissä tai kotona.</p>
+<p>Tietosuojakäytäntö: https://masawata.net/privacy-policy.html Käyttöehdot: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Näyttökuvat</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/fi/01-phone.webp" alt="Timer on Me — Näyttökuvat 1" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/02-phone.webp" alt="Timer on Me — Näyttökuvat 2" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/03-phone.webp" alt="Timer on Me — Näyttökuvat 3" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/04-phone.webp" alt="Timer on Me — Näyttökuvat 4" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/05-phone.webp" alt="Timer on Me — Näyttökuvat 5" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/06-phone.webp" alt="Timer on Me — Näyttökuvat 6" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/07-phone.webp" alt="Timer on Me — Näyttökuvat 7" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Timer on Me</h2>
+      <p>Nyt päivämääräherätykset: kertaluonteinen herätys mille tahansa tulevalle päivämäärälle, toistuvia herätyksiä, 50 ajastinta, HIIT &amp; Tabata ja Apple Watch.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">Lataa App Storesta</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Tietosuojakäytäntö</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Käyttöehdot</a>
+    <a href="https://masawata.net/">Tuki</a>
+  </footer>
 </body>
 </html>

@@ -1,940 +1,122 @@
-<!DOCTYPE html>
-<html lang="cs">
+<!doctype html>
+<html lang="cs" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZL852HY2Z4');
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Ice Time Track - Automatická detekce střídání pro Apple Watch</title>
-    <meta name="title" content="Ice Time Track - Automatická detekce střídání pro Apple Watch">
-    <meta name="description" content="Sledujte svůj čas na ledě automaticky s Apple Watch. Detekce střídání, záznam gólů a trestů, monitorování tepu a pohybu.">
-    <meta name="keywords" content="hockey, ice time, shift tracking, Apple Watch, hockey app, ice hockey, shift detection, hockey stats, game tracker">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/IceTimeTrack/cs/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/IceTimeTrack/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/IceTimeTrack/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/IceTimeTrack/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/IceTimeTrack/fr/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/IceTimeTrack/nb/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/IceTimeTrack/cs/">
-    <meta property="og:title" content="Ice Time Track - Automatická detekce střídání pro Apple Watch">
-    <meta property="og:description" content="Sledujte svůj čas na ledě automaticky s Apple Watch. Detekce střídání, záznam gólů a trestů, monitorování tepu a pohybu.">
-    <meta property="og:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-    <meta property="og:site_name" content="Ice Time Track">
-    <meta property="og:locale" content="cs_CZ">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/IceTimeTrack/cs/">
-    <meta name="twitter:title" content="Ice Time Track - Automatická detekce střídání pro Apple Watch">
-    <meta name="twitter:description" content="Sledujte svůj čas na ledě automaticky s Apple Watch. Detekce střídání, záznam gólů a trestů, monitorování tepu a pohybu.">
-    <meta name="twitter:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-
-    <!-- Apple Smart Banner (placeholder app-id) -->
-    <meta name="apple-itunes-app" content="app-id=PLACEHOLDER">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/app-icon.png">
-    <link rel="apple-touch-icon" href="../images/app-icon.png">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Ice Time Track",
-        "operatingSystem": "iOS, watchOS",
-        "applicationCategory": "SportsApplication",
-        "sameAs": "https://apps.apple.com/app/id6758258172",
-        "downloadUrl": "https://apps.apple.com/app/id6758258172",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Sledujte svůj čas na ledě automaticky s Apple Watch. Detekce střídání, záznam gólů a trestů, monitorování tepu a pohybu.",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "cs"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ice Time Track — Hokej Střídání Trénink</title>
+  <meta name="description" content="Automatické sledování času na ledě s Apple Watch – nově se sledováním výstroje a připomínkami broušení bruslí. Po zápase si projděte střídání, statistiky a zdraví.">
+  <meta name="apple-itunes-app" content="app-id=6758258172">
+  <link rel="canonical" href="https://masawata.net/IceTimeTrack/cs/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/IceTimeTrack/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/IceTimeTrack/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/IceTimeTrack/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/IceTimeTrack/fr-FR/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/IceTimeTrack/no/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:dark;--accent:#FFB81C;--accent-dark:#C98400;--bg:#0D0D0D;--surface:#1A1A1A;--ink:#FFFFFF;--muted:#A0A0A0;--line:#2A2A2A}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ice Time Track", "description": "Automatické sledování času na ledě s Apple Watch – nově se sledováním výstroje a připomínkami broušení bruslí. Po zápase si projděte střídání, statistiky a zdraví.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/IceTimeTrack/cs/", "downloadUrl": "https://apps.apple.com/app/id6758258172", "image": ["https://masawata.net/IceTimeTrack/images/asc/cs/01-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/02-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/03-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/04-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/05-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/06-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/07-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/08-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/09-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/10-watch.webp", "https://masawata.net/IceTimeTrack/images/asc/cs/11-watch.webp"]}</script>
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/app-icon.png" alt="Ice Time Track" class="nav__logo-icon">
-                <span class="nav__logo-text">Ice Time Track</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item"><a href="#features" class="nav__link">Funkce</a></li>
-                <li class="nav__item"><a href="#how-it-works" class="nav__link">Jak to funguje</a></li>
-                <li class="nav__item"><a href="#screenshots" class="nav__link">Snímky</a></li>
-                <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
-                <li class="nav__item"><a href="#download" class="nav__link nav__link--cta" id="nav-cta">Předobjednat</a></li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">CS</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option active">Čeština</a>
-                    <a href="../da/" class="language-option">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Countdown Section -->
-        <section class="countdown" id="countdown">
-            <div class="container">
-                <div class="countdown__content">
-                    <h2 class="countdown__title" id="cd-title">Spuštění za</h2>
-                    <p class="countdown__promo countdown--hidden" id="cd-promo">1 rok za $6.99 USD</p>
-                    <p class="countdown__promo-sub countdown--hidden" id="cd-promo-sub">Časově omezená nabídka — nenechte si ujít</p>
-                    <div class="countdown__timer">
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-days">00</span>
-                            <span class="countdown__label">Dny</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-hours">00</span>
-                            <span class="countdown__label">Hodiny</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-minutes">00</span>
-                            <span class="countdown__label">Minuty</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-seconds">00</span>
-                            <span class="countdown__label">Sekundy</span>
-                        </div>
-                    </div>
-                    <p class="countdown__date" id="cd-date">14. února 2026</p>
-                    <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6758258172&code=LAUNCH" class="countdown__claim-btn countdown--hidden" id="cd-claim" target="_blank" rel="noopener">Uplatnit nabídku</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="hero" id="hero">
-            <div class="hero__bg"></div>
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <div class="hero__icon-wrapper">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="hero__icon">
-                    </div>
-
-                    <h1 class="hero__title">Automatická detekce střídání<br>pro hokejisty</h1>
-                    <p class="hero__description">Zjistěte přesně, kolik času na ledě máte — bez dotyku hodinek. Sledujte góly, tresty a třetiny. Stačí spustit a hrát.</p>
-
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn" id="hero-download" target="_blank" rel="noopener">Předobjednat nyní</a>
-
-                    <img src="../assets/app-store-badges/app-store-badge-cs.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-
-                    <p class="hero__platforms">K dispozici pro Apple Watch + iPhone · Spuštění 14. února 2026</p>
-
-                    <div class="hero__callouts">
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                            <span>Detekce střídání</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
-                            <span>Sledování gólů</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
-                            <span>Záznam trestů</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                            <span>Herní analytika</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero__device">
-                    <img src="../images/hero-watch.png" alt="Ice Time Track on Apple Watch" class="hero__image">
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Funkce</h2>
-                    <p class="section-subtitle">Vše potřebné pro sledování hry</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Automatická detekce střídání</h3>
-                        <p class="feature-card__description">Vstupte na led a vaše hodinky to vědí. Žádná tlačítka během hry — senzory automaticky rozpoznají bruslení vs. lavičku.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Sledování herních událostí</h3>
-                        <p class="feature-card__description">Zaznamenávejte góly, asistence a tresty přímo z zápěstí. Sledujte třetiny a uchovávejte kompletní záznam každého zápasu.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Zdravotní metriky v reálném čase</h3>
-                        <p class="feature-card__description">Monitorujte tep, spálené kalorie a intenzitu pohybu v reálném čase. Podívejte se, jak tvrdě pracujete při každém střídání.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Analytika relací</h3>
-                        <p class="feature-card__description">Prohlédněte si celkový čas na ledě, počet střídání, průměrnou délku střídání a osobní rekordy.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M16 16l2 2"/><path d="M8 16l-2 2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Integrace Apple Health</h3>
-                        <p class="feature-card__description">Relace se synchronizují do Apple Health jako hokejové tréninky. Přispívejte ke svým kroužkům aktivity.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="1" y1="1" x2="23" y2="23"/><path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.56 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Funguje offline</h3>
-                        <p class="feature-card__description">Vaše hodinky zaznamenávají vše nezávisle. Na lavičce nepotřebujete iPhone — data se synchronizují automaticky po zápase.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- How It Works Section -->
-        <section class="how-it-works" id="how-it-works">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Jak to funguje</h2>
-                    <p class="section-subtitle">Od rozcvičky po analýzu po zápase</p>
-                </div>
-
-                <div class="how-it-works__steps">
-                    <div class="step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="step__number">1</div>
-                        <h3 class="step__title">Před zápasem</h3>
-                        <p class="step__description">Otevřete Ice Time Track na Apple Watch. Klepněte na Zápas, Trénink nebo Přátelák.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-before.png" alt="Před zápasem" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="step__number">2</div>
-                        <h3 class="step__title">Během zápasu</h3>
-                        <p class="step__description">Vstupte na led a vaše hodinky to automaticky detekují. Zaznamenávejte góly a tresty klepnutím.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-during.png" alt="Během zápasu" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="step__number">3</div>
-                        <h3 class="step__title">Po zápase</h3>
-                        <p class="step__description">Vaše relace se synchronizuje s iPhonem. Prohlédněte si čas na ledě, střídání, tep a herní události.</p>
-                        <div class="step__device step__device--phone">
-                            <img src="../images/step-after.png" alt="Po zápase" class="step__device-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Gallery Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Podívejte se</h2>
-                    <p class="section-subtitle">Navrženo pro hokejisty</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <button class="screenshots__arrow screenshots__arrow--prev" aria-label="Previous screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-                    </button>
-
-                    <div class="screenshots__track">
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-on-ice.png" alt="Apple Watch on-ice session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-sessions.png" alt="iPhone sessions" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-events.png" alt="Apple Watch events" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-analytics.png" alt="iPhone analytics" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-game-detail.png" alt="iPhone game detail" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-settings.png" alt="iPhone settings" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-session.png" alt="iPhone live session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-session-header.png" alt="iPhone session header" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-meter.png" alt="iPhone live meter" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-motion-stats.png" alt="iPhone motion stats" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-shift-list.png" alt="iPhone shift list" class="screenshot-img"></div>
-                    </div>
-
-                    <button class="screenshots__arrow screenshots__arrow--next" aria-label="Next screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section (hidden until launch) -->
-        <section class="testimonials testimonials--hidden" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Co říkají hráči</h2>
-                    <p class="section-subtitle">Důvěřují nám hokejisté po celém světě</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Konečně aplikace, která sleduje můj čas na ledě bez nutnosti cokoliv ťukat. Změna hry pro sledování střídání."</p>
-                        <span class="testimonial-card__author">— Hockey Dad</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Miluju sledování tepu a statistik střídání po každém zápase. Pomáhá mi porozumět mé kondici."</p>
-                        <span class="testimonial-card__author">— Beer League Player</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Automatická detekce je překvapivě přesná. Moje děti ji používají každý zápas."</p>
-                        <span class="testimonial-card__author">— Youth Hockey Parent</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Často kladené dotazy</h2>
-                    <p class="section-subtitle">Vše, co potřebujete vědět o Ice Time Track</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak začnu sledovat relaci?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Otevřete aplikaci Ice Time Track na Apple Watch. Vyberte typ relace (Zápas, Trénink, Přátelák nebo Jiné) a klepnutím začněte. Aplikace automaticky začne rozpoznávat, kdy jste na ledě a kdy na střídačce.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jaký je rozdíl mezi Zápasem, Tréninkem a Přátelákem?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Jedná se o štítky, které vám pomohou organizovat vaše relace. Zápas je pro oficiální utkání, Trénink pro týmové tréninky, Přátelák pro neoficiální hry a Jiné pro vše ostatní, jako je veřejné bruslení. Detekce funguje stejně pro všechny typy.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Potřebuji mít iPhone u sebe během hry?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ne. Apple Watch zaznamenávají vše samostatně. Vaše relace se automaticky synchronizuje s iPhonem, jakmile budou zařízení po hře v dosahu.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co je krok?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>"Krok" je detekován vaším Apple Watch, když pomocí akcelerometru zaznamená rytmický pohyb paže. Ve skutečnosti nedetekuje dopad nohy na zem — místo toho rozpoznává pohyb paže, který doprovází pohyb. Při hokeji vytvářejí bruslařský krok a práce s holí podobné pohyby paží, takže aplikace používá "kroky za sekundu" jako jeden z ukazatelů aktivní hry.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co je zrychlení?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Zrychlení měří, jak rychle zrychlujete, zpomalujete nebo měníte směr. Akcelerometr Apple Watch detekuje tento pohyb ve třech rozměrech. Tvrdá zastavení, výbušné starty a rychlé změny směru při rozehrávce registrují vysoké zrychlení — zatímco sezení na střídačce a čekání na další střídání ukazuje minimální aktivitu.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co je rotace?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Rotace měří, jak moc a jak rychle se otáčíte nebo točíte. Gyroskop Apple Watch detekuje tento pohyb, který je v hokeji obzvláště běžný — přechody přes střední pásmo, otáčení pro bruslení pozpátku v obraně nebo vytočení po bodyčeku vytvářejí výrazné rotační vzory. V kombinaci se zrychlením to pomáhá aplikaci rozlišit aktivní bruslení od stání na místě.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak aplikace pozná, že jsem na ledě?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Aplikace kombinuje více senzorů: akcelerometr detekuje intenzitu pohybu, krokoměr sleduje váš bruslařský krok a GPS měří vaši rychlost. Když aktivně bruslíte, tyto senzory ukazují vysokou aktivitu. Když sedíte na střídačce, aktivita výrazně klesá.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak je stav na ledě/na střídačce spouštěn pohybem?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Watch čtou intenzitu pohybu, bruslařský krok a rychlost GPS. Když aplikace detekuje dostatečně silný pohyb z těchto senzorů, označí vás jako na ledě. Když všechny tři hodnoty klesnou na nízkou úroveň a zůstanou tam, začne přechod na střídačku.</p><p>Nastavení citlivosti určuje, kolik pohybu je potřeba:</p><p>• Vysoká — Zachytí lehčí pohyby. Použijte, pokud vaše střídání nejsou detekovány.<br>• Střední — Vyvážená pro většinu hráčů. Toto je výchozí.<br>• Nízká — Vyžaduje silnější pohyb pro uznání jako bruslení. Použijte, pokud dostáváte falešné čtení na ledě, zatímco jste na střídačce.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak fungují pokročilá nastavení detekce?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Pokročilá nastavení vám dávají plnou kontrolu nad každým prahem detekce. Úprava jakéhokoli posuvníku automaticky přepne citlivost na „Vlastní.“</p><p>Spouštěč Na ledě — Abyste byli označeni jako bruslení, BUĎ vaše rychlost GPS musí překročit práh po dobu 3 sekund, NEBO oba vaše zrychlení a kadence kroků musí překročit své prahy po dobu držení.<br>• Acceleration: 0.2–3.0G (default: 0.2G)<br>• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)<br>• GPS Speed: 0.5–3.0 m/s (default: 1.5)<br>• Hold Duration: 1–5 sec (default: 2s)</p><p>Spouštěč Na střídačce — Pro přechod na střídačku musí VŠECHNY tři hodnoty klesnout pod své prahy po dobu držení.<br>• Acceleration: 0.3–1.5G (default: 0.7G)<br>• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)<br>• GPS Speed: 0.1–1.0 m/s (default: 0.5)<br>• Hold Duration: 1–5 sec (default: 3s)</p><p>Doporučujeme používat přednastavené úrovně (Vysoká, Střední, Nízká), pokud nepotřebujete jemné ladění. Kdykoli klepněte na „Obnovit předvolbu“ pro návrat.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Proč je zpoždění, když přestanu bruslit?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Jedná se o "pohybový buffer" — krátkou čekací dobu (výchozí 20 sekund) předtím, než aplikace potvrdí, že jste zpět na střídačce. To zabraňuje krátkým pauzám během střídání být počítány jako čas na střídačce.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co je pohybový buffer?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Pohybový buffer je konfigurovatelné zpoždění (10–30 sekund), které zabraňuje falešným ukončením střídání. Když přestanete se pohybovat, aplikace čeká tuto dobu, než vás označí jako "na střídačce". Pokud se během bufferu znovu začnete pohybovat, vaše střídání pokračuje bez přerušení.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co je herní záznam?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Herní záznam vám umožňuje zaznamenávat události během relace — góly pro, góly proti, tresty a začátky třetin. Události se zaznamenávají z Apple Watch během hry a lze je také přidávat z iPhonu. Skóre a osobní statistiky (moje góly, moje asistence, trestné minuty) se počítají z událostí, které zaznamenáte.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Musím zahájit relaci Zápas, abych mohl používat herní záznam?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ne. Herní záznam je dostupný pro všechny typy relací — Zápas, Trénink, Přátelák a Jiné. Góly a tresty můžete zaznamenávat v jakékoli relaci.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mohu zaznamenat výsledek zápasu bez zahájení živého sledování na Apple Watch?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ano. Klepněte na tlačítko + vedle „Nedávné relace“ na Nástěnce pro přidání ručního záznamu zápasu. Můžete zadat skóre, soupeře, góly, asistence, tresty a informace o třetinách — vše bez nosení hodinek. To je užitečné pro zaznamenávání zápasů dodatečně nebo pro analytické účely.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak zaznamenávám události na hodinkách?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Během aktivní relace klepněte na tlačítko LOG ve spodní části obrazovky. Vyberte typ události (gól pro, gól proti, trest nebo začátek třetiny) a vyplňte podrobnosti. Událost se zaznamená s aktuálním časem a objeví se na vašem iPhonu během několika sekund.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak zaznamenávám události na iPhonu?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Zatímco je relace aktivní na hodincích, otevřete aplikaci na iPhonu pro zobrazení živé relace. Události zaznamenané na hodincích se zobrazují na iPhonu v reálném čase. Události můžete také přidávat nebo mazat přímo z iPhonu. Úpravy provedené na iPhonu se během relace neodesílají zpět na hodinky — hodinky nadále zobrazují svůj vlastní záznam. Po skončení relace se oba zdroje automaticky sloučí a změny provedené na iPhonu (přidání a smazání) mají přednost.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jaké typy událostí mohu zaznamenat?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Čtyri typy: Gól pro (volitelně označit „Dal jsem gól“ nebo „Asistoval jsem“), Gól proti, Trest (s typem trestu, trváním a zda je proti vašemu týmu nebo soupeři) a Začátek třetiny (označuje prestávky na vaší c̍asové ose).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co se stane, když nenastavím čas události?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Pokud přidáte událost bez uvedení časového razítka, uloží se bez něj. Událost se stále zobrazuje ve vašem herním záznamu a započítává se do skóre a statistik. Vždy se můžete vrátit a přidat nebo opravit čas po relaci ze stránky detailů relace na iPhonu.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mohu upravit události po skončení relace?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ano. Otevřete relaci na iPhonu a klepněte na jakoukoli událost pro úpravu jejích detailů — typ, časové razítko, osobní účast (gól/asistence), informace o trestu a další. Můžete také přidávat nové události nebo mazat stávající. Všechny změny se ukládají okamžitě.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak se slučují události z hodinek a iPhonu?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Během relace si hodinky a iPhone vedou každý svůj vlastní záznam. Když relace skončí a hodinky odešlou finální data na iPhone, aplikace sloučí oba zdroje: události smazané na iPhonu se odebere, události přidané na iPhonu se zahrnou a skóre se přepočítá ze sloučeného seznamu. Konečný výsledek se uloží jako jedna sjednocená relace.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co dělá citlivost detekce?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Citlivost určuje, kolik pohybu je potřeba k zaregistrování jako "bruslení." Vysoká citlivost detekuje lehké pohyby (dobré, pokud se střídání nedetekují). Nízká citlivost vyžaduje silnější pohyb (dobré, pokud dochází k falešným detekcím na střídačce). Střední je výchozí nastavení a funguje dobře pro většinu hráčů.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak upravím dobu vyrovnávací paměti?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Otevřete aplikaci Ice Time Track na svém iPhonu, přejděte do Nastavení a upravte výběr "Pohybový buffer." Kratší buffery (10–15 sekund) ukončí střídání rychleji. Delší buffery (25–30 sekund) jsou tolerantnější ke krátkým pauzám během střídání.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co jsou haptická upozornění a jak je používám?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Haptická upozornění jsou vibrační notifikace na vašich hodinkách, když se změní váš stav. Můžete je nastavit tak, aby vibrovaly při vstupu na led, při návratu na střídačku, při obou událostech, nebo je zcela vypnout. Pomáhá to udržet přehled bez nutnosti dívat se na hodinky.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co dělá „Automatické ukončení relace"?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Automatické ukončení automaticky zastaví vaši relaci po nastaveném čase (výchozí 100 minut). Tím se zabrání neomezenému běhu aplikace, pokud zapomenete relaci ukončit ručně, což šetří baterii a zajišťuje uložení vašich dat.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Pokud změním nastavení během aktivní relace, projeví se okamžitě?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ano. Změny citlivosti, pohybového bufferu a haptických upozornění se synchronizují s vašimi hodinkami a projeví se okamžitě během probíhající relace. Nemusíte čekat na další relaci – úpravy se projeví během několika sekund po jejich změně na iPhonu.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Co jsou Pokročilá nastavení?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Pokročilá nastavení vám umožňují jemně doladit každý detekční práh jednotlivě. Rozbaľte sekci v nastavení Detekce a nakonfigurujte zrychlení, kadenci kroků, rychlost GPS a dobu držení pro spouštěče na ledě i na střídačce. Když upravíte jakýkoli posuvník, citlivost se automaticky přepne na "Vlastní." Použijte "Obnovit předvolbu" pro návrat k předvolbám Nízká/Střední/Vysoká.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jaká data se ukládají do Apple Health?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Pokud je povoleno, aplikace uloží vaši relaci jako hokejový trénink včetně: délky trvání, spálených aktivních kalorií a dat o srdeční frekvenci (průměrná a maximální). To přispívá k vašim kroužkům Aktivity a historii kondice.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak zapnu/vypnu integraci se HealthKit?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Otevřete Nastavení v aplikaci na iPhonu a přepněte „Uložit do Apple Health." Pokud je povoleno, dokončené relace se ukládají jako tréninky. Pokud je zakázáno, vaše data zůstávají pouze v Ice Time Track.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Proč se mi nezobrazuje srdeční tep?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ujistěte se, že hodinky nosíte těsně a snímač srdeční frekvence má dobrý kontakt s kůží. Zobrazení srdeční frekvence může trvat 30–60 sekund po zahájení relace. Pokud problémy přetrvávají, zkontrolujte, zda má Ice Time Track oprávnění číst srdeční frekvenci v Nastavení &gt; Soukromí &gt; Zdraví.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak se synchronizují relace mezi hodinkami a iPhonem?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Relace se synchronizují automaticky, když jsou obě zařízení v dosahu a připojená. Po ukončení relace na hodinkách se přenese do iPhonu během několika sekund až minut. Synchronizaci můžete také spustit ručně z aplikace pro iPhone.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Proč se mi na iPhonu nezobrazuje relace?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nejprve se ujistěte, že relace na hodinkách skončila. Otevřete obě aplikace a zkontrolujte, že je zapnutý Bluetooth. Relace se synchronizují, když je aplikace na hodinkách otevřená nebo krátce po ukončení. Pokud se stále nezobrazí, zkuste znovu otevřít aplikaci na hodinkách pro spuštění synchronizace.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mohu smazat relaci?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ano. V aplikaci pro iPhone přejděte na seznam relací, přejeďte doleva na relaci, kterou chcete odstranit, a klepněte na Smazat. Tím ji odstraníte z obou zařízení.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Aplikace přesně nedetekuje moje střídání</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Zkuste upravit citlivost detekce v Nastavení. Pokud se střídání nedetekují, zvyšte citlivost na Vysoká. Pokud dostáváte falešné detekce na střídačce, snižte na Nízká. Také se ujistěte, že hodinky nosíte bezpečně na zápěstí, ne přes tlusté rukavice.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Aplikace přestala nahrávat uprostřed hry</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>To se může stát, pokud se hodinky restartují nebo aplikace spadne. Zkontrolujte, zda se automatické ukončení spustilo dříve, než se očekávalo (nastavitelné v Nastavení).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Aplikace na hodinkách uvízla na „Vyžadována synchronizace“</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Aplikace na hodinkách a iPhonu spolu potřebují komunikovat pro dokončení úvodního nastavení. Ujistěte se, že aplikace na iPhonu je otevřená během nastavování hodinek. Pokud obrazovka přetrvává, vynuťte ukončení obou aplikací a znovu je spusťte. Pokud problém přetrvává, odstraňte a znovu nainstalujte obě aplikace.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Proč aplikace potřebuje přístup k poloze?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Poloha (GPS) se používá k měření rychlosti bruslení, což pomáhá přesně rozlišit, kdy jste na ledě a kdy na střídačce. GPS data zůstávají na vašich zařízeních a nikam se neodesílají.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Proč aplikace potřebuje přístup k pohybu a fitness?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Pohybové senzory (akcelerometr a gyroskop) detekují vzorce vašeho pohybu a rozlišují bruslení od sezení. Přístup ke kondici umožňuje čtení počtu kroků pro zlepšení přesnosti detekce. Tato data se zpracovávají výhradně na vašich hodinkách.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jsou moje data sdílena s někým?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ne. Všechna data relací, zdravotní metriky a údaje ze senzorů zůstávají na vašich Apple Watch a iPhonu. Nic se neodesílá na externí servery. Vaše data patří vám.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jak povolím přístup k poloze, pokud jsem ho omylem odmítl?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Možnost 1 (na hodinkách): Otevřete Nastavení &gt; Soukromí a zabezpečení &gt; Polohové služby &gt; Ice Time Track a vyberte „Při používání“. Možnost 2 (z iPhonu): Otevřete aplikaci Watch &gt; Soukromí &gt; Polohové služby &gt; Ice Time Track a povolte přístup.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Download CTA Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content" data-aos="fade-up">
-                    <div class="download__icon">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="download__icon-img">
-                    </div>
-                    <h2 class="download__title">Připraveni sledovat čas na ledě?</h2>
-                    <p class="download__description">Stáhněte si Ice Time Track a začněte další relaci. Automatická detekce střídání, záznam herních událostí a zdravotní metriky — vše z vašeho zápěstí.</p>
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn launch-btn--lg" id="download-cta" target="_blank" rel="noopener">Předobjednat nyní</a>
-                    <img src="../assets/app-store-badges/app-store-badge-cs.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <span class="footer__name">Ice Time Track</span>
-                <div class="footer__links">
-                    <a href="/privacy-policy.html" class="footer__link">Zásady ochrany osobních údajů</a>
-                    <a href="#" class="footer__link">Podmínky služby</a>
-                    <a href="mailto:support@masawata.net" class="footer__link">Podpora</a>
-                </div>
-                <p class="footer__copyright">© 2026 MasaWata. Všechna práva vyhrazena.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/app-icon.png" alt="" width="44" height="44"><span>Ice Time Track</span></a>
+    <details class="asc-languages">
+      <summary>Jazyk: Čeština</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Ice Time Track</p>
+        <h1>Hokej Střídání Trénink</h1>
+        <p>Automatické sledování času na ledě s Apple Watch – nově se sledováním výstroje a připomínkami broušení bruslí. Po zápase si projděte střídání, statistiky a zdraví.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Stáhnout v App Storu</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/cs/01-phone.webp" alt="Ice Time Track">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>O aplikaci</h2>
+      <div class="asc-prose"><p>Vaše střídání. Sledována automaticky.</p>
+<p>Ice Time Track používá Apple Watch k rozpoznání, kdy bruslíte a kdy jste na střídačce. Žádná tlačítka, žádné starosti. Stačí spustit relaci a hrát.</p>
+<h3>JAK TO FUNGUJE</h3>
+<p>Náš algoritmus detekce pohybu analyzuje data z akcelerometru, gyroskopu a GPS, aby rozlišil bruslení od odpočinku. Váš iPhone synchronizuje živé aktualizace, takže můžete sledovat statistiky v reálném čase nebo po zápase.</p>
+<h3>FUNKCE</h3>
+<ul><li>Automatická detekce střídání, sledování pohybu a zdravotních metrik</li><li>Celkový čas na ledě a rozpis po střídáních</li><li>Záznam zápasu – góly, tresty, přestávky</li><li>Tepová frekvence a kalorie za střídání</li><li>Vizuální časová osa vzoru led/střídačka</li><li>Historie relací s trendy</li><li>Označení polohy pro každý zimní stadion</li><li>Režimy zápas, trénink a přátelák</li><li>Volitelná haptická upozornění</li><li>Export dat do CSV nebo JSON</li></ul>
+<h3>INTEGRACE APPLE</h3>
+<p>Funguje s Apple Watch. Synchronizuje se s Apple Health.</p>
+<h3>SOUKROMÍ</h3>
+<p>Všechna data uložena lokálně. Účet není vyžadován.</p>
+<p>Vytvořeno hokejisty pro hokejisty. Poznejte svůj čas na ledě. Posuňte svou hru.</p>
+<p>Ice Time Track promění vaše Apple Watch v inteligentního hokejového společníka, který přesně ví, kdy jste na ledě a kdy na střídačce. Žádná tlačítka. Žádné rozptylování. Čisté automatické sledování, abyste se mohli soustředit na nejlepší výkon.</p>
+<h3>JAK TO FUNGUJE</h3>
+<p>Spusťte relaci na Apple Watch a zapomeňte na ni. Naše pokročilá detekce pohybu analyzuje data v reálném čase. iPhone zůstává synchronizován s živými aktualizacemi – sledujte statistiky z tribuny nebo si vše prohlédněte po závěrečné siréně.</p>
+<h3>CO OBJEVÍTE</h3>
+<ul><li>Celkový Čas na Ledě — Přesně víte, kolik minut jste strávili tam, kde to počítá</li><li>Rozpis po Střídáních — Každé střídání s délkou, tepovou frekvencí a kaloriemi</li><li>Záznamy zápasů – góly/tresty podle třetin</li><li>Sledování Tepu — Monitorujte úsilí při bruslení vs. regeneraci</li><li>Spálené Kalorie — Přesná data synchronizovaná z Apple Health</li><li>Časová Osa Relace — Vizuální graf vzoru led/střídačka</li><li>Paměť Lokace — Automatické označení zimního stadionu</li><li>Historické Trendy — Porovnejte relace a sledujte pokrok</li></ul>
+<h3>PRO KAŽDÉHO BRUSLAŘE</h3>
+<p>Ať hrajete amatérskou ligu, tvrdě trénujete nebo soutěžíte v přátelácích – Ice Time Track se přizpůsobí. Označte relace podle typu, přidejte jména soupeřů a vytvořte si osobní hokejový deník.</p>
+<h3>BEZPROBLÉMOVÁ INTEGRACE APPLE</h3>
+<ul><li>Synchronizace tréninků s Apple Health</li><li>Běží na pozadí během relací</li><li>Volitelná haptická upozornění při přechodech led/střídačka</li><li>Optimalizováno pro nízkou spotřebu baterie</li></ul>
+<h3>SOUKROMÍ NA PRVNÍM MÍSTĚ</h3>
+<p>Vaše data zůstávají vaše. Uložena lokálně na vašich zařízeních. Žádné účty. Žádný prodej dat. Nikdy.</p>
+<h3>OD HRÁČŮ PRO HRÁČE</h3>
+<p>Vytvořeno milovníky hokeje unavenými z odhadování času na ledě. Reálná čísla. Reálné poznatky. Nulové tření.</p>
+<p>Stáhněte nyní a už nikdy nepřemýšlejte o svém čase na ledě.</p>
+<p>Zavažte brusle. Vhoďte puk. O zbytek se postaráme.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Snímky obrazovky</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/cs/01-phone.webp" alt="Ice Time Track — Snímky obrazovky 1" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/02-phone.webp" alt="Ice Time Track — Snímky obrazovky 2" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/03-phone.webp" alt="Ice Time Track — Snímky obrazovky 3" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/04-phone.webp" alt="Ice Time Track — Snímky obrazovky 4" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/05-phone.webp" alt="Ice Time Track — Snímky obrazovky 5" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/06-phone.webp" alt="Ice Time Track — Snímky obrazovky 6" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/07-phone.webp" alt="Ice Time Track — Snímky obrazovky 7" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/08-phone.webp" alt="Ice Time Track — Snímky obrazovky 8" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/09-phone.webp" alt="Ice Time Track — Snímky obrazovky 9" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/10-watch.webp" alt="Ice Time Track — Snímky obrazovky 10" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/11-watch.webp" alt="Ice Time Track — Snímky obrazovky 11" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Ice Time Track</h2>
+      <p>Automatické sledování času na ledě s Apple Watch – nově se sledováním výstroje a připomínkami broušení bruslí. Po zápase si projděte střídání, statistiky a zdraví.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Stáhnout v App Storu</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Zásady ochrany soukromí</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Podmínky služby</a>
+    <a href="https://masawata.net/">Podpora</a>
+  </footer>
 </body>
 </html>

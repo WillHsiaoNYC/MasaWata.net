@@ -1,652 +1,159 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!doctype html>
+<html lang="ja" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>WhereWasI - 訪れた場所をすべて記録</title>
-    <meta name="title" content="WhereWasI - 訪れた場所をすべて記録">
-    <meta name="description" content="Where was I ? は訪れたすべての場所を自動で記憶し、プライベートなタイムライン、カレンダー、地図に変えます。自分のパターンを探り、国立公園や日本の城を集め、Apple Watch やホーム画面から一日を振り返りましょう。すべてオンデバイスで、アカウント不要。">
-    <meta name="keywords" content="ロケーション日記, 訪問場所, 位置追跡, 旅行記録, iOSアプリ, プライバシー, 位置履歴, 自動追跡">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/WhereWasI/ja/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/">
-    <link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/WhereWasI/ja/">
-    <meta property="og:title" content="WhereWasI - 訪れた場所をすべて記録">
-    <meta property="og:description" content="Where was I ? は訪れたすべての場所を自動で記憶し、プライベートなタイムライン、カレンダー、地図に変えます。自分のパターンを探り、国立公園や日本の城を集め、Apple Watch やホーム画面から一日を振り返りましょう。すべてオンデバイスで、アカウント不要。">
-    <meta property="og:image" content="https://masawata.net/WhereWasI/images/WhereWasI.png">
-    <meta property="og:site_name" content="WhereWasI">
-    <meta property="og:locale" content="ja_JP">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/WhereWasI/ja/">
-    <meta name="twitter:title" content="WhereWasI - 訪れた場所をすべて記録">
-    <meta name="twitter:description" content="Where was I ? は訪れたすべての場所を自動で記憶し、プライベートなタイムライン、カレンダー、地図に変えます。自分のパターンを探り、国立公園や日本の城を集め、Apple Watch やホーム画面から一日を振り返りましょう。すべてオンデバイスで、アカウント不要。">
-    <meta name="twitter:image" content="https://masawata.net/WhereWasI/images/WhereWasI.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6758056060">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/WhereWasI.png">
-    <link rel="apple-touch-icon" href="../images/WhereWasI.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.1">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "WhereWasI",
-        "operatingSystem": "iOS",
-        "applicationCategory": "LifestyleApplication",
-        "sameAs": "https://apps.apple.com/app/id6758056060",
-        "downloadUrl": "https://apps.apple.com/app/id6758056060",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Where was I ? は訪れたすべての場所を自動で記憶し、プライベートなタイムライン、カレンダー、地図に変えます。自分のパターンを探り、国立公園や日本の城を集め、Apple Watch やホーム画面から一日を振り返りましょう。すべてオンデバイスで、アカウント不要。",
-        "screenshot": "https://masawata.net/WhereWasI/images/en/hero.jpg",
-        "softwareVersion": "5.2",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "ja"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>どこにいた? — 位置記録と場所・写真の記録と足跡管理</title>
+  <meta name="description" content="新登場：全国一の宮103社、それぞれに木彫りのバッジ。訪問履歴を自動で記録し、プライベートなタイムラインをすべて端末内に。">
+  <meta name="apple-itunes-app" content="app-id=6758056060">
+  <link rel="canonical" href="https://masawata.net/WhereWasI/ja/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "どこにいた?", "description": "新登場：全国一の宮103社、それぞれに木彫りのバッジ。訪問履歴を自動で記録し、プライベートなタイムラインをすべて端末内に。", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/WhereWasI/ja/", "downloadUrl": "https://apps.apple.com/app/id6758056060", "image": ["https://masawata.net/WhereWasI/images/asc/ja/01-phone.webp", "https://masawata.net/WhereWasI/images/asc/ja/02-phone.webp", "https://masawata.net/WhereWasI/images/asc/ja/03-phone.webp", "https://masawata.net/WhereWasI/images/asc/ja/04-phone.webp", "https://masawata.net/WhereWasI/images/asc/ja/05-phone.webp", "https://masawata.net/WhereWasI/images/asc/ja/06-phone.webp", "https://masawata.net/WhereWasI/images/asc/ja/07-phone.webp", "https://masawata.net/WhereWasI/images/asc/ja/08-phone.webp", "https://masawata.net/WhereWasI/images/asc/ja/09-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/WhereWasI.png" alt="WhereWasI" class="nav__logo-img">
-                <span class="nav__logo-text">WhereWasI</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">機能</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">スクリーンショット</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">ダウンロード</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#faq" class="nav__link">よくある質問</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">JA</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                    <a href="../ja/" class="language-option active">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../pt/" class="language-option">Português</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../id/" class="language-option">Indonesia</a>
-                    <a href="../vi/" class="language-option">Tiếng Việt</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI App Icon" class="hero__icon">
-                    <h1 class="hero__title">訪れた場所をすべて記録</h1>
-                    <p class="hero__description">Where was I ? は訪れたすべての場所を自動で記憶し、プライベートなタイムライン、カレンダー、地図に変えます。自分のパターンを発見し、国立公園や日本の城を集め、Apple Watch やホーム画面から一日を振り返りましょう。すべてあなたのデバイス上で、アカウント登録は不要です。</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-ja.svg" alt="App Store でダウンロード" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="WhereWasI Screenshot" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">パワフルな機能</h2>
-                    <p class="section-subtitle">位置履歴を記憶し探索するために必要なすべて</p>
-                </div>
-
-                <div class="features__grid features__grid--4">
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">あなたの人生をタイムラインで</h3>
-                        <p class="feature-card__description">美しく整理された訪問履歴をスクロール。日、週、月ごとに訪問を確認——あなたの人生の物語が自動的に展開されます。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="18" y1="20" x2="18" y2="10"></line>
-                <line x1="12" y1="20" x2="12" y2="4"></line>
-                <line x1="6" y1="20" x2="6" y2="14"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">パターンを発見</h3>
-                        <p class="feature-card__description">日常生活についての洞察を得ましょう。最も訪れた場所、各場所で過ごした時間、日課がどのように変化しているかを確認できます。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
-                <line x1="8" y1="2" x2="8" y2="18"></line>
-                <line x1="16" y1="6" x2="16" y2="22"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">世界を一目で</h3>
-                        <p class="feature-card__description">すべての訪問をインタラクティブな地図で確認。ズームアウトして人生があなたを連れて行ったすべての場所を見たり、ズームインして一つの地域を探索したり。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">データはあなたのデバイスに</h3>
-                        <p class="feature-card__description">すべての位置データは iPhone と個人の iCloud に安全に保存されます。外部サーバーに送信されることはありません。あなたの旅はあなただけのものです。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
-                <path d="M9 6l.6-3h4.8l.6 3"></path>
-                <path d="M9 18l.6 3h4.8l.6-3"></path>
-                <polyline points="12 10 12 12 13.5 13.5"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">手首の上で</h3>
-                        <p class="feature-card__description">今日の訪問、週間・月間のサマリー、よく行く場所を Apple Watch からすぐに確認できます。さらに Smart Stack コンプリケーションで、最新の立ち寄り先を一目で把握できます。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--teal">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="7" height="7" rx="1.5"></rect>
-                <rect x="14" y="3" width="7" height="7" rx="1.5"></rect>
-                <rect x="3" y="14" width="7" height="7" rx="1.5"></rect>
-                <rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">ホーム画面とロック画面のウィジェット</h3>
-                        <p class="feature-card__description">最近の訪問、現在地でのリアルタイム滞在タイマー、今日の訪問数を、アプリを開かずに確認できます。ウィジェットをタップすればすぐにアプリへ移動できます。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--indigo">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-                <line x1="3" y1="9" x2="21" y2="9"></line>
-                <line x1="8" y1="2" x2="8" y2="6"></line>
-                <line x1="16" y1="2" x2="16" y2="6"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">カレンダー表示</h3>
-                        <p class="feature-card__description">訪問を日、週、月ごとに閲覧できます。カレンダーには訪問数とユニークな場所が一目で表示されるので、どの日でも数秒で振り返れます。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--orange">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="12 2 15 8.5 22 9.3 17 14 18.2 21 12 17.7 5.8 21 7 14 2 9.3 9 8.5 12 2"></polygon>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">コレクションとマイルストーン</h3>
-                        <p class="feature-card__description">あなたの旅をコレクションに——U.S. National Parks、100 Famous Japanese Castles、国や地域を記録したり、訪れるたびに自動で埋まるカスタムコレクションを作ったりできます。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
-                        <div class="feature-card__icon feature-card__icon--pink">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 20h9"></path>
-                <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">訪問の追加・編集・分割</h3>
-                        <p class="feature-card__description">アプリが見逃した立ち寄りを後から追加したり、到着・出発時刻を微調整したり、1 つの訪問を 2 つに分割したり——履歴を正確かつ完全に保てます。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">これまでの履歴も一緒に</h3>
-                        <p class="feature-card__description">Google Maps Timeline に加え、Moves や Arc Timeline のデータもインポートできるので、何年分もの場所がそのまま引き継がれます。</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                <circle cx="12" cy="13" r="4"></circle>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">写真チェックイン</h3>
-                        <p class="feature-card__description">撮った写真をそのまま訪問に変換します。Where was I ? は各写真が撮影された場所を読み取り、訪れた場所を補完——パズルの解除やコレクションの発見にも役立てます。写真がアップロードされたり変更されたりすることはありません。</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">実際の画面</h2>
-                    <p class="section-subtitle">美しいデザインとパワフルな機能の融合</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-poster.jpg" alt="Track locations, cherish journeys" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-poster2.jpg" alt="Automatically recorded" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-watch.jpg" alt="Apple Watch support" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-analysis.jpg" alt="Powerful analytics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-locations.jpg" alt="Organized locations" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-collections.jpg" alt="Collections" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-parks.jpg" alt="U.S. National Parks progress" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-photos.jpg" alt="Photos at your places" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI" class="download__icon">
-                    <h2 class="download__title">今日から記録を始めよう</h2>
-                    <p class="download__description">無料でダウンロード。インストールした瞬間からロケーション日記が始まります。アカウント登録不要——あなたと iPhone、そして訪れる場所だけ。</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-ja.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">iPhone、iPad、Apple Watch で利用可能</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">よくある質問</h2>
-                    <p class="section-subtitle">WhereWasI について知っておくべきすべてのこと</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apple Watch アプリやウィジェットはありますか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>はい。Where was I ? には本格的な Apple Watch アプリ（今日の訪問、週間・月間のサマリー、よく行く場所）に加え、Smart Stack コンプリケーションが含まれています。iPhone では、最近の訪問、リアルタイムの滞在タイマー、今日の訪問数、現在地を表示するホーム画面とロック画面のウィジェットも使えます。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Google Maps Timeline をインポートできますか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>はい。Google Maps Timeline のエクスポートのほか、Moves や Arc Timeline のデータもインポートできます——インポート画面を開いてファイルを追加するだけです。過去の場所は自動的にロケーションに照合されます。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>コレクションとは何ですか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>コレクションは、あなたが大切にするテーマごとに訪問をまとめます。U.S. National Parks、100 Famous Japanese Castles、国や地域の達成度を記録したり、独自のキーワードでカスタムコレクションを作ったりできます——条件に合う場所を訪れると自動で埋まり、進捗を共有することもできます。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>写真チェックインとは何ですか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>写真チェックインは、デバイス内の写真から自動的に作成される訪問です。アプリを開くたびに、写真を時間と場所ごとにグループ化し、各グループを最も近い保存済みの場所に照合します。記録された訪問とは異なり、滞在時間ではなくあなたがどこにいたかを示します——写真を削除すれば、そのチェックインも一緒に消えます。写真がアップロードされたり変更されたりすることはありません。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>写真へのアクセスを許可・変更するにはどうすればよいですか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Where was I ? は、写真が撮影された場所をもとに訪れた場所を見つけるために写真ライブラリを使用します——これが写真チェックイン、パズルの解除、コレクションの発見を支えています。許可または変更するには、**設定 → プライバシーとセキュリティ → Where Was I** に移動し、**フルアクセス** を選択してください。"制限付きアクセス" では選んだ写真しかスキャンされないため、一部の訪問が見逃される場合があります。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>写真チェックインの場所を割り当て直したのに、元に戻ってしまうのはなぜですか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>写真チェックインはアプリを起動するたびに写真から作り直されるため、別の場所に割り当て直しても次回の起動時にリセットされることがあります。これは、チェックインが記録された訪問のように永続保存されるのではなく、その都度新しく再生成されるためです——割り当て直す際に、アプリがこの点について警告します。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>アプリが見逃した訪問を追加・修正できますか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>はい。手動訪問ウィザードを使って記録されなかった立ち寄りを追加したり、任意の訪問の到着・出発時刻を編集したり、1 つの立ち寄りが実は 2 つだった場合に 1 つの訪問を 2 つに分割したりできます。各訪問には、自動検出されたか、あなたが追加したか、インポートされたかが表示されます。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>位置追跡はどのように機能しますか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>アプリはAppleのVisit Monitoring APIを使用して、場所への到着と出発を自動的に検出します。これはバックグラウンドで行われ、バッテリーへの影響は最小限です。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>アプリを閉じても動作しますか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>はい！「常に」の位置情報許可があれば、アプリが実行されていなくても訪問通知を受け取ります。設定でこの許可を付与してください。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>位置情報の許可を与えたり変更するにはどうすればよいですか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>このアプリが正しく動作するには「常に」の位置情報アクセスが必要です。アプリが開いていない時でも、場所への到着と出発を検出するために使用します。
-
-許可を付与または変更するには：**設定 → プライバシーとセキュリティ → 位置情報サービス → Where Was I** に移動し、**常に** を選択してください。
-
-「使用中のみ」はアプリが画面に表示されている時のみ訪問を追跡し、「しない」は追跡を完全に無効にします。最適な体験のために「常に」を選択してください。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1000">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>場所の名前はどのように割り当てますか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>訪問をタップして詳細を表示し、「場所を割り当てる」をタップして近くの場所を検索するか、カスタムラベルを作成します。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>自動場所割り当てはどのように機能しますか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>新しい訪問が来ると、アプリはその座標が保存された場所の半径内にあるかチェックします。一致すれば、訪問はその場所に自動的に割り当てられます。一致しない場合は、近くの場所や住所を使用して新しい場所が作成されます。
-
-訪問が保存した場所と一致しない場合、半径が小さすぎる可能性があります。GPSは訪問間で10〜50メートル変動することがあるので、場所詳細で半径を増やす（最大500m）か、「地図で場所を調整」で座標を調整してください。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>iCloud同期の仕組みは？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>iCloud Syncはデータをバックアップし、すべてのデバイスから訪問履歴を見ることができます。
-
-**重要：**バックアップを機能させるには、設定でiCloud Syncを有効にする必要があります。これがないと、アプリを削除または再インストールした場合、すべてのデータが永久に失われます。
-
-**仕組み：**
-• 各デバイスは自分の訪問を個別に記録・バックアップします
-• 訪問はデバイス間で統合や共有されません
-• 他のデバイスの訪問履歴（読み取り専用）は、設定 → iCloud Sync → 訪問を表示 で有効にして見ることができます
-
-**例：**iPhoneとiPadをお持ちの場合、各デバイスがそれぞれの訪問を記録します。iPhoneでiPadを有効にすると、iPadで行った場所を見ることができます—ただし、それらの訪問はiPadに属したままです。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>位置データはどのくらい正確ですか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>位置精度は利用可能な信号（GPS、Wi-Fi、携帯電話）に依存します。アプリは各訪問の精度を表示します。通常、精度は10〜100メートル以内です。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>なぜ一部の訪問が2回表示されるのですか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>システムが同じ訪問に対して複数の更新を送信することがあります。アプリはこれらを自動的にマージしますが、時々重複が表示されることがあります。不要なエントリは削除できます。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>スキーリゾートやモールのような大きな施設ではどうなりますか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>アプリは継続的な移動ではなく、重要な滞在を追跡します。スキーリゾートでは、ベースロッジや長いランチの訪問は表示されますが、すべてのリフトや短い休憩は表示されません。大きな施設はしばしば1つの長い訪問として表示されます。これは詳細な経路追跡ではなく、「どこで時間を過ごしたか？」のために設計されています。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>位置データは安全ですか？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>はい、完全に安全です。すべてのデータはデバイスにローカル保存され、個人の iCloud アカウントにのみ同期されます。外部サーバーで位置データを閲覧したり保存したりすることはありません。</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">プライバシーを大切に</h2>
-                    <p class="privacy__description">WhereWasI はすべての位置データをデバイスと個人の iCloud アカウントに保存します。あなたの旅の記録が私たちや第三者と共有されることはありません。</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">プライバシーポリシーを読む</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI" class="footer__logo">
-                    <span class="footer__name">WhereWasI</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">プライバシーポリシー</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">利用規約</a>
-                </div>
-                <p class="footer__copyright">© 2026 Where was I ?. 無断複製・転載を禁じます。</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js?v=1.1"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/WhereWasI.png" alt="" width="44" height="44"><span>どこにいた?</span></a>
+    <details class="asc-languages">
+      <summary>言語: 日本語</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">どこにいた?</p>
+        <h1>位置記録と場所・写真の記録と足跡管理</h1>
+        <p>新登場：全国一の宮103社、それぞれに木彫りのバッジ。訪問履歴を自動で記録し、プライベートなタイムラインをすべて端末内に。</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758056060" rel="noopener">App Storeからダウンロード</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/ja/01-phone.webp" alt="どこにいた?">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>アプリについて</h2>
+      <div class="asc-prose"><h3>どこにいた — あなたの位置情報メモリー</h3>
+<p>先月行ったあの素敵なレストラン、どこだったっけ？オフィスと自宅、どっちで過ごす時間が長い？「どこにいた」は訪問履歴を自動で記録し、あなたの日々を美しいタイムラインで振り返れるアプリです。</p>
+<h3>自動トラッキング</h3>
+<p>手動での入力は不要。アプリがバックグラウンドで到着・出発を記録し、あなたの行動履歴を自動で作成します。</p>
+<h3>スマートカレンダー</h3>
+<p>日・週・月単位で訪問履歴を確認。カレンダー上で訪問回数やユニークな場所が一目でわかります。日付をタップすれば、その日の行動がすぐに確認できます。</p>
+<h3>ホーム画面・ロック画面ウィジェット</h3>
+<p>中サイズのホーム画面ウィジェットなら、最新の訪問が一目で確認できます。ロック画面ウィジェットには現在地、リアルタイムの滞在時間、または今日の訪問回数を表示 — タップすればすぐにアプリへ戻れます。</p>
+<h3>整理された場所リスト</h3>
+<p>訪問先は地域や都市ごとに自動で整理。自宅、職場、ジム、カフェなど、好きなカテゴリーを設定できます。アイコンやカラーもカスタマイズして、自分らしく管理しましょう。</p>
+<h3>パワフルな分析機能</h3>
+<p>生活パターンを発見：</p>
+<ul><li>カテゴリー別の時間配分</li><li>よく行く場所ランキング</li><li>週間リズム分析</li><li>訪問頻度の傾向</li><li>場所ごとの滞在時間グラフ — 日・週・月・年単位で平均滞在時間を確認</li></ul>
+<h3>国・地域コレクション</h3>
+<p>旅がパズルになる！訪れた国の州・都道府県・地域をどれだけ制覇したか確認できます。探索の進捗を美しいパズル画像として友人や家族とシェアして、次の旅への意欲を引き出しましょう。</p>
+<h3>国立公園の進捗</h3>
+<p>大自然を制覇しよう！国立公園への訪問を自動で記録し、探索の進捗を日常の位置履歴と一緒に管理できます。</p>
+<h3>日本100名城</h3>
+<p>日本を旅していますか？「日本100名城」を自動で記録できる新しい内蔵コレクション。コレクションタブ → 探索 → 日本から見つけられます。</p>
+<h3>カスタムコレクション</h3>
+<p>追跡したいものは何でもOK — Apple Store、美術館、クラフトビール醸造所、本屋など。コレクションを作成してキーワードを設定するだけで、自動的に貯まっていきます。手動での追加・削除もいつでも可能。各コレクションには訪問数、訪問履歴、マップが表示されます。</p>
+<h3>位置履歴のインポート</h3>
+<p>他のアプリから乗り換えですか？すべての履歴をそのまま持ち込めます — フォーマットは自動で判別、大容量エクスポートにも対応し、インポート前にプレビューで確認できます：</p>
+<ul><li>Google Timeline（Google Maps のエクスポートまたは Google Takeout）</li><li>Arc Timeline（Arc からエクスポートする月次の .json ファイル）</li><li>Moves（ProtoGeo／Facebook Moves のバックアップ）</li></ul>
+<h3>一括管理</h3>
+<p>すべての場所を一か所で管理。検索、並べ替え、フィルタリング。複数の場所を選択してまとめてカテゴリー分けや削除が可能。ロケーションライブラリを整理整頓。</p>
+<h3>プライバシー最優先</h3>
+<p>位置情報データは端末内に保存。アカウント登録不要。サーバーへのデータ送信なし。あなたの行動はあなただけのもの。</p>
+<p>こんな方におすすめ：</p>
+<ul><li>勤務時間や勤務地の記録</li><li>行ったお店やレストランの記録</li><li>日常のルーティン分析</li><li>旅の記録・国立公園訪問の記録</li><li>経費精算や走行距離の記録</li><li>時間の使い方の把握</li></ul>
+<p>機能一覧：</p>
+<ul><li>到着・出発の自動検出</li><li>カレンダー表示と日別タイムライン</li><li>ディープリンク対応のホーム画面・ロック画面ウィジェット</li><li>地域・都市別の場所グループ化</li><li>アイコン・カラー付きカスタムカテゴリー</li><li>Apple Mapsからのカテゴリー提案</li><li>滞在時間付きの詳細な訪問履歴</li><li>場所ごとの滞在時間グラフ（日／週／月／年）</li><li>インサイト付き分析ダッシュボード</li><li>場所の検索・フィルター機能</li><li>国・地域コレクション（シェア可能なパズル画像付き）</li><li>国立公園の訪問進捗トラッキング</li><li>「日本100名城」内蔵コレクション</li><li>カスタムコレクション（キーワード自動マッチング、手動編集、統計表示）</li><li>一括管理機能</li><li>Google Timeline、Arc Timeline、Moves からのインポート</li><li>エクスポート機能</li><li>アカウント登録不要</li><li>プライバシー重視の設計</li></ul>
+<p>今日からロケーションメモリーを始めよう。「どこにいた」をダウンロードして、大切な思い出を残しましょう。</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>スクリーンショット</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/ja/01-phone.webp" alt="どこにいた? — スクリーンショット 1" loading="lazy"></figure>
+<figure><img src="../images/asc/ja/02-phone.webp" alt="どこにいた? — スクリーンショット 2" loading="lazy"></figure>
+<figure><img src="../images/asc/ja/03-phone.webp" alt="どこにいた? — スクリーンショット 3" loading="lazy"></figure>
+<figure><img src="../images/asc/ja/04-phone.webp" alt="どこにいた? — スクリーンショット 4" loading="lazy"></figure>
+<figure><img src="../images/asc/ja/05-phone.webp" alt="どこにいた? — スクリーンショット 5" loading="lazy"></figure>
+<figure><img src="../images/asc/ja/06-phone.webp" alt="どこにいた? — スクリーンショット 6" loading="lazy"></figure>
+<figure><img src="../images/asc/ja/07-phone.webp" alt="どこにいた? — スクリーンショット 7" loading="lazy"></figure>
+<figure><img src="../images/asc/ja/08-phone.webp" alt="どこにいた? — スクリーンショット 8" loading="lazy"></figure>
+<figure><img src="../images/asc/ja/09-phone.webp" alt="どこにいた? — スクリーンショット 9" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>どこにいた?</h2>
+      <p>新登場：全国一の宮103社、それぞれに木彫りのバッジ。訪問履歴を自動で記録し、プライベートなタイムラインをすべて端末内に。</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758056060" rel="noopener">App Storeからダウンロード</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">プライバシーポリシー</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">利用規約</a>
+    <a href="https://masawata.net/">サポート</a>
+  </footer>
 </body>
 </html>

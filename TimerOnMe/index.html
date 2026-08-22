@@ -1,500 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Timer on Me - Multiple Timers & Stopwatches in One App</title>
-    <meta name="title" content="Timer on Me - Multiple Timers & Stopwatches in One App">
-    <meta name="description" content="Run up to 50 timers and stopwatches at once, with alarms that ring when locked (AlarmKit), Tabata/EMOM/30-30 intervals, Live Activities, and a full Apple Watch app. Free for iPhone, iPad & Apple Watch.">
-    <meta name="keywords" content="timer, stopwatch, multiple timers, interval training, HIIT timer, Tabata, iOS app, home screen widget, countdown timer">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/TimerOnMe/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/">
-    <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/TimerOnMe/">
-    <meta property="og:title" content="Timer on Me - Multiple Timers & Stopwatches in One App">
-    <meta property="og:description" content="Run up to 50 timers and stopwatches at once, with alarms that ring when locked (AlarmKit), Tabata/EMOM/30-30 intervals, Live Activities, and a full Apple Watch app. Free for iPhone, iPad & Apple Watch.">
-    <meta property="og:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-    <meta property="og:site_name" content="Timer on Me">
-    <meta property="og:locale" content="en_US">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/TimerOnMe/">
-    <meta name="twitter:title" content="Timer on Me - Multiple Timers & Stopwatches in One App">
-    <meta name="twitter:description" content="Run up to 50 timers and stopwatches at once, with alarms that ring when locked (AlarmKit), Tabata/EMOM/30-30 intervals, Live Activities, and a full Apple Watch app. Free for iPhone, iPad & Apple Watch.">
-    <meta name="twitter:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6746874284">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/TimerOnMe.png">
-    <link rel="apple-touch-icon" href="images/TimerOnMe.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css?v=1.0">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Timer on Me",
-        "operatingSystem": "iOS",
-        "applicationCategory": "UtilitiesApplication",
-        "sameAs": "https://apps.apple.com/app/id6746874284",
-        "downloadUrl": "https://apps.apple.com/app/id6746874284",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Run up to 50 timers and stopwatches at once, with alarms that ring when locked (AlarmKit), Tabata/EMOM/30-30 intervals, Live Activities, and a full Apple Watch app. Free for iPhone, iPad & Apple Watch.",
-        "screenshot": "https://masawata.net/TimerOnMe/images/en/gallery-overview.jpg",
-        "softwareVersion": "4.1",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "en"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Timer on Me — Timer, Alarm, Stopwatch &amp; HIIT</title>
+  <meta name="description" content="Now with Date Alarms: set a one-time alarm for any future date &amp; time, alongside recurring alarms, 50 timers at once, HIIT &amp; Tabata workouts, and Apple Watch support.">
+  <meta name="apple-itunes-app" content="app-id=6746874284">
+  <link rel="canonical" href="https://masawata.net/TimerOnMe/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
+  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
+  <link rel="stylesheet" href="../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Timer on Me", "description": "Now with Date Alarms: set a one-time alarm for any future date & time, alongside recurring alarms, 50 timers at once, HIIT & Tabata workouts, and Apple Watch support.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/TimerOnMe/", "downloadUrl": "https://apps.apple.com/app/id6746874284", "image": ["https://masawata.net/TimerOnMe/images/asc/en-US/01-phone.webp", "https://masawata.net/TimerOnMe/images/asc/en-US/02-phone.webp", "https://masawata.net/TimerOnMe/images/asc/en-US/03-phone.webp", "https://masawata.net/TimerOnMe/images/asc/en-US/04-phone.webp", "https://masawata.net/TimerOnMe/images/asc/en-US/05-phone.webp", "https://masawata.net/TimerOnMe/images/asc/en-US/06-phone.webp", "https://masawata.net/TimerOnMe/images/asc/en-US/07-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="" class="nav__logo">
-                <img src="images/TimerOnMe.png" alt="Timer on Me" class="nav__logo-img">
-                <span class="nav__logo-text">Timer on Me</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">Features</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">Screenshots</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">Download</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#faq" class="nav__link">FAQ</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">EN</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="" class="language-option active">English</a>
-                    <a href="cs/" class="language-option">Čeština</a>
-                    <a href="da/" class="language-option">Dansk</a>
-                    <a href="de/" class="language-option">Deutsch</a>
-                    <a href="es/" class="language-option">Español</a>
-                    <a href="fi/" class="language-option">Suomi</a>
-                    <a href="fr/" class="language-option">Français</a>
-                    <a href="hi/" class="language-option">हिन्दी</a>
-                    <a href="hu/" class="language-option">Magyar</a>
-                    <a href="id/" class="language-option">Indonesia</a>
-                    <a href="it/" class="language-option">Italiano</a>
-                    <a href="ja/" class="language-option">日本語</a>
-                    <a href="ko/" class="language-option">한국어</a>
-                    <a href="nb/" class="language-option">Norsk</a>
-                    <a href="pt-BR/" class="language-option">Português</a>
-                    <a href="ru/" class="language-option">Русский</a>
-                    <a href="sk/" class="language-option">Slovenčina</a>
-                    <a href="sv/" class="language-option">Svenska</a>
-                    <a href="vi/" class="language-option">Tiếng Việt</a>
-                    <a href="zh-Hans/" class="language-option">简体中文</a>
-                    <a href="zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="images/TimerOnMe.png" alt="Timer on Me App Icon" class="hero__icon">
-                    <h1 class="hero__title">Every Timer, Alarm & Stopwatch — At Once</h1>
-                    <p class="hero__description">Run up to 50 timers and stopwatches at the same time, set alarms that ring even when your iPhone is locked, and time HIIT workouts with precision — on iPhone, iPad, and Apple Watch.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
-                    </a>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="images/en/hero.jpg" alt="Timer on Me Screenshot" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Powerful Features</h2>
-                    <p class="section-subtitle">Everything you need to master your time</p>
-                </div>
-
-                <div class="features__grid">
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="7" height="7"></rect>
-                <rect x="14" y="3" width="7" height="7"></rect>
-                <rect x="3" y="14" width="7" height="7"></rect>
-                <rect x="14" y="14" width="7" height="7"></rect>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Multi-Timer Grid</h3>
-                        <p class="feature-card__description">Run up to 50 independent timers and stopwatches at once in a clean grid. Start, pause, and reset each one individually — or control them all together.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--orange">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="13" r="8"></circle>
-                <polyline points="12 9 12 13 14.5 14.5"></polyline>
-                <path d="M5 3 2 6"></path>
-                <path d="M22 6l-3-3"></path>
-                <path d="M6 19l-2 2"></path>
-                <path d="M18 19l2 2"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Reliable Alarms</h3>
-                        <p class="feature-card__description">Wake-up and reminder alarms with custom labels and weekday schedules, powered by AlarmKit so they ring even when your iPhone is locked or Timer on Me is closed. Snooze options and your own sounds included.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="17 1 21 5 17 9"></polyline>
-                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
-                <polyline points="7 23 3 19 7 15"></polyline>
-                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Interval Training</h3>
-                        <p class="feature-card__description">Built-in Tabata, EMOM, and 30/30 presets get you training in two taps, plus a custom interval editor and a full-screen workout mode with color cues.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--teal">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
-                <path d="M9 6l.6-3h4.8l.6 3"></path>
-                <path d="M9 18l.6 3h4.8l.6-3"></path>
-                <polyline points="12 10 12 12 13.5 13.5"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Apple Watch App</h3>
-                        <p class="feature-card__description">A full native Apple Watch app — run multiple stopwatches and timers on your wrist with centisecond precision and complications, even when your iPhone isn't around.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                <line x1="12" y1="18" x2="12.01" y2="18"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Widgets & Live Activities</h3>
-                        <p class="feature-card__description">Control your timers from the Home Screen with interactive widgets, and watch the countdown from the Lock Screen and Dynamic Island with Live Activities.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Alarm Sounds, Your Way</h3>
-                        <p class="feature-card__description">Choose from a dozen built-in alarm sounds or import your own. Your alerts ring even when your iPhone is locked, silenced, or the app is closed.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
-                <polyline points="17 21 17 13 7 13 7 21"></polyline>
-                <polyline points="7 3 7 8 15 8"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Session Management</h3>
-                        <p class="feature-card__description">Save your timer setups and load them anytime. Export sessions as JSON, CSV, or text for easy sharing and backup.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Smart Display</h3>
-                        <p class="feature-card__description">Centisecond precision, percentage progress, and a keep-screen-on mode. Customize how your timers look and behave.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">See It In Action</h2>
-                    <p class="section-subtitle">Clean design meets powerful functionality</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="images/en/gallery-overview.jpg" alt="Time it, wake to it, train with it" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-multitimer.jpg" alt="Run multiple timers at once" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-watch.jpg" alt="Apple Watch app" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-intervals.jpg" alt="Tabata, EMOM &amp; 30/30 intervals" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-workout.jpg" alt="Full-screen interval workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="images/en/gallery-alarms.jpg" alt="Alarms that ring when locked" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="images/TimerOnMe.png" alt="Timer on Me" class="download__icon">
-                    <h2 class="download__title">Start Timing Now</h2>
-                    <p class="download__description">Free to download. Multiple timers, interval training, and widgets—all ready to go. No account required.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">Available on iPhone, iPad, and Apple Watch</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Frequently Asked Questions</h2>
-                    <p class="section-subtitle">Everything you need to know about Timer on Me</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Do alarms and timers go off when my iPhone is locked or the app is closed?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Yes. Alarms are powered by Apple's AlarmKit and ring even when your iPhone is locked or Timer on Me is closed, and timer alerts fire reliably in the background too.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>How many timers can I run at once?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Up to 50 independent timers and stopwatches in a single session — start, stop, and reset them individually or in synced groups.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Is there an Apple Watch app?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Yes — a full native watchOS app with multiple concurrent timers and stopwatches, centisecond precision, and complications. It works even when your iPhone is out of reach.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Can I use it for HIIT and Tabata workouts?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Absolutely. Built-in Tabata, EMOM, and 30/30 presets get you started in two taps, plus a custom interval editor for your own work/rest/round sequences and a full-screen workout mode.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Can I add my own alarm sounds?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Yes — choose from the bundled ringtones or import your own audio files.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Does it work offline? Do I need an account?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>No account and no internet required. Everything runs on-device and your data stays local.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Is it free?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Yes, Timer on Me is free to download. An optional in-app purchase unlocks additional alarms beyond the first two if you need them.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">Your Privacy Matters</h2>
-                    <p class="privacy__description">Timer on Me stores all your data locally on your device. No accounts, no tracking, no data collection. Your timer sessions are yours alone.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Read our Privacy Policy</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="images/TimerOnMe.png" alt="Timer on Me" class="footer__logo">
-                    <span class="footer__name">Timer on Me</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">Privacy Policy</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms of Service</a>
-                </div>
-                <p class="footer__copyright">© 2026 Timer on Me. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="js/main.js?v=1.0"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="./"><img src="images/TimerOnMe.png" alt="" width="44" height="44"><span>Timer on Me</span></a>
+    <details class="asc-languages">
+      <summary>Language: English</summary>
+      <nav><a href="ar-SA/" lang="ar-SA">العربية</a>
+<a href="ca/" lang="ca">Català</a>
+<a href="cs/" lang="cs">Čeština</a>
+<a href="da/" lang="da">Dansk</a>
+<a href="de-DE/" lang="de-DE">Deutsch</a>
+<a href="el/" lang="el">Ελληνικά</a>
+<a href="./" lang="en-US">English</a>
+<a href="es-ES/" lang="es-ES">Español (España)</a>
+<a href="es-MX/" lang="es-MX">Español (México)</a>
+<a href="fi/" lang="fi">Suomi</a>
+<a href="fr-FR/" lang="fr-FR">Français</a>
+<a href="he/" lang="he">עברית</a>
+<a href="hi/" lang="hi">हिन्दी</a>
+<a href="hr/" lang="hr">Hrvatski</a>
+<a href="hu/" lang="hu">Magyar</a>
+<a href="id/" lang="id">Bahasa Indonesia</a>
+<a href="it/" lang="it">Italiano</a>
+<a href="ja/" lang="ja">日本語</a>
+<a href="ko/" lang="ko">한국어</a>
+<a href="nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="no/" lang="no">Norsk</a>
+<a href="pl/" lang="pl">Polski</a>
+<a href="pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="pt-PT/" lang="pt-PT">Português (Portugal)</a>
+<a href="ro/" lang="ro">Română</a>
+<a href="ru/" lang="ru">Русский</a>
+<a href="sk/" lang="sk">Slovenčina</a>
+<a href="sv/" lang="sv">Svenska</a>
+<a href="th/" lang="th">ไทย</a>
+<a href="tr/" lang="tr">Türkçe</a>
+<a href="uk/" lang="uk">Українська</a>
+<a href="vi/" lang="vi">Tiếng Việt</a>
+<a href="zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Timer on Me</p>
+        <h1>Timer, Alarm, Stopwatch &amp; HIIT</h1>
+        <p>Now with Date Alarms: set a one-time alarm for any future date &amp; time, alongside recurring alarms, 50 timers at once, HIIT &amp; Tabata workouts, and Apple Watch support.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">Download on the App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="images/asc/en-US/01-phone.webp" alt="Timer on Me">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>About the app</h2>
+      <div class="asc-prose"><p>Timer on Me is the reliable multi-timer and stopwatch for iPhone, iPad, and Apple Watch. Run up to 50 independent timers at once, time interval workouts with precision, and trust that your alerts will fire — even if your phone is locked or the app is closed.</p>
+<h3>ALARMS</h3>
+<ul><li>Wake-up and reminder alarms with custom labels and weekday schedules</li><li>Powered by AlarmKit — rings even when iPhone is locked or Timer on Me is closed</li><li>Configurable snooze (3 / 5 / 9 / 15 / 30 minutes) or no snooze</li><li>Choose from bundled ringtones or import your own sounds</li><li>One-tap enable/disable from the dedicated Alarms tab</li></ul>
+<h3>WORKOUTS &amp; INTERVALS</h3>
+<ul><li>Built-in Tabata, EMOM, and 30/30 presets — start training in two taps</li><li>Custom interval editor with flexible minute/second pickers for work, rest, and rounds</li><li>Full-screen workout mode with phase color cues and optional sound mute</li><li>Pause, skip, and resume mid-workout without losing your place</li></ul>
+<h3>APPLE WATCH</h3>
+<ul><li>Full native watchOS app — not a companion shell</li><li>Multiple concurrent stopwatches and timers on your wrist</li><li>Centisecond stopwatch precision</li><li>Dedicated watch complications for one-tap access</li><li>Works independently when your iPhone is out of reach</li></ul>
+<h3>50 TIMERS AT ONCE</h3>
+<ul><li>Run up to 50 independent timers and stopwatches in a single session</li><li>Start, stop, and reset individually or in synced groups</li><li>Auto-repeat for looping rounds</li><li>Timers continue past zero to track overtime</li><li>Visual progress bars with color cues at 50% (yellow) and 10% (red)</li><li>Drag-and-drop reordering and custom names</li></ul>
+<h3>RELIABLE ALERTS</h3>
+<ul><li>AlarmKit: alarms ring even if iPhone is locked or Timer on Me is closed</li><li>Dynamic Island and Live Activity for glanceable progress</li><li>Home Screen widgets in Small, Medium, and Large sizes</li><li>Built-in ringtones including bells, birds, and vintage tones</li><li>Tap to preview ringtones instantly before selecting</li><li>&quot;Keep Screen On&quot; mode prevents dimming during long sessions</li></ul>
+<h3>CUSTOMIZE &amp; SHARE</h3>
+<ul><li>Toggle decimals, totals, and percentages per your workflow</li><li>Save and overwrite sessions for instant reuse</li><li>Export sessions as CSV, JSON, or Plain Text</li><li>Share timer setups with teammates, students, or clients</li></ul>
+<p>BUILT FOR iPhone, iPad &amp; APPLE WATCH</p>
+<ul><li>Adaptive layouts for all screen sizes</li><li>iPad Split View support</li><li>Available in 34 languages</li></ul>
+<h3>PERFECT FOR</h3>
+<ul><li>HIIT, Tabata, CrossFit, and circuit training</li><li>Boxing rounds and martial arts sparring</li><li>Studying with Pomodoro and focus blocks</li><li>Cooking, baking, and multi-dish meal prep</li><li>Classroom activities and group timing</li><li>Yoga, meditation, and breathwork</li><li>Music practice and public speaking</li><li>Board games and party events</li></ul>
+<p>Download Timer on Me and take full control of your time — at the gym, at work, or at home.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Screenshots</h2>
+      <div class="asc-gallery"><figure><img src="images/asc/en-US/01-phone.webp" alt="Timer on Me — Screenshots 1" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/02-phone.webp" alt="Timer on Me — Screenshots 2" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/03-phone.webp" alt="Timer on Me — Screenshots 3" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/04-phone.webp" alt="Timer on Me — Screenshots 4" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/05-phone.webp" alt="Timer on Me — Screenshots 5" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/06-phone.webp" alt="Timer on Me — Screenshots 6" loading="lazy"></figure>
+<figure><img src="images/asc/en-US/07-phone.webp" alt="Timer on Me — Screenshots 7" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Timer on Me</h2>
+      <p>Now with Date Alarms: set a one-time alarm for any future date &amp; time, alongside recurring alarms, 50 timers at once, HIIT &amp; Tabata workouts, and Apple Watch support.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">Download on the App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Privacy Policy</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Service</a>
+    <a href="https://masawata.net/">Support</a>
+  </footer>
 </body>
 </html>

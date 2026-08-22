@@ -1,940 +1,122 @@
-<!DOCTYPE html>
-<html lang="fi">
+<!doctype html>
+<html lang="fi" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZL852HY2Z4');
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Ice Time Track - Automaattinen vaihtotunnistus Apple Watchille</title>
-    <meta name="title" content="Ice Time Track - Automaattinen vaihtotunnistus Apple Watchille">
-    <meta name="description" content="Seuraa jääaikaasi automaattisesti Apple Watchilla. Tunnista vaihdot, kirjaa maalit ja jäähyt, seuraa sykettä ja liikettä.">
-    <meta name="keywords" content="hockey, ice time, shift tracking, Apple Watch, hockey app, ice hockey, shift detection, hockey stats, game tracker">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/IceTimeTrack/fi/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/IceTimeTrack/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/IceTimeTrack/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/IceTimeTrack/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/IceTimeTrack/fr/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/IceTimeTrack/nb/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/IceTimeTrack/fi/">
-    <meta property="og:title" content="Ice Time Track - Automaattinen vaihtotunnistus Apple Watchille">
-    <meta property="og:description" content="Seuraa jääaikaasi automaattisesti Apple Watchilla. Tunnista vaihdot, kirjaa maalit ja jäähyt, seuraa sykettä ja liikettä.">
-    <meta property="og:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-    <meta property="og:site_name" content="Ice Time Track">
-    <meta property="og:locale" content="fi_FI">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/IceTimeTrack/fi/">
-    <meta name="twitter:title" content="Ice Time Track - Automaattinen vaihtotunnistus Apple Watchille">
-    <meta name="twitter:description" content="Seuraa jääaikaasi automaattisesti Apple Watchilla. Tunnista vaihdot, kirjaa maalit ja jäähyt, seuraa sykettä ja liikettä.">
-    <meta name="twitter:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-
-    <!-- Apple Smart Banner (placeholder app-id) -->
-    <meta name="apple-itunes-app" content="app-id=PLACEHOLDER">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/app-icon.png">
-    <link rel="apple-touch-icon" href="../images/app-icon.png">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Ice Time Track",
-        "operatingSystem": "iOS, watchOS",
-        "applicationCategory": "SportsApplication",
-        "sameAs": "https://apps.apple.com/app/id6758258172",
-        "downloadUrl": "https://apps.apple.com/app/id6758258172",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Seuraa jääaikaasi automaattisesti Apple Watchilla. Tunnista vaihdot, kirjaa maalit ja jäähyt, seuraa sykettä ja liikettä.",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "fi"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ice Time Track — Jääkiekko Vaihto Treeni</title>
+  <meta name="description" content="Automaattinen jääajan seuranta Apple Watchilla – nyt myös varusteiden seuranta ja muistutukset luistinten teroituksesta. Katso vaihdot, tilastot ja terveys.">
+  <meta name="apple-itunes-app" content="app-id=6758258172">
+  <link rel="canonical" href="https://masawata.net/IceTimeTrack/fi/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/IceTimeTrack/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/IceTimeTrack/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/IceTimeTrack/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/IceTimeTrack/fr-FR/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/IceTimeTrack/no/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:dark;--accent:#FFB81C;--accent-dark:#C98400;--bg:#0D0D0D;--surface:#1A1A1A;--ink:#FFFFFF;--muted:#A0A0A0;--line:#2A2A2A}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ice Time Track", "description": "Automaattinen jääajan seuranta Apple Watchilla – nyt myös varusteiden seuranta ja muistutukset luistinten teroituksesta. Katso vaihdot, tilastot ja terveys.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/IceTimeTrack/fi/", "downloadUrl": "https://apps.apple.com/app/id6758258172", "image": ["https://masawata.net/IceTimeTrack/images/asc/fi/01-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/02-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/03-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/04-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/05-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/06-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/07-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/08-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/09-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/10-watch.webp", "https://masawata.net/IceTimeTrack/images/asc/fi/11-watch.webp"]}</script>
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/app-icon.png" alt="Ice Time Track" class="nav__logo-icon">
-                <span class="nav__logo-text">Ice Time Track</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item"><a href="#features" class="nav__link">Ominaisuudet</a></li>
-                <li class="nav__item"><a href="#how-it-works" class="nav__link">Näin se toimii</a></li>
-                <li class="nav__item"><a href="#screenshots" class="nav__link">Kuvakaappaukset</a></li>
-                <li class="nav__item"><a href="#faq" class="nav__link">UKK</a></li>
-                <li class="nav__item"><a href="#download" class="nav__link nav__link--cta" id="nav-cta">Ennakkotilaa</a></li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">FI</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option active">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Countdown Section -->
-        <section class="countdown" id="countdown">
-            <div class="container">
-                <div class="countdown__content">
-                    <h2 class="countdown__title" id="cd-title">Julkaisuun</h2>
-                    <p class="countdown__promo countdown--hidden" id="cd-promo">1 vuosi hintaan $6,99 USD</p>
-                    <p class="countdown__promo-sub countdown--hidden" id="cd-promo-sub">Rajoitetun ajan tarjous — älä missaa</p>
-                    <div class="countdown__timer">
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-days">00</span>
-                            <span class="countdown__label">Päivää</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-hours">00</span>
-                            <span class="countdown__label">Tuntia</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-minutes">00</span>
-                            <span class="countdown__label">Minuuttia</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-seconds">00</span>
-                            <span class="countdown__label">Sekuntia</span>
-                        </div>
-                    </div>
-                    <p class="countdown__date" id="cd-date">14. helmikuuta 2026</p>
-                    <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6758258172&code=LAUNCH" class="countdown__claim-btn countdown--hidden" id="cd-claim" target="_blank" rel="noopener">Lunasta tarjous</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="hero" id="hero">
-            <div class="hero__bg"></div>
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <div class="hero__icon-wrapper">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="hero__icon">
-                    </div>
-
-                    <h1 class="hero__title">Automaattinen vaihtotunnistus<br>jääkiekkoilijoille</h1>
-                    <p class="hero__description">Tiedä tarkalleen kuinka paljon jääaikaa saat — ilman kellon koskettamista. Seuraa maaleja, jäähyjä ja eriä. Aloita vain sessio ja pelaa.</p>
-
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn" id="hero-download" target="_blank" rel="noopener">Ennakkotilaa nyt</a>
-
-                    <img src="../assets/app-store-badges/app-store-badge-fi.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-
-                    <p class="hero__platforms">Saatavilla Apple Watch + iPhone · Julkaisu 14. helmikuuta 2026</p>
-
-                    <div class="hero__callouts">
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                            <span>Vaihtotunnistus</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
-                            <span>Maaliseuranta</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
-                            <span>Jäähykirjaus</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                            <span>Pelianalyysi</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero__device">
-                    <img src="../images/hero-watch.png" alt="Ice Time Track on Apple Watch" class="hero__image">
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Ominaisuudet</h2>
-                    <p class="section-subtitle">Kaikki mitä tarvitset pelisi seuraamiseen</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Automaattinen vaihtotunnistus</h3>
-                        <p class="feature-card__description">Astu jäälle ja kellosi tietää sen. Ei painikkeita pelin aikana — anturit tunnistavat luistelun vs. vaihtopenkin automaattisesti.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Pelitapahtumien seuranta</h3>
-                        <p class="feature-card__description">Kirjaa maalit, syötöt ja jäähyt suoraan ranteestasi. Seuraa eriä ja pidä täydellinen kirja jokaisesta pelistä.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Reaaliaikaiset terveysmittarit</h3>
-                        <p class="feature-card__description">Seuraa sykettä, palaneita kaloreita ja liikeintensiteettiä reaaliajassa.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Sessioanalyysi</h3>
-                        <p class="feature-card__description">Tarkastele kokonaisjääaikaa, vaihtojen määrää, keskimääräistä vaihdon pituutta ja henkilökohtaisia ennätyksiä.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M16 16l2 2"/><path d="M8 16l-2 2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Apple Health -integraatio</h3>
-                        <p class="feature-card__description">Sessiot synkronoituvat Apple Healthiin jääkiekkoharjoituksina.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="1" y1="1" x2="23" y2="23"/><path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.56 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Toimii offline</h3>
-                        <p class="feature-card__description">Kellosi tallentaa kaiken itsenäisesti. iPhonea ei tarvita vaihtopenkillä — data synkronoituu automaattisesti pelin jälkeen.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- How It Works Section -->
-        <section class="how-it-works" id="how-it-works">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Näin se toimii</h2>
-                    <p class="section-subtitle">Lämmittelystä pelin jälkeiseen analyysiin</p>
-                </div>
-
-                <div class="how-it-works__steps">
-                    <div class="step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="step__number">1</div>
-                        <h3 class="step__title">Ennen peliä</h3>
-                        <p class="step__description">Avaa Ice Time Track Apple Watchissasi. Napauta Peli, Harjoitus tai Harjoitusottelu.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-before.png" alt="Ennen peliä" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="step__number">2</div>
-                        <h3 class="step__title">Pelin aikana</h3>
-                        <p class="step__description">Astu jäälle ja kellosi tunnistaa sen automaattisesti. Kirjaa maalit ja jäähyt napautuksella.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-during.png" alt="Pelin aikana" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="step__number">3</div>
-                        <h3 class="step__title">Pelin jälkeen</h3>
-                        <p class="step__description">Sessiosi synkronoituu iPhoneesi. Tarkastele jääaikaa, vaihtoja, sykettä ja pelitapahtumia.</p>
-                        <div class="step__device step__device--phone">
-                            <img src="../images/step-after.png" alt="Pelin jälkeen" class="step__device-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Gallery Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Katso se toiminnassa</h2>
-                    <p class="section-subtitle">Suunniteltu jääkiekkoilijoille</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <button class="screenshots__arrow screenshots__arrow--prev" aria-label="Previous screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-                    </button>
-
-                    <div class="screenshots__track">
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-on-ice.png" alt="Apple Watch on-ice session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-sessions.png" alt="iPhone sessions" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-events.png" alt="Apple Watch events" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-analytics.png" alt="iPhone analytics" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-game-detail.png" alt="iPhone game detail" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-settings.png" alt="iPhone settings" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-session.png" alt="iPhone live session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-session-header.png" alt="iPhone session header" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-meter.png" alt="iPhone live meter" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-motion-stats.png" alt="iPhone motion stats" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-shift-list.png" alt="iPhone shift list" class="screenshot-img"></div>
-                    </div>
-
-                    <button class="screenshots__arrow screenshots__arrow--next" aria-label="Next screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section (hidden until launch) -->
-        <section class="testimonials testimonials--hidden" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Mitä pelaajat sanovat</h2>
-                    <p class="section-subtitle">Jääkiekkoilijoiden luottama kaikkialla</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Vihdoin sovellus joka seuraa jääaikaani ilman että tarvitsee napauttaa mitään. Mullistava vaihtojen seurantaan."</p>
-                        <span class="testimonial-card__author">— Hockey Dad</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Rakastan syke- ja vaihtotilastojen näkemistä jokaisen pelin jälkeen. Auttaa ymmärtämään kuntoani."</p>
-                        <span class="testimonial-card__author">— Beer League Player</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Automaattinen tunnistus on yllättävän tarkka. Lapseni käyttävät sitä jokaisessa pelissä nyt."</p>
-                        <span class="testimonial-card__author">— Youth Hockey Parent</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Usein kysytyt kysymykset</h2>
-                    <p class="section-subtitle">Kaikki mitä sinun tarvitsee tietää Ice Time Trackista</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten aloitan harjoituksen seurannan?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Avaa Ice Time Track -sovellus Apple Watchissasi. Valitse harjoituksen tyyppi (Peli, Harjoitus, Harjoitusottelu tai Muu) ja napauta aloittaaksesi. Sovellus tunnistaa automaattisesti, milloin olet jäällä ja milloin vaihtoaitiossa.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mikä ero on Pelillä, Harjoituksella ja Harjoitusottelulla?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nämä ovat tunnisteita harjoitustesi järjestämiseksi. Peli on virallisia otteluita varten, Harjoitus joukkueen harjoituksia varten, Harjoitusottelu epävirallisia pelejä varten ja Muu kaikkea muuta kuten yleisöluistelua varten. Tunnistus toimii samalla tavalla kaikissa tyypeissä.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Tarvitsenko iPhoneni mukaan peliin?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ei. Apple Watch tallentaa kaiken itsenäisesti. Harjoituksesi synkronoituu automaattisesti iPhoneen, kun laitteet ovat kantaman sisällä pelin jälkeen.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mikä on askel?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>"Askel" tunnistetaan Apple Watchissasi, kun se havaitsee rytmisen kädenliikkeen kiihtyvyysanturinsa avulla. Se ei varsinaisesti tunnista jalan osumista maahan — sen sijaan se tunnistaa liikettä seuraavan käsivarren liikkeen. Jääkiekossa luistelutyyli ja mailankaäsittely luovat samanlaisia käsiliikkeitä, joten sovellus käyttää "askelia sekunnissa" yhtenä aktiivisen pelin indikaattorina.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mikä on kiihtyvyys?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kiihtyvyys mittaa, kuinka nopeasti nopeutat, hidastat tai vaihdat suuntaa. Apple Watchin kiihtyvyysanturi havaitsee tämän liikkeen kolmessa ulottuvuudessa. Äkilliset pysähdykset, räjähtävät lähdöt ja nopeat suunnanmuutokset hyökkäystilanteessa rekisteröityvät korkeana kiihtyvyytenä — kun taas istuminen vaihtoaitiossa seuraavaa vaihtoa odotellen näyttää minimaalista aktiivisuutta.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mikä on pyöriminen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Pyöriminen mittaa, kuinka paljon ja kuinka nopeasti käännyt tai pyörit. Apple Watchin gyroskooppi havaitsee tämän liikkeen, joka on erityisen yleistä jääkiekossa — saksiaskeleet keskialueen läpi, kääntyminen taaksepäin luisteluun puolustuksessa tai irti taklista pyöriminen luovat selkeitä pyörimismalleja. Yhdistettynä kiihtyvyyteen tämä auttaa sovellusta erottamaan aktiivisen luistelun paikallaan seisomisesta.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten sovellus tietää, milloin olen jäällä?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sovellus yhdistää useita antureita: kiihtyvyysanturi havaitsee liikkeen voimakkuuden, askelmittari seuraa luisteluaskeleitasi ja GPS mittaa nopeuttasi. Kun luistelet aktiivisesti, nämä anturit näyttävät korkeaa aktiivisuutta. Kun istut vaihtoaitiossa, aktiivisuus laskee merkittävästi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten jäällä/vaihtoaitiossa-tila käynnistyy liikkeestä?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Watch lukee liikkeen voimakkuutta, luisteluaskeleita ja GPS-nopeutta. Kun sovellus havaitsee riittävän voimakkaan liikkeen näistä antureista, se merkitsee sinut jäälle. Kun kaikki kolme laskevat matalalle tasolle ja pysyvät siellä, alkaa siirtymä vaihtoaitioon.</p><p>Herkkyysasetus määrittää, kuinka paljon liikettä tarvitaan:</p><p>• Korkea — Tunnistaa kevyemmät liikkeet. Käytä tätä, jos vaihtojasi ei tunnisteta.<br>• Keskitaso — Tasapainoinen useimmille pelaajille. Tämä on oletus.<br>• Matala — Vaatii voimakkaamman liikkeen luisteluksi laskemiseen. Käytä tätä, jos saat vääriä jäällä-lukemia vaihtoaitiossa ollessasi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten edistyneet tunnistusasetukset toimivat?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Lisäasetukset antavat täyden hallinnan jokaiseen tunnistuskynnykseen. Minkä tahansa liukusäätimen säätäminen vaihtaa herkkyyden automaattisesti tilaan "Mukautettu."</p><p>Jäällä-laukaisin — Luisteltavaksi merkitsemiseksi JOKO GPS-nopeutesi on ylitettävä kynnyksensä 3 sekunnin ajan, TAI sekä kiihtyvyytesi että askeltahtisi on ylitettävä kynnyksensä pitoajan.<br>• Acceleration: 0.2–3.0G (default: 0.2G)<br>• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)<br>• GPS Speed: 0.5–3.0 m/s (default: 1.5)<br>• Hold Duration: 1–5 sec (default: 2s)</p><p>Vaihtoaitiossa-laukaisin — Vaihtoaitiosiirtymää varten KAIKKIEN kolmen lukeman on pudottava alle kynnyksensä pitoajan.<br>• Acceleration: 0.3–1.5G (default: 0.7G)<br>• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)<br>• GPS Speed: 0.1–1.0 m/s (default: 0.5)<br>• Hold Duration: 1–5 sec (default: 3s)</p><p>Suosittelemme esiasetettuja tasoja (Korkea, Keskitaso, Matala), ellet tarvitse hienosäätöä. Napauta "Palauta esiasetus" milloin tahansa palataksesi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miksi on viive, kun lopetan luistelun?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Tämä on "liikepuskuri" — lyhyt odotusaika (oletus 20 sekuntia) ennen kuin sovellus vahvistaa, että olet palannut vaihtoaitioon. Tämä estää lyhyitä taukoja vaihdon aikana laskettavan vaihtoaitioajaksi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mikä on liikepuskuri?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Liikepuskuri on säädettävä viive (10–30 sekuntia), joka estää väärät vaihdon päättymiset. Kun lopetat liikkumisen, sovellus odottaa tämän ajan ennen kuin merkitsee sinut "vaihtoaitiossa". Jos alat liikkua uudelleen puskurin aikana, vaihtosi jatkuu keskeytyksettä.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mikä on peliloki?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Peliloki antaa sinun kirjata tapahtumia harjoituksen aikana — maalit puolesta, maalit vastaan, rangaistukset ja erän aloitukset. Tapahtumat kirjataan Apple Watchilta pelin aikana ja niitä voi myös lisätä iPhonelta. Tulos ja henkilökohtaiset tilastot (omat maalini, syöttöni, rangaistusminuuttini) lasketaan kirjaamistasi tapahtumista.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Pitääkö minun aloittaa Peli-sessio käyttääkseni pelilokia?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ei. Peliloki on käytettävissä kaikissa harjoitustyypeissä — Peli, Harjoitus, Harjoitusottelu ja Muu. Voit kirjata maaleja ja rangaistuksia missä tahansa harjoituksessa.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Voinko kirjata pelituloksen ilman live-seurantaa Apple Watchilla?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kyllä. Napauta +-painiketta kohdan "Viimeisimmät harjoitukset" vieressä Ohjauspaneelissa lisätäksesi manuaalisen pelituloksen. Voit syöttää tuloksen, vastustajan, maalit, syötöt, rangaistukset ja erätiedot — kaikki ilman Watchia. Tämä on hyödyllistä pelien kirjaamiseen jälkikäteen tai analyysitarkoituksiin.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten kirjaan tapahtumia Watchillani?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Aktiivisen harjoituksen aikana napauta LOG-painiketta näytön alaosassa. Valitse tapahtumatyyppi (maali puolesta, maali vastaan, rangaistus tai erän aloitus) ja täytä tiedot. Tapahtuma tallennetaan nykyisellä ajalla ja näkyy iPhonessasi muutamassa sekunnissa.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten kirjaan tapahtumia iPhonellani?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kun harjoitus on aktiivinen Watchillasi, avaa iPhone-sovellus nähdäksesi live-harjoituksesi. Watchille kirjatut tapahtumat näkyvät iPhonessasi reaaliajassa. Voit myös lisätä tai poistaa tapahtumia suoraan iPhonelta. Huomaa, että iPhonella tehdyt muutokset eivät lähety takaisin Watchille harjoituksen aikana — Watch jatkaa oman lokinsa näyttämistä. Kun harjoitus päättyy, molemmat lähteet yhdistetään automaattisesti ja iPhonella tehdyt muutokset (lisäykset ja poistot) ovat etusijalla.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Millaisia tapahtumia voin kirjata?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Neljä tyyppiä: Maali puolesta (valinnaisesti merkitse "Minä tein maalin" tai "Minä syötin"), Maali vastaan, Rangaistus (rangaistustyypillä, kestolla ja onko omaa vai vastustajan joukkuetta vastaan) ja Erän aloitus (merkitsee tauot aikajanaasi).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mitä tapahtuu, jos en aseta aikaa tapahtumalle?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Jos lisäät tapahtuman määrittämättä aikaleimaa, se tallennetaan ilman sitä. Tapahtuma näkyy silti pelilokissasi ja lasketaan tulokseesi ja tilastoihisi. Voit aina palata lisäämään tai korjaamaan ajan harjoituksen jälkeen harjoituksen tietosivulta iPhonessasi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Voinko muokata tapahtumia harjoituksen jälkeen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kyllä. Avaa harjoitus iPhonessasi ja napauta mitä tahansa tapahtumaa muokataksesi sen tietoja — tyyppi, aikaleima, henkilökohtainen osallistuminen (maali/syöttö), rangaistustiedot ja muuta. Voit myös lisätä uusia tapahtumia tai poistaa olemassa olevia. Kaikki muutokset tallennetaan välittömästi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten Watchin ja iPhonen tapahtumat yhdistetään?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Harjoituksen aikana Watch ja iPhone pitävät kumpikin omaa kirjanpitoaan. Kun harjoitus päättyy ja Watch lähettää lopulliset tiedot iPhonellesi, sovellus yhdistää molemmat lähteet: iPhonella poistetut tapahtumat poistetaan, iPhonella lisätyt sisällytetään ja tulos lasketaan uudelleen yhdistetystä listasta. Lopputulos tallennetaan yhtenä yhdistettynä harjoituksena.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mitä tunnistusherkkyys tekee?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Herkkyys määrittää, kuinka paljon liikettä tarvitaan "luistelun" rekisteröimiseen. Korkea herkkyys havaitsee kevyemmät liikkeet (hyvä, jos vaihtoja ei havaita). Matala herkkyys vaatii voimakkaamman liikkeen (hyvä, jos saat vääriä havaintoja vaihtopenkilllä). Keskitaso on oletusasetus ja toimii hyvin useimmille pelaajille.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten säädän puskuriaikaa?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Avaa Ice Time Track -sovellus iPhonellasi, siirry Asetuksiin ja säädä "Liikepuskuri"-valitsinta. Lyhyemmät puskurit (10–15 sekuntia) päättävät vaihdot nopeammin. Pidemmät puskurit (25–30 sekuntia) sietävät paremmin lyhyitä taukoja vaihtojen aikana.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mitä ovat haptinen hälytykset ja miten niitä käytetään?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Haptiset hälytykset ovat värinäilmoituksia Watchissasi, kun tilasi muuttuu. Voit asettaa ne värisemään, kun astut jäälle, kun palaat vaihtopenkille, molemmissa tilanteissa tai sammuttaa ne kokonaan. Tämä auttaa sinua pysymään tietoisena ilman Watchin katsomista.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mitä "Lopeta harjoitus automaattisesti" tekee?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Automaattinen lopetus pysäyttää istuntosi automaattisesti asetetun ajan jälkeen (oletus 100 minuuttia). Tämä estää sovellusta toimimasta loputtomasti, jos unohdat lopettaa sen manuaalisesti, mikä säästää akkua ja varmistaa tietojesi tallentumisen.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jos muutan asetuksia aktiivisen harjoituksen aikana, tulevatko ne voimaan heti?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kyllä. Herkkyyden, liikepuskurin ja haptisten hälytysten muutokset synkronoituvat Watchiisi ja tulevat voimaan välittömästi käynnissä olevan istunnon aikana. Sinun ei tarvitse odottaa seuraavaa istuntoa – säädöt astuvat voimaan sekunneissa niiden muuttamisen jälkeen iPhonellasi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mitä ovat Lisäasetukset?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Lisäasetukset antavat sinun hienotaa jokaista tunnistuskynnystä erikseen. Laajenna osio Tunnistusasetuksissa määrittääksesi kiihtyvyys, askeltiheys, GPS-nopeus ja pitoaika sekä jäällä- että penkillä-laukaisijoille. Kun säädät mitä tahansa liukusäädintä, herkkyys vaihtuu automaattisesti tilaan "Mukautettu." Käytä "Palauta esiasetukseen" palataksesi Matala/Keskitaso/Korkea-esiasetuksiin.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mitä tietoja tallennetaan Apple Healthiin?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kun käytössä, sovellus tallentaa harjoituksesi jääkiekkoharjoituksena sisältäen: keston, poltetut aktiiviset kalorit ja syketiedot (keskiarvo ja maksimi). Tämä vaikuttaa Aktiivisuusrenkaisiisi ja kuntoiluhistoriaasi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten otan HealthKit-integraation käyttöön tai pois käytöstä?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Avaa Asetukset iPhone-sovelluksessa ja ota käyttöön "Tallenna Apple Healthiin." Kun käytössä, valmiit harjoitukset tallennetaan treeneiksi. Kun pois käytöstä, tietosi pysyvät vain Ice Time Trackissa.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miksi sykkeeni ei näy?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Varmista, että kellosi on tiukasti ja sykkeen mittausanturi on hyvässä ihokontaktissa. Sykkeen näkyminen voi kestää 30–60 sekuntia harjoituksen aloittamisen jälkeen. Jos ongelmat jatkuvat, tarkista että Ice Time Trackilla on lupa lukea sykettä kohdassa Asetukset &gt; Yksityisyys &gt; Terveys.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten harjoitukset synkronoituvat Watchin ja iPhonen välillä?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Harjoitukset synkronoituvat automaattisesti, kun molemmat laitteet ovat kantaman sisällä ja yhdistettyinä. Kun lopetat harjoituksen Watchilla, se siirtyy iPhonellesi muutamassa sekunnissa tai minuutissa. Voit myös käynnistää synkronoinnin manuaalisesti iPhone-sovelluksesta.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miksi harjoitukseni ei näy iPhonessani?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Varmista ensin, että harjoitus on päättynyt Watchilla. Avaa molemmat sovellukset ja varmista, että Bluetooth on käytössä. Harjoitukset synkronoituvat, kun Watch-sovellus on auki tai pian lopettamisen jälkeen. Jos se ei vieläkään näy, kokeile avata Watch-sovellus uudelleen synkronoinnin käynnistämiseksi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Voinko poistaa harjoituksen?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kyllä. iPhone-sovelluksessa siirry harjoitusluetteloon, pyyhkäise vasemmalle poistettavan harjoituksen kohdalla ja napauta Poista. Tämä poistaa sen molemmista laitteista.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Sovellus ei tunnista vaihtojani tarkasti</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Kokeile säätää tunnistusherkkyyttä Asetuksissa. Jos vaihtoja ei tunnisteta, nosta herkkyys tasolle Korkea. Jos saat virheellisiä tunnistuksia vaihtoaitiossa, laske tasolle Matala. Varmista myös, että Watch on tukevasti ranteessa eikä paksujen hanskojen päällä.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Sovellus lopetti tallennuksen kesken pelin</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Tämä voi tapahtua, jos Watch käynnistyy uudelleen tai sovellus kaatuu. Tarkista, laukesiko automaattinen lopetus odotettua aiemmin (säädettävissä Asetuksissa).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Watch-sovellus on jumissa kohdassa 'Synkronointi vaaditaan'</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Watch- ja iPhone-sovellusten täytyy olla yhteydessä toisiinsa alkuasennuksen suorittamiseksi. Varmista, että iPhone-sovellus on auki Watchin asennuksen aikana. Jos näyttö pysyy, pakota molemmat sovellukset sulkeutumaan ja käynnistä ne uudelleen. Jos ongelma jatkuu, poista ja asenna molemmat sovellukset uudelleen.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miksi sovellus tarvitsee paikannuksen käyttöoikeuden?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Sijaintia (GPS) käytetään luistelunopeuden mittaamiseen, mikä auttaa tunnistamaan tarkasti, milloin olet jäällä ja milloin vaihtoaitiossa. GPS-tiedot pysyvät laitteillasi eikä niitä ladata mihinkään.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miksi sovellus tarvitsee liike- ja kuntoiluoikeudet?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Liikesensorit (kiihtyvyysanturi ja gyroskooppi) tunnistavat liikemallisi erottaakseen luistelun istumisesta. Kuntoilupääsy mahdollistaa askelmäärän lukemisen tunnistuksen tarkkuuden parantamiseksi. Nämä tiedot käsitellään kokonaan Watchillasi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Jaetaanko tietojani kenenkään kanssa?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ei. Kaikki harjoitustietosi, terveystietosi ja anturilukemat pysyvät Apple Watchillasi ja iPhonellasi. Mitään ei ladata ulkoisille palvelimille. Tietosi ovat sinun.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miten otan paikannuksen käyttöön, jos estin sen vahingossa?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Vaihtoehto 1 (Watchissa): Avaa Asetukset &gt; Tietosuoja ja turvallisuus &gt; Sijaintipalvelut &gt; Ice Time Track ja valitse "Käytön aikana". Vaihtoehto 2 (iPhonesta): Avaa Watch-sovellus &gt; Tietosuoja &gt; Sijaintipalvelut &gt; Ice Time Track ja ota käyttöön.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Download CTA Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content" data-aos="fade-up">
-                    <div class="download__icon">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="download__icon-img">
-                    </div>
-                    <h2 class="download__title">Valmiina seuraamaan jääaikaasi?</h2>
-                    <p class="download__description">Hanki Ice Time Track ja aloita seuraava sessiosi. Automaattinen vaihtotunnistus, pelitapahtumien kirjaus ja terveysmittarit — kaikki ranteestasi.</p>
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn launch-btn--lg" id="download-cta" target="_blank" rel="noopener">Ennakkotilaa nyt</a>
-                    <img src="../assets/app-store-badges/app-store-badge-fi.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <span class="footer__name">Ice Time Track</span>
-                <div class="footer__links">
-                    <a href="/privacy-policy.html" class="footer__link">Tietosuojakäytäntö</a>
-                    <a href="#" class="footer__link">Käyttöehdot</a>
-                    <a href="mailto:support@masawata.net" class="footer__link">Tuki</a>
-                </div>
-                <p class="footer__copyright">© 2026 MasaWata. Kaikki oikeudet pidätetään.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/app-icon.png" alt="" width="44" height="44"><span>Ice Time Track</span></a>
+    <details class="asc-languages">
+      <summary>Kieli: Suomi</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Ice Time Track</p>
+        <h1>Jääkiekko Vaihto Treeni</h1>
+        <p>Automaattinen jääajan seuranta Apple Watchilla – nyt myös varusteiden seuranta ja muistutukset luistinten teroituksesta. Katso vaihdot, tilastot ja terveys.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Lataa App Storesta</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/fi/01-phone.webp" alt="Ice Time Track">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Tietoja apista</h2>
+      <div class="asc-prose"><p>Vaihtosi. Seurataan automaattisesti.</p>
+<p>Ice Time Track käyttää Apple Watchia tunnistaakseen, milloin luistelet ja milloin olet vaihtopenkillä. Ei nappeja, ei vaivaa. Aloita istunto ja pelaa.</p>
+<h3>MITEN SE TOIMII</h3>
+<p>Liikkeentunnistusalgoritmi analysoi kiihtyvyysmittarin, gyroskoopin ja GPS-tiedot erottaakseen luistelun levosta. iPhonesi synkronoi päivitykset reaaliajassa, jotta voit tarkastella tilastoja pelin aikana tai jälkeen.</p>
+<h3>OMINAISUUDET</h3>
+<ul><li>Automaattinen vaihtojen tunnistus, liikkeen ja terveysmittareiden seuranta</li><li>Kokonaisjääaika ja vaihtokohtainen erittely</li><li>Peliloki – maalit, jäähyt, erätauot</li><li>Syke ja kalorit per vaihto</li><li>Visuaalinen aikajana jää/penkki-kuviosta</li><li>Istuntohistoria trendeineen</li><li>Sijaintimerkintä jokaiselle hallille</li><li>Peli-, harjoitus- ja harjoituspelitilat</li><li>Valinnaiset haptiset hälytykset</li><li>Vie tiedot CSV- tai JSON-muodossa</li></ul>
+<h3>APPLE-INTEGRAATIO</h3>
+<p>Toimii Apple Watchin kanssa. Synkronoituu Apple Terveyteen.</p>
+<h3>YKSITYISYYS</h3>
+<p>Kaikki tiedot tallennetaan paikallisesti. Tiliä ei tarvita.</p>
+<p>Jääkiekkoilijoiden rakentama jääkiekkoilijoille. Tunne jääaikasi. Nosta pelisi.</p>
+<p>Ice Time Track muuttaa Apple Watchisi älykkääksi jääkiekkokumppaniksi, joka tietää tarkalleen, milloin olet jäällä ja milloin penkillä. Ei nappeja. Ei häiriöitä. Puhdasta automaattista seurantaa, jotta voit keskittyä parhaaseen suoritukseesi.</p>
+<h3>MITEN SE TOIMII</h3>
+<p>Aloita istunto Apple Watchillasi ja unohda se. Edistynyt liikkeentunnistus analysoi tiedot reaaliajassa. iPhonesi pysyy synkronoituna live-päivityksillä – katso tilastojasi katsomosta tai tarkista kaikki loppusummetin jälkeen.</p>
+<h3>MITÄ LÖYDÄT</h3>
+<ul><li>Kokonaisjääaika — Tiedä tarkalleen, kuinka monta minuuttia vietit siellä, missä se merkitsee</li><li>Vaihtokohtainen Erittely — Jokainen vaihto keston, sykkeen ja kalorien kanssa</li><li>Pelilokit – maalit/jäähyt jaksoittain</li><li>Sykkeen Seuranta — Seuraa ponnistelua luistellessa vs. palautumisessa</li><li>Poltetut Kalorit — Tarkat tiedot synkronoitu Apple Terveydestä</li><li>Istunnon Aikajana — Visuaalinen kaavio jää/penkki-kuviostasi</li><li>Sijaintimuisti — Automaattinen hallin merkintä</li><li>Historialliset Trendit — Vertaa istuntoja ja seuraa edistystä</li></ul>
+<h3>RAKENNETTU JOKAISELLE LUISTELIJALLE</h3>
+<p>Pelaatpa harrastesarjaa, treenatpa kovaa tai kilpailetpa harjoituspeleissä – Ice Time Track mukautuu. Merkitse istunnot tyypin mukaan, lisää vastustajien nimet ja rakenna henkilökohtainen jääkiekkopäiväkirjasi.</p>
+<h3>SAUMATON APPLE-INTEGRAATIO</h3>
+<ul><li>Synkronoi harjoitukset Apple Terveyteen</li><li>Toimii taustalla istuntojen aikana</li><li>Valinnaiset haptiset hälytykset jää/penkki-siirtymissä</li><li>Optimoitu vähäiselle akun kulutukselle</li></ul>
+<h3>YKSITYISYYS ENSIN</h3>
+<p>Tietosi pysyvät sinun. Tallennettu paikallisesti laitteillesi. Ei tilejä. Tietoja ei myydä. Koskaan.</p>
+<h3>PELAAJILTA PELAAJILLE</h3>
+<p>Jääkiekkoharrastajien rakentama, jotka kyllästyivät arvailemaan jääaikaa. Oikeat numerot. Oikeat oivallukset. Nolla kitkaa.</p>
+<p>Lataa nyt äläkä enää koskaan ihmettele jääaikaasi.</p>
+<p>Sido luistimet. Pudota kiekko. Me hoidamme loput.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Näyttökuvat</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/fi/01-phone.webp" alt="Ice Time Track — Näyttökuvat 1" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/02-phone.webp" alt="Ice Time Track — Näyttökuvat 2" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/03-phone.webp" alt="Ice Time Track — Näyttökuvat 3" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/04-phone.webp" alt="Ice Time Track — Näyttökuvat 4" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/05-phone.webp" alt="Ice Time Track — Näyttökuvat 5" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/06-phone.webp" alt="Ice Time Track — Näyttökuvat 6" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/07-phone.webp" alt="Ice Time Track — Näyttökuvat 7" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/08-phone.webp" alt="Ice Time Track — Näyttökuvat 8" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/09-phone.webp" alt="Ice Time Track — Näyttökuvat 9" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/10-watch.webp" alt="Ice Time Track — Näyttökuvat 10" loading="lazy"></figure>
+<figure><img src="../images/asc/fi/11-watch.webp" alt="Ice Time Track — Näyttökuvat 11" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Ice Time Track</h2>
+      <p>Automaattinen jääajan seuranta Apple Watchilla – nyt myös varusteiden seuranta ja muistutukset luistinten teroituksesta. Katso vaihdot, tilastot ja terveys.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Lataa App Storesta</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Tietosuojakäytäntö</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Käyttöehdot</a>
+    <a href="https://masawata.net/">Tuki</a>
+  </footer>
 </body>
 </html>

@@ -1,652 +1,159 @@
-<!DOCTYPE html>
-<html lang="vi">
+<!doctype html>
+<html lang="vi" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>WhereWasI - Ghi nhớ mọi nơi bạn đã đến</title>
-    <meta name="title" content="WhereWasI - Ghi nhớ mọi nơi bạn đã đến">
-    <meta name="description" content="Where was I ? tự động ghi nhớ mọi nơi bạn đến, rồi biến chúng thành dòng thời gian, lịch và bản đồ riêng tư. Khám phá quy luật của bạn, sưu tầm Vườn Quốc gia và Lâu đài Nhật Bản, và xem nhanh ngày của bạn từ Apple Watch hoặc Màn hình chính. Trên thiết bị, không cần tài khoản.">
-    <meta name="keywords" content="nhật ký vị trí, địa điểm đã đến, theo dõi vị trí, nhật ký du lịch, ứng dụng iOS, quyền riêng tư, lịch sử vị trí, theo dõi tự động">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/WhereWasI/vi/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/WhereWasI/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/WhereWasI/fr/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/WhereWasI/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/WhereWasI/es/">
-    <link rel="alternate" hreflang="pt" href="https://masawata.net/WhereWasI/pt/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/WhereWasI/vi/">
-    <meta property="og:title" content="WhereWasI - Ghi nhớ mọi nơi bạn đã đến">
-    <meta property="og:description" content="Where was I ? tự động ghi nhớ mọi nơi bạn đến, rồi biến chúng thành dòng thời gian, lịch và bản đồ riêng tư. Khám phá quy luật của bạn, sưu tầm Vườn Quốc gia và Lâu đài Nhật Bản, và xem nhanh ngày của bạn từ Apple Watch hoặc Màn hình chính. Trên thiết bị, không cần tài khoản.">
-    <meta property="og:image" content="https://masawata.net/WhereWasI/images/WhereWasI.png">
-    <meta property="og:site_name" content="WhereWasI">
-    <meta property="og:locale" content="vi_VN">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/WhereWasI/vi/">
-    <meta name="twitter:title" content="WhereWasI - Ghi nhớ mọi nơi bạn đã đến">
-    <meta name="twitter:description" content="Where was I ? tự động ghi nhớ mọi nơi bạn đến, rồi biến chúng thành dòng thời gian, lịch và bản đồ riêng tư. Khám phá quy luật của bạn, sưu tầm Vườn Quốc gia và Lâu đài Nhật Bản, và xem nhanh ngày của bạn từ Apple Watch hoặc Màn hình chính. Trên thiết bị, không cần tài khoản.">
-    <meta name="twitter:image" content="https://masawata.net/WhereWasI/images/WhereWasI.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6758056060">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/WhereWasI.png">
-    <link rel="apple-touch-icon" href="../images/WhereWasI.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.1">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "WhereWasI",
-        "operatingSystem": "iOS",
-        "applicationCategory": "LifestyleApplication",
-        "sameAs": "https://apps.apple.com/app/id6758056060",
-        "downloadUrl": "https://apps.apple.com/app/id6758056060",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Where was I ? tự động ghi nhớ mọi nơi bạn đến, rồi biến chúng thành dòng thời gian, lịch và bản đồ riêng tư. Khám phá quy luật của bạn, sưu tầm Vườn Quốc gia và Lâu đài Nhật Bản, và xem nhanh ngày của bạn từ Apple Watch hoặc Màn hình chính. Trên thiết bị, không cần tài khoản.",
-        "screenshot": "https://masawata.net/WhereWasI/images/en/hero.jpg",
-        "softwareVersion": "5.2",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "vi"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tôi Ở Đâu? — Ghi lại địa điểm &amp; ảnh của bạn</title>
+  <meta name="description" content="Mới: 103 đền Ichinomiya của Nhật Bản, mỗi đền một huy hiệu chạm khắc. Tự động theo dõi chuyến thăm và dòng thời gian riêng tư, tất cả trên thiết bị của bạn.">
+  <meta name="apple-itunes-app" content="app-id=6758056060">
+  <link rel="canonical" href="https://masawata.net/WhereWasI/vi/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/WhereWasI/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/WhereWasI/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/WhereWasI/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/WhereWasI/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/WhereWasI/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/WhereWasI/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/WhereWasI/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/WhereWasI/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/WhereWasI/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/WhereWasI/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/WhereWasI/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/WhereWasI/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/WhereWasI/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/WhereWasI/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/WhereWasI/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/WhereWasI/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/WhereWasI/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/WhereWasI/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/WhereWasI/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/WhereWasI/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/WhereWasI/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/WhereWasI/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/WhereWasI/pt-BR/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/WhereWasI/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/WhereWasI/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/WhereWasI/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/WhereWasI/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/WhereWasI/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/WhereWasI/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/WhereWasI/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/WhereWasI/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/WhereWasI/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/WhereWasI/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/WhereWasI/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Tôi Ở Đâu?", "description": "Mới: 103 đền Ichinomiya của Nhật Bản, mỗi đền một huy hiệu chạm khắc. Tự động theo dõi chuyến thăm và dòng thời gian riêng tư, tất cả trên thiết bị của bạn.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/WhereWasI/vi/", "downloadUrl": "https://apps.apple.com/app/id6758056060", "image": ["https://masawata.net/WhereWasI/images/asc/vi/01-phone.webp", "https://masawata.net/WhereWasI/images/asc/vi/02-phone.webp", "https://masawata.net/WhereWasI/images/asc/vi/03-phone.webp", "https://masawata.net/WhereWasI/images/asc/vi/04-phone.webp", "https://masawata.net/WhereWasI/images/asc/vi/05-phone.webp", "https://masawata.net/WhereWasI/images/asc/vi/06-phone.webp", "https://masawata.net/WhereWasI/images/asc/vi/07-phone.webp", "https://masawata.net/WhereWasI/images/asc/vi/08-phone.webp", "https://masawata.net/WhereWasI/images/asc/vi/09-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/WhereWasI.png" alt="WhereWasI" class="nav__logo-img">
-                <span class="nav__logo-text">WhereWasI</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">Tính năng</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">Ảnh chụp màn hình</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">Tải xuống</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#faq" class="nav__link">Câu hỏi thường gặp</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">VI</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../pt/" class="language-option">Português</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../id/" class="language-option">Indonesia</a>
-                    <a href="../vi/" class="language-option active">Tiếng Việt</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI App Icon" class="hero__icon">
-                    <h1 class="hero__title">Ghi nhớ mọi nơi bạn đã đến</h1>
-                    <p class="hero__description">Where was I ? tự động ghi nhớ mọi nơi bạn đến — rồi biến chúng thành dòng thời gian, lịch và bản đồ riêng tư. Khám phá quy luật của bạn, sưu tầm Vườn Quốc gia và Lâu đài Nhật Bản, và xem nhanh ngày của bạn ngay từ Apple Watch hoặc Màn hình chính. Tất cả trên thiết bị của bạn, không cần tài khoản.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-vi.svg" alt="Tải xuống trên App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="WhereWasI Screenshot" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Tính năng mạnh mẽ</h2>
-                    <p class="section-subtitle">Tất cả những gì bạn cần để ghi nhớ và khám phá lịch sử vị trí</p>
-                </div>
-
-                <div class="features__grid features__grid--4">
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Cuộc sống trên dòng thời gian</h3>
-                        <p class="feature-card__description">Cuộn qua lịch sử được sắp xếp đẹp mắt của mọi nơi bạn đã đến. Xem các chuyến thăm theo ngày, tuần hoặc tháng—câu chuyện cuộc đời bạn tự động mở ra.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="18" y1="20" x2="18" y2="10"></line>
-                <line x1="12" y1="20" x2="12" y2="4"></line>
-                <line x1="6" y1="20" x2="6" y2="14"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Khám phá quy luật của bạn</h3>
-                        <p class="feature-card__description">Có được cái nhìn sâu sắc về cuộc sống hàng ngày. Xem những nơi bạn đến nhiều nhất, thời gian ở mỗi địa điểm và thói quen của bạn thay đổi như thế nào theo thời gian.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
-                <line x1="8" y1="2" x2="8" y2="18"></line>
-                <line x1="16" y1="6" x2="16" y2="22"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Thế giới của bạn trong tầm mắt</h3>
-                        <p class="feature-card__description">Xem tất cả các chuyến thăm trên bản đồ tương tác. Thu nhỏ để thấy mọi nơi cuộc sống đã đưa bạn đến, hoặc phóng to để khám phá một khu phố.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Dữ liệu của bạn, thiết bị của bạn</h3>
-                        <p class="feature-card__description">Tất cả dữ liệu vị trí được lưu trữ an toàn trên iPhone và iCloud cá nhân của bạn. Không gì được gửi đến máy chủ bên ngoài. Hành trình của bạn mãi mãi là của bạn.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
-                <path d="M9 6l.6-3h4.8l.6 3"></path>
-                <path d="M9 18l.6 3h4.8l.6-3"></path>
-                <polyline points="12 10 12 12 13.5 13.5"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Ngay trên cổ tay bạn</h3>
-                        <p class="feature-card__description">Kiểm tra lượt ghé thăm hôm nay, tóm tắt tuần và tháng, cùng những địa điểm hàng đầu của bạn ngay từ Apple Watch — kèm theo một complication Smart Stack giúp điểm dừng mới nhất luôn trong tầm mắt.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--teal">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="7" height="7" rx="1.5"></rect>
-                <rect x="14" y="3" width="7" height="7" rx="1.5"></rect>
-                <rect x="3" y="14" width="7" height="7" rx="1.5"></rect>
-                <rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Tiện ích Màn hình chính & Màn hình khóa</h3>
-                        <p class="feature-card__description">Xem các lượt ghé thăm gần đây, bộ đếm thời gian lưu trú trực tiếp cho nơi bạn đang ở, và số lượt ghé thăm hôm nay mà không cần mở ứng dụng. Chạm vào bất kỳ tiện ích nào để vào thẳng ứng dụng.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--indigo">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-                <line x1="3" y1="9" x2="21" y2="9"></line>
-                <line x1="8" y1="2" x2="8" y2="6"></line>
-                <line x1="16" y1="2" x2="16" y2="6"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Xem theo lịch</h3>
-                        <p class="feature-card__description">Duyệt các lượt ghé thăm của bạn theo ngày, tuần hoặc tháng. Lịch hiển thị số lượt ghé thăm và số địa điểm khác nhau trong nháy mắt, để bạn có thể xem lại bất kỳ ngày nào chỉ trong vài giây.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--orange">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="12 2 15 8.5 22 9.3 17 14 18.2 21 12 17.7 5.8 21 7 14 2 9.3 9 8.5 12 2"></polygon>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Bộ sưu tập & Cột mốc</h3>
-                        <p class="feature-card__description">Biến những chuyến đi của bạn thành bộ sưu tập — theo dõi U.S. National Parks, 100 Famous Japanese Castles, các quốc gia và khu vực, hoặc tạo bộ sưu tập tùy chỉnh tự động lấp đầy khi bạn di chuyển.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
-                        <div class="feature-card__icon feature-card__icon--pink">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 20h9"></path>
-                <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Thêm, Chỉnh sửa & Tách lượt ghé thăm</h3>
-                        <p class="feature-card__description">Bổ sung một điểm dừng mà ứng dụng bỏ sót, tinh chỉnh thời gian đến và đi, hoặc tách một lượt ghé thăm thành hai — lịch sử của bạn luôn chính xác và đầy đủ.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Mang lịch sử của bạn theo cùng</h3>
-                        <p class="feature-card__description">Nhập Google Maps Timeline của bạn, cùng dữ liệu Moves và Arc Timeline, để nhiều năm địa điểm cùng đồng hành.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                <circle cx="12" cy="13" r="4"></circle>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Check-In bằng ảnh</h3>
-                        <p class="feature-card__description">Biến những bức ảnh bạn chụp thành lượt ghé thăm. Where was I ? đọc nơi mỗi bức ảnh được chụp để bổ sung những nơi bạn đã đến — giúp mở khóa câu đố và khám phá bộ sưu tập. Ảnh của bạn không bao giờ được tải lên hay thay đổi.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Xem ứng dụng hoạt động</h2>
-                    <p class="section-subtitle">Thiết kế đẹp mắt kết hợp chức năng mạnh mẽ</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-poster.jpg" alt="Track locations, cherish journeys" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-poster2.jpg" alt="Automatically recorded" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-watch.jpg" alt="Apple Watch support" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-analysis.jpg" alt="Powerful analytics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-locations.jpg" alt="Organized locations" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-collections.jpg" alt="Collections" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-parks.jpg" alt="U.S. National Parks progress" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-photos.jpg" alt="Photos at your places" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI" class="download__icon">
-                    <h2 class="download__title">Bắt đầu ghi nhớ ngay hôm nay</h2>
-                    <p class="download__description">Tải miễn phí. Nhật ký vị trí của bạn bắt đầu ngay khi cài đặt. Không cần tài khoản—chỉ bạn, iPhone và những nơi bạn đến.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-vi.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">Có sẵn trên iPhone, iPad và Apple Watch</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Câu hỏi thường gặp</h2>
-                    <p class="section-subtitle">Tất cả những gì bạn cần biết về WhereWasI</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Có ứng dụng Apple Watch và tiện ích không?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Có. Where was I ? bao gồm một ứng dụng Apple Watch đầy đủ — lượt ghé thăm hôm nay, tóm tắt tuần và tháng, cùng những địa điểm hàng đầu của bạn — kèm theo một complication Smart Stack. Trên iPhone, bạn còn có các tiện ích Màn hình chính và Màn hình khóa hiển thị lượt ghé thăm gần đây, bộ đếm thời gian lưu trú trực tiếp, số lượt ghé thăm hôm nay và vị trí hiện tại của bạn.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Tôi có thể nhập Google Maps Timeline của mình không?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Có. Bạn có thể nhập tệp xuất Google Maps Timeline, cũng như dữ liệu Moves và Arc Timeline — chỉ cần mở màn hình nhập và thêm tệp của bạn. Các địa điểm trước đây của bạn sẽ được tự động khớp với các địa điểm.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bộ sưu tập là gì?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Bộ sưu tập nhóm các lượt ghé thăm của bạn thành những chủ đề bạn quan tâm. Theo dõi tiến trình của bạn qua U.S. National Parks, 100 Famous Japanese Castles, các quốc gia và khu vực, hoặc tạo bộ sưu tập tùy chỉnh với từ khóa của riêng bạn — chúng tự động lấp đầy khi bạn ghé thăm các địa điểm phù hợp, và bạn có thể chia sẻ tiến trình của mình.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Check-In bằng ảnh là gì?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Check-In bằng ảnh là những lượt ghé thăm được tự động tạo từ các ảnh trên thiết bị của bạn. Mỗi lần bạn mở ứng dụng, nó nhóm các ảnh theo thời gian và vị trí rồi khớp mỗi nhóm với địa điểm đã lưu gần nhất. Khác với các lượt ghé thăm được theo dõi, chúng cho biết bạn đã ở đâu chứ không phải bạn đã ở lại bao lâu — và nếu bạn xóa một bức ảnh, lượt check-in của nó sẽ đơn giản biến mất. Ảnh của bạn không bao giờ được tải lên hay chỉnh sửa.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Làm cách nào để cấp hoặc thay đổi quyền truy cập ảnh?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Where was I ? sử dụng thư viện ảnh của bạn để khám phá các địa điểm dựa trên nơi ảnh của bạn được chụp — điều này giúp Check-In bằng ảnh, mở khóa câu đố và khám phá bộ sưu tập. Để cấp hoặc cập nhật quyền, vào **Cài đặt → Quyền riêng tư & Bảo mật → Where Was I** và chọn **Toàn quyền truy cập**. "Quyền truy cập giới hạn" chỉ quét những ảnh bạn chọn, vì vậy một số lượt ghé thăm có thể bị bỏ sót.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Tại sao vị trí Check-In bằng ảnh của tôi quay trở lại sau khi tôi gán lại nó?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Check-In bằng ảnh được dựng lại từ ảnh của bạn mỗi khi ứng dụng khởi chạy, vì vậy việc gán lại một lượt cho một địa điểm khác có thể bị đặt lại trong lần khởi chạy tiếp theo. Đó là vì các lượt check-in được tạo lại từ đầu thay vì được lưu vĩnh viễn như các lượt ghé thăm được theo dõi — ứng dụng sẽ cảnh báo bạn về điều này khi bạn gán lại một lượt.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Tôi có thể thêm hoặc sửa một lượt ghé thăm mà ứng dụng bỏ sót không?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Có. Sử dụng trình hướng dẫn lượt ghé thăm thủ công để thêm một điểm dừng chưa được ghi lại, chỉnh sửa thời gian đến và đi của bất kỳ lượt ghé thăm nào, hoặc tách một lượt ghé thăm thành hai khi một điểm dừng thực ra là hai. Mỗi lượt ghé thăm cho biết nó được phát hiện tự động, do bạn thêm vào, hay được nhập.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Theo dõi vị trí hoạt động như thế nào?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ứng dụng sử dụng API Visit Monitoring của Apple để tự động phát hiện khi bạn đến và rời khỏi các địa điểm. Điều này diễn ra ở nền với tác động tối thiểu đến pin.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="800">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Ứng dụng có hoạt động khi đóng không?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Có! Với quyền vị trí Luôn luôn, ứng dụng nhận thông báo về lượt ghé thăm ngay cả khi không chạy. Hãy đảm bảo cấp quyền này trong Cài đặt.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="900">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Làm cách nào để cấp hoặc thay đổi quyền truy cập vị trí?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ứng dụng này cần quyền truy cập vị trí "Luôn luôn" để hoạt động đúng cách — đó là cách chúng tôi phát hiện khi bạn đến và rời khỏi các địa điểm, ngay cả khi ứng dụng không mở.
-
-Để cấp hoặc cập nhật quyền: vào **Cài đặt → Quyền riêng tư & Bảo mật → Dịch vụ định vị → Where Was I** và chọn **Luôn luôn**.
-
-"Khi sử dụng" chỉ theo dõi lượt ghé thăm khi ứng dụng đang hiển thị trên màn hình, và "Không bao giờ" tắt hoàn toàn tính năng theo dõi. Để có trải nghiệm tốt nhất, hãy chọn "Luôn luôn".</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1000">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Làm cách nào để đặt tên địa điểm?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Chạm vào lượt ghé thăm để xem chi tiết, sau đó chạm Gán địa điểm để tìm kiếm các địa điểm gần đó hoặc tạo nhãn tùy chỉnh.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Gán địa điểm tự động hoạt động như thế nào?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Khi có lượt ghé thăm mới, ứng dụng kiểm tra xem tọa độ có nằm trong bán kính của địa điểm đã lưu không. Nếu khớp, lượt ghé thăm được tự động gán cho địa điểm đó. Nếu không khớp, địa điểm mới được tạo bằng các địa điểm gần đó hoặc địa chỉ.
-
-Nếu các lượt ghé thăm không khớp với địa điểm đã lưu, bán kính có thể quá nhỏ. GPS có thể chênh lệch 10-50 mét giữa các lượt ghé thăm, vì vậy hãy tăng bán kính trong Chi tiết địa điểm (tối đa 500m) hoặc điều chỉnh tọa độ bằng "Điều chỉnh địa điểm trên bản đồ".</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Đồng bộ iCloud hoạt động như thế nào?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>iCloud Sync sao lưu dữ liệu và cho phép bạn xem lượt ghé thăm từ tất cả thiết bị của bạn.
-
-**Quan trọng:** Bạn phải bật iCloud Sync trong Cài đặt để sao lưu hoạt động. Nếu không, tất cả dữ liệu sẽ bị mất vĩnh viễn nếu bạn xóa hoặc cài lại ứng dụng.
-
-**Cách hoạt động:**
-• Mỗi thiết bị theo dõi và sao lưu các lượt ghé thăm riêng của nó
-• Lượt ghé thăm của bạn không được hợp nhất hoặc chia sẻ giữa các thiết bị
-• Bạn có thể xem lịch sử ghé thăm của thiết bị khác (chỉ đọc) bằng cách bật chúng trong Cài đặt → iCloud Sync → Hiển thị lượt ghé thăm từ
-
-**Ví dụ:** Nếu bạn có iPhone và iPad, mỗi thiết bị ghi lại lượt ghé thăm riêng. Trên iPhone, bạn có thể bật iPad để xem bạn đã đi đâu với nó—nhưng những lượt ghé thăm đó vẫn thuộc về iPad.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Dữ liệu vị trí chính xác đến mức nào?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Độ chính xác vị trí phụ thuộc vào các tín hiệu có sẵn (GPS, Wi-Fi, di động). Ứng dụng hiển thị độ chính xác cho mỗi lượt ghé thăm. Thông thường, độ chính xác trong khoảng 10-100 mét.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Tại sao một số lượt ghé thăm xuất hiện hai lần?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Đôi khi hệ thống gửi nhiều cập nhật cho cùng một lượt ghé thăm. Ứng dụng tự động hợp nhất chúng, nhưng đôi khi có thể xuất hiện trùng lặp. Bạn có thể xóa các mục không mong muốn.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Điều gì xảy ra tại các địa điểm lớn như khu trượt tuyết hoặc trung tâm mua sắm?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ứng dụng theo dõi các điểm dừng quan trọng, không phải di chuyển liên tục. Tại khu trượt tuyết, bạn sẽ thấy các lượt ghé thăm cho nhà nghỉ chính và bữa trưa dài, nhưng không phải mọi cáp treo hay nghỉ ngắn. Các địa điểm lớn thường xuất hiện như một lượt ghé thăm dài. Điều này được thiết kế cho 'Tôi đã dành thời gian ở đâu?' thay vì theo dõi đường đi chi tiết.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="1600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Dữ liệu vị trí của tôi có riêng tư không?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Chắc chắn rồi. Tất cả dữ liệu được lưu trữ cục bộ trên thiết bị và chỉ đồng bộ với tài khoản iCloud cá nhân của bạn. Chúng tôi không bao giờ xem hoặc lưu trữ dữ liệu vị trí của bạn trên máy chủ bên ngoài.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">Quyền riêng tư của bạn quan trọng</h2>
-                    <p class="privacy__description">WhereWasI giữ tất cả dữ liệu vị trí trên thiết bị và tài khoản iCloud cá nhân của bạn. Các chuyến đi của bạn không bao giờ được chia sẻ với chúng tôi hoặc bất kỳ bên thứ ba nào.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Đọc Chính sách Bảo mật</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/WhereWasI.png" alt="WhereWasI" class="footer__logo">
-                    <span class="footer__name">WhereWasI</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6758056060?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">Chính sách Bảo mật</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Điều khoản Dịch vụ</a>
-                </div>
-                <p class="footer__copyright">© 2026 Where was I ?. Bảo lưu mọi quyền.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js?v=1.1"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/WhereWasI.png" alt="" width="44" height="44"><span>Tôi Ở Đâu?</span></a>
+    <details class="asc-languages">
+      <summary>Ngôn ngữ: Tiếng Việt</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Tôi Ở Đâu?</p>
+        <h1>Ghi lại địa điểm &amp; ảnh của bạn</h1>
+        <p>Mới: 103 đền Ichinomiya của Nhật Bản, mỗi đền một huy hiệu chạm khắc. Tự động theo dõi chuyến thăm và dòng thời gian riêng tư, tất cả trên thiết bị của bạn.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758056060" rel="noopener">Tải xuống từ App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/vi/01-phone.webp" alt="Tôi Ở Đâu?">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Giới thiệu ứng dụng</h2>
+      <div class="asc-prose"><p>Where was I ? — Nhật Ký Địa Điểm Cá Nhân</p>
+<p>Bạn từng cố nhớ nhà hàng tuyệt vời tháng trước? Where was I ? tự động theo dõi các chuyến thăm và xây dựng dòng thời gian đẹp mắt về hành trình cuộc sống của bạn.</p>
+<h3>THEO DÕI TỰ ĐỘNG</h3>
+<p>Không cần ghi chép thủ công. Ứng dụng âm thầm ghi lại khi bạn đến và rời đi, tạo lịch sử chi tiết mà không cần bạn làm gì.</p>
+<h3>LỊCH THÔNG MINH</h3>
+<p>Xem các chuyến thăm theo ngày, tuần hoặc tháng. Lịch trực quan hiển thị số lần ghé thăm và các địa điểm độc đáo. Chạm vào một ngày để xem bạn đã ở đâu.</p>
+<h3>WIDGET MÀN HÌNH CHÍNH &amp; MÀN HÌNH KHÓA</h3>
+<p>Xem các chuyến thăm gần đây nhất với widget Màn hình chính cỡ vừa. Widget Màn hình khóa hiển thị vị trí hiện tại, bộ đếm thời gian lưu lại trực tiếp, hoặc số lần ghé thăm hôm nay — tất cả đều có thể chạm.</p>
+<h3>SẮP XẾP ĐỊA ĐIỂM</h3>
+<p>Địa điểm được tự động nhóm theo vùng và thành phố. Gán danh mục tùy chỉnh như Nhà, Công ty, Phòng gym hoặc Quán cà phê. Tạo danh mục riêng với biểu tượng và màu sắc.</p>
+<h3>PHÂN TÍCH MẠNH MẼ</h3>
+<p>Khám phá các thói quen trong cuộc sống:</p>
+<ul><li>Phân bổ thời gian theo danh mục</li><li>Những nơi bạn đến nhiều nhất</li><li>Phân tích nhịp độ hàng tuần</li><li>Xu hướng tần suất ghé thăm</li><li>Biểu đồ thời gian lưu lại từng địa điểm — xem bạn thường lưu lại bao lâu, theo ngày, tuần, tháng hoặc năm</li></ul>
+<h3>BỘ SƯU TẬP VÙNG THEO QUỐC GIA</h3>
+<p>Biến hành trình thành trò ghép hình! Xem bạn đã đến bao nhiêu bang, tỉnh hoặc vùng trong mỗi quốc gia. Chia sẻ tiến trình dưới dạng hình ghép hình.</p>
+<h3>TIẾN TRÌNH VƯỜN QUỐC GIA</h3>
+<p>Khám phá thiên nhiên! Tự động ghi nhận các chuyến thăm vườn quốc gia và theo dõi tiến trình cùng các địa điểm hàng ngày của bạn.</p>
+<h3>100 LÂU ĐÀI NỔI TIẾNG NHẬT BẢN</h3>
+<p>Đang du lịch Nhật Bản? Bộ sưu tập tích hợp mới theo dõi các chuyến thăm đến 100 lâu đài nổi tiếng của đất nước này. Mở tab Bộ Sưu Tập → Khám Phá → Nhật Bản.</p>
+<h3>BỘ SƯU TẬP TÙY CHỈNH</h3>
+<p>Theo dõi bất cứ điều gì bạn muốn — Apple Stores, bảo tàng, hiệu sách. Tạo bộ sưu tập, đặt từ khóa và xem nó tự động đầy lên. Mỗi bộ sưu tập hiển thị số lượng, lịch sử ghé thăm đầy đủ và bản đồ.</p>
+<h3>NHẬP LỊCH SỬ VỊ TRÍ CỦA BẠN</h3>
+<p>Đến từ một ứng dụng khác? Mang theo toàn bộ lịch sử của bạn — định dạng được phát hiện tự động, tệp xuất lớn được xử lý, và bạn sẽ thấy bản xem trước trước khi nhập bất cứ gì:</p>
+<ul><li>Google Timeline (tệp xuất Google Maps hoặc Google Takeout)</li><li>Arc Timeline (các tệp .json hàng tháng bạn xuất từ Arc)</li><li>Moves (bản sao lưu ProtoGeo / Facebook Moves)</li></ul>
+<h3>QUẢN LÝ HÀNG LOẠT</h3>
+<p>Quản lý tất cả địa điểm tại một nơi. Tìm kiếm, sắp xếp và lọc. Chọn nhiều địa điểm để phân loại hoặc xóa hàng loạt. Giữ thư viện địa điểm gọn gàng.</p>
+<h3>QUYỀN RIÊNG TƯ LÀ TRÊN HẾT</h3>
+<p>Dữ liệu vị trí của bạn ở lại trên thiết bị. Không cần tài khoản. Không có dữ liệu nào gửi đến máy chủ. Sự di chuyển của bạn là việc riêng của bạn.</p>
+<h3>PHÙ HỢP CHO:</h3>
+<ul><li>Theo dõi giờ làm và địa điểm</li><li>Nhớ nhà hàng và cửa hàng đã ghé</li><li>Phân tích thói quen hàng ngày</li><li>Nhật ký du lịch và vườn quốc gia</li><li>Báo cáo chi phí và quãng đường</li><li>Hiểu cách phân bổ thời gian</li></ul>
+<h3>TÍNH NĂNG:</h3>
+<ul><li>Tự động phát hiện đến và đi</li><li>Lịch với dòng thời gian ghé thăm hàng ngày</li><li>Widget Màn hình chính và Màn hình khóa với deep-linking</li><li>Nhóm địa điểm theo vùng và thành phố</li><li>Danh mục tùy chỉnh với biểu tượng và màu</li><li>Gợi ý danh mục thông minh từ Apple Maps</li><li>Lịch sử ghé thăm chi tiết với thời lượng</li><li>Biểu đồ thời gian lưu lại từng địa điểm (ngày / tuần / tháng / năm)</li><li>Bảng phân tích với thông tin chi tiết</li><li>Tìm kiếm và lọc địa điểm</li><li>Bộ sưu tập vùng theo quốc gia với hình ghép hình chia sẻ được</li><li>Theo dõi tiến trình vườn quốc gia</li><li>Bộ sưu tập tích hợp 100 Lâu đài nổi tiếng Nhật Bản</li><li>Bộ sưu tập tùy chỉnh với tự khớp từ khóa, chỉnh tay và thống kê</li><li>Quản lý địa điểm hàng loạt</li><li>Nhập từ Google Timeline, Arc Timeline và Moves</li><li>Khả năng xuất dữ liệu</li><li>Không cần tài khoản</li><li>Thiết kế tập trung vào quyền riêng tư</li></ul>
+<p>Bắt đầu xây dựng ký ức địa điểm hôm nay. Tải Where was I ? và không bao giờ quên nơi bạn đã đến.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Ảnh chụp màn hình</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/vi/01-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 1" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/02-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 2" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/03-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 3" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/04-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 4" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/05-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 5" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/06-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 6" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/07-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 7" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/08-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 8" loading="lazy"></figure>
+<figure><img src="../images/asc/vi/09-phone.webp" alt="Tôi Ở Đâu? — Ảnh chụp màn hình 9" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Tôi Ở Đâu?</h2>
+      <p>Mới: 103 đền Ichinomiya của Nhật Bản, mỗi đền một huy hiệu chạm khắc. Tự động theo dõi chuyến thăm và dòng thời gian riêng tư, tất cả trên thiết bị của bạn.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758056060" rel="noopener">Tải xuống từ App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Chính sách quyền riêng tư</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Điều khoản dịch vụ</a>
+    <a href="https://masawata.net/">Hỗ trợ</a>
+  </footer>
 </body>
 </html>

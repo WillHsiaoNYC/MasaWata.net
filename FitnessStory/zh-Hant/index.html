@@ -1,668 +1,127 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
+<!doctype html>
+<html lang="zh-Hant" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Fitness Story - 將Apple Health和Watch健身數據轉化為視覺旅程</title>
-    <meta name="title" content="Fitness Story - 將Apple Health和Watch健身數據轉化為視覺旅程">
-    <meta name="description" content="將Apple Watch和健康數據轉化為精美的視覺旅程。追蹤跑步、騎行、游泳等運動。分析趨勢、個人記錄和進度。">
-    <meta name="keywords" content="fitness, workout, Apple Health, tracking, personal records, exercise, health, running, cycling, data visualization, iOS app">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/FitnessStory/zh-Hant/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/FitnessStory/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/FitnessStory/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/FitnessStory/zh-Hant/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/FitnessStory/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/FitnessStory/ko/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/FitnessStory/fr/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/FitnessStory/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/FitnessStory/es/">
-    <link rel="alternate" hreflang="pt" href="https://masawata.net/FitnessStory/pt/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/FitnessStory/it/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/FitnessStory/ru/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/FitnessStory/hi/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/FitnessStory/id/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/FitnessStory/vi/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/FitnessStory/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/FitnessStory/zh-Hant/">
-    <meta property="og:title" content="Fitness Story - 將Apple Health和Watch健身數據轉化為視覺旅程">
-    <meta property="og:description" content="將Apple Watch和健康數據轉化為精美的視覺旅程。追蹤跑步、騎行、游泳等運動。分析趨勢、個人記錄和進度。">
-    <meta property="og:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
-    <meta property="og:site_name" content="健身故事">
-    <meta property="og:locale" content="zh_TW">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/FitnessStory/zh-Hant/">
-    <meta name="twitter:title" content="Fitness Story - 將Apple Health和Watch健身數據轉化為視覺旅程">
-    <meta name="twitter:description" content="將Apple Watch和健康數據轉化為精美的視覺旅程。追蹤跑步、騎行、游泳等運動。分析趨勢、個人記錄和進度。">
-    <meta name="twitter:image" content="https://masawata.net/FitnessStory/images/Fitness%20Story.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6748090363">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/Fitness%20Story.png">
-    <link rel="apple-touch-icon" href="../images/Fitness%20Story.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.2">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "健身故事",
-        "operatingSystem": "iOS",
-        "applicationCategory": "HealthApplication",
-        "sameAs": "https://apps.apple.com/app/id6748090363",
-        "downloadUrl": "https://apps.apple.com/app/id6748090363",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "37"
-        },
-        "description": "將Apple Watch和健康數據轉化為精美的視覺旅程。追蹤跑步、騎行、游泳等運動。分析趨勢、個人記錄和進度。",
-        "screenshot": "https://masawata.net/FitnessStory/images/en/hero.jpg",
-        "softwareVersion": "6.4.2",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "zh-Hant"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>健身故事 — 解鎖你的運動洞察，自我挑戰，讓數據說話、視覺化！</title>
+  <meta name="description" content="現已登陸 Apple Watch：任一錶面都能看到今天的步數，「今天」頁面還有距離、卡路里與爬升樓層——資料直接讀自 Apple 健康。">
+  <meta name="apple-itunes-app" content="app-id=6748090363">
+  <link rel="canonical" href="https://masawata.net/FitnessStory/zh-Hant/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/FitnessStory/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/FitnessStory/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/FitnessStory/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/FitnessStory/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/FitnessStory/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/FitnessStory/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/FitnessStory/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/FitnessStory/fr-FR/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/FitnessStory/hi/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/FitnessStory/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/FitnessStory/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/FitnessStory/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/FitnessStory/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/FitnessStory/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/FitnessStory/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/FitnessStory/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/FitnessStory/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/FitnessStory/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/FitnessStory/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/FitnessStory/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/FitnessStory/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/FitnessStory/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/FitnessStory/tr/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/FitnessStory/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/FitnessStory/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/FitnessStory/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/FitnessStory/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "健身故事", "description": "現已登陸 Apple Watch：任一錶面都能看到今天的步數，「今天」頁面還有距離、卡路里與爬升樓層——資料直接讀自 Apple 健康。", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/FitnessStory/zh-Hant/", "downloadUrl": "https://apps.apple.com/app/id6748090363", "image": ["https://masawata.net/FitnessStory/images/asc/zh-Hant/01-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/02-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/03-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/04-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/05-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/06-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/07-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/08-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/09-phone.webp", "https://masawata.net/FitnessStory/images/asc/zh-Hant/10-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="nav__logo-img">
-                <span class="nav__logo-text">健身故事</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">功能</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">截圖</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#testimonials" class="nav__link">用戶評價</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">下載</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">ZH</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option active">繁體中文</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../pt/" class="language-option">Português</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../id/" class="language-option">Indonesia</a>
-                    <a href="../vi/" class="language-option">Tiếng Việt</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story App Icon" class="hero__icon">
-                    <h1 class="hero__title">您的健身旅程，精彩呈現</h1>
-                    <p class="hero__description">將Apple Watch和健康數據轉化為美麗、富有洞察力的旅程。追蹤跑步、騎行、游泳及所有運動。分析趨勢、個人記錄，慶祝每一次勝利。</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-zh-Hant.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="hero__rating">
-                        <div class="stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <span class="rating-text">App Store 5.0 星評分</span>
-                    </div>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="Fitness Story Dashboard" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">強大功能</h2>
-                    <p class="section-subtitle">全方位了解並記錄您的健身旅程</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">專業分析</h3>
-                        <p class="feature-card__description">解鎖口袋中的分析套件。並排比較運動數據，查看年度趨勢，追蹤步頻和步幅。 還包括箱形圖基準圖表，揭示每項運動的中位數、四分位數和異常值。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/graphs.jpg" alt="專業分析" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                <line x1="16" y1="2" x2="16" y2="6"></line>
-                                <line x1="8" y1="2" x2="8" y2="6"></line>
-                                <line x1="3" y1="10" x2="21" y2="10"></line>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">互動儀表板</h3>
-                        <p class="feature-card__description">存取全互動式儀表板，將您的日常運動與整體健康狀況相連結。透過貢獻圖和連續記錄追蹤您的堅持度。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/dashboard.jpg" alt="互動儀表板" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">時間軸</h3>
-                        <p class="feature-card__description">以連續敘事的方式體驗您的健身歷史。滾動瀏覽豐富的視覺化時間軸，將您的運動與個人記憶完美結合。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/storyline.jpg" alt="時間軸" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">我的足跡</h3>
-                        <p class="feature-card__description">在地圖上查看您的運動歷史，按城市和國家分組。看看您的健身旅程帶您去過世界上哪些地方。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/fitness-map.jpg" alt="我的足跡" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">收藏與標籤</h3>
-                        <p class="feature-card__description">使用自訂標籤組織您的訓練，如『間歇訓練』、『恢復』或『比賽日』。用愛心標記您最好的訓練，建立您的巔峰表現合集。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/favorites.jpg" alt="收藏與標籤" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 8 7 8M18 9h1.5a2.5 2.5 0 000-5C17 4 17 8 17 8"/>
-                                <path d="M4 22h16"/>
-                                <path d="M10 22V8h4v14"/>
-                                <path d="M8 6V4h8v2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">個人記錄</h3>
-                        <p class="feature-card__description">我們自動偵測個人記錄，並與您的照片和筆記一起展示。在您的榮譽殿堂中保存最精彩的勝利時刻。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/personal-records.jpg" alt="個人記錄" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 3h5v5M8 3H3v5M3 16v5h5M16 21h5v-5"/>
-                                <line x1="21" y1="3" x2="14" y2="10"/>
-                                <line x1="3" y1="21" x2="10" y2="14"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">運動對比</h3>
-                        <p class="feature-card__description">並排比較多個運動記錄（最多10個）以查看您的進步。分析配速、心率、海拔等數據，了解您的表現如何隨時間演變。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/workout-comparison.jpg" alt="運動對比" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"/>
-                                <path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20"/>
-                                <path d="M2 12h20"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">彩色路線</h3>
-                        <p class="feature-card__description">以前所未有的方式視覺化您的運動路線。按配速、海拔、步頻或步幅為路徑著色，即時查看您最努力的地方。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/color-route.jpg" alt="彩色路線" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">慶祝記錄</h3>
-                        <p class="feature-card__description">每一個個人記錄都值得認可。當您打破新的PR時，用精美的視覺效果慶祝這一時刻。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/record-celebration.jpg" alt="慶祝記錄" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="900">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="3" width="7" height="7" rx="1"/>
-                                <rect x="14" y="3" width="7" height="7" rx="1"/>
-                                <rect x="3" y="14" width="7" height="7" rx="1"/>
-                                <rect x="14" y="14" width="7" height="7" rx="1"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">小工具</h3>
-                        <p class="feature-card__description">透過精美的主畫面小工具讓健身數據觸手可及。無需開啟應用程式，即可一目瞭然地查看步數、卡路里、運動進度和身體指標。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/widgets.jpg" alt="小工具" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">健康指標</h3>
-                        <p class="feature-card__description">一目瞭然地監控所有重要健康指標——從步數、卡路里到心率、VO2 max、睡眠等。與個人基準比較，保持正軌。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/health-metrics.jpg" alt="健康指標" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1100">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
-                                <line x1="4" y1="22" x2="4" y2="15"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">每日挑戰</h3>
-                        <p class="feature-card__description">挑戰自動追蹤的目標——3 公里跑、1 萬步、10 公里騎行和 45 分鐘鍛鍊——分為 1 天、3 天和 7 天等級。贏取徽章，填滿你的獎盃陳列櫃，慶祝每一次勝利。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-challenges.jpg" alt="每日挑戰" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1200">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="18" cy="5" r="3"/>
-                                <circle cx="6" cy="12" r="3"/>
-                                <circle cx="18" cy="19" r="3"/>
-                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
-                                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">可分享卡片</h3>
-                        <p class="feature-card__description">將任意鍛鍊、記錄或挑戰變成精美的分享卡片。從 15 種配色主題中選擇，並在漸層與淺色外觀之間切換，匹配你的風格。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-records.jpg" alt="可分享卡片" loading="lazy">
-                        </div>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="1300">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7 10 12 15 17 10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                        </div>
-                        <h3 class="feature-card__title">匯出一切</h3>
-                        <p class="feature-card__description">將完整歷史記錄——或任意日期範圍——匯出為 CSV 或 JSON，包含分段資料、身體指標和鍛鍊中繼資料。你的資料始終屬於你。</p>
-                        <div class="feature-card__image">
-                            <img src="../images/en/gallery-analysis.jpg" alt="匯出一切" loading="lazy">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">功能預覽</h2>
-                    <p class="section-subtitle">精美設計與強大功能的完美結合</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-insights.jpg" alt="Unlock your workout insights" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-health.jpg" alt="Complete health metrics" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-analysis.jpg" alt="Professional analysis" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-challenges.jpg" alt="Daily challenges" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-records.jpg" alt="Personal records &amp; trophy case" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-comparison.jpg" alt="Compare workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-map.jpg" alt="Your locations on the map" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-activities.jpg" alt="80+ activity types" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-workout.jpg" alt="Deep workout detail" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section class="testimonials" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">用戶心聲</h2>
-                    <p class="section-subtitle">加入熱愛 Fitness Story 的健身愛好者大家庭</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"這款應用提供了 Apple 原生健康應用無法提供的精彩健身趨勢分析。介面設計非常漂亮，有 Apple 的感覺。"</p>
-                        <p class="testimonial-card__author">— Antcido</p>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"終於有一款健身應用能把原始數據變成真正激勵我的視覺化圖表。喜歡個人記錄追蹤和年度對比功能！"</p>
-                        <p class="testimonial-card__author">— Sigmasigmarizz</p>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <p class="testimonial-card__quote">"這款應用給我提供了 Strava 和健康應用都無法提供的洞察。如果你熱愛健身，一定要試試！"</p>
-                        <p class="testimonial-card__author">— Cleverc77</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="download__icon">
-                    <h2 class="download__title">開啟您的 Fitness Story</h2>
-                    <p class="download__description">免費下載，可選升級 Pro 版解鎖進階功能。您的數據安全儲存在裝置本機。</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-zh-Hant.svg" alt="Download on the App Store" class="app-store-badge" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">支援 iPhone 和 iPad</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">常見問題</h2>
-                    <p class="section-subtitle">關於健身故事您需要了解的一切</p>
-                </div>
-
-                <div class="faq__list">
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>應用程式如何追蹤我的運動？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>健身故事本身不直接追蹤運動——您的 Apple Watch 和 iPhone 已經完美地完成了這項工作！您的裝置持續收集運動數據和身體指標，並將所有內容儲存在 Apple 健康中。只需授予應用程式唯讀存取權限，我們就能將所有數據轉化為精美的報告、深入的分析和實用的洞察。</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>我的筆記、照片、標籤、評分和收藏儲存在哪裡？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>您添加的所有個人內容——筆記、照片、標籤、評分和收藏——都安全地保存在裝置本機儲存和您的個人 iCloud 帳戶中。您的數據會在所有 Apple 裝置之間無縫同步。即使刪除應用程式，您的數據也會安全保留在 iCloud 中，重新安裝後即可恢復。</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>應用程式顯示哪些身體指標？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>健身故事全面展示您的健康數據：每日步數、活動消耗卡路里、最大攝氧量、心率區間、血氧濃度、腕溫、體重、淨體重、體脂率、BMI、呼吸頻率和詳細的睡眠分析。了解身體表現所需的一切盡在其中。</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>應用程式支援哪些運動類型？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>健身故事支援 Apple Watch 追蹤的所有運動類型——超過 80 種！包括跑步、騎車、游泳、HIIT、瑜伽、重量訓練等熱門運動，以及匹克球、攀岩、武術、滑雪、舞蹈等專業活動。只要 Apple Watch 能追蹤，健身故事就能視覺化呈現。</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>什麼是挑戰？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>挑戰是內建的健身目標——3 公里跑、10,000 步、10 公里騎行或 45 分鐘鍛鍊——根據你的 Apple 健康資料，在 1 天、3 天和 7 天等級中自動追蹤。完成它們即可贏取徽章並打造你的獎盃陳列櫃。</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>我可以匯出資料嗎？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>可以。將完整歷史記錄或任意自訂日期範圍匯出為 CSV 或 JSON——包含完整的分段資料、身體指標和鍛鍊中繼資料。你還可以匯出鍛鍊比較，在自己的工具中進行分析。</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Fitness Story 免費嗎？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story 可免費下載和使用。可選的 Pro 升級將解鎖分析、挑戰和分享的全部深度——無需帳戶，也無需訂閱即可開始使用。</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="700">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>它支援哪些裝置？</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Fitness Story 可在 iPhone 和 iPad 上執行。它以唯讀權限讀取你的 Apple 健康和 Apple Watch 資料——沒有帳戶也沒有伺服器，因此一切都保存在你的裝置和你的私人 iCloud 中。</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">您的隱私至關重要</h2>
-                    <p class="privacy__description">Fitness Story 以唯讀模式直接從 Apple 健康讀取您的數據。所有計算和分析都在您的裝置上安全進行。您的健康數據永遠不會傳送給我們或任何第三方。</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">閱讀隱私權政策</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/Fitness%20Story.png" alt="Fitness Story" class="footer__logo">
-                    <span class="footer__name">健身故事</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6748090363?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">隱私權政策</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">服務條款</a>
-                </div>
-                <p class="footer__copyright">© 2026 Fitness Story. 保留所有權利。</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/Fitness Story.png" alt="" width="44" height="44"><span>健身故事</span></a>
+    <details class="asc-languages">
+      <summary>語言: 繁體中文</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">健身故事</p>
+        <h1>解鎖你的運動洞察，自我挑戰，讓數據說話、視覺化！</h1>
+        <p>現已登陸 Apple Watch：任一錶面都能看到今天的步數，「今天」頁面還有距離、卡路里與爬升樓層——資料直接讀自 Apple 健康。</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6748090363" rel="noopener">從 App Store 下載</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/zh-Hant/01-phone.webp" alt="健身故事">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>關於此 App</h2>
+      <div class="asc-prose"><p>別再猜測，開始了解。健身故事將你的 Apple Health 資料轉化為 iOS 上最強大、最詳細的分析工具。無需帳號。沒有伺服器。只有你完整的健身歷程，視覺化呈現。</p>
+<p>無論你想追蹤睡眠階段、分析跑步步頻，還是追求馬拉松個人最佳紀錄，這都是你辛勤努力應得的一體化儀表板。</p>
+<p>支援任何會同步到 Apple Health 的裝置或 App——Apple Watch、Garmin、Polar、Suunto、Zwift 等。</p>
+<h3>專業級分析</h3>
+<ul><li>趨勢與基準圖：使用箱形圖查看每種運動類型的中位數、四分位數和離群值。</li><li>精細分解：依時段、距離範圍、持續時間、配速、海拔增益、步頻和步幅長度篩選你的歷史紀錄。</li><li>一鍵排名：輕觸一下，即可將今日指標（距離、配速、心率等）與你的完整歷史比較。立刻知道自己是否達到了「前 15%」的表現！</li><li>貢獻圖：GitHub 風格的熱圖，完整呈現你的鍛鍊歷史。翻轉它可查看每日詳細統計。</li></ul>
+<h3>重新構想的鍛鍊細節</h3>
+<ul><li>智慧地圖：依速度、海拔或心率區間為你的戶外路線標色。（包含中國地圖校正）。</li><li>深度分段分析：查看每圈的公里或英里分段，包含配速、海拔、心率和步頻。</li><li>心率區間：依你的年齡與靜息心率，視覺化在自訂區間 1–5 的停留時間。</li><li>豐富紀錄：為每次鍛鍊加入照片、豐富文字備註、努力程度評分（1–10）和自訂標籤。</li></ul>
+<h3>完整的健康指揮中心</h3>
+<ul><li>Apple Watch 測量的一切，都在同一處以每日、每週、每年的趨勢呈現：</li><li>心血管健康：靜息心率、VO2 Max（年齡校正）、血氧和呼吸頻率。</li><li>身體組成：體重、體脂率、瘦體重和 BMI，附帶趨勢指標。</li><li>活動與恢復：步數（含每小時分布）、主動與基礎代謝卡路里、腕溫偏差。</li><li>進階睡眠追蹤：深度、核心、REM 和清醒階段，逐夜視覺化。</li><li>關聯疊加：疊加多項健康指標，看看睡眠如何影響心率、體重如何影響 VO2 Max。</li></ul>
+<h3>比較與競賽</h3>
+<ul><li>鍛鍊比較：選擇最多 10 次鍛鍊並排比較。查看每項指標、每個分段的差異百分比（例如「+1.5% 更快」）！</li><li>比較匯出：想用其他工具分析？匯出你的鍛鍊比較！</li><li>個人紀錄：自動追蹤 1K、5K、10K、半馬、全馬和自訂距離。贏得金、銀、銅獎杯。</li><li>故事時間軸：一條按時間順序排列的動態，收錄你完成的每個里程碑、紀錄和鍛鍊。</li></ul>
+<h3>你的資料，隨處可及</h3>
+<ul><li>全球地圖：在互動式聚合世界地圖上，查看你曾鍛鍊過的每一個地方。</li><li>強大匯出：將完整歷史（或自訂範圍）匯出為 CSV 或 JSON，包含完整分段資料、身體指標和中繼資料。</li><li>iCloud 同步：你的收藏、標籤、備註和評分即時同步至所有裝置。</li><li>隱私至上：沒有隱藏的伺服器。你的資料只存在於你的裝置和你的私人 iCloud 中。</li><li>你的汗水訴說著一個故事。是時候翻開它了。立即下載健身故事。</li></ul>
+<p>下載健身故事，解鎖你的運動洞察！</p>
+<p>隱私權政策：https://masawata.net/privacy-policy.html 服務條款：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>螢幕快照</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/zh-Hant/01-phone.webp" alt="健身故事 — 螢幕快照 1" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/02-phone.webp" alt="健身故事 — 螢幕快照 2" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/03-phone.webp" alt="健身故事 — 螢幕快照 3" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/04-phone.webp" alt="健身故事 — 螢幕快照 4" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/05-phone.webp" alt="健身故事 — 螢幕快照 5" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/06-phone.webp" alt="健身故事 — 螢幕快照 6" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/07-phone.webp" alt="健身故事 — 螢幕快照 7" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/08-phone.webp" alt="健身故事 — 螢幕快照 8" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/09-phone.webp" alt="健身故事 — 螢幕快照 9" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hant/10-phone.webp" alt="健身故事 — 螢幕快照 10" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>健身故事</h2>
+      <p>現已登陸 Apple Watch：任一錶面都能看到今天的步數，「今天」頁面還有距離、卡路里與爬升樓層——資料直接讀自 Apple 健康。</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6748090363" rel="noopener">從 App Store 下載</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">隱私權政策</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">服務條款</a>
+    <a href="https://masawata.net/">支援</a>
+  </footer>
 </body>
 </html>

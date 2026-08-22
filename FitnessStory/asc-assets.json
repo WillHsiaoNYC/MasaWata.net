@@ -1,0 +1,2584 @@
+{
+  "cs": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "789e266e0a0ba2d7c7f85d680b4f683e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/94/b5/8494b533-9a20-8c92-af71-7e48e50184af/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "03c287648d799e1704084727de2e9520",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/73/70/5c7370bc-f28b-dcec-47ab-9ddef5eceee1/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "5133b6325556057b452847ade1f4b929",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/c9/21/1ac92192-c8eb-4368-bb2d-3000e17d42e4/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "d909dec35cd1399990f320560add8bc4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/3a/ac/a43aac98-ccac-3628-41a8-846316a76abf/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "17a067d2fe96b1d784294d4795dcce68",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/d4/0d/0fd40de2-584c-f231-b213-264f31e45c9c/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "09c600720750497f5775001def1b7d85",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/a8/d1/f1a8d1be-4a58-e082-06c0-e4bbdf70d048/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "c939fba0046e0edf2b2c1ee278a40a54",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/33/b4/0333b405-e7f9-d3f0-814a-4f1579588177/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "f8207c4f538cf8f69003ce5e6a46e16c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/26/df/5526dffd-23fb-5fdc-055b-dc7120ce7535/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "145b7ecf662c67b1065229e9b02b1580",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/03/b6/7e03b6d8-3481-a9fc-3df8-fea61a093927/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "aec244588bba582aaff2330fc919e02c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/81/f7/9a81f71e-1d97-1e42-bce3-97e4a9020c28/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "da": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "ef1f7b480d31ae344004203d6db86eef",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/29/46/fd29465d-5b26-6d50-3bdc-e5c94409d812/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "e86a9be474f67b979545d8340a1db5e3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/81/50/708150ac-c03e-4ab9-b60f-dcbcb3043053/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "1aea7929fad354c3ffd71bfa10415b06",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/70/f2/3070f227-9eb4-c0ba-7746-260b88eab400/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "5f583bc499f3d0810385a10e08d3579f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/70/d0/c570d00e-e82e-004f-037f-163f18b86fd1/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "9d5e6cd24626b5366c7a20fff413b722",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/da/54/04da5458-cc37-6957-ec4e-c418f35b9c8c/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "fbd9c9c82a4732aae207b601e6345315",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/c9/15/3fc91516-7836-f68a-ca28-5860349894bf/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "da7986b0aa90da8ee2863de0e57db1b4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/c6/49/75c649c5-1c9b-8196-45fd-b8ddf8e97dd8/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "fe46e225d521bf9f8cf961bd8c744ca8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/09/c6/9b09c672-af9d-eee2-6b68-09bdd6be1bd6/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "4afd64f26c03b28dd5a491da8e1416c7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/d0/d0/40d0d083-b8fb-0979-7134-b1b8d09baa6d/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "47771a5ef9c5b09e5f3b4b3e9ab946cd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/3e/a8/ad3ea8a0-743f-833f-e34c-476aee4e092c/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "de-DE": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "182defdda63fcb1156ecd217b654a2ce",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/ef/8a/7fef8a9d-8ada-f9b5-1b8e-d6312f9eff78/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "ecad1f62b83f038b31060c447883fca3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/8c/b3/178cb332-263a-f034-d388-6849ba7d499e/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "e612193a241d48046fd1143d9c354eb5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/dc/be/4fdcbe00-4042-85c3-7793-db4ecacb2f89/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "672dbba350c235c8a4afcf1fda5da7a5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/a3/81/92a3819b-94c9-f92f-1dca-264251436221/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "d93c407dc55bb44adfadc8ee66acf60f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/e8/51/cee851e5-5e5a-4cfb-1bb9-db86b0f6eb3d/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "3354e54160f6dbc6efc6fa74f52eaf2d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/dd/41/33dd41eb-c844-0930-735f-4378dd84eb17/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "bf53e69f645922e4b07142b421c3bbe2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/a6/07/e2a60773-56fa-feea-3572-fc50e3c212de/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "7c3df716106900c26909be388e43e8bb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/e4/85/d2e48574-925f-0663-0382-84eac8349c97/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "3076cb34b7bff69feda154f6dcdb031e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/22/97/85229734-1873-ab57-6257-fe9d5f3f8133/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "ead74ea20c76a8331f45b3a8e8f1817c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/aa/d5/aeaad513-6428-eb69-0811-007285f865aa/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "en-US": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "bb4c2964a8e3d6334899b1570bd7c3d7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/50/bb/3650bb78-f7a0-c720-888f-d0cd1c18f659/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "013d7f105acb0feaab54c6a3eef0dddc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/b7/32/34b732bb-44cc-5f19-ae7b-340c07cc7734/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "28d3a05fe05f94bea5e6d8092909ce08",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/70/01/9e700147-a158-aae9-871f-53f71781fa6a/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "4d3d6dff2275e1ced4ecc53025895c5f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/78/37/7478377b-a376-c515-9751-6d50a079b1b8/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "3b28c2b59b147d77c81aa153174da281",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/54/ba/6654ba05-aa0b-9d99-bb4a-f7b87fa07519/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "1fcce70aa63f19134affa4ccf278cc92",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/f4/6a/aaf46a22-cc19-9db2-627c-b049bb82fa35/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "5a7b716b308daa6ba6529555c20d5f5a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/04/41/ad04414e-d49c-c1b8-955d-8f00f8fd4d4a/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "229ba684a3ca48af8e207318b2110fd4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/5b/bb/dc5bbbf4-da53-b8db-073b-2a63c291d8e1/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "b63fe22ba431427e8aec7009bb980785",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/f3/01/e3f301d1-febd-3ce6-7cc1-2237c30356e8/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "bd305857f54b8ae809a06547ae961959",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/7a/83/9a7a83f5-ab7a-06a9-5969-36a1421a035f/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "es-ES": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "a88cd78e021cda05a828ce7c13904979",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/a2/35/cfa235f1-0f0b-6640-d1f2-d99263fef0ff/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "fb03782e4c4cc86c32ccdcb0b022cff9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/41/97/fe41979b-7042-59dc-8d86-808128dadd67/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "d431c79396dfb6e5305ca51f847b8509",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/6a/fa/df6afad0-c044-b8a5-028f-1cf06dc94c1f/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "ec8b3bc8f88c71a94d633df6f7577b2b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/d9/d2/a4d9d237-c3a6-33d7-8a93-0f7e5970c05b/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "0a833074bfc339952fc2d83729ee2670",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/d1/02/f3d1024e-d336-4509-8548-a6985426b393/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "401334a86cfd4cceda21eb98c7ec5ba6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/c3/b4/9bc3b458-41c7-a8d0-5222-0daf3a08f4e8/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "7276c4236c2d477a4f53ab0aeeb412ab",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/ba/05/3eba0527-d15a-0c61-2fff-6f89f60f5268/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "3dd919b9976c0906039a41064f9d1dac",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/b3/86/21b3864f-696f-0b7e-d5aa-20a9fac0f048/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "ecbe16e80f95233f6da51c321aaa62fc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/11/39/0b11392f-ef14-e4b2-6869-7e4507cb529d/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "10df5d98ceafa1f7437c92a5faba6192",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/bb/9a/60bb9a4c-1b8c-da6e-1624-3c6455a3ec50/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "es-MX": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "a88cd78e021cda05a828ce7c13904979",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/b7/18/5eb71899-806a-bcd4-8a51-626bf0ffdcb2/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "fb03782e4c4cc86c32ccdcb0b022cff9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/f6/8b/b9f68b1b-5d15-5979-88de-0e154e2348ab/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "b193145586d893aeb59957737ce2bfc3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/10/32/2d1032d4-9251-23b2-b9bd-e54d68e3198d/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "2c33d7c0bc6dd6adbc0bbf5fcafea028",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/cf/e0/17cfe0d9-1ca0-8f44-ec84-2edf1a731fc5/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "eadfbed8770c3efe12d8a9ff219b5e0b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/49/d3/0f49d355-ff0e-fbd1-ca07-c53b2431e974/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "401334a86cfd4cceda21eb98c7ec5ba6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/32/c1/e932c11f-7aa4-484b-c6df-e8785d6e891f/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "a1f368cc382c151b64a86ba990ac7e3b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/a6/9c/07a69c15-eb35-3c95-ff7b-3a4eff9d83b6/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "e7af4dbf2776dd4c0b741dbe2fd4bd3e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/2d/d9/342dd911-257e-0671-2476-9143f1af4144/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "00572cbabec5a885bd0ff957520d950e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c8/d6/44/c8d644c5-ae36-f92c-4d24-dfcf27222b4e/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "05dd413fe34f2a948bfb7d3f68724bba",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/3c/c4/233cc4d9-c0d4-3118-77a8-50d6f05a3156/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "fi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "f954715c517105d0dfadd31d7862990a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/9a/49/ab9a4999-d52c-6835-0b1c-659dd26dfc66/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "16ef54b873325514eab96e3e2ab5d402",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/de/37/01de37f2-bcce-3ee9-255a-71f40f515711/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "000372f8ac78fef88d85db39d3bd0250",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/d0/4e/68d04e80-6f53-f4a7-5949-1ec5bc2cd8b8/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "d9e47c5147e1009722b35be3d1401996",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/2b/43/f22b43ea-c74e-ed23-ab68-bdcd0031402a/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "dd54eae271eb3965f5aca6f0e9f2a1c2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/77/9d/c6779d7d-d681-08e7-9eea-8d844afb6688/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "e7d36232901f97a9276c72bf19301d76",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/86/76/1486769f-a986-201b-16bb-4d2c7920af22/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "a4ff74b9aba6f048f0abce9e83e0afa1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/97/68/5a976808-dfb7-85d4-27d5-1b5b78754a4d/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "57667668d60f1d72ff6ab6210521039f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/50/de/5a50de50-9f03-9640-bc99-a4c9a6ec45f4/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "bb8a42b8371d622c1dd32163b2d3302f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/eb/82/c4eb822e-f324-1d24-6975-a8db9992a773/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "e7115a281bf1e5cb457947841827c7c0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/6d/f4/b46df453-044d-143a-e994-c199bbe335ee/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "fr-FR": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "7c6c632c21b00528a72e46f9b14e1a95",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/5d/fc/395dfc01-d5d3-dacd-90fe-e32a84135695/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "9c5d5d3c99e13d74bd1ef75b00bb8651",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/89/a1/3889a157-b540-e72e-3f6e-74368631326a/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "cbd8865eeb127d366de70c8aaa39e561",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/08/4b/a6084b75-8e09-85fc-d41d-72defc225a6f/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "ef9f1b3efe07ee6161e5cc4211b81cde",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/d7/85/24d78507-e16d-2ba0-f515-9cab6b4da967/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "52e3ed69088b4bc293ca0e9df9d3dba6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/1e/68/f81e68da-225d-6ccf-c307-afa812366f3d/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "ad0aa6bdb0fa2dafd82140c7108f09cf",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/41/30/624130ec-869e-bd35-3f08-f1a136f8eb47/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "7ccec402bae4f40ec53bb80e2b3d5c94",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/bc/ec/54bceccf-b14e-c580-8979-d3235ef25e02/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "3db562c94a45a0cf0f598f0342104c78",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/10/39/9d1039a6-672c-b583-6548-f20034f0cd11/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "87692888d9f8be6f95a5ebca604ff6c3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/2c/c7/342cc7db-44ae-1a5a-5aa0-26b374466c9c/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "597ce03c754037a4c501eef4612eb0dd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/33/cd/a433cdb6-0d20-7482-95be-9cc2eaeca5bd/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "hi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "f04a786695db113bb6ca06dfed1fe346",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/4d/37/6a4d37e4-5a25-1b55-52a0-82e7c5a25427/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "cfd6cf06df5782697dba832a03132767",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/ef/96/4aef96d3-f65c-bea7-9699-ecd8d5bf592a/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "7663ec59fcc0f80a6326a0ff8d152204",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/33/68/323368ae-6ccc-0641-879d-0f50d8f2b0a2/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "32ddf496eada43ce19b0d1ccec24fecd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/b5/ad/09b5adf4-0a4a-32f7-9507-6e15e9a0b483/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "32f2206d44aecbbacad68795d57344f5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/c8/f7/6ec8f70e-be92-b168-b34e-ee624debac63/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "9b75b241b9cb067d833bbb893cb5e009",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/2c/8a/ac2c8adb-9656-2e52-4313-eee40656fefa/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "2e7551290f49c75cdbf418997cf07a42",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/02/74/8e0274f7-3897-17aa-9e11-70f6e93259a6/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "19b8b87ae74a9bd883a77193bf4fc0e0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/f0/62/c2f062ed-a27f-1823-480b-c62a241702c3/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "5eb822bffd553d8a7ca93b1aa8271ef6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/96/5e/d9965eac-a487-3596-ae45-8eacfbb02061/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "c3fb769a1e7156fb2f6cb331bdebc9f0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/49/b6/db49b6b8-e19d-629b-a62f-ca55bcfc8e26/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "hu": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "8cd57c41a925ee6164e1f3e1b8cf27c0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/dc/17/69dc1778-215f-7472-6f82-c313b1c3503a/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "fff79bde7ce7d468ccee6dd1ab0cae00",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/a7/ac/1aa7ac30-98ef-8523-19f8-c5a2278da71c/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "0895519f35fad38f916ce23872c4d30a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/d0/59/37d059c5-3f97-e477-bb4b-99a3b33ab94f/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "c1e253c97e9a6963935ca3c592f80fac",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/dc/d4/32dcd41e-306b-3a7d-04cb-bf3ee042ef65/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "b7d53fb03c08a771e4e0bb325f48b549",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c6/af/ae/c6afae7b-1304-4e78-37f3-b9c6c7f8cb42/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "f2eba8e4d0e1c91236793350db0cd03a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/0a/e9/ab0ae922-881e-81a3-c8e1-05f13163bd2c/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "e4f45e287df801d29cf6a98966453db2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/2c/3d/9d2c3d24-927b-eb08-ab52-e26b99728415/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "d8e8a9185068c00b85ba3e20cef69d7f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/aa/f1/94aaf140-dca0-594b-6b6d-5bffc8229ce4/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "0cf186ea2921cc3e60ffffbfc1cf2406",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/6e/c8/c06ec8be-6663-9f40-c911-139306a399cb/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "dcf8283b07b7aa7774ebbffe20d91247",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/40/69/9640697e-2ef4-c6bd-c044-308d2f9b7101/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "id": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "ec5638c841e8ac6eb08627f53c290332",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/12/6a/bd126afd-8d76-102d-2b64-bd1f88895603/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "05b4c46b3e153847fb57e147f7290593",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/66/36/496636da-04a7-3f67-fd42-6d66bbab815a/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "12b1897e3d1d6581aa0f5969982abf2d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/b9/ba/eeb9babe-f027-ec48-a9ca-f4d6b1e34722/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "da451c41d5073397b5afd3e325be15be",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/dc/9c/8fdc9cd9-5598-ac29-a27e-bcfe972b5299/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "7e679319720d8c03f6ac415bcd04dd9e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/c3/ad/3dc3ad41-a18f-c719-146c-4f6da3bc567e/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "d085f05d35329cb2c508636c5aef8e45",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/49/16/db491601-d926-b31d-e96d-1bcc24f1f69c/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "0d25e8e2467db42420fa41905d705587",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/d4/4f/31d44f67-9182-ab98-390c-b3abb1cb5d2f/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "22d49e636677abee5aaaeb57ee39c78c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/c1/3e/c2c13ec1-7543-1ed5-e018-231e945402fd/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "89c46de98420fcc306fa7b3c0166e1b4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/26/6d/dc266da5-c08c-87d9-efa7-2e2ba8d767bb/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "7de11be7d78369342f546af699472100",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/49/88/4049882e-9469-e424-6120-a0f79a2a70b6/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "it": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "d297da9fd3620203f88410722e150f91",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/8a/05/ed8a0599-e676-5fa4-2f4a-f98da42c6e51/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "e672d7a0e5cea26059ff7911341ecf13",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/56/a4/ef56a455-5779-6f0a-8177-8610dd456601/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "029b13945a4892cd1329644c70ed6ba3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/a2/2d/52a22db0-5bac-61f2-45b3-458809ee88e7/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "e731e44987ef83ab5c2c204b1166e5cd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/b2/64/87b26473-3c1f-dfeb-9a28-7d1eeb3efd8e/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "4dca29a1e9e9bcac693c0fda8a45407b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/d2/d2/dbd2d216-0477-ab52-2296-819ae432de51/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "166f2c6589545691b1310b08faa57a7c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/86/db/fb86db92-0f30-4316-2ec2-ced2ebf5ae08/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "8f454c5ff95c1befc20ced9f70b79a14",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/02/1f/6f021f50-6cab-1fed-1787-3d01182fffa3/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "6bd2f81d136a2c537761189c9f258d86",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/f2/50/28f250ea-eefe-e9bc-c4e5-524ccc6a1144/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "8b2583e352f0c11cfaa2b00081ce27f5",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/34/7f/d1347f83-c362-1c23-9d85-9d4bac06eb82/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "76dfdd59db9d40b4ce0196ba47753b58",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/dd/98/3cdd9859-c8bb-5b4b-0aa0-3c6c10fd6181/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ja": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "e0d16548db132bf1d7a3d54aae7ffcd2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/3e/8f/303e8f75-3ffc-91c1-9bdd-bb9fc447ac59/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "0e48adc44de3272e7505c22f46abc26c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/3a/69/2a3a69d6-4332-1f53-1380-a7cbb1b98b2a/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "d723adb28753d007650fc23ff7cd5b33",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/be/89/d3be89b9-8de0-e21a-51e0-e8604c91de33/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "6753438fdb5e3782078047d2241fde69",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/7c/8f/607c8f64-bf1b-53c1-235f-69f19f94df25/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "29a14fd376a8cd37406b66db83c34668",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/85/ef/a985efa8-b13a-b456-f674-22fc2bb3d18a/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "a35a51836eb63649e91f0e46307c9352",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/ec/a6/8aeca691-7ab8-f748-8277-8717c8b5e865/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "ca3f09e469ab058c5d000549e5805f73",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/9b/41/d09b4184-850e-5904-72fe-32435925fca7/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "a431fd35ecb8bdb1277e0e8e2adf1286",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/bc/0f/3fbc0f83-33e7-0280-fa80-00424b6bd24f/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "5155405ea008c4808aad68fa489c6361",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/34/e5/5534e5aa-a59a-fedf-fe02-84ee01fd6ad3/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "5755bbf80a8b7a43f1c09c6fd666d1dc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/32/05/7632051b-ef4b-e583-1429-516140b94741/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ko": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "adf5f1ffe47dbf045532d9c10aaadc5f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/ae/0e/b2ae0eee-3fe9-0d2d-943d-f2fcf9fd28a1/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "158c60e7d731ba8c3e95cb0b508ba7cf",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/42/d3/8b42d3e6-aa7d-2f61-5aae-31340de4433b/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "0da5d407833e42b626bda941e98bb855",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/59/42/66594218-5f37-925f-b69d-354b4e50d218/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "6a4829072accbe2bd0135abf8e35192b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/41/8f/83418f98-c2e6-abbe-24c3-d107028674d1/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "0ed5cbfbf0710b0a27f77b2439a38a1d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/90/08/719008ea-4a2f-4ae9-6c69-b2e50f608a1f/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "0acbd7820c222250d3b0a439afe884c1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/02/bb/d302bbbe-47f7-d03f-494c-421d78031309/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "a8020f351d7fc436c8074e315395a0c8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/a1/de/82a1ded8-4112-a6dd-ccc0-31a53eeffd19/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "89b00c719bd3bf559e26d1d92fe5c4ef",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/91/b9/0591b981-f329-aa5f-4a22-15122e1a1b1f/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "7c62d29a3611e83da7f7944e0e66f8ca",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/6b/77/a36b7760-e3d2-f174-a5c0-60144c516a32/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "217f615d83d2c7bcde729caeec49ad99",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/89/a5/8889a5c4-9bd7-5960-26b6-d6edac97665d/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "nl-NL": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "d412c202f102997ee2573b1c896847ff",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/e3/b0/f9e3b08d-b0fe-545a-40a0-e9bfd364001c/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "fed1b6e107107a5f30e6819cb4349415",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/36/45/43364554-85e2-2887-a7e0-98bf1a9bbd1b/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "0daf75e45e38488e838f2a212361690e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/c3/2e/69c32e1f-742c-abf9-44eb-542ef336bcb0/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "d7e4df95f1949a2ba34d02cc6ec329f7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/52/42/ce5242ce-9399-0bd5-a8a7-546f0f510353/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "18f2ac3cf953e08dd8d4fdcd7b1e1f2e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/fa/bd/42fabd98-8be1-b7fb-65be-b4f5e3516674/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "463659898f9ed02b851dba6767fe3d71",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/d9/5d/bfd95db0-d252-3971-4c06-925ed53de424/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "924c246633f8c51e15deedb568c1296d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/72/44/b972446a-5479-b23b-b8ec-cb45fa5a2925/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "30ef11e691fa841d1663ac6400d7dbe2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/80/97/8e80972e-4857-cf10-6ca3-76ec38eff1d7/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "5719808e132c32a74d100658ffdf9257",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/33/ca/ef33cae8-0d00-62f1-c27b-8b835c8dc671/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "288a8f26c3e33006e7d534102ab7cbaf",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/97/db/f597db13-e6f8-cd5e-b7d3-aee862a73118/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "no": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "e3234c12545ef954dd037ca4949f5843",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/8c/f4/488cf43b-b8a9-4055-142d-b6f687b89621/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "32adeba506995420436245ee2765b218",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/b6/2a/b1b62a04-6562-734a-67b1-3e61b65fe022/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "d5d3964f0a4feb46273fa165668e4d41",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/bc/9e/bcbc9ecb-0ab5-dfc2-a46f-ad1169ecdb70/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "582f489423a171bcaccc349e8f50015b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/a3/b7/c1a3b719-2077-9807-cbab-7cc7145b3bc9/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "a2581e2aa8d2e0aeb2ad75dcd55461bb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/65/74/8565745b-372d-640c-b2fe-7c67a2737e78/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "186f59ed1cf54458446ee5fbfbda4159",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/49/59/8a49597d-5ff8-47be-d5f5-b3e45b1ea7a1/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "ef5b14a3587bf47cf4c84aaa957331f2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/ff/f3/acfff349-9792-0b57-2ef4-91fcf29373aa/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "ddd38e71f15031ba3b4c33be9e4d88eb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/c0/bc/78c0bcfb-c355-50d9-69d1-ba97e0579862/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "194c00a9aa35a39555c73603c310606b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/df/d5/a8dfd594-6e60-07b7-c1d9-24be76eac566/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "cc2e134048e997e403e78d7fad089822",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/44/ad/b744add6-d979-e24d-a346-c7515be200b0/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "pl": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "9bd0af17a2cedb901ad97eed79e0b61f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/e6/07/26e607a4-ee4e-3bbd-a0dd-6b9e53010c4b/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "df52b005776108ac91f069b5bc55b7c4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/85/a6/8585a682-f306-f69e-609d-fef5df157914/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "cba67099fe75993f4ae0360c63106321",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/ff/7d/52ff7d17-ca39-fa2e-afb8-7c02cc2b1dc1/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "5140b3aa9a2aab70108c2a5c5b695b55",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/96/19/ef961960-9303-fd58-a442-e46a85bea789/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "34997cdc1808e3071cb090f7e65c8e23",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/ea/88/80ea8811-93eb-d9e7-60cd-07a254e9c877/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "6248ebafc3051e04bc817278c6b2e0bf",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/b3/f5/60b3f57a-4eac-61f9-cc9a-4b446cb3363c/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "70c22ed207c0a4744efcfc3014193e8a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/ce/a8/05cea869-70ee-388f-79c8-99a581e9dd1a/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "3b01589445171e04b9c8ab8008e879b0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/48/75/7248753d-6916-98b1-0f94-ae55fdace7d2/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "e26108700fb42c866294eb10b0349ff7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/59/ea/c359eaa4-79b6-585f-3a9b-fae75c1f70a4/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "f8be63ea8a4ac6cf63c0d9db7065e685",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/66/df/ab66df56-a6a6-ec96-3454-d39d4c74dd61/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "pt-BR": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "0f6fa51bcbf7772835120db7b8f8f97b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/b5/8b/12b58b4a-7fd2-a911-3cde-b85ab5aa202e/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "b8fcb1b5affcb5e53ef677ddc407d6bf",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/d4/9d/b9d49dc3-b653-7c80-b6e7-00965d4e6f4b/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "5bad9c13a0ef45c99f977e8c5ea669f3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/85/ee/c385ee9c-ddba-adaa-f03b-0f90122af4b4/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "5f225d00b76f0fb22fba23251747474d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/63/fc/ff63fc9e-da81-7e52-79b6-991747c7db7f/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "7bdf4b700f30083d80dbff62ce6580ca",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/e2/f7/0de2f774-2c52-e025-d13f-d25b78feb671/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "70837fd3828e1f390c4109841b9eacd7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/47/03/0d47032a-0bbe-2bab-933e-0352bb7921b7/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "e396cc68ebdbd6413108572e692d5860",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/42/87/bb428709-a5fb-42e6-5044-2e7f829625d8/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "e606ec86d040644be5f4f813d5375294",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/d3/21/98d321a9-566c-2ff4-9e48-45e9b5547cca/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "3bcb1bb2bd61278ab0451617582fe81b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/30/7f/77307fd5-0fd4-309b-e9af-a8a0a13446df/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "1ce64065f9ec2e00762859418365d5fa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/a5/f6/15a5f6c4-3af0-2e4d-984a-13dbaca9c249/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "ru": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "f876fd47d1bed95b3785323ea87773fb",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/ee/67/18ee67b8-0872-d2d5-0886-8f87aa59cc58/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "8ddd8414c9980d06d3ae6daa94a8ca16",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/6d/eb/9e6deb9c-04fd-36d5-f0f1-61af74f4358a/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "720d764bf72cc992011aecbe9950ec70",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/3e/95/e93e95dc-5604-4a63-d97e-bc9f3be3af76/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "5e12a474973815a8c5d1d214dfe29dee",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/ae/6c/17ae6cea-1a9e-aa01-fe1f-da2f5e353f96/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "9d3464e23da7f7ede866c942b530258d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/31/f3/4731f388-4e74-09a8-92dc-755ff7c22a03/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "f06e365ee981e3bde9ab6aeff06296d8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/a2/e4/41a2e441-44ae-e258-aa12-04af5afded05/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "6a63efce62a456a74394354d146faa4c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/0e/76/a40e76d3-5532-8165-7337-6839c8a1bd34/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "736699b9806578b65ef9f5d205a0039b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9f/c6/b2/9fc6b2cf-c1ff-fe88-de0a-8839d897eda9/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "04fd789e5f3ffec528c51f6a81811036",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/2d/a1/a12da112-c2c7-6072-bea7-c018e7d8a89f/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "106284c26be99e4338b6347e53b87602",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/72/2c/19722c0a-920a-412a-5e35-4c6dafc2ae34/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "sk": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "218dcf581264610ebaa3eeae75f31d1d",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/53/b2/3753b294-0096-bf70-09a2-976c241c106d/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "607f807e027626728554648a108e4607",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/00/9b/bd009b74-a87e-2207-5e93-3252c300f0e7/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "47c40884cf638c9e1b5e79497dd54676",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/4a/8a/5c4a8a2c-ddd8-c504-04f5-d8c011fcccf2/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "sv": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "a2688df7d76bcbc26b279f3ed53a5d0f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/d1/07/ecd1077a-1d8a-65ab-caf1-32bbf3f88ec6/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "ee0c9332497d5c1b749ce4b1420ed05c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/8b/26/9d8b2632-65bc-a4c5-edb8-a43333bfda80/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "74de82b1bca20fa0f79c13b8865b2742",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/53/6a/d7536a3c-2ec2-3733-3bfd-fd4f3032edf9/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "eead2b4ff3611c0e6097d7c0c8972a5b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/72/95/aa72957f-5ee1-7a67-9466-1127c9e1d456/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "6b715a6184b3bea1b20674d36897cf59",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/01/34/8a013443-0517-2f6f-cb5f-67a9262434aa/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "95f756fb3aef87a35c25558b6e47705a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/3b/b6/f73bb614-1abd-da9b-688e-f079f0d17db6/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "56bd02b55c96a4650f0095bc78318d17",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/5e/03/5d5e03f7-ab40-5124-f76b-67adb8d2f924/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "3a9cb777e5c5082c48cf79d91cea93cc",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/ee/e4/46eee45b-05af-05f7-a7df-3dbb7f011aca/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "08172e8adc3a0dd21b0110fe50f90d3f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/58/0e/1c580e92-5ddc-0e1e-5e16-7bc245984cce/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "1cd31a6b5a6ec5bd5b669b40f8104136",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/f5/1e/4cf51e21-4c40-68bb-26a7-c8fb1080c321/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "th": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "a1bb639424d87a2b5a8cdf80afcc5a84",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/17/b5/8317b54a-d7e4-e063-3759-a46eee8cff18/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "57b0407668648c675a1ff3e10ef92857",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/4e/34/3c4e34fe-7691-b901-07b1-b0c3124f174b/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "551bf6289316c943e6d5878681a74f28",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/f3/c5/91f3c50a-11eb-d95e-7202-be980d46bb27/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "37ce07134ea12484aa7dac8b756fecd4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/5f/95/d25f9531-03b2-fc7c-6570-fe1b37df483d/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "997211370842ad95377fe5a8304db0b1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/e3/6a/8ce36afc-0e97-6e0e-93dc-ea1d79fbe2b1/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "4ee8af8f312d33613b4d3e20c3d869da",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/90/06/4d9006fd-cf5f-0eab-fe13-f48e3426e27c/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "35d57c66e6bcb076402cb834470dce06",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/47/5d/cf475d3c-2d0f-c8ff-1b1b-ca63ee3f4cb9/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "f86c866eae360e18ae8e0744000325db",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/5c/2c/ca5c2cb4-8806-346f-5a6c-e7c08ff30e53/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "411c2b68e8154f0892758d985b904785",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/86/f1/2886f18c-2925-47bb-55eb-ddd91b20dcaf/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "2d862a1fcbbe1254e898a7b469433153",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/57/7f/60/577f603c-da5e-95e3-e22d-f4ad9713ec3b/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "tr": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "ae4644fc9493649c5cdf3ae1d6279cfe",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/48/6c/8e486c52-bb12-79ff-995a-0a2413ba5797/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "e7291702e84f1f07146d54385dba22f2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/10/4f/0e/104f0ef3-f533-2049-51eb-7c19b7ea247c/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "8f5a41cbc9a65c07c46064444f1a454f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/54/6a/19546a90-9ea2-3d09-e895-256359dc4944/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "4662cc988c6664ef16f110c56aa08ea2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/01/da/7501daa7-9207-4d8f-a91b-25c97bbf5965/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "938052365238ba67fc6bfd736ee6da80",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/4d/ed/3a4deddb-f984-c501-6a2d-d53a296bcfd5/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "d20c2615377355ce6e7be5df5eeaf0bd",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/e8/26/a2e82630-fed7-7b1c-a8d1-702c9ee8792b/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "77defac2b7c6adf40d9a27daca9544af",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/ab/65/64ab65ba-7433-7206-40f5-3b57bb3c84ad/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "c88c246baae6bf087fd1f1dfb917a7c3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/f5/8c/aff58c66-6ddb-6564-cba0-558bb0966f93/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "49fd39aec8cceea40ed351679306f1b4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/88/83/83888341-1650-9f44-cd6d-bf04d1d7b12d/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "7d376c397d695ba1c9d340181937b28a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/b3/54/a4b35456-c398-f3e9-a48c-62823cf36daf/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "vi": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "b8385169117e9a6ed4c5afeb4d09aaa9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/c2/2c/a2c22cfb-9a52-873a-95e9-cb14d7ff9127/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "c1a0710fd3e3b2e0530312f891b155fa",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/7b/7d/fb7b7de0-eb42-5aa3-96d3-f935813cb73b/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "5da7af60ed3c796c06030f9ba5e5606f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/f6/1f/a4f61f90-0f61-6752-eb2c-95d97556ec50/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "5024c52042a4cff94eaa306566585026",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/1b/7f/3e1b7fc6-8909-489f-67a2-f1ecb74e2304/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "d5425a59e008cb03c6d9a01478a3e07c",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/72/88/437288d5-c82d-58c8-286d-55d7710633de/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "d9129478b52394719b2f779d4a9ee4e4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/a8/bb/bba8bb75-8c8c-8f3b-5bc2-84ae12cacefd/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "6ec5f48446b91bec61047c4419078a6a",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/fd/1b/33fd1b17-8ceb-db42-5b12-e5e85b21d7e1/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "d2db4f361e42f584999550e75ef4d2b2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/4d/c4/754dc470-7752-fb58-b744-acee5e476f84/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "67b3d7957e97bc7fa0116665ba91e832",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/e8/e4/55e8e4fd-9857-e046-062f-f5b3304006f1/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "baf61dc3387d87969c5874881e438610",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/0c/7c/e90c7c95-9960-6bee-8dc7-f14136b029b8/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "zh-Hans": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "5fc91934a9bb47f3de80a92f878c589b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/22/52/3022528f-d933-07bb-abce-a6279ace770a/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "a6be93b92bb52579a5254dd3cc893273",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/87/86/d587860e-aa62-e620-7959-04ea2f8841c1/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "a8e2ad96ab0a7cc88703282aa3750c41",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/82/0a/03820a99-24c8-22b6-1fbf-1d5e356d5956/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "010c2e139b205b60f64ea29a3bd2e469",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/af/98/d2af98e0-7910-877c-616f-dcc0b2c90f36/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "20e1016a18db886a1214cee3bdf3147f",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/05/4a/0a054ad9-4343-42e4-615d-fb464b9be85b/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "94868600f6d98d6430051961832c9b8b",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/38/da/7838da3f-e766-d06a-6431-5ed02bda25d0/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "854f68351761c3d276e48add5111f94e",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/85/3c/5d853c04-b667-4cf8-7f16-d6a43e260ffb/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "094a5c83c5b7276691ef828d4cd5beec",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/f8/d3/86f8d3b9-fc06-7e73-0d9c-a61d6ec1bbd2/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "a115b0067e23fd9e4b5745c02f0e3207",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/21/93/0521939b-eb8d-a229-960c-0606cf15fff6/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "2662cbce00904307df8548d2477193c8",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/e1/48/21e1484f-a57b-7c9f-26fb-71096b9ea25b/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ],
+  "zh-Hant": [
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "01_left.png",
+      "sourceFileChecksum": "0eb10745dd31ffd4d76568eb848f25d9",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/12/ee/ac12ee33-0151-bb5a-c3fe-9bf29d5a9650/01_left.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "02_right.png",
+      "sourceFileChecksum": "5e1fcc4a49673d5f4821551846234934",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/05/78/f20578ad-15f1-41f4-dba2-858510ea49a9/02_right.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_watch.png",
+      "sourceFileChecksum": "b9adea2d9ffe3d6000cd81bbf4578ba1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/4c/97/914c9788-b8df-9871-0abf-2234f5925bf5/iPhone_17_Pro_Max_new-03_watch.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-03_health.png",
+      "sourceFileChecksum": "8e3b9896cd7e1b572fd329e0a4553527",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/09/b9/7f09b998-b921-494c-134d-bb2ce7e973e2/iPhone_17_Pro_Max_new-03_health.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-04_analysis.png",
+      "sourceFileChecksum": "645d012b485a235a4133e9dde5f966f4",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/aa/3e/b2aa3e17-8739-cbf0-ef57-c4ddbf4533a8/iPhone_17_Pro_Max_new-04_analysis.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-05_challenges.png",
+      "sourceFileChecksum": "bda1ab6f305cd4620f309696c81ce8f7",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/7b/06/b17b06a1-5801-79aa-3e4b-4b1a0d2a73a9/iPhone_17_Pro_Max_new-05_challenges.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-06_records.png",
+      "sourceFileChecksum": "c7a39375eace4d78bd4e5d956cf18dc1",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/3a/dc/c83adcc3-7114-661f-d4ec-4edf588c515b/iPhone_17_Pro_Max_new-06_records.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-07_comparison.png",
+      "sourceFileChecksum": "532d3c99aa42f46c6c4a9173690b0876",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/2b/5b/142b5b1e-cf97-d495-f859-f3276e480a13/iPhone_17_Pro_Max_new-07_comparison.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-08_map.png",
+      "sourceFileChecksum": "c4254f4dcd3e7aaaae26ad03d78228b3",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/13/95/b61395b6-c21b-2037-2ead-01647861a490/iPhone_17_Pro_Max_new-08_map.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_67",
+      "fileName": "iPhone 17 Pro Max new-09_allactivities.png",
+      "sourceFileChecksum": "35220ed5ce82c59b76f8fc8e98c3df78",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/56/a5/3e56a559-b7fc-c7d2-fdad-63a6221da359/iPhone_17_Pro_Max_new-09_allactivities.png/{w}x{h}bb.{f}",
+        "width": 1320,
+        "height": 2868
+      }
+    }
+  ]
+}

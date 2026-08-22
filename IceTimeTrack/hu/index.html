@@ -1,940 +1,122 @@
-<!DOCTYPE html>
-<html lang="hu">
+<!doctype html>
+<html lang="hu" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZL852HY2Z4');
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Ice Time Track - Automatikus váltásérzékelés Apple Watch-hoz</title>
-    <meta name="title" content="Ice Time Track - Automatikus váltásérzékelés Apple Watch-hoz">
-    <meta name="description" content="Kövesse jégidejét automatikusan az Apple Watch-csal. Érzékelje a váltásokat, naplózza a gólokat és büntetéseket, figyelje a pulzust és a mozgást.">
-    <meta name="keywords" content="hockey, ice time, shift tracking, Apple Watch, hockey app, ice hockey, shift detection, hockey stats, game tracker">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/IceTimeTrack/hu/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/IceTimeTrack/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/IceTimeTrack/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/IceTimeTrack/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/IceTimeTrack/fr/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/IceTimeTrack/nb/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/IceTimeTrack/hu/">
-    <meta property="og:title" content="Ice Time Track - Automatikus váltásérzékelés Apple Watch-hoz">
-    <meta property="og:description" content="Kövesse jégidejét automatikusan az Apple Watch-csal. Érzékelje a váltásokat, naplózza a gólokat és büntetéseket, figyelje a pulzust és a mozgást.">
-    <meta property="og:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-    <meta property="og:site_name" content="Ice Time Track">
-    <meta property="og:locale" content="hu_HU">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/IceTimeTrack/hu/">
-    <meta name="twitter:title" content="Ice Time Track - Automatikus váltásérzékelés Apple Watch-hoz">
-    <meta name="twitter:description" content="Kövesse jégidejét automatikusan az Apple Watch-csal. Érzékelje a váltásokat, naplózza a gólokat és büntetéseket, figyelje a pulzust és a mozgást.">
-    <meta name="twitter:image" content="https://masawata.net/IceTimeTrack/images/og-image.png">
-
-    <!-- Apple Smart Banner (placeholder app-id) -->
-    <meta name="apple-itunes-app" content="app-id=PLACEHOLDER">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/app-icon.png">
-    <link rel="apple-touch-icon" href="../images/app-icon.png">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Ice Time Track",
-        "operatingSystem": "iOS, watchOS",
-        "applicationCategory": "SportsApplication",
-        "sameAs": "https://apps.apple.com/app/id6758258172",
-        "downloadUrl": "https://apps.apple.com/app/id6758258172",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Kövesse jégidejét automatikusan az Apple Watch-csal. Érzékelje a váltásokat, naplózza a gólokat és büntetéseket, figyelje a pulzust és a mozgást.",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "hu"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ice Time Track — Hokiváltás Edzéskövető</title>
+  <meta name="description" content="Automatikus jégidő-követés Apple Watch-csal – most felszereléskövetéssel és korcsolyaélezési emlékeztetőkkel. Meccs után: váltások, statisztikák és egészség.">
+  <meta name="apple-itunes-app" content="app-id=6758258172">
+  <link rel="canonical" href="https://masawata.net/IceTimeTrack/hu/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/IceTimeTrack/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/IceTimeTrack/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/IceTimeTrack/de-DE/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/IceTimeTrack/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/IceTimeTrack/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/IceTimeTrack/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/IceTimeTrack/fr-FR/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/IceTimeTrack/hu/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/IceTimeTrack/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/IceTimeTrack/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/IceTimeTrack/ko/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/IceTimeTrack/no/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/IceTimeTrack/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/IceTimeTrack/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/IceTimeTrack/sv/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/IceTimeTrack/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/IceTimeTrack/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/IceTimeTrack/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:dark;--accent:#FFB81C;--accent-dark:#C98400;--bg:#0D0D0D;--surface:#1A1A1A;--ink:#FFFFFF;--muted:#A0A0A0;--line:#2A2A2A}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ice Time Track", "description": "Automatikus jégidő-követés Apple Watch-csal – most felszereléskövetéssel és korcsolyaélezési emlékeztetőkkel. Meccs után: váltások, statisztikák és egészség.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/IceTimeTrack/hu/", "downloadUrl": "https://apps.apple.com/app/id6758258172", "image": ["https://masawata.net/IceTimeTrack/images/asc/hu/01-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/02-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/03-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/04-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/05-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/06-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/07-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/08-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/09-phone.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/10-watch.webp", "https://masawata.net/IceTimeTrack/images/asc/hu/11-watch.webp"]}</script>
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/app-icon.png" alt="Ice Time Track" class="nav__logo-icon">
-                <span class="nav__logo-text">Ice Time Track</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item"><a href="#features" class="nav__link">Funkciók</a></li>
-                <li class="nav__item"><a href="#how-it-works" class="nav__link">Hogyan működik</a></li>
-                <li class="nav__item"><a href="#screenshots" class="nav__link">Képernyőképek</a></li>
-                <li class="nav__item"><a href="#faq" class="nav__link">GYIK</a></li>
-                <li class="nav__item"><a href="#download" class="nav__link nav__link--cta" id="nav-cta">Előrendelés</a></li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">HU</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hu/" class="language-option active">Magyar</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Countdown Section -->
-        <section class="countdown" id="countdown">
-            <div class="container">
-                <div class="countdown__content">
-                    <h2 class="countdown__title" id="cd-title">Indulás</h2>
-                    <p class="countdown__promo countdown--hidden" id="cd-promo">1 év $6,99 USD-ért</p>
-                    <p class="countdown__promo-sub countdown--hidden" id="cd-promo-sub">Korlátozott idejű ajánlat — ne hagyja ki</p>
-                    <div class="countdown__timer">
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-days">00</span>
-                            <span class="countdown__label">Nap</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-hours">00</span>
-                            <span class="countdown__label">Óra</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-minutes">00</span>
-                            <span class="countdown__label">Perc</span>
-                        </div>
-                        <span class="countdown__separator">:</span>
-                        <div class="countdown__unit">
-                            <span class="countdown__number" id="cd-seconds">00</span>
-                            <span class="countdown__label">Másodperc</span>
-                        </div>
-                    </div>
-                    <p class="countdown__date" id="cd-date">2026. február 14.</p>
-                    <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6758258172&code=LAUNCH" class="countdown__claim-btn countdown--hidden" id="cd-claim" target="_blank" rel="noopener">Ajánlat igénylése</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="hero" id="hero">
-            <div class="hero__bg"></div>
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <div class="hero__icon-wrapper">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="hero__icon">
-                    </div>
-
-                    <h1 class="hero__title">Automatikus váltásérzékelés<br>jégkorongosoknak</h1>
-                    <p class="hero__description">Tudja meg pontosan, mennyi jégidőt kap — anélkül, hogy megérintené az óráját. Kövesse a gólokat, büntetéseket és harmadokat. Csak indítson egy munkamenetet és játsszon.</p>
-
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn" id="hero-download" target="_blank" rel="noopener">Előrendelés most</a>
-
-                    <img src="../assets/app-store-badges/app-store-badge-hu.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-
-                    <p class="hero__platforms">Elérhető Apple Watch + iPhone · Indulás 2026. február 14.</p>
-
-                    <div class="hero__callouts">
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                            <span>Váltásérzékelés</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
-                            <span>Gólkövetés</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
-                            <span>Büntetésnaplózás</span>
-                        </div>
-                        <div class="hero__callout">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                            <span>Mérkőzéselemzés</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero__device">
-                    <img src="../images/hero-watch.png" alt="Ice Time Track on Apple Watch" class="hero__image">
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Funkciók</h2>
-                    <p class="section-subtitle">Minden, amire szüksége van a mérkőzés követéséhez</p>
-                </div>
-
-                <div class="features__grid">
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Automatikus váltásérzékelés</h3>
-                        <p class="feature-card__description">Lépjen a jégre és az órája tudni fogja. Nincs szükség gombokra játék közben — az érzékelők automatikusan felismerik a korcsolyázást.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Mérkőzésesemények követése</h3>
-                        <p class="feature-card__description">Naplózzon gólokat, gólpasszokat és büntetéseket közvetlenül a csuklójáról.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Élő egészségügyi mutatók</h3>
-                        <p class="feature-card__description">Figyelje a pulzust, az elégetett kalóriákat és a mozgás intenzitását valós időben.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Munkamenet-elemzés</h3>
-                        <p class="feature-card__description">Tekintse át a teljes jégidőt, a váltások számát, az átlagos váltáshosszt és a személyes rekordokat.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M16 16l2 2"/><path d="M8 16l-2 2"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Apple Health integráció</h3>
-                        <p class="feature-card__description">A munkamenetek jégkorong-edzésként szinkronizálódnak az Apple Health-be.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon">
-                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="1" y1="1" x2="23" y2="23"/><path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.56 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-                        </div>
-                        <h3 class="feature-card__title">Offline is működik</h3>
-                        <p class="feature-card__description">Az órája mindent önállóan rögzít. Nincs szükség iPhone-ra a kispadon — az adatok automatikusan szinkronizálódnak a mérkőzés után.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- How It Works Section -->
-        <section class="how-it-works" id="how-it-works">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Hogyan működik</h2>
-                    <p class="section-subtitle">A bemelegítéstől a mérkőzés utáni elemzésig</p>
-                </div>
-
-                <div class="how-it-works__steps">
-                    <div class="step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="step__number">1</div>
-                        <h3 class="step__title">A mérkőzés előtt</h3>
-                        <p class="step__description">Nyissa meg az Ice Time Track-et az Apple Watch-on. Koppintson a Mérkőzés, Edzés vagy Scrimmage gombra.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-before.png" alt="A mérkőzés előtt" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="step__number">2</div>
-                        <h3 class="step__title">A mérkőzés alatt</h3>
-                        <p class="step__description">Lépjen a jégre és az órája automatikusan érzékeli. Naplózza a gólokat és büntetéseket egy koppintással.</p>
-                        <div class="step__device step__device--watch">
-                            <img src="../images/step-during.png" alt="A mérkőzés alatt" class="step__device-img">
-                        </div>
-                    </div>
-
-                    <div class="step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="step__number">3</div>
-                        <h3 class="step__title">A mérkőzés után</h3>
-                        <p class="step__description">Munkamenete szinkronizálódik az iPhone-jával. Tekintse át a jégidőt, váltásokat, pulzust és mérkőzéseseményeket.</p>
-                        <div class="step__device step__device--phone">
-                            <img src="../images/step-after.png" alt="A mérkőzés után" class="step__device-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Gallery Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Nézze meg működés közben</h2>
-                    <p class="section-subtitle">Jégkorongosoknak tervezve</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <button class="screenshots__arrow screenshots__arrow--prev" aria-label="Previous screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-                    </button>
-
-                    <div class="screenshots__track">
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-on-ice.png" alt="Apple Watch on-ice session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-sessions.png" alt="iPhone sessions" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--watch"><img src="../images/watch-events.png" alt="Apple Watch events" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-analytics.png" alt="iPhone analytics" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-game-detail.png" alt="iPhone game detail" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-settings.png" alt="iPhone settings" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-session.png" alt="iPhone live session" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-session-header.png" alt="iPhone session header" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-live-meter.png" alt="iPhone live meter" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-motion-stats.png" alt="iPhone motion stats" class="screenshot-img"></div>
-                        <div class="screenshot-item screenshot-item--phone"><img src="../images/phone-shift-list.png" alt="iPhone shift list" class="screenshot-img"></div>
-                    </div>
-
-                    <button class="screenshots__arrow screenshots__arrow--next" aria-label="Next screenshot">
-                        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section (hidden until launch) -->
-        <section class="testimonials testimonials--hidden" id="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Mit mondanak a játékosok</h2>
-                    <p class="section-subtitle">Jégkorongosok bizalmát élvezi mindenhol</p>
-                </div>
-
-                <div class="testimonials__grid">
-                    <div class="testimonial-card" data-aos="fade-up">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Végre egy app, ami követi a jégidőmet anélkül, hogy bármit is meg kellene érintenem. Forradalmi a váltások követéséhez."</p>
-                        <span class="testimonial-card__author">— Hockey Dad</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Imádom a pulzusom és váltásstatisztikáim megtekintését minden mérkőzés után."</p>
-                        <span class="testimonial-card__author">— Beer League Player</span>
-                    </div>
-
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="testimonial-card__stars">
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.5.91-5.31L2.27 6.68l5.34-.78L10 1z"/></svg>
-                            
-                        </div>
-                        <p class="testimonial-card__quote">"Az automatikus érzékelés meglepően pontos. A gyerekeim minden mérkőzésen használják."</p>
-                        <span class="testimonial-card__author">— Youth Hockey Parent</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Gyakran ismételt kérdések</h2>
-                    <p class="section-subtitle">Minden, amit az Ice Time Trackről tudni kell</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan indítok el egy munkamenetet?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nyisd meg az Ice Time Track alkalmazást az Apple Watchodon. Válaszd ki a munkamenet típusát (Meccs, Edzés, Scrimmage vagy Egyéb), és koppints az indításhoz. Az alkalmazás automatikusan érzékeli, mikor vagy a jégen és mikor a kispadon.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mi a különbség a Meccs, az Edzés és a Scrimmage között?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ezek címkék a munkamenetek rendszerezéséhez. A Meccs a hivatalos mérkőzésekhez, az Edzés a csapatedzésekhez, a Scrimmage az informális meccsekhez, az Egyéb pedig minden máshoz, például nyilvános korcsolyázáshoz. Az érzékelés minden típusnál ugyanúgy működik.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Szükségem van az iPhone-omra meccs közben?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nem. Az Apple Watch mindent önállóan rögzít. A munkamenet automatikusan szinkronizálódik az iPhone-oddal, amikor az eszközök hatótávolságon belül vannak a meccs után.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mi az a lépés?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Egy "lépést" az Apple Watchod akkor érzékel, amikor a gyorsulásmérőjével ritmikus karmozgási mintát észlel. Valójában nem a láb földet érését érzékeli — ehelyett a mozgást kísérő karmozgást ismeri fel. Jégkorong közben a korcsolyázó lépésed és a botkezelésed hasonló karmozgásokat hoz létre, ezért az alkalmazás a "lépés/másodperc" értéket használja az aktív játék egyik mutatójaként.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mi az a gyorsulás?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A gyorsulás azt méri, milyen gyorsan gyorsítasz, lassítasz vagy változtatsz irányt. Az Apple Watchod gyorsulásmérője három dimenzióban érzékeli ezt a mozgást. A kemény megállások, robbanékony indulások és gyors irányváltások kitörés közben magas gyorsulásként jelennek meg — míg a kispadon ülés a következő váltásra várva minimális aktivitást mutat.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mi az a forgás?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A forgás méri, mennyit és milyen gyorsan fordulsz vagy pörögsz. Az Apple Watchod giroszkópja érzékeli ezt a mozgást, ami különösen gyakori a jégkorongban — a cross-overek a semleges zónán keresztül, a hátrafelé korcsolyázáshoz való fordulás védekezésben, vagy a test melletti lepördülés mind jellegzetes forgásmintákat hoznak létre. A gyorsulással kombinálva ez segíti az alkalmazást megkülönböztetni az aktív korcsolyázást az álló helyzetben maradástól.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Honnan tudja az alkalmazás, hogy a jégen vagyok?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Az alkalmazás több érzékelőt kombinál: a gyorsulásmérő érzékeli a mozgás intenzitását, a lépésszámláló követi a korcsolyázó lépésedet, a GPS pedig méri a sebességedet. Amikor aktívan korcsolyázol, ezek az érzékelők magas aktivitást mutatnak. Amikor a kispadon ülsz, az aktivitás jelentősen csökken.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan váltja ki a mozgás a jégen/kispadon állapotot?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A Watchod olvassa a mozgás intenzitását, a korcsolyázó lépést és a GPS-sebességet. Amikor az alkalmazás elég erős mozgást észlel ezekből az érzékelőkből, jégen lévőnek jelöl. Amikor mindhárom alacsony szintre esik és ott marad, megkezdődik a kispadra váltás.</p><p>Az Érzékenység beállítás szabályozza, mennyi mozgás szükséges:</p><p>• Magas — Könnyebb mozgásokat is érzékel. Használd, ha a váltásaid nem kerülnek felismerésre.<br>• Közepes — Kiegyensúlyozott a legtöbb játékos számára. Ez az alapértelmezett.<br>• Alacsony — Erősebb mozgás szükséges a korcsolyázásnak számításhoz. Használd, ha hamis jégen-olvasásokat kapsz, miközben a kispadon ülsz.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan működnek a speciális érzékelési beállítások?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A Speciális beállítások teljes irányítást adnak minden érzékelési küszöb felett. Bármely csúszka állítása automatikusan átkapcsolja az érzékenységet „Egyedi“ módra.</p><p>Jégen-indító — A korcsolyázás jelöléséhez VAGY a GPS sebességednek meg kell haladnia a küszöbét 3 másodpercig, VAGY mind a gyorsulásodnak, mind a lépési ütemed nek meg kell haladnia a küszöbét a tartási időre.<br>• Acceleration: 0.2–3.0G (default: 0.2G)<br>• Step Cadence: 0.4–2.0 steps/sec (default: 0.8)<br>• GPS Speed: 0.5–3.0 m/s (default: 1.5)<br>• Hold Duration: 1–5 sec (default: 2s)</p><p>Kispadon-indító — A kispadra váltáshoz MINDHÁROM értéknek a küszöb alá kell esnie a tartási időre.<br>• Acceleration: 0.3–1.5G (default: 0.7G)<br>• Step Cadence: 0.4–1.5 steps/sec (default: 1.0)<br>• GPS Speed: 0.1–1.0 m/s (default: 0.5)<br>• Hold Duration: 1–5 sec (default: 3s)</p><p>Az előre beállított szintek (Magas, Közepes, Alacsony) használatát javasoljuk, kivéve ha finom hangolásra van szükséged. Bármikor koppints a „Visszatérés az előbeállításhoz“ gombra a visszaállításhoz.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miért van késleltetés, amikor abbahagyom a korcsolyázást?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ez a "mozgáspuffer" — egy rövid várakozási időszak (alapértelmezés 20 másodperc), mielőtt az alkalmazás megerősíti, hogy visszatértél a kispadra. Ez megakadályozza, hogy a váltás közbeni rövid szünetek kispadidőnek számítsanak.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mi az a mozgáspuffer?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A mozgáspuffer egy konfigurálható késleltetés (10-30 másodperc), amely megakadályozza a hamis váltáslezárásokat. Amikor abbahagyod a mozgást, az alkalmazás ennyi időt vár, mielőtt "kispadon" lévőként jelölne. Ha a puffer alatt újra elkezdesz mozogni, a váltásod megszakítás nélkül folytatódik.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mi az a mecsjegyzőkönyv?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A mecsjegyzőkönyv lehetővé teszi események rögzítését a munkamenet során — gólok mellé, gólok ellen, büntetések és harmadkezdések. Az eseményeket az Apple Watchról rögzítik játék közben, és az iPhone-ról is hozzáadhatók. A pontszám és a személyes statisztikák (góljaim, gólpasszaim, büntetőperceim) a rögzített eseményekből számítódnak.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>El kell indítanom egy Meccs munkamenetet a mecsjegyzőkönyv használatához?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nem. A mecsjegyzőkönyv minden munkamenet-típushoz elérhető — Meccs, Edzés, Scrimmage és Egyéb. Gólokat és büntetéseket bármely munkamenetben rögzíthetsz.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Rögzíthetek meccseredményt anélkül, hogy élő követést indítanék az Apple Watchon?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Igen. Koppints a + gombra az „Utolsó munkamenetek“ mellett az Irányítópulton egy manuális meccseredmény hozzáadásához. Megadhatod a pontszámot, az ellenfél nevét, a gólokat, a gólpasszokat, a büntetéseket és a harmadok információit — mindezt a Watch viselése nélkül. Ez hasznos meccsek utólagos rögzítéséhez vagy elemzési célokra.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan rögzítek eseményeket a Watchomon?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Aktív munkamenet során koppints a LOG gombra a képernyő alján. Válaszd ki az esemény típusát (gól mellé, gól ellen, büntetés vagy harmadkezdés) és töltsd ki a részleteket. Az esemény az aktuális idővel rögzítődik és másodperceken belül megjelenik az iPhone-odon.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan rögzítek eseményeket az iPhone-omon?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Amíg egy munkamenet aktív a Watchodon, nyisd meg az iPhone alkalmazást az élő munkamenet megtekintéséhez. A Watchon rögzített események valós időben jelennek meg az iPhone-odon. Eseményeket közvetlenül az iPhone-ról is hozzáadhatsz vagy törölhetsz. Vedd figyelembe, hogy az iPhone-on végzett módosítások nem kerülnek vissza a Watchra a munkamenet során — a Watch továbbra is a saját naplóját mutatja. A munkamenet végén mindkét forrás automatikusan egyesítődik, és az iPhone-on végzett változtatások (hozzáadások és törlések) élvenek elsőbbséget.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Milyen típusú eseményeket rögzíthetek?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Négy típus: Gól mellé (opcionálisan jelöld meg „Én lőttem“ vagy „Én adtam gólpasszt“), Gól ellen, Büntetés (büntetéstípussal, időtartammal és hogy a csapatod vagy az ellenfél ellen szól) és Harmadkezdés (szüneteket jelöl az idővonalon).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mi történik, ha nem állítok be időt egy eseményhez?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ha időbélyeg megadása nélkül adsz hozzá egy eseményt, az anélkül mentődik. Az esemény továbbra is megjelenik a mecsjegyzőkönyvedben és beleszámít a pontszámodba és statisztikáidba. Bármikor visszamehetsz és hozzáadhatod vagy javíthatod az időt a munkamenet után a munkamenet részletes oldalán az iPhone-odon.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Szerkeszthetem az eseményeket a munkamenet után?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Igen. Nyisd meg a munkamenetet az iPhone-odon és koppints bármely eseményre a részletek szerkesztéséhez — típus, időbélyeg, személyes részvétel (gól/gólpassz), büntetés adatai és továbbiak. Új eseményeket is hozzáadhatsz vagy törölheted a meglévőket. Minden változás azonnal mentődik.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan egyesítődnek a Watch és iPhone események?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A munkamenet során a Watch és az iPhone külön-külön vezeti a saját nyilvántartását. Amikor a munkamenet véget ér és a Watch elküldi a végleges adatokat az iPhone-ra, az alkalmazás egyesíti mindkét forrást: az iPhone-on törölt események eltávolításra kerülnek, a hozzáadottak bekerülnek, és a pontszám újraszámítódik az egyesített listából. A végeredmény egyetlen egyesített munkamenetként mentődik.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mit csinál az érzékelési érzékenység?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Az érzékenység szabályozza, mennyi mozgás szükséges a "korisolyázás" érzékeléséhez. A magas érzékenység könnyebb mozgásokat is észlel (jó, ha a váltások nem kerülnek észlelésre). Az alacsony érzékenység erősebb mozgást igényel (jó, ha téves észlelések vannak a kispadon). A közepes az alapértelmezett, és a legtöbb játékosnak megfelel.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan állítom be a pufferidőt?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nyissa meg az Ice Time Track alkalmazást az iPhone-ján, lépjen a Beállításokba, és állítsa be a "Mozgáspuffer" választót. Rövidebb pufferek (10–15 másodperc) gyorsabban zárják le a váltásokat. Hosszabb pufferek (25–30 másodperc) elnzőbbek a rövid szünetek iránt a váltások során.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mik azok a haptikus figyelmeztetések és hogyan használom őket?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A haptikus figyelmeztetések rezgős értesítések a Watch-on, amikor az állapota megváltozik. Beállíthatja, hogy rezegjen, amikor jégre lép, amikor visszatér a kispadra, mindkettőnél, vagy teljesen kikapcsolhatja. Ez segít tájékozottnak maradni anélkül, hogy a Watch-ra nézne.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mit csinál az „Automatikus munkamenet-befejezés"?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Az automatikus befejezés automatikusan leállítja a munkamenetet egy beállított idő után (alapértelmezetten 100 perc). Ez megakadályozza, hogy az alkalmazás végtelenül fusson, ha elfelejti manuálisan leállítani, így kíméli az akkumulátort és biztosítja az adatok mentését.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Ha megváltoztatom a beállításokat aktív munkamenet közben, azonnal érvénybe lépnek?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Igen. Az érzékenység, a mozgáspuffer és a haptikus figyelmeztetések módosításai szinkronizálódnak a Watch-csal, és azonnal érvénybe lépnek a folyamatban lévő munkamenet során. Nem kell megvárnia a következő munkamenetet – a beállítások másodperceken belül érvényesülnek az iPhone-on történő módosítás után.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Mik azok a Speciális beállítások?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A Haladó beállítások lehetővé teszik az egyes észlelési küszöbök egyedi finomhangolását. Bővítse ki a szakaszt az Észlelési beállításokban a gyorsulás, lépésfrekvencia, GPS-sebesség és tartási időtartam konfigurálásához a jégen és a kispadon történő aktiváláshoz egyaránt. Amikor bármely csúszkot állít, az érzékenység automatikusan "Égyedi"-re vált. Használja az "Visszaállítás előbeállításra" opciót az Alacsony/Közepes/Magas előbeállításokhoz való visszatéréshez.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Milyen adatok mentődnek az Apple Health-be?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ha engedélyezve van, az alkalmazás hokiedzésként menti a munkamenetet, beleértve: időtartam, elégetett aktív kalóriák és pulzusadatok (átlag és maximum). Ez hozzájárul az Aktivitásgyűrűidhez és fitneszelőzményeidhez.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan engedélyezem/tiltom le a HealthKit integrációt?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nyisd meg a Beállításokat az iPhone alkalmazásban, és kapcsold be a „Mentés az Apple Health-be" opciót. Ha engedélyezve van, a befejezett munkamenetek edzésként mentődnek. Ha letiltva, az adataid csak az Ice Time Trackben maradnak.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miért nem jelenik meg a pulzusom?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Győződj meg róla, hogy az órád szorosan ül, és a pulzusmérő jó bőrkontaktusban van. A pulzus megjelenése 30–60 másodpercet vehet igénybe a munkamenet indítása után. Ha a probléma fennáll, ellenőrizd, hogy az Ice Time Tracknek van-e engedélye a pulzus olvasásához a Beállítások &gt; Adatvédelem &gt; Egészség menüben.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan szinkronizálódnak a munkamenetek a Watch és az iPhone között?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A munkamenetek automatikusan szinkronizálódnak, ha mindkét eszköz hatótávolságon belül van és csatlakoztatva van. Miután befejezed a munkamenetet az órádon, az néhány másodperc vagy perc alatt áttevődik az iPhone-ra. A szinkronizálást manuálisan is elindíthatod az iPhone alkalmazásból.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miért nem jelenik meg a munkamenetem az iPhone-omon?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Először győződj meg róla, hogy a munkamenet befejeződött az órádon. Nyisd meg mindkét alkalmazást, és győződj meg róla, hogy a Bluetooth be van kapcsolva. A munkamenetek szinkronizálódnak, amikor az óra alkalmazás nyitva van, vagy röviddel a befejezés után. Ha még mindig nem jelenik meg, próbáld meg újra megnyitni az óra alkalmazást a szinkronizálás elindításához.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Törölhetek egy munkamenetet?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Igen. Az iPhone alkalmazásban menj a munkamenetek listájára, húzd balra az eltávolítani kívánt munkamenetet, és koppints a Törlés gombra. Ez mindkét eszközről eltávolítja.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Az alkalmazás nem érzékeli pontosan a váltásaimat</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Próbáld meg beállítani az érzékelési érzékenységet a Beállításokban. Ha a váltások nem érzékelhetők, növeld az érzékenységet Magas szintre. Ha hamis érzékeléseket kapsz a kispadon, csökkentsd Alacsony szintre. Győződj meg arról is, hogy az óra biztonságosan a csuklódon van, nem vastag kesztyű felett.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Az alkalmazás leállt a rögzítéssel meccs közben</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ez előfordulhat, ha az óra újraindul vagy az alkalmazás összeomlik. Ellenőrizd, hogy az automatikus befejezés a vártnál korábban aktiválódott-e (a Beállításokban módosítható).</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>A Watch alkalmazás elakadt a „Szinkronizálás szükséges“ képernyőn</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Az óra és iPhone alkalmazásoknak kommunikálniuk kell a kezdeti beállítás befejezéséhez. Győződj meg róla, hogy az iPhone alkalmazás nyitva van az óra beállítása közben. Ha a képernyő megmarad, kényszerítsd ki mindkét alkalmazást és indítsd újra őket. Ha a probléma folytatódik, töröld és telepítsd újra mindkét alkalmazást.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miért van szüksége az alkalmazásnak helymeghatározásra?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A helymeghatározás (GPS) a korcsolyázási sebesség mérésére szolgál, ami segít pontosan érzékelni, mikor vagy a jégen és mikor a kispadon. A GPS-adatok az eszközeiden maradnak, és sehová sem töltődnek fel.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Miért van szüksége az alkalmazásnak mozgás és fitnesz hozzáférésre?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>A mozgásérzékelők (gyorsulásmérő és giroszkóp) a mozgásmintáidat érzékelik, hogy megkülönböztessék a korcsolyázást az üléstől. A fitnesz hozzáférés lehetővé teszi a lépésszám olvasását az érzékelés pontosságának javítása érdekében. Ezeket az adatokat teljes egészében az órádon dolgozzuk fel.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Megosztják az adataimat valakivel?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Nem. Minden munkamenet-adat, egészségügyi mutató és szenzorérték az Apple Watchodon és iPhone-odon marad. Semmi sem töltődik fel külső szerverekre. Az adataid a tieid.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Hogyan engedélyezem a helymeghatározást, ha véletlenül megtagadtam?</span>
-                            <svg class="faq__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"/>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>1. lehetőség (az órán): Nyisd meg a Beállítások &gt; Adatvédelem és biztonság &gt; Helymeghatározás &gt; Ice Time Track menüpontot, majd válaszd a „Használat közben“ lehetőséget. 2. lehetőség (iPhone-ról): Nyisd meg a Watch alkalmazást &gt; Adatvédelem &gt; Helymeghatározás &gt; Ice Time Track, és engedélyezd a hozzáférést.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Download CTA Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content" data-aos="fade-up">
-                    <div class="download__icon">
-                        <img src="../images/app-icon.png" alt="Ice Time Track app icon" class="download__icon-img">
-                    </div>
-                    <h2 class="download__title">Készen áll a jégidő követésére?</h2>
-                    <p class="download__description">Töltse le az Ice Time Track-et és kezdje el következő munkamenetét. Automatikus váltásérzékelés, mérkőzésesemény-naplózás és egészségügyi mutatók — mindezt a csuklójáról.</p>
-                    <a href="https://apps.apple.com/us/app/ice-time-track/id6758258172?ct=WEB" class="launch-btn launch-btn--lg" id="download-cta" target="_blank" rel="noopener">Előrendelés most</a>
-                    <img src="../assets/app-store-badges/app-store-badge-hu.svg" alt="App Store" class="app-store-badge app-store-badge--static" onerror="this.src='../assets/app-store-badges/app-store-badge-en.svg'">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <span class="footer__name">Ice Time Track</span>
-                <div class="footer__links">
-                    <a href="/privacy-policy.html" class="footer__link">Adatvédelmi irányelvek</a>
-                    <a href="#" class="footer__link">Szolgáltatási feltételek</a>
-                    <a href="mailto:support@masawata.net" class="footer__link">Támogatás</a>
-                </div>
-                <p class="footer__copyright">© 2026 MasaWata. Minden jog fenntartva.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="../js/main.js"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/app-icon.png" alt="" width="44" height="44"><span>Ice Time Track</span></a>
+    <details class="asc-languages">
+      <summary>Nyelv: Magyar</summary>
+      <nav><a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Ice Time Track</p>
+        <h1>Hokiváltás Edzéskövető</h1>
+        <p>Automatikus jégidő-követés Apple Watch-csal – most felszereléskövetéssel és korcsolyaélezési emlékeztetőkkel. Meccs után: váltások, statisztikák és egészség.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Letöltés az App Store-ból</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/hu/01-phone.webp" alt="Ice Time Track">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Az alkalmazásról</h2>
+      <div class="asc-prose"><p>A váltásaid. Automatikusan követve.</p>
+<p>Az Ice Time Track az Apple Watch-ot használja annak érzékelésére, mikor korcsolyázol és mikor ülsz a kispadon. Nincs gombnyomkodás, nincs macera. Csak indíts egy munkamenetet és játssz.</p>
+<h3>HOGYAN MŰKÖDIK</h3>
+<p>Mozgásérzékelő algoritmusunk elemzi a gyorsulásmérő, giroszkóp és GPS adatokat, hogy megkülönböztesse a korcsolyázást a pihenéstől. Az iPhone-od élő frissítéseket szinkronizál, így valós időben vagy a meccs után is megnézheted a statisztikákat.</p>
+<h3>FUNKCIÓK</h3>
+<ul><li>Automatikus váltás-érzékelés, mozgás- és egészségügyi metrikák követése</li><li>Összes jégidő és váltásokra bontott részletezés</li><li>Meccsnapló – gólok, kiállítások, szünetek</li><li>Pulzus és kalória váltásonként</li><li>Vizuális idővonal a jég/kispad mintázatról</li><li>Munkamenet-előzmények trendekkel</li><li>Helymegjelölés minden jégcsarnokhoz</li><li>Meccs, edzés és tréningmeccs módok</li><li>Opcionális haptikus figyelmeztetések</li><li>Adatexport CSV vagy JSON formátumba</li></ul>
+<h3>APPLE INTEGRÁCIÓ</h3>
+<p>Apple Watch-csal működik. Apple Health-szel szinkronizál.</p>
+<h3>ADATVÉDELEM</h3>
+<p>Minden adat helyben tárolva. Fiók nem szükséges.</p>
+<p>Jégkorongozók építették jégkorongozóknak. Ismerd a jégidődet. Emeld a játékod.</p>
+<p>Az Ice Time Track intelligens jégkorong-társsá alakítja Apple Watch-odat, amely pontosan tudja, mikor vagy a jégen és mikor a kispadon. Nincsenek gombok. Nincsenek zavaró tényezők. Tiszta, automatikus követés, hogy a legjobb játékodra koncentrálhass.</p>
+<h3>HOGYAN MŰKÖDIK</h3>
+<p>Indíts egy munkamenetet az Apple Watch-odon és felejtsd el. Fejlett mozgásérzékelésünk valós időben elemzi az adatokat. Az iPhone-od szinkronban marad élő frissítésekkel – nézd a statisztikáidat a lelátóról, vagy tekints át mindent a záró sziréna után.</p>
+<h3>MIT FOGSZ FELFEDEZNI</h3>
+<ul><li>Összes Jégidő — Pontosan tudd, hány percet töltöttél ott, ahol számít</li><li>Váltásról Váltásra Bontás — Minden váltás időtartammal, pulzussal és kalóriával</li><li>Meccsnapló – gólok/kiállítások harmadokra bontva</li><li>Pulzuskövetés — Figyeld az erőfeszítést korcsolyázás vs. pihenés közben</li><li>Elégetett Kalóriák — Pontos adatok szinkronizálva az Apple Health-ből</li><li>Munkamenet Idővonal — Vizuális grafikon a jég/kispad mintázatodról</li><li>Helymemória — Automatikus jégcsarnok-megjelölés</li><li>Történeti Trendek — Hasonlítsd össze a munkameneteket és kövesd a fejlődést</li></ul>
+<h3>MINDEN KORCSOLYÁZÓNAK ÉPÍTVE</h3>
+<p>Akár amatőr ligában játszol, keményen edzel, vagy tréningmeccseken versenyzel – az Ice Time Track alkalmazkodik. Címkézd a munkameneteket típus szerint, add hozzá az ellenfelek nevét, és építsd a személyes jégkorong-naplódat.</p>
+<h3>ZÖKKENŐMENTES APPLE INTEGRÁCIÓ</h3>
+<ul><li>Edzéseket szinkronizál az Apple Health-szel</li><li>Háttérben fut a munkamenetek alatt</li><li>Opcionális haptikus figyelmeztetések jég/kispad átmeneteknél</li><li>Optimalizálva alacsony akkumulátor-használatra</li></ul>
+<h3>ADATVÉDELEM ELŐRE</h3>
+<p>Az adataid a tieid maradnak. Helyben tárolva az eszközeiden. Nincs fiók. Adatok nem eladók. Soha.</p>
+<h3>JÁTÉKOSOKTÓL JÁTÉKOSOKNAK</h3>
+<p>Jégkorong-rajongók építették, akik belefáradtak a jégidő találgatásába. Valós számok. Valós betekintések. Nulla súrlódás.</p>
+<p>Töltsd le most, és soha többé ne tűnődj a jégidődön.</p>
+<p>Kösd be a korcsolyát. Dobd be a korongot. A többit mi intézzük.</p>
+<p>Privacy Policy: https://masawata.net/privacy-policy.html Terms Of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Képernyőképek</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/hu/01-phone.webp" alt="Ice Time Track — Képernyőképek 1" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/02-phone.webp" alt="Ice Time Track — Képernyőképek 2" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/03-phone.webp" alt="Ice Time Track — Képernyőképek 3" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/04-phone.webp" alt="Ice Time Track — Képernyőképek 4" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/05-phone.webp" alt="Ice Time Track — Képernyőképek 5" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/06-phone.webp" alt="Ice Time Track — Képernyőképek 6" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/07-phone.webp" alt="Ice Time Track — Képernyőképek 7" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/08-phone.webp" alt="Ice Time Track — Képernyőképek 8" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/09-phone.webp" alt="Ice Time Track — Képernyőképek 9" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/10-watch.webp" alt="Ice Time Track — Képernyőképek 10" loading="lazy"></figure>
+<figure><img src="../images/asc/hu/11-watch.webp" alt="Ice Time Track — Képernyőképek 11" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Ice Time Track</h2>
+      <p>Automatikus jégidő-követés Apple Watch-csal – most felszereléskövetéssel és korcsolyaélezési emlékeztetőkkel. Meccs után: váltások, statisztikák és egészség.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6758258172" rel="noopener">Letöltés az App Store-ból</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Adatvédelmi irányelvek</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Szolgáltatási feltételek</a>
+    <a href="https://masawata.net/">Támogatás</a>
+  </footer>
 </body>
 </html>

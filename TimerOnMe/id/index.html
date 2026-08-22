@@ -1,500 +1,144 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html lang="id" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // Only track on production
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        gtag('config', 'G-ZL852HY2Z4');
-      }
-    </script>
-
-    <!-- Primary Meta Tags -->
-    <title>Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi</title>
-    <meta name="title" content="Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi">
-    <meta name="description" content="Jalankan hingga 50 timer dan stopwatch sekaligus, dengan alarm yang berbunyi saat terkunci (AlarmKit), interval Tabata/EMOM/30-30, Live Activities, dan aplikasi Apple Watch lengkap. Gratis untuk iPhone, iPad & Apple Watch.">
-    <meta name="keywords" content="timer, stopwatch, beberapa timer, latihan interval, timer HIIT, Tabata, aplikasi iOS, widget layar utama, timer hitung mundur, multiple timers, countdown timer">
-    <meta name="author" content="Weiren Hsiao">
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://masawata.net/TimerOnMe/id/">
-
-    <!-- Hreflang Tags for Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://masawata.net/TimerOnMe/">
-    <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
-    <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
-    <link rel="alternate" hreflang="de" href="https://masawata.net/TimerOnMe/de/">
-    <link rel="alternate" hreflang="es" href="https://masawata.net/TimerOnMe/es/">
-    <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
-    <link rel="alternate" hreflang="fr" href="https://masawata.net/TimerOnMe/fr/">
-    <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
-    <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
-    <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
-    <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
-    <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
-    <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
-    <link rel="alternate" hreflang="nb" href="https://masawata.net/TimerOnMe/nb/">
-    <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
-    <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
-    <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
-    <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
-    <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
-    <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://masawata.net/TimerOnMe/id/">
-    <meta property="og:title" content="Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi">
-    <meta property="og:description" content="Jalankan hingga 50 timer dan stopwatch sekaligus, dengan alarm yang berbunyi saat terkunci (AlarmKit), interval Tabata/EMOM/30-30, Live Activities, dan aplikasi Apple Watch lengkap. Gratis untuk iPhone, iPad & Apple Watch.">
-    <meta property="og:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-    <meta property="og:site_name" content="Timer Saya">
-    <meta property="og:locale" content="id_ID">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://masawata.net/TimerOnMe/id/">
-    <meta name="twitter:title" content="Timer Saya - Beberapa Timer & Stopwatch dalam Satu Aplikasi">
-    <meta name="twitter:description" content="Jalankan hingga 50 timer dan stopwatch sekaligus, dengan alarm yang berbunyi saat terkunci (AlarmKit), interval Tabata/EMOM/30-30, Live Activities, dan aplikasi Apple Watch lengkap. Gratis untuk iPhone, iPad & Apple Watch.">
-    <meta name="twitter:image" content="https://masawata.net/TimerOnMe/images/TimerOnMe.png">
-
-    <!-- App Store Smart Banner -->
-    <meta name="apple-itunes-app" content="app-id=6746874284">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/TimerOnMe.png">
-    <link rel="apple-touch-icon" href="../images/TimerOnMe.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css?v=1.0">
-
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Timer Saya",
-        "operatingSystem": "iOS",
-        "applicationCategory": "UtilitiesApplication",
-        "sameAs": "https://apps.apple.com/app/id6746874284",
-        "downloadUrl": "https://apps.apple.com/app/id6746874284",
-        "publisher": {
-            "@type": "Organization",
-            "name": "MasaWata Tech",
-            "url": "https://masawata.net/"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "description": "Jalankan hingga 50 timer dan stopwatch sekaligus, dengan alarm yang berbunyi saat terkunci (AlarmKit), interval Tabata/EMOM/30-30, Live Activities, dan aplikasi Apple Watch lengkap. Gratis untuk iPhone, iPad & Apple Watch.",
-        "screenshot": "https://masawata.net/TimerOnMe/images/en/gallery-overview.jpg",
-        "softwareVersion": "4.1",
-        "author": {
-            "@type": "Person",
-            "name": "Weiren Hsiao"
-        },
-        "inLanguage": "id"
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Timer on Me — Timer, Alarm, Stopwatch, HIIT</title>
+  <meta name="description" content="Kini hadir alarm tanggal: atur alarm sekali untuk tanggal &amp; waktu mendatang, bersama alarm berulang, 50 timer sekaligus, HIIT &amp; Tabata, dan Apple Watch.">
+  <meta name="apple-itunes-app" content="app-id=6746874284">
+  <link rel="canonical" href="https://masawata.net/TimerOnMe/id/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TimerOnMe/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/TimerOnMe/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/TimerOnMe/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/TimerOnMe/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TimerOnMe/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/TimerOnMe/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TimerOnMe/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TimerOnMe/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TimerOnMe/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/TimerOnMe/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TimerOnMe/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/TimerOnMe/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/TimerOnMe/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/TimerOnMe/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/TimerOnMe/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/TimerOnMe/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/TimerOnMe/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/TimerOnMe/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/TimerOnMe/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TimerOnMe/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/TimerOnMe/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/TimerOnMe/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TimerOnMe/pt-BR/">
+  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TimerOnMe/pt-PT/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/TimerOnMe/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/TimerOnMe/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/TimerOnMe/sk/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/TimerOnMe/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/TimerOnMe/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/TimerOnMe/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/TimerOnMe/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/TimerOnMe/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TimerOnMe/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TimerOnMe/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TimerOnMe/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#007AFF;--accent-dark:#0055CC;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Timer on Me", "description": "Kini hadir alarm tanggal: atur alarm sekali untuk tanggal & waktu mendatang, bersama alarm berulang, 50 timer sekaligus, HIIT & Tabata, dan Apple Watch.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/TimerOnMe/id/", "downloadUrl": "https://apps.apple.com/app/id6746874284", "image": ["https://masawata.net/TimerOnMe/images/asc/id/01-phone.webp", "https://masawata.net/TimerOnMe/images/asc/id/02-phone.webp", "https://masawata.net/TimerOnMe/images/asc/id/03-phone.webp", "https://masawata.net/TimerOnMe/images/asc/id/04-phone.webp", "https://masawata.net/TimerOnMe/images/asc/id/05-phone.webp", "https://masawata.net/TimerOnMe/images/asc/id/06-phone.webp", "https://masawata.net/TimerOnMe/images/asc/id/07-phone.webp"]}</script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="../" class="nav__logo">
-                <img src="../images/TimerOnMe.png" alt="Timer on Me" class="nav__logo-img">
-                <span class="nav__logo-text">Timer Saya</span>
-            </a>
-
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#features" class="nav__link">Fitur</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#screenshots" class="nav__link">Tangkapan Layar</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#download" class="nav__link">Unduh</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#faq" class="nav__link">Tanya Jawab</a>
-                </li>
-            </ul>
-
-            <!-- Language Selector -->
-            <div class="language-selector" id="header-language-selector">
-                <button class="language-btn" aria-label="Select Language">
-                    <svg class="language-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    <span class="current-lang">ID</span>
-                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-                <div class="language-dropdown">
-                    <a href="../" class="language-option">English</a>
-                    <a href="../cs/" class="language-option">Čeština</a>
-                    <a href="../da/" class="language-option">Dansk</a>
-                    <a href="../de/" class="language-option">Deutsch</a>
-                    <a href="../es/" class="language-option">Español</a>
-                    <a href="../fi/" class="language-option">Suomi</a>
-                    <a href="../fr/" class="language-option">Français</a>
-                    <a href="../hi/" class="language-option">हिन्दी</a>
-                    <a href="../hu/" class="language-option">Magyar</a>
-                    <a href="../id/" class="language-option active">Indonesia</a>
-                    <a href="../it/" class="language-option">Italiano</a>
-                    <a href="../ja/" class="language-option">日本語</a>
-                    <a href="../ko/" class="language-option">한국어</a>
-                    <a href="../nb/" class="language-option">Norsk</a>
-                    <a href="../pt-BR/" class="language-option">Português</a>
-                    <a href="../ru/" class="language-option">Русский</a>
-                    <a href="../sk/" class="language-option">Slovenčina</a>
-                    <a href="../sv/" class="language-option">Svenska</a>
-                    <a href="../vi/" class="language-option">Tiếng Việt</a>
-                    <a href="../zh-Hans/" class="language-option">简体中文</a>
-                    <a href="../zh-Hant/" class="language-option">繁體中文</a>
-                </div>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero__container container">
-                <div class="hero__content">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me App Icon" class="hero__icon">
-                    <h1 class="hero__title">Setiap Timer, Alarm & Stopwatch — Sekaligus</h1>
-                    <p class="hero__description">Jalankan hingga 50 timer dan stopwatch sekaligus, atur alarm yang berbunyi bahkan saat iPhone Anda terkunci, dan ukur latihan HIIT dengan presisi — di iPhone, iPad, dan Apple Watch.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="hero__download" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Unduh di App Store" class="app-store-badge">
-                    </a>
-                </div>
-                <div class="hero__device">
-                    <div class="device-frame">
-                        <img src="../images/en/hero.jpg" alt="Timer on Me Screenshot" class="device-screen">
-                    </div>
-                </div>
-            </div>
-            <div class="hero__gradient"></div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="features" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Fitur Canggih</h2>
-                    <p class="section-subtitle">Semua yang Anda butuhkan untuk menguasai waktu Anda</p>
-                </div>
-
-                <div class="features__grid">
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="7" height="7"></rect>
-                <rect x="14" y="3" width="7" height="7"></rect>
-                <rect x="3" y="14" width="7" height="7"></rect>
-                <rect x="14" y="14" width="7" height="7"></rect>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Grid Multi-Timer</h3>
-                        <p class="feature-card__description">Jalankan hingga 50 timer dan stopwatch independen sekaligus dalam grid yang rapi. Mulai, jeda, dan atur ulang masing-masing secara individual — atau kendalikan semuanya bersamaan.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-card__icon feature-card__icon--orange">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="13" r="8"></circle>
-                <polyline points="12 9 12 13 14.5 14.5"></polyline>
-                <path d="M5 3 2 6"></path>
-                <path d="M22 6l-3-3"></path>
-                <path d="M6 19l-2 2"></path>
-                <path d="M18 19l2 2"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Alarm Andal</h3>
-                        <p class="feature-card__description">Alarm bangun dan pengingat dengan label kustom dan jadwal hari kerja, didukung oleh AlarmKit sehingga berbunyi bahkan saat iPhone Anda terkunci atau Timer Saya ditutup. Opsi tunda dan suara Anda sendiri sudah termasuk.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-card__icon feature-card__icon--red">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="17 1 21 5 17 9"></polyline>
-                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
-                <polyline points="7 23 3 19 7 15"></polyline>
-                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Latihan Interval</h3>
-                        <p class="feature-card__description">Preset bawaan Tabata, EMOM, dan 30/30 membuat Anda berlatih dalam dua ketukan, ditambah editor interval kustom dan mode latihan layar penuh dengan isyarat warna.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-card__icon feature-card__icon--teal">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="6" width="12" height="12" rx="3"></rect>
-                <path d="M9 6l.6-3h4.8l.6 3"></path>
-                <path d="M9 18l.6 3h4.8l.6-3"></path>
-                <polyline points="12 10 12 12 13.5 13.5"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Aplikasi Apple Watch</h3>
-                        <p class="feature-card__description">Aplikasi Apple Watch native yang lengkap — jalankan beberapa stopwatch dan timer di pergelangan tangan Anda dengan presisi sentidetik dan komplikasi, bahkan saat iPhone Anda tidak ada di dekat Anda.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-card__icon feature-card__icon--purple">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                <line x1="12" y1="18" x2="12.01" y2="18"></line>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Widget & Live Activities</h3>
-                        <p class="feature-card__description">Kendalikan timer Anda dari Layar Utama dengan widget interaktif, dan saksikan hitung mundur dari Layar Kunci dan Dynamic Island dengan Live Activities.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-card__icon feature-card__icon--yellow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Suara Alarm Sesuai Selera Anda</h3>
-                        <p class="feature-card__description">Pilih dari belasan suara alarm bawaan atau impor milik Anda sendiri. Peringatan Anda berbunyi bahkan saat iPhone Anda terkunci, disenyapkan, atau aplikasi ditutup.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-                        <div class="feature-card__icon feature-card__icon--green">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
-                <polyline points="17 21 17 13 7 13 7 21"></polyline>
-                <polyline points="7 3 7 8 15 8"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Manajemen Sesi</h3>
-                        <p class="feature-card__description">Simpan pengaturan timer Anda dan muat kapan saja. Ekspor sesi sebagai JSON, CSV, atau teks untuk berbagi dan pencadangan yang mudah.</p>
-                    </div>
-
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
-                        <div class="feature-card__icon feature-card__icon--blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-                        </div>
-                        <h3 class="feature-card__title">Tampilan Pintar</h3>
-                        <p class="feature-card__description">Presisi centidetik, progres persentase, dan mode layar selalu menyala. Sesuaikan tampilan dan perilaku timer Anda.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Screenshots Section -->
-        <section class="screenshots" id="screenshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Lihat Beraksi</h2>
-                    <p class="section-subtitle">Desain bersih bertemu fungsionalitas yang kuat</p>
-                </div>
-
-                <div class="screenshots__gallery">
-                    <div class="screenshots__track" id="screenshots-track">
-                        <div class="screenshot-item"><img src="../images/en/gallery-overview.jpg" alt="Time it, wake to it, train with it" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-multitimer.jpg" alt="Run multiple timers at once" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-watch.jpg" alt="Apple Watch app" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-intervals.jpg" alt="Tabata, EMOM &amp; 30/30 intervals" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-workout.jpg" alt="Full-screen interval workouts" loading="lazy"></div>
-                        <div class="screenshot-item"><img src="../images/en/gallery-alarms.jpg" alt="Alarms that ring when locked" loading="lazy"></div>
-                    </div>
-                </div>
-
-                <div class="screenshots__nav">
-                    <button class="screenshots__btn screenshots__btn--prev" id="screenshots-prev" aria-label="Previous">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </button>
-                    <button class="screenshots__btn screenshots__btn--next" id="screenshots-next" aria-label="Next">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Download Section -->
-        <section class="download" id="download">
-            <div class="container">
-                <div class="download__content">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="download__icon">
-                    <h2 class="download__title">Mulai Hitung Waktu Sekarang</h2>
-                    <p class="download__description">Gratis untuk diunduh. Beberapa timer, latihan interval, dan widget — semuanya siap digunakan. Tidak perlu akun.</p>
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" class="download__button" target="_blank" rel="noopener">
-                        <img src="../assets/app-store-badges/app-store-badge-en.svg" alt="Download on the App Store" class="app-store-badge">
-                    </a>
-                    <div class="download__platforms">
-                        <span class="platform-badge">Tersedia di iPhone, iPad, dan Apple Watch</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq" id="faq">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
-                    <p class="section-subtitle">Semua yang perlu Anda ketahui tentang Timer Saya</p>
-                </div>
-
-                <div class="faq__list">
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="0">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apakah alarm dan timer berbunyi saat iPhone saya terkunci atau aplikasi ditutup?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya. Alarm didukung oleh AlarmKit dari Apple dan berbunyi bahkan saat iPhone Anda terkunci atau Timer Saya ditutup, dan peringatan timer juga aktif dengan andal di latar belakang.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Berapa banyak timer yang bisa saya jalankan sekaligus?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Hingga 50 timer dan stopwatch independen dalam satu sesi — mulai, hentikan, dan atur ulang masing-masing secara individual atau dalam grup yang tersinkronisasi.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apakah ada aplikasi Apple Watch?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya — aplikasi watchOS native yang lengkap dengan beberapa timer dan stopwatch bersamaan, presisi sentidetik, dan komplikasi. Aplikasi ini berfungsi bahkan saat iPhone Anda tidak terjangkau.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bisakah saya menggunakannya untuk latihan HIIT dan Tabata?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Tentu saja. Preset bawaan Tabata, EMOM, dan 30/30 membuat Anda mulai dalam dua ketukan, ditambah editor interval kustom untuk urutan kerja/istirahat/ronde Anda sendiri dan mode latihan layar penuh.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="400">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Bisakah saya menambahkan suara alarm saya sendiri?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya — pilih dari nada dering bawaan atau impor file audio Anda sendiri.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="500">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apakah berfungsi offline? Apakah saya memerlukan akun?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Tidak perlu akun dan tidak perlu internet. Semuanya berjalan di perangkat dan data Anda tetap lokal.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq__item" data-aos="fade-up" data-aos-delay="600">
-                        <button class="faq__question" aria-expanded="false">
-                            <span>Apakah gratis?</span>
-                            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="faq__answer">
-                            <p>Ya, Timer Saya gratis untuk diunduh. Pembelian dalam aplikasi opsional membuka alarm tambahan di luar dua alarm pertama jika Anda membutuhkannya.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Privacy Section -->
-        <section class="privacy" id="privacy">
-            <div class="container">
-                <div class="privacy__content">
-                    <div class="privacy__icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h2 class="privacy__title">Privasi Anda Penting</h2>
-                    <p class="privacy__description">Timer Saya menyimpan semua data Anda secara lokal di perangkat Anda. Tidak ada akun, tidak ada pelacakan, tidak ada pengumpulan data. Sesi timer Anda hanya milik Anda.</p>
-                    <a href="https://masawata.net/privacy-policy.html" class="privacy__link">Baca Kebijakan Privasi kami</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <img src="../images/TimerOnMe.png" alt="Timer on Me" class="footer__logo">
-                    <span class="footer__name">Timer Saya</span>
-                </div>
-                <div class="footer__links">
-                    <a href="https://apps.apple.com/app/apple-store/id6746874284?pt=127843312&ct=WEB&mt=8" target="_blank" rel="noopener">App Store</a>
-                    <a href="https://masawata.net/privacy-policy.html">Kebijakan Privasi</a>
-                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Ketentuan Layanan</a>
-                </div>
-                <p class="footer__copyright">© 2026 Timer Saya. Semua hak dilindungi.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="../js/main.js?v=1.0"></script>
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/TimerOnMe.png" alt="" width="44" height="44"><span>Timer on Me</span></a>
+    <details class="asc-languages">
+      <summary>Bahasa: Bahasa Indonesia</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../pt-PT/" lang="pt-PT">Português (Portugal)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
+  <main>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Timer on Me</p>
+        <h1>Timer, Alarm, Stopwatch, HIIT</h1>
+        <p>Kini hadir alarm tanggal: atur alarm sekali untuk tanggal &amp; waktu mendatang, bersama alarm berulang, 50 timer sekaligus, HIIT &amp; Tabata, dan Apple Watch.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">Unduh di App Store</a>
+      </div>
+      <img class="asc-hero-shot" src="../images/asc/id/01-phone.webp" alt="Timer on Me">
+    </section>
+    <section class="asc-content" id="about">
+      <h2>Tentang aplikasi</h2>
+      <div class="asc-prose"><p>Timer on Me adalah multi timer dan stopwatch-mu untuk iPhone, iPad, dan Apple Watch. Hingga 50 timer independen sekaligus, latihan interval yang presisi, dan alarm yang benar-benar bunyi — bahkan saat iPhone terkunci atau aplikasi tertutup.</p>
+<h3>ALARM</h3>
+<ul><li>Alarm bangun dan pengingat dengan label khusus dan jadwal per hari</li><li>Didukung AlarmKit — tetap berbunyi meski iPhone terkunci atau Timer on Me tertutup</li><li>Snooze yang dapat diatur (3 / 5 / 9 / 15 / 30 menit) atau tanpa snooze</li><li>Pilih nada bawaan atau impor suara sendiri</li><li>Aktifkan/nonaktifkan sekali ketuk dari tab Alarm khusus</li></ul>
+<h3>LATIHAN DAN INTERVAL</h3>
+<ul><li>Preset Tabata, EMOM, dan 30/30 siap pakai — dua ketukan dan langsung jalan</li><li>Editor interval khusus: kerja, istirahat, dan ronde dalam menit dan detik</li><li>Mode latihan layar penuh dengan perubahan warna per fase dan opsi senyap</li><li>Jeda, lewati, dan lanjut di tengah sesi tanpa kehilangan progres</li></ul>
+<h3>APPLE WATCH</h3>
+<ul><li>Aplikasi watchOS native sungguhan, bukan sekadar cermin dari ponsel</li><li>Banyak stopwatch dan timer jalan di pergelangan tangan sekaligus</li><li>Stopwatch akurat hingga seperseratus detik</li><li>Complication tampilan jam khusus untuk start sekali ketuk</li><li>Bisa jalan sendiri, tanpa iPhone di dekatnya</li></ul>
+<h3>50 TIMER SEKALIGUS</h3>
+<ul><li>Hingga 50 timer dan stopwatch independen dalam satu sesi</li><li>Mulai, berhenti, dan reset satu per satu atau grup</li><li>Auto-repeat untuk ronde siklus</li><li>Timer lanjut terus setelah nol untuk catat overtime</li><li>Progress bar berwarna: kuning di 50%, merah di 10%</li><li>Seret untuk mengurutkan, beri nama sendiri</li></ul>
+<h3>NOTIFIKASI ANDAL</h3>
+<ul><li>AlarmKit: alarm tetap bunyi bahkan saat iPhone terkunci atau aplikasi tertutup</li><li>Dynamic Island dan Live Activity — progres sekilas pandang</li><li>Widget layar utama: kecil, sedang, besar</li><li>Nada bawaan: lonceng, kicau burung, telepon vintage</li><li>Ketuk untuk dengar sebelum memilih</li><li>Mode &quot;Jaga layar tetap nyala&quot; untuk sesi panjang</li></ul>
+<h3>KUSTOMISASI DAN BAGIKAN</h3>
+<ul><li>Tampilkan atau sembunyikan desimal, total, dan persentase</li><li>Simpan dan timpa preset, panggil lagi dengan sekali ketuk</li><li>Ekspor sebagai CSV, JSON, atau teks biasa</li><li>Bagikan ke rekan kerja, siswa, atau pelatih</li></ul>
+<p>UNTUK iPhone, iPad, DAN APPLE WATCH</p>
+<ul><li>Tata letak menyesuaikan segala ukuran layar</li><li>Split View di iPad</li><li>34 bahasa</li></ul>
+<h3>COCOK UNTUK</h3>
+<ul><li>HIIT, Tabata, CrossFit, dan circuit training</li><li>Ronde tinju, muay thai, dan bela diri</li><li>Pomodoro, UTBK, ujian sekolah, dan fokus belajar</li><li>Seduh kopi tubruk, teh tarik, telur rebus, nasi goreng, rendang, dan waktu oven</li><li>Yoga, pilates, meditasi, dan latihan pernapasan</li><li>Gladi bersih presentasi dan latihan alat musik</li><li>Pelajaran, workshop, dan aktivitas kelompok</li><li>Permainan papan dan kumpul bareng teman</li></ul>
+<p>Download Timer on Me dan kendalikan setiap menitmu — di gym, di kantor, atau di rumah.</p>
+<p>Kebijakan Privasi: https://masawata.net/privacy-policy.html Syarat Layanan: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
+    </section>
+    <section class="asc-screens" id="screenshots">
+      <h2>Tangkapan layar</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/id/01-phone.webp" alt="Timer on Me — Tangkapan layar 1" loading="lazy"></figure>
+<figure><img src="../images/asc/id/02-phone.webp" alt="Timer on Me — Tangkapan layar 2" loading="lazy"></figure>
+<figure><img src="../images/asc/id/03-phone.webp" alt="Timer on Me — Tangkapan layar 3" loading="lazy"></figure>
+<figure><img src="../images/asc/id/04-phone.webp" alt="Timer on Me — Tangkapan layar 4" loading="lazy"></figure>
+<figure><img src="../images/asc/id/05-phone.webp" alt="Timer on Me — Tangkapan layar 5" loading="lazy"></figure>
+<figure><img src="../images/asc/id/06-phone.webp" alt="Timer on Me — Tangkapan layar 6" loading="lazy"></figure>
+<figure><img src="../images/asc/id/07-phone.webp" alt="Timer on Me — Tangkapan layar 7" loading="lazy"></figure></div>
+    </section>
+    <section class="asc-download">
+      <h2>Timer on Me</h2>
+      <p>Kini hadir alarm tanggal: atur alarm sekali untuk tanggal &amp; waktu mendatang, bersama alarm berulang, 50 timer sekaligus, HIIT &amp; Tabata, dan Apple Watch.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6746874284" rel="noopener">Unduh di App Store</a>
+    </section>
+  </main>
+  <footer>
+    <a href="https://masawata.net/privacy-policy.html">Kebijakan Privasi</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Ketentuan Layanan</a>
+    <a href="https://masawata.net/">Dukungan</a>
+  </footer>
 </body>
 </html>
