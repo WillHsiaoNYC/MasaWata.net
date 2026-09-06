@@ -12,6 +12,9 @@ from scripts.asc_web import build_site
 
 
 def build() -> int:
+    zh_hant_promo = (ROOT / "includes" / "zh-Hant-sweatgift.html").read_text(
+        encoding="utf-8"
+    )
     return build_site(
         site_dir=ROOT,
         base_url="https://masawata.net/FitnessStory",
@@ -22,6 +25,8 @@ def build() -> int:
         accent="#007AFF",
         accent_dark="#0055CC",
         aliases={"de": "de-DE", "es": "es-ES", "fr": "fr-FR", "pt": "pt-BR"},
+        locale_stylesheets={"zh-Hant": ("../css/zh-Hant-sweatgift.css",)},
+        locale_pre_hero_html={"zh-Hant": zh_hant_promo},
     )
 
 

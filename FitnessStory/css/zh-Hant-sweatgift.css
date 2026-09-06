@@ -1,0 +1,274 @@
+.campaign {
+  width: min(1120px, calc(100% - 2rem));
+  margin: clamp(1.5rem, 4vw, 3rem) auto clamp(4rem, 9vw, 7rem);
+}
+
+.campaign-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(310px, .78fr);
+  min-height: 660px;
+  overflow: hidden;
+  border: 1px solid rgb(80 196 255 / 32%);
+  border-radius: 36px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 76% 12%, rgb(55 208 255 / 27%), transparent 30%),
+    radial-gradient(circle at 18% 92%, rgb(255 135 30 / 18%), transparent 32%),
+    linear-gradient(145deg, #051a3b 0%, #062755 48%, #04152f 100%);
+  box-shadow: 0 34px 80px rgb(4 27 61 / 24%);
+}
+
+.campaign-card::before {
+  position: absolute;
+  right: 24%;
+  bottom: -125px;
+  width: 560px;
+  height: 210px;
+  border: 2px solid rgb(54 214 255 / 40%);
+  border-right-color: transparent;
+  border-left-color: rgb(255 156 35 / 45%);
+  border-radius: 50%;
+  transform: rotate(-10deg);
+  content: "";
+  pointer-events: none;
+}
+
+.campaign-copy {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(2rem, 5.5vw, 4.6rem);
+}
+
+.campaign-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+  margin: 0 0 1rem;
+  color: #8fe8ff;
+  font-size: .82rem;
+  font-weight: 800;
+  letter-spacing: .09em;
+}
+
+.campaign-kicker span {
+  padding: .36rem .65rem;
+  border: 1px solid rgb(255 219 115 / 52%);
+  border-radius: 999px;
+  color: #ffe59a;
+  background: rgb(255 196 52 / 10%);
+  letter-spacing: .04em;
+}
+
+.campaign h2 {
+  max-width: 9ch;
+  margin: 0 0 1rem;
+  font-size: clamp(2.85rem, 6vw, 5.4rem);
+  line-height: .98;
+  letter-spacing: -.055em;
+  text-wrap: balance;
+  background: linear-gradient(180deg, #fff9c6 8%, #ffc546 42%, #fff 43%, #95ddff 82%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 6px 18px rgb(44 190 255 / 22%));
+}
+
+.campaign-lead {
+  max-width: 46ch;
+  margin: 0;
+  color: rgb(229 242 255 / 88%);
+  font-size: clamp(1.05rem, 1.6vw, 1.22rem);
+}
+
+.campaign-paths {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .65rem;
+  margin: 1.6rem 0 1.8rem;
+}
+
+.campaign-path {
+  padding: .85rem .9rem;
+  border: 1px solid rgb(135 219 255 / 22%);
+  border-radius: 16px;
+  background: rgb(8 52 101 / 72%);
+  backdrop-filter: blur(10px);
+}
+
+.campaign-path strong,
+.campaign-path small {
+  display: block;
+}
+
+.campaign-path strong {
+  color: #fff;
+  font-size: 1.02rem;
+}
+
+.campaign-path small {
+  margin-top: .15rem;
+  color: #9ec8eb;
+  font-size: .76rem;
+  line-height: 1.35;
+}
+
+.campaign-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+}
+
+.campaign-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: .78rem 1.05rem;
+  border: 1px solid rgb(255 255 255 / 18%);
+  border-radius: 13px;
+  color: #fff;
+  background: rgb(255 255 255 / 10%);
+  font-weight: 780;
+  text-decoration: none;
+  transition: transform .2s ease, background-color .2s ease;
+}
+
+.campaign-button:hover {
+  transform: translateY(-1px);
+  background: rgb(255 255 255 / 17%);
+}
+
+.campaign-button-primary {
+  border-color: transparent;
+  color: #15213b;
+  background: linear-gradient(135deg, #ff7a18, #ffc431);
+  box-shadow: 0 13px 28px rgb(255 132 20 / 28%);
+}
+
+.campaign-button-primary:hover {
+  background: linear-gradient(135deg, #ff8b25, #ffd257);
+}
+
+.campaign-art {
+  position: relative;
+  min-height: 660px;
+  overflow: hidden;
+  border-left: 1px solid rgb(115 212 255 / 18%);
+  background: #061a38;
+}
+
+.campaign-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.campaign-art::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #062653 0, transparent 16%);
+  content: "";
+  pointer-events: none;
+}
+
+.campaign-offer {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  margin: -1px clamp(1rem, 4vw, 3rem) 0;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid #f1c85e;
+  border-radius: 0 0 24px 24px;
+  color: #34250b;
+  background: linear-gradient(135deg, #fff7d7, #fff 48%, #fff0be);
+  box-shadow: 0 18px 48px rgb(85 64 10 / 14%);
+}
+
+.campaign-offer-icon {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  border-radius: 13px;
+  color: #fff;
+  background: linear-gradient(145deg, #ff7417, #ffbd28);
+  font-size: 1.35rem;
+  box-shadow: 0 8px 20px rgb(255 133 22 / 25%);
+}
+
+.campaign-offer p {
+  margin: 0;
+  color: #6d5a2e;
+  font-size: .88rem;
+  line-height: 1.45;
+}
+
+.campaign-offer strong {
+  display: block;
+  color: #34250b;
+  font-size: clamp(1.22rem, 2.5vw, 1.6rem);
+  letter-spacing: -.02em;
+}
+
+.campaign-code {
+  margin-left: .3rem;
+  padding: .12rem .38rem;
+  border: 1px solid rgb(109 90 46 / 24%);
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .78rem;
+  letter-spacing: .03em;
+}
+
+.campaign-redeem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: .72rem 1rem;
+  border-radius: 12px;
+  color: #fff;
+  background: #0b67d1;
+  font-weight: 780;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 9px 22px rgb(11 103 209 / 22%);
+}
+
+.campaign-note {
+  margin: 1rem auto 0;
+  color: var(--muted);
+  font-size: .8rem;
+  text-align: center;
+}
+
+@media (max-width: 880px) {
+  .campaign-card { grid-template-columns: 1fr; }
+  .campaign-copy { padding-bottom: 2rem; }
+  .campaign-art { min-height: 560px; border-top: 1px solid rgb(115 212 255 / 18%); border-left: 0; }
+  .campaign-art::after { background: linear-gradient(180deg, #051a3b 0, transparent 14%); }
+}
+
+@media (max-width: 620px) {
+  .campaign-card { min-height: 0; border-radius: 26px; }
+  .campaign-copy { padding: 1.7rem 1.25rem 1.5rem; }
+  .campaign h2 { font-size: clamp(2.75rem, 14vw, 4.4rem); }
+  .campaign-paths { grid-template-columns: 1fr; }
+  .campaign-path { display: grid; grid-template-columns: 1fr 1.5fr; align-items: center; }
+  .campaign-path small { margin-top: 0; text-align: right; }
+  .campaign-actions, .campaign-button { width: 100%; }
+  .campaign-art { min-height: 500px; }
+  .campaign-offer { grid-template-columns: auto 1fr; margin-inline: .65rem; border-radius: 0 0 20px 20px; }
+  .campaign-redeem { grid-column: 1 / -1; width: 100%; }
+  .campaign-code { display: inline-block; margin: .2rem 0 0; }
+}
