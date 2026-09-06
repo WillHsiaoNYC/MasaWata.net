@@ -21,6 +21,14 @@ SITES = (
     "WhereWasI",
 )
 FULL_DESCRIPTION_SITES = set(SITES) - {"TallyCounter123"}
+FITNESS_STORY_ZH_HANT_PROMO_MARKERS = (
+    "揮汗有禮！截圖有據！",
+    "健身故事終身版限時 NT$10",
+    "優惠只到 9/30",
+    "https://500.gov.tw/registrant/",
+    "https://apps.apple.com/redeem?ctx=offercodes&amp;id=6748090363&amp;code=SWEATGIFT",
+    "../css/zh-Hant-sweatgift.css",
+)
 
 
 def fail(errors: list[str], message: str) -> None:
@@ -78,6 +86,19 @@ def validate_site(name: str) -> list[str]:
             fail(errors, f"{name} {locale}: hreflang set does not exactly match ASC locales")
         if locale in {"ar-SA", "he"} and 'dir="rtl"' not in raw:
             fail(errors, f"{name} {locale}: RTL direction missing")
+
+        if name == "FitnessStory":
+            if locale == "zh-Hant":
+                for marker in FITNESS_STORY_ZH_HANT_PROMO_MARKERS:
+                    if marker not in raw:
+                        fail(errors, f"{name} {locale}: campaign marker missing: {marker}")
+                if raw.find('class="campaign"') > raw.find('class="asc-hero"'):
+                    fail(errors, f"{name} {locale}: campaign must appear before the app hero")
+            elif any(
+                marker in raw
+                for marker in ("SWEATGIFT", "zh-Hant-sweatgift.css", 'class="campaign"')
+            ):
+                fail(errors, f"{name} {locale}: zh-Hant campaign leaked into this locale")
 
         screenshot_dir = site / "images" / "asc" / locale
         actual = sorted(screenshot_dir.glob("*.webp"))

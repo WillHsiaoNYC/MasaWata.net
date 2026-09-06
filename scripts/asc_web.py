@@ -168,6 +168,8 @@ def render_asc_page(
     muted: str = "#59687c",
     line: str = "#dce4ef",
     color_scheme: str = "light",
+    extra_stylesheets: tuple[str, ...] = (),
+    pre_hero_html: str = "",
 ) -> str:
     item = metadata["locales"][locale]
     html_lang, native_name, rtl = LOCALE_INFO[locale]
@@ -209,6 +211,12 @@ def render_asc_page(
         },
         ensure_ascii=False,
     ).replace("</", "<\\/")
+    stylesheet_links = "\n".join(
+        f'  <link rel="stylesheet" href="{html.escape(href, quote=True)}">'
+        for href in extra_stylesheets
+    )
+    stylesheet_markup = f"\n{stylesheet_links}" if stylesheet_links else ""
+    pre_hero_markup = f"{pre_hero_html.rstrip()}\n" if pre_hero_html else ""
     direction = "rtl" if rtl else "ltr"
     return f'''<!doctype html>
 <html lang="{html_lang}" dir="{direction}">
@@ -222,7 +230,7 @@ def render_asc_page(
 {alternates}
   <link rel="alternate" hreflang="x-default" href="{base_url}/">
   <link rel="stylesheet" href="{global_prefix}includes/asc-localized.css">
-  <style>:root{{color-scheme:{color_scheme};--accent:{accent};--accent-dark:{accent_dark};--bg:{background};--surface:{surface};--ink:{ink};--muted:{muted};--line:{line}}}</style>
+  <style>:root{{color-scheme:{color_scheme};--accent:{accent};--accent-dark:{accent_dark};--bg:{background};--surface:{surface};--ink:{ink};--muted:{muted};--line:{line}}}</style>{stylesheet_markup}
   <script type="application/ld+json">{schema}</script>
 </head>
 <body>
@@ -234,7 +242,7 @@ def render_asc_page(
     </details>
   </header>
   <main>
-    <section class="asc-hero">
+{pre_hero_markup}    <section class="asc-hero">
       <div class="asc-hero-copy">
         <p class="asc-eyebrow">{html.escape(title)}</p>
         <h1>{html.escape(subtitle)}</h1>
@@ -293,11 +301,21 @@ def build_site(
     muted: str = "#59687c",
     line: str = "#dce4ef",
     color_scheme: str = "light",
+    locale_stylesheets: dict[str, tuple[str, ...]] | None = None,
+    locale_pre_hero_html: dict[str, str] | None = None,
 ) -> int:
     metadata = load_metadata(site_dir)
     locales = metadata.get("locales", {})
     if "en-US" not in locales:
         raise RuntimeError(f"{site_dir.name}: live ASC snapshot has no en-US locale")
+    for name, values in (
+        ("locale_stylesheets", locale_stylesheets),
+        ("locale_pre_hero_html", locale_pre_hero_html),
+    ):
+        unknown_locales = set(values or {}) - set(locales)
+        if unknown_locales:
+            unknown = ", ".join(sorted(unknown_locales))
+            raise RuntimeError(f"{site_dir.name}: {name} has unknown locales: {unknown}")
     for locale in locales:
         target = site_dir / "index.html" if locale == "en-US" else site_dir / locale / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -319,6 +337,8 @@ def build_site(
                 muted=muted,
                 line=line,
                 color_scheme=color_scheme,
+                extra_stylesheets=tuple((locale_stylesheets or {}).get(locale, ())),
+                pre_hero_html=(locale_pre_hero_html or {}).get(locale, ""),
             ),
             encoding="utf-8",
         )
