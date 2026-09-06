@@ -220,6 +220,19 @@
   letter-spacing: -.02em;
 }
 
+.campaign-sale-price {
+  display: inline-block;
+  margin-left: .12em;
+  padding: .04em .3em .08em;
+  border-radius: .38em;
+  color: #fff;
+  background: linear-gradient(145deg, #d9470b, #e85d04);
+  font-size: 1.08em;
+  line-height: 1.05;
+  letter-spacing: -.01em;
+  box-shadow: 0 5px 14px rgb(240 90 22 / 24%);
+}
+
 .campaign-original-price {
   color: #8a7443;
   font-weight: 700;
@@ -228,6 +241,13 @@
 
 .campaign-original-price del {
   text-decoration-thickness: 1.5px;
+}
+
+.campaign-redemption-hint {
+  display: inline-block;
+  margin-top: .32rem;
+  color: #78663c;
+  font-size: .78rem;
 }
 
 .campaign-code {
