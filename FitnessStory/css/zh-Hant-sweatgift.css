@@ -220,6 +220,16 @@
   letter-spacing: -.02em;
 }
 
+.campaign-original-price {
+  color: #8a7443;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.campaign-original-price del {
+  text-decoration-thickness: 1.5px;
+}
+
 .campaign-code {
   margin-left: .3rem;
   padding: .12rem .38rem;
