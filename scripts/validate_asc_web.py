@@ -24,7 +24,9 @@ FULL_DESCRIPTION_SITES = set(SITES) - {"TallyCounter123"}
 FITNESS_STORY_ZH_HANT_PROMO_MARKERS = (
     "揮汗有禮！截圖有據！",
     "健身故事終身版限時 NT$10",
+    "原價 <del>NT$980</del>",
     "優惠只到 9/30",
+    "本網頁專屬優惠碼",
     "https://500.gov.tw/registrant/",
     "https://apps.apple.com/redeem?ctx=offercodes&amp;id=6748090363&amp;code=SWEATGIFT",
     "../css/zh-Hant-sweatgift.css",
