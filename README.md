@@ -67,3 +67,20 @@ python3 scripts/validate_asc_web.py
 `scripts/sync_asc_web.py` only performs GET requests against App Store Connect. It prefers checksum-matching local fastlane screenshots and falls back to ASC's image CDN when a source is unavailable. Pass `--remote-assets` when local screenshot files are cloud placeholders. Ice Time Track currently inherits the English screenshot set for every locale because only `en-US` owns screenshot sets in live ASC.
 
 The generated product routes use exact ASC locale identifiers. Older generic routes such as `/de/`, `/es/`, `/fr/`, `/pt/`, and `/nb/` are maintained as redirects where applicable.
+
+## Fitness Story event Universal Links
+
+New App Store events must use HTTPS Universal Links under
+`https://masawata.net/FitnessStory/event/`, with a matching app route and browser
+fallback page. The AASA file already associates `/FitnessStory/event/*` with
+`YJBS4SMU7Z.MasaWata.Fitness-Report`. Do not replace event URLs with custom schemes.
+
+- `/FitnessStory/event/health` opens Health; its fallback describes nutrition and energy comparison.
+- `/FitnessStory/event/dashboard` opens Dashboard.
+- Each fallback has a Smart App Banner whose `app-argument` is the same HTTPS URL.
+- GitHub Pages redirects directory paths to their trailing-slash form; the app
+  must accept both. Typing a URL in Safari's address bar is a browser navigation,
+  not proof of installed-app Universal Link dispatch.
+- Before updating an event, verify the fallback returns HTTP 200, the origin and
+  Apple CDN AASA cover the app/path, and a tapped external link opens the intended
+  screen from both cold and warm app states. Record simulator versus device evidence.
