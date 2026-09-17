@@ -20,6 +20,7 @@ SITES = (
     "TimerOnMe",
     "WhereWasI",
 )
+CANONICAL_LOCALES = {"TimerOnMe": {"es-ES": "es-MX"}}
 FULL_DESCRIPTION_SITES = set(SITES) - {"TallyCounter123"}
 FITNESS_STORY_ZH_HANT_PROMO_MARKERS = (
     "揮汗有禮！截圖有據！",
@@ -52,7 +53,7 @@ def validate_site(name: str) -> list[str]:
         fail(errors, f"{name}: metadata and ASC screenshot locale sets differ")
 
     sitemap = ET.parse(site / "sitemap.xml")
-    namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9", "xhtml": "http://www.w3.org/1999/xhtml"}
     urls = {
         node.text
         for node in sitemap.findall("sm:url/sm:loc", namespace)
@@ -63,9 +64,25 @@ def validate_site(name: str) -> list[str]:
         if locale == "en-US"
         else f"https://masawata.net/{name}/{locale}/"
         for locale in locales
+        if CANONICAL_LOCALES.get(name, {}).get(locale, locale) == locale
     }
     if urls != expected_urls:
-        fail(errors, f"{name}: sitemap URLs do not exactly match ASC locales")
+        fail(errors, f"{name}: sitemap URLs do not exactly match canonical ASC locales")
+
+    expected_alternates = {
+        locale: f"https://masawata.net/{name}/" if locale == "en-US"
+        else f"https://masawata.net/{name}/{locale}/"
+        for locale in locales
+    }
+    expected_alternates["x-default"] = f"https://masawata.net/{name}/"
+    for entry in sitemap.findall("sm:url", namespace):
+        alternates = {
+            node.get("hreflang"): node.get("href")
+            for node in entry.findall("xhtml:link", namespace)
+        }
+        # Tally uses HTML hreflang only; the shared generator also emits XML alternates.
+        if name != "TallyCounter123" and alternates != expected_alternates:
+            fail(errors, f"{name}: sitemap alternates do not exactly match ASC locales")
 
     for locale, content in locales.items():
         page = page_for(site, locale)
@@ -74,6 +91,12 @@ def validate_site(name: str) -> list[str]:
             continue
         raw = page.read_text(encoding="utf-8")
         readable = html.unescape(raw)
+        canonical_locale = CANONICAL_LOCALES.get(name, {}).get(locale, locale)
+        canonical = expected_alternates[canonical_locale]
+        if re.findall(r'<link rel="canonical" href="([^"]+)"', raw) != [canonical]:
+            fail(errors, f"{name} {locale}: expected canonical {canonical}")
+        if re.search(r'<meta\s+name="robots"[^>]*content="[^"]*noindex', raw, re.I):
+            fail(errors, f"{name} {locale}: product page must be indexable")
         for field in ("name", "subtitle", "promotionalText"):
             value = content.get(field)
             if value and value not in readable:

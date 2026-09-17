@@ -66,6 +66,8 @@ python3 scripts/validate_asc_web.py
 
 `scripts/sync_asc_web.py` only performs GET requests against App Store Connect. It prefers checksum-matching local fastlane screenshots and falls back to ASC's image CDN when a source is unavailable. Pass `--remote-assets` when local screenshot files are cloud placeholders. Ice Time Track currently inherits the English screenshot set for every locale because only `en-US` owns screenshot sets in live ASC.
 
+Sitemaps list canonical product URLs only; regional alternates remain available through hreflang. Timer on Me uses `es-MX` as the preferred canonical for its identical `es-ES` copy. The shared builder omits optional `lastmod` dates because a rebuild does not establish when content changed.
+
 The generated product routes use exact ASC locale identifiers. Older generic routes such as `/de/`, `/es/`, `/fr/`, `/pt/`, and `/nb/` are maintained as redirects where applicable.
 
 ## Fitness Story event Universal Links
@@ -77,6 +79,7 @@ fallback page. The AASA file already associates `/FitnessStory/event/*` with
 
 - `/FitnessStory/event/health` opens Health; its fallback describes nutrition and energy comparison.
 - `/FitnessStory/event/dashboard` opens Dashboard.
+- `/FitnessStory/event/hrv` opens HRV; its browser fallback is intentionally excluded from search indexing.
 - Each fallback has a Smart App Banner whose `app-argument` is the same HTTPS URL.
 - GitHub Pages redirects directory paths to their trailing-slash form; the app
   must accept both. Typing a URL in Safari's address bar is a browser navigation,
