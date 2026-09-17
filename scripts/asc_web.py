@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import html
 import json
-from datetime import date
 from pathlib import Path
 
 
@@ -170,11 +169,12 @@ def render_asc_page(
     color_scheme: str = "light",
     extra_stylesheets: tuple[str, ...] = (),
     pre_hero_html: str = "",
+    canonical_locale: str | None = None,
 ) -> str:
     item = metadata["locales"][locale]
     html_lang, native_name, rtl = LOCALE_INFO[locale]
     about, shots_label, download, privacy, terms, support, language = UI[locale]
-    canonical = locale_url(base_url, locale)
+    canonical = locale_url(base_url, canonical_locale or locale)
     app_url = f"https://apps.apple.com/app/id{app_store_id}"
     title = item.get("name") or metadata["appName"]
     subtitle = item.get("subtitle") or title
@@ -295,6 +295,7 @@ def build_site(
     accent: str,
     accent_dark: str,
     aliases: dict[str, str] | None = None,
+    canonical_locales: dict[str, str] | None = None,
     background: str = "#ffffff",
     surface: str = "#f4f7fb",
     ink: str = "#132033",
@@ -309,6 +310,7 @@ def build_site(
     if "en-US" not in locales:
         raise RuntimeError(f"{site_dir.name}: live ASC snapshot has no en-US locale")
     for name, values in (
+        ("canonical_locales", canonical_locales),
         ("locale_stylesheets", locale_stylesheets),
         ("locale_pre_hero_html", locale_pre_hero_html),
     ):
@@ -316,6 +318,12 @@ def build_site(
         if unknown_locales:
             unknown = ", ".join(sorted(unknown_locales))
             raise RuntimeError(f"{site_dir.name}: {name} has unknown locales: {unknown}")
+    canonical_locales = canonical_locales or {}
+    for target_locale in canonical_locales.values():
+        if target_locale not in locales:
+            raise RuntimeError(f"{site_dir.name}: canonical target {target_locale} is not in ASC")
+        if canonical_locales.get(target_locale, target_locale) != target_locale:
+            raise RuntimeError(f"{site_dir.name}: canonical target {target_locale} must be self-canonical")
     for locale in locales:
         target = site_dir / "index.html" if locale == "en-US" else site_dir / locale / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -323,6 +331,7 @@ def build_site(
             render_asc_page(
                 site_dir=site_dir,
                 locale=locale,
+                canonical_locale=canonical_locales.get(locale),
                 metadata=metadata,
                 base_url=base_url,
                 app_store_id=app_store_id,
@@ -352,19 +361,20 @@ def build_site(
         target.write_text(render_redirect(locale_url(base_url, locale)), encoding="utf-8")
         print(f"  Redirect: {legacy}/ → {locale}/")
 
-    today = date.today().isoformat()
+    # Omit optional lastmod: a build date does not establish when page content changed.
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
         '        xmlns:xhtml="http://www.w3.org/1999/xhtml">',
     ]
     for locale in locales:
+        if canonical_locales.get(locale, locale) != locale:
+            continue
         url = locale_url(base_url, locale)
         lines.extend(
             [
                 "  <url>",
                 f"    <loc>{url}</loc>",
-                f"    <lastmod>{today}</lastmod>",
                 f"    <priority>{'1.0' if locale == 'en-US' else '0.9'}</priority>",
             ]
         )

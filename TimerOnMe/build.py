@@ -21,6 +21,7 @@ def build() -> int:
         support_url="https://masawata.net/",
         accent="#007AFF",
         accent_dark="#0055CC",
+        canonical_locales={"es-ES": "es-MX"},
         aliases={"de": "de-DE", "es": "es-MX", "fr": "fr-FR", "nb": "no"},
     )
 
