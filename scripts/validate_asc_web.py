@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
-"""Validate generated product sites against checked-in live ASC snapshots."""
+"""Validate generated product sites against checked-in ASC snapshots."""
 
 from __future__ import annotations
 
 import html
+from html.parser import HTMLParser
 import json
 import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SITES = (
+    "CarPlateScan",
     "FitnessStory",
     "IceTimeTrack",
     "SoccerTimeTrack",
@@ -41,6 +44,81 @@ def fail(errors: list[str], message: str) -> None:
 
 def page_for(site: Path, locale: str) -> Path:
     return site / "index.html" if locale == "en-US" else site / locale / "index.html"
+
+
+class PageReferences(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.references = []
+        self.ids = set()
+
+    def handle_starttag(self, tag, attributes):
+        attrs = dict(attributes)
+        if "id" in attrs:
+            self.ids.add(attrs["id"])
+        for key in ("src", "href"):
+            if key in attrs:
+                self.references.append(attrs[key])
+
+
+def validate_car_plate_scan(site: Path, raw: str, metadata: dict, assets: dict) -> list[str]:
+    errors: list[str] = []
+    if set(metadata["locales"]) != {"en-US"} or set(assets) != {"en-US"}:
+        fail(errors, "CarPlateScan: website must remain English only")
+    if len(assets.get("en-US", [])) != 7 or any(
+        item["displayType"] != "APP_IPHONE_61" for item in assets.get("en-US", [])
+    ):
+        fail(errors, "CarPlateScan: expected seven APP_IPHONE_61 ASC screenshots")
+    expected_shots = [f"images/asc/en-US/{index:02d}-phone.webp" for index in range(1, 8)]
+    if re.findall(r'<figure><img src="([^"]+)"', raw) != expected_shots:
+        fail(errors, "CarPlateScan: gallery must preserve all seven screenshots in ASC order")
+    if raw.count("Planned release: November 30, 2026") != 2:
+        fail(errors, "CarPlateScan: planned release must appear in hero and final action panel")
+    if any(marker in raw for marker in ("apple-itunes-app", 'class="asc-languages"', "Download on the App Store")):
+        fail(errors, "CarPlateScan: pre-release page contains a download claim or language selector")
+    schemas = re.findall(r'<script type="application/ld\+json">(.*?)</script>', raw, re.S)
+    try:
+        schema = json.loads(schemas[0]) if len(schemas) == 1 else {}
+        if schema.get("operatingSystem") != "iOS" or any(key in schema for key in ("downloadUrl", "offers", "aggregateRating", "datePublished")):
+            fail(errors, "CarPlateScan: incorrect pre-release structured data")
+    except (ValueError, IndexError):
+        fail(errors, "CarPlateScan: invalid structured data")
+    if 'href="#privacy-processing">Privacy &amp; processing</a>' not in raw:
+        fail(errors, "CarPlateScan: footer must link to its accurate processing information")
+    parser = PageReferences()
+    parser.feed(raw)
+    for reference in parser.references:
+        url = urlsplit(reference)
+        if url.scheme or url.netloc:
+            continue
+        target = ROOT / unquote(url.path).lstrip("/") if url.path.startswith("/") else site / unquote(url.path)
+        if not url.path:
+            if url.fragment and url.fragment not in parser.ids:
+                fail(errors, f"CarPlateScan: missing anchor {reference}")
+        elif not (target.is_file() or (target.is_dir() and (target / "index.html").is_file())):
+            fail(errors, f"CarPlateScan: missing local URL {reference}")
+    return errors
+
+
+def validate_catalog() -> list[str]:
+    errors: list[str] = []
+    raw = (ROOT / "index.html").read_text(encoding="utf-8")
+    schema = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', raw, re.S)[1])
+    catalog = next(item["mainEntity"] for item in schema["@graph"] if item["@type"] == "CollectionPage")
+    entries = catalog["itemListElement"]
+    if catalog["numberOfItems"] != len(entries) or [entry["position"] for entry in entries] != list(range(1, len(entries) + 1)):
+        fail(errors, "Studio: catalog count/positions do not match entries")
+    if f'Index · {len(entries):02d}' not in raw or raw.count('<li class="app">') != len(entries):
+        fail(errors, "Studio: visible catalog count does not match structured data")
+    upcoming = [entry["item"] for entry in entries if entry["item"]["url"] == "https://masawata.net/CarPlateScan/"]
+    if len(upcoming) != 1 or any(key in upcoming[0] for key in ("downloadUrl", "offers")):
+        fail(errors, "Studio: expected one Car Plate Scan entry without unverified download/price claims")
+    if 'href="/CarPlateScan/"' not in raw or "Planned release: November 30, 2026" not in raw:
+        fail(errors, "Studio: missing Car Plate Scan navigation or planned release")
+    index = ET.parse(ROOT / "sitemap.xml")
+    if not any(node.text == "https://masawata.net/CarPlateScan/sitemap.xml" for node in index.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")):
+        fail(errors, "Studio: sitemap index omits CarPlateScan")
+    return errors
 
 
 def validate_site(name: str) -> list[str]:
@@ -90,6 +168,8 @@ def validate_site(name: str) -> list[str]:
             fail(errors, f"{name} {locale}: generated page missing")
             continue
         raw = page.read_text(encoding="utf-8")
+        if name == "CarPlateScan":
+            errors.extend(validate_car_plate_scan(site, raw, metadata, assets))
         readable = html.unescape(raw)
         canonical_locale = CANONICAL_LOCALES.get(name, {}).get(locale, locale)
         canonical = expected_alternates[canonical_locale]
@@ -146,7 +226,7 @@ def validate_site(name: str) -> list[str]:
 
 
 def main() -> int:
-    errors: list[str] = []
+    errors: list[str] = validate_catalog()
     for site in SITES:
         site_errors = validate_site(site)
         errors.extend(site_errors)
@@ -158,7 +238,7 @@ def main() -> int:
     if errors:
         print("\n".join(f"ERROR: {error}" for error in errors), file=sys.stderr)
         return 1
-    print("\nAll product sites match their checked-in live ASC locale and screenshot manifests.")
+    print("\nAll product sites match their checked-in ASC locale and screenshot manifests.")
     return 0
 
 

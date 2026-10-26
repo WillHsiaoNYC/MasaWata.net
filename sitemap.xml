@@ -4,6 +4,9 @@
         <loc>https://masawata.net/pages.xml</loc>
     </sitemap>
     <sitemap>
+        <loc>https://masawata.net/CarPlateScan/sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
         <loc>https://masawata.net/FitnessStory/sitemap.xml</loc>
     </sitemap>
     <sitemap>

@@ -1,0 +1,20 @@
+{
+  "appName": "CarPlateScan",
+  "appStoreId": "6825007024",
+  "bundleId": "net.MasaWata.CarPlateScan",
+  "version": "1.0",
+  "locales": {
+    "en-US": {
+      "name": "Car Plate Scan: License Reader",
+      "subtitle": "Photo OCR, History & Locations",
+      "promotionalText": "Scan license plates from your camera or photos. Review readings, save capture details, and find past sightings with search, maps, and favorites.",
+      "description": "Turn license plates into a searchable personal capture history.\n\nCar Plate Scan reads plates from your camera or a photo you choose. Review the result, correct it when needed, and keep the plate image with its date and available location.\n\nSCAN AND REVIEW\n• Scan with the live camera or choose a photo from your library.\n• Review uncertain readings and correct plate text.\n• Adjust automatic saving and repeat-capture settings.\n\nKEEP THE DETAILS\n• Save plate crops and full-frame images.\n• View capture times and available locations.\n• Revisit repeated sightings of the same plate.\n\nFIND WHAT YOU SAVED\n• Search your saved plates.\n• Browse captures by date or on a map.\n• Mark favorites for quick access.\n\nCar Plate Scan records what you capture. It does not identify vehicle owners or provide VIN, registration, or vehicle-history reports.\n\nCore plate reading runs on your device. Optional cloud review uses Apple Private Cloud Compute on supported devices and requires an internet connection. Availability depends on the operating system, device, and service limits.\n\nRecognition may be incorrect; review results before relying on them. Plate formats and image conditions affect results. Do not operate the app while driving, and respect others’ privacy.",
+      "keywords": "recognition,anpr,alpr,number,camera,vehicle,capture,vin,favorites,search,detector,maps,automatic,gps"
+    }
+  },
+  "source": {
+    "versionId": "6c5328b1-15ae-4b33-936c-018ba3c7ff87",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "appInfoId": "fbb8f6bd-11ab-4211-8b45-b4e91f0b9dc8"
+  }
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read live App Store Connect metadata/screenshots into the website.
+"""Read App Store Connect metadata/screenshots into the website.
 
 This script is intentionally read-only with respect to App Store Connect. It
 uses GET endpoints only, prefers checksum-matching local fastlane screenshots,
@@ -33,9 +33,22 @@ class AppConfig:
     local_screenshots: Path | None
     display_types: tuple[tuple[str, int | None], ...] = (("APP_IPHONE_67", None),)
     screenshot_fallback_locale: str | None = None
+    website_locales: tuple[str, ...] | None = None
+    unreleased_version_id: str | None = None
+    unreleased_app_info_id: str | None = None
 
 
 APPS = {
+    "CarPlateScan": AppConfig(
+        "CarPlateScan",
+        "net.MasaWata.CarPlateScan",
+        "6825007024",
+        None,
+        (("APP_IPHONE_61", None),),
+        website_locales=("en-US",),
+        unreleased_version_id="6c5328b1-15ae-4b33-936c-018ba3c7ff87",
+        unreleased_app_info_id="fbb8f6bd-11ab-4211-8b45-b4e91f0b9dc8",
+    ),
     "FitnessStory": AppConfig(
         "FitnessStory",
         "MasaWata.Fitness-Report",
@@ -94,7 +107,22 @@ def load_client(asc_tools: Path):
     )
 
 
+def website_localizations(config: AppConfig, localizations: list[dict]) -> list[dict]:
+    if config.website_locales is None:
+        return localizations
+    selected = [
+        item for item in localizations
+        if item.get("attributes", {}).get("locale") in config.website_locales
+    ]
+    for locale in config.website_locales:
+        matches = [item for item in selected if item["attributes"]["locale"] == locale]
+        if len(matches) != 1:
+            raise RuntimeError(f"{config.site}: expected exactly one ASC localization for {locale}")
+    return selected
+
+
 def live_context(client, config: AppConfig) -> tuple[str, dict, list[dict], str | None]:
+    """Select a live version, or an explicitly configured pre-release record."""
     app_id = client.find_app_id_by_bundle_id(config.bundle_id)
     if not app_id:
         raise RuntimeError(f"ASC app not found for {config.site}")
@@ -107,27 +135,39 @@ def live_context(client, config: AppConfig) -> tuple[str, dict, list[dict], str 
         if item.get("attributes", {}).get("appStoreState") == "READY_FOR_SALE"
         or item.get("attributes", {}).get("appVersionState") == "READY_FOR_DISTRIBUTION"
     ]
-    if not live_versions:
+    if live_versions:
+        version = live_versions[0]
+        app_info_id = client.get_live_app_info_id(app_id)
+    elif config.unreleased_version_id and config.unreleased_app_info_id:
+        candidates = [item for item in versions if item["id"] == config.unreleased_version_id]
+        if len(candidates) != 1:
+            raise RuntimeError(f"{config.site}: configured pre-release version missing or ambiguous")
+        infos = client._paged_get(f"/apps/{app_id}/appInfos")
+        if sum(item["id"] == config.unreleased_app_info_id for item in infos) != 1:
+            raise RuntimeError(f"{config.site}: configured pre-release app info missing or ambiguous")
+        version = candidates[0]
+        app_info_id = config.unreleased_app_info_id
+    else:
         raise RuntimeError(f"No live iOS version found for {config.site}")
-    version = live_versions[0]
     localizations = client._paged_get(
         f"/appStoreVersions/{version['id']}/appStoreVersionLocalizations"
     )
-    app_info_id = client.get_live_app_info_id(app_id)
-    return app_id, version, localizations, app_info_id
+    return app_id, version, website_localizations(config, localizations), app_info_id
 
 
 def sync_metadata(client, config: AppConfig, context) -> dict:
     _, version, version_localizations, app_info_id = context
+    if config.website_locales and not app_info_id:
+        raise RuntimeError(f"{config.site}: missing ASC app info for website metadata")
     info_by_locale: dict[str, dict] = {}
     if app_info_id:
-        for item in client.list_app_info_localizations(app_info_id):
+        for item in website_localizations(config, client.list_app_info_localizations(app_info_id)):
             attrs = item.get("attributes", {})
             if attrs.get("locale"):
                 info_by_locale[attrs["locale"]] = attrs
 
     locales: dict[str, dict] = {}
-    for item in version_localizations:
+    for item in website_localizations(config, version_localizations):
         attrs = item.get("attributes", {})
         locale = attrs.get("locale")
         if not locale:
@@ -149,11 +189,19 @@ def sync_metadata(client, config: AppConfig, context) -> dict:
         "version": version.get("attributes", {}).get("versionString"),
         "locales": ordered,
     }
+    if config.unreleased_version_id:
+        attrs = version.get("attributes", {})
+        snapshot["source"] = {
+            "versionId": version["id"],
+            "versionState": attrs.get("appVersionState") or attrs.get("appStoreState"),
+            "appInfoId": app_info_id,
+        }
     destination = REPO_ROOT / config.site / "asc-metadata.json"
+    destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(
         json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"{config.site}: wrote {len(ordered)} live ASC locales")
+    print(f"{config.site}: wrote {len(ordered)} ASC website locales")
     return snapshot
 
 
@@ -202,7 +250,8 @@ def remote_screenshot_manifest(client, config: AppConfig, context) -> dict[str, 
     _, _, version_localizations, _ = context
     manifest: dict[str, list[dict]] = {}
     localizations = {
-        item.get("attributes", {}).get("locale"): item for item in version_localizations
+        item.get("attributes", {}).get("locale"): item
+        for item in website_localizations(config, version_localizations)
     }
     cache: dict[str, list[dict]] = {}
 
