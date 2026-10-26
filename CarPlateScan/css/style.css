@@ -26,8 +26,8 @@ a:focus-visible, .asc-gallery:focus-visible {
 .asc-eyebrow { color: #f5cc69; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; }
 .asc-hero h1 { max-width: 15ch; font-size: clamp(2.8rem, 6vw, 5.2rem); line-height: 1.03; }
 .asc-hero-shot { border: 1px solid #30464d; filter: drop-shadow(0 24px 50px #0006); }
-.asc-hero-copy > .release-status,
-.asc-download > .release-status {
+.asc-hero-copy > p.release-status,
+.asc-download > p.release-status {
   color: #f5cc69;
   font-size: .95rem;
   font-weight: 650;
