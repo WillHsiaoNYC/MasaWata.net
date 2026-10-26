@@ -16,6 +16,7 @@ masawata.net/
 ├── app-ads.txt             → masawata.net/app-ads.txt
 ├── CNAME                   → custom domain configuration
 ├── .well-known/            → apple-app-site-association (universal links)
+├── CarPlateScan/           → masawata.net/CarPlateScan/  (English-only, planned release November 30, 2026)
 ├── FitnessStory/           → masawata.net/FitnessStory/    (build.py, [lang]/, sitemap.xml)
 ├── IceTimeTrack/           → masawata.net/IceTimeTrack/
 ├── SoccerTimeTrack/        → masawata.net/SoccerTimeTrack/  (Soccer Time Track)
@@ -29,6 +30,7 @@ Each app directory is a self-contained marketing site. Product pages are generat
 
 ## Sites
 
+- **Car Plate Scan** (`/CarPlateScan/`): Camera/photo license plate reading, capture history, maps, and favorites. English only; planned release November 30, 2026. Its pre-release page links to screenshots until public availability is verified.
 - **Home** (`/`): Studio hub — links to every app, with `Organization` / `WebSite` / `ItemList` structured data.
 - **Privacy Policy** (`/privacy-policy.html`): Shared privacy information for apps without a dedicated product policy. Soccer Time Track uses its app-specific policy below `/SoccerTimeTrack/`.
 - **Fitness Story** (`/FitnessStory/`): Apple Health & Watch workouts → visual journeys.
@@ -59,12 +61,17 @@ python3 SoccerTimeTrack/build.py
 python3 TallyCounter123/build.py
 python3 TimerOnMe/build.py
 python3 WhereWasI/build.py
+python3 CarPlateScan/build.py
 
 # Prove generated routes and screenshots match the ASC snapshots.
 python3 scripts/validate_asc_web.py
 ```
 
 `scripts/sync_asc_web.py` only performs GET requests against App Store Connect. It prefers checksum-matching local fastlane screenshots and falls back to ASC's image CDN when a source is unavailable. Pass `--remote-assets` when local screenshot files are cloud placeholders. Ice Time Track currently inherits the English screenshot set for every locale because only `en-US` owns screenshot sets in live ASC.
+
+Car Plate Scan opts into its specific pre-release ASC version/app-info records while it has no live version, imports only `en-US`, and uses its `APP_IPHONE_61` screenshot set. Refresh only that site with `python3 scripts/sync_asc_web.py --app CarPlateScan --remote-assets`. From an isolated worktree, also pass `--asc-tools` with the absolute path to the existing `iOS_submission_tools` directory; credentials stay there. Existing products retain live-only version selection.
+
+The planned date in `CarPlateScan/build.py` is presentation copy, not an automatic release switch. Before adding a download or pre-order link, verify the public listing is available. The page's Privacy & processing section reproduces ASC's processing information; a dedicated legal policy remains a separate launch follow-up, and the conflicting shared policy is not presented as this app's policy.
 
 Sitemaps list canonical product URLs only; regional alternates remain available through hreflang. Timer on Me uses `es-MX` as the preferred canonical for its identical `es-ES` copy. The shared builder omits optional `lastmod` dates because a rebuild does not establish when content changed.
 

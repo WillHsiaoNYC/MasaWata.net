@@ -6,6 +6,7 @@ Each app below has a marketing landing page on this site. Several product sites 
 
 ## Apps
 
+- [Car Plate Scan](https://masawata.net/CarPlateScan/): Reads license plates from camera captures or selected photos. Review readings, then find saved captures with search, maps, and favorites. Category: Utilities. iOS. English-only website. Planned release: November 30, 2026; not yet publicly downloadable.
 - [Fitness Story](https://masawata.net/FitnessStory/): Turns Apple Watch and Apple Health workouts into a visual story — trends, personal records, and progress. Category: Health & Fitness. iOS & watchOS. App Store: https://apps.apple.com/app/id6748090363
 - [Ice Time Track](https://masawata.net/IceTimeTrack/): Automatically detects hockey shifts on Apple Watch and logs ice time, goals, and penalties. Category: Sports. iOS & watchOS. App Store: https://apps.apple.com/app/id6758258172
 - [Soccer Time Track](https://masawata.net/SoccerTimeTrack/): Automatically detects soccer field time on Apple Watch and brings performance metrics, match events, live data, trends, and personal records to iPhone. Category: Sports / Health & Fitness. iOS & watchOS. App Store: https://apps.apple.com/app/id6791397600

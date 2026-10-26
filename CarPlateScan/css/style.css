@@ -1,0 +1,68 @@
+/* Car Plate Scan follows the shared product layout with its slate/teal palette. */
+html { scroll-padding-top: 100px; }
+body { background-image: radial-gradient(ellipse at 85% 10%, #173e422e, transparent 38%); }
+a:focus-visible, .asc-gallery:focus-visible {
+  outline: 3px solid #f5cc69;
+  outline-offset: 5px;
+}
+.skip-link {
+  position: absolute;
+  z-index: 30;
+  top: 8px;
+  left: 16px;
+  padding: .7rem 1rem;
+  color: #0b171c;
+  background: #f5cc69;
+  border-radius: 8px;
+  transform: translateY(-160%);
+}
+.skip-link:focus { transform: translateY(0); }
+.asc-header { padding-block: 1rem; }
+.asc-brand { letter-spacing: -.025em; }
+.product-nav { display: flex; flex-wrap: wrap; gap: 1.5rem; font-size: .9rem; }
+.product-nav a { color: var(--muted); text-decoration: none; }
+.product-nav a:hover { color: var(--ink); }
+.asc-hero { padding-block: 4.5rem 6rem; }
+.asc-eyebrow { color: #f5cc69; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; }
+.asc-hero h1 { max-width: 15ch; font-size: clamp(2.8rem, 6vw, 5.2rem); line-height: 1.03; }
+.asc-hero-shot { border: 1px solid #30464d; filter: drop-shadow(0 24px 50px #0006); }
+.asc-hero-copy > .release-status,
+.asc-download > .release-status {
+  color: #f5cc69;
+  font-size: .95rem;
+  font-weight: 650;
+  margin-top: 1.8rem;
+  opacity: 1;
+}
+.asc-button { color: #0b171c; box-shadow: none; padding: .95rem 1.25rem; }
+.asc-content { border-top: 1px solid var(--line); }
+.asc-content h2, .asc-screens h2 { font-size: clamp(2rem, 4.5vw, 3rem); }
+.asc-prose h3 { color: #a7dfd2; font-size: .95rem; letter-spacing: .05em; }
+.asc-prose li { margin-block: .5rem; }
+.asc-screens { padding-top: 2rem; }
+.asc-gallery { scrollbar-color: #a7dfd2 #13232c; scrollbar-width: thin; }
+.asc-gallery figure { border-radius: 22px; overflow: hidden; }
+.asc-gallery img { box-shadow: none; border: 1px solid #30464d; }
+.asc-processing .asc-prose { columns: 1; max-width: 78ch; }
+.asc-download {
+  background: linear-gradient(125deg, #153c3f, #13232c);
+  border: 1px solid #345a5b;
+}
+.asc-download h2 { color: var(--ink); font-size: clamp(1.8rem, 4vw, 2.75rem); }
+.asc-download p { color: var(--muted); opacity: 1; }
+.asc-download .asc-button { color: #0b171c; background: #a7dfd2; }
+.asc-download .asc-button:hover { background: #83c7b7; }
+footer a { text-underline-offset: 4px; }
+@media (max-width: 760px) {
+  .asc-header { align-items: center; }
+  .asc-header .asc-brand span { display: inline; }
+  .asc-brand { font-size: .95rem; }
+  .asc-brand img { width: 36px; height: 36px; }
+  .product-nav { gap: 1rem; }
+  .product-nav a:not(:first-child) { display: none; }
+  .asc-hero { padding-block: 3rem 4rem; }
+  .asc-hero h1 { max-width: 14ch; }
+  .asc-hero-shot { width: min(88%, 350px); }
+  .asc-gallery { grid-auto-columns: minmax(220px, 78vw); }
+  .asc-screens { padding-top: 1rem; }
+}

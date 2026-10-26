@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import html
 import json
+from dataclasses import dataclass
 from pathlib import Path
 
 
@@ -83,6 +84,18 @@ UI = {
     "zh-Hans": ("关于本应用", "屏幕截图", "从 App Store 下载", "隐私政策", "服务条款", "支持", "语言"),
     "zh-Hant": ("關於此 App", "螢幕快照", "從 App Store 下載", "隱私權政策", "服務條款", "支援", "語言"),
 }
+
+
+@dataclass(frozen=True)
+class PageOptions:
+    """Opt-in presentation for a product that is not publicly downloadable yet."""
+
+    brand_name: str
+    planned_release: str
+    operating_system: str = "iOS"
+    privacy_label: str = "Privacy & processing"
+    processing_notice: str = ""
+    screenshot_alts: tuple[str, ...] = ()
 
 
 def load_metadata(site_dir: Path) -> dict:
@@ -170,6 +183,7 @@ def render_asc_page(
     extra_stylesheets: tuple[str, ...] = (),
     pre_hero_html: str = "",
     canonical_locale: str | None = None,
+    page_options: PageOptions | None = None,
 ) -> str:
     item = metadata["locales"][locale]
     html_lang, native_name, rtl = LOCALE_INFO[locale]
@@ -180,6 +194,18 @@ def render_asc_page(
     subtitle = item.get("subtitle") or title
     promo = item.get("promotionalText") or item.get("description", "").split("\n\n", 1)[0]
     description = item.get("description") or promo
+    processing_markup = ""
+    if page_options and page_options.processing_notice:
+        notice = page_options.processing_notice
+        if not description.endswith(notice):
+            raise RuntimeError("Processing notice must be an exact suffix of the ASC description")
+        description = description[:-len(notice)].rstrip()
+        processing_markup = (
+            '\n    <section class="asc-content asc-processing" id="privacy-processing">\n'
+            f'      <h2>{html.escape(page_options.privacy_label)}</h2>\n'
+            f'      <div class="asc-prose">{_description_html(notice)}</div>\n'
+            '    </section>'
+        )
     shots = screenshot_files(site_dir, locale)
     shot_urls = [f"{base_url}/images/asc/{locale}/{p.name}" for p in shots]
     app_prefix = "" if locale == "en-US" else "../"
@@ -197,18 +223,40 @@ def render_asc_page(
         f'<figure><img src="{src}" alt="{html.escape(title)} — {shots_label} {i}" loading="lazy"></figure>'
         for i, src in enumerate(relative_shots, 1)
     )
-    schema = json.dumps(
-        {
+    hero_image = f'<img class="asc-hero-shot" src="{relative_shots[0]}" alt="{html.escape(title)}">' if relative_shots else ''
+    if page_options:
+        from PIL import Image
+
+        if len(page_options.screenshot_alts) != len(shots):
+            raise RuntimeError("Every screenshot requires a descriptive alt text")
+        rendered_shots = []
+        for path, src, alt in zip(shots, relative_shots, page_options.screenshot_alts):
+            with Image.open(path) as image:
+                size = f'width="{image.width}" height="{image.height}"'
+            rendered_shots.append(
+                f'<figure><img src="{src}" alt="{html.escape(alt, quote=True)}" {size} loading="lazy"></figure>'
+            )
+            if path == shots[0]:
+                hero_image = (
+                    f'<img class="asc-hero-shot" src="{src}" alt="{html.escape(alt, quote=True)}" '
+                    f'{size} fetchpriority="high">'
+                )
+        gallery = "\n".join(rendered_shots)
+    schema_data = {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
             "name": title,
             "description": promo,
             "applicationCategory": "UtilitiesApplication",
-            "operatingSystem": "iOS, iPadOS, watchOS",
+            "operatingSystem": page_options.operating_system if page_options else "iOS, iPadOS, watchOS",
             "url": canonical,
             "downloadUrl": app_url,
             "image": shot_urls,
-        },
+        }
+    if page_options:
+        del schema_data["downloadUrl"]
+    schema = json.dumps(
+        schema_data,
         ensure_ascii=False,
     ).replace("</", "<\\/")
     stylesheet_links = "\n".join(
@@ -218,6 +266,42 @@ def render_asc_page(
     stylesheet_markup = f"\n{stylesheet_links}" if stylesheet_links else ""
     pre_hero_markup = f"{pre_hero_html.rstrip()}\n" if pre_hero_html else ""
     direction = "rtl" if rtl else "ltr"
+    navigation = f'''    <details class="asc-languages">
+      <summary>{html.escape(language)}: {html.escape(native_name)}</summary>
+      <nav>{language_links}</nav>
+    </details>'''
+    store_meta = f'  <meta name="apple-itunes-app" content="app-id={app_store_id}">'
+    release_markup = ""
+    skip_markup = ""
+    footer_studio = ""
+    gallery_attributes = ""
+    cta_url, cta_label = app_url, download
+    brand_name = title
+    if page_options:
+        if set(metadata["locales"]) != {"en-US"}:
+            raise RuntimeError("Pre-release presentation currently supports English-only sites")
+        brand_name = page_options.brand_name
+        privacy = page_options.privacy_label
+        navigation = '''    <nav class="product-nav" aria-label="Main navigation">
+      <a href="/">MasaWata</a><a href="#about">About</a><a href="#screenshots">Screenshots</a>
+    </nav>'''
+        cta_url, cta_label = "#screenshots", "Explore screenshots"
+        release_markup = f'        <p class="release-status">Planned release: {html.escape(page_options.planned_release)}</p>\n'
+        skip_markup = '\n  <a class="skip-link" href="#main">Skip to content</a>'
+        footer_studio = '\n    <a href="/">MasaWata</a>'
+        gallery_attributes = f' tabindex="0" role="region" aria-label="{html.escape(brand_name, quote=True)} screenshots — scroll to explore"'
+        social_image = shot_urls[0] if shot_urls else f"{base_url}/{icon_path}"
+        store_meta = f'''  <link rel="icon" href="{app_prefix}{icon_path}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{canonical}">
+  <meta property="og:title" content="{html.escape(title, quote=True)}">
+  <meta property="og:description" content="{html.escape(promo, quote=True)}">
+  <meta property="og:image" content="{social_image}">
+  <meta property="og:image:alt" content="{html.escape(page_options.screenshot_alts[0] if shots else brand_name, quote=True)}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{html.escape(title, quote=True)}">
+  <meta name="twitter:description" content="{html.escape(promo, quote=True)}">
+  <meta name="twitter:image" content="{social_image}">'''
     return f'''<!doctype html>
 <html lang="{html_lang}" dir="{direction}">
 <head>
@@ -225,7 +309,7 @@ def render_asc_page(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(title)} — {html.escape(subtitle)}</title>
   <meta name="description" content="{html.escape(promo, quote=True)}">
-  <meta name="apple-itunes-app" content="app-id={app_store_id}">
+{store_meta}
   <link rel="canonical" href="{canonical}">
 {alternates}
   <link rel="alternate" hreflang="x-default" href="{base_url}/">
@@ -233,23 +317,20 @@ def render_asc_page(
   <style>:root{{color-scheme:{color_scheme};--accent:{accent};--accent-dark:{accent_dark};--bg:{background};--surface:{surface};--ink:{ink};--muted:{muted};--line:{line}}}</style>{stylesheet_markup}
   <script type="application/ld+json">{schema}</script>
 </head>
-<body>
+<body>{skip_markup}
   <header class="asc-header">
-    <a class="asc-brand" href="{('./' if locale == 'en-US' else '../')}"><img src="{app_prefix}{icon_path}" alt="" width="44" height="44"><span>{html.escape(title)}</span></a>
-    <details class="asc-languages">
-      <summary>{html.escape(language)}: {html.escape(native_name)}</summary>
-      <nav>{language_links}</nav>
-    </details>
+    <a class="asc-brand" href="{('./' if locale == 'en-US' else '../')}"><img src="{app_prefix}{icon_path}" alt="" width="44" height="44"><span>{html.escape(brand_name)}</span></a>
+{navigation}
   </header>
-  <main>
+  <main{' id="main" tabindex="-1"' if page_options else ''}>
 {pre_hero_markup}    <section class="asc-hero">
       <div class="asc-hero-copy">
         <p class="asc-eyebrow">{html.escape(title)}</p>
         <h1>{html.escape(subtitle)}</h1>
         <p>{html.escape(promo)}</p>
-        <a class="asc-button" href="{app_url}" rel="noopener">{html.escape(download)}</a>
+{release_markup}        <a class="asc-button" href="{cta_url}" rel="noopener">{html.escape(cta_label)}</a>
       </div>
-      {f'<img class="asc-hero-shot" src="{relative_shots[0]}" alt="{html.escape(title)}">' if relative_shots else ''}
+      {hero_image}
     </section>
     <section class="asc-content" id="about">
       <h2>{html.escape(about)}</h2>
@@ -257,18 +338,18 @@ def render_asc_page(
     </section>
     <section class="asc-screens" id="screenshots">
       <h2>{html.escape(shots_label)}</h2>
-      <div class="asc-gallery">{gallery}</div>
-    </section>
+      <div class="asc-gallery"{gallery_attributes}>{gallery}</div>
+    </section>{processing_markup}
     <section class="asc-download">
       <h2>{html.escape(title)}</h2>
       <p>{html.escape(promo)}</p>
-      <a class="asc-button" href="{app_url}" rel="noopener">{html.escape(download)}</a>
+{release_markup}      <a class="asc-button" href="{cta_url}" rel="noopener">{html.escape(cta_label)}</a>
     </section>
   </main>
   <footer>
     <a href="{privacy_url}">{html.escape(privacy)}</a>
     <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">{html.escape(terms)}</a>
-    <a href="{support_url}">{html.escape(support)}</a>
+    <a href="{support_url}">{html.escape(support)}</a>{footer_studio}
   </footer>
 </body>
 </html>
@@ -304,6 +385,7 @@ def build_site(
     color_scheme: str = "light",
     locale_stylesheets: dict[str, tuple[str, ...]] | None = None,
     locale_pre_hero_html: dict[str, str] | None = None,
+    page_options: PageOptions | None = None,
 ) -> int:
     metadata = load_metadata(site_dir)
     locales = metadata.get("locales", {})
@@ -348,6 +430,7 @@ def build_site(
                 color_scheme=color_scheme,
                 extra_stylesheets=tuple((locale_stylesheets or {}).get(locale, ())),
                 pre_hero_html=(locale_pre_hero_html or {}).get(locale, ""),
+                page_options=page_options,
             ),
             encoding="utf-8",
         )

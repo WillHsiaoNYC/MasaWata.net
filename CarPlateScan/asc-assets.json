@@ -1,0 +1,74 @@
+{
+  "en-US": [
+    {
+      "displayType": "APP_IPHONE_61",
+      "fileName": "01-poster-left.png",
+      "sourceFileChecksum": "6dc30dc4ff1b2f09bdbd9e5d09496181",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/yMLxX4aOJ8WkNzfQINrHdQ/{w}x{h}bb.{f}",
+        "width": 1206,
+        "height": 2622
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_61",
+      "fileName": "02-poster-right.png",
+      "sourceFileChecksum": "4ef27f7ac00334c5771b08412337f034",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/33xj0aW8xMUklozBAcKYKg/{w}x{h}bb.{f}",
+        "width": 1206,
+        "height": 2622
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_61",
+      "fileName": "03-scan.png",
+      "sourceFileChecksum": "8b60f9c684cee9381362b2e255c46493",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/WWaGKvA0Gt3Q9QOS18C94A/{w}x{h}bb.{f}",
+        "width": 1206,
+        "height": 2622
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_61",
+      "fileName": "04-review.png",
+      "sourceFileChecksum": "a4029fd40845f9dcba841ac5daad43b0",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/h5FrdABoOSTycvijEgPqdg/{w}x{h}bb.{f}",
+        "width": 1206,
+        "height": 2622
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_61",
+      "fileName": "05-history.png",
+      "sourceFileChecksum": "2d97b59503cae31269c7f6fc6565ded2",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/sC_CzasTOY6YhDqTNju0ig/{w}x{h}bb.{f}",
+        "width": 1206,
+        "height": 2622
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_61",
+      "fileName": "06-map.png",
+      "sourceFileChecksum": "03753ad4193ee22a7a550ac1c41e3ca6",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/u6nUVmLotwAgtWTq0RpDbg/{w}x{h}bb.{f}",
+        "width": 1206,
+        "height": 2622
+      }
+    },
+    {
+      "displayType": "APP_IPHONE_61",
+      "fileName": "07-favorites.png",
+      "sourceFileChecksum": "cf7b525b8f50b760a7fbd0b3a48af4ff",
+      "imageAsset": {
+        "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/0tivP15GlRoweqXOo1OB6Q/{w}x{h}bb.{f}",
+        "width": 1206,
+        "height": 2622
+      }
+    }
+  ]
+}
