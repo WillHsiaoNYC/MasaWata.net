@@ -17,14 +17,14 @@
 
   <!-- Primary Meta Tags -->
   <title>Privacy Policy — MasaWata Tech</title>
-  <meta name="description" content="Privacy policy for MasaWata Tech apps: your data stays on your device. Learn how MasaWata handles your information.">
+  <meta name="description" content="Privacy information for MasaWata Tech apps and website, including Car Plate Scan local storage, optional Apple cloud features, purchases, and support.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://masawata.net/privacy-policy.html">
 
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://masawata.net/privacy-policy.html">
   <meta property="og:title" content="Privacy Policy — MasaWata Tech">
-  <meta property="og:description" content="Your data stays on your device. How MasaWata Tech handles your information.">
+  <meta property="og:description" content="How MasaWata Tech handles app data, optional Apple cloud features, website analytics, and support messages.">
   <meta property="og:site_name" content="MasaWata">
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -73,34 +73,51 @@
     </a>
   </div>
 
-  <h1>Privacy Policy</h1>
-  <p class="meta"><strong>Effective Date:</strong> May 18, 2025</p>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta"><strong>Effective Date:</strong> October 26, 2026</p>
 
-  <p><strong>MasaWata Tech</strong> ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile applications, available on the Apple App Store.</p>
+    <p><strong>MasaWata Tech</strong> ("we", "our", or "us") respects your privacy. This policy explains data handling for our mobile applications that link to this page and for the MasaWata website. Features vary by app. The Car Plate Scan sections below describe that app specifically; an app with a dedicated privacy policy provides its product-specific information there.</p>
 
-  <h2>1. Information We Do Not Collect</h2>
-  <p>We do <strong>not</strong> collect or store any personal data, including but not limited to:</p>
-  <ul>
-    <li>Names</li>
-    <li>Email addresses</li>
-    <li>Phone numbers</li>
-    <li>Location data</li>
-    <li>Usage data</li>
-    <li>Diagnostics or analytics data</li>
-  </ul>
-  <p>Your data stays on your device and is not transmitted to any server controlled by us or any third party.</p>
+    <h2 id="local-data">1. App Data and Device Permissions</h2>
+    <p>Our apps can store information you create, import, or allow them to access on your device. Data can also leave your device when you use an optional cloud feature, make a purchase through Apple, or choose to share information. The relevant Car Plate Scan features are explained below.</p>
+    <p><strong>Car Plate Scan</strong> uses the camera for live scanning and processes photos you choose to import. Its local library can contain recognized plate text, saved captures and pending reviews, plate crops and retained photos, capture times, locations when available, favorites, names and notes you add, and related record information. The app also stores settings, subscription access information, and a device-local daily capture allowance.</p>
+    <p>When you grant location permission, capture records can include a location so you can review them on a map. You control camera and location permissions in iOS Settings. Maps displayed in the app use Apple Maps services. If you choose to open a capture location in Apple Maps or Google Maps, its coordinates are passed to that provider and handled under its privacy policy. Local plate recognition does not require uploading your photos to a MasaWata server.</p>
 
-  <h2>2. Third-Party Services</h2>
-  <p>Our apps do <strong>not</strong> use third-party services that may collect information used to identify you. If future versions of our apps integrate such services, this policy will be updated accordingly.</p>
+    <h2 id="icloud">2. Car Plate Scan: Optional iCloud Backup &amp; Sync</h2>
+    <p>iCloud Backup &amp; Sync is off by default in Car Plate Scan. If you enable it, the app uses Apple CloudKit to synchronize saved captures and their photos, plate text, capture times and locations when present, favorites, names and notes, and information needed to synchronize those records. This data is stored in the private iCloud database associated with your Apple Account and can use your iCloud storage.</p>
+    <p>Pending capture records and their photos are not included in iCloud Backup &amp; Sync until you save them; enabling sync is not a backup of the entire pending-review queue. Car Plate Scan does not upload its plate library to a MasaWata-operated database. Apple handles iCloud services under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+    <p>Turning sync off stops synchronization; it does not delete existing local or iCloud copies. Changes and deletions can synchronize when the feature is enabled and a connection is available. Apple device backups are separate and depend on your system settings.</p>
 
-  <h2>3. Children’s Privacy</h2>
-  <p>We do not knowingly collect personally identifiable information from children under the age of 13. If we discover that such information has been provided to us without parental consent, we will delete it immediately.</p>
+    <h2 id="cloud-review">3. Car Plate Scan: Optional Cloud Review</h2>
+    <p>If you request cloud review or enable cloud review for an automated review, the image needed for that review is sent to <strong>Apple Private Cloud Compute</strong> for plate analysis. This is separate from iCloud storage and synchronization. Cloud review depends on a supported device, system version, region, and service availability.</p>
+    <p>The app removes image metadata from the request copy and does not append your capture location, notes, or plate history to the analysis request. The image content itself can still show plate text and other visible details. Your stored original image is kept separately from the request copy. The result is returned to the app for the review or save action you chose.</p>
+    <p>You can use local recognition without requesting cloud review. Apple's processing is described in <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a> and its <a href="https://security.apple.com/blog/private-cloud-compute/">Private Cloud Compute information</a>.</p>
 
-  <h2>4. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We encourage you to review this page periodically for any changes. Updates are effective immediately upon posting to this page.</p>
+    <h2 id="purchases">4. Purchases and Subscriptions</h2>
+    <p>Apple processes App Store purchases, payments, and subscription management. In Car Plate Scan, Apple's StoreKit provides product information and verified purchase or subscription status so the app can determine Pro access and restore purchases. Payment-card details are not provided to us by the app.</p>
 
-  <h2>5. Contact Us</h2>
-  <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-  <p><strong>Email:</strong> <a href="mailto:fitnessstoryapp@gmail.com">fitnessstoryapp@gmail.com</a></p>
+    <h2 id="diagnostics">5. Car Plate Scan Diagnostics and Support</h2>
+    <p>Optional scan-performance diagnostics are stored locally. They contain technical information such as timings, app memory and CPU usage, system thermal state, and app configuration; they do not record plate text, photos, or locations. Diagnostics are not automatically sent to us. You can export or share them yourself and delete stored diagnostics using the app's controls.</p>
+    <p>If you send feedback or contact support, we receive the email address and message contents you send. Car Plate Scan's feedback draft includes the app version, iOS version, and subscription status to help us troubleshoot. The draft is editable, and it does not automatically attach your plates, photos, locations, or logs. We use support messages to respond and investigate the issue you report.</p>
+
+    <h2 id="website">6. Website Analytics</h2>
+    <p>The MasaWata website uses Google Analytics to understand page visits and website usage. This can involve cookies or similar identifiers and technical information such as pages visited, browser, and device information. Website analytics is separate from Car Plate Scan's capture library; the app does not send your plate records or photos to Google Analytics.</p>
+    <p>Google's handling of this information is described in <a href="https://policies.google.com/privacy">Google's privacy policy</a>. You can manage cookies and related controls in your browser.</p>
+
+    <h2 id="choices">7. Your Choices and Stored Copies</h2>
+    <p>You can manage app permissions in iOS Settings, choose whether to enable iCloud sync or cloud review, and use the app's controls to manage saved captures, pending reviews, favorites, notes, and diagnostics. Use the relevant app and iCloud controls to remove stored records. Temporary files and diagnostic logs can also be removed automatically by storage cleanup. Deleting a local item, disabling sync, or removing the app does not necessarily remove separate backups, exports, or copies you previously shared.</p>
+    <p>We cannot directly manage your private iCloud library through our support mailbox. Use the app's deletion controls and Apple's iCloud settings for data stored in your Apple Account. Contact us about information you have sent directly to support.</p>
+
+    <h2 id="children">8. Children's Privacy</h2>
+    <p>We do not knowingly collect personal information from children under the age of 13. If you believe a child has provided personal information to us, please contact us so we can review and address it.</p>
+
+    <h2 id="changes">9. Changes to This Policy</h2>
+    <p>We may update this policy as our apps or services change. The effective date above identifies the current version. Please review this page for updates.</p>
+
+    <h2 id="contact">10. Contact Us</h2>
+    <p>If you have questions about this policy or information you have sent us, contact:</p>
+    <p><strong>Email:</strong> <a href="mailto:fitnessstoryapp@gmail.com">fitnessstoryapp@gmail.com</a></p>
+  </main>
 </body>
 </html>
