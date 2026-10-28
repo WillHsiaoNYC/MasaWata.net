@@ -16,7 +16,7 @@ masawata.net/
 ├── app-ads.txt             → masawata.net/app-ads.txt
 ├── CNAME                   → custom domain configuration
 ├── .well-known/            → apple-app-site-association (universal links)
-├── CarPlateScan/           → masawata.net/CarPlateScan/  (English-only, planned release November 30, 2026)
+├── CarPlateScan/           → masawata.net/CarPlateScan/  (English-only, planned release November 28, 2026)
 ├── FitnessStory/           → masawata.net/FitnessStory/    (build.py, [lang]/, sitemap.xml)
 ├── IceTimeTrack/           → masawata.net/IceTimeTrack/
 ├── SoccerTimeTrack/        → masawata.net/SoccerTimeTrack/  (Soccer Time Track)
@@ -30,7 +30,7 @@ Each app directory is a self-contained marketing site. Product pages are generat
 
 ## Sites
 
-- **Car Plate Scan** (`/CarPlateScan/`): Camera/photo license plate reading, capture history, maps, and favorites. English only; planned release November 30, 2026. Its pre-release page links to screenshots until public availability is verified.
+- **Car Plate Scan** (`/CarPlateScan/`): Camera/photo license plate reading, capture history, maps, and favorites. English only; planned release November 28, 2026. Its pre-release page links to screenshots until public availability is verified.
 - **Home** (`/`): Studio hub — links to every app, with `Organization` / `WebSite` / `ItemList` structured data.
 - **Privacy Policy** (`/privacy-policy.html`): Shared privacy information for apps without a dedicated product policy. Soccer Time Track uses its app-specific policy below `/SoccerTimeTrack/`.
 - **Fitness Story** (`/FitnessStory/`): Apple Health & Watch workouts → visual journeys.
@@ -94,3 +94,12 @@ fallback page. The AASA file already associates `/FitnessStory/event/*` with
 - Before updating an event, verify the fallback returns HTTP 200, the origin and
   Apple CDN AASA cover the app/path, and a tapped external link opens the intended
   screen from both cold and warm app states. Record simulator versus device evidence.
+
+## Car Plate Scan event Universal Links
+
+- `/CarPlateScan/event/everyday-collection/` is the public fallback for **The Everyday Collection**, a three-capture launch-week challenge (November 28–December 5, 2026, 9 AM EST).
+- English is the static fallback. JavaScript selects Traditional Chinese for `zh-Hant`, `zh-TW`, `zh-HK`, or `zh-MO` browser preferences. The visible language links override that choice with `?lang=en` or `?lang=zh-Hant`; no language data is stored.
+- Its Smart App Banner uses app ID `6825007024` and the same canonical HTTPS event URL as `app-argument`. The App Store button opens the listing; it does not claim pre-orders or download availability before approval.
+- AASA associates `/CarPlateScan/event/*` with the App Store identity `YJBS4SMU7Z.net.MasaWata.CarPlateScan`. The development identity is intentionally excluded. All previous app associations remain intact.
+- The page provides the goal and dates without promises of recognition accuracy, automatic challenge progress, rewards, or a public collection. It is excluded from indexing, like the other event fallbacks.
+- The app must accept the trailing-slash and no-trailing-slash URL. Browser fallback availability and AASA coverage are distinct from app Universal Link dispatch; verify cold and warm app opening separately.
