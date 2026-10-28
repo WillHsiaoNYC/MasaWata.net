@@ -72,7 +72,7 @@ def validate_car_plate_scan(site: Path, raw: str, metadata: dict, assets: dict) 
     expected_shots = [f"images/asc/en-US/{index:02d}-phone.webp" for index in range(1, 8)]
     if re.findall(r'<figure><img src="([^"]+)"', raw) != expected_shots:
         fail(errors, "CarPlateScan: gallery must preserve all seven screenshots in ASC order")
-    if raw.count("Planned release: November 30, 2026") != 2:
+    if raw.count("Planned release: November 28, 2026") != 2:
         fail(errors, "CarPlateScan: planned release must appear in hero and final action panel")
     if any(marker in raw for marker in ("apple-itunes-app", 'class="asc-languages"', "Download on the App Store")):
         fail(errors, "CarPlateScan: pre-release page contains a download claim or language selector")
@@ -113,7 +113,7 @@ def validate_catalog() -> list[str]:
     upcoming = [entry["item"] for entry in entries if entry["item"]["url"] == "https://masawata.net/CarPlateScan/"]
     if len(upcoming) != 1 or any(key in upcoming[0] for key in ("downloadUrl", "offers")):
         fail(errors, "Studio: expected one Car Plate Scan entry without unverified download/price claims")
-    if 'href="/CarPlateScan/"' not in raw or "Planned release: November 30, 2026" not in raw:
+    if 'href="/CarPlateScan/"' not in raw or "Planned release: November 28, 2026" not in raw:
         fail(errors, "Studio: missing Car Plate Scan navigation or planned release")
     index = ET.parse(ROOT / "sitemap.xml")
     if not any(node.text == "https://masawata.net/CarPlateScan/sitemap.xml" for node in index.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")):

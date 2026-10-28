@@ -12,7 +12,7 @@ from scripts.asc_web import PageOptions, build_site, load_metadata
 
 
 # This is a planned date, not a time-based switch to a download claim.
-PLANNED_RELEASE = "November 30, 2026"
+PLANNED_RELEASE = "November 28, 2026"
 SCREENSHOT_ALTS = (
     "Car Plate Scan overview — scan it, keep the details",
     "Camera or photos, capture history, maps and favorites",

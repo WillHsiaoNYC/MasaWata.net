@@ -105,7 +105,7 @@ class ComingSoonPageTests(unittest.TestCase):
         shots = self.site / "images/asc/en-US"
         shots.mkdir(parents=True)
         Image.new("RGB", (2, 4)).save(shots / "01-phone.webp")
-        self.options = PageOptions("Car Plate Scan", "November 30, 2026", processing_notice=self.notice,
+        self.options = PageOptions("Car Plate Scan", "November 28, 2026", processing_notice=self.notice,
                                    screenshot_alts=('Review a plate reading & its "photo"',))
 
     def render(self, options):
@@ -117,7 +117,7 @@ class ComingSoonPageTests(unittest.TestCase):
 
     def test_coming_soon_has_truthful_actions_platform_and_processing_details(self):
         page = self.render(self.options)
-        self.assertEqual(page.count("Planned release: November 30, 2026"), 2)
+        self.assertEqual(page.count("Planned release: November 28, 2026"), 2)
         self.assertIn('href="#screenshots"', page)
         self.assertNotIn("Download on the App Store", page)
         self.assertNotIn("apple-itunes-app", page)

@@ -54,6 +54,15 @@
             "comment": "Opens Soccer Time Track event content."
           }
         ]
+      },
+      {
+        "appIDs": ["YJBS4SMU7Z.net.MasaWata.CarPlateScan"],
+        "components": [
+          {
+            "/": "/CarPlateScan/event/*",
+            "comment": "Opens Car Plate Scan event content."
+          }
+        ]
       }
     ]
   }
