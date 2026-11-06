@@ -103,3 +103,11 @@ fallback page. The AASA file already associates `/FitnessStory/event/*` with
 - AASA associates `/CarPlateScan/event/*` with the App Store identity `YJBS4SMU7Z.net.MasaWata.CarPlateScan`. The development identity is intentionally excluded. All previous app associations remain intact.
 - The page provides the goal and dates without promises of recognition accuracy, automatic challenge progress, rewards, or a public collection. It is excluded from indexing, like the other event fallbacks.
 - The app must accept the trailing-slash and no-trailing-slash URL. Browser fallback availability and AASA coverage are distinct from app Universal Link dispatch; verify cold and warm app opening separately.
+
+## Soccer Time Track post-play event link
+
+- `/SoccerTimeTrack/event/post-play-insights/` is the dedicated browser fallback for the Post-Play Insights launch event, planned for November 11–25, 2026. It requires v1.5 and clearly directs players on an older version to update when that release is available.
+- Its Smart App Banner uses app ID `6791397600` and the same canonical HTTPS event URL. The app route opens Dashboard; the player selects a completed session and taps **Post-play insight**. Normal onboarding remains in place for new users.
+- The existing AASA wildcard `/SoccerTimeTrack/event/*` already covers the route for `YJBS4SMU7Z.MasaWata.SoccerTrack`; no association change is needed. The older First Match Kickoff page remains unchanged.
+- `SoccerTimeTrack/event/post-play-insights/assets/` contains web-sized JPEG exports of the approved event illustrations. The page is static, responsive, and excluded from indexing. It does not auto-select a session or promise measurements that were not recorded.
+- Verify the live fallback and Smart App Banner separately from cold/warm OS-dispatched Universal Link opening before event publication.
