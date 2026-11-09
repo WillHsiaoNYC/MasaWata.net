@@ -11,10 +11,22 @@
         (function () {
             var path = window.location.pathname;
             var target;
-            if (path.indexOf("/WhereWasI/") === 0) {
+            if (path.indexOf("/WhereWasI") === 0) {
                 target = "https://masawata.net/WhereWasI/";
-            } else {
+            } else if (path.indexOf("/TimerOnMe") === 0 || path.indexOf("/TimeOnMe") === 0) {
+                target = "https://masawata.net/TimerOnMe/";
+            } else if (path.indexOf("/SoccerTimeTrack") === 0 || path.indexOf("/SoccerMinutes") === 0) {
+                target = "https://masawata.net/SoccerTimeTrack/";
+            } else if (path.indexOf("/IceTimeTrack") === 0) {
+                target = "https://masawata.net/IceTimeTrack/";
+            } else if (path.indexOf("/TallyCounter123") === 0) {
+                target = "https://masawata.net/TallyCounter123/";
+            } else if (path.indexOf("/CarPlateScan") === 0) {
+                target = "https://masawata.net/CarPlateScan/";
+            } else if (path.indexOf("/FitnessStory") === 0) {
                 target = "https://masawata.net/FitnessStory/";
+            } else {
+                target = "https://masawata.net/";
             }
             try { window.location.replace(target); }
             catch (e) { window.location.href = target; }

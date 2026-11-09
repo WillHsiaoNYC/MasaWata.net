@@ -22,6 +22,7 @@ masawata.net/
 ├── SoccerTimeTrack/        → masawata.net/SoccerTimeTrack/  (Soccer Time Track)
 ├── SoccerMinutes/          → legacy redirects to SoccerTimeTrack/
 ├── TallyCounter123/        → masawata.net/TallyCounter123/
+├── TimeOnMe/               → legacy/typo redirect to TimerOnMe/
 ├── TimerOnMe/              → masawata.net/TimerOnMe/
 └── WhereWasI/              → masawata.net/WhereWasI/
 ```
