@@ -1,38 +1,1404 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://masawata.net/TallyCounter123/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/ja/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/ko/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/zh-Hans/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/zh-Hant/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/cs/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/da/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/de-DE/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/es-ES/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/es-MX/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/fi/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/fr-FR/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/hi/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/hu/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/id/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/it/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/no/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/pt-BR/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/ru/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/sk/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/sv/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/vi/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/ar-SA/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/tr/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/pl/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/nl-NL/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/th/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/pt-PT/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/uk/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/ro/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/el/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/hr/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/sl-SI/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/ca/</loc></url>
-  <url><loc>https://masawata.net/TallyCounter123/he/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://masawata.net/TallyCounter123/ar-SA/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/ca/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/cs/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/da/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/de-DE/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/el/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/es-ES/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/es-MX/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/fi/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/fr-FR/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/he/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/hi/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/hr/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/hu/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/id/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/it/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/ja/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/ko/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/nl-NL/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/no/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/pl/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/pt-BR/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/pt-PT/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/ro/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/ru/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/sk/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/sl-SI/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/sv/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/th/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/tr/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/uk/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/vi/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/zh-Hans/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
+  <url>
+    <loc>https://masawata.net/TallyCounter123/zh-Hant/</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/"/>
+  </url>
 </urlset>

@@ -24,17 +24,17 @@ SITES = (
     "WhereWasI",
 )
 CANONICAL_LOCALES = {"TimerOnMe": {"es-ES": "es-MX"}}
-FULL_DESCRIPTION_SITES = set(SITES) - {"TallyCounter123"}
+FULL_DESCRIPTION_SITES = set(SITES)
 FITNESS_STORY_ZH_HANT_PROMO_MARKERS = (
     "揮汗有禮！截圖有據！",
-    '健身故事終身版限時 <span class="campaign-sale-price">NT$10</span>',
-    "原價 <del>NT$980</del>",
-    "優惠只到 9/30",
-    "本網頁專屬優惠碼",
-    "請用已安裝健身故事的設備點下右側兌換按鈕",
+    "2026.09.01–11.30",
     "https://500.gov.tw/registrant/",
-    "https://apps.apple.com/redeem?ctx=offercodes&amp;id=6748090363&amp;code=SWEATGIFT",
     "../css/zh-Hant-sweatgift.css",
+)
+EXPIRED_FITNESS_STORY_PROMO_MARKERS = (
+    "優惠只到 9/30",
+    "SWEATGIFT",
+    "2026 年 9 月 30 日",
 )
 
 
@@ -118,6 +118,20 @@ def validate_catalog() -> list[str]:
     index = ET.parse(ROOT / "sitemap.xml")
     if not any(node.text == "https://masawata.net/CarPlateScan/sitemap.xml" for node in index.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")):
         fail(errors, "Studio: sitemap index omits CarPlateScan")
+    pages = ET.parse(ROOT / "pages.xml")
+    page_urls = {
+        node.text
+        for node in pages.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
+        if node.text
+    }
+    expected_page_urls = {
+        "https://masawata.net/",
+        "https://masawata.net/privacy-policy.html",
+        "https://masawata.net/SoccerTimeTrack/privacy-policy.html",
+        "https://masawata.net/SoccerTimeTrack/support.html",
+    }
+    if page_urls != expected_page_urls:
+        fail(errors, "Studio: pages.xml URLs do not match canonical static pages")
     return errors
 
 
@@ -147,9 +161,13 @@ def validate_site(name: str) -> list[str]:
     if urls != expected_urls:
         fail(errors, f"{name}: sitemap URLs do not exactly match canonical ASC locales")
 
+    canonical_map = CANONICAL_LOCALES.get(name, {})
     expected_alternates = {
-        locale: f"https://masawata.net/{name}/" if locale == "en-US"
-        else f"https://masawata.net/{name}/{locale}/"
+        locale: (
+            f"https://masawata.net/{name}/"
+            if canonical_map.get(locale, locale) == "en-US"
+            else f"https://masawata.net/{name}/{canonical_map.get(locale, locale)}/"
+        )
         for locale in locales
     }
     expected_alternates["x-default"] = f"https://masawata.net/{name}/"
@@ -158,8 +176,7 @@ def validate_site(name: str) -> list[str]:
             node.get("hreflang"): node.get("href")
             for node in entry.findall("xhtml:link", namespace)
         }
-        # Tally uses HTML hreflang only; the shared generator also emits XML alternates.
-        if name != "TallyCounter123" and alternates != expected_alternates:
+        if alternates != expected_alternates:
             fail(errors, f"{name}: sitemap alternates do not exactly match ASC locales")
 
     for locale, content in locales.items():
@@ -171,10 +188,15 @@ def validate_site(name: str) -> list[str]:
         if name == "CarPlateScan":
             errors.extend(validate_car_plate_scan(site, raw, metadata, assets))
         readable = html.unescape(raw)
-        canonical_locale = CANONICAL_LOCALES.get(name, {}).get(locale, locale)
+        canonical_locale = canonical_map.get(locale, locale)
         canonical = expected_alternates[canonical_locale]
         if re.findall(r'<link rel="canonical" href="([^"]+)"', raw) != [canonical]:
             fail(errors, f"{name} {locale}: expected canonical {canonical}")
+        if "G-ZL852HY2Z4" not in raw:
+            fail(errors, f"{name} {locale}: Google Analytics tag missing")
+        for meta_marker in ('property="og:title"', 'property="og:image"', 'name="twitter:card"'):
+            if meta_marker not in raw:
+                fail(errors, f"{name} {locale}: social metadata missing ({meta_marker})")
         if re.search(r'<meta\s+name="robots"[^>]*content="[^"]*noindex', raw, re.I):
             fail(errors, f"{name} {locale}: product page must be indexable")
         for field in ("name", "subtitle", "promotionalText"):
@@ -186,10 +208,11 @@ def validate_site(name: str) -> list[str]:
                 value = line.strip().lstrip("•·- ").strip()
                 if value and value not in readable:
                     fail(errors, f"{name} {locale}: ASC description text missing: {value[:40]}")
-        hreflangs = set(re.findall(r'hreflang="([^"]+)"', raw))
-        expected_hreflangs = set(locales) | {"x-default"}
-        if hreflangs != expected_hreflangs:
-            fail(errors, f"{name} {locale}: hreflang set does not exactly match ASC locales")
+        html_alternates = dict(
+            re.findall(r'<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"', raw)
+        )
+        if html_alternates != expected_alternates:
+            fail(errors, f"{name} {locale}: HTML hreflang alternates do not match canonical ASC locales")
         if locale in {"ar-SA", "he"} and 'dir="rtl"' not in raw:
             fail(errors, f"{name} {locale}: RTL direction missing")
 
@@ -198,6 +221,9 @@ def validate_site(name: str) -> list[str]:
                 for marker in FITNESS_STORY_ZH_HANT_PROMO_MARKERS:
                     if marker not in raw:
                         fail(errors, f"{name} {locale}: campaign marker missing: {marker}")
+                for marker in EXPIRED_FITNESS_STORY_PROMO_MARKERS:
+                    if marker in raw:
+                        fail(errors, f"{name} {locale}: expired promo marker present: {marker}")
                 if raw.find('class="campaign"') > raw.find('class="asc-hero"'):
                     fail(errors, f"{name} {locale}: campaign must appear before the app hero")
             elif any(

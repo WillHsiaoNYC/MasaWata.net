@@ -1,102 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hans" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#ffffff">
-
-  <title>计数器123 — Watch同步、点击器、比分</title>
-  <meta name="description" content="全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。">
-  <meta name="keywords" content="watch,同步,随机,历史,计分,点击器,念珠,手串,编织,段数,钩针,举铁,健身,库存,盘点,习惯,积分,点名,投球,跑圈,记分,篮球,麻将,目标,人数,课堂,仓库,分数,佛珠,桌游,游泳,打卡">
-  <meta name="author" content="Masawata">
-  <meta name="robots" content="index, follow">
-
-  <meta name="apple-itunes-app" content="app-id=6769252146">
-
-  <link rel="canonical" href="https://masawata.net/TallyCounter123/zh-Hans/">
-  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/">
-  <link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/">
-  <link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/">
-  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/">
-  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/">
-  <link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/">
-  <link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/">
-  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/">
-  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/">
-  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/">
-  <link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/">
-  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/">
-  <link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/">
-  <link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/">
-  <link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/">
-  <link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/">
-  <link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/">
-  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/">
-  <link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/">
-  <link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/">
-  <link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/">
-  <link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/">
-  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/">
-  <link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/">
-  <link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/">
-  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/">
-  <link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/">
-  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/">
-  <link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/">
-  <link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/">
-  <link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/">
-  <link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/">
-  <link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/">
-  <link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/">
-  <link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/">
-  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/">
-
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://masawata.net/TallyCounter123/zh-Hans/">
-  <meta property="og:title" content="计数器123 — Watch同步、点击器、比分">
-  <meta property="og:description" content="全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。">
-  <meta property="og:image" content="https://masawata.net/TallyCounter123/images/icon-1024.png">
-  <meta property="og:site_name" content="计数器123">
-  <meta property="og:locale" content="zh_CN">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="计数器123 — Watch同步、点击器、比分">
-  <meta name="twitter:description" content="全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。">
-  <meta name="twitter:image" content="https://masawata.net/TallyCounter123/images/icon-1024.png">
-
-  <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
-  <link rel="apple-touch-icon" href="../images/icon-180.png">
-
-  <link rel="stylesheet" href="../css/style.css?v=7">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "计数器123",
-    "applicationCategory": "LifestyleApplication",
-    "operatingSystem": "iOS, iPadOS, watchOS",
-    "sameAs": "https://apps.apple.com/app/id6769252146",
-    "downloadUrl": "https://apps.apple.com/app/id6769252146",
-    "publisher": { "@type": "Organization", "name": "MasaWata Tech", "url": "https://masawata.net/" },
-    "description": "全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。",
-    "url": "https://masawata.net/TallyCounter123/zh-Hans/",
-    "image": "https://masawata.net/TallyCounter123/images/icon-1024.png",
-    "screenshot": [
-      "https://masawata.net/TallyCounter123/images/asc/zh-Hans/01-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/zh-Hans/02-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/zh-Hans/03-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/zh-Hans/04-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/zh-Hans/05-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/zh-Hans/06-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/zh-Hans/07-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/zh-Hans/08-phone.webp"
-    ],
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-    "author": { "@type": "Organization", "name": "Masawata", "url": "https://masawata.net/" }
-  }
-  </script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -106,167 +12,156 @@
       gtag('config', 'G-ZL852HY2Z4');
     }
   </script>
+  <title>计数器123 — Watch同步、点击器、比分</title>
+  <meta name="description" content="全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。">
+  <meta name="apple-itunes-app" content="app-id=6769252146">
+  <link rel="icon" href="../images/icon-512.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://masawata.net/TallyCounter123/zh-Hans/">
+  <meta property="og:title" content="计数器123">
+  <meta property="og:description" content="全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。">
+  <meta property="og:image" content="https://masawata.net/TallyCounter123/images/asc/zh-Hans/01-phone.webp">
+  <meta property="og:image:alt" content="计数器123">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="计数器123">
+  <meta name="twitter:description" content="全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。">
+  <meta name="twitter:image" content="https://masawata.net/TallyCounter123/images/asc/zh-Hans/01-phone.webp">
+  <link rel="canonical" href="https://masawata.net/TallyCounter123/zh-Hans/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/">
+  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/">
+  <link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#c2682f;--accent-dark:#a8541f;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "计数器123", "description": "全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/TallyCounter123/zh-Hans/", "downloadUrl": "https://apps.apple.com/app/id6769252146", "image": ["https://masawata.net/TallyCounter123/images/asc/zh-Hans/01-phone.webp", "https://masawata.net/TallyCounter123/images/asc/zh-Hans/02-phone.webp", "https://masawata.net/TallyCounter123/images/asc/zh-Hans/03-phone.webp", "https://masawata.net/TallyCounter123/images/asc/zh-Hans/04-phone.webp", "https://masawata.net/TallyCounter123/images/asc/zh-Hans/05-phone.webp", "https://masawata.net/TallyCounter123/images/asc/zh-Hans/06-phone.webp", "https://masawata.net/TallyCounter123/images/asc/zh-Hans/07-phone.webp", "https://masawata.net/TallyCounter123/images/asc/zh-Hans/08-phone.webp"]}</script>
 </head>
-
 <body>
-  <div class="bar">
-    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> 计数器123</div>
-    <div class="bar__right">
-      <label class="lang-switch" aria-label="Choose language">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
-        <select onchange="if(this.value)location.href=this.value">
-        <option value="../">English</option>
-        <option value="../ja/">日本語</option>
-        <option value="../ko/">한국어</option>
-        <option value="../zh-Hans/" selected>简体中文</option>
-        <option value="../zh-Hant/">繁體中文</option>
-        <option value="../cs/">Čeština</option>
-        <option value="../da/">Dansk</option>
-        <option value="../de-DE/">Deutsch</option>
-        <option value="../es-ES/">Español</option>
-        <option value="../es-MX/">Español (México)</option>
-        <option value="../fi/">Suomi</option>
-        <option value="../fr-FR/">Français</option>
-        <option value="../hi/">हिन्दी</option>
-        <option value="../hu/">Magyar</option>
-        <option value="../id/">Bahasa Indonesia</option>
-        <option value="../it/">Italiano</option>
-        <option value="../no/">Norsk</option>
-        <option value="../pt-BR/">Português (Brasil)</option>
-        <option value="../ru/">Русский</option>
-        <option value="../sk/">Slovenčina</option>
-        <option value="../sv/">Svenska</option>
-        <option value="../vi/">Tiếng Việt</option>
-        <option value="../ar-SA/">العربية</option>
-        <option value="../tr/">Türkçe</option>
-        <option value="../pl/">Polski</option>
-        <option value="../nl-NL/">Nederlands</option>
-        <option value="../th/">ไทย</option>
-        <option value="../pt-PT/">Português (Portugal)</option>
-        <option value="../uk/">Українська</option>
-        <option value="../ro/">Română</option>
-        <option value="../el/">Ελληνικά</option>
-        <option value="../hr/">Hrvatski</option>
-        <option value="../sl-SI/">Slovenščina</option>
-        <option value="../ca/">Català</option>
-        <option value="../he/">עברית</option>
-        </select>
-      </label>
-      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
-    </div>
-  </div>
-
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/icon-512.png" alt="" width="44" height="44"><span>计数器123</span></a>
+    <details class="asc-languages">
+      <summary>语言: 简体中文</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../pt-PT/" lang="pt-PT">Português (Portugal)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sl-SI/" lang="sl-SI">Slovenščina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
   <main>
-    <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="计数器123 app icon" width="96" height="96">
-      <h1 class="hero__title">计数器 <span class="hero__counter" id="counter" data-target="123">123</span></h1>
-      <p class="hero__subtitle">Watch同步、点击器、比分</p>
-      <div class="hero__cta">
-        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">计数器123</p>
+        <h1>Watch同步、点击器、比分</h1>
+        <p>全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6769252146" rel="noopener">从 App Store 下载</a>
       </div>
-      <p class="hero__blurb">全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。</p>
+      <img class="asc-hero-shot" src="../images/asc/zh-Hans/01-phone.webp" alt="计数器123" width="720" height="1564" fetchpriority="high">
     </section>
-
-    <section class="showcase" aria-label="Screenshots">
-      <div class="showcase__shot"><img src="../images/asc/zh-Hans/03-phone.webp" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy"></div>
-      <div class="showcase__shot"><img src="../images/asc/zh-Hans/04-phone.webp" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
-      <div class="showcase__shot"><img src="../images/asc/zh-Hans/05-phone.webp" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy"></div>
+    <section class="asc-content" id="about">
+      <h2>关于本应用</h2>
+      <div class="asc-prose"><p>计数器123是专为 iPhone、iPad 和 Apple Watch 打造的快速、灵活的计数应用。你可以为每个计数器自定义名称和颜色，记录任何需要计数的事——举铁次数、念珠、编织段数、课堂积分、篮球比分、库存盘点、游戏得分。所有数据都存在本地设备，完全离线运行。</p>
+<h3>自定义计数器</h3>
+<ul><li>为不同活动、比赛、日常流程或清单创建独立计数器</li><li>每个计数器可自定义名称和颜色</li><li>拖拽重新排序</li><li>长按可连续加减</li><li>完全离线——无需注册，不依赖云端</li></ul>
+<h3>即时输入 &amp; 批量操作</h3>
+<ul><li>点击任何计数器直接设置起始值——无需从零重置</li><li>批量加减：任意数值一步到位</li><li>数值转移：计数器之间直接转移，不用重复加减</li><li>自定义步进：一次加 1、5、10、100 或任意数值</li><li>实时差异预览：每次变动都清晰高亮</li></ul>
+<h3>随机模式</h3>
+<ul><li>每次点击都随机生成 1 到 10 的新数值</li><li>可用加号加入随机值，也可用减号扣除随机值</li><li>适合训练、游戏、随机奖励、课堂活动和练习流程</li><li>每次随机点击都会记录在该计数器的历史中</li></ul>
+<h3>总计 &amp; 图表</h3>
+<ul><li>一目了然的总计</li><li>百分比视图：每个计数器占整体的比例</li><li>柱状图：数值（#）与百分比（%）模式可切换</li><li>按数值排序，排名立即可见</li></ul>
+<h3>历史 &amp; 分享</h3>
+<ul><li>完整变动记录：加、减、编辑全部留痕</li><li>计数器组合一键保存，随时复用</li><li>把计数器设置分享给队友、学生或朋友</li><li>历史可按日期日志、分组会话，或日/周/月统计查看</li></ul>
+<p>Apple Watch 实时同步</p>
+<ul><li>在 iPhone 或 Apple Watch 上更新，两个设备都会保持同步</li><li>真正的 watchOS 原生应用——不是壳</li><li>名称、颜色、数值完整同步到手腕</li><li>点一下计数，长按连续加</li><li>手机不在身边也能独立运行</li></ul>
+<p>iPhone、iPad 与 Apple Watch 全面适配</p>
+<ul><li>各种屏幕尺寸都有最佳布局</li><li>iPad 一次显示更多计数器，支持 Split View</li><li>隐私至上：本地存储，无云端、无账号</li></ul>
+<h3>适用场景</h3>
+<ul><li>健身举铁的次数和组数</li><li>编织段数、钩针针数</li><li>念珠、手串、诵经念佛</li><li>课堂积分、学生点名</li><li>篮球、乒乓球比赛计分</li><li>库存管理、仓库盘点</li><li>麻将、桌游、扑克牌计分</li><li>游泳圈数、跑步圈数</li><li>广场舞队形计数</li><li>观鸟生态记录</li><li>活动人数点名</li><li>习惯养成、打卡追踪</li></ul>
+<p>下载计数器123，让每次计数都轻松自如——清晰、快速、隐私。</p>
+<p>隐私政策: https://masawata.net/privacy-policy.html 使用条款: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
     </section>
-
-    <section class="feature">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">自定义计数器</p>
-          <h2 class="feature__title">为不同活动、比赛、日常流程或清单创建独立计数器</h2>
-          <p class="feature__body">每个计数器可自定义名称和颜色</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/zh-Hans/04-phone.webp" alt="自定义计数器" loading="lazy"></div></div>
-      </div>
+    <section class="asc-screens" id="screenshots">
+      <h2>屏幕截图</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/zh-Hans/01-phone.webp" alt="计数器123 — 屏幕截图 1" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hans/02-phone.webp" alt="计数器123 — 屏幕截图 2" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hans/03-phone.webp" alt="计数器123 — 屏幕截图 3" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hans/04-phone.webp" alt="计数器123 — 屏幕截图 4" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hans/05-phone.webp" alt="计数器123 — 屏幕截图 5" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hans/06-phone.webp" alt="计数器123 — 屏幕截图 6" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hans/07-phone.webp" alt="计数器123 — 屏幕截图 7" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/zh-Hans/08-phone.webp" alt="计数器123 — 屏幕截图 8" width="720" height="1564" loading="lazy"></figure></div>
     </section>
-    <section class="feature is-reversed">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">即时输入 &amp; 批量操作</p>
-          <h2 class="feature__title">点击任何计数器直接设置起始值——无需从零重置</h2>
-          <p class="feature__body">批量加减：任意数值一步到位</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/zh-Hans/06-phone.webp" alt="即时输入 &amp; 批量操作" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">随机模式</p>
-          <h2 class="feature__title">每次点击都随机生成 1 到 10 的新数值</h2>
-          <p class="feature__body">可用加号加入随机值，也可用减号扣除随机值</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/zh-Hans/08-phone.webp" alt="随机模式" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature is-reversed">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">总计 &amp; 图表</p>
-          <h2 class="feature__title">一目了然的总计</h2>
-          <p class="feature__body">百分比视图：每个计数器占整体的比例</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/zh-Hans/05-phone.webp" alt="总计 &amp; 图表" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">历史 &amp; 分享</p>
-          <h2 class="feature__title">完整变动记录：加、减、编辑全部留痕</h2>
-          <p class="feature__body">计数器组合一键保存，随时复用</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/zh-Hans/07-phone.webp" alt="历史 &amp; 分享" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature is-reversed">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">Apple Watch 实时同步</p>
-          <h2 class="feature__title">在 iPhone 或 Apple Watch 上更新，两个设备都会保持同步</h2>
-          <p class="feature__body">真正的 watchOS 原生应用——不是壳</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/zh-Hans/03-phone.webp" alt="Apple Watch 实时同步" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">iPhone、iPad 与 Apple Watch 全面适配</p>
-          <h2 class="feature__title">各种屏幕尺寸都有最佳布局</h2>
-          <p class="feature__body">iPad 一次显示更多计数器，支持 Split View</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/zh-Hans/04-phone.webp" alt="iPhone、iPad 与 Apple Watch 全面适配" loading="lazy"></div></div>
-      </div>
-    </section>
-
-    <section class="uses reveal">
-      <h2 class="uses__h">适用场景</h2>
-      <div class="uses__tags"><span class="tag">健身举铁的次数和组数</span><span class="tag">编织段数</span><span class="tag">念珠</span><span class="tag">课堂积分</span><span class="tag">篮球</span><span class="tag">库存管理</span><span class="tag">麻将</span><span class="tag">游泳圈数</span><span class="tag">广场舞队形计数</span><span class="tag">观鸟生态记录</span><span class="tag">活动人数点名</span><span class="tag">习惯养成</span></div>
-    </section>
-
-    <section class="end reveal">
-      <h2 class="end__h">下载计数器123，让每次计数都轻松自如——清晰、快速、隐私。</h2>
-      <div class="end__cta">
-        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
-      </div>
+    <section class="asc-download">
+      <h2>计数器123</h2>
+      <p>全新主屏幕小组件——直接在小组件上点按 +/- 计数，无需打开 App。计数器、点击器，支持 Apple Watch 同步、随机模式、图表与历史。</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6769252146" rel="noopener">从 App Store 下载</a>
     </section>
   </main>
-
   <footer>
-    <div class="foot">
-      <small>© 2026 Masawata</small>
-      <nav>
-        <a href="https://masawata.net/privacy-policy.html">Privacy</a>
-        <a href="https://masawata.net/">Support</a>
-      </nav>
-    </div>
+    <a href="https://masawata.net/privacy-policy.html">隐私政策</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">服务条款</a>
+    <a href="https://masawata.net/">支持</a>
   </footer>
-
-  <script src="../js/counter.js" defer></script>
 </body>
 </html>

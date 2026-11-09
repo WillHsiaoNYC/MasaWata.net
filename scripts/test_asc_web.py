@@ -40,16 +40,21 @@ class SitemapTests(unittest.TestCase):
         self.build({"es-ES": "es-MX"})
         page = (self.site / "es-ES/index.html").read_text()
         self.assertIn('<html lang="es-ES"', page)
+        self.assertIn("G-ZL852HY2Z4", page)
+        self.assertIn('property="og:title"', page)
+        self.assertIn('name="twitter:card"', page)
         self.assertIn('<link rel="canonical" href="https://example.com/app/es-MX/">', page)
-        self.assertIn('hreflang="es-ES" href="https://example.com/app/es-ES/"', page)
+        self.assertIn('hreflang="es-ES" href="https://example.com/app/es-MX/"', page)
         root = ET.parse(self.site / "sitemap.xml")
         ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9", "x": "http://www.w3.org/1999/xhtml"}
         entries = root.findall("sm:url", ns)
         self.assertEqual([node.findtext("sm:loc", namespaces=ns) for node in entries],
                          ["https://example.com/app/", "https://example.com/app/es-MX/"])
         for entry in entries:
-            self.assertEqual({node.get("hreflang") for node in entry.findall("x:link", ns)},
-                             set(self.locales) | {"x-default"})
+            alternates = {node.get("hreflang"): node.get("href") for node in entry.findall("x:link", ns)}
+            self.assertEqual(set(alternates), set(self.locales) | {"x-default"})
+            self.assertEqual(alternates["es-ES"], "https://example.com/app/es-MX/")
+            self.assertEqual(alternates["es-MX"], "https://example.com/app/es-MX/")
         self.assertEqual(root.findall(".//sm:lastmod", ns), [])
         self.assertIn('content="noindex"', (self.site / "es/index.html").read_text())
         # Neither the redirect nor the existing noindex event is submitted.

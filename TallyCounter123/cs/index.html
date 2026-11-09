@@ -1,102 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#ffffff">
-
-  <title>Počítadlo 123 — Watch sync, klikr, skóre</title>
-  <meta name="description" content="Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.">
-  <meta name="keywords" content="watch,sync,náhodné,historie,počítadlo,klikr,skóre,růženec,pletení,háčkování,inventura,návyky,body">
-  <meta name="author" content="Masawata">
-  <meta name="robots" content="index, follow">
-
-  <meta name="apple-itunes-app" content="app-id=6769252146">
-
-  <link rel="canonical" href="https://masawata.net/TallyCounter123/cs/">
-  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/">
-  <link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/">
-  <link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/">
-  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/">
-  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/">
-  <link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/">
-  <link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/">
-  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/">
-  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/">
-  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/">
-  <link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/">
-  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/">
-  <link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/">
-  <link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/">
-  <link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/">
-  <link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/">
-  <link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/">
-  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/">
-  <link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/">
-  <link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/">
-  <link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/">
-  <link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/">
-  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/">
-  <link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/">
-  <link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/">
-  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/">
-  <link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/">
-  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/">
-  <link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/">
-  <link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/">
-  <link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/">
-  <link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/">
-  <link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/">
-  <link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/">
-  <link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/">
-  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/">
-
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://masawata.net/TallyCounter123/cs/">
-  <meta property="og:title" content="Počítadlo 123 — Watch sync, klikr, skóre">
-  <meta property="og:description" content="Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.">
-  <meta property="og:image" content="https://masawata.net/TallyCounter123/images/icon-1024.png">
-  <meta property="og:site_name" content="Počítadlo 123">
-  <meta property="og:locale" content="cs_CZ">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Počítadlo 123 — Watch sync, klikr, skóre">
-  <meta name="twitter:description" content="Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.">
-  <meta name="twitter:image" content="https://masawata.net/TallyCounter123/images/icon-1024.png">
-
-  <link rel="icon" type="image/png" sizes="512x512" href="../images/icon-512.png">
-  <link rel="apple-touch-icon" href="../images/icon-180.png">
-
-  <link rel="stylesheet" href="../css/style.css?v=7">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Počítadlo 123",
-    "applicationCategory": "LifestyleApplication",
-    "operatingSystem": "iOS, iPadOS, watchOS",
-    "sameAs": "https://apps.apple.com/app/id6769252146",
-    "downloadUrl": "https://apps.apple.com/app/id6769252146",
-    "publisher": { "@type": "Organization", "name": "MasaWata Tech", "url": "https://masawata.net/" },
-    "description": "Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.",
-    "url": "https://masawata.net/TallyCounter123/cs/",
-    "image": "https://masawata.net/TallyCounter123/images/icon-1024.png",
-    "screenshot": [
-      "https://masawata.net/TallyCounter123/images/asc/cs/01-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/cs/02-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/cs/03-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/cs/04-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/cs/05-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/cs/06-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/cs/07-phone.webp",
-      "https://masawata.net/TallyCounter123/images/asc/cs/08-phone.webp"
-    ],
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-    "author": { "@type": "Organization", "name": "Masawata", "url": "https://masawata.net/" }
-  }
-  </script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -106,167 +12,156 @@
       gtag('config', 'G-ZL852HY2Z4');
     }
   </script>
+  <title>Počítadlo 123 — Watch sync, klikr, skóre</title>
+  <meta name="description" content="Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.">
+  <meta name="apple-itunes-app" content="app-id=6769252146">
+  <link rel="icon" href="../images/icon-512.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://masawata.net/TallyCounter123/cs/">
+  <meta property="og:title" content="Počítadlo 123">
+  <meta property="og:description" content="Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.">
+  <meta property="og:image" content="https://masawata.net/TallyCounter123/images/asc/cs/01-phone.webp">
+  <meta property="og:image:alt" content="Počítadlo 123">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Počítadlo 123">
+  <meta name="twitter:description" content="Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.">
+  <meta name="twitter:image" content="https://masawata.net/TallyCounter123/images/asc/cs/01-phone.webp">
+  <link rel="canonical" href="https://masawata.net/TallyCounter123/cs/">
+  <link rel="alternate" hreflang="ar-SA" href="https://masawata.net/TallyCounter123/ar-SA/">
+  <link rel="alternate" hreflang="ca" href="https://masawata.net/TallyCounter123/ca/">
+  <link rel="alternate" hreflang="cs" href="https://masawata.net/TallyCounter123/cs/">
+  <link rel="alternate" hreflang="da" href="https://masawata.net/TallyCounter123/da/">
+  <link rel="alternate" hreflang="de-DE" href="https://masawata.net/TallyCounter123/de-DE/">
+  <link rel="alternate" hreflang="el" href="https://masawata.net/TallyCounter123/el/">
+  <link rel="alternate" hreflang="en-US" href="https://masawata.net/TallyCounter123/">
+  <link rel="alternate" hreflang="es-ES" href="https://masawata.net/TallyCounter123/es-ES/">
+  <link rel="alternate" hreflang="es-MX" href="https://masawata.net/TallyCounter123/es-MX/">
+  <link rel="alternate" hreflang="fi" href="https://masawata.net/TallyCounter123/fi/">
+  <link rel="alternate" hreflang="fr-FR" href="https://masawata.net/TallyCounter123/fr-FR/">
+  <link rel="alternate" hreflang="he" href="https://masawata.net/TallyCounter123/he/">
+  <link rel="alternate" hreflang="hi" href="https://masawata.net/TallyCounter123/hi/">
+  <link rel="alternate" hreflang="hr" href="https://masawata.net/TallyCounter123/hr/">
+  <link rel="alternate" hreflang="hu" href="https://masawata.net/TallyCounter123/hu/">
+  <link rel="alternate" hreflang="id" href="https://masawata.net/TallyCounter123/id/">
+  <link rel="alternate" hreflang="it" href="https://masawata.net/TallyCounter123/it/">
+  <link rel="alternate" hreflang="ja" href="https://masawata.net/TallyCounter123/ja/">
+  <link rel="alternate" hreflang="ko" href="https://masawata.net/TallyCounter123/ko/">
+  <link rel="alternate" hreflang="nl-NL" href="https://masawata.net/TallyCounter123/nl-NL/">
+  <link rel="alternate" hreflang="no" href="https://masawata.net/TallyCounter123/no/">
+  <link rel="alternate" hreflang="pl" href="https://masawata.net/TallyCounter123/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://masawata.net/TallyCounter123/pt-BR/">
+  <link rel="alternate" hreflang="pt-PT" href="https://masawata.net/TallyCounter123/pt-PT/">
+  <link rel="alternate" hreflang="ro" href="https://masawata.net/TallyCounter123/ro/">
+  <link rel="alternate" hreflang="ru" href="https://masawata.net/TallyCounter123/ru/">
+  <link rel="alternate" hreflang="sk" href="https://masawata.net/TallyCounter123/sk/">
+  <link rel="alternate" hreflang="sl-SI" href="https://masawata.net/TallyCounter123/sl-SI/">
+  <link rel="alternate" hreflang="sv" href="https://masawata.net/TallyCounter123/sv/">
+  <link rel="alternate" hreflang="th" href="https://masawata.net/TallyCounter123/th/">
+  <link rel="alternate" hreflang="tr" href="https://masawata.net/TallyCounter123/tr/">
+  <link rel="alternate" hreflang="uk" href="https://masawata.net/TallyCounter123/uk/">
+  <link rel="alternate" hreflang="vi" href="https://masawata.net/TallyCounter123/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://masawata.net/TallyCounter123/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://masawata.net/TallyCounter123/zh-Hant/">
+  <link rel="alternate" hreflang="x-default" href="https://masawata.net/TallyCounter123/">
+  <link rel="stylesheet" href="../../includes/asc-localized.css">
+  <style>:root{color-scheme:light;--accent:#c2682f;--accent-dark:#a8541f;--bg:#ffffff;--surface:#f4f7fb;--ink:#132033;--muted:#59687c;--line:#dce4ef}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Počítadlo 123", "description": "Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "iOS, iPadOS, watchOS", "url": "https://masawata.net/TallyCounter123/cs/", "downloadUrl": "https://apps.apple.com/app/id6769252146", "image": ["https://masawata.net/TallyCounter123/images/asc/cs/01-phone.webp", "https://masawata.net/TallyCounter123/images/asc/cs/02-phone.webp", "https://masawata.net/TallyCounter123/images/asc/cs/03-phone.webp", "https://masawata.net/TallyCounter123/images/asc/cs/04-phone.webp", "https://masawata.net/TallyCounter123/images/asc/cs/05-phone.webp", "https://masawata.net/TallyCounter123/images/asc/cs/06-phone.webp", "https://masawata.net/TallyCounter123/images/asc/cs/07-phone.webp", "https://masawata.net/TallyCounter123/images/asc/cs/08-phone.webp"]}</script>
 </head>
-
 <body>
-  <div class="bar">
-    <div class="bar__brand"><img src="../images/icon-512.png" alt=""> Počítadlo 123</div>
-    <div class="bar__right">
-      <label class="lang-switch" aria-label="Choose language">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
-        <select onchange="if(this.value)location.href=this.value">
-        <option value="../">English</option>
-        <option value="../ja/">日本語</option>
-        <option value="../ko/">한국어</option>
-        <option value="../zh-Hans/">简体中文</option>
-        <option value="../zh-Hant/">繁體中文</option>
-        <option value="../cs/" selected>Čeština</option>
-        <option value="../da/">Dansk</option>
-        <option value="../de-DE/">Deutsch</option>
-        <option value="../es-ES/">Español</option>
-        <option value="../es-MX/">Español (México)</option>
-        <option value="../fi/">Suomi</option>
-        <option value="../fr-FR/">Français</option>
-        <option value="../hi/">हिन्दी</option>
-        <option value="../hu/">Magyar</option>
-        <option value="../id/">Bahasa Indonesia</option>
-        <option value="../it/">Italiano</option>
-        <option value="../no/">Norsk</option>
-        <option value="../pt-BR/">Português (Brasil)</option>
-        <option value="../ru/">Русский</option>
-        <option value="../sk/">Slovenčina</option>
-        <option value="../sv/">Svenska</option>
-        <option value="../vi/">Tiếng Việt</option>
-        <option value="../ar-SA/">العربية</option>
-        <option value="../tr/">Türkçe</option>
-        <option value="../pl/">Polski</option>
-        <option value="../nl-NL/">Nederlands</option>
-        <option value="../th/">ไทย</option>
-        <option value="../pt-PT/">Português (Portugal)</option>
-        <option value="../uk/">Українська</option>
-        <option value="../ro/">Română</option>
-        <option value="../el/">Ελληνικά</option>
-        <option value="../hr/">Hrvatski</option>
-        <option value="../sl-SI/">Slovenščina</option>
-        <option value="../ca/">Català</option>
-        <option value="../he/">עברית</option>
-        </select>
-      </label>
-      <a class="bar__dl" href="https://apps.apple.com/app/id6769252146" rel="noopener">Download</a>
-    </div>
-  </div>
-
+  <header class="asc-header">
+    <a class="asc-brand" href="../"><img src="../images/icon-512.png" alt="" width="44" height="44"><span>Počítadlo 123</span></a>
+    <details class="asc-languages">
+      <summary>Jazyk: Čeština</summary>
+      <nav><a href="../ar-SA/" lang="ar-SA">العربية</a>
+<a href="../ca/" lang="ca">Català</a>
+<a href="../cs/" lang="cs">Čeština</a>
+<a href="../da/" lang="da">Dansk</a>
+<a href="../de-DE/" lang="de-DE">Deutsch</a>
+<a href="../el/" lang="el">Ελληνικά</a>
+<a href="../" lang="en-US">English</a>
+<a href="../es-ES/" lang="es-ES">Español (España)</a>
+<a href="../es-MX/" lang="es-MX">Español (México)</a>
+<a href="../fi/" lang="fi">Suomi</a>
+<a href="../fr-FR/" lang="fr-FR">Français</a>
+<a href="../he/" lang="he">עברית</a>
+<a href="../hi/" lang="hi">हिन्दी</a>
+<a href="../hr/" lang="hr">Hrvatski</a>
+<a href="../hu/" lang="hu">Magyar</a>
+<a href="../id/" lang="id">Bahasa Indonesia</a>
+<a href="../it/" lang="it">Italiano</a>
+<a href="../ja/" lang="ja">日本語</a>
+<a href="../ko/" lang="ko">한국어</a>
+<a href="../nl-NL/" lang="nl-NL">Nederlands</a>
+<a href="../no/" lang="no">Norsk</a>
+<a href="../pl/" lang="pl">Polski</a>
+<a href="../pt-BR/" lang="pt-BR">Português (Brasil)</a>
+<a href="../pt-PT/" lang="pt-PT">Português (Portugal)</a>
+<a href="../ro/" lang="ro">Română</a>
+<a href="../ru/" lang="ru">Русский</a>
+<a href="../sk/" lang="sk">Slovenčina</a>
+<a href="../sl-SI/" lang="sl-SI">Slovenščina</a>
+<a href="../sv/" lang="sv">Svenska</a>
+<a href="../th/" lang="th">ไทย</a>
+<a href="../tr/" lang="tr">Türkçe</a>
+<a href="../uk/" lang="uk">Українська</a>
+<a href="../vi/" lang="vi">Tiếng Việt</a>
+<a href="../zh-Hans/" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" lang="zh-Hant">繁體中文</a></nav>
+    </details>
+  </header>
   <main>
-    <section class="hero">
-      <img class="hero__icon" src="../images/icon-512.png" alt="Počítadlo 123 app icon" width="96" height="96">
-      <h1 class="hero__title">Počítadlo <span class="hero__counter" id="counter" data-target="123">123</span></h1>
-      <p class="hero__subtitle">Watch sync, klikr, skóre</p>
-      <div class="hero__cta">
-        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
+    <section class="asc-hero">
+      <div class="asc-hero-copy">
+        <p class="asc-eyebrow">Počítadlo 123</p>
+        <h1>Watch sync, klikr, skóre</h1>
+        <p>Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.</p>
+        <a class="asc-button" href="https://apps.apple.com/app/id6769252146" rel="noopener">Stáhnout v App Storu</a>
       </div>
-      <p class="hero__blurb">Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.</p>
+      <img class="asc-hero-shot" src="../images/asc/cs/01-phone.webp" alt="Počítadlo 123" width="720" height="1564" fetchpriority="high">
     </section>
-
-    <section class="showcase" aria-label="Screenshots">
-      <div class="showcase__shot"><img src="../images/asc/cs/03-phone.webp" alt="Live Apple Watch sync — counters mirror between iPhone and watch" loading="lazy"></div>
-      <div class="showcase__shot"><img src="../images/asc/cs/04-phone.webp" alt="List of multiple personalized counters with names, colors, and smart transfers" loading="eager"></div>
-      <div class="showcase__shot"><img src="../images/asc/cs/05-phone.webp" alt="Sessions, history, and visual insights — interactive bar chart with totals" loading="lazy"></div>
+    <section class="asc-content" id="about">
+      <h2>O aplikaci</h2>
+      <div class="asc-prose"><p>Počítadlo 123 je rychlé a flexibilní počítadlo pro iPhone, iPad a Apple Watch. Pojmenuj si počítadla, vyber barvu a počítej cokoliv — série v posilovně, řádky pletení, růženec, body ve třídě, inventuru, skóre hry. Všechno zůstává lokálně na zařízení, funguje offline.</p>
+<h3>VLASTNÍ POČÍTADLA</h3>
+<ul><li>Vytvoř samostatná počítadla pro aktivity, hry, rutiny nebo seznamy</li><li>Vlastní název a barva pro každé počítadlo</li><li>Táhni a přeuspořádej</li><li>Podrž pro rychlé počítání v řadě</li><li>Plně offline — bez registrace, bez cloudu</li></ul>
+<h3>PŘÍMÝ VSTUP &amp; HROMADNÉ OPERACE</h3>
+<ul><li>Klepni na počítadlo a nastav rovnou počáteční hodnotu — nemusíš mazat na nulu</li><li>Hromadné +/-: změň počítadlo o jakékoliv číslo jedním klepnutím</li><li>Převod: přesuň hodnotu z jednoho počítadla do druhého bez dvojí operace</li><li>Vlastní krok: jedno klepnutí přidá 1, 5, 10, 100 nebo cokoliv si nastavíš</li><li>Živý náhled každé změny</li></ul>
+<h3>NÁHODNÝ REŽIM</h3>
+<ul><li>Počítadlo může při každém klepnutí vylosovat hodnotu 1 až 10</li><li>Přičítej nebo odečítej náhodné hodnoty tlačítky + a -</li><li>Hodí se pro cvičení, hry, odměny, výuku i tréninkové rutiny</li><li>Každé náhodné klepnutí se uloží do historie počítadla</li></ul>
+<h3>SOUČTY &amp; GRAFY</h3>
+<ul><li>Celkový součet všech počítadel na jeden pohled</li><li>Procentní režim: podíl každého počítadla na celku</li><li>Interaktivní sloupcový graf — přepínej mezi hodnotou (#) a procenty (%)</li><li>Řaď podle hodnoty pro okamžitý žebříček</li></ul>
+<h3>HISTORIE &amp; SDÍLENÍ</h3>
+<ul><li>Kompletní historie: každé přičtení, odečtení i úprava</li><li>Ukládej sady počítadel a nahraj je znovu kdykoliv</li><li>Sdílej konfigurace s týmem, spolužáky nebo kamarády</li><li>Historii zobrazíš jako denní log, seskupené relace nebo statistiky podle dne/týdne/měsíce</li></ul>
+<h3>ŽIVÁ SYNCHRONIZACE S APPLE WATCH</h3>
+<ul><li>Změň počítadlo na iPhonu nebo Apple Watch a obě zařízení zůstanou sladěná</li><li>Plnohodnotná nativní watchOS aplikace — ne jen doplněk k iPhonu</li><li>Názvy, barvy a hodnoty synchronizované na zápěstí</li><li>Klepni pro počítání, podrž pro opakování — přímo z hodinek</li><li>Funguje samostatně, když iPhone není po ruce</li></ul>
+<p>PRO iPhone, iPad &amp; APPLE WATCH</p>
+<ul><li>Adaptivní rozložení pro libovolnou velikost obrazovky</li><li>iPad ukáže víc počítadel najednou, podporuje Split View</li><li>Soukromí na prvním místě: lokální uložení, bez cloudu, bez účtu</li></ul>
+<h3>IDEÁLNÍ PRO</h3>
+<ul><li>Série a opakování v posilovně</li><li>Řádky pletení a oka háčkování</li><li>Růženec, tasbih, modlitební korálky</li><li>Body ve třídě a docházka</li><li>Házená, volejbal, fotbal — rychlé skóre</li><li>Stolní tenis</li><li>Inventura a počítání zásob</li><li>Mariáš, prší, žolíky a další karetní hry</li><li>Bazénová a běžecká kola</li><li>Pozorování ptáků</li><li>Počítání účastníků na akcích</li><li>Sledování návyků a cílů</li></ul>
+<p>Stáhni si Počítadlo 123 a udělej z každého počítání hračku — jasně, rychle, soukromě.</p>
+<p>Zásady ochrany osobních údajů: https://masawata.net/privacy-policy.html Podmínky použití: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</p></div>
     </section>
-
-    <section class="feature">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">VLASTNÍ POČÍTADLA</p>
-          <h2 class="feature__title">Vytvoř samostatná počítadla pro aktivity, hry, rutiny nebo seznamy</h2>
-          <p class="feature__body">Vlastní název a barva pro každé počítadlo</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/cs/04-phone.webp" alt="VLASTNÍ POČÍTADLA" loading="lazy"></div></div>
-      </div>
+    <section class="asc-screens" id="screenshots">
+      <h2>Snímky obrazovky</h2>
+      <div class="asc-gallery"><figure><img src="../images/asc/cs/01-phone.webp" alt="Počítadlo 123 — Snímky obrazovky 1" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/02-phone.webp" alt="Počítadlo 123 — Snímky obrazovky 2" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/03-phone.webp" alt="Počítadlo 123 — Snímky obrazovky 3" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/04-phone.webp" alt="Počítadlo 123 — Snímky obrazovky 4" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/05-phone.webp" alt="Počítadlo 123 — Snímky obrazovky 5" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/06-phone.webp" alt="Počítadlo 123 — Snímky obrazovky 6" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/07-phone.webp" alt="Počítadlo 123 — Snímky obrazovky 7" width="720" height="1564" loading="lazy"></figure>
+<figure><img src="../images/asc/cs/08-phone.webp" alt="Počítadlo 123 — Snímky obrazovky 8" width="720" height="1564" loading="lazy"></figure></div>
     </section>
-    <section class="feature is-reversed">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">PŘÍMÝ VSTUP &amp; HROMADNÉ OPERACE</p>
-          <h2 class="feature__title">Klepni na počítadlo a nastav rovnou počáteční hodnotu — nemusíš mazat na nulu</h2>
-          <p class="feature__body">Hromadné +/-: změň počítadlo o jakékoliv číslo jedním klepnutím</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/cs/06-phone.webp" alt="PŘÍMÝ VSTUP &amp; HROMADNÉ OPERACE" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">NÁHODNÝ REŽIM</p>
-          <h2 class="feature__title">Počítadlo může při každém klepnutí vylosovat hodnotu 1 až 10</h2>
-          <p class="feature__body">Přičítej nebo odečítej náhodné hodnoty tlačítky + a -</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/cs/08-phone.webp" alt="NÁHODNÝ REŽIM" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature is-reversed">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">SOUČTY &amp; GRAFY</p>
-          <h2 class="feature__title">Celkový součet všech počítadel na jeden pohled</h2>
-          <p class="feature__body">Procentní režim: podíl každého počítadla na celku</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/cs/07-phone.webp" alt="SOUČTY &amp; GRAFY" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">HISTORIE &amp; SDÍLENÍ</p>
-          <h2 class="feature__title">Kompletní historie: každé přičtení, odečtení i úprava</h2>
-          <p class="feature__body">Ukládej sady počítadel a nahraj je znovu kdykoliv</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/cs/05-phone.webp" alt="HISTORIE &amp; SDÍLENÍ" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature is-reversed">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">ŽIVÁ SYNCHRONIZACE S APPLE WATCH</p>
-          <h2 class="feature__title">Změň počítadlo na iPhonu nebo Apple Watch a obě zařízení zůstanou sladěná</h2>
-          <p class="feature__body">Plnohodnotná nativní watchOS aplikace — ne jen doplněk k iPhonu</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/cs/03-phone.webp" alt="ŽIVÁ SYNCHRONIZACE S APPLE WATCH" loading="lazy"></div></div>
-      </div>
-    </section>
-    <section class="feature">
-      <div class="wrap feature__grid">
-        <div class="feature__text reveal">
-          <p class="feature__eyebrow">PRO iPhone, iPad &amp; APPLE WATCH</p>
-          <h2 class="feature__title">Adaptivní rozložení pro libovolnou velikost obrazovky</h2>
-          <p class="feature__body">iPad ukáže víc počítadel najednou, podporuje Split View</p>
-        </div>
-        <div class="feature__media reveal"><div class="feature__phone"><img src="../images/asc/cs/04-phone.webp" alt="PRO iPhone, iPad &amp; APPLE WATCH" loading="lazy"></div></div>
-      </div>
-    </section>
-
-    <section class="uses reveal">
-      <h2 class="uses__h">Ideální Pro</h2>
-      <div class="uses__tags"><span class="tag">Série a opakování v posilovně</span><span class="tag">Řádky pletení a oka háčkování</span><span class="tag">Růženec</span><span class="tag">Body ve třídě a docházka</span><span class="tag">Házená</span><span class="tag">Stolní tenis</span><span class="tag">Inventura a počítání zásob</span><span class="tag">Mariáš</span><span class="tag">Bazénová a běžecká kola</span><span class="tag">Pozorování ptáků</span><span class="tag">Počítání účastníků na akcích</span><span class="tag">Sledování návyků a cílů</span></div>
-    </section>
-
-    <section class="end reveal">
-      <h2 class="end__h">Stáhni si Počítadlo 123 a udělej z každého počítání hračku — jasně, rychle, soukromě.</h2>
-      <div class="end__cta">
-        <a class="cta" href="https://apps.apple.com/app/id6769252146" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-2.96 2.42-4.38 2.53-4.45-1.38-2.02-3.53-2.3-4.3-2.33-1.83-.18-3.57 1.08-4.5 1.08-.94 0-2.37-1.05-3.9-1.02-2 .03-3.86 1.17-4.9 2.96-2.1 3.63-.53 9 1.5 11.93 1 1.44 2.17 3.04 3.7 2.98 1.5-.06 2.06-.95 3.86-.95 1.8 0 2.32.95 3.9.92 1.62-.03 2.63-1.45 3.6-2.9 1.14-1.66 1.6-3.27 1.63-3.35-.04-.02-3.1-1.19-3.12-4.72zM14.3 3.1c.82-.99 1.37-2.37 1.22-3.74-1.18.05-2.62.8-3.46 1.78-.75.87-1.41 2.28-1.24 3.62 1.32.1 2.66-.67 3.48-1.66z"/></svg> Download on the App Store</a>
-      </div>
+    <section class="asc-download">
+      <h2>Počítadlo 123</h2>
+      <p>Novinka: widgety na ploše — klepni na +/- na widgetu bez otevření aplikace. Počítadlo a klikr s Apple Watch sync, náhodný režim, grafy a historie.</p>
+      <a class="asc-button" href="https://apps.apple.com/app/id6769252146" rel="noopener">Stáhnout v App Storu</a>
     </section>
   </main>
-
   <footer>
-    <div class="foot">
-      <small>© 2026 Masawata</small>
-      <nav>
-        <a href="https://masawata.net/privacy-policy.html">Privacy</a>
-        <a href="https://masawata.net/">Support</a>
-      </nav>
-    </div>
+    <a href="https://masawata.net/privacy-policy.html">Zásady ochrany soukromí</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Podmínky služby</a>
+    <a href="https://masawata.net/">Podpora</a>
   </footer>
-
-  <script src="../js/counter.js" defer></script>
 </body>
 </html>

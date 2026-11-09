@@ -183,12 +183,17 @@ def render_asc_page(
     extra_stylesheets: tuple[str, ...] = (),
     pre_hero_html: str = "",
     canonical_locale: str | None = None,
+    canonical_locales: dict[str, str] | None = None,
     page_options: PageOptions | None = None,
 ) -> str:
+    from PIL import Image
+
     item = metadata["locales"][locale]
     html_lang, native_name, rtl = LOCALE_INFO[locale]
     about, shots_label, download, privacy, terms, support, language = UI[locale]
-    canonical = locale_url(base_url, canonical_locale or locale)
+    canonical_map = canonical_locales or {}
+    resolved_canonical_locale = canonical_locale or canonical_map.get(locale, locale)
+    canonical = locale_url(base_url, resolved_canonical_locale)
     app_url = f"https://apps.apple.com/app/id{app_store_id}"
     title = item.get("name") or metadata["appName"]
     subtitle = item.get("subtitle") or title
@@ -212,36 +217,31 @@ def render_asc_page(
     global_prefix = "../" if locale == "en-US" else "../../"
     relative_shots = [f"{app_prefix}images/asc/{locale}/{p.name}" for p in shots]
     alternates = "\n".join(
-        f'  <link rel="alternate" hreflang="{LOCALE_INFO[code][0]}" href="{locale_url(base_url, code)}">'
+        f'  <link rel="alternate" hreflang="{LOCALE_INFO[code][0]}" href="{locale_url(base_url, canonical_map.get(code, code))}">'
         for code in metadata["locales"]
     )
     language_links = "\n".join(
         f'<a href="{(("./" if code == "en-US" else f"{code}/") if locale == "en-US" else ("../" if code == "en-US" else f"../{code}/"))}" lang="{LOCALE_INFO[code][0]}">{html.escape(LOCALE_INFO[code][1])}</a>'
         for code in metadata["locales"]
     )
-    gallery = "\n".join(
-        f'<figure><img src="{src}" alt="{html.escape(title)} — {shots_label} {i}" loading="lazy"></figure>'
-        for i, src in enumerate(relative_shots, 1)
-    )
-    hero_image = f'<img class="asc-hero-shot" src="{relative_shots[0]}" alt="{html.escape(title)}">' if relative_shots else ''
-    if page_options:
-        from PIL import Image
-
-        if len(page_options.screenshot_alts) != len(shots):
-            raise RuntimeError("Every screenshot requires a descriptive alt text")
-        rendered_shots = []
-        for path, src, alt in zip(shots, relative_shots, page_options.screenshot_alts):
-            with Image.open(path) as image:
-                size = f'width="{image.width}" height="{image.height}"'
-            rendered_shots.append(
-                f'<figure><img src="{src}" alt="{html.escape(alt, quote=True)}" {size} loading="lazy"></figure>'
+    if page_options and len(page_options.screenshot_alts) != len(shots):
+        raise RuntimeError("Every screenshot requires a descriptive alt text")
+    rendered_shots = []
+    hero_image = ""
+    for i, (path, src) in enumerate(zip(shots, relative_shots), 1):
+        alt = page_options.screenshot_alts[i - 1] if page_options else f"{title} — {shots_label} {i}"
+        with Image.open(path) as image:
+            size = f'width="{image.width}" height="{image.height}"'
+        rendered_shots.append(
+            f'<figure><img src="{src}" alt="{html.escape(alt, quote=True)}" {size} loading="lazy"></figure>'
+        )
+        if i == 1:
+            hero_alt = alt if page_options else title
+            hero_image = (
+                f'<img class="asc-hero-shot" src="{src}" alt="{html.escape(hero_alt, quote=True)}" '
+                f'{size} fetchpriority="high">'
             )
-            if path == shots[0]:
-                hero_image = (
-                    f'<img class="asc-hero-shot" src="{src}" alt="{html.escape(alt, quote=True)}" '
-                    f'{size} fetchpriority="high">'
-                )
-        gallery = "\n".join(rendered_shots)
+    gallery = "\n".join(rendered_shots)
     schema_data = {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
@@ -270,7 +270,6 @@ def render_asc_page(
       <summary>{html.escape(language)}: {html.escape(native_name)}</summary>
       <nav>{language_links}</nav>
     </details>'''
-    store_meta = f'  <meta name="apple-itunes-app" content="app-id={app_store_id}">'
     release_markup = ""
     skip_markup = ""
     footer_studio = ""
@@ -290,14 +289,16 @@ def render_asc_page(
         skip_markup = '\n  <a class="skip-link" href="#main">Skip to content</a>'
         footer_studio = '\n    <a href="/">MasaWata</a>'
         gallery_attributes = f' tabindex="0" role="region" aria-label="{html.escape(brand_name, quote=True)} screenshots — scroll to explore"'
-        social_image = shot_urls[0] if shot_urls else f"{base_url}/{icon_path}"
-        store_meta = f'''  <link rel="icon" href="{app_prefix}{icon_path}">
+    social_image = shot_urls[0] if shot_urls else f"{base_url}/{icon_path}"
+    social_alt = (page_options.screenshot_alts[0] if shots else brand_name) if page_options else title
+    itunes_meta = "" if page_options else f'  <meta name="apple-itunes-app" content="app-id={app_store_id}">\n'
+    store_meta = f'''{itunes_meta}  <link rel="icon" href="{app_prefix}{icon_path}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{canonical}">
   <meta property="og:title" content="{html.escape(title, quote=True)}">
   <meta property="og:description" content="{html.escape(promo, quote=True)}">
   <meta property="og:image" content="{social_image}">
-  <meta property="og:image:alt" content="{html.escape(page_options.screenshot_alts[0] if shots else brand_name, quote=True)}">
+  <meta property="og:image:alt" content="{html.escape(social_alt, quote=True)}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{html.escape(title, quote=True)}">
   <meta name="twitter:description" content="{html.escape(promo, quote=True)}">
@@ -307,6 +308,15 @@ def render_asc_page(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL852HY2Z4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {{
+      gtag('config', 'G-ZL852HY2Z4');
+    }}
+  </script>
   <title>{html.escape(title)} — {html.escape(subtitle)}</title>
   <meta name="description" content="{html.escape(promo, quote=True)}">
 {store_meta}
@@ -414,6 +424,7 @@ def build_site(
                 site_dir=site_dir,
                 locale=locale,
                 canonical_locale=canonical_locales.get(locale),
+                canonical_locales=canonical_locales,
                 metadata=metadata,
                 base_url=base_url,
                 app_store_id=app_store_id,
@@ -462,8 +473,9 @@ def build_site(
             ]
         )
         for alternate in locales:
+            target_locale = canonical_locales.get(alternate, alternate)
             lines.append(
-                f'    <xhtml:link rel="alternate" hreflang="{alternate}" href="{locale_url(base_url, alternate)}"/>'
+                f'    <xhtml:link rel="alternate" hreflang="{alternate}" href="{locale_url(base_url, target_locale)}"/>'
             )
         lines.append(
             f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base_url}/"/>'
