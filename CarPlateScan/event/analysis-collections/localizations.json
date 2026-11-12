@@ -1,0 +1,466 @@
+{
+  "start": "2026-12-01T09:00:00-05:00",
+  "end": "2026-12-15T09:00:00-05:00",
+  "locales": {
+    "en-US": {
+      "name": "Plate Collections Debut",
+      "short_description": "Explore new collections of your saved plates.",
+      "long_description": "Browse saved plates by starting or ending letters and digits, then revisit the captures behind each collection.",
+      "label": "English (U.S.)",
+      "language": "Language",
+      "appStore": "View on the App Store",
+      "requires": "Requires v1.2. Update when v1.2 becomes available in your App Store.",
+      "interface": "App interface: English and Traditional Chinese."
+    },
+    "ar-SA": {
+      "name": "انطلاقة مجموعات اللوحات",
+      "short_description": "استكشف مجموعات جديدة للوحات السيارات المحفوظة.",
+      "long_description": "تصفح اللوحات المحفوظة حسب أحرف وأرقام البداية أو النهاية، ثم أعد فتح لقطات كل مجموعة.",
+      "label": "Arabic",
+      "language": "اللغة",
+      "appStore": "عرض في App Store",
+      "requires": "يتطلب الإصدار 1.2. حدّث التطبيق عند توفره في App Store لديك.",
+      "interface": "واجهة التطبيق بالإنجليزية والصينية التقليدية."
+    },
+    "bn-BD": {
+      "name": "নম্বর প্লেট সংগ্রহের সূচনা",
+      "short_description": "সংরক্ষিত নম্বর প্লেটের নতুন সংগ্রহ দেখুন।",
+      "long_description": "শুরুর বা শেষের অক্ষর ও অঙ্ক অনুযায়ী সংরক্ষিত প্লেট দেখুন। প্রতিটি সংগ্রহের ছবিগুলো আবার খুলুন।",
+      "label": "Bengali",
+      "language": "ভাষা",
+      "appStore": "App Store-এ দেখুন",
+      "requires": "v1.2 প্রয়োজন। আপনার App Store-এ v1.2 উপলব্ধ হলে আপডেট করুন।",
+      "interface": "অ্যাপের ইন্টারফেস: ইংরেজি ও ঐতিহ্যবাহী চীনা।"
+    },
+    "ca": {
+      "name": "Estrena de les col·leccions",
+      "short_description": "Explora noves col·leccions de matrícules desades.",
+      "long_description": "Explora matrícules desades per lletres i dígits inicials o finals i torna a veure les captures de cada col·lecció.",
+      "label": "Catalan",
+      "language": "Idioma",
+      "appStore": "Mostra a l’App Store",
+      "requires": "Requereix la versió 1.2. Actualitza quan estigui disponible a l’App Store.",
+      "interface": "Interfície de l’app: anglès i xinès tradicional."
+    },
+    "zh-Hant": {
+      "name": "車牌組合新登場",
+      "short_description": "探索已儲存車牌的全新組合。",
+      "long_description": "依開頭或結尾的字母與數字瀏覽已儲存車牌，再查看各組合中的擷取紀錄。",
+      "label": "Chinese (Traditional)",
+      "language": "語言",
+      "appStore": "前往 App Store",
+      "requires": "需要 v1.2。當你的 App Store 提供 v1.2 時，請更新 App。",
+      "interface": "App 介面語言：英文與繁體中文。"
+    },
+    "hr": {
+      "name": "Zbirke tablica su stigle",
+      "short_description": "Istražite nove zbirke svojih spremljenih tablica.",
+      "long_description": "Pregledajte spremljene tablice po početnim ili završnim slovima i znamenkama pa ponovno otvorite snimke svake zbirke.",
+      "label": "Croatian",
+      "language": "Jezik",
+      "appStore": "Pogledaj u App Storeu",
+      "requires": "Potrebna je verzija 1.2. Ažuriraj kada postane dostupna u tvojem App Storeu.",
+      "interface": "Sučelje aplikacije: engleski i tradicionalni kineski."
+    },
+    "cs": {
+      "name": "Sbírky SPZ jsou tu",
+      "short_description": "Prohlédněte si nové sbírky uložených SPZ.",
+      "long_description": "Procházejte uložené SPZ podle počátečních či koncových písmen a číslic a vracejte se ke snímkům v každé sbírce.",
+      "label": "Czech",
+      "language": "Jazyk",
+      "appStore": "Zobrazit v App Storu",
+      "requires": "Vyžaduje verzi 1.2. Aktualizujte, až bude dostupná ve vašem App Storu.",
+      "interface": "Rozhraní aplikace: angličtina a tradiční čínština."
+    },
+    "da": {
+      "name": "Nye nummerpladesamlinger",
+      "short_description": "Udforsk nye samlinger af dine gemte nummerplader.",
+      "long_description": "Se gemte nummerplader efter bogstaver og tal i starten eller slutningen, og genåbn optagelserne i hver samling.",
+      "label": "Danish",
+      "language": "Sprog",
+      "appStore": "Se i App Store",
+      "requires": "Kræver v1.2. Opdater, når v1.2 er tilgængelig i din App Store.",
+      "interface": "Appens grænseflade: engelsk og traditionelt kinesisk."
+    },
+    "nl-NL": {
+      "name": "Nieuwe kentekencollecties",
+      "short_description": "Nieuwe collecties van je opgeslagen kentekens.",
+      "long_description": "Bekijk opgeslagen kentekens op begin- of eindletters en -cijfers en open de bijbehorende opnamen opnieuw.",
+      "label": "Dutch",
+      "language": "Taal",
+      "appStore": "Bekijk in de App Store",
+      "requires": "Vereist v1.2. Werk bij zodra v1.2 beschikbaar is in je App Store.",
+      "interface": "App-interface: Engels en traditioneel Chinees."
+    },
+    "en-AU": {
+      "name": "Plate Collections Debut",
+      "short_description": "Explore new collections of your saved plates.",
+      "long_description": "Browse saved plates by starting or ending letters and digits, then revisit the captures behind each collection.",
+      "label": "English (Australia)",
+      "language": "Language",
+      "appStore": "View on the App Store",
+      "requires": "Requires v1.2. Update when v1.2 becomes available in your App Store.",
+      "interface": "App interface: English and Traditional Chinese."
+    },
+    "en-CA": {
+      "name": "Plate Collections Debut",
+      "short_description": "Explore new collections of your saved plates.",
+      "long_description": "Browse saved plates by starting or ending letters and digits, then revisit the captures behind each collection.",
+      "label": "English (Canada)",
+      "language": "Language",
+      "appStore": "View on the App Store",
+      "requires": "Requires v1.2. Update when v1.2 becomes available in your App Store.",
+      "interface": "App interface: English and Traditional Chinese."
+    },
+    "en-GB": {
+      "name": "Plate Collections Debut",
+      "short_description": "Explore new collections of your saved plates.",
+      "long_description": "Browse saved plates by starting or ending letters and digits, then revisit the captures behind each collection.",
+      "label": "English (U.K.)",
+      "language": "Language",
+      "appStore": "View on the App Store",
+      "requires": "Requires v1.2. Update when v1.2 becomes available in your App Store.",
+      "interface": "App interface: English and Traditional Chinese."
+    },
+    "fi": {
+      "name": "Uudet rekisterikilpikokoelmat",
+      "short_description": "Tutustu tallennettujen kilpien uusiin kokoelmiin.",
+      "long_description": "Selaa tallennettuja kilpiä alku- tai loppukirjainten ja -numeroiden mukaan ja avaa kokoelmien tallenteet uudelleen.",
+      "label": "Finnish",
+      "language": "Kieli",
+      "appStore": "Näytä App Storessa",
+      "requires": "Vaatii version 1.2. Päivitä, kun se on saatavilla App Storessasi.",
+      "interface": "Sovelluksen käyttöliittymä: englanti ja perinteinen kiina."
+    },
+    "fr-FR": {
+      "name": "Les collections arrivent",
+      "short_description": "De nouvelles collections de plaques enregistrées.",
+      "long_description": "Parcourez vos plaques par lettres et chiffres de début ou de fin, puis retrouvez les captures de chaque collection.",
+      "label": "French",
+      "language": "Langue",
+      "appStore": "Voir sur l’App Store",
+      "requires": "Nécessite la version 1.2. Mettez à jour dès sa disponibilité dans votre App Store.",
+      "interface": "Interface de l’app : anglais et chinois traditionnel."
+    },
+    "fr-CA": {
+      "name": "Les collections arrivent",
+      "short_description": "De nouvelles collections de plaques enregistrées.",
+      "long_description": "Parcourez vos plaques par lettres et chiffres de début ou de fin, puis retrouvez les captures de chaque collection.",
+      "label": "French (Canada)",
+      "language": "Langue",
+      "appStore": "Voir sur l’App Store",
+      "requires": "Nécessite la version 1.2. Mettez à jour dès sa disponibilité dans votre App Store.",
+      "interface": "Interface de l’app : anglais et chinois traditionnel."
+    },
+    "de-DE": {
+      "name": "Kennzeichensammlungen sind da",
+      "short_description": "Neue Sammlungen deiner gespeicherten Kennzeichen.",
+      "long_description": "Durchstöbere deine Kennzeichen nach Buchstaben und Ziffern am Anfang oder Ende und öffne die zugehörigen Aufnahmen.",
+      "label": "German",
+      "language": "Sprache",
+      "appStore": "Im App Store ansehen",
+      "requires": "Benötigt Version 1.2. Aktualisiere die App, sobald sie in deinem App Store verfügbar ist.",
+      "interface": "App-Oberfläche: Englisch und traditionelles Chinesisch."
+    },
+    "el": {
+      "name": "Πρεμιέρα συλλογών πινακίδων",
+      "short_description": "Δείτε νέες συλλογές αποθηκευμένων πινακίδων.",
+      "long_description": "Δείτε πινακίδες ανά αρχικά ή τελικά γράμματα και ψηφία, έπειτα ξανανοίξτε τις αποθηκευμένες λήψεις κάθε συλλογής.",
+      "label": "Greek",
+      "language": "Γλώσσα",
+      "appStore": "Προβολή στο App Store",
+      "requires": "Απαιτείται η έκδοση 1.2. Κάνε ενημέρωση όταν διατεθεί στο App Store σου.",
+      "interface": "Περιβάλλον εφαρμογής: Αγγλικά και παραδοσιακά Κινεζικά."
+    },
+    "gu-IN": {
+      "name": "નંબર પ્લેટ સંગ્રહોનું આગમન",
+      "short_description": "સાચવેલી નંબર પ્લેટોના નવા સંગ્રહો જુઓ.",
+      "long_description": "શરૂઆત કે અંતના અક્ષરો અને અંકો મુજબ સાચવેલી પ્લેટો જુઓ. દરેક સંગ્રહના ફોટા ફરી ખોલો.",
+      "label": "Gujarati",
+      "language": "ભાષા",
+      "appStore": "App Storeમાં જુઓ",
+      "requires": "v1.2 જરૂરી છે. તમારા App Storeમાં v1.2 ઉપલબ્ધ થાય ત્યારે અપડેટ કરો.",
+      "interface": "એપનું ઇન્ટરફેસ: અંગ્રેજી અને પરંપરાગત ચાઇનીઝ."
+    },
+    "he": {
+      "name": "השקת אוספי לוחיות הרישוי",
+      "short_description": "גלו אוספים חדשים של לוחיות הרישוי ששמרתם.",
+      "long_description": "עיינו בלוחיות ששמרתם לפי אותיות וספרות בתחילתן או בסופן, וחזרו לצילומים שבכל אוסף.",
+      "label": "Hebrew",
+      "language": "שפה",
+      "appStore": "הצגה ב-App Store",
+      "requires": "נדרשת גרסה 1.2. עדכנו כשהיא תהיה זמינה ב-App Store שלכם.",
+      "interface": "ממשק האפליקציה: אנגלית וסינית מסורתית."
+    },
+    "hi": {
+      "name": "नंबर प्लेट संग्रहों की शुरुआत",
+      "short_description": "सहेजी गई नंबर प्लेटों के नए संग्रह देखें।",
+      "long_description": "शुरुआती या आखिरी अक्षरों और अंकों के अनुसार सहेजी प्लेटें देखें। हर संग्रह से जुड़ी तस्वीरें फिर खोलें।",
+      "label": "Hindi",
+      "language": "भाषा",
+      "appStore": "App Store पर देखें",
+      "requires": "v1.2 आवश्यक है। आपके App Store में v1.2 उपलब्ध होने पर अपडेट करें।",
+      "interface": "ऐप का इंटरफ़ेस: अंग्रेज़ी और पारंपरिक चीनी।"
+    },
+    "hu": {
+      "name": "Újdonság: rendszámgyűjtemények",
+      "short_description": "Fedezd fel mentett rendszámaid új gyűjteményeit.",
+      "long_description": "Böngéssz kezdő vagy záró betűk és számjegyek szerint, majd nézd meg újra a gyűjtemények rendszámfotóit.",
+      "label": "Hungarian",
+      "language": "Nyelv",
+      "appStore": "Megtekintés az App Store-ban",
+      "requires": "Az 1.2-es verzió szükséges. Frissíts, amikor elérhető az App Store-odban.",
+      "interface": "Az app felülete: angol és hagyományos kínai."
+    },
+    "id": {
+      "name": "Koleksi Pelat Nomor Baru",
+      "short_description": "Jelajahi koleksi baru pelat nomor tersimpan.",
+      "long_description": "Jelajahi pelat nomor tersimpan berdasarkan huruf dan angka awal atau akhir, lalu buka kembali foto tiap koleksi.",
+      "label": "Indonesian",
+      "language": "Bahasa",
+      "appStore": "Lihat di App Store",
+      "requires": "Memerlukan v1.2. Perbarui saat v1.2 tersedia di App Store Anda.",
+      "interface": "Antarmuka app: bahasa Inggris dan Tionghoa Tradisional."
+    },
+    "it": {
+      "name": "Arrivano le raccolte di targhe",
+      "short_description": "Esplora nuove raccolte delle tue targhe salvate.",
+      "long_description": "Sfoglia le targhe salvate per lettere e cifre iniziali o finali, poi rivedi gli scatti di ogni raccolta.",
+      "label": "Italian",
+      "language": "Lingua",
+      "appStore": "Visualizza sull’App Store",
+      "requires": "Richiede la versione 1.2. Aggiorna quando è disponibile nel tuo App Store.",
+      "interface": "Interfaccia dell’app: inglese e cinese tradizionale."
+    },
+    "kn-IN": {
+      "name": "ಪ್ಲೇಟ್ ಸಂಗ್ರಹಗಳ ಪರಿಚಯ",
+      "short_description": "ಉಳಿಸಿದ ನಂಬರ್ ಪ್ಲೇಟ್‌ಗಳ ಹೊಸ ಸಂಗ್ರಹಗಳನ್ನು ನೋಡಿ.",
+      "long_description": "ಆರಂಭದ ಅಥವಾ ಕೊನೆಯ ಅಕ್ಷರಗಳು ಮತ್ತು ಅಂಕಗಳ ಪ್ರಕಾರ ಉಳಿಸಿದ ನಂಬರ್ ಪ್ಲೇಟ್‌ಗಳನ್ನು ನೋಡಿ. ಪ್ರತಿ ಸಂಗ್ರಹದ ಚಿತ್ರಗಳನ್ನು ಮತ್ತೆ ತೆರೆಯಿರಿ.",
+      "label": "Kannada",
+      "language": "ಭಾಷೆ",
+      "appStore": "App Storeನಲ್ಲಿ ನೋಡಿ",
+      "requires": "v1.2 ಅಗತ್ಯವಿದೆ. ನಿಮ್ಮ App Storeನಲ್ಲಿ v1.2 ಲಭ್ಯವಾದಾಗ ನವೀಕರಿಸಿ.",
+      "interface": "ಆ್ಯಪ್ ಇಂಟರ್ಫೇಸ್: ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಸಾಂಪ್ರದಾಯಿಕ ಚೈನೀಸ್."
+    },
+    "ms": {
+      "name": "Koleksi Plat Baharu",
+      "short_description": "Terokai koleksi baharu plat yang disimpan.",
+      "long_description": "Terokai plat tersimpan mengikut huruf atau digit awal atau akhir, lalu lihat rekod setiap koleksi.",
+      "label": "Malay",
+      "language": "Bahasa",
+      "appStore": "Lihat di App Store",
+      "requires": "Memerlukan v1.2. Kemas kini apabila v1.2 tersedia di App Store anda.",
+      "interface": "Antara muka app: bahasa Inggeris dan Cina Tradisional."
+    },
+    "ml-IN": {
+      "name": "പ്ലേറ്റ് ശേഖരങ്ങളുടെ തുടക്കം",
+      "short_description": "സേവ് ചെയ്ത നമ്പർ പ്ലേറ്റുകളുടെ പുതുശേഖരങ്ങൾ കാണാം.",
+      "long_description": "ആദ്യമോ അവസാനമോ ഉള്ള അക്ഷരങ്ങളും അക്കങ്ങളും അനുസരിച്ച് സേവ് ചെയ്ത പ്ലേറ്റുകൾ കാണൂ. ശേഖരത്തിലെ ചിത്രങ്ങൾ വീണ്ടും തുറക്കൂ.",
+      "label": "Malayalam",
+      "language": "ഭാഷ",
+      "appStore": "App Store-ൽ കാണുക",
+      "requires": "v1.2 ആവശ്യമാണ്. നിങ്ങളുടെ App Store-ൽ v1.2 ലഭ്യമാകുമ്പോൾ അപ്‌ഡേറ്റ് ചെയ്യുക.",
+      "interface": "ആപ്പിന്റെ ഇന്റർഫേസ്: ഇംഗ്ലീഷും പരമ്പരാഗത ചൈനീസും."
+    },
+    "mr-IN": {
+      "name": "नंबर प्लेट संग्रहांचे पदार्पण",
+      "short_description": "जतन केलेल्या नंबर प्लेट्सचे नवे संग्रह पाहा.",
+      "long_description": "सुरुवातीच्या किंवा शेवटच्या अक्षरांनुसार व अंकांनुसार जतन केलेल्या प्लेट्स पाहा. संग्रहातील फोटो पुन्हा उघडा.",
+      "label": "Marathi",
+      "language": "भाषा",
+      "appStore": "App Store वर पाहा",
+      "requires": "v1.2 आवश्यक आहे. तुमच्या App Store मध्ये v1.2 उपलब्ध झाल्यावर अपडेट करा.",
+      "interface": "ॲपचा इंटरफेस: इंग्रजी आणि पारंपरिक चिनी."
+    },
+    "no": {
+      "name": "Nye bilskiltsamlinger",
+      "short_description": "Utforsk nye samlinger av lagrede bilskilt.",
+      "long_description": "Bla i lagrede bilskilt etter bokstaver og tall i starten eller slutten, og se bildene i hver samling på nytt.",
+      "label": "Norwegian",
+      "language": "Språk",
+      "appStore": "Vis i App Store",
+      "requires": "Krever v1.2. Oppdater når v1.2 er tilgjengelig i din App Store.",
+      "interface": "Appens grensesnitt: engelsk og tradisjonell kinesisk."
+    },
+    "or-IN": {
+      "name": "ନମ୍ବର ପ୍ଲେଟ୍ ସଂଗ୍ରହର ଆରମ୍ଭ",
+      "short_description": "ସେଭ୍ କରା ନମ୍ବର ପ୍ଲେଟ୍‌ର ନୂଆ ସଂଗ୍ରହ ଦେଖନ୍ତୁ।",
+      "long_description": "ଆରମ୍ଭର କିମ୍ବା ଶେଷର ଅକ୍ଷର ଓ ଅଙ୍କ ଅନୁସାରେ ସେଭ୍ କରା ପ୍ଲେଟ୍ ଦେଖନ୍ତୁ। ପ୍ରତି ସଂଗ୍ରହର ଫଟୋ ପୁଣି ଖୋଲନ୍ତୁ।",
+      "label": "Oriya",
+      "language": "ଭାଷା",
+      "appStore": "App Storeରେ ଦେଖନ୍ତୁ",
+      "requires": "v1.2 ଆବଶ୍ୟକ। ଆପଣଙ୍କ App Storeରେ v1.2 ଉପଲବ୍ଧ ହେଲେ ଅପଡେଟ୍ କରନ୍ତୁ।",
+      "interface": "ଆପ୍ ଇଣ୍ଟରଫେସ୍: ଇଂରାଜୀ ଓ ପାରମ୍ପରିକ ଚୀନା।"
+    },
+    "pl": {
+      "name": "Debiut kolekcji tablic",
+      "short_description": "Odkryj nowe kolekcje zapisanych tablic.",
+      "long_description": "Przeglądaj zapisane tablice według początkowych lub końcowych liter i cyfr, a potem wracaj do zdjęć z każdej kolekcji.",
+      "label": "Polish",
+      "language": "Język",
+      "appStore": "Zobacz w App Store",
+      "requires": "Wymaga wersji 1.2. Uaktualnij, gdy będzie dostępna w Twoim App Store.",
+      "interface": "Interfejs aplikacji: angielski i chiński tradycyjny."
+    },
+    "pt-BR": {
+      "name": "Estreia das coleções de placas",
+      "short_description": "Explore novas coleções das suas placas salvas.",
+      "long_description": "Explore placas salvas por letras e dígitos iniciais ou finais e reveja as capturas de cada coleção.",
+      "label": "Portuguese (Brazil)",
+      "language": "Idioma",
+      "appStore": "Ver na App Store",
+      "requires": "Requer a versão 1.2. Atualize quando ela estiver disponível na sua App Store.",
+      "interface": "Interface do app: inglês e chinês tradicional."
+    },
+    "pt-PT": {
+      "name": "Novas coleções de matrículas",
+      "short_description": "Explora novas coleções de matrículas guardadas.",
+      "long_description": "Explora matrículas guardadas por letras e algarismos iniciais ou finais e revê as capturas de cada coleção.",
+      "label": "Portuguese (Portugal)",
+      "language": "Idioma",
+      "appStore": "Ver na App Store",
+      "requires": "Requer a versão 1.2. Atualiza quando estiver disponível na tua App Store.",
+      "interface": "Interface da app: inglês e chinês tradicional."
+    },
+    "pa-IN": {
+      "name": "ਪਲੇਟ ਸੰਗ੍ਰਹਿਆਂ ਦੀ ਸ਼ੁਰੂਆਤ",
+      "short_description": "ਸਾਂਭੀਆਂ ਨੰਬਰ ਪਲੇਟਾਂ ਦੇ ਨਵੇਂ ਸੰਗ੍ਰਹਿ ਵੇਖੋ।",
+      "long_description": "ਸ਼ੁਰੂ ਜਾਂ ਅੰਤ ਦੇ ਅੱਖਰਾਂ ਤੇ ਅੰਕਾਂ ਮੁਤਾਬਕ ਸਾਂਭੀਆਂ ਪਲੇਟਾਂ ਵੇਖੋ। ਹਰ ਸੰਗ੍ਰਹਿ ਦੀਆਂ ਤਸਵੀਰਾਂ ਮੁੜ ਖੋਲ੍ਹੋ।",
+      "label": "Punjabi",
+      "language": "ਭਾਸ਼ਾ",
+      "appStore": "App Store ਵਿੱਚ ਵੇਖੋ",
+      "requires": "v1.2 ਲੋੜੀਂਦਾ ਹੈ। ਤੁਹਾਡੇ App Store ਵਿੱਚ v1.2 ਉਪਲਬਧ ਹੋਣ ’ਤੇ ਅੱਪਡੇਟ ਕਰੋ।",
+      "interface": "ਐਪ ਦਾ ਇੰਟਰਫੇਸ: ਅੰਗਰੇਜ਼ੀ ਅਤੇ ਰਵਾਇਤੀ ਚੀਨੀ।"
+    },
+    "ro": {
+      "name": "Debut: colecții de numere auto",
+      "short_description": "Descoperă colecții noi de numere auto salvate.",
+      "long_description": "Răsfoiește numerele salvate după literele și cifrele inițiale sau finale, apoi revino la capturile fiecărei colecții.",
+      "label": "Romanian",
+      "language": "Limbă",
+      "appStore": "Vezi în App Store",
+      "requires": "Necesită versiunea 1.2. Actualizează când este disponibilă în App Store.",
+      "interface": "Interfața aplicației: engleză și chineză tradițională."
+    },
+    "ru": {
+      "name": "Дебют коллекций автономеров",
+      "short_description": "Откройте новые коллекции сохранённых номеров.",
+      "long_description": "Просматривайте сохранённые номера по начальным или конечным буквам и цифрам и возвращайтесь к снимкам каждой коллекции.",
+      "label": "Russian",
+      "language": "Язык",
+      "appStore": "Посмотреть в App Store",
+      "requires": "Требуется версия 1.2. Обновите приложение, когда она появится в вашем App Store.",
+      "interface": "Интерфейс приложения: английский и традиционный китайский."
+    },
+    "sk": {
+      "name": "Kolekcie ŠPZ sú tu",
+      "short_description": "Objavte nové kolekcie uložených ŠPZ.",
+      "long_description": "Prezerajte si uložené ŠPZ podľa začiatočných či koncových písmen a číslic a vracajte sa k snímkam každej kolekcie.",
+      "label": "Slovak",
+      "language": "Jazyk",
+      "appStore": "Zobraziť v App Store",
+      "requires": "Vyžaduje verziu 1.2. Aktualizujte, keď bude dostupná vo vašom App Store.",
+      "interface": "Rozhranie aplikácie: angličtina a tradičná čínština."
+    },
+    "sl-SI": {
+      "name": "Zbirke tablic so tu",
+      "short_description": "Raziščite nove zbirke shranjenih tablic.",
+      "long_description": "Oglejte si shranjene tablice po začetnih ali končnih črkah in števkah ter znova odprite posnetke vsake zbirke.",
+      "label": "Slovenian",
+      "language": "Jezik",
+      "appStore": "Ogled v App Store",
+      "requires": "Zahteva različico 1.2. Posodobi, ko bo na voljo v tvoji trgovini App Store.",
+      "interface": "Vmesnik aplikacije: angleščina in tradicionalna kitajščina."
+    },
+    "es-MX": {
+      "name": "Estreno de las colecciones",
+      "short_description": "Tus placas guardadas, en nuevas colecciones.",
+      "long_description": "Explora placas guardadas por letras y dígitos iniciales o finales y vuelve a ver las capturas de cada colección.",
+      "label": "Spanish (Mexico)",
+      "language": "Idioma",
+      "appStore": "Ver en App Store",
+      "requires": "Requiere la versión 1.2. Actualiza cuando esté disponible en tu App Store.",
+      "interface": "Interfaz de la app: inglés y chino tradicional."
+    },
+    "es-ES": {
+      "name": "Estreno de las colecciones",
+      "short_description": "Tus matrículas guardadas, en nuevas colecciones.",
+      "long_description": "Explora matrículas guardadas por letras y dígitos iniciales o finales y vuelve a ver las capturas de cada colección.",
+      "label": "Spanish (Spain)",
+      "language": "Idioma",
+      "appStore": "Ver en el App Store",
+      "requires": "Requiere la versión 1.2. Actualiza cuando esté disponible en tu App Store.",
+      "interface": "Interfaz de la app: inglés y chino tradicional."
+    },
+    "sv": {
+      "name": "Nya samlingar av bilskyltar",
+      "short_description": "Utforska nya samlingar av dina sparade bilskyltar.",
+      "long_description": "Bläddra bland sparade bilskyltar efter bokstäver och siffror i början eller slutet och öppna samlingarnas bilder igen.",
+      "label": "Swedish",
+      "language": "Språk",
+      "appStore": "Visa i App Store",
+      "requires": "Kräver v1.2. Uppdatera när v1.2 finns i din App Store.",
+      "interface": "Appens gränssnitt: engelska och traditionell kinesiska."
+    },
+    "ta-IN": {
+      "name": "எண் பலகைத் தொகுப்பு அறிமுகம்",
+      "short_description": "சேமித்த எண் பலகைகளின் புதிய தொகுப்புகளைக் காண்க.",
+      "long_description": "முதல் அல்லது கடைசி எழுத்துகள், இலக்கங்களின்படி சேமித்த எண் பலகைகளைப் பார்த்து, தொகுப்பின் படங்களை மீண்டும் திறக்கவும்.",
+      "label": "Tamil",
+      "language": "மொழி",
+      "appStore": "App Store-இல் காண்க",
+      "requires": "v1.2 தேவை. உங்கள் App Store-இல் v1.2 கிடைக்கும்போது புதுப்பிக்கவும்.",
+      "interface": "செயலி இடைமுகம்: ஆங்கிலம் மற்றும் பாரம்பரிய சீனம்."
+    },
+    "te-IN": {
+      "name": "నంబర్ ప్లేట్ సేకరణల ఆరంభం",
+      "short_description": "సేవ్ చేసిన నంబర్ ప్లేట్ల కొత్త సేకరణలను చూడండి.",
+      "long_description": "మొదటి లేదా చివరి అక్షరాలు, అంకెల ఆధారంగా సేవ్ చేసిన ప్లేట్లను చూడండి. ప్రతి సేకరణలోని ఫోటోలను మళ్లీ తెరవండి.",
+      "label": "Telugu",
+      "language": "భాష",
+      "appStore": "App Storeలో చూడండి",
+      "requires": "v1.2 అవసరం. మీ App Storeలో v1.2 అందుబాటులోకి వచ్చినప్పుడు అప్‌డేట్ చేయండి.",
+      "interface": "యాప్ ఇంటర్‌ఫేస్: ఆంగ్లం మరియు సాంప్రదాయ చైనీస్."
+    },
+    "tr": {
+      "name": "Plaka koleksiyonları geldi",
+      "short_description": "Kayıtlı plakaların yeni koleksiyonlarını keşfedin.",
+      "long_description": "Kayıtlı plakaları ilk veya son harf ve rakamlarına göre inceleyin, her koleksiyonun fotoğraflarını yeniden açın.",
+      "label": "Turkish",
+      "language": "Dil",
+      "appStore": "App Store’da görüntüle",
+      "requires": "v1.2 gerekir. App Store’unuzda v1.2 kullanıma sunulduğunda güncelleyin.",
+      "interface": "Uygulama arayüzü: İngilizce ve Geleneksel Çince."
+    },
+    "uk": {
+      "name": "Дебют колекцій автономерів",
+      "short_description": "Відкрийте нові колекції збережених номерів.",
+      "long_description": "Переглядайте збережені номери за першими чи останніми літерами й цифрами та повертайтеся до знімків кожної колекції.",
+      "label": "Ukrainian",
+      "language": "Мова",
+      "appStore": "Переглянути в App Store",
+      "requires": "Потрібна версія 1.2. Оновіть програму, коли вона з’явиться у вашому App Store.",
+      "interface": "Інтерфейс програми: англійська та традиційна китайська."
+    },
+    "ur-PK": {
+      "name": "نمبر پلیٹوں کے مجموعوں کا آغاز",
+      "short_description": "محفوظ کردہ نمبر پلیٹوں کے نئے مجموعے دیکھیں۔",
+      "long_description": "ابتدائی یا آخری حروف اور ہندسوں کے لحاظ سے محفوظ کردہ پلیٹیں دیکھیں اور ہر مجموعے کی تصاویر دوبارہ کھولیں۔",
+      "label": "Urdu",
+      "language": "زبان",
+      "appStore": "App Store میں دیکھیں",
+      "requires": "v1.2 درکار ہے۔ اپنے App Store میں v1.2 دستیاب ہونے پر اپ ڈیٹ کریں۔",
+      "interface": "ایپ کا انٹرفیس: انگریزی اور روایتی چینی۔"
+    },
+    "vi": {
+      "name": "Bộ sưu tập biển số mới",
+      "short_description": "Khám phá bộ sưu tập mới từ biển số đã lưu.",
+      "long_description": "Duyệt biển số đã lưu theo chữ cái hoặc số ở đầu hay cuối, rồi xem lại các bản ghi trong từng bộ sưu tập.",
+      "label": "Vietnamese",
+      "language": "Ngôn ngữ",
+      "appStore": "Xem trên App Store",
+      "requires": "Yêu cầu v1.2. Hãy cập nhật khi v1.2 có trên App Store của bạn.",
+      "interface": "Giao diện ứng dụng: tiếng Anh và tiếng Trung phồn thể."
+    }
+  }
+}

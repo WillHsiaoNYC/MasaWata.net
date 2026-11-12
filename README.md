@@ -112,3 +112,12 @@ fallback page. The AASA file already associates `/FitnessStory/event/*` with
 - The existing AASA wildcard `/SoccerTimeTrack/event/*` already covers the route for `YJBS4SMU7Z.MasaWata.SoccerTrack`; no association change is needed. The older First Match Kickoff page remains unchanged.
 - `SoccerTimeTrack/event/post-play-insights/assets/` contains web-sized JPEG exports of the approved event illustrations. The page is static, responsive, and excluded from indexing. It does not auto-select a session or promise measurements that were not recorded.
 - Verify the live fallback and Smart App Banner separately from cold/warm OS-dispatched Universal Link opening before event publication.
+
+## Car Plate Scan Analysis event link
+
+- `/CarPlateScan/event/analysis-collections/` is the fallback for **Plate Collections Debut**, December 1–15, 2026 at 09:00 America/New_York. It requires v1.2 and tells people to update when that version is available.
+- The page reuses the approved event copy in 46 Apple locale variants, omitting Japanese, Korean, Thai and Simplified Chinese. This localizes the event fallback only; the app interface remains English and Traditional Chinese. Static English remains readable without JavaScript.
+- Explicit `?lang=<locale>` overrides browser preferences. Exact supported variants are preferred. Traditional Chinese is selected only for Hant/TW/HK/MO. One-variant aliases cover neutral Arabic, German, Dutch, the new Indic variants, Slovenian, Urdu and Bokmål; ambiguous generic French/Spanish/Portuguese and unsupported overrides fall back to English. No language preference is stored.
+- Smart App Banner app ID `6825007024` and its HTTPS `app-argument` match the canonical event URL. Existing AASA `/CarPlateScan/event/*` coverage is reused without changes. The Everyday Collection page stays unchanged.
+- Approved text-free colored-car illustrations are exported to web-sized JPEGs. There is no tracking, automatic app-open loop or inferred app release/availability claim. Verify the live fallback separately from signed-app cold/warm OS dispatch before ASC preparation.
+- Focused checks: `node --test scripts/test_carplate_analysis_event.cjs` and `python3 -m unittest scripts.test_carplate_analysis_event scripts.test_car_plate_scan scripts.test_asc_web`; existing `scripts/validate_asc_web.py` still covers product sites.
