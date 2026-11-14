@@ -9,6 +9,7 @@ masawata.net/
 ├── index.html              → masawata.net/            (studio hub: index of all apps)
 ├── privacy-policy.html     → masawata.net/privacy-policy.html
 ├── favicon.svg             → site icon
+├── assets/brand/           → original studio logos and website placement assessment
 ├── llms.txt                → AI-agent-friendly site summary (llmstxt.org)
 ├── robots.txt              → crawl rules (search engines + AI crawlers welcomed)
 ├── sitemap.xml             → sitemap index (points at pages.xml + each app sitemap)
@@ -28,6 +29,14 @@ masawata.net/
 ```
 
 Each app directory is a self-contained marketing site. Product pages are generated from checked-in snapshots of their live App Store Connect localizations. Event, support, and privacy pages remain independent static pages.
+
+## Business logo assets
+
+The original MasaWata Tech monogram (SVG and transparent PNG) and horizontal
+logo (PNG) live in [`assets/brand/`](assets/brand/). See the
+[asset inventory and website placement assessment](assets/brand/README.md) for
+recommended uses across studio, product, legal, support, and event pages. The
+asset import does not apply those proposed website changes.
 
 ## Sites
 
