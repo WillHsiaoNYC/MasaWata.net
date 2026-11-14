@@ -30,18 +30,23 @@
     <meta property="og:url" content="https://masawata.net/">
     <meta property="og:title" content="MasaWata — Focused apps for iPhone &amp; Apple Watch">
     <meta property="og:description" content="Small, focused, privacy-conscious apps that measure, remember, and visualize your day.">
-    <meta property="og:image" content="https://masawata.net/apple-touch-icon.png">
-    <meta property="og:site_name" content="MasaWata">
+    <meta property="og:image" content="https://masawata.net/assets/brand/studio-social.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="MasaWata Tech — focused apps for iPhone and Apple Watch">
+    <meta property="og:site_name" content="MasaWata Tech">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MasaWata — Focused apps for iPhone &amp; Apple Watch">
     <meta name="twitter:description" content="Small, focused, privacy-conscious apps that measure, remember, and visualize your day.">
-    <meta name="twitter:image" content="https://masawata.net/apple-touch-icon.png">
+    <meta name="twitter:image" content="https://masawata.net/assets/brand/studio-social.png">
+    <meta name="twitter:image:alt" content="MasaWata Tech — focused apps for iPhone and Apple Watch">
 
+    <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
     <link rel="alternate" type="application/llms.txt" href="/llms.txt">
 
     <style>
@@ -118,20 +123,6 @@
             gap: 1rem;
             height: 60px;
         }
-        .brand {
-            display: inline-flex;
-            align-items: center;
-            gap: .6rem;
-            text-decoration: none;
-            font-weight: 680;
-            letter-spacing: -.01em;
-        }
-        .brand__mark {
-            width: 26px; height: 26px;
-            border-radius: 7px;
-            flex: none;
-        }
-        .brand__name { font-size: 1.02rem; }
         .site-nav {
             display: flex;
             align-items: center;
@@ -147,6 +138,9 @@
         .site-nav a.is-cta {
             color: var(--accent-ink);
             font-weight: 600;
+        }
+        @media (max-width: 520px) {
+            .site-header__inner { height: auto; min-height: 64px; flex-wrap: wrap; padding-block: .5rem; gap: .35rem 1rem; }
         }
 
         /* ---------- Hero ---------- */
@@ -331,7 +325,6 @@
             align-items: flex-start;
         }
         .site-footer__blurb { max-width: 38ch; color: var(--muted); font-size: .96rem; }
-        .site-footer__blurb strong { color: var(--ink); font-weight: 640; }
         .foot-links { display: flex; flex-direction: column; gap: .6rem; }
         .foot-links a {
             color: var(--muted);
@@ -367,7 +360,7 @@
                 "name": "MasaWata Tech",
                 "alternateName": "MasaWata",
                 "url": "https://masawata.net/",
-                "logo": "https://masawata.net/favicon.svg",
+                "logo": "https://masawata.net/assets/brand/masawata-tech-mark.png",
                 "email": "fitnessstoryapp@gmail.com",
                 "description": "Independent studio building focused, privacy-conscious apps for iPhone and Apple Watch."
             },
@@ -500,17 +493,14 @@
         ]
     }
     </script>
+  <link rel="stylesheet" href="/includes/studio-brand.css">
 </head>
 <body>
     <header class="site-header">
         <div class="wrap site-header__inner">
-            <a class="brand" href="/" aria-label="MasaWata home">
-                <svg class="brand__mark" viewBox="0 0 32 32" role="img" aria-hidden="true">
-                    <rect width="32" height="32" rx="8" fill="#2438f5"/>
-                    <path d="M7 23V10.5c0-.5.6-.8 1-.4l4.7 5.2c.4.4 1 .4 1.4 0L18.8 10c.4-.4 1-.1 1 .4V23" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-                    <rect x="22.4" y="14" width="2.6" height="9" rx="1" fill="#fff" opacity=".9"/>
-                </svg>
-                <span class="brand__name">MasaWata</span>
+            <a class="studio-brand studio-brand--primary" href="/" aria-label="MasaWata Tech home">
+                <img src="/assets/brand/masawata-tech-mark.svg" alt="" width="36" height="36">
+                <span>MasaWata Tech</span>
             </a>
             <nav class="site-nav" aria-label="Primary">
                 <a href="/privacy-policy.html">Privacy</a>
@@ -644,7 +634,10 @@
     <footer class="site-footer">
         <div class="wrap">
             <div class="site-footer__grid">
-                <p class="site-footer__blurb"><strong>MasaWata Tech</strong> — independent apps for the Apple ecosystem. Every app does one thing well and keeps privacy central to the experience.</p>
+                <div>
+                    <a class="studio-brand studio-footer-brand" href="/"><img src="/assets/brand/masawata-tech-mark.svg" alt="" width="32" height="32"><span>MasaWata Tech</span></a>
+                    <p class="site-footer__blurb">Independent apps for the Apple ecosystem. Every app does one thing well and keeps privacy central to the experience.</p>
+                </div>
                 <nav class="foot-links" aria-label="Footer">
                     <a href="#apps">All apps</a>
                     <a href="/privacy-policy.html">Privacy Policy</a>

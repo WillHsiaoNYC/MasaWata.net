@@ -1,0 +1,46 @@
+/* Shared studio identity. Product names, palettes, and app icons stay independent. */
+a.studio-brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  min-height: 44px;
+  max-width: 100%;
+  color: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: .9rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+a.studio-brand > img {
+  display: block;
+  flex: none;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 8px;
+  background: #fffaf3;
+  object-fit: contain;
+}
+a.studio-brand > span { white-space: nowrap; }
+a.studio-brand:hover { text-decoration: underline; text-underline-offset: 4px; }
+a.studio-brand:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+a.studio-brand--primary { font-size: 1.02rem; }
+a.studio-brand--primary > img { width: 36px; height: 36px; }
+.studio-signoff {
+  display: flex;
+  justify-content: center;
+  margin-block: 2rem 0;
+}
+.studio-footer-brand { margin-bottom: .7rem; }
+@media (max-width: 380px) {
+  a.studio-brand--primary { gap: .4rem; font-size: .92rem; }
+}

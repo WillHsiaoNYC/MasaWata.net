@@ -18,11 +18,11 @@ SVG is the preferred compact UI asset.
 
 ## Website placement assessment
 
-This is an assessment, not an applied redesign. This import changes no existing
-page markup, styling, favicon, touch icon, social metadata, or generated page.
-The recommendations below have not been approved as implementation scope.
+The assessment below records the website before the rollout. The user subsequently
+approved applying the recommendations. See the implementation record below for
+the applied scope and the optional placements that were left out.
 
-| Surface | Current observation | Recommendation |
+| Surface | Observation before rollout | Recommendation |
 | --- | --- | --- |
 | Studio homepage header (`/`) | An older blue square symbol accompanies “MasaWata.” | Highest priority: use the SVG monogram at approximately 28–32 CSS px beside live text “MasaWata Tech,” linked to `/`. Keep the name readable on mobile. |
 | Studio homepage hero | A compact studio eyebrow introduces the main app-focused headline. | Keep the headline as text. The full horizontal PNG could become a single larger brand presentation on a matching light surface, but it is optional; the header already establishes identity. Avoid repeating a large lockup in both header and hero. |
@@ -74,8 +74,8 @@ source inventory, not a claim of individual visual review of every locale.
 Live browser review covered the homepage, all seven English product pages, shared
 privacy, Soccer Time Track support and privacy, Car Plate Scan's Analysis event,
 and Fitness Story's Health event. Representative screenshots included light and
-dark product footers. Mobile layouts and proposed logo placements have not been
-rendered or validated; existing page source and styles informed those recommendations.
+dark product footers. At assessment time, mobile layouts and proposed placements
+had not yet been rendered; source and styles informed the recommendations.
 
 - [`../../index.html`](../../index.html): studio header/footer, social metadata, organization schema.
 - [`../../privacy-policy.html`](../../privacy-policy.html): shared studio legal-page branding.
@@ -85,5 +85,64 @@ rendered or validated; existing page source and styles informed those recommenda
 - Each app's `build.py`: invokes the shared renderer; generated locale HTML is output, not the primary place for shared branding changes.
 - `SoccerTimeTrack/support.html`, `SoccerTimeTrack/privacy-policy.html`, and the apps' `event/` directories: independent pages outside that shared renderer.
 
-No new raster exports, theme variants, or social cards were created as part of the
-asset move and assessment.
+## Applied branding — November 14, 2026
+
+- The homepage header/footer and shared privacy home link use the supplied SVG
+  beside live “MasaWata Tech” text. The hero retains its readable app-focused headline.
+- All 180 product documents across seven apps use a shared footer signature. Its
+  business-name-only label works across locales without adding untranslated “By”
+  interface copy. Each product retains its app icon, screenshots, and social artwork.
+- All 22 event pages and Soccer Time Track's independent support/privacy pages
+  have the same home-linked signature. Existing studio links were upgraded where
+  present. App Store actions, Smart App Banners, event text, and event localization
+  scripts remain intact.
+- [`../../includes/studio-brand.css`](../../includes/studio-brand.css) provides
+  the small light tile, keyboard focus, reserved dimensions, and shared sizing.
+- The root vector favicon and 180 × 180 touch icon now use the monogram on a light
+  backing. [`favicon-32.png`](favicon-32.png) provides a 32 × 32 raster favicon fallback.
+- [`studio-social.png`](studio-social.png) is the 1200 × 630 studio share image.
+  It composes the original wide logo on a navy canvas without cropping or
+  distorting its artwork. Homepage and shared privacy social metadata use it;
+  the homepage organization schema uses the original 1024 px monogram PNG.
+
+The optional larger homepage hero logo and extra Car Plate Scan navigation
+monogram were omitted to keep the existing content and mobile navigation compact.
+The studio palette and app color systems were not redesigned. Original supplied
+assets remain unchanged.
+
+### Reproducing derived assets
+
+Run `python3 scripts/build_brand_assets.py --render-dir /absolute/render-directory`
+from the repository root. This refreshes `favicon.svg` and writes self-contained
+HTML render sources embedding the original art. Render with ego-browser at device
+scale 1 and the following exact CSS viewport sizes; wait for images and fonts
+before taking viewport screenshots:
+
+| Render source | Viewport | PNG output in this repository |
+| --- | --- | --- |
+| `touch-icon.html` | 180 × 180 | `apple-touch-icon.png` |
+| `favicon-32.html` | 32 × 32 | `assets/brand/favicon-32.png` |
+| `studio-social.html` | 1200 × 630 | `assets/brand/studio-social.png` |
+
+Use the existing supplied logos as inputs rather than redrawing or regenerating
+them. The share image uses the studio navy/teal/cream palette and system sans-serif
+type. Render sources and verification screenshots are task artifacts rather than
+additional public website routes.
+
+### Rollout verification
+
+Independent verification passed the existing ASC site validator, 13 Python tests,
+and six Node event-localization tests, with no warnings. Static audits covered
+all 180 generated product pages and all 22 event pages, including signature counts,
+local asset references, preserved product icons/social metadata, preserved event
+actions and localization hooks, unchanged legal text, and original logo hashes.
+
+Browser checks covered 20 representative routes at 320, 390, and 1440 CSS px
+(60 layout cases), with no horizontal overflow or clipped studio signatures.
+Additional checks covered the studio's automatic dark appearance, dark product
+sites, Arabic RTL, Traditional Chinese event localization, visible keyboard focus,
+and studio-link text contrast. All 34 tested studio-link and browser-back journeys
+passed. The three derived raster exports were inspected at their exact dimensions.
+
+Shared styles and the generator were reviewed for simplification; obsolete studio
+mark styles were removed and no product-specific theme or new dependency was added.

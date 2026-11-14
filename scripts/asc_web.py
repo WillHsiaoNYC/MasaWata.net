@@ -272,7 +272,8 @@ def render_asc_page(
     </details>'''
     release_markup = ""
     skip_markup = ""
-    footer_studio = ""
+    footer_studio = '''
+    <a class="studio-brand" href="/"><img src="/assets/brand/masawata-tech-mark.svg" alt="" width="32" height="32"><span>MasaWata Tech</span></a>'''
     gallery_attributes = ""
     cta_url, cta_label = app_url, download
     brand_name = title
@@ -287,7 +288,6 @@ def render_asc_page(
         cta_url, cta_label = "#screenshots", "Explore screenshots"
         release_markup = f'        <p class="release-status">Planned release: {html.escape(page_options.planned_release)}</p>\n'
         skip_markup = '\n  <a class="skip-link" href="#main">Skip to content</a>'
-        footer_studio = '\n    <a href="/">MasaWata</a>'
         gallery_attributes = f' tabindex="0" role="region" aria-label="{html.escape(brand_name, quote=True)} screenshots — scroll to explore"'
     social_image = shot_urls[0] if shot_urls else f"{base_url}/{icon_path}"
     social_alt = (page_options.screenshot_alts[0] if shots else brand_name) if page_options else title
@@ -324,6 +324,7 @@ def render_asc_page(
 {alternates}
   <link rel="alternate" hreflang="x-default" href="{base_url}/">
   <link rel="stylesheet" href="{global_prefix}includes/asc-localized.css">
+  <link rel="stylesheet" href="{global_prefix}includes/studio-brand.css">
   <style>:root{{color-scheme:{color_scheme};--accent:{accent};--accent-dark:{accent_dark};--bg:{background};--surface:{surface};--ink:{ink};--muted:{muted};--line:{line}}}</style>{stylesheet_markup}
   <script type="application/ld+json">{schema}</script>
 </head>
