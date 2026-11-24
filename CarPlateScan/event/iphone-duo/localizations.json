@@ -1,0 +1,256 @@
+{
+  "locales": {
+    "en-US": {
+      "name": "The Unfolded Plate Library",
+      "short_description": "Browse saved plates side by side on iPhone Duo.",
+      "long_description": "For the launch of 1.3, unfold iPhone Duo to see a capture beside your list. Fold it closed to focus on that capture.",
+      "language": "Language",
+      "appStore": "View on the App Store",
+      "label": "English (U.S.)",
+      "requires": "Requires v1.3. Update when v1.3 becomes available in your App Store."
+    },
+    "ca": {
+      "name": "La col·lecció desplegada",
+      "short_description": "Llista i captura de costat a l’iPhone Duo.",
+      "long_description": "Amb la versió 1.3, desplega l’iPhone Duo per veure una captura al costat de la llista. Plega’l per centrar-t’hi.",
+      "language": "Idioma",
+      "appStore": "Mostra a l’App Store",
+      "label": "Catalan",
+      "requires": "Requereix la versió 1.3. Actualitza quan estigui disponible a l’App Store."
+    },
+    "zh-Hant": {
+      "name": "展開車牌收藏",
+      "short_description": "在 iPhone Duo 上並排瀏覽車牌清單與拍攝紀錄。",
+      "long_description": "1.3 版推出！展開 iPhone Duo，即可一邊瀏覽清單，一邊查看選取的拍攝紀錄。闔上後，仍可在外螢幕查看這筆紀錄。",
+      "language": "語言",
+      "appStore": "前往 App Store",
+      "label": "Chinese (Traditional)",
+      "requires": "需要 v1.3。當你的 App Store 提供 v1.3 時，請更新 App。"
+    },
+    "hr": {
+      "name": "Zbirka na rasklapanje",
+      "short_description": "Pregledaj zbirku na dva prikaza na iPhoneu Duo.",
+      "long_description": "U verziji 1.3 rasklopi iPhone Duo za prikaz snimke uz popis. Sklopi ga i nastavi pregledavati odabranu snimku.",
+      "language": "Jezik",
+      "appStore": "Pogledaj u App Storeu",
+      "label": "Croatian",
+      "requires": "Potrebna je verzija 1.3. Ažuriraj kada postane dostupna u tvojem App Storeu."
+    },
+    "cs": {
+      "name": "Rozložená sbírka značek",
+      "short_description": "Prohlížejte si značky vedle sebe na iPhonu Duo.",
+      "long_description": "Ve verzi 1.3 rozevřete iPhone Duo a zobrazte snímek vedle seznamu. Po zavření zůstane vybraný snímek na displeji.",
+      "language": "Jazyk",
+      "appStore": "Zobrazit v App Storu",
+      "label": "Czech",
+      "requires": "Vyžaduje verzi 1.3. Aktualizujte, až bude dostupná ve vašem App Storu."
+    },
+    "da": {
+      "name": "Den udfoldede samling",
+      "short_description": "Se liste og optagelse side om side på iPhone Duo.",
+      "long_description": "Fold iPhone Duo ud i version 1.3 for at se en optagelse ved siden af listen. Fold den sammen for at se optagelsen alene.",
+      "language": "Sprog",
+      "appStore": "Se i App Store",
+      "label": "Danish",
+      "requires": "Kræver v1.3. Opdater, når v1.3 er tilgængelig i din App Store."
+    },
+    "nl-NL": {
+      "name": "Je verzameling uitgevouwen",
+      "short_description": "Bekijk lijst en opname naast elkaar op iPhone Duo.",
+      "long_description": "Klap je iPhone Duo open in versie 1.3 om een opname naast de lijst te zien. Klap hem dicht om de opname te bekijken.",
+      "language": "Taal",
+      "appStore": "Bekijk in de App Store",
+      "label": "Dutch",
+      "requires": "Vereist v1.3. Werk bij zodra v1.3 beschikbaar is in je App Store."
+    },
+    "fi": {
+      "name": "Avautuva kilpikokoelma",
+      "short_description": "Katso listaa ja kuvaa rinnakkain iPhone Duolla.",
+      "long_description": "Avaa iPhone Duo versiossa 1.3, niin näet kuvan listan vieressä. Taita puhelin kiinni, niin valittu kuva jää näkyviin.",
+      "language": "Kieli",
+      "appStore": "Näytä App Storessa",
+      "label": "Finnish",
+      "requires": "Vaatii version 1.3. Päivitä, kun se on saatavilla App Storessasi."
+    },
+    "fr-FR": {
+      "name": "La collection se déplie",
+      "short_description": "Liste et photo côte à côte sur iPhone Duo.",
+      "long_description": "Dans la version 1.3, dépliez votre iPhone Duo pour voir une photo à côté de la liste. Repliez-le pour voir la photo.",
+      "language": "Langue",
+      "appStore": "Voir sur l’App Store",
+      "label": "French",
+      "requires": "Nécessite la version 1.3. Mettez à jour dès sa disponibilité dans votre App Store."
+    },
+    "fr-CA": {
+      "name": "La collection se déplie",
+      "short_description": "Liste et photo côte à côte sur iPhone Duo.",
+      "long_description": "Dans la version 1.3, ouvrez votre iPhone Duo pour voir une photo à côté de la liste. Refermez-le pour voir la photo.",
+      "language": "Langue",
+      "appStore": "Voir sur l’App Store",
+      "label": "French (Canada)",
+      "requires": "Nécessite la version 1.3. Mettez à jour dès sa disponibilité dans votre App Store."
+    },
+    "de-DE": {
+      "name": "Deine Sammlung aufgeklappt",
+      "short_description": "Liste und Foto nebeneinander auf dem iPhone Duo",
+      "long_description": "Klapp dein iPhone Duo in Version 1.3 auf, um eine Aufnahme neben der Liste zu sehen. Zugeklappt siehst du das Foto.",
+      "language": "Sprache",
+      "appStore": "Im App Store ansehen",
+      "label": "German",
+      "requires": "Benötigt Version 1.3. Aktualisiere die App, sobald sie in deinem App Store verfügbar ist."
+    },
+    "el": {
+      "name": "Η συλλογή ξεδιπλώνεται",
+      "short_description": "Δείτε λίστα και λήψη δίπλα δίπλα στο iPhone Duo.",
+      "long_description": "Στην έκδοση 1.3, ανοίξτε το iPhone Duo για να δείτε μια λήψη δίπλα στη λίστα. Κλείστε το για να δείτε μόνο τη λήψη.",
+      "language": "Γλώσσα",
+      "appStore": "Προβολή στο App Store",
+      "label": "Greek",
+      "requires": "Απαιτείται η έκδοση 1.3. Κάνε ενημέρωση όταν διατεθεί στο App Store σου."
+    },
+    "hi": {
+      "name": "नए अंदाज़ में प्लेट संग्रह",
+      "short_description": "iPhone Duo पर सूची और तस्वीर साथ-साथ देखें।",
+      "long_description": "वर्ज़न 1.3 में iPhone Duo खोलें और सूची के साथ चुनी हुई तस्वीर देखें। फ़ोन मोड़ें तो बाहरी स्क्रीन पर वही तस्वीर दिखेगी।",
+      "language": "भाषा",
+      "appStore": "App Store पर देखें",
+      "label": "Hindi",
+      "requires": "v1.3 आवश्यक है। आपके App Store में v1.3 उपलब्ध होने पर अपडेट करें।"
+    },
+    "hu": {
+      "name": "Kihajtható rendszámgyűjtemény",
+      "short_description": "Lista és felvétel egymás mellett az iPhone Duón.",
+      "long_description": "Az 1.3-as verzióban nyisd ki az iPhone Duót, és nézd a felvételt a lista mellett. Összecsukva a felvételt látod.",
+      "language": "Nyelv",
+      "appStore": "Megtekintés az App Store-ban",
+      "label": "Hungarian",
+      "requires": "Az 1.3-es verzió szükséges. Frissíts, amikor elérhető az App Store-odban."
+    },
+    "id": {
+      "name": "Koleksi Pelat Terbentang",
+      "short_description": "Lihat daftar dan foto bersebelahan di iPhone Duo.",
+      "long_description": "Di versi 1.3, buka lipatan iPhone Duo untuk melihat foto di samping daftar. Lipat kembali untuk melihat foto saja.",
+      "language": "Bahasa",
+      "appStore": "Lihat di App Store",
+      "label": "Indonesian",
+      "requires": "Memerlukan v1.3. Perbarui saat v1.3 tersedia di App Store Anda."
+    },
+    "it": {
+      "name": "La raccolta si apre",
+      "short_description": "Elenco e foto fianco a fianco su iPhone Duo.",
+      "long_description": "Con la versione 1.3, apri iPhone Duo per vedere una foto accanto all’elenco. Richiudilo per concentrarti sulla foto.",
+      "language": "Lingua",
+      "appStore": "Visualizza sull’App Store",
+      "label": "Italian",
+      "requires": "Richiede la versione 1.3. Aggiorna quando è disponibile nel tuo App Store."
+    },
+    "no": {
+      "name": "Samlingen brettes ut",
+      "short_description": "Se listen og bildet side om side på iPhone Duo.",
+      "long_description": "Brett ut iPhone Duo i versjon 1.3 for å se et bilde ved siden av listen. Brett den sammen for å se bare bildet.",
+      "language": "Språk",
+      "appStore": "Vis i App Store",
+      "label": "Norwegian",
+      "requires": "Krever v1.3. Oppdater når v1.3 er tilgjengelig i din App Store."
+    },
+    "pl": {
+      "name": "Kolekcja po rozłożeniu",
+      "short_description": "Lista i zdjęcie obok siebie na iPhonie Duo.",
+      "long_description": "W wersji 1.3 rozłóż iPhone’a Duo, aby zobaczyć zdjęcie obok listy. Po złożeniu telefonu nadal widzisz zdjęcie.",
+      "language": "Język",
+      "appStore": "Zobacz w App Store",
+      "label": "Polish",
+      "requires": "Wymaga wersji 1.3. Uaktualnij, gdy będzie dostępna w Twoim App Store."
+    },
+    "pt-BR": {
+      "name": "Sua coleção se abre",
+      "short_description": "Veja a lista e a foto lado a lado no iPhone Duo.",
+      "long_description": "Na versão 1.3, abra o iPhone Duo para ver uma foto ao lado da lista. Feche o aparelho para ver só a foto.",
+      "language": "Idioma",
+      "appStore": "Ver na App Store",
+      "label": "Portuguese (Brazil)",
+      "requires": "Requer a versão 1.3. Atualize quando ela estiver disponível na sua App Store."
+    },
+    "pt-PT": {
+      "name": "A coleção desdobra-se",
+      "short_description": "Lista e fotografia lado a lado no iPhone Duo.",
+      "long_description": "Na versão 1.3, abra o iPhone Duo para ver uma fotografia ao lado da lista. Feche-o para ver apenas a fotografia.",
+      "language": "Idioma",
+      "appStore": "Ver na App Store",
+      "label": "Portuguese (Portugal)",
+      "requires": "Requer a versão 1.3. Atualiza quando estiver disponível na tua App Store."
+    },
+    "ro": {
+      "name": "Colecția se deschide",
+      "short_description": "Vezi lista și fotografia alături pe iPhone Duo.",
+      "long_description": "În versiunea 1.3, deschide iPhone Duo ca să vezi fotografia lângă listă. Pliază telefonul ca să vezi doar fotografia.",
+      "language": "Limbă",
+      "appStore": "Vezi în App Store",
+      "label": "Romanian",
+      "requires": "Necesită versiunea 1.3. Actualizează când este disponibilă în App Store."
+    },
+    "sk": {
+      "name": "Rozložená zbierka značiek",
+      "short_description": "Zoznam a snímka vedľa seba na iPhone Duo.",
+      "long_description": "Vo verzii 1.3 rozložte iPhone Duo a pozrite si snímku vedľa zoznamu. Po zložení telefónu zostane zobrazená snímka.",
+      "language": "Jazyk",
+      "appStore": "Zobraziť v App Store",
+      "label": "Slovak",
+      "requires": "Vyžaduje verziu 1.3. Aktualizujte, keď bude dostupná vo vašom App Store."
+    },
+    "sl-SI": {
+      "name": "Razprta zbirka tablic",
+      "short_description": "Oglejte si seznam in posnetek drug ob drugem.",
+      "long_description": "V različici 1.3 razprite iPhone Duo za prikaz posnetka ob seznamu. Ko telefon zložite, ostane prikazan izbrani posnetek.",
+      "language": "Jezik",
+      "appStore": "Ogled v App Store",
+      "label": "Slovenian",
+      "requires": "Zahteva različico 1.3. Posodobi, ko bo na voljo v tvoji trgovini App Store."
+    },
+    "es-ES": {
+      "name": "La colección se despliega",
+      "short_description": "Ve la lista y la foto a la vez en el iPhone Duo.",
+      "long_description": "En la versión 1.3, despliega el iPhone Duo para ver una captura junto a la lista. Pliégalo para ver solo la captura.",
+      "language": "Idioma",
+      "appStore": "Ver en el App Store",
+      "label": "Spanish (Spain)",
+      "requires": "Requiere la versión 1.3. Actualiza cuando esté disponible en tu App Store."
+    },
+    "es-MX": {
+      "name": "Tu colección se despliega",
+      "short_description": "Ve tu lista y tu foto a la vez en el iPhone Duo.",
+      "long_description": "En la versión 1.3, abre tu iPhone Duo para ver una captura junto a la lista. Ciérralo para ver solo esa captura.",
+      "language": "Idioma",
+      "appStore": "Ver en App Store",
+      "label": "Spanish (Mexico)",
+      "requires": "Requiere la versión 1.3. Actualiza cuando esté disponible en tu App Store."
+    },
+    "sv": {
+      "name": "Samlingen viks ut",
+      "short_description": "Se listan och bilden sida vid sida på iPhone Duo.",
+      "long_description": "Vik upp iPhone Duo i version 1.3 för att se en bild bredvid listan. Vik ihop telefonen för att se bara bilden.",
+      "language": "Språk",
+      "appStore": "Visa i App Store",
+      "label": "Swedish",
+      "requires": "Kräver v1.3. Uppdatera när v1.3 finns i din App Store."
+    },
+    "tr": {
+      "name": "Açılan Plaka Koleksiyonu",
+      "short_description": "iPhone Duo’da listeyi ve fotoğrafı yan yana görün.",
+      "long_description": "1.3 sürümünde iPhone Duo’yu açıp fotoğrafı listenin yanında görün. Katladığınızda seçili fotoğraf ekranda kalır.",
+      "language": "Dil",
+      "appStore": "App Store’da görüntüle",
+      "label": "Turkish",
+      "requires": "v1.3 gerekir. App Store’unuzda v1.3 kullanıma sunulduğunda güncelleyin."
+    },
+    "vi": {
+      "name": "Bộ sưu tập mở rộng",
+      "short_description": "Xem danh sách cạnh ảnh biển số trên iPhone Duo.",
+      "long_description": "Với bản 1.3, mở iPhone Duo để xem ảnh biển số bên cạnh danh sách. Gập máy lại để chỉ xem ảnh đã chọn.",
+      "language": "Ngôn ngữ",
+      "appStore": "Xem trên App Store",
+      "label": "Vietnamese",
+      "requires": "Yêu cầu v1.3. Hãy cập nhật khi v1.3 có trên App Store của bạn."
+    }
+  }
+}
