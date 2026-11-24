@@ -1,0 +1,22 @@
+{
+  "locales": {
+    "en-US": {
+      "name": "Taiwan Live Plate Checks",
+      "short_description": "Check for stolen-vehicle reports as you scan.",
+      "long_description": "Opt in to check newly auto-saved plates against stolen-vehicle reports from Taiwan’s National Police Agency.",
+      "language": "Language",
+      "appStore": "View on the App Store",
+      "label": "English (U.S.)",
+      "requires": "Requires v1.3. Update when v1.3 becomes available in your App Store."
+    },
+    "zh-Hant": {
+      "name": "台灣車牌掃描與失竊查詢",
+      "short_description": "掃描車牌時，自動查詢車輛失竊通報。",
+      "long_description": "開啟「掃描時查詢車輛失竊狀態」後，每當 App 自動儲存符合條件的車牌，就會向內政部警政署查詢該車輛是否有失竊通報。",
+      "language": "語言",
+      "appStore": "前往 App Store",
+      "label": "Chinese (Traditional)",
+      "requires": "需要 v1.3。當你的 App Store 提供 v1.3 時，請更新 App。"
+    }
+  }
+}

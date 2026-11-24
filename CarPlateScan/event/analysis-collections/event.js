@@ -54,12 +54,16 @@
       document.title = copy.name + ' — Car Plate Scan';
       for (const [id, field] of Object.entries({title:'name',short:'short_description',long:'long_description',
         'language-label':'language','app-store':'appStore',requires:'requires',interface:'interface'})) {
-        document.getElementById(id).textContent = copy[field];
+        const element = document.getElementById(id);
+        if (element) element.textContent = copy[field];
       }
       document.querySelector('meta[name="description"]').content = copy.short_description;
       const format = new Intl.DateTimeFormat(code, {year:'numeric',month:'long',day:'numeric',
         hour:'numeric',minute:'2-digit',timeZone:'America/New_York',timeZoneName:'short'});
-      for (const key of ['start', 'end']) document.getElementById(key).textContent = format.format(new Date(data[key]));
+      for (const key of ['start', 'end']) {
+        const element = document.getElementById(key);
+        if (element && data[key]) element.textContent = format.format(new Date(data[key]));
+      }
       select.value = code;
     }
     show(chooseLocale(new URL(location.href).searchParams.get('lang'),
