@@ -65,7 +65,7 @@ class PageReferences(HTMLParser):
         self.tags.append((tag, attrs))
         if "id" in attrs:
             self.ids.add(attrs["id"])
-        for key in ("src", "href"):
+        for key in ("src", "href", "poster"):
             if key in attrs:
                 self.references.append(attrs[key])
 
@@ -106,11 +106,30 @@ def validate_car_plate_scan(page: Path, locale: str, raw: str, options, alternat
     targets = {attrs["lang"]: urljoin(alternates[locale], attrs["href"]) for attrs in language_links}
     if len(language_links) != len(WEBSITE_LOCALES) or targets != {code: alternates[code] for code in WEBSITE_LOCALES}:
         fail(errors, f"{label}: language selector must link to every supported locale")
+    if [attrs["lang"] for attrs in language_links[:2]] != ["en-US", "zh-Hant"]:
+        fail(errors, f"{label}: Traditional Chinese must appear directly after English")
     if [attrs["lang"] for attrs in language_links if attrs.get("aria-current") == "page"] != [locale]:
         fail(errors, f"{label}: language selector must mark the active language")
     image_alts = {attrs["src"]: attrs["alt"] for tag, attrs in parser.tags if tag == "img" and "alt" in attrs}
     if tuple(image_alts.get(path) for path in expected_shots) != options.screenshot_alts:
         fail(errors, f"{label}: gallery must provide localized descriptions")
+    videos = [attrs for tag, attrs in parser.tags if tag == "video"]
+    if locale == "zh-Hant":
+        if (
+            'id="taiwan-live-demo"' not in raw
+            or raw.index('id="taiwan-live-demo"') > raw.find('class="asc-hero"')
+            or len(videos) != 1
+            or not {"controls", "playsinline", "poster"} <= videos[0].keys()
+            or videos[0].get("preload") != "metadata"
+            or "autoplay" in videos[0]
+            or not any(
+                tag == "source" and attrs.get("src", "").endswith("/taiwan-live-plate-checks.mp4")
+                for tag, attrs in parser.tags
+            )
+        ):
+            fail(errors, f"{label}: expected the featured Taiwan demo with click-to-play video")
+    elif videos or 'id="taiwan-live-demo"' in raw:
+        fail(errors, f"{label}: Taiwan demo must appear only in Traditional Chinese")
     for reference in parser.references:
         url = urlsplit(reference)
         if url.scheme or url.netloc:
