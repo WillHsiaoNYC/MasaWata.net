@@ -1,7 +1,8 @@
 /* Car Plate Scan follows the shared product layout with its slate/teal palette. */
 html { scroll-padding-top: 100px; }
 body { background-image: radial-gradient(ellipse at 85% 10%, #173e422e, transparent 38%); }
-a:focus-visible, .asc-languages summary:focus-visible, .asc-gallery:focus-visible {
+a:focus-visible, .asc-languages summary:focus-visible, .asc-gallery:focus-visible,
+.taiwan-demo video:focus-visible {
   outline: 3px solid #f5cc69;
   outline-offset: 5px;
 }
@@ -51,6 +52,47 @@ a:focus-visible, .asc-languages summary:focus-visible, .asc-gallery:focus-visibl
 .asc-download .asc-button { color: #0b171c; background: #a7dfd2; }
 .asc-download .asc-button:hover { background: #83c7b7; }
 footer a { text-underline-offset: 4px; }
+
+.taiwan-demo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 256px;
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  width: min(1120px, calc(100% - 2rem));
+  margin: clamp(1rem, 4vw, 3rem) auto 0;
+  padding: clamp(1.5rem, 4vw, 3.25rem) clamp(1.25rem, 5vw, 4rem);
+  border: 1px solid #3d7772;
+  border-radius: clamp(20px, 3vw, 32px);
+  background: radial-gradient(ellipse at 100% 0%, #2b5654, transparent 65%), #14282f;
+}
+.taiwan-demo-copy { max-width: 34rem; }
+.taiwan-demo-region { margin: 0 0 .5rem; color: #f5cc69; font-weight: 700; }
+.taiwan-demo h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.85rem, 4.5vw, 3.65rem);
+  line-height: 1.2;
+}
+.taiwan-demo h2 span { display: inline-block; }
+.taiwan-demo-copy > p:not(.taiwan-demo-region) {
+  color: var(--muted);
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+}
+.taiwan-demo-copy > p.taiwan-demo-requirements {
+  margin-bottom: 0;
+  font-size: .88rem;
+}
+.taiwan-demo figure { width: min(100%, 256px); margin: 0; }
+.taiwan-demo video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #4e7476;
+  border-radius: 20px;
+  background: #0b171c;
+  box-shadow: 0 18px 42px #0005;
+}
+.taiwan-demo figcaption { margin-top: .7rem; color: var(--muted); font-size: .86rem; }
+
 @media (max-width: 760px) {
   .asc-header { align-items: center; }
   .asc-header .asc-brand span { display: inline; }
@@ -63,4 +105,6 @@ footer a { text-underline-offset: 4px; }
   .asc-hero-shot { width: min(88%, 350px); }
   .asc-gallery { grid-auto-columns: minmax(220px, 78vw); }
   .asc-screens { padding-top: 1rem; }
+  .taiwan-demo { grid-template-columns: 1fr; gap: 1.35rem; }
+  .taiwan-demo figure { justify-self: center; }
 }

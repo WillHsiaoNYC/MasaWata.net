@@ -83,6 +83,8 @@ python3 scripts/validate_asc_web.py
 
 Car Plate Scan's landing pages use the editable translations under `CarPlateScan/locales/` and share the English `APP_IPHONE_61` screenshot set. The locale list follows the app UI inventory, including regional language variants. Other-language pages identify the screenshot language and provide localized alt text.
 
+The Traditional Chinese landing page features a masked demo of scanning a Taiwan plate and checking for a stolen-vehicle report. The web MP4 and poster are in `CarPlateScan/videos/`, and the Traditional Chinese feature copy is in `CarPlateScan/build.py`.
+
 To refresh Car Plate Scan's ASC snapshots and English screenshots, run `python3 scripts/sync_asc_web.py --app CarPlateScan --remote-assets`. From an isolated worktree, also pass `--asc-tools` with the absolute path to the existing `iOS_submission_tools` directory. The read-only importer prefers a live version and can read the pinned pre-release metadata when a live version is unavailable. Build with `python3 CarPlateScan/build.py` and validate with `python3 scripts/validate_asc_web.py`.
 
 Sitemaps list canonical product URLs only; regional alternates remain available through hreflang. Timer on Me uses `es-MX` as the preferred canonical for its identical `es-ES` copy. The shared builder omits optional `lastmod` dates because a rebuild does not establish when content changed.
