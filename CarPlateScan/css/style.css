@@ -2,6 +2,7 @@
 html { scroll-padding-top: 100px; }
 body { background-image: radial-gradient(ellipse at 85% 10%, #173e422e, transparent 38%); }
 a:focus-visible, .asc-languages summary:focus-visible, .asc-gallery:focus-visible,
+.first-week summary:focus-visible,
 .taiwan-demo video:focus-visible {
   outline: 3px solid #f5cc69;
   outline-offset: 5px;
@@ -52,6 +53,36 @@ a:focus-visible, .asc-languages summary:focus-visible, .asc-gallery:focus-visibl
 .asc-download .asc-button { color: #0b171c; background: #a7dfd2; }
 .asc-download .asc-button:hover { background: #83c7b7; }
 footer a { text-underline-offset: 4px; }
+
+.first-week {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .65rem clamp(1rem, 3vw, 2.5rem);
+  width: min(1120px, calc(100% - 2rem));
+  margin: 1rem auto 0;
+  padding: clamp(1rem, 2.6vw, 1.75rem);
+  border: 1px solid #3d7772;
+  border-radius: 18px;
+  background: #142d31;
+}
+.first-week h2 { margin: 0 0 .25rem; font-size: clamp(1.35rem, 3vw, 2rem); line-height: 1.25; }
+.first-week p { margin: 0; color: var(--muted); }
+.first-week-redeem {
+  display: block;
+  padding: .7rem 1rem;
+  border-radius: 10px;
+  background: #f5cc69;
+  color: #0b171c;
+  font-weight: 750;
+  text-align: center;
+  text-decoration: none;
+}
+.first-week-redeem:hover { background: #ffe199; }
+.first-week details { grid-column: 1 / -1; font-size: .875rem; color: var(--muted); }
+.first-week summary { width: fit-content; cursor: pointer; }
+.first-week details p { margin-top: .45rem; max-width: 80ch; }
+.first-week details a { text-underline-offset: .18em; }
 
 .taiwan-demo {
   display: grid;
@@ -105,6 +136,8 @@ footer a { text-underline-offset: 4px; }
   .asc-hero-shot { width: min(88%, 350px); }
   .asc-gallery { grid-auto-columns: minmax(220px, 78vw); }
   .asc-screens { padding-top: 1rem; }
+  .first-week { grid-template-columns: 1fr; }
+  .first-week-redeem { justify-self: start; }
   .taiwan-demo { grid-template-columns: 1fr; gap: 1.35rem; }
   .taiwan-demo figure { justify-self: center; }
 }

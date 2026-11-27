@@ -23,5 +23,13 @@
     "Sök bland sparade observationer av registreringsskyltar",
     "Bläddra bland observationer på kartan och efter datum",
     "Hitta dina favoritskyltar"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "En gratis vecka med Pro",
+    "summary": "Endast för dig som prenumererar för första gången. Provperioden tar slut efter en vecka utan automatisk förnyelse eller avgift.",
+    "redeem": "Lös in {code}",
+    "termsLabel": "Erbjudandevillkor",
+    "terms": "Lös in koden där Car Plate Scan finns i App Store, så länge det finns koder kvar. Du behöver ett Apple-konto och måste godkänna Apples villkor. Koderna saknar kontantvärde och får inte säljas vidare. MasaWata Tech tillhandahåller erbjudandet och innehållet.",
+    "appleTerms": "Villkor för Apples medietjänster"
+  }
 }

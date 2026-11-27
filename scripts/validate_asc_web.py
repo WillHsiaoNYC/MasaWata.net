@@ -16,7 +16,10 @@ from urllib.parse import unquote, urljoin, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from CarPlateScan.build import APP_STORE_ID, SCREENSHOT_LOCALE, WEBSITE_LOCALES, load_website_copy
+from CarPlateScan.build import (
+    APP_STORE_ID, APPLE_MEDIA_TERMS_URL, FIRST_WEEK_REDEEM_URL, SCREENSHOT_LOCALE,
+    WEBSITE_LOCALES, load_website_copy,
+)
 
 
 CARPLATE_STORE_URL = f"https://apps.apple.com/app/id{APP_STORE_ID}"
@@ -70,7 +73,7 @@ class PageReferences(HTMLParser):
                 self.references.append(attrs[key])
 
 
-def validate_car_plate_scan(page: Path, locale: str, raw: str, options, alternates: dict) -> list[str]:
+def validate_car_plate_scan(page: Path, locale: str, raw: str, options, alternates: dict, promo: dict) -> list[str]:
     errors: list[str] = []
     label = f"CarPlateScan {locale}"
     prefix = "" if locale == SCREENSHOT_LOCALE else "../"
@@ -100,6 +103,16 @@ def validate_car_plate_scan(page: Path, locale: str, raw: str, options, alternat
         fail(errors, f"{label}: missing English screenshot disclosure")
     parser = PageReferences()
     parser.feed(raw)
+    redeem = [attrs for tag, attrs in parser.tags if tag == "a" and attrs.get("class") == "first-week-redeem"]
+    if (
+        not re.search(r'<main[^>]*>\s*<section class="first-week"', raw)
+        or len(redeem) != 1
+        or redeem[0].get("href") != FIRST_WEEK_REDEEM_URL
+        or redeem[0].get("aria-describedby") != "first-week-summary"
+        or APPLE_MEDIA_TERMS_URL not in parser.references
+        or any(not promo[key].strip() or promo[key] not in readable for key in ("heading", "summary", "termsLabel", "terms", "appleTerms"))
+    ):
+        fail(errors, f"{label}: expected the localized FIRSTWEEK offer and redemption link at the top")
     if ('html', {'lang': locale, 'dir': 'rtl' if locale in {'ar-SA', 'he'} else 'ltr'}) not in parser.tags:
         fail(errors, f"{label}: incorrect page language or direction")
     language_links = [attrs for tag, attrs in parser.tags if tag == "a" and "lang" in attrs]
@@ -240,7 +253,9 @@ def validate_site(name: str) -> list[str]:
             continue
         raw = page.read_text(encoding="utf-8")
         if carplate_options:
-            errors.extend(validate_car_plate_scan(page, locale, raw, carplate_options[locale], expected_alternates))
+            errors.extend(validate_car_plate_scan(
+                page, locale, raw, carplate_options[locale], expected_alternates, content["firstWeek"],
+            ))
         readable = html.unescape(raw)
         canonical_locale = canonical_map.get(locale, locale)
         canonical = expected_alternates[canonical_locale]

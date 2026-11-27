@@ -23,5 +23,13 @@
     "Keresés a mentett rendszámfelvételek között",
     "Felvételek böngészése térképen és dátum szerint",
     "Kedvenc rendszámok megkeresése"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Egy hét Pro ingyen",
+    "summary": "Csak első alkalommal előfizetőknek. A próbaidőszak egy hét után lejár, automatikus megújítás és fizetés nélkül.",
+    "redeem": "{code} beváltása",
+    "termsLabel": "Az ajánlat feltételei",
+    "terms": "A kód ott váltható be, ahol a Car Plate Scan elérhető az App Store-ban, amíg a készlet tart. Apple-fiók és az Apple feltételeinek elfogadása szükséges. A kódoknak nincs pénzbeli értékük, és nem értékesíthetők tovább. Az ajánlatot és a tartalmat a MasaWata Tech biztosítja.",
+    "appleTerms": "Az Apple médiaszolgáltatásainak használati feltételei"
+  }
 }

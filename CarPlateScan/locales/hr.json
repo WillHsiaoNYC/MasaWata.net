@@ -23,5 +23,13 @@
     "Pretraživanje spremljenih snimki pločica",
     "Pregled snimki na karti i po datumu",
     "Pristup omiljenim pločicama"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Isprobaj Pro besplatno na tjedan dana",
+    "summary": "Samo za one koji se nikad nisu pretplatili. Probno razdoblje završava nakon tjedan dana, bez automatske obnove i naplate.",
+    "redeem": "Iskoristi {code}",
+    "termsLabel": "Uvjeti ponude",
+    "terms": "Iskoristi kod ondje gdje je Car Plate Scan dostupan u trgovini App Store, dok ima kodova. Potreban je Apple račun i prihvaćanje Appleovih uvjeta. Kodovi nemaju novčanu vrijednost i ne mogu se preprodavati. Ponudu i sadržaj pruža MasaWata Tech.",
+    "appleTerms": "Uvjeti i odredbe za medijske usluge tvrtke Apple"
+  }
 }

@@ -23,5 +23,13 @@
     "Kaydedilmiş plaka çekimlerini arama",
     "Çekimlere haritada veya tarihe göre göz atma",
     "Favori plakaları bulma"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Bir hafta ücretsiz Pro",
+    "summary": "Yalnızca daha önce hiç Pro aboneliği başlatmamış olanlar için. Deneme bir hafta sonra sona erer. Otomatik yenileme yapılmaz ve ücret alınmaz.",
+    "redeem": "{code} kodunu kullan",
+    "termsLabel": "Teklif koşulları",
+    "terms": "Kodlar tükenene kadar, Car Plate Scan’in App Store’da sunulduğu ülke ve bölgelerde kodunuzu kullanabilirsiniz. Bir Apple Hesabı gerekir ve Apple’ın koşulları kabul edilmelidir. Kodların nakit değeri yoktur ve yeniden satılamaz. Teklif ve içerik MasaWata Tech tarafından sağlanır.",
+    "appleTerms": "Apple Medya Hizmetleri Hüküm ve Koşulları"
+  }
 }

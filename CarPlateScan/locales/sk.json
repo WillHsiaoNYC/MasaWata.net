@@ -23,5 +23,13 @@
     "Vyhľadávanie v uložených záznamoch evidenčných čísel",
     "Prezeranie záznamov na mape a podľa dátumu",
     "Vyhľadanie obľúbených evidenčných čísel"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Pro na týždeň zadarmo",
+    "summary": "Len pre tých, ktorí si predplatné aktivujú prvýkrát. Skúšobné obdobie sa po týždni skončí bez automatického obnovenia a bez poplatku.",
+    "redeem": "Uplatniť kód {code}",
+    "termsLabel": "Podmienky ponuky",
+    "terms": "Kód môžete uplatniť všade, kde je Car Plate Scan dostupná v App Store, až do vyčerpania kódov. Potrebujete účet Apple a musíte prijať podmienky spoločnosti Apple. Kódy nemajú peňažnú hodnotu a nesmú sa ďalej predávať. Ponuku a obsah poskytuje MasaWata Tech.",
+    "appleTerms": "Zmluvné podmienky mediálnych služieb Apple"
+  }
 }

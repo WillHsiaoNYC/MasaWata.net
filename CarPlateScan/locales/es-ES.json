@@ -23,5 +23,13 @@
     "Búsqueda de capturas de matrículas guardadas",
     "Consulta de capturas en el mapa y por fecha",
     "Acceso a las matrículas favoritas"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Una semana gratis de Pro",
+    "summary": "Solo para quienes nunca se han suscrito. La prueba termina al cabo de una semana, sin renovación automática ni cargos.",
+    "redeem": "Canjea {code}",
+    "termsLabel": "Condiciones de la oferta",
+    "terms": "Canjea el código donde Car Plate Scan esté disponible en el App Store, hasta agotar los códigos. Se requiere una Cuenta de Apple y aceptar los términos de Apple. Los códigos no tienen valor en efectivo y no pueden revenderse. MasaWata Tech ofrece la promoción y el contenido.",
+    "appleTerms": "Términos y condiciones de los Servicios multimedia de Apple"
+  }
 }

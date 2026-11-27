@@ -23,5 +23,13 @@
     "Busca entre capturas de placas salvas",
     "Consulta das capturas no mapa e por data",
     "Acesso às placas favoritas"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Uma semana grátis de Pro",
+    "summary": "Só para quem nunca assinou. O teste termina após uma semana, sem renovação automática nem cobrança.",
+    "redeem": "Resgatar {code}",
+    "termsLabel": "Termos da oferta",
+    "terms": "Resgate o código onde Car Plate Scan estiver disponível na App Store, enquanto houver códigos. É preciso ter uma Conta Apple e aceitar os termos da Apple. Os códigos não têm valor em dinheiro e não podem ser revendidos. A MasaWata Tech fornece a oferta e o conteúdo.",
+    "appleTerms": "Termos e condições dos Serviços de Mídia da Apple"
+  }
 }

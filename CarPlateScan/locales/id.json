@@ -23,5 +23,13 @@
     "Mencari tangkapan pelat yang tersimpan",
     "Melihat tangkapan di peta atau berdasarkan tanggal",
     "Menemukan pelat favorit"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Pro gratis selama satu minggu",
+    "summary": "Khusus bagi yang belum pernah berlangganan Pro. Uji coba berakhir setelah satu minggu, tanpa perpanjangan otomatis atau biaya.",
+    "redeem": "Tukarkan kode {code}",
+    "termsLabel": "Ketentuan penawaran",
+    "terms": "Tukarkan kode di negara atau wilayah tempat Car Plate Scan tersedia di App Store, selama persediaan kode masih ada. Anda memerlukan Akun Apple dan harus menyetujui ketentuan Apple. Kode tidak memiliki nilai tunai dan tidak boleh dijual kembali. Penawaran dan konten disediakan oleh MasaWata Tech.",
+    "appleTerms": "Syarat dan Ketentuan Layanan Media Apple"
+  }
 }

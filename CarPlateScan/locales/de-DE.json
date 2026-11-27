@@ -23,5 +23,13 @@
     "Gespeicherte Kennzeichenaufnahmen durchsuchen",
     "Aufnahmen auf der Karte und nach Datum ansehen",
     "Favorisierte Kennzeichen finden"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Eine Woche Pro gratis",
+    "summary": "Nur für dein erstes Pro-Abo. Der Testzeitraum endet nach einer Woche ohne automatische Verlängerung oder Kosten.",
+    "redeem": "{code} einlösen",
+    "termsLabel": "Angebotsbedingungen",
+    "terms": "Löse den Code ein, solange Codes verfügbar sind und Car Plate Scan in deinem App Store angeboten wird. Du brauchst einen Apple Account und musst den Apple-Bedingungen zustimmen. Codes haben keinen Geldwert und dürfen nicht weiterverkauft werden. MasaWata Tech stellt das Angebot und die Inhalte bereit.",
+    "appleTerms": "Allgemeine Geschäftsbedingungen der Apple-Mediendienste"
+  }
 }

@@ -23,5 +23,13 @@
     "Søgning blandt gemte nummerpladeregistreringer",
     "Gennemgang af registreringer på kort og efter dato",
     "Find dine favoritnummerplader"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "En gratis uge med Pro",
+    "summary": "Kun for dig, der abonnerer for første gang. Prøveperioden udløber efter én uge uden automatisk fornyelse eller betaling.",
+    "redeem": "Indløs {code}",
+    "termsLabel": "Tilbudsvilkår",
+    "terms": "Koden kan indløses, hvor Car Plate Scan er tilgængelig i App Store, så længe der er koder tilbage. Du skal have en Apple-konto og acceptere Apples vilkår. Koderne har ingen kontantværdi og må ikke videresælges. MasaWata Tech står for tilbuddet og indholdet.",
+    "appleTerms": "Vilkår og betingelser for Apple-medietjenester"
+  }
 }

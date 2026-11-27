@@ -23,5 +23,13 @@
     "Zoeken in opgeslagen kentekenopnamen",
     "Opnamen bekijken op de kaart en op datum",
     "Favoriete kentekens vinden"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Eén week gratis Pro",
+    "summary": "Alleen voor wie voor het eerst een abonnement neemt. De proefperiode stopt na één week zonder automatische verlenging of kosten.",
+    "redeem": "Wissel {code} in",
+    "termsLabel": "Voorwaarden van de aanbieding",
+    "terms": "Wissel de code in zolang de voorraad strekt, overal waar Car Plate Scan in de App Store beschikbaar is. Je hebt een Apple Account nodig en moet akkoord gaan met de voorwaarden van Apple. Codes hebben geen geldwaarde en mogen niet worden doorverkocht. MasaWata Tech verzorgt de aanbieding en de inhoud.",
+    "appleTerms": "Algemene voorwaarden voor Apple Media Services"
+  }
 }

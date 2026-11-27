@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build the Car Plate Scan landing page in every supported app language variant."""
 
+import html
 import json
 import sys
 from pathlib import Path
@@ -13,6 +14,9 @@ from scripts.asc_web import PageOptions, build_site
 
 
 APP_STORE_ID = "6825007024"
+FIRST_WEEK_CODE = "FIRSTWEEK"
+FIRST_WEEK_REDEEM_URL = f"https://apps.apple.com/redeem?id={APP_STORE_ID}&code={FIRST_WEEK_CODE}"
+APPLE_MEDIA_TERMS_URL = "https://www.apple.com/legal/internet-services/itunes/ww/"
 SCREENSHOT_LOCALE = "en-US"
 # Website routes follow the studio's locale naming. Include all app UI variants.
 WEBSITE_LOCALES = (
@@ -42,6 +46,23 @@ TAIWAN_DEMO = """
 """
 
 
+def render_first_week(copy: dict[str, str]) -> str:
+    if copy["redeem"].count("{code}") != 1:
+        raise ValueError("The redemption label must include the offer code once")
+    redeem = html.escape(copy["redeem"]).replace("{code}", f"<bdi>{FIRST_WEEK_CODE}</bdi>")
+    return f"""    <section class="first-week" aria-labelledby="first-week-title">
+      <div>
+        <h2 id="first-week-title">{html.escape(copy["heading"])}</h2>
+        <p id="first-week-summary">{html.escape(copy["summary"])}</p>
+      </div>
+      <a class="first-week-redeem" href="{html.escape(FIRST_WEEK_REDEEM_URL, quote=True)}" aria-describedby="first-week-summary">{redeem}</a>
+      <details>
+        <summary>{html.escape(copy["termsLabel"])}</summary>
+        <p>{html.escape(copy["terms"])} <a href="{APPLE_MEDIA_TERMS_URL}">{html.escape(copy["appleTerms"])}</a></p>
+      </details>
+    </section>"""
+
+
 def load_website_copy(site_dir: Path = ROOT) -> tuple[dict, dict[str, PageOptions]]:
     locales = {}
     options = {}
@@ -56,6 +77,7 @@ def load_website_copy(site_dir: Path = ROOT) -> tuple[dict, dict[str, PageOption
             "subtitle": copy["subtitle"],
             "promotionalText": copy["promotionalText"],
             "description": "\n\n".join(copy["description"]),
+            "firstWeek": copy["firstWeek"],
         }
         options[locale] = PageOptions(
             brand_name=brand,
@@ -72,6 +94,11 @@ def load_website_copy(site_dir: Path = ROOT) -> tuple[dict, dict[str, PageOption
 
 def build() -> int:
     metadata, options = load_website_copy()
+    promo = {
+        locale: render_first_week(copy["firstWeek"])
+        for locale, copy in metadata["locales"].items()
+    }
+    promo["zh-Hant"] += TAIWAN_DEMO.rstrip()
     return build_site(
         site_dir=ROOT,
         base_url="https://masawata.net/CarPlateScan",
@@ -91,7 +118,7 @@ def build() -> int:
             locale: ("css/style.css",) if locale == "en-US" else ("../css/style.css",)
             for locale in WEBSITE_LOCALES
         },
-        locale_pre_hero_html={"zh-Hant": TAIWAN_DEMO.lstrip("\n")},
+        locale_pre_hero_html=promo,
         metadata=metadata,
         locale_page_options=options,
     )

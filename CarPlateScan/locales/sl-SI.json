@@ -23,5 +23,13 @@
     "Iskanje med shranjenimi posnetki tablic",
     "Pregledovanje posnetkov na zemljevidu in po datumu",
     "Dostop do priljubljenih tablic"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "En teden brezplačnega dostopa do Pro",
+    "summary": "Samo za tiste, ki še nikoli niso sklenili naročnine. Preizkus se po enem tednu konča brez samodejnega podaljšanja ali zaračunavanja.",
+    "redeem": "Unovči kodo {code}",
+    "termsLabel": "Pogoji ponudbe",
+    "terms": "Kodo lahko unovčiš povsod, kjer je Car Plate Scan na voljo v trgovini App Store, dokler so kode na voljo. Potrebuješ račun Apple in moraš sprejeti Applove pogoje. Kode nimajo denarne vrednosti in jih ni dovoljeno preprodajati. Ponudbo in vsebino zagotavlja MasaWata Tech.",
+    "appleTerms": "Pogoji in določila za predstavnostne storitve Apple"
+  }
 }

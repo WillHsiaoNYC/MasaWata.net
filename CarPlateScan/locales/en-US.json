@@ -23,5 +23,13 @@
     "Search saved plate captures",
     "Browse captures by map and date",
     "Find favorite plates"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "One week of Pro, free",
+    "summary": "For first-time subscribers only. The trial ends after one week with no automatic renewal or charge.",
+    "redeem": "Redeem {code}",
+    "termsLabel": "Offer terms",
+    "terms": "Redeem wherever Car Plate Scan is available on the App Store, while codes last. An Apple Account and acceptance of Apple’s terms are required. Codes have no cash value and may not be resold. MasaWata Tech provides the offer and content.",
+    "appleTerms": "Apple Media Services Terms and Conditions"
+  }
 }
