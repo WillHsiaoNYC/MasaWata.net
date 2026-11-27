@@ -1,0 +1,27 @@
+{
+  "subtitle": "Escaneja matrícules i recupera les teves captures",
+  "promotionalText": "Llegeix matrícules amb la càmera o a partir de fotos. Revisa el text, desa’n els detalls i recupera captures anteriors amb la cerca, el mapa i els favorits.",
+  "description": [
+    "Escaneja en directe amb la càmera o tria una foto de la teva fototeca. Revisa les lectures dubtoses, corregeix el text de la matrícula i ajusta el desament automàtic i les opcions de captures repetides.",
+    "Desa un retall de la matrícula i la foto sencera, juntament amb l’hora de la captura i la ubicació si està disponible. Consulta les captures repetides d’una mateixa matrícula.",
+    "Cerca entre les matrícules desades, consulta les captures per data o al mapa i marca-les com a favorites per trobar-les de seguida."
+  ],
+  "processingLabel": "Privadesa i tractament de dades",
+  "processing": [
+    "Car Plate Scan registra el que captures. No identifica els propietaris dels vehicles ni proporciona el número de bastidor (VIN), dades de matriculació o informes sobre l’historial del vehicle.",
+    "La lectura bàsica de matrícules es fa al dispositiu. La revisió opcional al núvol utilitza Apple Private Cloud Compute en dispositius compatibles i requereix una connexió a internet. La disponibilitat depèn del sistema operatiu, del dispositiu i dels límits del servei.",
+    "El reconeixement pot fallar. Revisa els resultats abans de fer-los servir. El format de la matrícula i les condicions de la imatge poden afectar els resultats. No facis servir l’app mentre condueixes i respecta la privadesa dels altres."
+  ],
+  "storeLabel": "Consulta a l’App Store",
+  "skipLink": "Ves al contingut",
+  "screenshotNote": "Les captures de pantalla mostren l’app en anglès.",
+  "screenshotAlts": [
+    "Un telèfon escaneja la matrícula d’un cotxe amb Car Plate Scan",
+    "Vista general de l’escaneig amb càmera i fotos, l’historial de captures, el mapa i els favorits",
+    "Escaneig d’una matrícula amb la càmera o des d’una foto",
+    "Revisió i correcció de la lectura d’una matrícula abans de desar-la",
+    "Cerca de captures desades",
+    "Consulta de captures al mapa i per data",
+    "Accés a les matrícules favorites"
+  ]
+}

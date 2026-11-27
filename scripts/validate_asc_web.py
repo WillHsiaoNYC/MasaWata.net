@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate generated product sites against checked-in ASC snapshots."""
+"""Validate generated product sites against their checked-in copy and assets."""
 
 from __future__ import annotations
 
@@ -10,10 +10,17 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from urllib.parse import unquote, urlsplit
+from urllib.parse import unquote, urljoin, urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from CarPlateScan.build import APP_STORE_ID, SCREENSHOT_LOCALE, WEBSITE_LOCALES, load_website_copy
+
+
+CARPLATE_STORE_URL = f"https://apps.apple.com/app/id{APP_STORE_ID}"
+CARPLATE_URL = "https://masawata.net/CarPlateScan/"
 SITES = (
     "CarPlateScan",
     "FitnessStory",
@@ -51,9 +58,11 @@ class PageReferences(HTMLParser):
         super().__init__()
         self.references = []
         self.ids = set()
+        self.tags = []
 
     def handle_starttag(self, tag, attributes):
         attrs = dict(attributes)
+        self.tags.append((tag, attrs))
         if "id" in attrs:
             self.ids.add(attrs["id"])
         for key in ("src", "href"):
@@ -61,42 +70,57 @@ class PageReferences(HTMLParser):
                 self.references.append(attrs[key])
 
 
-def validate_car_plate_scan(site: Path, raw: str, metadata: dict, assets: dict) -> list[str]:
+def validate_car_plate_scan(page: Path, locale: str, raw: str, options, alternates: dict) -> list[str]:
     errors: list[str] = []
-    if set(metadata["locales"]) != {"en-US"} or set(assets) != {"en-US"}:
-        fail(errors, "CarPlateScan: website must remain English only")
-    if len(assets.get("en-US", [])) != 7 or any(
-        item["displayType"] != "APP_IPHONE_61" for item in assets.get("en-US", [])
-    ):
-        fail(errors, "CarPlateScan: expected seven APP_IPHONE_61 ASC screenshots")
-    expected_shots = [f"images/asc/en-US/{index:02d}-phone.webp" for index in range(1, 8)]
+    label = f"CarPlateScan {locale}"
+    prefix = "" if locale == SCREENSHOT_LOCALE else "../"
+    expected_shots = [f"{prefix}images/asc/{SCREENSHOT_LOCALE}/{index:02d}-phone.webp" for index in range(1, 8)]
     if re.findall(r'<figure><img src="([^"]+)"', raw) != expected_shots:
-        fail(errors, "CarPlateScan: gallery must preserve all seven screenshots in ASC order")
-    if raw.count("Planned release: November 28, 2026") != 2:
-        fail(errors, "CarPlateScan: planned release must appear in hero and final action panel")
-    if any(marker in raw for marker in ("apple-itunes-app", 'class="asc-languages"', "Download on the App Store")):
-        fail(errors, "CarPlateScan: pre-release page contains a download claim or language selector")
+        fail(errors, f"{label}: gallery must preserve all seven screenshots in ASC order")
+    if 'class="release-status"' in raw or "November 28, 2026" in raw:
+        fail(errors, f"{label}: obsolete release date on product page")
+    if raw.count(f'href="{CARPLATE_STORE_URL}" rel="noopener">{html.escape(options.store_label)}</a>') != 2:
+        fail(errors, f"{label}: missing localized App Store links")
+    if f'name="apple-itunes-app" content="app-id={APP_STORE_ID}"' not in raw:
+        fail(errors, f"{label}: missing App Store banner")
     schemas = re.findall(r'<script type="application/ld\+json">(.*?)</script>', raw, re.S)
     try:
         schema = json.loads(schemas[0]) if len(schemas) == 1 else {}
-        if schema.get("operatingSystem") != "iOS" or any(key in schema for key in ("downloadUrl", "offers", "aggregateRating", "datePublished")):
-            fail(errors, "CarPlateScan: incorrect pre-release structured data")
+        if schema.get("operatingSystem") != "iOS" or schema.get("sameAs") != CARPLATE_STORE_URL or "downloadUrl" in schema:
+            fail(errors, f"{label}: incorrect App Store structured data")
     except (ValueError, IndexError):
-        fail(errors, "CarPlateScan: invalid structured data")
-    if 'href="#privacy-processing">Privacy &amp; processing</a>' not in raw:
-        fail(errors, "CarPlateScan: footer must link to its accurate processing information")
+        fail(errors, f"{label}: invalid structured data")
+    readable = html.unescape(raw)
+    if (
+        f'href="#privacy-processing">{options.privacy_label}</a>' not in readable
+        or any(paragraph not in readable for paragraph in options.processing_notice.split("\n\n"))
+    ):
+        fail(errors, f"{label}: missing localized processing notice or footer link")
+    if options.screenshot_note and f'id="screenshot-note">{options.screenshot_note}</p>' not in readable:
+        fail(errors, f"{label}: missing English screenshot disclosure")
     parser = PageReferences()
     parser.feed(raw)
+    if ('html', {'lang': locale, 'dir': 'rtl' if locale in {'ar-SA', 'he'} else 'ltr'}) not in parser.tags:
+        fail(errors, f"{label}: incorrect page language or direction")
+    language_links = [attrs for tag, attrs in parser.tags if tag == "a" and "lang" in attrs]
+    targets = {attrs["lang"]: urljoin(alternates[locale], attrs["href"]) for attrs in language_links}
+    if len(language_links) != len(WEBSITE_LOCALES) or targets != {code: alternates[code] for code in WEBSITE_LOCALES}:
+        fail(errors, f"{label}: language selector must link to every supported locale")
+    if [attrs["lang"] for attrs in language_links if attrs.get("aria-current") == "page"] != [locale]:
+        fail(errors, f"{label}: language selector must mark the active language")
+    image_alts = {attrs["src"]: attrs["alt"] for tag, attrs in parser.tags if tag == "img" and "alt" in attrs}
+    if tuple(image_alts.get(path) for path in expected_shots) != options.screenshot_alts:
+        fail(errors, f"{label}: gallery must provide localized descriptions")
     for reference in parser.references:
         url = urlsplit(reference)
         if url.scheme or url.netloc:
             continue
-        target = ROOT / unquote(url.path).lstrip("/") if url.path.startswith("/") else site / unquote(url.path)
+        target = ROOT / unquote(url.path).lstrip("/") if url.path.startswith("/") else page.parent / unquote(url.path)
         if not url.path:
             if url.fragment and url.fragment not in parser.ids:
-                fail(errors, f"CarPlateScan: missing anchor {reference}")
+                fail(errors, f"{label}: missing anchor {reference}")
         elif not (target.is_file() or (target.is_dir() and (target / "index.html").is_file())):
-            fail(errors, f"CarPlateScan: missing local URL {reference}")
+            fail(errors, f"{label}: missing local URL {reference}")
     return errors
 
 
@@ -110,11 +134,11 @@ def validate_catalog() -> list[str]:
         fail(errors, "Studio: catalog count/positions do not match entries")
     if f'Index · {len(entries):02d}' not in raw or raw.count('<li class="app">') != len(entries):
         fail(errors, "Studio: visible catalog count does not match structured data")
-    upcoming = [entry["item"] for entry in entries if entry["item"]["url"] == "https://masawata.net/CarPlateScan/"]
-    if len(upcoming) != 1 or any(key in upcoming[0] for key in ("downloadUrl", "offers")):
-        fail(errors, "Studio: expected one Car Plate Scan entry without unverified download/price claims")
-    if 'href="/CarPlateScan/"' not in raw or "Planned release: November 28, 2026" not in raw:
-        fail(errors, "Studio: missing Car Plate Scan navigation or planned release")
+    carplate = [entry["item"] for entry in entries if entry["item"]["url"] == CARPLATE_URL]
+    if len(carplate) != 1 or carplate[0].get("sameAs") != CARPLATE_STORE_URL:
+        fail(errors, "Studio: expected one Car Plate Scan entry with its App Store listing")
+    if 'href="/CarPlateScan/"' not in raw or f'href="{CARPLATE_STORE_URL}"' not in raw or "Planned release" in raw:
+        fail(errors, "Studio: incorrect Car Plate Scan navigation or release copy")
     index = ET.parse(ROOT / "sitemap.xml")
     if not any(node.text == "https://masawata.net/CarPlateScan/sitemap.xml" for node in index.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")):
         fail(errors, "Studio: sitemap index omits CarPlateScan")
@@ -138,11 +162,22 @@ def validate_catalog() -> list[str]:
 def validate_site(name: str) -> list[str]:
     errors: list[str] = []
     site = ROOT / name
-    metadata = json.loads((site / "asc-metadata.json").read_text(encoding="utf-8"))
-    locales = metadata["locales"]
     assets = json.loads((site / "asc-assets.json").read_text(encoding="utf-8"))
-    if set(locales) != set(assets):
-        fail(errors, f"{name}: metadata and ASC screenshot locale sets differ")
+    carplate_options = {}
+    if name == "CarPlateScan":
+        metadata, carplate_options = load_website_copy(site)
+        english_shots = assets.get(SCREENSHOT_LOCALE, [])
+        if set(assets) != {SCREENSHOT_LOCALE} or len(english_shots) != 7 or any(
+            item["displayType"] != "APP_IPHONE_61" for item in english_shots
+        ):
+            fail(errors, "CarPlateScan: expected the shared set of seven APP_IPHONE_61 screenshots")
+        if len(list((site / "images" / "asc" / SCREENSHOT_LOCALE).glob("*.webp"))) != len(english_shots):
+            fail(errors, "CarPlateScan: screenshot files must match the shared ASC manifest")
+    else:
+        metadata = json.loads((site / "asc-metadata.json").read_text(encoding="utf-8"))
+        if set(metadata["locales"]) != set(assets):
+            fail(errors, f"{name}: metadata and ASC screenshot locale sets differ")
+    locales = metadata["locales"]
 
     sitemap = ET.parse(site / "sitemap.xml")
     namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9", "xhtml": "http://www.w3.org/1999/xhtml"}
@@ -159,7 +194,7 @@ def validate_site(name: str) -> list[str]:
         if CANONICAL_LOCALES.get(name, {}).get(locale, locale) == locale
     }
     if urls != expected_urls:
-        fail(errors, f"{name}: sitemap URLs do not exactly match canonical ASC locales")
+        fail(errors, f"{name}: sitemap URLs do not exactly match canonical locales")
 
     canonical_map = CANONICAL_LOCALES.get(name, {})
     expected_alternates = {
@@ -177,7 +212,7 @@ def validate_site(name: str) -> list[str]:
             for node in entry.findall("xhtml:link", namespace)
         }
         if alternates != expected_alternates:
-            fail(errors, f"{name}: sitemap alternates do not exactly match ASC locales")
+            fail(errors, f"{name}: sitemap alternates do not exactly match site locales")
 
     for locale, content in locales.items():
         page = page_for(site, locale)
@@ -185,8 +220,8 @@ def validate_site(name: str) -> list[str]:
             fail(errors, f"{name} {locale}: generated page missing")
             continue
         raw = page.read_text(encoding="utf-8")
-        if name == "CarPlateScan":
-            errors.extend(validate_car_plate_scan(site, raw, metadata, assets))
+        if carplate_options:
+            errors.extend(validate_car_plate_scan(page, locale, raw, carplate_options[locale], expected_alternates))
         readable = html.unescape(raw)
         canonical_locale = canonical_map.get(locale, locale)
         canonical = expected_alternates[canonical_locale]
@@ -202,17 +237,17 @@ def validate_site(name: str) -> list[str]:
         for field in ("name", "subtitle", "promotionalText"):
             value = content.get(field)
             if value and value not in readable:
-                fail(errors, f"{name} {locale}: ASC {field} missing from page")
+                fail(errors, f"{name} {locale}: {field} missing from page")
         if name in FULL_DESCRIPTION_SITES:
             for line in content.get("description", "").splitlines():
                 value = line.strip().lstrip("•·- ").strip()
                 if value and value not in readable:
-                    fail(errors, f"{name} {locale}: ASC description text missing: {value[:40]}")
+                    fail(errors, f"{name} {locale}: description text missing: {value[:40]}")
         html_alternates = dict(
             re.findall(r'<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"', raw)
         )
         if html_alternates != expected_alternates:
-            fail(errors, f"{name} {locale}: HTML hreflang alternates do not match canonical ASC locales")
+            fail(errors, f"{name} {locale}: HTML hreflang alternates do not match canonical site locales")
         if locale in {"ar-SA", "he"} and 'dir="rtl"' not in raw:
             fail(errors, f"{name} {locale}: RTL direction missing")
 
@@ -232,6 +267,8 @@ def validate_site(name: str) -> list[str]:
             ):
                 fail(errors, f"{name} {locale}: zh-Hant campaign leaked into this locale")
 
+        if carplate_options:
+            continue
         screenshot_dir = site / "images" / "asc" / locale
         actual = sorted(screenshot_dir.glob("*.webp"))
         if len(actual) != len(assets[locale]):
@@ -256,7 +293,9 @@ def main() -> int:
     for site in SITES:
         site_errors = validate_site(site)
         errors.extend(site_errors)
-        if not site_errors:
+        if not site_errors and site == "CarPlateScan":
+            print(f"✓ {site}: {len(WEBSITE_LOCALES)} website locales")
+        elif not site_errors:
             metadata = json.loads(
                 (ROOT / site / "asc-metadata.json").read_text(encoding="utf-8")
             )
@@ -264,7 +303,7 @@ def main() -> int:
     if errors:
         print("\n".join(f"ERROR: {error}" for error in errors), file=sys.stderr)
         return 1
-    print("\nAll product sites match their checked-in ASC locale and screenshot manifests.")
+    print("\nAll product sites match their checked-in copy and screenshot manifests.")
     return 0
 
 

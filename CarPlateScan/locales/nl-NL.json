@@ -1,0 +1,27 @@
+{
+  "subtitle": "Scan kentekens en bekijk eerdere opnamen",
+  "promotionalText": "Lees kentekens met je camera of vanaf foto’s. Controleer de tekens, bewaar de details en vind eerdere opnamen terug met de zoekfunctie, op de kaart of via je favorieten.",
+  "description": [
+    "Scan direct met de camera of kies een foto uit je fotobibliotheek. Controleer onzekere resultaten, verbeter het herkende kenteken en pas de instellingen voor automatisch opslaan en herhaalde opnamen aan.",
+    "Bewaar een uitsnede van de kentekenplaat én de volledige foto, samen met het opnametijdstip en de locatie als die bekend is. Bekijk eerdere opnamen van hetzelfde kenteken.",
+    "Doorzoek je opgeslagen kentekens, blader door opnamen op datum of bekijk ze op de kaart. Markeer favorieten om ze snel terug te vinden."
+  ],
+  "processingLabel": "Privacy en gegevensverwerking",
+  "processing": [
+    "Car Plate Scan bewaart wat je vastlegt. De app achterhaalt geen voertuigeigenaren en geeft geen chassisnummers (VIN), registratiegegevens of rapporten over de voertuiggeschiedenis.",
+    "De kentekenherkenning zelf vindt plaats op je apparaat. Optionele controle in de cloud maakt op ondersteunde apparaten gebruik van Apple Private Cloud Compute en vereist een internetverbinding. De beschikbaarheid hangt af van het besturingssysteem, het apparaat en de beperkingen van de dienst.",
+    "De herkenning kan fouten maken. Controleer de resultaten voordat je erop vertrouwt. De indeling van de kentekenplaat en de opnameomstandigheden beïnvloeden de resultaten. Gebruik de app niet tijdens het rijden en respecteer de privacy van anderen."
+  ],
+  "storeLabel": "Bekijk in de App Store",
+  "skipLink": "Naar de inhoud",
+  "screenshotNote": "De schermafbeeldingen tonen de app in het Engels.",
+  "screenshotAlts": [
+    "Een telefoon scant het kenteken van een auto",
+    "Overzicht van scannen met de camera of vanaf foto’s, eerdere opnamen, kaarten en favorieten",
+    "Een kenteken scannen met de camera of vanaf een foto",
+    "Een herkend kenteken controleren en aanpassen vóór het opslaan",
+    "Zoeken in opgeslagen kentekenopnamen",
+    "Opnamen bekijken op de kaart en op datum",
+    "Favoriete kentekens vinden"
+  ]
+}

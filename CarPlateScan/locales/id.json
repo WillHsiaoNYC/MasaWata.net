@@ -1,0 +1,27 @@
+{
+  "subtitle": "Pindai pelat nomor dan lihat lagi riwayatnya",
+  "promotionalText": "Baca pelat nomor lewat kamera atau dari foto. Periksa hasil pembacaan, simpan detailnya, dan temukan tangkapan lama lewat pencarian, peta, dan favorit.",
+  "description": [
+    "Pindai langsung dengan kamera atau pilih foto dari galeri. Periksa hasil pembacaan yang belum pasti, koreksi teks pelat, dan atur penyimpanan otomatis serta pengambilan berulang.",
+    "Simpan potongan gambar pelat dan foto utuh, beserta waktu pengambilan dan lokasi jika tersedia. Lihat kembali tangkapan lain dari pelat yang sama.",
+    "Cari pelat yang sudah disimpan, lihat tangkapan berdasarkan tanggal atau di peta, dan tandai pelat sebagai favorit agar mudah ditemukan."
+  ],
+  "processingLabel": "Privasi dan pemrosesan data",
+  "processing": [
+    "Car Plate Scan mencatat apa yang Anda tangkap. Aplikasi ini tidak mengidentifikasi pemilik kendaraan dan tidak menyediakan nomor identifikasi kendaraan (VIN), data registrasi, atau laporan riwayat kendaraan.",
+    "Proses utama pembacaan pelat berlangsung di perangkat Anda. Pemeriksaan opsional melalui cloud menggunakan Apple Private Cloud Compute pada perangkat yang didukung dan memerlukan koneksi internet. Ketersediaannya bergantung pada sistem operasi, perangkat, dan batasan layanan.",
+    "Hasil pengenalan bisa keliru. Periksa hasilnya sebelum mengandalkannya. Format pelat dan kondisi foto memengaruhi hasil. Jangan gunakan aplikasi saat mengemudi dan hormati privasi orang lain."
+  ],
+  "storeLabel": "Lihat di App Store",
+  "skipLink": "Lewati ke konten",
+  "screenshotNote": "Tangkapan layar menampilkan aplikasi dalam bahasa Inggris.",
+  "screenshotAlts": [
+    "Ponsel memindai pelat nomor mobil lewat Car Plate Scan",
+    "Ringkasan pemindaian melalui kamera dan foto, riwayat tangkapan, peta, dan favorit",
+    "Memindai pelat nomor menggunakan kamera atau dari foto",
+    "Memeriksa dan mengoreksi hasil pembacaan pelat sebelum menyimpan",
+    "Mencari tangkapan pelat yang tersimpan",
+    "Melihat tangkapan di peta atau berdasarkan tanggal",
+    "Menemukan pelat favorit"
+  ]
+}

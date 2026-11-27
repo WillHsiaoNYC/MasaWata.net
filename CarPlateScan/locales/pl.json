@@ -1,0 +1,27 @@
+{
+  "subtitle": "Skanuj tablice rejestracyjne i wracaj do swoich zapisów",
+  "promotionalText": "Odczytuj numery rejestracyjne aparatem lub ze zdjęć. Sprawdź odczyt, zapisz szczegóły i wracaj do wcześniejszych zapisów dzięki wyszukiwaniu, mapom i ulubionym.",
+  "description": [
+    "Skanuj bezpośrednio aparatem lub wybierz zdjęcie z biblioteki. Sprawdzaj niepewne odczyty, poprawiaj numery rejestracyjne i dostosuj ustawienia automatycznego zapisywania oraz ponownego skanowania.",
+    "Zachowaj wycinek z tablicą rejestracyjną i całe zdjęcie wraz z czasem wykonania oraz lokalizacją, jeśli jest dostępna. Przeglądaj wcześniejsze zapisy tej samej tablicy.",
+    "Wyszukuj zapisane tablice, przeglądaj zapisy według daty lub na mapie i dodawaj je do ulubionych, aby szybko je znaleźć."
+  ],
+  "processingLabel": "Prywatność i przetwarzanie danych",
+  "processing": [
+    "Car Plate Scan zapisuje to, co zeskanujesz. Aplikacja nie ustala tożsamości właścicieli pojazdów i nie udostępnia numerów VIN, danych rejestracyjnych ani raportów o historii pojazdów.",
+    "Podstawowy odczyt tablic odbywa się na Twoim urządzeniu. Opcjonalna weryfikacja w chmurze korzysta z Apple Private Cloud Compute na obsługiwanych urządzeniach i wymaga połączenia z internetem. Dostępność zależy od systemu operacyjnego, urządzenia i ograniczeń usługi.",
+    "Odczyt może być błędny. Sprawdź wyniki, zanim się na nich oprzesz. Na dokładność wpływają formaty tablic i warunki wykonania zdjęcia. Nie używaj aplikacji podczas prowadzenia pojazdu i szanuj prywatność innych."
+  ],
+  "storeLabel": "Zobacz w App Store",
+  "skipLink": "Przejdź do treści",
+  "screenshotNote": "Na zrzutach ekranu aplikacja jest wyświetlana w języku angielskim.",
+  "screenshotAlts": [
+    "Telefon skanuje tablicę rejestracyjną samochodu",
+    "Przegląd skanowania aparatem i ze zdjęć, wcześniejszych zapisów, map i ulubionych",
+    "Skanowanie tablicy rejestracyjnej aparatem lub ze zdjęcia",
+    "Sprawdzanie i poprawianie odczytu tablicy przed zapisem",
+    "Wyszukiwanie w zapisanych skanach tablic",
+    "Przeglądanie zapisów na mapie i według daty",
+    "Wyszukiwanie ulubionych tablic"
+  ]
+}

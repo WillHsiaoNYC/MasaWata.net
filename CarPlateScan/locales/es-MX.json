@@ -1,0 +1,27 @@
+{
+  "subtitle": "Escanea placas y vuelve a ver tus capturas",
+  "promotionalText": "Lee placas con la cámara o desde tus fotos. Revisa el texto, guarda los detalles y vuelve a ver capturas anteriores con la búsqueda, el mapa y tus favoritos.",
+  "description": [
+    "Escanea en tiempo real con la cámara o elige una foto de tu galería. Revisa las lecturas dudosas, corrige el texto de la placa y ajusta el guardado automático y las opciones de captura repetida.",
+    "Guarda un recorte de la placa y la foto completa con la hora de la captura y, si está disponible, la ubicación. Consulta las distintas capturas de una misma placa.",
+    "Busca entre tus placas guardadas, consulta capturas por fecha o en el mapa y marca tus favoritas para encontrarlas rápido."
+  ],
+  "processingLabel": "Privacidad y procesamiento de datos",
+  "processing": [
+    "Car Plate Scan registra lo que capturas. No identifica a los propietarios de los vehículos ni proporciona el número de identificación vehicular (NIV o VIN), datos de registro o reportes del historial vehicular.",
+    "La lectura básica de placas se realiza en tu dispositivo. La revisión opcional en la nube usa Apple Private Cloud Compute en dispositivos compatibles y requiere una conexión a internet. La disponibilidad depende del sistema operativo, del dispositivo y de los límites del servicio.",
+    "El reconocimiento puede dar resultados incorrectos. Revísalos antes de usarlos. El formato de la placa y las condiciones de la imagen influyen en los resultados. No uses la app mientras manejas y respeta la privacidad de los demás."
+  ],
+  "storeLabel": "Ver en App Store",
+  "skipLink": "Ir al contenido",
+  "screenshotNote": "Las capturas de pantalla muestran la app en inglés.",
+  "screenshotAlts": [
+    "Un celular escanea la placa de un auto con Car Plate Scan",
+    "Escaneo con la cámara o fotos, historial de capturas, mapa y favoritos",
+    "Escaneo de una placa con la cámara o desde una foto",
+    "Revisión y corrección de una lectura antes de guardarla",
+    "Búsqueda de capturas de placas guardadas",
+    "Consulta de capturas en el mapa y por fecha",
+    "Acceso a las placas favoritas"
+  ]
+}

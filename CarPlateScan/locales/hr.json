@@ -1,0 +1,27 @@
+{
+  "subtitle": "Skeniraj registracijske pločice i ponovno pregledaj snimke",
+  "promotionalText": "Očitaj registracijske pločice kamerom ili s fotografija. Provjeri tekst, spremi pojedinosti i pronađi ranije snimke pomoću pretraživanja, karte i omiljenih stavki.",
+  "description": [
+    "Skeniraj uživo kamerom ili odaberi fotografiju iz galerije. Provjeri dvojbena očitanja, ispravi tekst na pločici i prilagodi postavke automatskog spremanja i ponovljenog snimanja.",
+    "Spremi izrez pločice i cijelu fotografiju, zajedno s vremenom snimanja i lokacijom ako je dostupna. Ponovno pregledaj snimke iste pločice.",
+    "Pretraži spremljene pločice, pregledaj snimke po datumu ili na karti i označi pločice kao omiljene da ih brzo pronađeš."
+  ],
+  "processingLabel": "Privatnost i obrada podataka",
+  "processing": [
+    "Car Plate Scan bilježi ono što snimiš. Aplikacija ne identificira vlasnike vozila niti pruža identifikacijske brojeve vozila (VIN), podatke o registraciji ili izvješća o povijesti vozila.",
+    "Osnovno očitavanje pločica odvija se na tvojem uređaju. Neobavezna provjera u oblaku koristi Apple Private Cloud Compute na podržanim uređajima i zahtijeva internetsku vezu. Dostupnost ovisi o operacijskom sustavu, uređaju i ograničenjima usluge.",
+    "Prepoznavanje može pogriješiti. Provjeri rezultate prije nego što se osloniš na njih. Format pločice i uvjeti u kojima je snimljena slika utječu na rezultate. Ne upotrebljavaj aplikaciju tijekom vožnje i poštuj privatnost drugih."
+  ],
+  "storeLabel": "Pogledaj na App Storeu",
+  "skipLink": "Prijeđi na sadržaj",
+  "screenshotNote": "Snimke zaslona prikazuju aplikaciju na engleskom jeziku.",
+  "screenshotAlts": [
+    "Telefon aplikacijom Car Plate Scan skenira registracijsku pločicu automobila",
+    "Pregled skeniranja kamerom ili s fotografija, povijesti snimki, karte i omiljenih stavki",
+    "Skeniranje registracijske pločice kamerom ili s fotografije",
+    "Provjera i ispravak očitanja prije spremanja",
+    "Pretraživanje spremljenih snimki pločica",
+    "Pregled snimki na karti i po datumu",
+    "Pristup omiljenim pločicama"
+  ]
+}

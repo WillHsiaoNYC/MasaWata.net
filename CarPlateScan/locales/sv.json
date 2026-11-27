@@ -1,0 +1,27 @@
+{
+  "subtitle": "Skanna registreringsskyltar och hitta tidigare observationer",
+  "promotionalText": "Läs av registreringsskyltar med kameran eller från bilder. Kontrollera texten, spara detaljerna och hitta tidigare observationer med sökfunktionen, kartan och dina favoriter.",
+  "description": [
+    "Skanna direkt med kameran eller välj en bild från bildbiblioteket. Kontrollera osäkra avläsningar, rätta registreringsnumret och anpassa inställningarna för automatisk sparning och upprepade skanningar.",
+    "Spara ett utsnitt av skylten och hela bilden tillsammans med tidpunkten och platsen, om den är tillgänglig. Gå tillbaka till tidigare observationer av samma skylt.",
+    "Sök bland sparade skyltar, bläddra bland observationer efter datum eller på en karta och markera favoriter så att du snabbt hittar dem."
+  ],
+  "processingLabel": "Integritet och databehandling",
+  "processing": [
+    "Car Plate Scan sparar det du registrerar. Appen identifierar inte fordonsägare och lämnar inte ut chassinummer (VIN), registreringsuppgifter eller rapporter om fordonshistorik.",
+    "Den grundläggande avläsningen sker på din enhet. Valfri granskning i molnet använder Apple Private Cloud Compute på enheter som stöds och kräver internetanslutning. Tillgängligheten beror på operativsystemet, enheten och tjänstens begränsningar.",
+    "Avläsningen kan bli fel. Kontrollera resultaten innan du förlitar dig på dem. Skyltarnas format och förhållandena när bilden togs påverkar resultaten. Använd inte appen medan du kör och respektera andras integritet."
+  ],
+  "storeLabel": "Visa i App Store",
+  "skipLink": "Hoppa till innehållet",
+  "screenshotNote": "Skärmavbilderna visar appen på engelska.",
+  "screenshotAlts": [
+    "En telefon skannar registreringsskylten på en bil",
+    "Översikt över skanning med kamera och från bilder, tidigare observationer, kartor och favoriter",
+    "Skanna en registreringsskylt med kameran eller från en bild",
+    "Kontrollera och redigera en avläst skylt innan du sparar",
+    "Sök bland sparade observationer av registreringsskyltar",
+    "Bläddra bland observationer på kartan och efter datum",
+    "Hitta dina favoritskyltar"
+  ]
+}

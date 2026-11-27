@@ -1,0 +1,27 @@
+{
+  "subtitle": "Digitalize matrículas e reveja as suas capturas",
+  "promotionalText": "Leia matrículas com a câmara ou a partir de fotografias. Reveja o texto, guarde os detalhes e encontre capturas anteriores com a pesquisa, o mapa e os favoritos.",
+  "description": [
+    "Digitalize em direto com a câmara ou escolha uma fotografia da galeria. Reveja as leituras duvidosas, corrija o texto da matrícula e ajuste as opções para guardar automaticamente e gerir capturas repetidas.",
+    "Guarde um recorte da matrícula e a fotografia completa, juntamente com a hora da captura e a localização, quando disponível. Volte a consultar as diferentes capturas da mesma matrícula.",
+    "Pesquise nas matrículas guardadas, consulte as capturas por data ou no mapa e marque-as como favoritas para as encontrar rapidamente."
+  ],
+  "processingLabel": "Privacidade e tratamento de dados",
+  "processing": [
+    "O Car Plate Scan regista o que captura. A aplicação não identifica os proprietários dos veículos, nem fornece números de identificação do veículo (VIN), dados de registo ou relatórios do histórico dos veículos.",
+    "A leitura básica de matrículas é feita no seu dispositivo. A revisão opcional na nuvem utiliza o Apple Private Cloud Compute em dispositivos compatíveis e requer uma ligação à Internet. A disponibilidade depende do sistema operativo, do dispositivo e dos limites do serviço.",
+    "O reconhecimento pode produzir erros. Reveja os resultados antes de os utilizar. O formato da matrícula e as condições da imagem afetam os resultados. Não utilize a aplicação enquanto conduz e respeite a privacidade das outras pessoas."
+  ],
+  "storeLabel": "Ver na App Store",
+  "skipLink": "Saltar para o conteúdo",
+  "screenshotNote": "As capturas de ecrã mostram a aplicação em inglês.",
+  "screenshotAlts": [
+    "Um telemóvel digitaliza a matrícula de um automóvel com o Car Plate Scan",
+    "Visão geral da digitalização com a câmara ou fotografias, do histórico, do mapa e dos favoritos",
+    "Digitalização de uma matrícula com a câmara ou a partir de uma fotografia",
+    "Revisão e correção da leitura de uma matrícula antes de a guardar",
+    "Pesquisa nas capturas de matrículas guardadas",
+    "Consulta das capturas no mapa e por data",
+    "Acesso às matrículas favoritas"
+  ]
+}

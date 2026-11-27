@@ -1,0 +1,27 @@
+{
+  "subtitle": "Kennzeichen scannen und Aufnahmen wiederfinden",
+  "promotionalText": "Lies Kennzeichen mit der Kamera oder aus Fotos. Prüfe den erkannten Text, speichere die Details und finde frühere Aufnahmen über die Suche, auf der Karte und in deinen Favoriten.",
+  "description": [
+    "Scanne direkt mit der Kamera oder wähle ein Foto aus deiner Mediathek. Prüfe unsichere Ergebnisse, korrigiere das erkannte Kennzeichen und passe die Einstellungen für automatisches Speichern und wiederholte Aufnahmen an.",
+    "Speichere den Kennzeichenausschnitt und das vollständige Foto zusammen mit der Aufnahmezeit und dem Ort, sofern er verfügbar ist. Schau dir frühere Aufnahmen desselben Kennzeichens an.",
+    "Durchsuche deine gespeicherten Kennzeichen, sieh dir deine Aufnahmen nach Datum oder auf der Karte an und markiere Favoriten, um sie schnell wiederzufinden."
+  ],
+  "processingLabel": "Datenschutz und Datenverarbeitung",
+  "processing": [
+    "Car Plate Scan speichert deine Aufnahmen. Die App ermittelt keine Fahrzeughalter und liefert weder Fahrzeug-Identifizierungsnummern (FIN/VIN) noch Zulassungsdaten oder Berichte zur Fahrzeughistorie.",
+    "Die eigentliche Kennzeichenerkennung läuft auf deinem Gerät. Die optionale Überprüfung in der Cloud nutzt auf unterstützten Geräten Apple Private Cloud Compute und benötigt eine Internetverbindung. Die Verfügbarkeit hängt vom Betriebssystem, vom Gerät und von den Beschränkungen des Dienstes ab.",
+    "Die Erkennung kann Fehler machen. Prüfe die Ergebnisse, bevor du dich darauf verlässt. Kennzeichenformate und Aufnahmebedingungen beeinflussen die Ergebnisse. Verwende die App nicht beim Fahren und respektiere die Privatsphäre anderer."
+  ],
+  "storeLabel": "Im App Store ansehen",
+  "skipLink": "Zum Inhalt springen",
+  "screenshotNote": "Die Screenshots zeigen die App auf Englisch.",
+  "screenshotAlts": [
+    "Ein Smartphone scannt das Kennzeichen eines Autos",
+    "Übersicht über das Scannen mit der Kamera oder aus Fotos, die Aufnahmehistorie, Karten und Favoriten",
+    "Kennzeichen mit der Kamera oder aus einem Foto scannen",
+    "Ein erkanntes Kennzeichen vor dem Speichern prüfen und bearbeiten",
+    "Gespeicherte Kennzeichenaufnahmen durchsuchen",
+    "Aufnahmen auf der Karte und nach Datum ansehen",
+    "Favorisierte Kennzeichen finden"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "subtitle": "Skeniraj registrske tablice in si znova oglej posnetke",
+  "promotionalText": "Preberi registrske tablice s kamero ali s fotografij. Preveri besedilo, shrani podrobnosti in poišči prejšnje posnetke z iskanjem, zemljevidom in priljubljenimi.",
+  "description": [
+    "Skeniraj v živo s kamero ali izberi fotografijo iz galerije. Preveri nezanesljive odčitke, popravi besedilo registrske tablice ter prilagodi nastavitve samodejnega shranjevanja in ponovnih zajemov.",
+    "Shrani izrez tablice in celotno fotografijo skupaj z uro zajema in lokacijo, če je na voljo. Znova si oglej posnetke iste tablice.",
+    "Išči med shranjenimi tablicami, pregleduj posnetke po datumu ali na zemljevidu in dodaj tablice med priljubljene, da jih hitro najdeš."
+  ],
+  "processingLabel": "Zasebnost in obdelava podatkov",
+  "processing": [
+    "Car Plate Scan beleži, kar zajameš. Aplikacija ne ugotavlja identitete lastnikov vozil in ne zagotavlja identifikacijskih številk vozil (VIN), podatkov o registraciji ali poročil o zgodovini vozil.",
+    "Osnovno branje tablic poteka na tvoji napravi. Izbirno preverjanje v oblaku uporablja Apple Private Cloud Compute na podprtih napravah in zahteva internetno povezavo. Razpoložljivost je odvisna od operacijskega sistema, naprave in omejitev storitve.",
+    "Prepoznavanje se lahko zmoti. Preveri rezultate, preden se zaneseš nanje. Oblika tablice in pogoji pri zajemu slike vplivajo na rezultate. Ne uporabljaj aplikacije med vožnjo in spoštuj zasebnost drugih."
+  ],
+  "storeLabel": "Prikaži v trgovini App Store",
+  "skipLink": "Preskoči na vsebino",
+  "screenshotNote": "Posnetki zaslona prikazujejo aplikacijo v angleščini.",
+  "screenshotAlts": [
+    "Telefon z aplikacijo Car Plate Scan skenira registrsko tablico avtomobila",
+    "Pregled skeniranja s kamero ali s fotografij, zgodovine zajemov, zemljevida in priljubljenih",
+    "Skeniranje registrske tablice s kamero ali s fotografije",
+    "Preverjanje in popravljanje odčitka tablice pred shranjevanjem",
+    "Iskanje med shranjenimi posnetki tablic",
+    "Pregledovanje posnetkov na zemljevidu in po datumu",
+    "Dostop do priljubljenih tablic"
+  ]
+}
