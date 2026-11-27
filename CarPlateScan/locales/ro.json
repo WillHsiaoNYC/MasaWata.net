@@ -23,5 +23,13 @@
     "Căutare în capturile salvate",
     "Consultarea capturilor pe hartă și după dată",
     "Acces la numerele de înmatriculare favorite"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Încearcă Pro gratuit timp de o săptămână",
+    "summary": "Doar pentru cei care nu s-au abonat niciodată. Perioada de probă se încheie după o săptămână, fără reînnoire automată sau costuri.",
+    "redeem": "Folosește codul {code}",
+    "termsLabel": "Condițiile ofertei",
+    "terms": "Folosește codul acolo unde aplicația Car Plate Scan este disponibilă în App Store, în limita codurilor disponibile. Ai nevoie de un cont Apple și trebuie să accepți condițiile Apple. Codurile nu au valoare în numerar și nu pot fi revândute. MasaWata Tech furnizează oferta și conținutul.",
+    "appleTerms": "Termenii și condițiile serviciilor multimedia Apple"
+  }
 }

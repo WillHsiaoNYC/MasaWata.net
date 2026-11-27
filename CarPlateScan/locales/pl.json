@@ -23,5 +23,13 @@
     "Wyszukiwanie w zapisanych skanach tablic",
     "Przeglądanie zapisów na mapie i według daty",
     "Wyszukiwanie ulubionych tablic"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Tydzień Pro za darmo",
+    "summary": "Tylko dla osób, które subskrybują po raz pierwszy. Okres próbny kończy się po tygodniu bez automatycznego odnowienia i bez opłat.",
+    "redeem": "Zrealizuj kod {code}",
+    "termsLabel": "Warunki oferty",
+    "terms": "Kod można zrealizować tam, gdzie Car Plate Scan jest dostępna w App Store, do wyczerpania puli kodów. Wymagane są konto Apple i akceptacja warunków Apple. Kody nie mają wartości pieniężnej i nie można ich odsprzedawać. Ofertę i treści zapewnia MasaWata Tech.",
+    "appleTerms": "Warunki korzystania z usług multimedialnych Apple"
+  }
 }

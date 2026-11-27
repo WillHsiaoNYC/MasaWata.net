@@ -23,5 +23,13 @@
     "Tallennettujen rekisterikilpihavaintojen haku",
     "Havaintojen selaaminen kartalla ja päivämäärän mukaan",
     "Suosikeiksi merkittyjen rekisterikilpien etsiminen"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Pro ilmaiseksi viikoksi",
+    "summary": "Vain ensimmäistä kertaa tilaaville. Kokeilu päättyy viikon kuluttua ilman automaattista uusimista tai veloitusta.",
+    "redeem": "Lunasta {code}",
+    "termsLabel": "Tarjousehdot",
+    "terms": "Voit lunastaa koodin siellä, missä Car Plate Scan on saatavilla App Storessa, niin kauan kuin koodeja riittää. Tarvitset Apple-tilin, ja sinun on hyväksyttävä Applen ehdot. Koodeilla ei ole rahallista arvoa, eikä niitä saa myydä edelleen. Tarjouksen ja sisällön tarjoaa MasaWata Tech.",
+    "appleTerms": "Applen mediapalveluiden käyttöehdot"
+  }
 }

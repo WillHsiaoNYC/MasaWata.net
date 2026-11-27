@@ -23,5 +23,13 @@
     "Cerca de captures desades",
     "Consulta de captures al mapa i per data",
     "Accés a les matrícules favorites"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Una setmana de Pro de franc",
+    "summary": "Només per a qui no s’ha subscrit mai. La prova finalitza al cap d’una setmana sense renovació automàtica ni cap càrrec.",
+    "redeem": "Bescanvia {code}",
+    "termsLabel": "Condicions de l’oferta",
+    "terms": "Pots bescanviar el codi allà on Car Plate Scan estigui disponible a l’App Store, fins que s’esgotin els codis. Cal tenir un compte d’Apple i acceptar les condicions d’Apple. Els codis no tenen valor en efectiu i no es poden revendre. MasaWata Tech ofereix la promoció i el contingut.",
+    "appleTerms": "Termes i condicions dels serveis multimèdia d’Apple"
+  }
 }

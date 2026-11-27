@@ -23,5 +23,13 @@
     "Recherche dans les captures de plaques enregistrées",
     "Consultation des captures sur la carte et par date",
     "Accès aux plaques favorites"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Une semaine gratuite de Pro",
+    "summary": "Offre réservée aux personnes qui ne se sont jamais abonnées. L’essai prend fin après une semaine, sans renouvellement automatique ni frais.",
+    "redeem": "Utiliser le code {code}",
+    "termsLabel": "Conditions de l’offre",
+    "terms": "Utilisez le code dans les pays et régions où Car Plate Scan est offert dans l’App Store, jusqu’à épuisement des codes. Vous devez avoir un compte Apple et accepter les conditions d’Apple. Les codes n’ont aucune valeur monétaire et ne peuvent pas être revendus. MasaWata Tech fournit l’offre et le contenu.",
+    "appleTerms": "Modalités des Services Apple Media"
+  }
 }

@@ -23,5 +23,13 @@
     "Søk i lagrede skiltregistreringer",
     "Bla gjennom registreringer på kartet og etter dato",
     "Finn bilskiltene du har merket som favoritter"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Én uke med Pro gratis",
+    "summary": "Kun for deg som abonnerer for første gang. Prøveperioden utløper etter én uke uten automatisk fornyelse eller betaling.",
+    "redeem": "Løs inn {code}",
+    "termsLabel": "Tilbudsvilkår",
+    "terms": "Løs inn koden der Car Plate Scan er tilgjengelig i App Store, så lenge det er koder igjen. Du må ha en Apple-konto og godta Apples vilkår. Kodene har ingen pengeverdi og kan ikke selges videre. MasaWata Tech står for tilbudet og innholdet.",
+    "appleTerms": "Vilkår og betingelser for Apple-medietjenester"
+  }
 }

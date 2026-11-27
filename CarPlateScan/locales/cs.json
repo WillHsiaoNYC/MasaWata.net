@@ -23,5 +23,13 @@
     "Vyhledávání v uložených záznamech značek",
     "Procházení záznamů na mapě a podle data",
     "Vyhledání oblíbených značek"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Pro na týden zdarma",
+    "summary": "Pouze pro ty, kdo si předplatné pořizují poprvé. Zkušební období po týdnu skončí bez automatického obnovení a bez poplatku.",
+    "redeem": "Uplatnit kód {code}",
+    "termsLabel": "Podmínky nabídky",
+    "terms": "Kód lze uplatnit všude, kde je Car Plate Scan k dispozici v App Storu, až do vyčerpání kódů. Potřebujete účet Apple a musíte přijmout podmínky společnosti Apple. Kódy nemají peněžní hodnotu a nesmějí se dále prodávat. Nabídku a obsah poskytuje MasaWata Tech.",
+    "appleTerms": "Podmínky mediálních služeb Apple"
+  }
 }

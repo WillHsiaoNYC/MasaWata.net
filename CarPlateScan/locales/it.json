@@ -23,5 +23,13 @@
     "Ricerca tra le acquisizioni di targhe salvate",
     "Consultazione delle acquisizioni sulla mappa e per data",
     "Accesso alle targhe preferite"
-  ]
+  ],
+  "firstWeek": {
+    "heading": "Una settimana di Pro gratis",
+    "summary": "Solo per chi non ha mai sottoscritto un abbonamento. La prova termina dopo una settimana, senza rinnovo automatico né addebiti.",
+    "redeem": "Riscatta {code}",
+    "termsLabel": "Condizioni dell’offerta",
+    "terms": "Riscatta il codice nei Paesi e nelle aree geografiche in cui Car Plate Scan è disponibile sull’App Store, fino a esaurimento dei codici. Sono necessari un Apple Account e l’accettazione delle condizioni di Apple. I codici non hanno valore in denaro e non possono essere rivenduti. MasaWata Tech fornisce l’offerta e i contenuti.",
+    "appleTerms": "Termini e condizioni dei Servizi multimediali Apple"
+  }
 }
