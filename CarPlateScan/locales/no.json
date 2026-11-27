@@ -1,0 +1,27 @@
+{
+  "subtitle": "Skann bilskilt og finn tilbake til tidligere registreringer",
+  "promotionalText": "Les bilskilt med kameraet eller fra bilder. Kontroller tegnene, lagre detaljene og finn tidligere registreringer ved hjelp av søk, kart og favoritter.",
+  "description": [
+    "Skann direkte med kameraet eller velg et bilde fra bildebiblioteket. Kontroller usikre avlesninger, rett teksten på skiltet og tilpass innstillingene for automatisk lagring og gjentatte opptak.",
+    "Lagre et utsnitt av skiltet og hele bildet sammen med opptakstidspunktet og eventuell posisjon. Se tidligere registreringer av det samme skiltet.",
+    "Søk blant lagrede bilskilt, bla gjennom registreringer etter dato eller på kartet, og merk favoritter så du finner dem raskt."
+  ],
+  "processingLabel": "Personvern og databehandling",
+  "processing": [
+    "Car Plate Scan lagrer det du registrerer. Appen identifiserer ikke kjøretøyeiere og gir deg verken understellsnumre (VIN), registreringsopplysninger eller rapporter om kjøretøyhistorikk.",
+    "Selve skiltavlesningen skjer på enheten din. Valgfri kontroll i skyen bruker Apple Private Cloud Compute på enheter som støtter det, og krever internettforbindelse. Tilgjengeligheten avhenger av operativsystemet, enheten og tjenestens begrensninger.",
+    "Avlesningen kan være feil. Kontroller resultatene før du stoler på dem. Skiltformatet og forholdene da bildet ble tatt, påvirker resultatene. Ikke bruk appen mens du kjører, og respekter andres personvern."
+  ],
+  "storeLabel": "Vis i App Store",
+  "skipLink": "Hopp til innholdet",
+  "screenshotNote": "Skjermbildene viser appen på engelsk.",
+  "screenshotAlts": [
+    "En telefon skanner et bilskilt",
+    "Oversikt over skanning med kameraet og fra bilder, registreringshistorikk, kart og favoritter",
+    "Skann et bilskilt med kameraet eller fra et bilde",
+    "Kontroller og rediger et avlest bilskilt før du lagrer",
+    "Søk i lagrede skiltregistreringer",
+    "Bla gjennom registreringer på kartet og etter dato",
+    "Finn bilskiltene du har merket som favoritter"
+  ]
+}

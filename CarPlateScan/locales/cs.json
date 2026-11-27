@@ -1,0 +1,27 @@
+{
+  "subtitle": "Skenujte registrační značky a vracejte se ke svým záznamům",
+  "promotionalText": "Čtěte registrační značky fotoaparátem nebo z fotek. Zkontrolujte text, uložte podrobnosti a najděte starší záznamy pomocí vyhledávání, mapy a oblíbených položek.",
+  "description": [
+    "Skenujte přímo fotoaparátem nebo vyberte fotku ze své knihovny. Zkontrolujte nejisté výsledky, opravte text značky a nastavte automatické ukládání i opakované snímání.",
+    "Uložte si výřez značky i celou fotku spolu s časem pořízení a případně i polohou. Vracejte se k opakovaným záznamům téže značky.",
+    "Vyhledávejte uložené značky, procházejte záznamy podle data nebo na mapě a označujte si oblíbené položky, abyste je rychle našli."
+  ],
+  "processingLabel": "Soukromí a zpracování",
+  "processing": [
+    "Car Plate Scan ukládá vaše záznamy. Nezjišťuje totožnost majitelů vozidel a neposkytuje VIN, údaje o registraci ani přehledy historie vozidel.",
+    "Samotné čtení značek probíhá ve vašem zařízení. Volitelná kontrola v cloudu využívá na podporovaných zařízeních službu Apple Private Cloud Compute a vyžaduje připojení k internetu. Dostupnost závisí na operačním systému, zařízení a omezeních služby.",
+    "Rozpoznávání může chybovat. Než se na výsledky spolehnete, zkontrolujte je. Na výsledek má vliv formát značky i podmínky při pořízení snímku. Nepoužívejte aplikaci při řízení a respektujte soukromí ostatních."
+  ],
+  "storeLabel": "Zobrazit v App Storu",
+  "skipLink": "Přejít k obsahu",
+  "screenshotNote": "Snímky obrazovky zobrazují aplikaci v angličtině.",
+  "screenshotAlts": [
+    "Telefon skenuje registrační značku auta",
+    "Přehled skenování fotoaparátem a z fotek, historie záznamů, mapy a oblíbených položek",
+    "Skenování registrační značky fotoaparátem nebo z fotky",
+    "Kontrola a úprava textu značky před uložením",
+    "Vyhledávání v uložených záznamech značek",
+    "Procházení záznamů na mapě a podle data",
+    "Vyhledání oblíbených značek"
+  ]
+}

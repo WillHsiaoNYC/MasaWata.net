@@ -1,0 +1,27 @@
+{
+  "subtitle": "Scan nummerplader, og find dine tidligere registreringer",
+  "promotionalText": "Aflæs nummerplader med kameraet eller fra billeder. Kontrollér teksten, gem detaljerne, og find tidligere registreringer med søgning, kort og favoritter.",
+  "description": [
+    "Scan direkte med kameraet, eller vælg et billede fra dit fotobibliotek. Kontrollér usikre aflæsninger, ret nummerpladens tekst, og juster indstillingerne for automatisk lagring og gentagne optagelser.",
+    "Gem et udsnit af nummerpladen og hele billedet sammen med optagelsestidspunktet og placeringen, hvis den er tilgængelig. Se tidligere registreringer af den samme nummerplade.",
+    "Søg efter dine gemte nummerplader, gennemse registreringer efter dato eller på et kort, og markér dine favoritter, så du hurtigt kan finde dem."
+  ],
+  "processingLabel": "Privatliv og databehandling",
+  "processing": [
+    "Car Plate Scan gemmer det, du registrerer. Appen identificerer ikke køretøjers ejere og oplyser ikke stelnumre (VIN), registreringsoplysninger eller rapporter om køretøjers historik.",
+    "Selve aflæsningen af nummerplader sker på din enhed. Valgfri kontrol i skyen bruger Apple Private Cloud Compute på understøttede enheder og kræver internetforbindelse. Tilgængeligheden afhænger af operativsystemet, enheden og tjenestens begrænsninger.",
+    "Aflæsningen kan være forkert. Kontrollér resultaterne, før du bruger dem. Nummerpladens format og forholdene ved optagelsen påvirker resultatet. Brug ikke appen, mens du kører, og respekter andres privatliv."
+  ],
+  "storeLabel": "Se i App Store",
+  "skipLink": "Gå til indhold",
+  "screenshotNote": "Skærmbillederne viser appen på engelsk.",
+  "screenshotAlts": [
+    "En telefon scanner nummerpladen på en bil",
+    "Oversigt over scanning med kamera eller fra billeder, registreringshistorik, kort og favoritter",
+    "Scanning af en nummerplade med kameraet eller fra et billede",
+    "Kontrol og redigering af en aflæsning inden lagring",
+    "Søgning blandt gemte nummerpladeregistreringer",
+    "Gennemgang af registreringer på kort og efter dato",
+    "Find dine favoritnummerplader"
+  ]
+}

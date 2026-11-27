@@ -1,0 +1,27 @@
+{
+  "subtitle": "Skannaa rekisterikilpiä ja palaa aiempiin havaintoihin",
+  "promotionalText": "Lue rekisteritunnuksia kameralla tai valokuvista. Tarkista tunnus, tallenna tiedot ja löydä aiemmat havainnot haun, kartan ja suosikkien avulla.",
+  "description": [
+    "Skannaa suoraan kameralla tai valitse kuva kuvakirjastostasi. Tarkista epävarmat tulokset, korjaa rekisteritunnus ja säädä automaattisen tallennuksen ja toistuvien kuvausten asetuksia.",
+    "Tallenna kilvestä rajattu kuva ja koko valokuva sekä kuvausaika ja mahdollinen sijainti. Palaa saman kilven aiempiin havaintoihin.",
+    "Etsi tallennettuja rekisterikilpiä, selaa havaintoja päivämäärän mukaan tai kartalla ja merkitse suosikkisi, jotta löydät ne nopeasti."
+  ],
+  "processingLabel": "Tietosuoja ja tietojen käsittely",
+  "processing": [
+    "Car Plate Scan tallentaa kuvaamasi havainnot. Se ei tunnista ajoneuvojen omistajia eikä anna valmistenumeroita (VIN), rekisteritietoja tai ajoneuvojen historiaraportteja.",
+    "Varsinainen rekisterikilpien tunnistus tapahtuu laitteellasi. Valinnainen tarkistus pilvessä käyttää tuetuilla laitteilla Applen Private Cloud Compute -palvelua ja edellyttää internetyhteyttä. Saatavuus riippuu käyttöjärjestelmästä, laitteesta ja palvelun rajoituksista.",
+    "Tunnistuksessa voi olla virheitä. Tarkista tulokset ennen kuin luotat niihin. Kilpien muodot ja kuvausolosuhteet vaikuttavat tuloksiin. Älä käytä sovellusta ajaessasi ja kunnioita muiden yksityisyyttä."
+  ],
+  "storeLabel": "Katso App Storessa",
+  "skipLink": "Siirry sisältöön",
+  "screenshotNote": "Näyttökuvissa sovellus on englanninkielinen.",
+  "screenshotAlts": [
+    "Puhelin skannaa auton rekisterikilpeä",
+    "Yleiskatsaus kameralla ja valokuvista skannaamiseen, havaintohistoriaan, karttoihin ja suosikkeihin",
+    "Rekisterikilven skannaus kameralla tai valokuvasta",
+    "Tunnistetun rekisteritunnuksen tarkistus ja muokkaus ennen tallennusta",
+    "Tallennettujen rekisterikilpihavaintojen haku",
+    "Havaintojen selaaminen kartalla ja päivämäärän mukaan",
+    "Suosikeiksi merkittyjen rekisterikilpien etsiminen"
+  ]
+}

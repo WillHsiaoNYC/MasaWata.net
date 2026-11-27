@@ -19,6 +19,7 @@ LOCALE_INFO = {
     "es-ES": ("es-ES", "Español (España)", False),
     "es-MX": ("es-MX", "Español (México)", False),
     "fi": ("fi", "Suomi", False),
+    "fr-CA": ("fr-CA", "Français (Canada)", False),
     "fr-FR": ("fr-FR", "Français", False),
     "he": ("he", "עברית", True),
     "hi": ("hi", "हिन्दी", False),
@@ -58,6 +59,7 @@ UI = {
     "es-ES": ("Acerca de la app", "Capturas de pantalla", "Descargar en App Store", "Política de privacidad", "Términos del servicio", "Soporte", "Idioma"),
     "es-MX": ("Acerca de la app", "Capturas de pantalla", "Descargar en App Store", "Política de privacidad", "Términos del servicio", "Soporte", "Idioma"),
     "fi": ("Tietoja apista", "Näyttökuvat", "Lataa App Storesta", "Tietosuojakäytäntö", "Käyttöehdot", "Tuki", "Kieli"),
+    "fr-CA": ("À propos de l’app", "Captures d’écran", "Télécharger dans l’App Store", "Politique de confidentialité", "Conditions d’utilisation", "Assistance", "Langue"),
     "fr-FR": ("À propos de l’app", "Captures d’écran", "Télécharger dans l’App Store", "Politique de confidentialité", "Conditions d’utilisation", "Assistance", "Langue"),
     "he": ("על האפליקציה", "צילומי מסך", "הורדה מה-App Store", "מדיניות פרטיות", "תנאי שירות", "תמיכה", "שפה"),
     "hi": ("ऐप के बारे में", "स्क्रीनशॉट", "App Store से डाउनलोड करें", "गोपनीयता नीति", "सेवा की शर्तें", "सहायता", "भाषा"),
@@ -88,14 +90,17 @@ UI = {
 
 @dataclass(frozen=True)
 class PageOptions:
-    """Opt-in presentation for a product that is not publicly downloadable yet."""
+    """Localized presentation for a page that links to its public store listing."""
 
     brand_name: str
-    planned_release: str
+    store_label: str
+    skip_label: str
+    privacy_label: str
+    processing_notice: str
+    screenshot_locale: str
+    screenshot_alts: tuple[str, ...]
+    screenshot_note: str = ""
     operating_system: str = "iOS"
-    privacy_label: str = "Privacy & processing"
-    processing_notice: str = ""
-    screenshot_alts: tuple[str, ...] = ()
 
 
 def load_metadata(site_dir: Path) -> dict:
@@ -189,7 +194,7 @@ def render_asc_page(
     from PIL import Image
 
     item = metadata["locales"][locale]
-    html_lang, native_name, rtl = LOCALE_INFO[locale]
+    html_lang, _, rtl = LOCALE_INFO[locale]
     about, shots_label, download, privacy, terms, support, language = UI[locale]
     canonical_map = canonical_locales or {}
     resolved_canonical_locale = canonical_locale or canonical_map.get(locale, locale)
@@ -201,29 +206,33 @@ def render_asc_page(
     description = item.get("description") or promo
     processing_markup = ""
     if page_options and page_options.processing_notice:
-        notice = page_options.processing_notice
-        if not description.endswith(notice):
-            raise RuntimeError("Processing notice must be an exact suffix of the ASC description")
-        description = description[:-len(notice)].rstrip()
         processing_markup = (
             '\n    <section class="asc-content asc-processing" id="privacy-processing">\n'
             f'      <h2>{html.escape(page_options.privacy_label)}</h2>\n'
-            f'      <div class="asc-prose">{_description_html(notice)}</div>\n'
+            f'      <div class="asc-prose">{_description_html(page_options.processing_notice)}</div>\n'
             '    </section>'
         )
-    shots = screenshot_files(site_dir, locale)
-    shot_urls = [f"{base_url}/images/asc/{locale}/{p.name}" for p in shots]
+    screenshot_locale = page_options.screenshot_locale if page_options else locale
+    shots = screenshot_files(site_dir, screenshot_locale)
+    shot_urls = [f"{base_url}/images/asc/{screenshot_locale}/{p.name}" for p in shots]
     app_prefix = "" if locale == "en-US" else "../"
     global_prefix = "../" if locale == "en-US" else "../../"
-    relative_shots = [f"{app_prefix}images/asc/{locale}/{p.name}" for p in shots]
+    relative_shots = [f"{app_prefix}images/asc/{screenshot_locale}/{p.name}" for p in shots]
     alternates = "\n".join(
         f'  <link rel="alternate" hreflang="{LOCALE_INFO[code][0]}" href="{locale_url(base_url, canonical_map.get(code, code))}">'
         for code in metadata["locales"]
     )
-    language_links = "\n".join(
-        f'<a href="{(("./" if code == "en-US" else f"{code}/") if locale == "en-US" else ("../" if code == "en-US" else f"../{code}/"))}" lang="{LOCALE_INFO[code][0]}">{html.escape(LOCALE_INFO[code][1])}</a>'
-        for code in metadata["locales"]
-    )
+    language_names = {code: LOCALE_INFO[code][1] for code in metadata["locales"]}
+    if "fr-CA" in language_names and "fr-FR" in language_names:
+        language_names["fr-FR"] = "Français (France)"
+    native_name = language_names[locale]
+    language_links = []
+    for code, name in language_names.items():
+        href = (app_prefix or "./") if code == "en-US" else f"{app_prefix}{code}/"
+        attrs = ' dir="auto"' if page_options else ""
+        if page_options and code == locale:
+            attrs += ' aria-current="page"'
+        language_links.append(f'<a href="{href}" lang="{LOCALE_INFO[code][0]}"{attrs}>{html.escape(name)}</a>')
     if page_options and len(page_options.screenshot_alts) != len(shots):
         raise RuntimeError("Every screenshot requires a descriptive alt text")
     rendered_shots = []
@@ -250,11 +259,9 @@ def render_asc_page(
             "applicationCategory": "UtilitiesApplication",
             "operatingSystem": page_options.operating_system if page_options else "iOS, iPadOS, watchOS",
             "url": canonical,
-            "downloadUrl": app_url,
+            ("sameAs" if page_options else "downloadUrl"): app_url,
             "image": shot_urls,
         }
-    if page_options:
-        del schema_data["downloadUrl"]
     schema = json.dumps(
         schema_data,
         ensure_ascii=False,
@@ -266,33 +273,37 @@ def render_asc_page(
     stylesheet_markup = f"\n{stylesheet_links}" if stylesheet_links else ""
     pre_hero_markup = f"{pre_hero_html.rstrip()}\n" if pre_hero_html else ""
     direction = "rtl" if rtl else "ltr"
+    language_menu_label = f' aria-label="{html.escape(language, quote=True)}"' if page_options else ""
+    language_menu = "\n".join(language_links)
     navigation = f'''    <details class="asc-languages">
       <summary>{html.escape(language)}: {html.escape(native_name)}</summary>
-      <nav>{language_links}</nav>
+      <nav{language_menu_label}>{language_menu}</nav>
     </details>'''
-    release_markup = ""
     skip_markup = ""
     footer_studio = '''
     <a class="studio-brand" href="/"><img src="/assets/brand/masawata-tech-mark.svg" alt="" width="32" height="32"><span>MasaWata Tech</span></a>'''
     gallery_attributes = ""
-    cta_url, cta_label = app_url, download
+    screenshot_note = ""
+    cta_label = download
     brand_name = title
+    brand_href = "./" if locale == "en-US" or page_options else "../"
     if page_options:
-        if set(metadata["locales"]) != {"en-US"}:
-            raise RuntimeError("Pre-release presentation currently supports English-only sites")
         brand_name = page_options.brand_name
         privacy = page_options.privacy_label
-        navigation = '''    <nav class="product-nav" aria-label="Main navigation">
-      <a href="/">MasaWata</a><a href="#about">About</a><a href="#screenshots">Screenshots</a>
-    </nav>'''
-        cta_url, cta_label = "#screenshots", "Explore screenshots"
-        release_markup = f'        <p class="release-status">Planned release: {html.escape(page_options.planned_release)}</p>\n'
-        skip_markup = '\n  <a class="skip-link" href="#main">Skip to content</a>'
-        gallery_attributes = f' tabindex="0" role="region" aria-label="{html.escape(brand_name, quote=True)} screenshots — scroll to explore"'
+        navigation = f'''    <nav class="product-nav">
+      <a href="/">MasaWata</a><a href="#about">{html.escape(about)}</a><a href="#screenshots">{html.escape(shots_label)}</a>
+    </nav>
+{navigation}'''
+        cta_label = page_options.store_label
+        skip_markup = f'\n  <a class="skip-link" href="#main">{html.escape(page_options.skip_label)}</a>'
+        gallery_attributes = f' tabindex="0" role="region" aria-label="{html.escape(shots_label, quote=True)}"'
+        if page_options.screenshot_note:
+            screenshot_note = f'      <p class="asc-screenshot-note" id="screenshot-note">{html.escape(page_options.screenshot_note)}</p>\n'
+            gallery_attributes += ' aria-describedby="screenshot-note"'
     social_image = shot_urls[0] if shot_urls else f"{base_url}/{icon_path}"
     social_alt = (page_options.screenshot_alts[0] if shots else brand_name) if page_options else title
-    itunes_meta = "" if page_options else f'  <meta name="apple-itunes-app" content="app-id={app_store_id}">\n'
-    store_meta = f'''{itunes_meta}  <link rel="icon" href="{app_prefix}{icon_path}">
+    store_meta = f'''  <meta name="apple-itunes-app" content="app-id={app_store_id}">
+  <link rel="icon" href="{app_prefix}{icon_path}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{canonical}">
   <meta property="og:title" content="{html.escape(title, quote=True)}">
@@ -330,7 +341,7 @@ def render_asc_page(
 </head>
 <body>{skip_markup}
   <header class="asc-header">
-    <a class="asc-brand" href="{('./' if locale == 'en-US' else '../')}"><img src="{app_prefix}{icon_path}" alt="" width="44" height="44"><span>{html.escape(brand_name)}</span></a>
+    <a class="asc-brand" href="{brand_href}"><img src="{app_prefix}{icon_path}" alt="" width="44" height="44"><span>{html.escape(brand_name)}</span></a>
 {navigation}
   </header>
   <main{' id="main" tabindex="-1"' if page_options else ''}>
@@ -339,7 +350,7 @@ def render_asc_page(
         <p class="asc-eyebrow">{html.escape(title)}</p>
         <h1>{html.escape(subtitle)}</h1>
         <p>{html.escape(promo)}</p>
-{release_markup}        <a class="asc-button" href="{cta_url}" rel="noopener">{html.escape(cta_label)}</a>
+        <a class="asc-button" href="{app_url}" rel="noopener">{html.escape(cta_label)}</a>
       </div>
       {hero_image}
     </section>
@@ -349,12 +360,12 @@ def render_asc_page(
     </section>
     <section class="asc-screens" id="screenshots">
       <h2>{html.escape(shots_label)}</h2>
-      <div class="asc-gallery"{gallery_attributes}>{gallery}</div>
+{screenshot_note}      <div class="asc-gallery"{gallery_attributes}>{gallery}</div>
     </section>{processing_markup}
     <section class="asc-download">
       <h2>{html.escape(title)}</h2>
       <p>{html.escape(promo)}</p>
-{release_markup}      <a class="asc-button" href="{cta_url}" rel="noopener">{html.escape(cta_label)}</a>
+      <a class="asc-button" href="{app_url}" rel="noopener">{html.escape(cta_label)}</a>
     </section>
   </main>
   <footer>
@@ -396,9 +407,10 @@ def build_site(
     color_scheme: str = "light",
     locale_stylesheets: dict[str, tuple[str, ...]] | None = None,
     locale_pre_hero_html: dict[str, str] | None = None,
-    page_options: PageOptions | None = None,
+    locale_page_options: dict[str, PageOptions] | None = None,
+    metadata: dict | None = None,
 ) -> int:
-    metadata = load_metadata(site_dir)
+    metadata = load_metadata(site_dir) if metadata is None else metadata
     locales = metadata.get("locales", {})
     if "en-US" not in locales:
         raise RuntimeError(f"{site_dir.name}: live ASC snapshot has no en-US locale")
@@ -406,6 +418,7 @@ def build_site(
         ("canonical_locales", canonical_locales),
         ("locale_stylesheets", locale_stylesheets),
         ("locale_pre_hero_html", locale_pre_hero_html),
+        ("locale_page_options", locale_page_options),
     ):
         unknown_locales = set(values or {}) - set(locales)
         if unknown_locales:
@@ -442,7 +455,7 @@ def build_site(
                 color_scheme=color_scheme,
                 extra_stylesheets=tuple((locale_stylesheets or {}).get(locale, ())),
                 pre_hero_html=(locale_pre_hero_html or {}).get(locale, ""),
-                page_options=page_options,
+                page_options=(locale_page_options or {}).get(locale),
             ),
             encoding="utf-8",
         )
@@ -484,5 +497,5 @@ def build_site(
         lines.append("  </url>")
     lines.append("</urlset>")
     (site_dir / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"\nBuilt {len(locales)} ASC-aligned pages + sitemap.xml")
+    print(f"\nBuilt {len(locales)} product pages + sitemap.xml")
     return len(locales)

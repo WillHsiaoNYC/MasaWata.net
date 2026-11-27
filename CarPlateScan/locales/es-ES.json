@@ -1,0 +1,27 @@
+{
+  "subtitle": "Escanea matrículas y vuelve a tus capturas",
+  "promotionalText": "Lee matrículas con la cámara o a partir de fotos. Revisa el texto, guarda los detalles y recupera capturas anteriores con el buscador, el mapa y los favoritos.",
+  "description": [
+    "Escanea en directo con la cámara o elige una foto de la fototeca. Revisa las lecturas dudosas, corrige el texto de la matrícula y configura el guardado automático y las capturas repetidas.",
+    "Conserva un recorte de la matrícula y la foto completa con la hora de la captura y la ubicación, si está disponible. Vuelve a consultar las capturas de una misma matrícula.",
+    "Busca entre las matrículas guardadas, consulta las capturas por fecha o en el mapa y márcalas como favoritas para encontrarlas enseguida."
+  ],
+  "processingLabel": "Privacidad y tratamiento de datos",
+  "processing": [
+    "Car Plate Scan registra lo que capturas. No identifica a los propietarios de los vehículos ni facilita el número de bastidor (VIN), datos de matriculación o informes sobre el historial del vehículo.",
+    "La lectura básica de matrículas se realiza en tu dispositivo. La revisión opcional en la nube usa Apple Private Cloud Compute en dispositivos compatibles y requiere conexión a internet. La disponibilidad depende del sistema operativo, del dispositivo y de los límites del servicio.",
+    "El reconocimiento puede fallar. Revisa los resultados antes de utilizarlos. El formato de la matrícula y las condiciones de la imagen influyen en los resultados. No utilices la app mientras conduces y respeta la privacidad de los demás."
+  ],
+  "storeLabel": "Ver en el App Store",
+  "skipLink": "Ir al contenido",
+  "screenshotNote": "Las capturas de pantalla muestran la app en inglés.",
+  "screenshotAlts": [
+    "Un móvil escanea la matrícula de un coche con Car Plate Scan",
+    "Escaneo con la cámara o fotos, historial de capturas, mapa y favoritos",
+    "Escaneo de una matrícula con la cámara o a partir de una foto",
+    "Revisión y corrección de una lectura antes de guardarla",
+    "Búsqueda de capturas de matrículas guardadas",
+    "Consulta de capturas en el mapa y por fecha",
+    "Acceso a las matrículas favoritas"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "subtitle": "Skenujte evidenčné čísla a vracajte sa k svojim záznamom",
+  "promotionalText": "Načítavajte evidenčné čísla fotoaparátom alebo z fotiek. Skontrolujte odčítaný text, uložte podrobnosti a pomocou vyhľadávania, mapy a obľúbených položiek nájdite staršie záznamy.",
+  "description": [
+    "Skenujte priamo fotoaparátom alebo vyberte fotku z knižnice. Skontrolujte neisté výsledky, opravte rozpoznané evidenčné číslo a upravte nastavenia automatického ukladania a opakovaného snímania.",
+    "Uložte výrez tabuľky aj celú fotku spolu s časom nasnímania a prípadne aj polohou. Pozrite si predchádzajúce záznamy toho istého evidenčného čísla.",
+    "Vyhľadávajte uložené evidenčné čísla, prezerajte si záznamy podľa dátumu alebo na mape a označte si obľúbené položky, aby ste ich rýchlo našli."
+  ],
+  "processingLabel": "Súkromie a spracúvanie údajov",
+  "processing": [
+    "Car Plate Scan ukladá vaše záznamy. Nezisťuje totožnosť vlastníkov vozidiel a neposkytuje čísla VIN, registračné údaje ani prehľady histórie vozidiel.",
+    "Samotné čítanie evidenčných čísel prebieha vo vašom zariadení. Voliteľná kontrola v cloude využíva na podporovaných zariadeniach službu Apple Private Cloud Compute a vyžaduje pripojenie na internet. Dostupnosť závisí od operačného systému, zariadenia a obmedzení služby.",
+    "Rozpoznávanie sa môže mýliť. Skontrolujte výsledky, skôr než sa na ne spoľahnete. Na výsledky vplýva formát evidenčného čísla aj podmienky pri snímaní. Nepoužívajte aplikáciu počas šoférovania a rešpektujte súkromie ostatných."
+  ],
+  "storeLabel": "Zobraziť v App Store",
+  "skipLink": "Prejsť na obsah",
+  "screenshotNote": "Snímky obrazovky zobrazujú aplikáciu v angličtine.",
+  "screenshotAlts": [
+    "Telefón skenuje tabuľku s evidenčným číslom auta",
+    "Prehľad skenovania fotoaparátom a z fotiek, histórie záznamov, máp a obľúbených položiek",
+    "Skenovanie evidenčného čísla fotoaparátom alebo z fotky",
+    "Kontrola a úprava rozpoznaného evidenčného čísla pred uložením",
+    "Vyhľadávanie v uložených záznamoch evidenčných čísel",
+    "Prezeranie záznamov na mape a podľa dátumu",
+    "Vyhľadanie obľúbených evidenčných čísel"
+  ]
+}

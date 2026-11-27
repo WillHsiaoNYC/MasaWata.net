@@ -1,0 +1,27 @@
+{
+  "subtitle": "Plakaları tarayın, eski kayıtlarınıza dönün",
+  "promotionalText": "Kameradan veya fotoğraflardan araç plakalarını okuyun. Plaka metnini kontrol edin, ayrıntıları kaydedin ve arama, harita ve favorilerle önceki kayıtlarınızı bulun.",
+  "description": [
+    "Kamerayla anında tarayın veya arşivinizden bir fotoğraf seçin. Emin olmadığınız okumaları gözden geçirin, plaka metnini düzeltin ve otomatik kaydetme ile tekrar çekim ayarlarını düzenleyin.",
+    "Plakayı gösteren kırpılmış görüntüyü ve fotoğrafın tamamını, çekim saatiyle ve varsa konum bilgisiyle saklayın. Aynı plakanın farklı çekimlerini yeniden inceleyin.",
+    "Kaydettiğiniz plakaları arayın, çekimlere tarihe göre veya harita üzerinden göz atın ve hızlıca bulmak için plakaları favorilerinize ekleyin."
+  ],
+  "processingLabel": "Gizlilik ve veri işleme",
+  "processing": [
+    "Car Plate Scan, yakaladığınız görüntülerden kayıt oluşturur. Araç sahiplerini tespit etmez ve araç kimlik numarası (VIN), tescil bilgisi veya araç geçmişi raporu sağlamaz.",
+    "Temel plaka okuma işlemi cihazınızda çalışır. İsteğe bağlı bulut incelemesi, desteklenen cihazlarda Apple Private Cloud Compute kullanır ve internet bağlantısı gerektirir. Kullanılabilirlik işletim sistemine, cihaza ve hizmet sınırlarına bağlıdır.",
+    "Tanıma sonuçları hatalı olabilir. Sonuçlara güvenmeden önce bunları kontrol edin. Plaka biçimleri ve çekim koşulları sonuçları etkiler. Araç kullanırken uygulamayı kullanmayın ve başkalarının gizliliğine saygı gösterin."
+  ],
+  "storeLabel": "App Store’da görüntüle",
+  "skipLink": "İçeriğe geç",
+  "screenshotNote": "Ekran görüntülerinde uygulama İngilizce olarak gösterilmektedir.",
+  "screenshotAlts": [
+    "Bir telefon, Car Plate Scan ile bir aracın plakasını tarıyor",
+    "Kameradan ve fotoğraftan tarama, çekim geçmişi, haritalar ve favorilere genel bakış",
+    "Kamerayla veya fotoğraftan araç plakası tarama",
+    "Kaydetmeden önce plaka okumasını inceleme ve düzenleme",
+    "Kaydedilmiş plaka çekimlerini arama",
+    "Çekimlere haritada veya tarihe göre göz atma",
+    "Favori plakaları bulma"
+  ]
+}

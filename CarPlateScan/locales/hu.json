@@ -1,0 +1,27 @@
+{
+  "subtitle": "Olvasd be a rendszámokat, és keresd vissza a korábbi felvételeket",
+  "promotionalText": "Olvass le rendszámokat a kamerával vagy fotókról. Ellenőrizd a felismert szöveget, mentsd el a részleteket, és keresd vissza a felvételeket a kereső, a térkép és a kedvencek segítségével.",
+  "description": [
+    "Használd a kamerát, vagy válassz egy fotót a fotókönyvtáradból. Ellenőrizd a bizonytalan eredményeket, javítsd a rendszám szövegét, és állítsd be az automatikus mentést és az ismételt rögzítést.",
+    "Mentsd el a rendszámtábláról készült kivágást és a teljes fotót a felvétel idejével, valamint az elérhető helyadatokkal együtt. Nézd vissza az ugyanarról a rendszámról készült felvételeket.",
+    "Keress a mentett rendszámok között, böngészd a felvételeket dátum szerint vagy térképen, és jelöld meg a kedvenceidet, hogy gyorsan megtaláld őket."
+  ],
+  "processingLabel": "Adatvédelem és adatfeldolgozás",
+  "processing": [
+    "A Car Plate Scan az általad készített felvételeket rögzíti. Nem azonosítja a járművek tulajdonosait, és nem szolgáltat alvázszámot (VIN), nyilvántartási adatokat vagy a jármű előéletéről szóló jelentést.",
+    "A rendszámok alapvető felismerése az eszközödön történik. A választható felhőalapú ellenőrzés a támogatott eszközökön az Apple Private Cloud Compute szolgáltatását használja, és internetkapcsolatot igényel. Az elérhetőség az operációs rendszertől, az eszköztől és a szolgáltatás korlátozásaitól függ.",
+    "A felismerés tévedhet. Ellenőrizd az eredményeket, mielőtt azok alapján jársz el. A rendszámok formátuma és a felvételi körülmények befolyásolják az eredményt. Vezetés közben ne használd az alkalmazást, és tartsd tiszteletben mások magánéletét."
+  ],
+  "storeLabel": "Megtekintés az App Store-ban",
+  "skipLink": "Ugrás a tartalomra",
+  "screenshotNote": "A képernyőképeken az alkalmazás angolul látható.",
+  "screenshotAlts": [
+    "Egy telefon beolvassa egy autó rendszámát",
+    "Kamerás és fotós beolvasás, korábbi felvételek, térképek és kedvencek",
+    "Rendszám beolvasása kamerával vagy fotóról",
+    "Felismert rendszám ellenőrzése és javítása mentés előtt",
+    "Keresés a mentett rendszámfelvételek között",
+    "Felvételek böngészése térképen és dátum szerint",
+    "Kedvenc rendszámok megkeresése"
+  ]
+}

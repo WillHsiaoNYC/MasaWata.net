@@ -1,0 +1,27 @@
+{
+  "subtitle": "Scanează numere de înmatriculare și regăsește capturile",
+  "promotionalText": "Citește numerele de înmatriculare cu camera sau din fotografii. Verifică textul, salvează detaliile și regăsește capturile anterioare cu ajutorul căutării, al hărții și al listei de favorite.",
+  "description": [
+    "Scanează în timp real cu camera sau alege o fotografie din galerie. Verifică citirile incerte, corectează numărul de înmatriculare și ajustează setările pentru salvare automată și capturi repetate.",
+    "Păstrează o imagine decupată a plăcuței și fotografia completă, împreună cu ora capturii și, dacă este disponibilă, locația. Revezi capturile repetate ale aceluiași număr de înmatriculare.",
+    "Caută printre numerele salvate, consultă capturile după dată sau pe hartă și adaugă-le la favorite pentru a le găsi rapid."
+  ],
+  "processingLabel": "Confidențialitate și prelucrarea datelor",
+  "processing": [
+    "Car Plate Scan înregistrează ceea ce capturezi. Aplicația nu identifică proprietarii vehiculelor și nu furnizează numere de identificare ale vehiculelor (VIN), date de înmatriculare sau rapoarte privind istoricul vehiculelor.",
+    "Citirea de bază a numerelor de înmatriculare se face pe dispozitivul tău. Verificarea opțională în cloud folosește Apple Private Cloud Compute pe dispozitivele compatibile și necesită o conexiune la internet. Disponibilitatea depinde de sistemul de operare, de dispozitiv și de limitele serviciului.",
+    "Recunoașterea poate da rezultate greșite. Verifică rezultatele înainte să te bazezi pe ele. Formatul plăcuței și condițiile în care a fost obținută imaginea pot afecta rezultatele. Nu folosi aplicația la volan și respectă confidențialitatea celorlalți."
+  ],
+  "storeLabel": "Vezi în App Store",
+  "skipLink": "Mergi la conținut",
+  "screenshotNote": "Capturile de ecran prezintă aplicația în limba engleză.",
+  "screenshotAlts": [
+    "Un telefon scanează plăcuța de înmatriculare a unei mașini cu Car Plate Scan",
+    "Prezentare a scanării cu camera sau din fotografii, a istoricului, a hărții și a favoritelor",
+    "Scanarea unui număr de înmatriculare cu camera sau dintr-o fotografie",
+    "Verificarea și corectarea numărului citit înainte de salvare",
+    "Căutare în capturile salvate",
+    "Consultarea capturilor pe hartă și după dată",
+    "Acces la numerele de înmatriculare favorite"
+  ]
+}

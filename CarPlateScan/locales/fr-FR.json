@@ -1,0 +1,27 @@
+{
+  "subtitle": "Scannez des plaques et retrouvez vos captures",
+  "promotionalText": "Lisez des plaques d’immatriculation avec l’appareil photo ou à partir de vos photos. Vérifiez le texte, enregistrez les détails et retrouvez vos anciennes captures grâce à la recherche, à la carte et aux favoris.",
+  "description": [
+    "Scannez une plaque en direct avec l’appareil photo ou choisissez une photo de votre photothèque. Vérifiez les lectures incertaines, corrigez le texte de la plaque et réglez l’enregistrement automatique et les options de captures répétées.",
+    "Conservez un recadrage de la plaque et la photo entière, avec l’heure de la capture et le lieu, s’il est disponible. Retrouvez les différentes captures d’une même plaque.",
+    "Recherchez vos plaques enregistrées, parcourez les captures par date ou sur la carte et ajoutez vos favoris pour les retrouver rapidement."
+  ],
+  "processingLabel": "Confidentialité et traitement des données",
+  "processing": [
+    "Car Plate Scan enregistre ce que vous capturez. L’app n’identifie pas les propriétaires des véhicules et ne fournit ni numéro d’identification du véhicule (VIN), ni données d’immatriculation, ni rapport d’historique du véhicule.",
+    "La lecture de base des plaques s’effectue sur votre appareil. La vérification facultative dans le cloud utilise Apple Private Cloud Compute sur les appareils compatibles et nécessite une connexion à Internet. Sa disponibilité dépend du système d’exploitation, de l’appareil et des limites du service.",
+    "La reconnaissance peut produire des erreurs. Vérifiez les résultats avant de vous y fier. Le format des plaques et les conditions de prise de vue influent sur les résultats. N’utilisez pas l’app en conduisant et respectez la vie privée des autres."
+  ],
+  "storeLabel": "Voir dans l’App Store",
+  "skipLink": "Aller au contenu",
+  "screenshotNote": "Les captures d’écran présentent l’app en anglais.",
+  "screenshotAlts": [
+    "Un téléphone scanne la plaque d’immatriculation d’une voiture avec Car Plate Scan",
+    "Aperçu du scan avec l’appareil photo ou à partir de photos, de l’historique, de la carte et des favoris",
+    "Scan d’une plaque d’immatriculation avec l’appareil photo ou à partir d’une photo",
+    "Vérification et correction d’une lecture avant l’enregistrement",
+    "Recherche dans les captures de plaques enregistrées",
+    "Consultation des captures sur la carte et par date",
+    "Accès aux plaques favorites"
+  ]
+}

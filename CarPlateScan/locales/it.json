@@ -1,0 +1,27 @@
+{
+  "subtitle": "Scansiona le targhe e ritrova i tuoi rilevamenti",
+  "promotionalText": "Leggi le targhe con la fotocamera o dalle tue foto. Controlla il testo, salva i dettagli e ritrova i rilevamenti precedenti con la ricerca, la mappa e i preferiti.",
+  "description": [
+    "Scansiona in tempo reale con la fotocamera o scegli una foto dalla libreria. Verifica le letture incerte, correggi il testo della targa e regola le impostazioni per il salvataggio automatico e le acquisizioni ripetute.",
+    "Conserva un ritaglio della targa e la foto intera, insieme all’ora dell’acquisizione e alla posizione, se disponibile. Rivedi i rilevamenti della stessa targa.",
+    "Cerca tra le targhe salvate, consulta le acquisizioni per data o sulla mappa e aggiungi le targhe ai preferiti per trovarle subito."
+  ],
+  "processingLabel": "Privacy e trattamento dei dati",
+  "processing": [
+    "Car Plate Scan registra ciò che acquisisci. Non identifica i proprietari dei veicoli e non fornisce numeri di telaio (VIN), dati di immatricolazione o report sulla storia dei veicoli.",
+    "La lettura di base delle targhe avviene sul tuo dispositivo. La verifica facoltativa nel cloud usa Apple Private Cloud Compute sui dispositivi compatibili e richiede una connessione a Internet. La disponibilità dipende dal sistema operativo, dal dispositivo e dai limiti del servizio.",
+    "Il riconoscimento può produrre errori. Controlla i risultati prima di usarli. Il formato della targa e le condizioni dell’immagine possono influire sui risultati. Non usare l’app mentre guidi e rispetta la privacy degli altri."
+  ],
+  "storeLabel": "Visualizza sull’App Store",
+  "skipLink": "Vai al contenuto",
+  "screenshotNote": "Gli screenshot mostrano l’app in inglese.",
+  "screenshotAlts": [
+    "Un telefono scansiona la targa di un’auto con Car Plate Scan",
+    "Panoramica della scansione con la fotocamera o da foto, della cronologia, della mappa e dei preferiti",
+    "Scansione di una targa con la fotocamera o da una foto",
+    "Verifica e correzione della lettura di una targa prima del salvataggio",
+    "Ricerca tra le acquisizioni di targhe salvate",
+    "Consultazione delle acquisizioni sulla mappa e per data",
+    "Accesso alle targhe preferite"
+  ]
+}

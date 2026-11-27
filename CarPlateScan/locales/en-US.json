@@ -1,0 +1,27 @@
+{
+  "subtitle": "Scan plates and revisit your sightings",
+  "promotionalText": "Read license plates from your camera or photos. Review the text, save the details, and find past sightings with search, maps, and favorites.",
+  "description": [
+    "Scan with the live camera or choose a photo from your library. Review uncertain readings, correct the plate text, and adjust automatic saving and repeat-capture settings.",
+    "Keep a crop of the plate and the full photo, along with the capture time and any available location. Revisit repeated sightings of the same plate.",
+    "Search your saved plates, browse captures by date or on a map, and mark favorites to find them quickly."
+  ],
+  "processingLabel": "Privacy & processing",
+  "processing": [
+    "Car Plate Scan records what you capture. It does not identify vehicle owners or provide VIN, registration, or vehicle-history reports.",
+    "Core plate reading runs on your device. Optional cloud review uses Apple Private Cloud Compute on supported devices and requires an internet connection. Availability depends on the operating system, device, and service limits.",
+    "Recognition may be incorrect. Review results before relying on them. Plate formats and image conditions affect results. Do not use the app while driving, and respect others’ privacy."
+  ],
+  "storeLabel": "View on the App Store",
+  "skipLink": "Skip to content",
+  "screenshotNote": "Screenshots show the app in English.",
+  "screenshotAlts": [
+    "Car Plate Scan on a phone scanning a car’s license plate",
+    "Overview of camera and photo scanning, capture history, maps, and favorites",
+    "Scan a license plate with the camera or from a photo",
+    "Review and edit a plate reading before saving",
+    "Search saved plate captures",
+    "Browse captures by map and date",
+    "Find favorite plates"
+  ]
+}
