@@ -27,7 +27,7 @@ TAIWAN_DEMO = """
       <div class="taiwan-demo-copy">
         <p class="taiwan-demo-region">台灣車牌</p>
         <h2 id="taiwan-demo-title">掃描車牌，<span>即時查詢失竊通報</span></h2>
-        <p>開啟「掃描時查詢車輛失竊狀態」後，App 會在自動儲存符合條件的車牌時，向內政部警政署查詢失竊通報。</p>
+        <p>開啟「掃描時查詢車輛失竊狀態」後，App 會在自動儲存符合條件的車牌時，查詢失竊通報紀錄。</p>
         <p class="taiwan-demo-requirements">需使用 1.3 版或更新版本，並連上網路。</p>
       </div>
       <figure>
